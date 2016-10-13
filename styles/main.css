@@ -21,7 +21,7 @@ a:hover {
 
 
 /*** Nav ***/
-.navTitle {
+.navHeader {
   font-family: 'Roboto Condensed', sans-serif;
   color: #d69a29;
   letter-spacing: 2px;
@@ -47,7 +47,7 @@ a:hover {
   height: 230px;
 }
 
-.gradient {
+.headerGradient {
   background: rgba(40, 23, 110, 0.6);
   background: -webkit-linear-gradient(rgba(40, 23, 110, 0.6), rgba(243, 240, 251, 1));
   background: -o-linear-gradient(rgba(40, 23, 110, 0.6), rgba(243, 240, 251, 1));
@@ -59,7 +59,7 @@ a:hover {
   padding: 20px;
 }
 
-.pageTitle {
+.headerTitle {
   font-family: 'Roboto Condensed', sans-serif;
   color: #29176F;
   text-shadow: 5px 5px 20px #F3F0FB, 1px 1px #F3F0FB;
@@ -68,7 +68,7 @@ a:hover {
   padding-top: 20px;
 }
 
-.highlightedInfoTop {
+.headerInfoTop {
   font-family: 'Roboto Condensed', sans-serif;
   color: #29176F;
   text-shadow: 5px 5px 20px #F3F0FB, 0.3px 0.3px #F3F0FB;
@@ -80,7 +80,7 @@ a:hover {
   padding-top: 20px;
 }
 
-.highlightedInfoBottom {
+.headerInfoBottom {
   font-family: 'Roboto Condensed', sans-serif;
   color: #29176F;
   text-shadow: 5px 5px 20px #F3F0FB, 0.3px 0.3px #F3F0FB;
@@ -92,23 +92,23 @@ a:hover {
 
 /*fixes iphone header text problem*/
 @media (max-width: 700px) {
-  .pageTitle {
+  .headerTitle {
     font-size: 2.8em;
     padding-top: 0px;
   }
 
-  .highlightedInfoTop {
+  .headerInfoTop {
     font-size: 1.2em;
     padding-top: 0px;
   }
 
-  .highlightedInfoBottom {
+  .headerInfoBottom {
     font-size: 1.2em;
   }
 }
 
 
-/*** Main content ***/
+/*** Main Content: general styling ***/
 .indPageTitle {
   color: #46885E;
   font-family: 'Roboto Condensed', sans-serif;
@@ -116,7 +116,7 @@ a:hover {
   font-size: 1.8em;
 }
 
-.subtitle {
+.pageSubtitle {
   color: #d69a29;
   font-family: 'Roboto Condensed', sans-serif;
   letter-spacing: 2px;
@@ -124,21 +124,7 @@ a:hover {
   font-weight: bold;
 }
 
-.blurb {
-  margin-bottom: 20px;
-}
-
-.dates {
-  margin-bottom: 20px;
-}
-
-.sponsorLogo {
-  max-width: 150px;
-}
-
-.firstLogo {
-  margin-left: 20px;
-  margin-right: 30px;
+.sectionSpacing {
   margin-bottom: 20px;
 }
 
@@ -156,7 +142,30 @@ a:hover {
 }
 
 
+/*** Home page ***/
+.sponsorLogo {
+  max-width: 150px;
+}
+
+.firstLogo {
+  margin-left: 20px;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+
+
 /*** Call for papers page ***/
 .listItems {
   background-color: #F3F0FB;
+  text-align: left;
+  border: none;
+}
+
+.tableItemTitle {
+  color: #46885E;
+  font-size: 1.1em;
+}
+
+.listText {
+  text-align: left;
 }
