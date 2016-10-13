@@ -7,6 +7,14 @@ body {
   background-color: #F3F0FB;
 }
 
+/*fixes mobile nav scroll issue*/
+@media (max-height: 600px) {
+  .navmenu {
+    max-height: 500px;
+    overflow-y: scroll;
+  }
+}
+
 .navbar {
   display: block;
   text-align: center;

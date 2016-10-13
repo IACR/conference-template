@@ -33,7 +33,11 @@ a:hover {
   max-height: 7.5em;
 }
 
-.navbar-toggle, .icon-bar {
+.navbar-default .navbar-toggle {
+  border-color: #29176F;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
   background-color: #29176F;
 }
 
