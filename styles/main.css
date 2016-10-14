@@ -147,6 +147,10 @@ a:hover {
 
 
 /*** Home page ***/
+.topHomeSection {
+  margin-top: 15px;
+}
+
 .sponsorLogo {
   max-width: 150px;
 }
@@ -172,4 +176,12 @@ a:hover {
 
 .listText {
   text-align: left;
+}
+
+
+/*** Accepted papers page ***/
+.paperTitle {
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #0F0439;
 }
