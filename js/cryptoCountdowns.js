@@ -1,13 +1,99 @@
-// $("#submissionDeadline").countdown("2017/02/09 23:00:00 UTC", function(event) {
-//   $(this).text(
-//     event.strftime('%D days %H:%M:%S')
-//   );
-// });
+//countdown for submission deadline
+$('#submission').countdown('2017/02/09 23:00:00')
+.on('update.countdown', function(event) {
+  var format = '%H hrs %M min %S sec ';
+  if(event.offset.totalDays > 0) {
+    format = '%-d day%!d ' + format;
+  }
+  if(event.offset.weeks > 0) {
+    format = '%-w week%!w ' + format;
+  }
+  $(this).html(event.strftime(format));
+})
+.on('finish.countdown', function(event) {
+  $(this).html('No time remains ');
+});
 
-$('[data-countdown]').each(function() {
-  var $this = $(this), finalDate = $(this).data('countdown');
-  $this.countdown(finalDate, function(event) {
-    $this.html(event.strftime('%D days %H:%M:%S'));
-  });
-  // if only date is given (no time), do not display hours/minutes/seconds
+
+//countdown for notification of decision
+$('#notDecis').countdown('2017/05/06')
+.on('update.countdown', function(event) {
+  var format = ' ';
+  if(event.offset.totalDays > 0) {
+    format = '%-d day%!d ' + format;
+  }
+  if(event.offset.weeks > 0) {
+    format = '%-w week%!w ' + format;
+  }
+  $(this).html(event.strftime(format));
+})
+.on('finish.countdown', function(event) {
+  $(this).html('No time remains ');
+});
+
+//countdown for proceedings version
+$('#procVer').countdown('2017/06/03')
+.on('update.countdown', function(event) {
+  var format = ' ';
+  if(event.offset.totalDays > 0) {
+    format = '%-d day%!d ' + format;
+  }
+  if(event.offset.weeks > 0) {
+    format = '%-w week%!w ' + format;
+  }
+  $(this).html(event.strftime(format));
+})
+.on('finish.countdown', function(event) {
+  $(this).html('No time remains ');
+});
+
+
+//countdown for early registration
+$('#earlyReg').countdown('2017/07/31')
+.on('update.countdown', function(event) {
+  var format = ' ';
+  if(event.offset.totalDays > 0) {
+    format = '%-d day%!d ' + format;
+  }
+  if(event.offset.weeks > 0) {
+    format = '%-w week%!w ' + format;
+  }
+  $(this).html(event.strftime(format));
+})
+.on('finish.countdown', function(event) {
+  $(this).html('No time remains ');
+});
+
+
+//countdown for registration date
+$('#reg').countdown('2017/08/10 07:01:00')
+.on('update.countdown', function(event) {
+  var format = '%H hr %M min %S sec';
+  if(event.offset.totalDays > 0) {
+    format = '%-d day%!d ' + format;
+  }
+  if(event.offset.weeks > 0) {
+    format = '%-w week%!w ' + format;
+  }
+  $(this).html(event.strftime(format));
+})
+.on('finish.countdown', function(event) {
+  $(this).html('No time remains ');
+});
+
+
+// countdown for conference date
+$('#conf').countdown('2017/08/14')
+.on('update.countdown', function(event) {
+  var format = ' ';
+  if(event.offset.totalDays > 0) {
+    format = '%-d day%!d ' + format;
+  }
+  if(event.offset.weeks > 0) {
+    format = '%-w week%!w ' + format;
+  }
+  $(this).html(event.strftime(format));
+})
+.on('finish.countdown', function(event) {
+  $(this).html('No time remains ');
 });

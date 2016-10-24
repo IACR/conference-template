@@ -137,6 +137,11 @@ a:hover {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 1.1em;
   font-weight: bold;
+  text-align: left;
+}
+
+.dateText {
+  text-align: left;
 }
 
 .footer {
