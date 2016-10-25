@@ -168,6 +168,7 @@ a:hover {
 
 
 /*** Call for papers page ***/
+/* (note that the items in this group are also used on the accommodations page)  */
 .listItems {
   background-color: #F3F0FB;
   text-align: left;
@@ -189,4 +190,14 @@ a:hover {
   font-size: 1.1em;
   font-weight: bold;
   color: #0F0439;
+}
+
+
+/*** Accommodations page ***/
+.bottomBtn {
+  margin-bottom: 50px;
+}
+
+.hotelBtn {
+  margin-bottom: 20px;
 }
