@@ -137,6 +137,11 @@ a:hover {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 1.1em;
   font-weight: bold;
+  text-align: left;
+}
+
+.dateText {
+  text-align: left;
 }
 
 .footer {
@@ -148,7 +153,7 @@ a:hover {
 
 /*** Home page ***/
 .topHomeSection {
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 .sponsorLogo {
@@ -163,6 +168,7 @@ a:hover {
 
 
 /*** Call for papers page ***/
+/* (note that the items in this group are also used on the accommodations page)  */
 .listItems {
   background-color: #F3F0FB;
   text-align: left;
@@ -184,4 +190,20 @@ a:hover {
   font-size: 1.1em;
   font-weight: bold;
   color: #0F0439;
+}
+
+
+/*** Accommodations page ***/
+.bottomBtn {
+  margin-bottom: 50px;
+}
+
+.hotelBtn {
+  margin-bottom: 20px;
+}
+
+
+/*** Registration page ***/
+.tabTitle {
+  font-size: 1.1em;
 }
