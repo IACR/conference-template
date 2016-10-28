@@ -204,6 +204,30 @@ a:hover {
 
 
 /*** Registration page ***/
-.testClass {
+#regTable {
+  border: 1px solid rgba(70, 136, 94, 0.2);
+  border-radius: 15px;
+}
+
+#regTopRow {
+  border-bottom: 1px solid rgba(70, 136, 94, 0.2);
+}
+
+#regBodyRow {
+  padding-top: 10px;
+}
+
+p.regTitle {
+  font-size: 1.1em;
+  font-weight: bold;
+  padding-top: 8px;
+  text-align: center;
+}
+
+p.regBodyText {
   text-align: left;
+}
+
+p.priceText {
+  text-align: center;
 }
