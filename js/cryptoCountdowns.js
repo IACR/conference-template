@@ -1,13 +1,14 @@
 //countdown for submission deadline
 $('#submission').countdown('2017/02/09 23:00:00')
 .on('update.countdown', function(event) {
-  var format = '%H:%M:%S ';
-  if(event.offset.totalDays > 0) {
-    format = '%-d day%!d ' + format;
-  }
-  if(event.offset.weeks > 0) {
-    format = '%-w week%!w ' + format;
-  }
+  var format = '%D days %H:%M:%S ';
+  // console.log(event.offset);
+  // if(event.offset.totalDays > 0) {
+  //   format = '%-d day%!d ' + format;
+  // }
+  // if(event.offset.weeks > 0) {
+  //   format = '%-w week%!w ' + format;
+  // }
   $(this).html(event.strftime(format));
 })
 .on('finish.countdown', function(event) {
@@ -18,13 +19,13 @@ $('#submission').countdown('2017/02/09 23:00:00')
 //countdown for notification of decision
 $('#notDecis').countdown('2017/05/06')
 .on('update.countdown', function(event) {
-  var format = ' ';
-  if(event.offset.totalDays > 0) {
-    format = '%-d day%!d ' + format;
-  }
-  if(event.offset.weeks > 0) {
-    format = '%-w week%!w ' + format;
-  }
+  var format = '%D days ';
+  // if(event.offset.totalDays > 0) {
+  //   format = '%-d day%!d ' + format;
+  // }
+  // if(event.offset.weeks > 0) {
+  //   format = '%-w week%!w ' + format;
+  // }
   $(this).html(event.strftime(format));
 })
 .on('finish.countdown', function(event) {
@@ -34,13 +35,13 @@ $('#notDecis').countdown('2017/05/06')
 //countdown for proceedings version
 $('#procVer').countdown('2017/06/03')
 .on('update.countdown', function(event) {
-  var format = ' ';
-  if(event.offset.totalDays > 0) {
-    format = '%-d day%!d ' + format;
-  }
-  if(event.offset.weeks > 0) {
-    format = '%-w week%!w ' + format;
-  }
+  var format = ' %D days ';
+  // if(event.offset.totalDays > 0) {
+  //   format = '%-d day%!d ' + format;
+  // }
+  // if(event.offset.weeks > 0) {
+  //   format = '%-w week%!w ' + format;
+  // }
   $(this).html(event.strftime(format));
 })
 .on('finish.countdown', function(event) {
@@ -51,13 +52,13 @@ $('#procVer').countdown('2017/06/03')
 //countdown for early registration
 $('#earlyReg').countdown('2017/07/31')
 .on('update.countdown', function(event) {
-  var format = ' ';
-  if(event.offset.totalDays > 0) {
-    format = '%-d day%!d ' + format;
-  }
-  if(event.offset.weeks > 0) {
-    format = '%-w week%!w ' + format;
-  }
+  var format = '%D days ';
+  // if(event.offset.totalDays > 0) {
+  //   format = '%-d day%!d ' + format;
+  // }
+  // if(event.offset.weeks > 0) {
+  //   format = '%-w week%!w ' + format;
+  // }
   $(this).html(event.strftime(format));
 })
 .on('finish.countdown', function(event) {
@@ -68,13 +69,13 @@ $('#earlyReg').countdown('2017/07/31')
 //countdown for registration date
 $('#reg').countdown('2017/08/10 07:01:00')
 .on('update.countdown', function(event) {
-  var format = '%H:%M:%S ';
-  if(event.offset.totalDays > 0) {
-    format = '%-d day%!d ' + format;
-  }
-  if(event.offset.weeks > 0) {
-    format = '%-w week%!w ' + format;
-  }
+  var format = '%D days %H:%M:%S ';
+  // if(event.offset.totalDays > 0) {
+  //   format = '%-d day%!d ' + format;
+  // }
+  // if(event.offset.weeks > 0) {
+  //   format = '%-w week%!w ' + format;
+  // }
   $(this).html(event.strftime(format));
 })
 .on('finish.countdown', function(event) {
@@ -85,13 +86,13 @@ $('#reg').countdown('2017/08/10 07:01:00')
 // countdown for conference date
 $('#conf').countdown('2017/08/14')
 .on('update.countdown', function(event) {
-  var format = ' ';
-  if(event.offset.totalDays > 0) {
-    format = '%-d day%!d ' + format;
-  }
-  if(event.offset.weeks > 0) {
-    format = '%-w week%!w ' + format;
-  }
+  var format = '%D days ';
+  // if(event.offset.totalDays > 0) {
+  //   format = '%-d day%!d ' + format;
+  // }
+  // if(event.offset.weeks > 0) {
+  //   format = '%-w week%!w ' + format;
+  // }
   $(this).html(event.strftime(format));
 })
 .on('finish.countdown', function(event) {
