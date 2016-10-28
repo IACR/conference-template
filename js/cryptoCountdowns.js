@@ -1,7 +1,7 @@
 //countdown for submission deadline
 $('#submission').countdown('2017/02/09 23:00:00')
 .on('update.countdown', function(event) {
-  var format = '%H hrs %M min %S sec ';
+  var format = '%H:%M:%S ';
   if(event.offset.totalDays > 0) {
     format = '%-d day%!d ' + format;
   }
@@ -68,7 +68,7 @@ $('#earlyReg').countdown('2017/07/31')
 //countdown for registration date
 $('#reg').countdown('2017/08/10 07:01:00')
 .on('update.countdown', function(event) {
-  var format = '%H hr %M min %S sec';
+  var format = '%H:%M:%S ';
   if(event.offset.totalDays > 0) {
     format = '%-d day%!d ' + format;
   }
