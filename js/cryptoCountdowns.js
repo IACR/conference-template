@@ -1,8 +1,7 @@
 //countdown for submission deadline
-$('#submission').countdown('2017/02/09 23:00:00')
+$('#submission').countdown('2017/02/09 22:00')
 .on('update.countdown', function(event) {
-  var format = '%D days %H:%M:%S ';
-  // console.log(event.offset);
+  var format = '%D days %H:%M left ';
   // if(event.offset.totalDays > 0) {
   //   format = '%-d day%!d ' + format;
   // }
@@ -12,12 +11,12 @@ $('#submission').countdown('2017/02/09 23:00:00')
   $(this).html(event.strftime(format));
 })
 .on('finish.countdown', function(event) {
-  $(this).html('No time remains ');
+  $(this).html('This deadline has passed ');
 });
 
 
 //countdown for notification of decision
-$('#notDecis').countdown('2017/05/06')
+$('#notDecis').countdown('2017/05/08')
 .on('update.countdown', function(event) {
   var format = '%D days ';
   // if(event.offset.totalDays > 0) {
@@ -33,7 +32,7 @@ $('#notDecis').countdown('2017/05/06')
 });
 
 //countdown for proceedings version
-$('#procVer').countdown('2017/06/03')
+$('#procVer').countdown('2017/06/05')
 .on('update.countdown', function(event) {
   var format = ' %D days ';
   // if(event.offset.totalDays > 0) {
