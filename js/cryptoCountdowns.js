@@ -1,5 +1,5 @@
 //countdown for submission deadline
-$('#submission').countdown('2017/02/09 22:00')
+$('#submission').countdown('2017/02/09 02:00')
 .on('update.countdown', function(event) {
   var format = '%D days %H:%M left ';
   // if(event.offset.totalDays > 0) {
