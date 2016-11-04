@@ -18,7 +18,7 @@ $('#submission').countdown('2017/02/09 22:00')
 //countdown for notification of decision
 $('#notDecis').countdown('2017/05/08')
 .on('update.countdown', function(event) {
-  var format = '%D days ';
+  var format = '%D days left ';
   // if(event.offset.totalDays > 0) {
   //   format = '%-d day%!d ' + format;
   // }
@@ -28,13 +28,14 @@ $('#notDecis').countdown('2017/05/08')
   $(this).html(event.strftime(format));
 })
 .on('finish.countdown', function(event) {
-  $(this).html('No time remains ');
+  $(this).html('This deadline has passed ');
 });
+
 
 //countdown for proceedings version
 $('#procVer').countdown('2017/06/05')
 .on('update.countdown', function(event) {
-  var format = ' %D days ';
+  var format = ' %D days left ';
   // if(event.offset.totalDays > 0) {
   //   format = '%-d day%!d ' + format;
   // }
@@ -44,14 +45,14 @@ $('#procVer').countdown('2017/06/05')
   $(this).html(event.strftime(format));
 })
 .on('finish.countdown', function(event) {
-  $(this).html('No time remains ');
+  $(this).html('This deadline has passed ');
 });
 
 
 //countdown for early registration
 $('#earlyReg').countdown('2017/07/31')
 .on('update.countdown', function(event) {
-  var format = '%D days ';
+  var format = '%D days left ';
   // if(event.offset.totalDays > 0) {
   //   format = '%-d day%!d ' + format;
   // }
@@ -61,14 +62,14 @@ $('#earlyReg').countdown('2017/07/31')
   $(this).html(event.strftime(format));
 })
 .on('finish.countdown', function(event) {
-  $(this).html('No time remains ');
+  $(this).html('This deadline has passed ');
 });
 
 
 //countdown for registration date
 $('#reg').countdown('2017/08/10 07:01:00')
 .on('update.countdown', function(event) {
-  var format = '%D days %H:%M:%S ';
+  var format = '%D days %H:%M left ';
   // if(event.offset.totalDays > 0) {
   //   format = '%-d day%!d ' + format;
   // }
@@ -78,14 +79,14 @@ $('#reg').countdown('2017/08/10 07:01:00')
   $(this).html(event.strftime(format));
 })
 .on('finish.countdown', function(event) {
-  $(this).html('No time remains ');
+  $(this).html('This deadline has passed ');
 });
 
 
 // countdown for conference date
 $('#conf').countdown('2017/08/14')
 .on('update.countdown', function(event) {
-  var format = '%D days ';
+  var format = '%D days left ';
   // if(event.offset.totalDays > 0) {
   //   format = '%-d day%!d ' + format;
   // }
@@ -95,5 +96,5 @@ $('#conf').countdown('2017/08/14')
   $(this).html(event.strftime(format));
 })
 .on('finish.countdown', function(event) {
-  $(this).html('No time remains ');
+  $(this).html('This deadline has passed ');
 });
