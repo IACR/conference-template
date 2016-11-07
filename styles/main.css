@@ -1,7 +1,7 @@
-/*** General ***/
+/*** General styling ***/
 body {
-  background-color: #F3F0FB;
-  color: #0F0439;
+  background-color: #F7F0FB;
+  color: #2B0058;
   font-family: 'Roboto', sans-serif;
   font-size: 1.5em;
 }
@@ -11,11 +11,13 @@ p {
 }
 
 a {
-  color: #46885E;
+  color: #0f773c;
 }
 
 a:hover {
-  color: #d69a29;
+  color: #DF9A00;
+  /*accessibility compliant but then not enough contrast to show you're hovering: #7e5200;*/
+  /*older color, too light for accessibility: #d69a29;*/
   text-decoration: none;
 }
 
@@ -23,7 +25,9 @@ a:hover {
 /*** Nav ***/
 .navHeader {
   font-family: 'Roboto Condensed', sans-serif;
-  color: #d69a29;
+  color: #833b00;
+  /*#A44A00;*/
+  /*non-ADA compliant: #d69a29;*/
   letter-spacing: 2px;
   margin-left: 5px;
   font-weight: bold;
@@ -48,7 +52,7 @@ a:hover {
   background-image: url("../images/ucsb.jpg");
   background-position: center center;
   width: 100%;
-  height: 230px;
+  height: 240px;
 }
 
 .headerGradient {
@@ -66,7 +70,7 @@ a:hover {
 .headerTitle {
   font-family: 'Roboto Condensed', sans-serif;
   color: #29176F;
-  text-shadow: 5px 5px 20px #F3F0FB, 1px 1px #F3F0FB;
+  text-shadow: 5px 5px 20px #F5F1FB, 1px 1px #F5F1FB;
   letter-spacing: 3px;
   font-size: 3.5em;
   padding-top: 20px;
@@ -75,19 +79,19 @@ a:hover {
 .headerInfoTop {
   font-family: 'Roboto Condensed', sans-serif;
   color: #29176F;
-  text-shadow: 5px 5px 20px #F3F0FB, 0.3px 0.3px #F3F0FB;
+  text-shadow: 5px 5px 20px #F5F1FB, 0.3px 0.3px #F5F1FB;
   letter-spacing: 2px;
   font-size: 1.7em;
   text-align: right;
   font-weight: bold;
-  margin-top: 20px;
+  margin-top: 10px;
   padding-top: 20px;
 }
 
 .headerInfoBottom {
   font-family: 'Roboto Condensed', sans-serif;
   color: #29176F;
-  text-shadow: 5px 5px 20px #F3F0FB, 0.3px 0.3px #F3F0FB;
+  text-shadow: 5px 5px 20px #F5F1FB, 0.3px 0.3px #F5F1FB;
   letter-spacing: 2px;
   font-size: 1.7em;
   text-align: right;
@@ -151,11 +155,7 @@ a:hover {
 }
 
 
-/*** Home page ***/
-.topHomeSection {
-  margin-top: 10px;
-}
-
+/*** Index page ***/
 .sponsorLogo {
   max-width: 150px;
 }
@@ -167,10 +167,9 @@ a:hover {
 }
 
 
-/*** Call for papers page ***/
-/* (note that the items in this group are also used on the accommodations page)  */
+/*** Call for papers/accommodations page ***/
 .listItems {
-  background-color: #F3F0FB;
+  background-color: #F5F1FB;
   text-align: left;
   border: none;
 }
