@@ -183,6 +183,12 @@ a:hover {
   text-align: left;
 }
 
+.testing {
+  background-color: #D9F3D8;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 
 /*** Accepted papers page ***/
 .paperTitle {
