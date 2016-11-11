@@ -1,10 +1,9 @@
-/*** General styling ***/
+/***** General styling *****/
 body {
   background-color: #FEFDFB;
-  /*purple-based: #F5F3F7;*/
-  /*green based: #F7FFFB; */
-  /*old orange based: #F8F6F1; */
-  color: #2B0058;
+  /*purple-based (don't forget to change header gradient to match): #F5F3F7;*/
+  /*green based (don't forget to change header gradient to match): #F7FFFB; */
+  color: #1F2161;
   font-family: 'Roboto', sans-serif;
   font-size: 1.5em;
 }
@@ -14,7 +13,7 @@ p {
 }
 
 a {
-  color: #0f773c;
+  color: #0F773C;
 }
 
 a:hover {
@@ -23,13 +22,10 @@ a:hover {
 }
 
 
-/*** Nav ***/
+/***** Nav *****/
 .navHeader {
   font-family: 'Roboto Condensed', sans-serif;
   color: #CB831E;
-  /*#833B00;*/
-  /*#A44A00;*/
-  /*non-ADA compliant: #d69a29;*/
   letter-spacing: 2px;
   margin-left: 5px;
   font-weight: bold;
@@ -41,7 +37,6 @@ a:hover {
 
 .navbar-default .navbar-toggle {
   border-color: #2B0058;
-  /*#29176F;*/
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -55,7 +50,7 @@ a:hover {
 }
 
 
-/*** Header ***/
+/***** Header *****/
 .headerImg {
   background-size: cover;
   background-image: url("../images/ucsb.jpg");
@@ -75,14 +70,13 @@ a:hover {
   margin-bottom: 50px;
   padding: 20px;
 }
-/* purple base: 43, 0, 88, 0.6 and 245, 243, 247, 1 */
-/* green base: 15, 119, 60, 0.7 and 247, 255, 251, 1 */
-/* old orange base: 223, 154, 0, 0.6 and  248, 246, 241, 1 */
+/* purple base (don't forget to change background color to match): 43, 0, 88, 0.6 and 245, 243, 247, 1 */
+/* green base (don't forget to change background color to match): 15, 119, 60, 0.7 and 247, 255, 251, 1 */
 
 .headerTitle {
   font-family: 'Roboto Condensed', sans-serif;
-  color: #490096;
-  text-shadow: 5px 5px 20px #FEFDFB, 1px 1px #FEFDFB;
+  color: #2E3192;
+  text-shadow: 5px 5px 20px #FEFDFB, 0.3px 0.3px #1F2161;
   letter-spacing: 3px;
   font-size: 3.5em;
   padding-top: 20px;
@@ -90,8 +84,8 @@ a:hover {
 
 .headerInfoTop {
   font-family: 'Roboto Condensed', sans-serif;
-  color: #490096;
-  text-shadow: 5px 5px 20px #FEFDFB, 0.3px 0.3px #FEFDFB;
+  color: #2E3192;
+  text-shadow: 5px 5px 20px #FEFDFB, 0.3px 0.3px #1F2161;
   letter-spacing: 2px;
   font-size: 1.7em;
   text-align: right;
@@ -102,15 +96,15 @@ a:hover {
 
 .headerInfoBottom {
   font-family: 'Roboto Condensed', sans-serif;
-  color: #490096;
-  text-shadow: 5px 5px 20px #FEFDFB, 0.3px 0.3px #FEFDFB;
+  color: #2E3192;
+  text-shadow: 5px 5px 20px #FEFDFB, 0.3px 0.3px #1F2161;
   letter-spacing: 2px;
   font-size: 1.7em;
   text-align: right;
   font-weight: bold;
 }
 
-/*fixes iphone header text problem*/
+/* NOTE: fixes iphone header text problem */
 @media (max-width: 700px) {
   .headerTitle {
     font-size: 2.8em;
@@ -128,9 +122,9 @@ a:hover {
 }
 
 
-/*** Main Content: general styling ***/
+/***** Main Content: general styling *****/
 .indPageTitle {
-  color: #46885E;
+  color: #0F773C;
   font-family: 'Roboto Condensed', sans-serif;
   letter-spacing: 2px;
   font-size: 1.8em;
@@ -167,7 +161,7 @@ a:hover {
 }
 
 
-/*** Index page ***/
+/***** Page-specific: index *****/
 .sponsorLogo {
   max-width: 150px;
 }
@@ -179,7 +173,7 @@ a:hover {
 }
 
 
-/*** Call for papers/accommodations page ***/
+/***** Page-specific: call for papers, accommodations *****/
 .listItems {
   background-color: #FEFDFB;
   text-align: left;
@@ -196,7 +190,7 @@ a:hover {
 }
 
 
-/*** Accepted papers page ***/
+/***** Page-specific: accepted papers *****/
 .paperTitle {
   font-size: 1.1em;
   font-weight: bold;
@@ -204,7 +198,7 @@ a:hover {
 }
 
 
-/*** Accommodations page ***/
+/***** Page-specific: accommodations *****/
 .bottomBtn {
   margin-bottom: 50px;
 }
@@ -214,7 +208,7 @@ a:hover {
 }
 
 
-/*** Registration page ***/
+/***** Page-specific: registration *****/
 #regTable {
   border: 1px solid rgba(70, 136, 94, 0.2);
   border-radius: 15px;
