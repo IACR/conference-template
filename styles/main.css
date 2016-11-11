@@ -1,6 +1,9 @@
 /*** General styling ***/
 body {
-  background-color: #F7F0FB;
+  background-color: #FEFDFB;
+  /*purple-based: #F5F3F7;*/
+  /*green based: #F7FFFB; */
+  /*old orange based: #F8F6F1; */
   color: #2B0058;
   font-family: 'Roboto', sans-serif;
   font-size: 1.5em;
@@ -17,7 +20,6 @@ a {
 a:hover {
   color: #DF9A00;
   /*accessibility compliant but then not enough contrast to show you're hovering: #7e5200;*/
-  /*older color, too light for accessibility: #d69a29;*/
   text-decoration: none;
 }
 
@@ -25,7 +27,8 @@ a:hover {
 /*** Nav ***/
 .navHeader {
   font-family: 'Roboto Condensed', sans-serif;
-  color: #833b00;
+  color: #CB831E;
+  /*#833B00;*/
   /*#A44A00;*/
   /*non-ADA compliant: #d69a29;*/
   letter-spacing: 2px;
@@ -38,11 +41,18 @@ a:hover {
 }
 
 .navbar-default .navbar-toggle {
-  border-color: #29176F;
+  border-color: #2B0058;
+  /*#29176F;*/
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #29176F;
+  background-color: #2B0058;
+}
+
+#topNavTitle {
+  color: #490096;
+  font-size: 1.6em;
+  line-height: 1.6em;
 }
 
 
@@ -56,21 +66,24 @@ a:hover {
 }
 
 .headerGradient {
-  background: rgba(40, 23, 110, 0.6);
-  background: -webkit-linear-gradient(rgba(40, 23, 110, 0.6), rgba(243, 240, 251, 1));
-  background: -o-linear-gradient(rgba(40, 23, 110, 0.6), rgba(243, 240, 251, 1));
-  background: -moz-linear-gradient(rgba(40, 23, 110, 0.6), rgba(243, 240, 251, 1));
-  background: linear-gradient(rgba(40, 23, 110, 0.6), rgba(243, 240, 251, 1));
+  background: rgba(43, 0, 88, 0.6);
+  background: -webkit-linear-gradient(rgba(43, 0, 88, 0.6), rgba(245, 243, 247, 1));
+  background: -o-linear-gradient(rgba(43, 0, 88, 0.6), rgba(245, 243, 247, 1));
+  background: -moz-linear-gradient(rgba(43, 0, 88, 0.6), rgba(245, 243, 247, 1));
+  background: linear-gradient(rgba(43, 0, 88, 0.6), rgba(245, 243, 247, 1));
   width: 100%;
   height: 100%;
   margin-bottom: 50px;
   padding: 20px;
 }
+/* purple base: */
+/* green base: 15, 119, 60, 0.7 and 247, 255, 251, 1 */
+/* old orange base: 223, 154, 0, 0.6 and  248, 246, 241, 1 */
 
 .headerTitle {
   font-family: 'Roboto Condensed', sans-serif;
-  color: #29176F;
-  text-shadow: 5px 5px 20px #F5F1FB, 1px 1px #F5F1FB;
+  color: #490096;
+  text-shadow: 5px 5px 20px #FEFDFB, 1px 1px #FEFDFB;
   letter-spacing: 3px;
   font-size: 3.5em;
   padding-top: 20px;
@@ -78,8 +91,8 @@ a:hover {
 
 .headerInfoTop {
   font-family: 'Roboto Condensed', sans-serif;
-  color: #29176F;
-  text-shadow: 5px 5px 20px #F5F1FB, 0.3px 0.3px #F5F1FB;
+  color: #490096;
+  text-shadow: 5px 5px 20px #FEFDFB, 0.3px 0.3px #FEFDFB;
   letter-spacing: 2px;
   font-size: 1.7em;
   text-align: right;
@@ -90,8 +103,8 @@ a:hover {
 
 .headerInfoBottom {
   font-family: 'Roboto Condensed', sans-serif;
-  color: #29176F;
-  text-shadow: 5px 5px 20px #F5F1FB, 0.3px 0.3px #F5F1FB;
+  color: #490096;
+  text-shadow: 5px 5px 20px #FEFDFB, 0.3px 0.3px #FEFDFB;
   letter-spacing: 2px;
   font-size: 1.7em;
   text-align: right;
@@ -125,7 +138,7 @@ a:hover {
 }
 
 .pageSubtitle {
-  color: #d69a29;
+  color: #CB831E;
   font-family: 'Roboto Condensed', sans-serif;
   letter-spacing: 2px;
   font-size: 1.4em;
@@ -137,7 +150,7 @@ a:hover {
 }
 
 .dateTitle {
-  color: #d69a29;
+  color: #CB831E;
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 1.1em;
   font-weight: bold;
@@ -169,7 +182,7 @@ a:hover {
 
 /*** Call for papers/accommodations page ***/
 .listItems {
-  background-color: #F5F1FB;
+  background-color: #FEFDFB;
   text-align: left;
   border: none;
 }
