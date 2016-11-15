@@ -43,10 +43,10 @@ a:hover {
   background-color: #2B0058;
 }
 
-#topNavTitle {
+a #topNavTitle {
   color: #490096;
-  font-size: 0.9em;
-  line-height: 0.9em;
+  font-size: 0.7em;
+  line-height: 0.7em;
 }
 
 
