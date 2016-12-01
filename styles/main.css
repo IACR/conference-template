@@ -173,7 +173,7 @@ a:hover {
 }
 
 
-/***** Page-specific: call for papers, accommodations *****/
+/***** Page-specific (multiple): call for papers, accommodations *****/
 .listItems {
   background-color: #FEFDFB;
   text-align: left;
@@ -205,6 +205,14 @@ a:hover {
 
 .hotelBtn {
   margin-bottom: 20px;
+}
+
+
+/***** Page-specific: call for papers *****/
+@media only screen and (max-width : 767px) {
+  .colFix {
+    height: auto !important;
+  }
 }
 
 
