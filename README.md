@@ -7,5 +7,5 @@ intention is to use this as a template for future conferences,
 including Crypto, Asiacrypt, and Eurocrypt. Data for a conference is in
 the metadata.json file, such as the dates, name of conference, location, etc.
 
-For posterity, here's a screenshot of the 2016 website (the last year before I was commissioned to improve the site):
+For comparison, here's a screenshot of the 2016 website (the last year before I was commissioned to improve the site):
 ![the old conference website, with many notable hallmarks of early 2000s/late 1990s web design](./images/oldCryptoSite.png)

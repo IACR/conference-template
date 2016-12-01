@@ -1,0 +1,1 @@
+$('.colFix').matchHeight();
