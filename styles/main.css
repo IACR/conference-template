@@ -259,6 +259,12 @@ p.eventDescr {
   text-align: left;
 }
 
+p.paperTitle {
+  text-align: left;
+  font-weight: bold;
+}
+
+/*TODO: center text for mutual events?*/
 .mutualEvent {
   /*lighter version of main purple from logo, exceeds webAIM standards*/
   background-color: #E1E2F5;
@@ -269,9 +275,7 @@ p.eventDescr {
 
 .track1Event {
   /*lighter version of green, exceeds webAIM standards*/
-  background-color: #C1F7D8;
-  /*#8AF1B7;*/
-  /*another option is a5f4c7*/
+  background-color: #DCFAE9;
   margin-bottom: 10px;
   border: 1px solid #0F773C;
   border-radius: 4px;
@@ -279,7 +283,7 @@ p.eventDescr {
 
 .track2Event {
   /*lighter version of orange, exceeds webAIM standards*/
-  background-color: #EFCA96;
+  background-color: #fbf2e6;
   margin-bottom: 10px;
   border: 1px solid #CB831E;
   border-radius: 4px;
