@@ -245,3 +245,25 @@ p.regBodyText {
 p.priceText {
   text-align: center;
 }
+
+
+/***** Page-specific: program *****/
+.timeSlot {
+  text-align: left;
+}
+
+.mutualEvent {
+  /*lighter version of main purple from logo, exceeds webAIM standards*/
+  background-color: #CACBEE;
+}
+
+.track1Event {
+  /*lighter version of green, exceeds webAIM standards*/
+  background-color: #8AF1B7;
+  /*another option is a5f4c7*/
+}
+
+.track2Event {
+  /*lighter version of orange, exceeds webAIM standards*/
+  background-color: #EFCA96;
+}
