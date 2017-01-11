@@ -248,22 +248,39 @@ p.priceText {
 
 
 /***** Page-specific: program *****/
-.timeSlot {
+p.timeSlot {
+  text-align: left;
+  /*TODO: vertical alignment in the middle would be preferable to the below workaround*/
+  padding-top: 13px;
+  margin-bottom: 10px;
+}
+
+p.eventDescr {
   text-align: left;
 }
 
 .mutualEvent {
   /*lighter version of main purple from logo, exceeds webAIM standards*/
-  background-color: #CACBEE;
+  background-color: #E1E2F5;
+  margin-bottom: 10px;
+  border: 1px solid #2E3192;
+  border-radius: 4px;
 }
 
 .track1Event {
   /*lighter version of green, exceeds webAIM standards*/
-  background-color: #8AF1B7;
+  background-color: #C1F7D8;
+  /*#8AF1B7;*/
   /*another option is a5f4c7*/
+  margin-bottom: 10px;
+  border: 1px solid #0F773C;
+  border-radius: 4px;
 }
 
 .track2Event {
   /*lighter version of orange, exceeds webAIM standards*/
   background-color: #EFCA96;
+  margin-bottom: 10px;
+  border: 1px solid #CB831E;
+  border-radius: 4px;
 }
