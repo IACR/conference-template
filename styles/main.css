@@ -250,8 +250,6 @@ p.priceText {
 /***** Page-specific: program *****/
 p.timeSlot {
   text-align: left;
-  /*TODO: vertical alignment in the middle would be preferable to the below workaround*/
-  padding-top: 13px;
   margin-bottom: 10px;
 }
 
@@ -264,27 +262,45 @@ p.paperTitle {
   font-weight: bold;
 }
 
+.test {
+  background-color: purple;
+}
+
 /*TODO: center text for mutual events?*/
 .mutualEvent {
   /*lighter version of main purple from logo, exceeds webAIM standards*/
   background-color: #E1E2F5;
   margin-bottom: 10px;
-  border: 1px solid #2E3192;
-  border-radius: 4px;
+  /*border: 1px solid #2E3192;*/
+  /*border-radius: 4px;*/
+}
+
+@media only screen and (max-width : 767px) {
+    .eventWrap {
+        height: auto !important;
+    }
+}
+
+#eventWrap {
+  overflow: hidden;
+  margin-bottom: 10px;
 }
 
 .track1Event {
   /*lighter version of green, exceeds webAIM standards*/
   background-color: #DCFAE9;
-  margin-bottom: 10px;
-  border: 1px solid #0F773C;
-  border-radius: 4px;
+  margin-bottom: -99999px;
+  padding-bottom: 99999px;
+  /*NOTE: had to remove border and radius as they don't work well with the stupid eventWrap with lack of overflow; bottom looks flat while top would be rounded with visible border*/
+  /*border: 1px solid #0F773C;*/
+  /*border-radius: 4px;*/
 }
 
 .track2Event {
   /*lighter version of orange, exceeds webAIM standards*/
   background-color: #fbf2e6;
-  margin-bottom: 10px;
-  border: 1px solid #CB831E;
-  border-radius: 4px;
+  margin-bottom: -99999px;
+  padding-bottom: 99999px;
+  /*border: 1px solid #CB831E;*/
+  /*border-radius: 4px;*/
 }
