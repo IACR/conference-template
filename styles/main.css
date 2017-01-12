@@ -266,10 +266,6 @@ p.paperTitle {
   font-weight: bold;
 }
 
-.test {
-  background-color: purple;
-}
-
 /*TODO: center text for mutual events?*/
 .mutualEvent {
   /*lighter version of main purple from logo, exceeds webAIM standards*/
