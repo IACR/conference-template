@@ -248,6 +248,10 @@ p.priceText {
 
 
 /***** Page-specific: program *****/
+a.iconLink {
+  font-size: 1.7em;
+}
+
 p.timeSlot {
   text-align: left;
   margin-bottom: 10px;
@@ -275,6 +279,7 @@ p.paperTitle {
   /*border-radius: 4px;*/
 }
 
+/*NOTE: removes eventWrap when on mobile*/
 @media only screen and (max-width : 767px) {
     .eventWrap {
         height: auto !important;
@@ -291,7 +296,7 @@ p.paperTitle {
   background-color: #DCFAE9;
   margin-bottom: -99999px;
   padding-bottom: 99999px;
-  /*NOTE: had to remove border and radius as they don't work well with the stupid eventWrap with lack of overflow; bottom looks flat while top would be rounded with visible border*/
+  /*NOTE: had to remove border and radius from track1Event/track2Event/mutualEvent, as they don't work well with the stupid eventWrap with lack of overflow; bottom looks flat while top would be rounded with visible border*/
   /*border: 1px solid #0F773C;*/
   /*border-radius: 4px;*/
 }
