@@ -212,7 +212,7 @@ a #topNavTitle {
 
 
 /***** Page-specific: call for papers *****/
-/*NOTE: not sure what this does??? I thought it fixed the issue of resizing for the committee names, but can't find evidence of it on second testing.commented out until further inspection/testing*/
+/*NOTE: not sure what this does??? I thought it fixed the issue of resizing for the committee names, but can't find evidence of it on second testing. commented out until further inspection/testing*/
 /*@media only screen and (max-width : 767px) {
   .colFix {
     height: auto !important;
