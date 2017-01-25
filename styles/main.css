@@ -22,7 +22,7 @@ a:hover {
 }
 
 
-/***** Nav *****/
+/***** Nav (in /fragments/nav.html) *****/
 .navHeader {
   font-family: 'Roboto Condensed', sans-serif;
   color: #CB831E;
@@ -43,6 +43,7 @@ a:hover {
   background-color: #2B0058;
 }
 
+/*NOTE: this is actually in ../index.html*/
 a #topNavTitle {
   /*NOTE: for now this color change doesn't work - troubleshoot*/
   /*color: #490096;*/
@@ -51,7 +52,7 @@ a #topNavTitle {
 }
 
 
-/***** Header *****/
+/***** Header (found in ./index.html) *****/
 .headerImg {
   background-size: cover;
   background-image: url("../images/ucsb.jpg");
@@ -71,6 +72,7 @@ a #topNavTitle {
   margin-bottom: 50px;
   padding: 20px;
 }
+/*Additional header gradient options below*/
 /* purple-base (don't forget to change background color to match): 43, 0, 88, 0.6 and 245, 243, 247, 1 */
 /* green-base (don't forget to change background color to match): 15, 119, 60, 0.7 and 247, 255, 251, 1 */
 
@@ -210,11 +212,12 @@ a #topNavTitle {
 
 
 /***** Page-specific: call for papers *****/
-@media only screen and (max-width : 767px) {
+/*NOTE: not sure what this does??? I thought it fixed the issue of resizing for the committee names, but can't find evidence of it on second testing.commented out until further inspection/testing*/
+/*@media only screen and (max-width : 767px) {
   .colFix {
     height: auto !important;
   }
-}
+}*/
 
 
 /***** Page-specific: registration *****/
@@ -270,6 +273,7 @@ p.eventDescr {
 
 p.paperTitle {
   text-align: left;
+  font-size: 1.1em;
   font-weight: bold;
 }
 
