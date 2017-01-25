@@ -2,7 +2,7 @@
 body {
   background-color: #FEFDFB;
   /*purple-based (don't forget to change header gradient to match): #F5F3F7;*/
-  /*green based (don't forget to change header gradient to match): #F7FFFB; */
+  /*green-based (don't forget to change header gradient to match): #F7FFFB; */
   color: #1F2161;
   font-family: 'Roboto', sans-serif;
   font-size: 1.5em;
@@ -71,8 +71,8 @@ a #topNavTitle {
   margin-bottom: 50px;
   padding: 20px;
 }
-/* purple base (don't forget to change background color to match): 43, 0, 88, 0.6 and 245, 243, 247, 1 */
-/* green base (don't forget to change background color to match): 15, 119, 60, 0.7 and 247, 255, 251, 1 */
+/* purple-base (don't forget to change background color to match): 43, 0, 88, 0.6 and 245, 243, 247, 1 */
+/* green-base (don't forget to change background color to match): 15, 119, 60, 0.7 and 247, 255, 251, 1 */
 
 .headerTitle {
   font-family: 'Roboto Condensed', sans-serif;
@@ -248,6 +248,12 @@ p.priceText {
 
 
 /***** Page-specific: program *****/
+.vertCenter {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+
 a.iconLink {
   font-size: 1.7em;
 }
@@ -255,6 +261,7 @@ a.iconLink {
 p.timeSlot {
   text-align: left;
   margin-bottom: 10px;
+  vertical-align: 50%;
 }
 
 p.eventDescr {
@@ -266,25 +273,23 @@ p.paperTitle {
   font-weight: bold;
 }
 
-/*TODO: center text for mutual events?*/
 .mutualEvent {
   /*lighter version of main purple from logo, exceeds webAIM standards*/
   background-color: #E1E2F5;
   margin-bottom: 10px;
-  /*border: 1px solid #2E3192;*/
-  /*border-radius: 4px;*/
 }
 
-/*NOTE: removes eventWrap when on mobile*/
-@media only screen and (max-width : 767px) {
+/*NOTE: removes eventWrap when on mobile BUT when I comment it out, I can't see a difference so what was this actually for??? */
+/*@media only screen and (max-width : 767px) {
     .eventWrap {
         height: auto !important;
     }
-}
+}*/
 
 #eventWrap {
   overflow: hidden;
   margin-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 .track1Event {
@@ -292,9 +297,6 @@ p.paperTitle {
   background-color: #DCFAE9;
   margin-bottom: -99999px;
   padding-bottom: 99999px;
-  /*NOTE: had to remove border and radius from track1Event/track2Event/mutualEvent, as they don't work well with the stupid eventWrap with lack of overflow; bottom looks flat while top would be rounded with visible border*/
-  /*border: 1px solid #0F773C;*/
-  /*border-radius: 4px;*/
 }
 
 .track2Event {
@@ -302,6 +304,4 @@ p.paperTitle {
   background-color: #fbf2e6;
   margin-bottom: -99999px;
   padding-bottom: 99999px;
-  /*border: 1px solid #CB831E;*/
-  /*border-radius: 4px;*/
 }
