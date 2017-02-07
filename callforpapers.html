@@ -218,8 +218,8 @@
       </div>
       <div class="row">
         <section class="col-sm-12">
-          <ul class="list-group">
-            <li class="list-group-item listItems col-sm-4 colFix">
+          <ul class="list-group" id="committee">
+            <!-- <li class="list-group-item listItems col-sm-4 colFix">
               <h4 class="list-group-item-heading tableItemTitle">M. Abe</h4>
               <p class="list-group-item-text listText">
                 NTT Secure Platform Laboratories
@@ -470,7 +470,7 @@
               <p class="list-group-item-text listText">
                 Rensselaer Polytechnic Institute
               </p>
-            </li>
+            </li> -->
           </ul>
         </section>
       </div>
@@ -542,11 +542,26 @@
     <script src="./js/jasny-bootstrap.js" type="text/javascript"></script>
     <script src="./js/hilios-countdown.js" type="text/javascript"></script>
 
+    <!-- handlebars -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.6/handlebars.js" type="text/javascript"></script>
+
+
     <!-- Personal scripts -->
     <script src="./js/menus.js" type="text/javascript"></script>
     <script src="./js/navTitleFade.js" type="text/javascript"></script>
     <script src="./js/cryptoCountdowns.js" type="text/javascript"></script>
     <script src="./js/matchHeight.js" type="text/javascript"></script>
     <script src="./js/colHeight.js" type="text/javascript"></script>
+    <script src="./js/committee.js" type="text/javascript"></script>
+    <script id="committee-member" type="text/x-handlebars-template">
+      {{#each committee}}
+        <li class="list-group-item listItems col-sm-4 colFix">
+          <h4 class="list-group-item-heading tableItemTitle">{{name}}</h4>
+          <p class="list-group-item-text listText">
+            {{institution}}
+          </p>
+        </li>
+      {{/each}}
+    </script>
   </body>
 </html>
