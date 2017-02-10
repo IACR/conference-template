@@ -7,10 +7,12 @@ In order to install:
 
 # FAQ
 ### Where do I edit the conference name, dates, and/or location?
-In /json/metadata.json.
+In /json/metadata.json. This will change the places where this text would appear throughout all pages.
 
 ### Where do I edit the names of the program committee?
-In /json/comm.json. Please remember that first names should be included as they appear on the papers, rather than first initials. If there are accents in the name or institution, make sure to use the correct unicode character.
+In /json/comm.json. This will change the places where this text would appear throughout all pages.
+
+Please remember that first names should be included as they appear on the papers, rather than first initials. If there are accents in the name or institution, make sure to use the correct unicode character.
 
 ### Where do I edit the page titles in the left navigation menu?
 In /fragments/nav.html. Don't forget to change the routes if you change the names of any HTML files.
@@ -22,22 +24,26 @@ The default colors are an orange-based light gray background, a dark blue text, 
 - blue-based light gray background with green links
 - green-based light gray background with blue links
 
-When changing the colors, you must edit the following:
+When changing the colors, you *must* edit the following:
 - body{background-color}
 - .headerGradient{background}
   - There are 5 instances of .headerGradient{background} that must be changed. This is to maximize cross-browser compatibility of the gradient effect.
--
-
-Optional changes include:
-- .navHeader{color}
 - .headerTitle{color}
 - .headerInfoTop{color}
 - .headerInfoBottom{color}
+
+Optional changes with a new color scheme include:
+- .navHeader{color}
 - .indPageTitle{color}
 - .pageSubtitle{color}
 - .dateTitle{color}
 
-Additional instructions and hex codes for the colors appear in /styles/main.css near the sections in question.
+Additional instructions and hex/rgba for the alternative color choices appear in /styles/main.css near the sections in question.
 
 ### How do I edit the header image?
 Save the desired image in /images directory. Then in /styles/main.css, find .headerImg and change the path to background-image to your image. The sizing and centering should be taken care of automatically. We strongly recommend images no smaller than 1200x480.
+
+### How do I change the dates and times for the countdowns to important dates that appear on the index and call for papers pages?
+In /js/cryptoCountdowns.js. Make sure that times are in UTC. You can use this converter: [http://www.thetimezoneconverter.com/].
+
+When changing the dates for countdown timers, don't forget to also change the dates in index.html. They are in ```<p class="dateTitle">``` tags.
