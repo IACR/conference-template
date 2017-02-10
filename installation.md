@@ -18,14 +18,15 @@ In /fragments/nav.html. Don't forget to change the routes if you change the name
 ### How can I change the colors of the website?
 This is a multi-step process. If you are not confident editing CSS3, we recommend against customizing the colors. Please do NOT attempt to edit styles in any HTML document; all editable styles are found in /styles/main.css.
 
-The default colors are an orange-based light gray background, a dark blue text, and medium green links that change to orange on hover. The recommended alternative color themes are:
+The default colors are an orange-based light gray background, a dark blue text, and medium green links that change to orange on mouseover. The recommended alternative color themes are:
 - blue-based light gray background with green links
 - green-based light gray background with blue links
 
 When changing the colors, you must edit the following:
 - body{background-color}
 - .headerGradient{background}
-  - Note that there are 5 instances of .headerGradient{background} that must be changed. This is to maximize cross-browser compatibility of the gradient effect.
+  - There are 5 instances of .headerGradient{background} that must be changed. This is to maximize cross-browser compatibility of the gradient effect.
+-
 
 Optional changes include:
 - .navHeader{color}
@@ -37,3 +38,6 @@ Optional changes include:
 - .dateTitle{color}
 
 Additional instructions and hex codes for the colors appear in /styles/main.css near the sections in question.
+
+### How do I edit the header image?
+Save the desired image in /images directory. Then in /styles/main.css, find .headerImg and change the path to background-image to your image. The sizing and centering should be taken care of automatically. We strongly recommend images no smaller than 1200x480.

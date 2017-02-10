@@ -1,8 +1,8 @@
 /***** General styling *****/
 body {
   background-color: #FEFDFB;
-  /*purple-based (don't forget to change header gradient to match): #F5F3F7;*/
-  /*green-based (don't forget to change header gradient to match): #F7FFFB; */
+  /*blue-based alternative background-color: #ECECF9*/
+  /*green-based alternative background-color: #E8FCF1*/
   color: #1F2161;
   font-family: 'Roboto', sans-serif;
   font-size: 1.5em;
@@ -26,6 +26,7 @@ a:hover {
 .navHeader {
   font-family: 'Roboto Condensed', sans-serif;
   color: #CB831E;
+  /*NOTE: this color may be changed with color scheme adjustments*/
   letter-spacing: 2px;
   margin-left: 5px;
   font-weight: bold;
@@ -45,7 +46,7 @@ a:hover {
 
 /*NOTE: this is actually in ../index.html*/
 a #topNavTitle {
-  /*NOTE: for now this color change doesn't work - troubleshoot*/
+  /*TODO: for now this color change doesn't work - troubleshoot*/
   /*color: #490096;*/
   font-size: 0.7em;
   line-height: 0.7em;
@@ -72,9 +73,8 @@ a #topNavTitle {
   margin-bottom: 50px;
   padding: 20px;
 }
-/*Additional header gradient options below*/
-/* purple-base (don't forget to change background color to match): 43, 0, 88, 0.6 and 245, 243, 247, 1 */
-/* green-base (don't forget to change background color to match): 15, 119, 60, 0.7 and 247, 255, 251, 1 */
+/*blue-base alternative header gradient: rgba(46, 49, 146, 0.6), rgba(236, 236, 249, 1)*/
+/*green-base alternative header gradient: rgba(15, 119, 60, 0.6), rgba(232, 252, 241, 1)*/
 
 .headerTitle {
   font-family: 'Roboto Condensed', sans-serif;
