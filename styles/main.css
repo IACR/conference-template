@@ -79,6 +79,7 @@ a #topNavTitle {
 .headerTitle {
   font-family: 'Roboto Condensed', sans-serif;
   color: #2E3192;
+  /*TODO: make sure there are additional colors for when/if the bg color changes*/
   text-shadow: 5px 5px 20px #FEFDFB, 0.3px 0.3px #1F2161;
   letter-spacing: 3px;
   font-size: 3.5em;
@@ -88,6 +89,7 @@ a #topNavTitle {
 .headerInfoTop {
   font-family: 'Roboto Condensed', sans-serif;
   color: #2E3192;
+  /*TODO: make sure there are additional colors for when/if the bg color changes*/
   text-shadow: 5px 5px 20px #FEFDFB, 0.3px 0.3px #1F2161;
   letter-spacing: 2px;
   font-size: 1.7em;
@@ -100,6 +102,7 @@ a #topNavTitle {
 .headerInfoBottom {
   font-family: 'Roboto Condensed', sans-serif;
   color: #2E3192;
+  /*TODO: make sure there are additional colors for when/if the bg color changes*/
   text-shadow: 5px 5px 20px #FEFDFB, 0.3px 0.3px #1F2161;
   letter-spacing: 2px;
   font-size: 1.7em;
@@ -305,7 +308,7 @@ p.paperTitle {
 
 .track2Event {
   /*lighter version of orange, exceeds webAIM standards*/
-  background-color: #fbf2e6;
+  background-color: #FBF2E6;
   margin-bottom: -99999px;
   padding-bottom: 99999px;
 }
