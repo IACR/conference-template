@@ -4,10 +4,10 @@
 
 ### Getting the site on the server
 2. Log into the server
-3. Type ```git clone https://github.com/kaymckelly/freelance-iacr.git```
+3. Type ```git clone https://github.com/kaymckelly/freelance-iacr.git``` You should now have a directory called /freelance-iacr on the server. You can change the name of the directory at this point if you like.
 
 ### Changing the conference names/dates/location
 4.
 
 ### Changing the names of the program committee
-5. 
+5.
