@@ -59,3 +59,12 @@ Optional changes with a new color scheme include:
 - .dateTitle{color}
 
 Additional instructions and hex/rgba for the alternative color choices appear in /styles/main.css near the sections in question.
+
+___
+
+### Editing countdown timers for important dates
+Open /js/cryptoCountdowns.js. Titles for which timer the code refers to are above each code block. The code where you edit the time and date looks like this: ```$('#submission').countdown('2017/02/08 02:00')```
+
+Make sure that times are in UTC. You can use this converter: [http://www.thetimezoneconverter.com/].
+
+When changing the dates for countdown timers, don't forget to also change the dates in index.html and/or callforpapers.html. They are in ```<p class="dateTitle">``` tags.
