@@ -1,10 +1,11 @@
-/*Original color scheme at http://www.colourlovers.com/palette/4331737/Cryptography_Brights*/
+/* Original color scheme by Kay McKelly, available at http://www.colourlovers.com/palette/4331737/Cryptography_Brights */
 
 /***** General styling *****/
 body {
   background-color: #FEFDFB;
-  /*blue-based alternative background-color: #ECECF9*/
-  /*green-based alternative background-color: #E8FCF1*/
+  /* NOTE: alternative color choices:
+  blue-based = #ECECF9
+  green-based = #E8FCF1 */
   color: #1F2161;
   font-family: 'Roboto', sans-serif;
   font-size: 1.5em;
@@ -28,7 +29,7 @@ a:hover {
 .navHeader {
   font-family: 'Roboto Condensed', sans-serif;
   color: #CB831E;
-  /*NOTE: this color may be changed with color scheme adjustments*/
+  /*NOTE: the color property may be changed with color scheme adjustments*/
   letter-spacing: 2px;
   margin-left: 5px;
   font-weight: bold;
@@ -70,13 +71,14 @@ a #topNavTitle {
   background: -o-linear-gradient(rgba(203, 131, 30, 0.6), rgba(254, 253, 251, 1));
   background: -moz-linear-gradient(rgba(203, 131, 30, 0.6), rgba(254, 253, 251, 1));
   background: linear-gradient(rgba(203, 131, 30, 0.6), rgba(254, 253, 251, 1));
+  /* NOTE: alternative color choices:
+  blue-based = rgba(46, 49, 146, 0.6), rgba(236, 236, 249, 1)
+  green-based = rgba(15, 119, 60, 0.6), rgba(232, 252, 241, 1) */
   width: 100%;
   height: 100%;
   margin-bottom: 50px;
   padding: 20px;
 }
-/*blue-base alternative header gradient: rgba(46, 49, 146, 0.6), rgba(236, 236, 249, 1)*/
-/*green-base alternative header gradient: rgba(15, 119, 60, 0.6), rgba(232, 252, 241, 1)*/
 
 .headerTitle {
   font-family: 'Roboto Condensed', sans-serif;
@@ -217,7 +219,7 @@ a #topNavTitle {
 
 
 /***** Page-specific: call for papers *****/
-/*NOTE: not sure what this does??? I thought it fixed the issue of resizing for the committee names, but can't find evidence of it on second testing. commented out until further inspection/testing*/
+/*NOTE: not sure what this does??? I thought it fixed the issue of resizing for the committee names, but can't find evidence of it on second testing. commented out until further inspection/testing. remove if extraneous*/
 /*@media only screen and (max-width : 767px) {
   .colFix {
     height: auto !important;
