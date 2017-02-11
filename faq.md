@@ -1,11 +1,5 @@
 # FAQ
-### Where do I edit the conference name, dates, and/or location?
-In /json/metadata.json. This will change the places where this text would appear throughout all pages.
 
-### Where do I edit the names of the program committee?
-In /json/comm.json. This will change the places where this text would appear throughout all pages.
-
-Please remember that first names should be included as they appear on the papers, rather than first initials. If there are accents in the name or institution, make sure to use the correct unicode character.
 
 ### Where do I edit the page titles in the left navigation menu?
 In /fragments/nav.html. Don't forget to change the routes if you change the names of any HTML files.
