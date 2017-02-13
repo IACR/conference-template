@@ -4,8 +4,7 @@ body {
 
 .navmenu {
   padding-top: 35px;
-  background-color: #E8FCF1;
-  /*#FEFDFB;*/
+  background-color: #FEFDFB;
   /* NOTE: alternative color choices:
   blue-based = #F3F3FB;
   green-based = #E8FCF1; */
@@ -56,8 +55,3 @@ body {
     display: none !important; /* IE8 fix */
   }
 }
-
-/*TODO: does this even do anything?*/
-/*#mainmenu a a:hover {
-  color: blue;
-}*/
