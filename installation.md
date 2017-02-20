@@ -31,9 +31,11 @@ Save the desired image in the /images directory.
 
 In /styles/main.css, find .headerImg and change the path to background-image to your image. The sizing and centering should be taken care of automatically.
 
-The image must be no smaller than 1200x480. If you want to remove the background image in the header, delete or comment out .headerImg{background-side}, .headerImg{background-image}, and .headerImg{background-position}.
+The image must be 1200x480px or larger, though larger may affect page load time. Acceptable file formats are .jpg, .png, or .gif. If using an animated gif, proceed with caution as this has the potential to be supremely annoying and/or negatively affect page load times.
 
-Note that removing the header image will not remove the gradient effect. If you would like to remove the background image and the gradient on the header, delete or comment out everything *except* .headerGradient{margin-bottom}.
+If you want to remove the background image in the header, delete or comment out .headerImg{background-side}, .headerImg{background-image}, and .headerImg{background-position}.
+
+Removing the header image will not remove the gradient effect. If you would like to remove the background image and the gradient on the header, delete or comment out everything *except* .headerGradient{margin-bottom}.
 
 ___
 
@@ -75,3 +77,8 @@ Open /js/cryptoCountdowns.js. Titles for which timer the code refers to are abov
 Make sure that times are in UTC. You can use this converter: [http://www.thetimezoneconverter.com/].
 
 When changing the dates for countdown timers, don't forget to also change the dates in index.html and/or callforpapers.html. They are in ``<p class="dateTitle">`` tags.
+
+___
+
+### Editing HTML files and other page content
+While we have tried our best to remove all conference-specific references from the HTML and have these imported from JSON, we *strongly* recommend proofreading the HTML to make sure all content relates to your specific conference. This is particularly true of the program page, though that is by no means the only one you may need to edit.
