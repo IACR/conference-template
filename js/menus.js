@@ -1,8 +1,6 @@
 $(document).ready(function() {
  function getInfo() {
-   console.log('fetching json');
-   $.getJSON('metadata.json', function(data) {
-     console.log(data);
+   $.getJSON('./json/metadata.json', function(data) {
      document.title = data.name;
      $('.conf_name').text(data.name);
      $('.conf_dates').text(data.dates);
