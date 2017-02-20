@@ -6,7 +6,7 @@ $(document).ready(function() {
      $('.conf_dates').text(data.dates);
      $('.conf_location').text(data.location);
    }).fail(function(d) {
-     console.log('failed to parse');
+     console.log('failed to parse JSON');
      console.log(d);
    });
    // fetch a fragment the left nav, and insert it into the DOM.
