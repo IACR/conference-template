@@ -4,7 +4,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<!-- TODO: import title for page from metadata.json...though it appears this already works?? -->
     <title></title>
 
     <!-- Bootstrap -->
@@ -18,6 +17,7 @@
     <!-- Styling -->
     <link href="./styles/main.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed" rel="stylesheet">
+
   </head>
 
   <body data-spy="scroll">
@@ -31,10 +31,13 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a href="index.html" id="topNavTitle" class="navbar-brand"><span class="conf_name"></span></a>
+      <a href="index.html" id="topNavTitle" class="navbar-brand">
+        <span class="conf_name"></span>
+      </a>
     </nav>
 
     <main class="container-fluid">
+
       <div id="conf_id" class="row">
         <header class="headerImg">
           <div class="col-sm-12 headerGradient">
@@ -48,6 +51,7 @@
           </div>
         </header>
       </div>
+
       <div class="row">
         <article class="col-sm-12 sectionSpacing">
           <p>
@@ -168,6 +172,7 @@
           </div>
         </section>
       </div>
+
       <div class="row">
         <section class="col-sm-12">
           <h3 class="pageSubtitle">Sponsors</h3>
@@ -179,11 +184,13 @@
           </a>
         </section>
       </div>
+
       <div class="row">
         <footer class="col-sm-12 text-center footer">
           <small><span class="conf_name"></span></small>
         </footer>
       </div>
+
     </main>
 
     <!-- Bootstrap scripts -->
@@ -198,5 +205,6 @@
     <script src="./js/menus.js" type="text/javascript"></script>
     <script src="./js/navTitleFade.js" type="text/javascript"></script>
     <script src="./js/cryptoCountdowns.js" type="text/javascript"></script>
+    
   </body>
 </html>
