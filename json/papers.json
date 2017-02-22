@@ -1,11 +1,11 @@
 { "acceptedPapers": [
-  {"title": "this is a title",
-	 "author": "name 1, name 2, name 3",
-   "institution": "college coolness"},
-  {"title": "oh look another title",
-   "author": "name 5, name 8, name 2, name 60",
-   "institution": "college of actual students"},
-  {"title": "snappiest title",
-   "author": "name 1",
-   "institution": "intersection institution"}
+  {"title": "insert paper title here",
+	 "author": "insert author names here",
+   "institution": "insert institution names/affiliations"},
+  {"title": "insert paper title here",
+   "author": "insert author names here",
+   "institution": "insert institution names/affiliations"},
+  {"title": "insert paper title here",
+   "author": "insert author names here",
+   "institution": "insert institution names/affiliations"}
 ]}
