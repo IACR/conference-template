@@ -6,11 +6,14 @@ $(document).ready(function() {
      $('.conf_dates').text(data.dates);
      $('.conf_location').text(data.location);
    }).fail(function(d) {
-     console.log('failed to parse');
+     console.log('failed to parse metadata.json');
      console.log(d);
    });
+   
    // fetch a fragment the left nav, and insert it into the DOM.
-   $.get('./fragments/nav.html', function(data) {$('#mainmenu').html(data);},'html');
+   $.get('./fragments/nav.html', function(data) {
+     $('#mainmenu').html(data);
+   },'html');
  }
  getInfo();
 });

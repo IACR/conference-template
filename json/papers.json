@@ -1,0 +1,11 @@
+{ "acceptedPapers": [
+  {"title": "insert paper title here",
+	 "author": "insert author names here",
+   "institution": "insert institution names/affiliations"},
+  {"title": "insert paper title here",
+   "author": "insert author names here",
+   "institution": "insert institution names/affiliations"},
+  {"title": "insert paper title here",
+   "author": "insert author names here",
+   "institution": "insert institution names/affiliations"}
+]}
