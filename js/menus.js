@@ -9,6 +9,7 @@ $(document).ready(function() {
      console.log('failed to parse metadata.json');
      console.log(d);
    });
+   
    // fetch a fragment the left nav, and insert it into the DOM.
    $.get('./fragments/nav.html', function(data) {
      $('#mainmenu').html(data);
