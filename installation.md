@@ -18,14 +18,34 @@ ___
 ### Changing the conference names/dates/location
 Open /json/metadata.json. Editing this will change the places where this text would appear throughout all pages.
 
+Load the site again and you should see the changes you’ve made.
+
 ___
 
 ### Changing the names of the program committee
 Open /json/comm.json. Editing this will change the places where this text would appear throughout all pages.
 
-Please remember that first names should be included as they appear on the papers, rather than first initials. Make sure to use unicode encoding for special characters with a general escape code (e.g. ``\u00E5``). See [http://www.utf8-chartable.de/] for a list of characters.
+Please remember that first names should be included as they appear on the papers, rather than first initials. There is a tool at [http://www.iacr.org/cryptodb/pc] to help you generate this file.
+
+Make sure to use unicode encoding for special characters. If you would like, you can also use general escape codes (e.g. ``\u00E5``). You can use [http://www.mobilefish.com/services/unicode_escape_sequence_converter/unicode_escape_sequence_converter.php] if you'd like to convert unicode characters to unicode escape codes.
 
 ___
+
+### Adding your page content to individual pages (``*.html``)
+All pages have included boilerplate content from the CRYPTO 2017 conference. You will need to go through each individual page and remove content that does not pertain to your conference, as well as add your own information.
+
+___
+
+### Changing the contact information
+The program chairs and general chair appear on both the callforpapers.html file and the contact.html file. You will want to edit these.
+
+At this point you will have a working site. The steps below this are optional.
+
+
+
+
+
+
 
 ### Editing the left navigation menu links and titles
 Open /fragments/nav.html. Don't forget to change the routes if you change the names of any HTML files.
