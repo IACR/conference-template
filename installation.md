@@ -34,6 +34,8 @@ ___
 ### Adding your page content to individual pages (``*.html``)
 All pages have included boilerplate content from the CRYPTO 2017 conference. You will need to go through each individual page and remove content that does not pertain to your conference, as well as add your own information.
 
+While we have tried our best to remove all conference-specific references from the HTML and have these imported from JSON, we *strongly* recommend proofreading the HTML to make sure all content relates to your specific conference. This is particularly true of the program page, though that is by no means the only one you may need to edit.
+
 ___
 
 ### Changing the contact information
@@ -41,18 +43,14 @@ The program chairs and general chair appear on both the callforpapers.html file 
 
 At this point you will have a working site. The steps below this are optional.
 
-
-
-
-
-
-
-### Editing the left navigation menu links and titles
-Open /fragments/nav.html. Don't forget to change the routes if you change the names of any HTML files.
-
 ___
 
 # Optional
+### Editing the left navigation menu links and titles
+Open /fragments/nav.html. If you want to add a new page to the site, you need to create the file for it and add a link to it in this nav.html file. If you want to remove a file, then you need to remove it from this navigation (for example, if you don’t have a rump session). Also delete the corresponding file if you wish.
+
+___
+
 ### Editing the header image
 Save the desired image in the /images directory.
 
@@ -104,8 +102,3 @@ Open /js/cryptoCountdowns.js. Titles for which timer the code refers to are abov
 Make sure that times are in UTC. You can use this converter: [http://www.thetimezoneconverter.com/].
 
 When changing the dates for countdown timers, don't forget to also change the dates in index.html and/or callforpapers.html. They are in ``<p class="dateTitle">`` tags.
-
-___
-
-### Editing HTML files and other page content
-While we have tried our best to remove all conference-specific references from the HTML and have these imported from JSON, we *strongly* recommend proofreading the HTML to make sure all content relates to your specific conference. This is particularly true of the program page, though that is by no means the only one you may need to edit.
