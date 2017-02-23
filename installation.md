@@ -1,11 +1,17 @@
-# Installation
+# Mandatory
 ### Pre-installation
 Make sure you have git installed on the server where you plan to deploy the conference site.
 
 ___
 
 ### Getting the site on the server
-Log into the server. Type ``git clone https://github.com/kaymckelly/freelance-iacr.git`` You should now have a directory called /freelance-iacr on the server. You can change the name of the directory at this point if you like.
+Log into the server and cd to a temporary directory. Type:
+
+``git clone https://github.com/kaymckelly/freelance-iacr.git .`` (Note the period at the end.)
+
+This creates a copy of the files for the site in your current directory. All files in the /www subdirectory should be moved to location where your web server will serve the content from. We’ll call that directory WebHome. Once you move the files to the subdirectory WebHome, you should cd there.
+
+Verify that the web server is serving from there by visiting the appropriate URL in your browser. You should see the CRYPTO 2017 website. Once you’ve verified it’s serving correctly, you can begin to edit the relevant files.
 
 ___
 
@@ -26,6 +32,7 @@ Open /fragments/nav.html. Don't forget to change the routes if you change the na
 
 ___
 
+# Optional
 ### Editing the header image
 Save the desired image in the /images directory.
 
