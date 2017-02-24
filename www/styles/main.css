@@ -310,6 +310,8 @@ p.trackSwitch {
 .mutualEvent {
   background-color: rgba(177, 181, 231, 0.3);
   margin-bottom: 10px;
+  /*fixes overhang for dual track events*/
+  width: 102%;
 }
 
 #eventWrap {

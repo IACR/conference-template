@@ -1,3 +1,6 @@
+// TODO: import some (all?) of these dates from metadata.json
+
+
 //countdown for submission deadline
 $('#submission').countdown('2017/02/08 02:00')
 .on('update.countdown', function(event) {
