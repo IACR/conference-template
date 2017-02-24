@@ -1,1 +1,3 @@
-$('.colFix').matchHeight();
+$(document).ready(function() {
+  $('.colFix').matchHeight();
+})
