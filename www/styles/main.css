@@ -59,7 +59,7 @@ a#topNavTitle {
 /***** Header (found in ./index.html) *****/
 .headerImg {
   background-size: cover;
-  background-image: url("../images/ucsb.jpg");
+  background-image: url("../images/defaultbg3.jpg");
   background-position: center center;
   width: 100%;
   height: 240px;
