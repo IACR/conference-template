@@ -59,7 +59,7 @@ a#topNavTitle {
 /***** Header (found in ./index.html) *****/
 .headerImg {
   background-size: cover;
-  background-image: url("../images/defaultbg2.jpg");
+  background-image: url("../images/defaultbg2_crop.jpg");
   background-position: center center;
   width: 100%;
   height: 240px;
