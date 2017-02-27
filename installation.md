@@ -103,3 +103,22 @@ Open /www/js/cryptoCountdowns.js. Titles for which timer the code refers to are 
 Make sure that all times are in UTC. You can use this converter: [http://www.thetimezoneconverter.com/].
 
 When changing the dates for countdown timers, don't forget to also change the dates in index.html and/or callforpapers.html. They are in ``<p class="dateTitle">`` tags.
+
+___
+
+### Adding an update to the "Website Updates" panel on index.html
+Look for the NOTE in index.html that says "add new website updates below this". Copy/paste the following:
+``<div class="row">
+  <div class="col-xs-4">
+    <p class="dateTitle">
+      DATE OF UPDATE
+    </p>
+  </div>
+  <div class="col-xs-8">
+    <p class="dateText">
+      TEXT OF UPDATE
+    </p>
+  </div>
+</div>
+<hr />``
+and edit as desired.
