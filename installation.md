@@ -108,7 +108,8 @@ ___
 
 ### Adding an update to the "Website Updates" panel on index.html
 Look for the NOTE in index.html that says "add new website updates below this". Copy/paste the following:
-``<div class="row">
+```
+<div class="row">
   <div class="col-xs-4">
     <p class="dateTitle">
       DATE OF UPDATE
@@ -120,5 +121,6 @@ Look for the NOTE in index.html that says "add new website updates below this". 
     </p>
   </div>
 </div>
-<hr />``
+<hr />
+```
 and edit as desired.
