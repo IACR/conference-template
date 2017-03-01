@@ -273,9 +273,15 @@ p.priceText {
 
 
 /***** Page-specific: program *****/
+/*NOTE: looks extraneous but increases browser compatability*/
 .verticalAlign {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+    -ms-flex-align: center;
+      align-items: center;
+  flex-flow: row wrap;
 }
 
 a.iconLink {
@@ -283,42 +289,45 @@ a.iconLink {
 }
 
 p.timeSlot {
-  text-align: left;
-}
-
-p.eventDescr {
-  text-align: left;
+  font-size: 0.9em;
+  text-align: center;
 }
 
 p.talkTitle {
-  text-align: left;
   font-size: 1.1em;
   font-weight: bold;
 }
 
 p.trackSwitch {
   padding-top: 10px;
+  text-align: center;
 }
 
 .mutualEvent {
   background-color: rgba(177, 181, 231, 0.3);
   margin-bottom: 10px;
+  text-align: center;
 }
 
-/*#eventWrap {
-  overflow: hidden;
-  margin-bottom: 10px;
-  padding-bottom: 10px;
+p.eventDescr {
+  text-align: center;
+}
+
+/*TODO: add on mobile*/
+/*TODO: also add class col-xs-offset-3 to track2Event on mobile*/
+/*.dualEventTime {
+  margin-top: 40em;
 }*/
 
 .track1Event {
   background-color: rgba(242, 210, 166, 0.3);
-  /*margin-bottom: -99999px;
-  padding-bottom: 99999px;*/
+  margin-bottom: 10px;
+  /*margin-right: -10px;*/
 }
 
-/*.track2Event {
+.track2Event {
   background-color: rgba(164, 244, 199, 0.3);
-  margin-bottom: -99999px;
-  padding-bottom: 99999px;
-}*/
+  margin-bottom: 8px;
+  /*margin-left: -20px;
+  margin-right: -18px;*/
+}
