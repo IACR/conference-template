@@ -1,5 +1,6 @@
 /* Original color scheme by Kay McKelly, available at http://www.colourlovers.com/palette/4331737/Cryptography_Brights */
 
+
 /***** General styling *****/
 body {
   background-color: #FEFDFB;
@@ -233,15 +234,6 @@ a#topNavTitle {
 }
 
 
-/***** Page-specific: call for papers *****/
-/*NOTE: not sure what this does??? I thought it fixed the issue of resizing for the committee names, but can't find evidence of it on second testing. commented out until further inspection/testing. remove if extraneous*/
-/*@media only screen and (max-width : 767px) {
-  .colFix {
-    height: auto !important;
-  }
-}*/
-
-
 /***** Page-specific: registration *****/
 #regTable {
   border: 1px solid rgba(15, 119, 60, 0.2);
@@ -273,14 +265,13 @@ p.priceText {
 
 
 /***** Page-specific: program *****/
-/*NOTE: looks extraneous but increases browser compatability*/
 .verticalAlign {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-    -ms-flex-align: center;
-      align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   flex-flow: row wrap;
 }
 
@@ -292,15 +283,6 @@ p.timeSlot {
   font-size: 0.9em;
   text-align: center;
 }
-
-/*add when small screen
-text-align: right;
--webkit-transform: rotate(-90deg);
--moz-transform: rotate(-90deg);
--ms-transform: rotate(-90deg);
--o-transform: rotate(-90deg);
-left: -20px;
-position: absolute;*/
 
 p.talkTitle {
   font-size: 1.1em;
@@ -322,12 +304,6 @@ p.trackSwitch {
 p.eventDescr {
   text-align: center;
 }
-
-/*TODO: add on mobile*/
-/*TODO: also add class col-xs-offset-3 to track2Event on mobile*/
-/*.dualEventTime {
-  margin-top: 40em;
-}*/
 
 .track1Event {
   background-color: rgba(242, 210, 166, 0.3);
