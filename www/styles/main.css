@@ -266,13 +266,12 @@ p.priceText {
 
 /***** Page-specific: program *****/
 .verticalAlign {
-  display: -webkit-box;
+  /*display: -webkit-box;*/
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
+  /*-webkit-box-align: center;*/
   -ms-flex-align: center;
   align-items: center;
-  flex-flow: row wrap;
 }
 
 a.iconLink {
