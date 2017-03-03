@@ -27,14 +27,20 @@ Open /www/json/comm.json. Editing this will change the places where this text wo
 
 Please remember that first names should be included as they appear on the papers, rather than first initials. There is a tool at [http://www.iacr.org/cryptodb/pc] to help you generate this file.
 
-Make sure to use unicode encoding for special characters. If you would like, you can also use general escape codes (e.g. ``\u00E5``). You can use [http://www.mobilefish.com/services/unicode_escape_sequence_converter/unicode_escape_sequence_converter.php] if you'd like to convert unicode characters to unicode escape codes.
+Make sure your file is encoded as UTF-8.
 
 ___
 
 ### Adding your page content to individual pages (``*.html``)
-All pages have included boilerplate content from the CRYPTO 2017 conference. You will need to go through each individual page and remove content that does not pertain to your conference, as well as add your own information.
+All pages have included boilerplate content from the CRYPTO 2017 conference. You will need to go through each individual page and edit content that does not pertain to your conference, as well as add your own information.
 
 While we have tried our best to remove all conference-specific references from the HTML and have these imported from JSON, we *strongly* recommend proofreading the HTML to make sure all content relates to your specific conference.
+
+#### To delete a page
+You can omit a page by deleting the html file and removing the link to it from /fragments/nav.html.
+
+#### To add a new page
+The process here is similar to deleting a page. Create your html page by copying empty.html, add the link to /fragments/nav.html, and then edit the new page to add your content.
 
 ___
 
@@ -53,20 +59,16 @@ Open /www/fragments/nav.html. If you want to add a new page to the site, you nee
 ___
 
 ### Editing the header image
-There are several default header images in the /www/images directory. If you would prefer to use a custom image, save the desired image in the /images directory.
+The header image is specified in /styles/main.css as .headerImg. There are three default images you can choose from (defaultbg1_crop.jpg, etc). If you want to remove the background image in the header, delete or comment out .headerImg{background-side}, .headerImg{background-image}, and .headerImg{background-position}.
 
-If you are using a custom image, it must be 1200x480px or larger (note that larger may affect page load time). Acceptable file formats are .jpg, .png, or .gif. If using an animated gif, proceed with caution as this has the potential to be supremely annoying and/or negatively affect page load times.
-
-When changing the header image, open /www/styles/main.css, find .headerImg, and change the path to background-image to your image. The sizing and centering are taken care of automatically.
-
-If you want to remove the background image in the header, delete or comment out .headerImg{background-side}, .headerImg{background-image}, and .headerImg{background-position}.
+If you want to use a custom image, it must be 1200x480px or larger (note that larger may affect page load time). Acceptable file formats are .jpg, .png, or .gif. If using an animated gif, proceed with caution as this has the potential to be supremely annoying and/or negatively affect page load times.
 
 Removing the header image will not remove the gradient effect. If you would like to remove the background image and the gradient on the header, delete or comment out everything *except* .headerGradient{margin-bottom}.
 
 ___
 
 ### Changing the color scheme
-This is a multi-step process. If you are not confident editing CSS3, we strongly recommend against customizing the colors. Please do **NOT** add styles in any HTML document; all editable styles are found in /www/styles/main.css or /www/styles/navmenu.css. Do not edit any files in this folder besides the two listed previously.
+This is a multi-step process. If you are not confident editing CSS3, we strongly recommend against customizing the colors. Please do **NOT** add styles in any HTML document; all editable styles are found in /www/styles/main.css or /www/styles/navmenu.css. Do not edit any other files in the /styles directory.
 
 The default colors are an orange-based light gray background, a dark blue text, and medium green links that change to orange on mouseover. The alternative color themes are:
 - blue-based light gray background with green links
