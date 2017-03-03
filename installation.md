@@ -27,7 +27,7 @@ Open /www/json/comm.json. Editing this will change the places where this text wo
 
 Please remember that first names should be included as they appear on the papers, rather than first initials. There is a tool at [http://www.iacr.org/cryptodb/pc] to help you generate this file.
 
-Make sure to use unicode encoding for special characters. If you would like, you can also use general escape codes (e.g. ``\u00E5``). You can use [http://www.mobilefish.com/services/unicode_escape_sequence_converter/unicode_escape_sequence_converter.php] if you'd like to convert unicode characters to unicode escape codes.
+Make sure your file is encoded as UTF-8.
 
 ___
 
