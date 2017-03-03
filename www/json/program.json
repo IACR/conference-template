@@ -1,0 +1,431 @@
+{
+    "days": [
+	{"date":"Sunday, August 14, 2016",
+	 "timeslots": [
+	     {"time": "17:00 - 20:00",
+	      "sessions": [{"session_title": "Registration",
+			    "location": "Anacapa Formal Lounge"}]
+	     },
+	     {"time": "17:30 - 21:30",
+ 	      "sessions": [{"session_title": "Reception Dinner",
+			    "location": "Anacapa Lawn"}]
+	     }]
+	},
+	{"date": "Monday, August 15, 2016",
+	 "timeslots": [
+	     {"time": "7:30 - 8:45",
+	      "sessions": [{"session_title": "Breakfast",
+			    "location": "De La Guerra Dining Commons"}]
+	     },
+	     {"time": "8:45 - 8:55",
+	      "sessions": [{"session_title": "Opening remarks",
+			    "location": "Corwin Pavilion",
+			    "moderator": "Crypto 2016 General Chair, Brian LaMacchia"}]
+	     },
+	     {"time": "9:00-9:50",
+	      "sessions": [{"session_title": "Provable Security for Symmetric Cryptography",
+			    "location": "Corwin Pavillion",
+			    "moderator": "Chair: Bart Preneel",
+			    "talks": [
+				{"title": "Key-alternating Ciphers and Key-length Extension: Exact Bounds and Multi-user Security",
+				 "authors": "Viet Tung Hoang; Stefano Tessaro"},
+				{"title": "Counter-in-Tweak: Authenticated Encryption Modes for Tweakable Block Ciphers",
+				 "authors": "Thomas Peyrin; Yannick Seurin"}]
+			   },
+			   {"session_title": "Secure Computation and Protocols I",
+			    "moderator": "Chair: Sanjam Garg",
+			    "talks": [
+				{"title": "Network-Hiding Communication and Applications to Multi-Party Protocols",
+				 "authors": "Martin Hirt; Ueli Maurer; Daniel Tschudi; Vassilis Zikas"},
+				{"title": "Network Oblivious Transfer",
+				 "authors": "Ranjit Kumaresan; Srinivasan Raghuraman; Adam Sealfon"}]
+			   }
+			  ]
+	     },
+	     {"time": "9:50 - 9:55",
+	      "sessions": [{"session_title": "Track-switch break"}
+			  ]
+	     },
+	     {"time": "9:55 - 11:10",
+	      "sessions": [{"session_title": "Provable Security for Symmetric Cryptography (cont.)",
+			    "moderator": "Chair: Bart Preneel",
+			    "location": "Corwin Pavillion",
+			    "talks": [{"title": "XPX: Generalized Tweakable Even-Mansour with Improved Security Guarantees",
+				       "authors": "Bart Mennink"},
+				      {"title": "Indifferentiability of 8-Round Feistel Networks",
+				       "authors": "Yuanxi Dai; John Steinberger"},
+				      {"title": "EWCDM: An Efficient, Beyond-Birthday Secure, Nonce-Misuse Resistant MAC",
+				       "authors": "Benoît Cogliati; Yannick Seurin"}]
+			   },
+			   {"session_title": "Secure Computation and Protocols I (cont.)",
+			    "moderator": "Chair: Sanjam Garg",
+			    "location": "Lotte lehmann Hall",
+			    "talks": [{"title": "On the Power of Secure Two-Party Computation",
+				       "authors": "Carmit Hazay; Muthuramakrishnan Venkitasubramaniam"},
+				      {"title": "Secure Protocol Transformations",
+				       "authors": "Yuval Ishai; Eyal Kushilevitz; Manoj Prabhakaran; Amit Sahai; Ching-Hua Yu"},
+				      {"title": "On the Communication required for Unconditionally Secure Multiplication",
+				       "authors": "Ivan Damgård; Jesper Buus Nielsen; Antigoni Polychroniadou; Michael Raskin"}]
+			   }]
+	     },
+	     {"time": "11:10 - 11:40",
+	      "sessions": [{"session_title": "Break",
+			    "location": "University Center Lagoon Plaza"}]
+	     },
+	     {"time": "11:40 - 12:40",
+	      "sessions": [{"session_title": "Crypto 2016 Invited Presentation",
+			    "location": "Corwin Pavilion",
+			    "moderator": "Chair: Matt Robshaw",
+			    "speaker": "Brian Sniffen, Chief Security Architect",
+			    "subtitle": "Akamai Technologies, Inc."}]
+	     },
+	     {"time": "12:40 - 14:00",
+ 	      "sessions": [{"session_title": "Lunch",
+			    "location": "De La Guerra Dining Commons"}]
+	     },
+	     {"time": "14:00 - 14:50",
+	      "sessions": [{"session_title": "Asymmetric Cryptography and Cryptanalysis I",
+			    "moderator": "Chair: Mehdi Tibouchi",
+			    "location": "Corwin Pavillion",
+			    "talks": [{"title": "A subfield lattice attack on overstretched NTRU assumptions: Cryptanalysis of some FHE and Graded Encoding Schemes",
+				       "authors": "Martin R. Albrecht; Shi Bai; Léo Ducas"},
+				      {"title": "Lattice-Based Fully Dynamic Multi-Key FHE with Short Ciphertexts",
+				       "authors": "Zvika Brakerski; Renen Perlman"}]
+			   },
+			   {"session_title": "Obfuscation",
+			    "moderator": "Chair: Mariana Raykova",
+			    "location": "Lotte Lehmann Hall",
+			    "talks": [{"title": "Universal Obfuscation and Witness Encryption: Boosting Correctness and Combining Security",
+				       "authors": "Prabhanjan Ananth; Aayush Jain; Moni Naor; Amit Sahai; Eylon Yogev"},
+				      {"title": "Obfuscation Combiners",
+				       "authors": "Marc Fischlin; Amir Herzberg; Hod Bin Noon; Haya Shulman"}
+				     ]
+			   }]
+	     },
+	     {"time": "14:50 - 14:55",
+	      "sessions": [{"session_title": "Track-switch break"}]
+	     },
+	     {"time": "14:55 - 15:45",
+	      "sessions": [{"session_title": "Asymmetric Cryptography and Cryptanalysis I (cont.)",
+			    "moderator": "Chair: Mehdi Tibouchi",
+			    "location": "Corwin Pavillion",
+			    "talks": [{"title": "A Practical Cryptanalysis of the Algebraic Eraser",
+				       "authors": "Adi Ben-Zvi; Simon R. Blackburn; Boaz Tsaban"},
+				      {"title": "Cryptography with Auxiliary Input and Trapdoor from Constant-Noise LPN",
+				       "authors": "Yu Yu; Jiang Zhang"}]
+			   },
+			   {"session_title": "Obfuscation (cont.)",
+			    "moderator": "Chair: Mariana Raykova",
+			    "location": "Lotte Lehmann Hall",
+			    "talks": [{"title": "On Statistically Secure Obfuscation with Approximate Correctness",
+				       "authors": "Zvika Brakerski; Christina Brzuska; Nils Fleischhacker"},
+				      {"title": "Revisiting the Cryptographic Hardness of Finding a Nash Equilibrium",
+				       "authors": "Sanjam Garg; Omkant Pandey; Akshayaram Srinivasan"}]
+			   }]
+	     },
+	     {"time": "15:45 - 16:15",
+ 	      "sessions": [{"session_title": "Break",
+			    "location": "University Center Lagoon Plaza"}]
+	     },
+	     {"time": "16:15 - 17:30",
+	      "sessions": [{"session_title": "Cryptography in Theory and Practice",
+			    "moderator": "Chair: Steve Myers",
+			    "location": "Corwin Pavillion",
+			    "talks": [{"title": "The Multi-User Security of Authenticated Encryption: AES-GCM in TLS 1.3",
+				       "authors": "Mihir Bellare; Björn Tackmann"},
+				      {"title": "A Modular Treatment of Cryptographic APIs: the Symmetric-Key Case",
+				       "authors": "Thomas Shrimpton; Martijn Stam; Bogdan Warinschi"},
+				      {"title": "Encryption Switching Protocols",
+				       "authors": "Geoffroy Couteau; Thomas Peters; David Pointcheval"}
+				     ]
+			   },
+			   {"session_title": "Asymmetric Cryptography and Cryptanalysis II",
+			    "moderator": "Chair: David Pointcheval",
+			    "location": "Lotte Lehmann Hall",
+			    "talks": [{"title": "Cryptanalysis of GGH15 Multilinear Maps",
+				       "authors": "Jean-Sebastien Coron; Moon Sung Lee; Tancrede Lepoint; Mehdi Tibouchi"},
+				      {"title": "Annihilation Attacks for Multilinear Maps: Cryptanalysis of Indistinguishability Obfuscation over GGH13",
+				       "authors": "Eric Miles; Amit Sahai; Mark Zhandry"},
+				      {"title": "Separate Separations of CPA and Circular Security (for Any Cycle Length)",
+				       "authors": "Navid Alamati; Venkata Koppula; Chris Peikert; Brent Waters"}]
+			   }]
+	     },
+	     {"time": "19:00 - 21:00",
+	      "sessions": [{"session_title": "Dinner",
+			    "location": "Anacapa Lawn"}]
+	     }
+	 ]
+	},
+	{"date": "Tuesday, August 16, 2016",
+	 "timeslots": [
+	     {"time": "7:30 - 9:00",
+	      "sessions": [{"session_title": "Breakfast",
+			    "location": "De La Guerra Dining Commons"}]
+	     },
+	     {"time": "9:10 - 10:25",
+	      "sessions": [{"session_title": "Compromised Systems",
+			    "moderator": "Chair: Payman Mohassel",
+			    "location": "Corwin Pavilion",
+			    "talks": [{"title": "Message Transmission with Reverse Firewalls – Secure Communication on Corrupted Machines",
+				       "authors": "Yevgeniy Dodis; Ilya Mironov; Noah Stephens-Davidowitz"},
+				      {"title": "Big-Key Symmetric Encryption: Resisting Key Exfiltration",
+				       "authors": "Mihir Bellare; Daniel Kane; Phillip Rogaway"},
+				      {"title": "Backdoors in Pseudorandom Number Generators: Possibility and Impossibility Results",
+				       "authors": "Jean Paul Degabriele; Kenneth G Paterson; Jacob C. N. Schuldt; Joanne Woodage"}]
+			   },
+			   {"session_title": "Quantum Techniques",
+			    "moderator": "Chair: Abhi Shelat",
+			    "location": "Lotte Lehman Hall",
+			    "talks": [{"title": "Quantum Homomorphic Encryption for Polynomial-sized Circuits",
+				       "authors": "Yfke Dulek; Christian Schaffner; Florian Speelman"},
+				      {"title": "Adaptive Versus Non-Adaptive Strategies in the Quantum Setting with Applications",
+				       "authors": "Frédéric Dupuis; Serge Fehr; Philippe Lamontagne; Louis Salvail"},
+				      {"title": "Semantic Security and Indistinguishability in the Quantum World",
+				       "authors": "Tommaso Gagliardoni; Andreas Hülsing; Christian Schaffner"}]
+			   }]
+	     },
+	     {"time": "10:25 - 10:55",
+	      "sessions": [{"session_title": "Break",
+			    "location": "University Center Lagoon Plaza"}]
+	     },
+	     {"time": "10:55 - 11:45",
+	      "sessions": [{"session_title": "Symmetric Cryptanalysis",
+			    "moderator": "Chair: Matt Robshaw",
+			    "talks": [{"title": "A 270 Attack on the Full MISTY1",
+				       "authors": "Achiya Bar-On; Nathan Keller"},
+				      {"title": "Cryptanalysis of the FLIP Family of Stream Ciphers",
+				       "authors": "Sébastien Duval; Virginie Lallemand; Yann Rotella"}]
+			   },
+			   {"session_title": "Spooky Encryption",
+			    "moderator": "Chair: Jonathan Katz",
+			    "talks": [{"title": "Spooky Encryption and its Applications",
+				       "authors": "Yevgeniy Dodis; Shai Halevi; Ron D. Rothblum; Daniel Wichs"},
+				      {"title": "Spooky Interaction and its Discontents: Compilers for Succinct Two-Message Argument Systems",
+				       "authors": "Cynthia Dwork; Moni Naor; Guy N. Rothblum"}
+				     ]
+			   }]
+	     },
+	     {"time": "11:45 - 11:50",
+	      "sessions": [{"session_title": "Track-switch break"}]
+	     },
+	     {"time": "11:50 - 12:40",
+	      "sessions": [{"session_title": "Crypto 2016 Award Papers",
+			    "location": "Corwin Pavilion",
+			    "moderator": "Chair: Jonathan Katz",
+			    "talks": [{"title": "The Magic of ELFs",
+				       "authors": "Mark Zhandry"},
+				      {"title": "Breaking the Circuit Size Barrier for Secure Computation Under DDH",
+				       "authors": "Elette Boyle; Niv Gilboa; Yuval Ishai"}]
+			   }
+			  ]
+	     },
+	     {"time": "12:40 - 14:00",
+ 	      "sessions": [{"session_title": "Lunch",
+			    "location": "De La Guerra Dining Commons"}]
+	     },
+	     {"time": "14:00 - 18:00",
+ 	      "sessions": [{"session_title": "Free afternoon"}]
+	     },
+	     {"time": "18:00 - 21:00",
+ 	      "sessions": [{"session_title": "Dinner Reception",
+			    "location": "University Center Lagoon Plaza"}]
+	     },
+	     {"time": "19:00 - 19:30",
+ 	      "sessions": [{"session_title": "IACR Award Ceremony",
+			    "location": "University Center Corwin Pavilion"}]
+	     },
+	     {"time": "19:30 - 23:00",
+ 	      "sessions": [{"session_title": "Rump Session",
+			    "location": "University Center Corwin Pavilion",
+			    "moderator": "Chairs: Kenny Paterson and Martijn Stam"}]
+	     }
+	 ]
+	},
+	{"date": "Wednesday, August 17, 2016",
+	 "timeslots": [
+	     {"time": "7:30 - 8:50",
+	      "sessions": [
+		  {"session_title": "Breakfast",
+		   "location": "De La Guerra Dining Commons"}]
+	     },
+	     {"time": "8:50 - 9:40",
+	      "sessions": [{"session_title": "Algorithmic Number Theory",
+			    "moderator": "Chair: Pierre-Alain Fouque",
+			    "location": "Corwin Pavilion",
+			    "talks": [{"title": "Extended Tower Number Field Sieve: A New Complexity for the Medium Prime Case",
+				       "authors": "Taechan Kim; Razvan Barbulescu"},
+				      {"title": "Efficient Algorithms for Supersingular Isogeny Diffie-Hellman",
+				       "authors": "Craig Costello; Patrick Longa; Michael Naehrig"}]
+			   },
+			   {"session_title": "Secure Computation and Protocols II",
+			    "moderator": "Chair: Alessandra Scafuro",
+			    "location": "Lotte Lehmann Hall",
+			    "talks": [{"title": "Adaptively Secure Garbled Circuits from One-Way Functions",
+				       "authors": "Brett Hemenway; Zahra Jafargholi; Rafail Ostrovsky; Alessandra Scafuro; Daniel Wichs"},
+				      {"title": "Rate-1, Linear Time and Additively Homomorphic UC Commitments",
+				       "authors": "Ignacio Cascudo; Ivan Damgård; Bernardo David; Nico Döttling; Jesper Buus Nielsen"}]
+			   }
+			  ]
+	     },
+	     {"time": "9:40 - 9:45",
+	      "sessions": [{"session_title": "Track-switch break"}]
+	     },
+	     {"time": "9:45 - 11:00",
+	      "sessions": [{"session_title": "Symmetric Primitives",
+			    "location": "Corwin Pavilion",
+			    "moderator": "Chair: Joan Daemen",
+			    "talks": [{"title": "New Insights on AES-Like SPN Ciphers",
+				       "authors": "Bing Sun; Meicheng Liu; Jian Guo; Longjiang Qu; Vincent Rijmen"},
+				      {"title": "Lightweight Multiplication in GF(2n) with Applications to MDS Matrices",
+				       "authors": "Christof Beierle; Thorsten Kranz; Gregor Leander"},
+				      {"title": "Another View of the Division Property",
+				       "authors": "Christina Boura; Anne Canteaut"}]
+			   },
+			   {"session_title": "Secure Computation and Protocols II (cont.)",
+			    "location": "Lotte Lehmann Hall",
+			    "moderator": "Chair: Alessandra Scafuro",
+			    "talks": [{"title": "UC Commitments for Modular Protocol Design and Applications to Revocation and Attribute Tokens",
+				       "authors": "Jan Camenisch; Maria Dubovitskaya; Alfredo Rial"},
+				      {"title": "Probabilistic Termination and Composability of Cryptographic Protocols",
+				       "authors": "Ran Cohen; Sandro Coretti; Juan A. Garay; Vassilis Zikas"},
+				      {"title": "Concurrent Non-Malleable Commitments (and More) in 3 Rounds",
+				       "authors": "Michele Ciampi; Rafail Ostrovsky; Luisa Siniscalchi; Ivan Visconti"}]
+			   }]
+	     },
+	     {"time": "11:00 - 11:30",
+ 	      "sessions": [{"session_title": "Coffee Break",
+			    "location": "Plaza outside Campbell Hall"}]
+	     },
+	     {"time": "11:30 - 12:30",
+	      "sessions": [{"session_title": "Crypto 2016 Invited Presentation in Conjunction with CHES 2016",
+			    "location": "Campbell Hall",
+			    "moderator": "Chair: Benedikt Gierlichs",
+			    "talks": [{"authors": "Paul Kocher",
+				       "affiliaton": "Cryptography Research a Division of Rambus"}]
+			   }]
+	     },
+	     {"time": "12:30 - 14:00",
+ 	      "sessions": [{"session_title": "Lunch",
+			    "location": "De La Guerra Dining Commons"}]
+	     },
+	     {"time": "14:00 - 15:15",
+	      "sessions": [{"session_title": "Asymmetric Cryptography",
+			    "moderator": "Chair: Nigel Smart",
+			    "location": "Corwin Pavilion",
+			    "talks": [{"title": "FHE Circuit Privacy Almost For Free",
+				       "authors": "Florian Bourse; Rafael Del Pino; Michele Minelli; Hoeteck Wee"},
+				      {"title": "Optimal Security Proofs for Signatures from Identification Schemes",
+				       "authors": "Eike Kiltz; Daniel Masny; Jiaxin Pan"},
+				      {"title": "Adversary-dependent Lossy Trapdoor Function from Hardness of Factoring Semi-smooth RSA Subgroup Moduli",
+				       "authors": "Takashi Yamakawa; Shota Yamada; Goichiro Hanaoka; Noboru Kunihiro"}]
+			   },
+			   {"session_title": "IBE, ABE, and Functional Encryption",
+			    "moderator": "Chair: Melissa Chase",
+			    "talks": [{"title": "Programmable Hash Functions from Lattices: Short Signatures and IBEs with Small Key Sizes",
+				       "authors": "Jiang Zhang; Yu Chen; Zhenfeng Zhang"},
+				      {"title": "Fully Secure Functional Encryption for Inner Products, from Standard Assumptions",
+				       "authors": "Shweta Agrawal; Benoît Libert; Damien Stehlé"},
+				      {"title": "Circuit-ABE from LWE: Unbounded Attributes and Semi-Adaptive Security",
+				       "authors": "Zvika Brakerski; Vinod Vaikuntanathan"}]
+			   }]
+	     },
+	     {"time": "15:15 - 15:45",
+ 	      "sessions": [{"session_title": "Break",
+			    "location": "University Center Lagoon Plaza"}]
+	     },
+	     {"time": "15:45 - 16:35",
+	      "sessions": [{"session_title": "Symmetric Cryptography",
+			    "moderator": "Chair: Patrick Schaumont",
+			    "location": "Corwin Pavilion",
+			    "talks": [{"title": "Cryptanalysis of a Theorem: Decomposing the Only Known Solution to the Big APN Problem",
+				       "authors": "Léo Perrin; Aleksei Udovenko; Alex Biryukov"},
+				      {"title": "The SKINNY Family of Block Ciphers and its Low-Latency Variant MANTIS",
+				       "authors": "Christof Beierle; Jérémy Jean; Stefan Kölbl; Gregor Leander; Amir Moradi; Thomas Peyrin; Yu Sasaki; Pascal Sasdrich; Siang Meng Sim"}]
+			   },
+			   {"session_title": "Automated Tools and Synthesis",
+			    "moderator": "Chair: Jonathan Katz",
+			    "location": "Lotte Lehmann Hall",
+			    "talks": [{"title": "Design in Type-I, Run in Type-III: Fast and Scalable Bilinear-Type Conversion using Integer Programming",
+				       "authors": "Masayuki Abe; Fumitaka Hoshino; Miyako Ohkubo"},
+				      {"title": "Linicrypt: A Model for Practical Cryptography",
+				       "authors": "Brent Carmer; Mike Rosulek"}]
+			   }]
+	     },
+	     {"time": "16:45 - 17:45",
+ 	      "sessions": [{"session_title": "IACR Membership Meeting",
+			    "location": "University Center Corwin Pavilion"}]
+	     },
+	     {"time": "18:00 - 19:30",
+ 	      "sessions": [{"session_title": "Beach Barbeque",
+			    "location": "Goleta Beach"}]
+	     },
+	     {"time": "19:30 - 22:30",
+ 	      "sessions": [{"session_title": "Crypto Café (with CHES)",
+			    "location": "Anacapa Formal Lounge and Anacapa Front Lawn"}]
+	     }
+	 ]
+	},
+	{"date": "Thursday, August 18, 2016",
+	 "timeslots": [
+	     {"time": "7:30 - 8:50",
+ 	      "sessions": [{"session_title": "Breakfast",
+			    "location": "De La Guerra Dining Commons"}]
+	     },
+	     {"time": "8:50 - 10:05",
+	      "sessions": [{"session_title": "Cryptanalytic Tools",
+			    "moderator": "Chair: Yannick Seurin",
+			    "location": "Corwin Pavilion",
+			    "talks": [{"title": "Automatic Search of Meet-in-the-Middle and Impossible Differential Attacks",
+				       "authors": "Patrick Derbez; Pierre-Alain Fouque"},
+				      {"title": "Memory-Efficient Algorithms for Finding Needles in Haystacks",
+				       "authors": "Itai Dinur; Orr Dunkelman; Nathan Keller; Adi Shamir"},
+				      {"title": "Breaking Symmetric Cryptosystems using Quantum Period Finding",
+				       "authors": "Marc Kaplan; Gaëtan Leurent; Anthony Leverrier; María Naya-Plasencia"}]
+			   },
+			   {"session_title": "Zero Knowledge",
+			    "moderator": "Chair: Mike Rosulek",
+			    "location": "Lotte Lehmann Hall",
+			    "talks": [{"title": "On the Relationship between Statistical Zero-Knowledge and Statistical Randomized Encodings",
+				       "authors": "Benny Applebaum; Pavel Raykov"},
+				      {"title": "How to prove knowledge of small secrets",
+				       "authors": "Carsten Baum; Ivan Damgård; Kasper Green Larsen; Michael Nielsen"},
+				      {"title": "Efficient Zero-Knowledge Proof of Algebraic and Non-Algebraic Statements with Applications to Privacy Preserving Credentials",
+				       "authors": "Melissa Chase; Chaya Ganesh; Payman Mohassel"}]
+			   }]
+	     },
+	     {"time": "10:05 - 10:30",
+	      "sessions": [{"session_title": "Break",
+			    "location": "University Center Lagoon Plaza"}]
+	     },
+	     {"time": "10:30 - 12:10",
+	      "sessions": [{"session_title": "Hardware-oriented Cryptography",
+			    "moderator": "Chair: Elke De Mulder",
+			    "location": "Corwin Pavilion",
+			    "talks": [{"title": "Efficiently Computing Data-Independent Memory-Hard Functions",
+				       "authors": "Joel Alwen; Jeremiah Blocki"},
+				      {"title": "Towards Sound Fresh Re-Keying with Hard (Physical) Learning Problems",
+				       "authors": "Stefan Dziembowski; Sebastian Faust; Gottfried Herold; Anthony Journault; Daniel Masny; François-Xavier Standaert"},
+				      {"title": "ParTI - Towards Combined Hardware Countermeasures against Side-Channel and Fault-Injection Attacks",
+				       "authors": "Tobias Schneider; Amir Moradi; Tim Güneysu"}]
+			   },
+			   {"session_title": "Theory",
+			    "moderator": "Chair: Manoj Prabhakaran",
+			    "location": "Lotte Lehmann Hall",
+			    "talks": [{"title": "Fine-grained Cryptography",
+				       "authors": "Akshay Degwekar; Vinod Vaikuntanathan; Prashant Nalini Vasudevan"},
+				      {"title": "TWORAM: Efficient Oblivious RAM in Two Rounds with Applications to Searchable Encryption",
+				       "authors": "Sanjam Garg; Payman Mohassel; Charalampos Papamanthou"},
+				      {"title": "Bounded Indistinguishability and the Complexity of Recovering Secrets",
+				       "authors": "Andrej Bogdanov; Yuval Ishai; Emanuele Viola; Christopher Williamson"},
+				      {"title": "Two Message Oblivious Evaluation of Cryptographic Functionalities",
+				       "authors": "Nico Doettling; Nils Fleischhacker; Johannes Krupp; Dominique Schröder"}]
+			   }]
+	     },
+	     {"time": "11:45/12:10 – 14:00",
+	      "sessions": [{"session_title": "Lunch",
+			    "location": "De La Guerra Dining Commons"}]
+	     }
+	 ]
+	}
+    ]
+}
