@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title></title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/spacelab/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Extensions of bootstrap -->
+    <link rel="stylesheet" href="./styles/jasny-bootstrap.css" />
+    <link rel="stylesheet" href="./styles/navmenu.css">
+
+    <!-- Styling -->
+    <link href="./styles/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed" rel="stylesheet">
+
+  </head>
+
+  <body data-spy="scroll">
+    <nav id="mainmenu" class="navmenu navmenu-default navmenu-fixed-left offcanvas-sm" role="navigation">
+      <!-- populated by menus.js -->
+    </nav>
+
+    <nav class="navbar navbar-default navbar-fixed-top hidden-md hidden-lg">
+      <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navmenu">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="index.html" id="topNavTitle" class="navbar-brand">
+        <span class="conf_name"></span>
+      </a>
+    </nav>
+
+    <main class="container-fluid">
+
+      <div id="conf_id" class="row">
+        <header class="headerImg">
+          <div class="col-sm-12 headerGradient">
+            <div class="col-sm-6">
+             <h1 class="headerTitle"><span class="conf_name">NAME</span></h1>
+            </div>
+            <div class="col-sm-6">
+              <h3 class="headerInfoTop"><span class="conf_dates">DATES</span></h3>
+              <h3 class="headerInfoBottom"><span class="conf_location">LOCATION</span></h3>
+            </div>
+          </div>
+        </header>
+      </div>
+
+      <div class="row">
+        <article class="col-sm-12 sectionSpacing">
+          <p>
+            <span class="conf_name">CONFERENCE</span> is the 37th International Cryptology Conference. It will be held at the <a href="http://www.ucsb.edu/">University of California, Santa Barbara (UCSB)</a> <span class="conf_dates">DATES</span>. The academic program covers all aspects of cryptology. The conference is sponsored by the <a href="http://www.iacr.org/">International Association for Cryptologic Research (IACR)</a>, in cooperation with the <a href="http://www.cs.ucsb.edu/">Computer Science Department of UCSB</a>.
+          </p>
+          <p>
+            Electronic versions of the proceedings, published by <a href="http://www.springer.com/">Springer</a>, will be provided to all registered attendees at the conference. In addition, paper proceedings can be purchased through online registration.
+          </p>
+        </article>
+      </div>
+
+      <div class="row">
+        <section class="col-sm-6">
+          <div class="panel panel-success">
+            <div class="panel-heading">
+              <h3 class="panel-title">Important Dates</h3>
+            </div>
+            <div class="panel-body">
+              <div class="row">
+                <div class="col-xs-5">
+                  <p class="dateTitle">
+                    Feb 8 2017
+                  </p>
+                </div>
+                <div class="col-xs-7">
+                  <div class="countdown">
+                    <p class="dateText">
+                      <!-- TODO: make glyphicons appear only when countdown reaches...14 days? 30? -->
+                      <!-- <span class="glyphicon glyphicon-alert text-danger" aria-hidden="true"></span> -->
+                      Submission deadline<span id="submission"></span>
+                      <!-- <span class="glyphicon glyphicon-alert text-danger" aria-hidden="true"></span> -->
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <hr />
+              <div class="row">
+                <div class="col-xs-5">
+                  <p class="dateTitle">
+                    May 8 2017
+                  </p>
+                </div>
+                <div class="col-xs-7">
+                  <div class="countdown">
+                    <p class="dateText">
+                      Notification of decision<span id="notDecis"></span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <hr />
+              <div class="row">
+                <div class="col-xs-5">
+                  <p class="dateTitle">
+                    June 5 2017
+                  </p>
+                </div>
+                <div class="col-xs-7">
+                  <div class="countdown">
+                    <p class="dateText">
+                      Proceedings version<span id="procVer"></span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <hr />
+              <div class="row">
+                <div class="col-xs-5">
+                  <p class="dateTitle">
+                    Aug 20-24 2017
+                  </p>
+                </div>
+                <div class="col-xs-7">
+                  <div class="countdown">
+                    <p class="dateText">
+                      Conference<span id="conf"></span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="panel-footer">
+              Please note: all times are in UTC/GMT. To convert this to your local time zone, <a href="http://www.thetimezoneconverter.com/">click here</a>.
+            </div>
+          </div>
+        </section>
+        <section class="col-sm-6">
+          <div class="panel panel-success">
+            <div class="panel-heading">
+              <h3 class="panel-title">Website Updates</h3>
+            </div>
+            <div class="panel-body">
+              <!-- NOTE: add new website updates below this (see installation.md for more information) -->
+              <div class="row">
+                <div class="col-xs-4">
+                  <p class="dateTitle">
+                    Feb 27 2017
+                  </p>
+                </div>
+                <div class="col-xs-8">
+                  <p class="dateText">
+                    Program mock-up added, comprehensive installation docs added
+                  </p>
+                </div>
+              </div>
+              <hr />
+              <div class="row">
+                <div class="col-xs-4">
+                  <p class="dateTitle">
+                    Feb 8 2017
+                  </p>
+                </div>
+                <div class="col-xs-8">
+                  <p class="dateText">
+                    Paper submission period ended
+                  </p>
+                </div>
+              </div>
+              <hr />
+              <div class="row">
+                <div class="col-xs-4">
+                  <p class="dateTitle">
+                    Nov 4 2016
+                  </p>
+                </div>
+                <div class="col-xs-8">
+                  <p class="dateText">
+                    Website launched
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="row">
+        <section class="col-sm-12">
+          <h3 class="pageSubtitle">Sponsors</h3>
+          <a href="https://www.nsf.gov/">
+            <img src="./images/nsf.gif" alt="National Science Foundation logo, a globe with yellow person figures surrounding it" class="sponsorLogo firstLogo" href="./sponsors.html" />
+          </a>
+          <a href="https://www.microsoft.com/research/">
+            <img src="./images/microsoft-research.png" alt="Microsoft Research logo" class="sponsorLogo" href="./sponsors.html" />
+          </a>
+        </section>
+      </div>
+
+      <div class="row">
+        <footer class="col-sm-12 text-center footer">
+          <small><span class="conf_name">CONFERENCE</span></small>
+        </footer>
+      </div>
+
+    </main>
+
+    <!-- Bootstrap scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- Bootstrap plugins -->
+    <script src="./js/jasny-bootstrap.js" type="text/javascript"></script>
+    <script src="./js/hilios-countdown.js" type="text/javascript"></script>
+
+    <!-- Personal scripts -->
+    <script src="./js/menus.js" type="text/javascript"></script>
+    <script src="./js/navTitleFade.js" type="text/javascript"></script>
+    <script src="./js/cryptoCountdowns.js" type="text/javascript"></script>
+
+  </body>
+</html>
