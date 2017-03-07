@@ -62,198 +62,57 @@
         </aside>
       </div>
 
-      <div class="row">
-        <div class="col-xs-12 col-sm-5">
-          <h3 class="pageSubtitle">Sunday August 20 2017</h3>
-        </div>
-      </div>
-
-      <div class="row verticalAlign">
-        <div class="col-xs-2 col-sm-2">
-          <p class="timeSlot">18:00 - 20:00</p>
-        </div>
-        <div class="col-xs-10 col-sm-10">
-          <div class="panel-body mutualEvent">
-            <h4>Welcome Reception</h4>
-            <p class="eventDescr">Sunset Bar, Intercontinental Hotel</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-xs-12 col-sm-5">
-          <hr />
-          <h3 class="pageSubtitle">Monday August 21 2017</h3>
-        </div>
-      </div>
-
-      <!-- TODO: unnest when unnecessary, as shown here -->
-      <div class="row verticalAlign">
-        <div class="col-xs-2 col-sm-2">
-          <p class="timeSlot">8:00 - 9:00</p>
-        </div>
-        <div class="col-xs-10 col-sm-10">
-          <div class="panel-body mutualEvent">
-            <h4>Registration</h4>
-            <p class="eventDescr">Grand Ballroom, Intercontinental Hotel</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-xs-12">
-          <div class="row verticalAlign">
-            <div class="col-xs-2 col-sm-2">
-              <p class="timeSlot">9:00 - 9:30</p>
+      <script id="program-template" type="text/x-handlebars-template">
+        {{#each days}}
+          <div class="row">
+            <div class="col-xs-12 col-sm-5">
+             <hr />
+             <h3 class="pageSubtitle">{{date}}</h3>
             </div>
-            <div class="col-xs-10 col-sm-10">
-              <div class="panel-body mutualEvent">
-                <h4>Opening Remarks</h4>
-                <p class="eventDescr">Corwin Pavilion</p>
-                <p class="eventDescr">Crypto 2016 Chair, Brian LaMacchia</p>
+          </div>
+          {{#each timeslots}}
+            <div class="row">
+              <div class="col-xs-2 col-sm-2">
+                <p class="timeSlot">{{time}}</p>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-xs-12">
-          <div class="row verticalAlign">
-            <div class="col-xs-2 col-sm-2">
-              <p class="timeSlot">9:30 - 10:20</p>
-            </div>
-            <div class="col-xs-10 col-sm-10">
-              <div class="panel-body mutualEvent">
-                <h4>Invited Lecture I</h4>
-                <p class="eventDescr">A Really Big Lecture Hall <a href="#" class="iconLink">
-                  <span class="glyphicon glyphicon-map-marker" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="location"></span>
-                 </a>
-                </p>
-                <p class="eventDescr">Chair: Jung Hee Cheon</p>
-                <p class="eventDescr">The Reality of Cryptographic Deployments on the Internet</p>
-                <p class="eventDescr">Nadia Heninger</p>
-                <a href="https://www.dropbox.com/s/ifbav952rb4cgog/reality.pdf" class="iconLink">
-                  <span class="glyphicon glyphicon-blackboard" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="slides"></span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-xs-12">
-          <div class="row verticalAlign">
-            <div class="col-xs-2 col-sm-2">
-              <p class="timeSlot">10:20 - 10:30</p>
-            </div>
-            <div class="col-xs-10 col-sm-10">
-              <div class="panel-body mutualEvent">
-                <h4>Track-switch break</h4>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-xs-12">
-          <div class="row verticalAlign">
-            <div class="col-xs-2 col-sm-2">
-              <p class="timeSlot dualEventTime">11:00 - 11:50</p>
-            </div>
-            <div class="col-xs-10 col-sm-5">
-              <div class="panel-body track1Event">
+            {{#if twosessions}}
+              <div class="col-xs-10 col-sm-5 track1Event">
                 <h4 class="text-center">
-                  Track 1: Provable Security for Symmetric Cryptography
+                  {{sessions.0.session_title}}
                 </h4>
-                <p class="dualTrackDescr">Chair: Bart Preneel</p>
-                <p class="talkTitle">Key-alternating Ciphers and Key-length Extension: Exact Bounds and Multi-user Security</p>
-                <p class="dualTrackDescr">Viet Tung Hoang; Stefano Tessaro</p>
-                <a href="#" class="iconLink">
-                  <span class="glyphicon glyphicon-file" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="paper"></span>
-                </a>
-                <hr />
-                <p class="talkTitle">Counter-in-Tweak: Authenticated Encryption Modes for Tweakable Block Ciphers</p>
-                <p class="dualTrackDescr">Thomas Peyrin; Yannick Seurin</p>
-                <a href="#" class="iconLink">
-                  <span class="glyphicon glyphicon-file" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="paper"></span>
-                </a>
+                <p class="dualTrackDescr">{{sessions.0.moderator}}</p>
+                <!-- TODO: need for loop to iterate through talks and generate this code block for each -->
+                <p class="talkTitle">{{sessions.0.talks.0.title}}</p>
+                <p class="dualTrackDescr">{{sessions.0.talks.0.authors}}</p>
+                <!-- TODO: symbol links, to papers and so on, would go here (except location, that goes directly after moderator) -->
               </div>
-            </div>
-            <div class="col-xs-2 hidden-sm hidden-md hidden-lg">
-              <p class="timeSlot dualEventTime">11:00 - 11:50</p>
-            </div>
-            <div class="col-xs-10 col-sm-5">
-              <div class="panel-body track2Event">
-                <h4 class="text-center">Track 2: Secure Computation and Protocols I</h4>
-                <p class="dualTrackDescr">Chair Sanjam Garg</p>
-                <p class="talkTitle">Network-Hiding Communication and Applications to Multi-Party Protocols</p>
-                <p class="dualTrackDescr">Martin Hirt; Ueli Maurer; Daniel Tschudi; Vassilis Zikas</p>
-                <hr />
-                <p class="talkTitle">Network Oblivious Transfer</p>
-                <p class="dualTrackDescr">Ranjit Kumaresan; Srinivasan Raghuraman; Adam Sealfon</p>
-                <a href="#" class="iconLink">
-                  <span class="glyphicon glyphicon-facetime-video" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="video"></span>
-                </a>
+              <div class="col-xs-2 hidden-sm hidden-md hidden-lg">
+                <p class="timeSlot">{{time}}</p>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-xs-12">
-          <div class="row verticalAlign">
-            <div class="col-xs-2 col-sm-2">
-              <p class="timeSlot">11:50 - 12:00</p>
-            </div>
-            <div class="col-xs-10 col-sm-10">
-              <div class="panel-body mutualEvent">
-                <h4>Lunch</h4>
-                <p class="eventDescr">De La Guerra Dining Commons</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-xs-12">
-          <div class="row verticalAlign">
-            <div class="col-xs-2 col-sm-2">
-              <p class="timeSlot dualEventTime">14:00 - 14:50</p>
-            </div>
-            <div class="col-xs-10 col-sm-5">
-              <div class="panel-body track1Event">
+              <div class="col-xs-10 col-sm-5 track2Event">
                 <h4 class="text-center">
-                  Track 1: Asymmetric Cryptography and Cryptanalysis I
+                  {{sessions.1.session_title}}
                 </h4>
-                <p class="dualTrackDescr">Chair: Mehdi Tibouchi</p>
-                <p class="talkTitle">A subfield lattice attack on overstretched NTRU assumptions: Cryptanalysis of some FHE and Graded Encoding Schemes</p>
-                <p class="dualTrackDescr">Martin R. Albrecht; Shi Bai; L&eacute;o Ducas</p>
-                <a href="https://www.dropbox.com/s/ifbav952rb4cgog/reality.pdf" class="iconLink">
-                  <span class="glyphicon glyphicon-blackboard" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="slides"></span>
-                </a>
+                <p class="dualTrackDescr">{{sessions.1.moderator}}</p>
+                <!-- TODO: need for loop to iterate through talks and generate this code block for each -->
+                <p class="talkTitle">{{sessions.1.talks.0.title}}</p>
+                <p class="dualTrackDescr">{{sessions.1.talks.0.authors}}</p>
+                <!-- TODO: symbol links, to papers and so on, would go here (except location, that goes directly after moderator) -->
               </div>
-            </div>
-            <div class="col-xs-2 hidden-sm hidden-md hidden-lg">
-              <p class="timeSlot dualEventTime">14:00 - 14:50</p>
-            </div>
-            <div class="col-xs-10 col-sm-5">
-              <div class="panel-body track2Event">
-                <h4 class="text-center">Track 2: Obfuscation</h4>
-                <p class="talkTitle">Universal Obfuscation and Witness Encryption: Boosting Correctness and Combining Security</p>
-                <p class="dualTrackDescr">Prabhanjan Ananth; Aayush Jain; Moni Naor; Amit Sahai; Eylon Yogev</p>
+            {{else}}
+     	        <div class="col-xs-10 col-sm-10 mutualEvent">
+                <h4>{{sessions.0.session_title}}</h4>
+                {{#if sessions.0.location}}
+                  <p class="eventDescr">{{sessions.0.location}}</p>
+                {{/if}}
               </div>
+            {{/if}}
             </div>
-            </div>
-          </div>
-        </div>
-      </div>
+          {{/each}}
+        {{/each}}
+      </script>
 
-      <div class="row">
+      <div id="footer" class="row">
         <footer class="col-sm-12 text-center footer">
           <small><span class="conf_name">CONFERENCE</span></small>
         </footer>
@@ -268,10 +127,14 @@
     <!-- Bootstrap plugins -->
     <script src="./js/jasny-bootstrap.js" type="text/javascript"></script>
 
+    <!-- Handlebars templates -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.6/handlebars.js" type="text/javascript"></script>
+
     <!-- Personal scripts -->
     <script src="./js/menus.js" type="text/javascript"></script>
     <script src="./js/navTitleFade.js" type="text/javascript"></script>
     <script src="./js/tooltips.js" type="text/javascript"></script>
+    <script src="./js/program.js" type="text/javascript"></script>
 
     <!-- Handlebars template for program -->
     <script id="committee-member" type="text/x-handlebars-template">
