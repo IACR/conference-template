@@ -76,35 +76,41 @@
                 <p class="timeSlot">{{time}}</p>
               </div>
             {{#if twosessions}}
-              <div class="col-xs-10 col-sm-5 track1Event">
-                <h4 class="text-center">
-                  {{sessions.0.session_title}}
-                </h4>
-                <p class="dualTrackDescr">{{sessions.0.moderator}}</p>
-                <!-- TODO: need for loop to iterate through talks and generate this code block for each -->
-                <p class="talkTitle">{{sessions.0.talks.0.title}}</p>
-                <p class="dualTrackDescr">{{sessions.0.talks.0.authors}}</p>
-                <!-- TODO: symbol links, to papers and so on, would go here (except location, that goes directly after moderator) -->
+              <div class="col-xs-10 col-sm-5">
+                <div class="track1Event panel-body">
+                  <h4 class="text-center">
+                    {{sessions.0.session_title}}
+                  </h4>
+                  <p class="dualTrackDescr">{{sessions.0.moderator}}</p>
+                  <!-- TODO: need for loop to iterate through talks and generate this code block for each -->
+                  <p class="talkTitle">{{sessions.0.talks.0.title}}</p>
+                  <p class="dualTrackDescr">{{sessions.0.talks.0.authors}}</p>
+                  <!-- TODO: symbol links, to papers and so on, would go here (except location, that goes directly after moderator) -->
+                </div>
               </div>
               <div class="col-xs-2 hidden-sm hidden-md hidden-lg">
                 <p class="timeSlot">{{time}}</p>
               </div>
-              <div class="col-xs-10 col-sm-5 track2Event">
-                <h4 class="text-center">
-                  {{sessions.1.session_title}}
-                </h4>
-                <p class="dualTrackDescr">{{sessions.1.moderator}}</p>
-                <!-- TODO: need for loop to iterate through talks and generate this code block for each -->
-                <p class="talkTitle">{{sessions.1.talks.0.title}}</p>
-                <p class="dualTrackDescr">{{sessions.1.talks.0.authors}}</p>
-                <!-- TODO: symbol links, to papers and so on, would go here (except location, that goes directly after moderator) -->
+              <div class="col-xs-10 col-sm-5">
+                <div class="panel-body track2Event">
+                  <h4 class="text-center">
+                    {{sessions.1.session_title}}
+                  </h4>
+                  <p class="dualTrackDescr">{{sessions.1.moderator}}</p>
+                  <!-- TODO: need for loop to iterate through talks and generate this code block for each -->
+                  <p class="talkTitle">{{sessions.1.talks.0.title}}</p>
+                  <p class="dualTrackDescr">{{sessions.1.talks.0.authors}}</p>
+                  <!-- TODO: symbol links, to papers and so on, would go here (except location, that goes directly after moderator) -->
+                </div>
               </div>
             {{else}}
-     	        <div class="col-xs-10 col-sm-10 mutualEvent">
-                <h4>{{sessions.0.session_title}}</h4>
-                {{#if sessions.0.location}}
-                  <p class="eventDescr">{{sessions.0.location}}</p>
-                {{/if}}
+     	        <div class="col-xs-10 col-sm-10">
+                <div class="panel-body mutualEvent">
+                  <h4>{{sessions.0.session_title}}</h4>
+                  {{#if sessions.0.location}}
+                    <p class="eventDescr">{{sessions.0.location}}</p>
+                  {{/if}}
+                </div>
               </div>
             {{/if}}
             </div>
