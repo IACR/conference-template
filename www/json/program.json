@@ -2,27 +2,32 @@
     "days": [
 	{"date":"Sunday, August 14, 2016",
 	 "timeslots": [
-	     {"time": "17:00 - 20:00",
+	     {"starttime": "17:00",
+	      "endtime": "20:00",
 	      "sessions": [{"session_title": "Registration",
 			    "location": "Anacapa Formal Lounge"}]
 	     },
-	     {"time": "17:30 - 21:30",
+	     {"starttime": "17:30",
+	      "endtime": "21:30",
  	      "sessions": [{"session_title": "Reception Dinner",
 			    "location": "Anacapa Lawn"}]
 	     }]
 	},
 	{"date": "Monday, August 15, 2016",
 	 "timeslots": [
-	     {"time": "7:30 - 8:45",
+	     {"starttime": "7:30",
+        "endtime": "8:45",
 	      "sessions": [{"session_title": "Breakfast",
 			    "location": "De La Guerra Dining Commons"}]
 	     },
-	     {"time": "8:45 - 8:55",
+	     {"starttime": "8:45",
+	      "endtime": "8:55",
 	      "sessions": [{"session_title": "Opening remarks",
 			    "location": "Corwin Pavilion",
 			    "moderator": "Crypto 2016 General Chair, Brian LaMacchia"}]
 	     },
-	     {"time": "9:00-9:50",
+	     {"starttime": "9:00",
+	      "endtime": "9:50",
 	      "sessions": [{"session_title": "Provable Security for Symmetric Cryptography",
 			    "location": "Corwin Pavillion",
 			    "moderator": "Chair: Bart Preneel",
@@ -42,11 +47,13 @@
 			   }
 			  ]
 	     },
-	     {"time": "9:50 - 9:55",
+	     {"starttime": "9:50",
+	      "endtime": "9:55",
 	      "sessions": [{"session_title": "Track-switch break"}
 			  ]
 	     },
-	     {"time": "9:55 - 11:10",
+	     {"starttime": "9:55",
+	      "endtime": "11:10",
 	      "sessions": [{"session_title": "Provable Security for Symmetric Cryptography (cont.)",
 			    "moderator": "Chair: Bart Preneel",
 			    "location": "Corwin Pavillion",
@@ -68,22 +75,26 @@
 				       "authors": "Ivan Damgård; Jesper Buus Nielsen; Antigoni Polychroniadou; Michael Raskin"}]
 			   }]
 	     },
-	     {"time": "11:10 - 11:40",
+	     {"starttime": "11:10",
+	      "endtime": "11:40",
 	      "sessions": [{"session_title": "Break",
 			    "location": "University Center Lagoon Plaza"}]
 	     },
-	     {"time": "11:40 - 12:40",
+	     {"starttime": "11:40",
+	      "endtime": "12:40",
 	      "sessions": [{"session_title": "Crypto 2016 Invited Presentation",
 			    "location": "Corwin Pavilion",
 			    "moderator": "Chair: Matt Robshaw",
 			    "speaker": "Brian Sniffen, Chief Security Architect",
 			    "subtitle": "Akamai Technologies, Inc."}]
 	     },
-	     {"time": "12:40 - 14:00",
+	     {"starttime": "12:40",
+	      "endtime": "14:00",
  	      "sessions": [{"session_title": "Lunch",
 			    "location": "De La Guerra Dining Commons"}]
 	     },
-	     {"time": "14:00 - 14:50",
+	     {"starttime": "14:00",
+	      "endtime": "14:50",
 	      "sessions": [{"session_title": "Asymmetric Cryptography and Cryptanalysis I",
 			    "moderator": "Chair: Mehdi Tibouchi",
 			    "location": "Corwin Pavillion",
@@ -102,10 +113,12 @@
 				     ]
 			   }]
 	     },
-	     {"time": "14:50 - 14:55",
+	     {"starttime": "14:50",
+	      "endtime": "14:55",
 	      "sessions": [{"session_title": "Track-switch break"}]
 	     },
-	     {"time": "14:55 - 15:45",
+	     {"starttime": "14:55",
+	      "endtime": "15:45",
 	      "sessions": [{"session_title": "Asymmetric Cryptography and Cryptanalysis I (cont.)",
 			    "moderator": "Chair: Mehdi Tibouchi",
 			    "location": "Corwin Pavillion",
@@ -123,11 +136,13 @@
 				       "authors": "Sanjam Garg; Omkant Pandey; Akshayaram Srinivasan"}]
 			   }]
 	     },
-	     {"time": "15:45 - 16:15",
+	     {"starttime": "15:45",
+	      "endtime": "16:15",
  	      "sessions": [{"session_title": "Break",
 			    "location": "University Center Lagoon Plaza"}]
 	     },
-	     {"time": "16:15 - 17:30",
+	     {"starttime": "16:15",
+	      "endtime": "17:30",
 	      "sessions": [{"session_title": "Cryptography in Theory and Practice",
 			    "moderator": "Chair: Steve Myers",
 			    "location": "Corwin Pavillion",
@@ -150,7 +165,8 @@
 				       "authors": "Navid Alamati; Venkata Koppula; Chris Peikert; Brent Waters"}]
 			   }]
 	     },
-	     {"time": "19:00 - 21:00",
+	     {"starttime": "19:00",
+	      "endtime": "21:00",
 	      "sessions": [{"session_title": "Dinner",
 			    "location": "Anacapa Lawn"}]
 	     }
@@ -158,11 +174,13 @@
 	},
 	{"date": "Tuesday, August 16, 2016",
 	 "timeslots": [
-	     {"time": "7:30 - 9:00",
+	     {"starttime": "7:30",
+	      "endtime": "9:00",
 	      "sessions": [{"session_title": "Breakfast",
 			    "location": "De La Guerra Dining Commons"}]
 	     },
-	     {"time": "9:10 - 10:25",
+	     {"starttime": "9:10",
+	      "endtime": "10:25",
 	      "sessions": [{"session_title": "Compromised Systems",
 			    "moderator": "Chair: Payman Mohassel",
 			    "location": "Corwin Pavilion",
@@ -184,11 +202,13 @@
 				       "authors": "Tommaso Gagliardoni; Andreas Hülsing; Christian Schaffner"}]
 			   }]
 	     },
-	     {"time": "10:25 - 10:55",
+	     {"starttime": "10:25",
+	      "endtime": "10:55",
 	      "sessions": [{"session_title": "Break",
 			    "location": "University Center Lagoon Plaza"}]
 	     },
-	     {"time": "10:55 - 11:45",
+	     {"starttime": "10:55",
+	      "endtime": "11:45",
 	      "sessions": [{"session_title": "Symmetric Cryptanalysis",
 			    "moderator": "Chair: Matt Robshaw",
 			    "talks": [{"title": "A 270 Attack on the Full MISTY1",
@@ -205,10 +225,12 @@
 				     ]
 			   }]
 	     },
-	     {"time": "11:45 - 11:50",
+	     {"starttime": "11:45",
+	      "endtime": "11:50",
 	      "sessions": [{"session_title": "Track-switch break"}]
 	     },
-	     {"time": "11:50 - 12:40",
+	     {"starttime": "11:50",
+	      "endtime": "12:40",
 	      "sessions": [{"session_title": "Crypto 2016 Award Papers",
 			    "location": "Corwin Pavilion",
 			    "moderator": "Chair: Jonathan Katz",
@@ -219,22 +241,27 @@
 			   }
 			  ]
 	     },
-	     {"time": "12:40 - 14:00",
+	     {"starttime": "12:40",
+	      "endtime": "14:00",
  	      "sessions": [{"session_title": "Lunch",
 			    "location": "De La Guerra Dining Commons"}]
 	     },
-	     {"time": "14:00 - 18:00",
+	     {"starttime": "14:00",
+	      "endtime": "18:00",
  	      "sessions": [{"session_title": "Free afternoon"}]
 	     },
-	     {"time": "18:00 - 21:00",
+	     {"starttime": "18:00",
+	      "endtime": "21:00",
  	      "sessions": [{"session_title": "Dinner Reception",
 			    "location": "University Center Lagoon Plaza"}]
 	     },
-	     {"time": "19:00 - 19:30",
+	     {"starttime": "19:00",
+	      "endtime": "19:30",
  	      "sessions": [{"session_title": "IACR Award Ceremony",
 			    "location": "University Center Corwin Pavilion"}]
 	     },
-	     {"time": "19:30 - 23:00",
+	     {"starttime": "19:30",
+	      "endtime": "23:00",
  	      "sessions": [{"session_title": "Rump Session",
 			    "location": "University Center Corwin Pavilion",
 			    "moderator": "Chairs: Kenny Paterson and Martijn Stam"}]
@@ -243,12 +270,14 @@
 	},
 	{"date": "Wednesday, August 17, 2016",
 	 "timeslots": [
-	     {"time": "7:30 - 8:50",
+	     {"starttime": "7:30",
+	      "endtime": "8:50",
 	      "sessions": [
 		  {"session_title": "Breakfast",
 		   "location": "De La Guerra Dining Commons"}]
 	     },
-	     {"time": "8:50 - 9:40",
+	     {"starttime": "8:50",
+	      "endtime": "9:40",
 	      "sessions": [{"session_title": "Algorithmic Number Theory",
 			    "moderator": "Chair: Pierre-Alain Fouque",
 			    "location": "Corwin Pavilion",
@@ -267,10 +296,12 @@
 			   }
 			  ]
 	     },
-	     {"time": "9:40 - 9:45",
+	     {"starttime": "9:40",
+	      "endtime": "9:45",
 	      "sessions": [{"session_title": "Track-switch break"}]
 	     },
-	     {"time": "9:45 - 11:00",
+	     {"starttime": "9:45",
+	      "endtime": "11:00",
 	      "sessions": [{"session_title": "Symmetric Primitives",
 			    "location": "Corwin Pavilion",
 			    "moderator": "Chair: Joan Daemen",
@@ -292,11 +323,13 @@
 				       "authors": "Michele Ciampi; Rafail Ostrovsky; Luisa Siniscalchi; Ivan Visconti"}]
 			   }]
 	     },
-	     {"time": "11:00 - 11:30",
+	     {"starttime": "11:00",
+	      "endtime": "11:30",
  	      "sessions": [{"session_title": "Coffee Break",
 			    "location": "Plaza outside Campbell Hall"}]
 	     },
-	     {"time": "11:30 - 12:30",
+	     {"starttime": "11:30",
+	      "endtime": "12:30",
 	      "sessions": [{"session_title": "Crypto 2016 Invited Presentation in Conjunction with CHES 2016",
 			    "location": "Campbell Hall",
 			    "moderator": "Chair: Benedikt Gierlichs",
@@ -304,11 +337,13 @@
 				       "affiliaton": "Cryptography Research a Division of Rambus"}]
 			   }]
 	     },
-	     {"time": "12:30 - 14:00",
+	     {"starttime": "12:30",
+	      "endtime": "14:00",
  	      "sessions": [{"session_title": "Lunch",
 			    "location": "De La Guerra Dining Commons"}]
 	     },
-	     {"time": "14:00 - 15:15",
+	     {"starttime": "14:00",
+	      "endtime": "15:15",
 	      "sessions": [{"session_title": "Asymmetric Cryptography",
 			    "moderator": "Chair: Nigel Smart",
 			    "location": "Corwin Pavilion",
@@ -329,11 +364,13 @@
 				       "authors": "Zvika Brakerski; Vinod Vaikuntanathan"}]
 			   }]
 	     },
-	     {"time": "15:15 - 15:45",
+	     {"starttime": "15:15",
+	      "endtime": "15:45",
  	      "sessions": [{"session_title": "Break",
 			    "location": "University Center Lagoon Plaza"}]
 	     },
-	     {"time": "15:45 - 16:35",
+	     {"starttime": "15:45",
+	      "endtime": "16:35",
 	      "sessions": [{"session_title": "Symmetric Cryptography",
 			    "moderator": "Chair: Patrick Schaumont",
 			    "location": "Corwin Pavilion",
@@ -351,15 +388,18 @@
 				       "authors": "Brent Carmer; Mike Rosulek"}]
 			   }]
 	     },
-	     {"time": "16:45 - 17:45",
+	     {"starttime": "16:45",
+	      "endtime": "17:45",
  	      "sessions": [{"session_title": "IACR Membership Meeting",
 			    "location": "University Center Corwin Pavilion"}]
 	     },
-	     {"time": "18:00 - 19:30",
+	     {"starttime": "18:00",
+	      "endtime": "19:30",
  	      "sessions": [{"session_title": "Beach Barbeque",
 			    "location": "Goleta Beach"}]
 	     },
-	     {"time": "19:30 - 22:30",
+	     {"starttime": "19:30",
+	      "endtime": "22:30",
  	      "sessions": [{"session_title": "Crypto Café (with CHES)",
 			    "location": "Anacapa Formal Lounge and Anacapa Front Lawn"}]
 	     }
@@ -367,11 +407,13 @@
 	},
 	{"date": "Thursday, August 18, 2016",
 	 "timeslots": [
-	     {"time": "7:30 - 8:50",
+	     {"starttime": "7:30",
+	      "endtime": "8:50",
  	      "sessions": [{"session_title": "Breakfast",
 			    "location": "De La Guerra Dining Commons"}]
 	     },
-	     {"time": "8:50 - 10:05",
+	     {"starttime": "8:50",
+	      "endtime": "10:05",
 	      "sessions": [{"session_title": "Cryptanalytic Tools",
 			    "moderator": "Chair: Yannick Seurin",
 			    "location": "Corwin Pavilion",
@@ -393,11 +435,13 @@
 				       "authors": "Melissa Chase; Chaya Ganesh; Payman Mohassel"}]
 			   }]
 	     },
-	     {"time": "10:05 - 10:30",
+	     {"starttime": "10:05",
+	      "endtime": "10:30",
 	      "sessions": [{"session_title": "Break",
 			    "location": "University Center Lagoon Plaza"}]
 	     },
-	     {"time": "10:30 - 12:10",
+	     {"starttime": "10:30",
+	      "endtime": "12:10",
 	      "sessions": [{"session_title": "Hardware-oriented Cryptography",
 			    "moderator": "Chair: Elke De Mulder",
 			    "location": "Corwin Pavilion",
@@ -421,7 +465,8 @@
 				       "authors": "Nico Doettling; Nils Fleischhacker; Johannes Krupp; Dominique Schröder"}]
 			   }]
 	     },
-	     {"time": "11:45/12:10 – 14:00",
+	     {"starttime": "12:10",
+	      "endtime": "14:00",
 	      "sessions": [{"session_title": "Lunch",
 			    "location": "De La Guerra Dining Commons"}]
 	     }
