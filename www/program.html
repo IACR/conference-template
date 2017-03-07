@@ -81,7 +81,12 @@
                   <h4 class="text-center">
                     {{sessions.0.session_title}}
                   </h4>
-                  <p class="dualTrackDescr">{{sessions.0.moderator}}</p>
+                  {{#if sessions.0.location}}
+                    <p class="dualTrackDescr">{{sessions.0.location}}</p>
+                  {{/if}}
+                  {{#if sessions.0.moderator}}
+                    <p class="dualTrackDescr">{{sessions.0.moderator}}</p>
+                  {{/if}}
                   {{#each sessions.0.talks}}
                     <p class="talkTitle">{{title}}</p>
                     <p class="dualTrackDescr">{{authors}}</p>
@@ -97,7 +102,12 @@
                   <h4 class="text-center">
                     {{sessions.1.session_title}}
                   </h4>
-                  <p class="dualTrackDescr">{{sessions.1.moderator}}</p>
+                  {{#if sessions.1.location}}
+                    <p class="dualTrackDescr">{{sessions.1.location}}</p>
+                  {{/if}}
+                  {{#if sessions.1.moderator}}
+                    <p class="dualTrackDescr">{{sessions.1.moderator}}</p>
+                  {{/if}}
                   {{#each sessions.1.talks}}
                     <p class="talkTitle">{{title}}</p>
                     <p class="dualTrackDescr">{{authors}}</p>
@@ -111,6 +121,9 @@
                   <h4>{{sessions.0.session_title}}</h4>
                   {{#if sessions.0.location}}
                     <p class="eventDescr">{{sessions.0.location}}</p>
+                  {{/if}}
+                  {{#if sessions.0.moderator}}
+                    <p class="eventDescr">{{sessions.0.moderator}}</p>
                   {{/if}}
                   {{#each sessions.0.talks}}
                     <p class="mutualEventTalkTitle">{{title}}</p>
