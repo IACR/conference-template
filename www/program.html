@@ -82,9 +82,10 @@
                     {{sessions.0.session_title}}
                   </h4>
                   <p class="dualTrackDescr">{{sessions.0.moderator}}</p>
-                  <!-- TODO: need for loop to iterate through talks and generate this code block for each -->
-                  <p class="talkTitle">{{sessions.0.talks.0.title}}</p>
-                  <p class="dualTrackDescr">{{sessions.0.talks.0.authors}}</p>
+                  {{#each sessions.0.talks}}
+                    <p class="talkTitle">{{title}}</p>
+                    <p class="dualTrackDescr">{{authors}}</p>
+                  {{/each}}
                   <!-- TODO: symbol links, to papers and so on, would go here (except location, that goes directly after moderator) -->
                 </div>
               </div>
@@ -97,9 +98,10 @@
                     {{sessions.1.session_title}}
                   </h4>
                   <p class="dualTrackDescr">{{sessions.1.moderator}}</p>
-                  <!-- TODO: need for loop to iterate through talks and generate this code block for each -->
-                  <p class="talkTitle">{{sessions.1.talks.0.title}}</p>
-                  <p class="dualTrackDescr">{{sessions.1.talks.0.authors}}</p>
+                  {{#each sessions.1.talks}}
+                    <p class="talkTitle">{{title}}</p>
+                    <p class="dualTrackDescr">{{authors}}</p>
+                  {{/each}}
                   <!-- TODO: symbol links, to papers and so on, would go here (except location, that goes directly after moderator) -->
                 </div>
               </div>
@@ -110,6 +112,10 @@
                   {{#if sessions.0.location}}
                     <p class="eventDescr">{{sessions.0.location}}</p>
                   {{/if}}
+                  {{#each sessions.0.talks}}
+                    <p class="mutualEventTalkTitle">{{title}}</p>
+                    <p class="eventDescr">{{authors}}</p>
+                  {{/each}}
                 </div>
               </div>
             {{/if}}
