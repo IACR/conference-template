@@ -73,7 +73,7 @@
           {{#each timeslots}}
             <div class="row">
               <div class="col-xs-2 col-sm-2">
-                <p class="timeSlot">{{time}}</p>
+                <p class="timeSlot">{{starttime}}-{{endtime}}</p>
               </div>
             {{#if twosessions}}
               <div class="col-xs-10 col-sm-5">
@@ -89,7 +89,7 @@
                 </div>
               </div>
               <div class="col-xs-2 hidden-sm hidden-md hidden-lg">
-                <p class="timeSlot">{{time}}</p>
+                <p class="timeSlot">{{starttime}}-{{endtime}}</p>
               </div>
               <div class="col-xs-10 col-sm-5">
                 <div class="panel-body track2Event">
