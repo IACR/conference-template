@@ -62,6 +62,40 @@
         </aside>
       </div>
 
+      <!-- TODO: demo of marker size changes, per Mike's request, though these still need to be linked to the json -->
+      <!-- <div class="row">
+        <aside class="col-xs-12">
+          <p class="eventDescr">
+            testing next to eventDescr because why not <a href="#" class="iconLink">
+              <span class="glyphicon glyphicon-map-marker" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="location"></span>
+             </a>
+             <a href="https://www.dropbox.com/s/ifbav952rb4cgog/reality.pdf" class="iconLink">
+               <span class="glyphicon glyphicon-blackboard" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="slides"></span>
+             </a>
+             <a href="#" class="iconLink">
+               <span class="glyphicon glyphicon-file" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="paper"></span>
+             </a>
+             <a href="#" class="iconLink">
+               <span class="glyphicon glyphicon-facetime-video" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="video"></span>
+             </a>
+          </p>
+          <p class="dualTrackDescr">
+            also testing next to dualTrackDescr because I gotta know <a href="#" class="iconLink">
+              <span class="glyphicon glyphicon-map-marker" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="location"></span>
+             </a>
+             <a href="https://www.dropbox.com/s/ifbav952rb4cgog/reality.pdf" class="iconLink">
+               <span class="glyphicon glyphicon-blackboard" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="slides"></span>
+             </a>
+             <a href="#" class="iconLink">
+               <span class="glyphicon glyphicon-file" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="paper"></span>
+             </a>
+             <a href="#" class="iconLink">
+               <span class="glyphicon glyphicon-facetime-video" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="video"></span>
+             </a>
+          </p>
+        </aside>
+      </div> -->
+
       <script id="program-template" type="text/x-handlebars-template">
         {{#each days}}
           <div class="row">
@@ -73,7 +107,7 @@
           {{#each timeslots}}
             <div class="row">
               <div class="col-xs-2 col-sm-2">
-                <p class="timeSlot">{{time}}</p>
+                <p class="timeSlot">{{starttime}}-{{endtime}}</p>
               </div>
             {{#if twosessions}}
               <div class="col-xs-10 col-sm-5">
@@ -81,25 +115,37 @@
                   <h4 class="text-center">
                     {{sessions.0.session_title}}
                   </h4>
-                  <p class="dualTrackDescr">{{sessions.0.moderator}}</p>
-                  <!-- TODO: need for loop to iterate through talks and generate this code block for each -->
-                  <p class="talkTitle">{{sessions.0.talks.0.title}}</p>
-                  <p class="dualTrackDescr">{{sessions.0.talks.0.authors}}</p>
+                  {{#if sessions.0.location}}
+                    <p class="dualTrackDescr">{{sessions.0.location}}</p>
+                  {{/if}}
+                  {{#if sessions.0.moderator}}
+                    <p class="dualTrackDescr">{{sessions.0.moderator}}</p>
+                  {{/if}}
+                  {{#each sessions.0.talks}}
+                    <p class="talkTitle">{{title}}</p>
+                    <p class="dualTrackDescr">{{authors}}</p>
+                  {{/each}}
                   <!-- TODO: symbol links, to papers and so on, would go here (except location, that goes directly after moderator) -->
                 </div>
               </div>
               <div class="col-xs-2 hidden-sm hidden-md hidden-lg">
-                <p class="timeSlot">{{time}}</p>
+                <p class="timeSlot">{{starttime}}-{{endtime}}</p>
               </div>
               <div class="col-xs-10 col-sm-5">
                 <div class="panel-body track2Event">
                   <h4 class="text-center">
                     {{sessions.1.session_title}}
                   </h4>
-                  <p class="dualTrackDescr">{{sessions.1.moderator}}</p>
-                  <!-- TODO: need for loop to iterate through talks and generate this code block for each -->
-                  <p class="talkTitle">{{sessions.1.talks.0.title}}</p>
-                  <p class="dualTrackDescr">{{sessions.1.talks.0.authors}}</p>
+                  {{#if sessions.1.location}}
+                    <p class="dualTrackDescr">{{sessions.1.location}}</p>
+                  {{/if}}
+                  {{#if sessions.1.moderator}}
+                    <p class="dualTrackDescr">{{sessions.1.moderator}}</p>
+                  {{/if}}
+                  {{#each sessions.1.talks}}
+                    <p class="talkTitle">{{title}}</p>
+                    <p class="dualTrackDescr">{{authors}}</p>
+                  {{/each}}
                   <!-- TODO: symbol links, to papers and so on, would go here (except location, that goes directly after moderator) -->
                 </div>
               </div>
@@ -110,6 +156,13 @@
                   {{#if sessions.0.location}}
                     <p class="eventDescr">{{sessions.0.location}}</p>
                   {{/if}}
+                  {{#if sessions.0.moderator}}
+                    <p class="eventDescr">{{sessions.0.moderator}}</p>
+                  {{/if}}
+                  {{#each sessions.0.talks}}
+                    <p class="mutualEventTalkTitle">{{title}}</p>
+                    <p class="eventDescr">{{authors}}</p>
+                  {{/each}}
                 </div>
               </div>
             {{/if}}
@@ -141,18 +194,6 @@
     <script src="./js/navTitleFade.js" type="text/javascript"></script>
     <script src="./js/tooltips.js" type="text/javascript"></script>
     <script src="./js/program.js" type="text/javascript"></script>
-
-    <!-- Handlebars template for program -->
-    <script id="committee-member" type="text/x-handlebars-template">
-      <!-- {{#each committee}}
-        <li class="list-group-item listItems col-sm-4 colFix">
-          <h4 class="list-group-item-heading tableItemTitle">{{name}}</h4>
-          <p class="list-group-item-text listText">
-            {{institution}}
-          </p>
-        </li>
-      {{/each}} -->
-    </script>
 
   </body>
 </html>
