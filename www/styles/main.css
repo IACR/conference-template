@@ -265,22 +265,22 @@ p.priceText {
 
 
 /***** Page-specific: program *****/
-.verticalAlign {
-  /*display: -webkit-box;*/
+/*NOTE: remove once certain that won't need vertical alignment for times*/
+/*.verticalAlign {
   display: -ms-flexbox;
   display: flex;
-  /*-webkit-box-align: center;*/
   -ms-flex-align: center;
   align-items: center;
-}
+}*/
 
 a.iconLink {
-  font-size: 1.7em;
+  font-size: 1.3em;
 }
 
 p.timeSlot {
   font-size: 0.9em;
   text-align: center;
+  margin-top: 25px;
 }
 
 p.talkTitle {
@@ -301,6 +301,12 @@ p.trackSwitch {
 }
 
 p.eventDescr {
+  text-align: center;
+}
+
+p.mutualEventTalkTitle {
+  font-size: 1.1em;
+  font-weight: bold;
   text-align: center;
 }
 
