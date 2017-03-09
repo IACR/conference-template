@@ -12,10 +12,10 @@ $(document).ready(function() {
         }
       }
     }
-    console.log(data);
-
     var theCompiledHtml = theTemplate(data);
-    // console.log(theCompiledHtml);
     $('#footer').before(theCompiledHtml);
+  })
+  .fail(function() {
+    console.log("Houston we have a problem with program.json")
   });
 })
