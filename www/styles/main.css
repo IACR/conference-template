@@ -234,6 +234,13 @@ a#topNavTitle {
 }
 
 
+/***** Page-specific: call for papers *****/
+/* fixes issue of incorrect column wrapping on smaller screens */
+.wrapWell:nth-child(3n+1) {
+  clear: both;
+}
+
+
 /***** Page-specific: registration *****/
 #regTable {
   border: 1px solid rgba(15, 119, 60, 0.2);
