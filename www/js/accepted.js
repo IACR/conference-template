@@ -4,6 +4,8 @@ $(document).ready(function() {
     var theTemplate = Handlebars.compile(theTemplateScript);
     var theCompiledHtml = theTemplate(data);
     $('#accepted').html(theCompiledHtml);
+  })
+  .fail(function() {
+    console.log('Houston, we have a problem with metadata.json. Double-check your syntax and try again.');
   });
-
 })

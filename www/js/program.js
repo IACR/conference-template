@@ -16,6 +16,6 @@ $(document).ready(function() {
     $('#footer').before(theCompiledHtml);
   })
   .fail(function() {
-    console.log("Houston we have a problem with program.json")
+   console.log('Houston, we have a problem with program.json. Double-check your syntax and try again.');
   });
 })
