@@ -31,7 +31,9 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a href="index.html" id="topNavTitle" class="navbar-brand"><span class="conf_name"></span></a>
+      <a href="index.html" id="topNavTitle" class="navbar-brand">
+        <span class="conf_name">CONFERENCE</span>
+      </a>
     </nav>
 
     <div class="container-fluid">
@@ -40,11 +42,17 @@
         <header class="headerImg">
           <div class="col-sm-12 headerGradient">
             <div class="col-sm-6">
-             <h1 class="headerTitle"><span class="conf_name">CONFERENCE</span></h1>
+             <h1 class="headerTitle">
+               <span class="conf_name">CONFERENCE</span>
+             </h1>
             </div>
             <div class="col-sm-6">
-              <h3 class="headerInfoTop"><span class="conf_dates">DATES</span></h3>
-              <h3 class="headerInfoBottom"><span class="conf_location">LOCATION</span></h3>
+              <h3 class="headerInfoTop">
+                <span class="conf_dates">DATES</span>
+              </h3>
+              <h3 class="headerInfoBottom">
+                <span class="conf_location">LOCATION</span>
+              </h3>
             </div>
           </div>
         </header>
@@ -58,7 +66,9 @@
 
       <div class="row">
         <aside class="col-xs-12">
-          <p>All track 1 events will take place in Corwin Pavilion, while all track 2 events are in Lotte Lehmann Hall, unless otherwise noted. Track 1 events have a green background and track 2 events have an orange background. Events for everyone or those that are not assigned to a particular track have a light blue background.</p>
+          <p>
+            All track 1 events will take place in Corwin Pavilion, while all track 2 events are in Lotte Lehmann Hall, unless otherwise noted. Track 1 events have a green background and track 2 events have an orange background. Events for everyone or those that are not assigned to a particular track have a light blue background.
+          </p>
         </aside>
       </div>
 
@@ -101,13 +111,17 @@
           <div class="row">
             <div class="col-xs-12 col-sm-5">
              <hr />
-             <h3 class="pageSubtitle">{{date}}</h3>
+             <h3 class="pageSubtitle">
+               {{date}}
+             </h3>
             </div>
           </div>
           {{#each timeslots}}
             <div class="row">
               <div class="col-xs-2 col-sm-2">
-                <p class="timeSlot">{{starttime}}-{{endtime}}</p>
+                <p class="timeSlot">
+                  {{starttime}}-{{endtime}}
+                </p>
               </div>
             {{#if twosessions}}
               <div class="col-xs-10 col-sm-5">
@@ -116,20 +130,30 @@
                     {{sessions.0.session_title}}
                   </h4>
                   {{#if sessions.0.location}}
-                    <p class="dualTrackDescr">{{sessions.0.location}}</p>
+                    <p class="dualTrackDescr">
+                      {{sessions.0.location}}
+                    </p>
                   {{/if}}
                   {{#if sessions.0.moderator}}
-                    <p class="dualTrackDescr">{{sessions.0.moderator}}</p>
+                    <p class="dualTrackDescr">
+                      {{sessions.0.moderator}}
+                    </p>
                   {{/if}}
                   {{#each sessions.0.talks}}
-                    <p class="talkTitle">{{title}}</p>
-                    <p class="dualTrackDescr">{{authors}}</p>
+                    <p class="talkTitle">
+                      {{title}}
+                    </p>
+                    <p class="dualTrackDescr">
+                      {{authors}}
+                    </p>
                   {{/each}}
                   <!-- TODO: symbol links, to papers and so on, would go here (except location, that goes directly after moderator) -->
                 </div>
               </div>
               <div class="col-xs-2 hidden-sm hidden-md hidden-lg">
-                <p class="timeSlot">{{starttime}}-{{endtime}}</p>
+                <p class="timeSlot">
+                  {{starttime}}-{{endtime}}
+                </p>
               </div>
               <div class="col-xs-10 col-sm-5">
                 <div class="panel-body track2Event">
@@ -137,14 +161,22 @@
                     {{sessions.1.session_title}}
                   </h4>
                   {{#if sessions.1.location}}
-                    <p class="dualTrackDescr">{{sessions.1.location}}</p>
+                    <p class="dualTrackDescr">
+                      {{sessions.1.location}}
+                    </p>
                   {{/if}}
                   {{#if sessions.1.moderator}}
-                    <p class="dualTrackDescr">{{sessions.1.moderator}}</p>
+                    <p class="dualTrackDescr">
+                      {{sessions.1.moderator}}
+                    </p>
                   {{/if}}
                   {{#each sessions.1.talks}}
-                    <p class="talkTitle">{{title}}</p>
-                    <p class="dualTrackDescr">{{authors}}</p>
+                    <p class="talkTitle">
+                      {{title}}
+                    </p>
+                    <p class="dualTrackDescr">
+                      {{authors}}
+                    </p>
                   {{/each}}
                   <!-- TODO: symbol links, to papers and so on, would go here (except location, that goes directly after moderator) -->
                 </div>
@@ -152,16 +184,26 @@
             {{else}}
      	        <div class="col-xs-10 col-sm-10">
                 <div class="panel-body mutualEvent">
-                  <h4>{{sessions.0.session_title}}</h4>
+                  <h4>
+                    {{sessions.0.session_title}}
+                  </h4>
                   {{#if sessions.0.location}}
-                    <p class="eventDescr">{{sessions.0.location}}</p>
+                    <p class="eventDescr">
+                      {{sessions.0.location}}
+                    </p>
                   {{/if}}
                   {{#if sessions.0.moderator}}
-                    <p class="eventDescr">{{sessions.0.moderator}}</p>
+                    <p class="eventDescr">
+                      {{sessions.0.moderator}}
+                    </p>
                   {{/if}}
                   {{#each sessions.0.talks}}
-                    <p class="mutualEventTalkTitle">{{title}}</p>
-                    <p class="eventDescr">{{authors}}</p>
+                    <p class="mutualEventTalkTitle">
+                      {{title}}
+                    </p>
+                    <p class="eventDescr">
+                      {{authors}}
+                    </p>
                   {{/each}}
                 </div>
               </div>
@@ -173,7 +215,9 @@
 
       <div id="footer" class="row">
         <footer class="col-sm-12 text-center footer">
-          <small><span class="conf_name">CONFERENCE</span></small>
+          <small>
+            <span class="conf_name">CONFERENCE</span>
+          </small>
         </footer>
       </div>
 
