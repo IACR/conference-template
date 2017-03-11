@@ -5,7 +5,7 @@ $(document).ready(function() {
     var theCompiledHtml = theTemplate(data);
     $('#committee').html(theCompiledHtml);
   })
-  .fail(function() {
-   console.log('Houston, we have a problem with comm.json. Double-check your syntax and try again.');
+  .fail(function(jqxhr, textStatus, error) {
+    alert('Houston, we have a problem with comm.json. The problem is ' + error);
   });
 });

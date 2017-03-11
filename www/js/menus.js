@@ -6,8 +6,8 @@ $(document).ready(function() {
       $('.conf_dates').text(data.dates);
       $('.conf_location').text(data.location);
     })
-    .fail(function() {
-     console.log('Houston, we have a problem with metadata.json. Double-check your syntax and try again.');
+    .fail(function(jqxhr, textStatus, error) {
+     console.log('Houston, we have a problem with metadata.json. The problem is ' + error);
   });
 
     // fetch a fragment the left nav, and insert it into the DOM.
@@ -15,6 +15,6 @@ $(document).ready(function() {
       $('#mainmenu').html(data);
     },'html');
   }
-  
+
   getInfo();
 });
