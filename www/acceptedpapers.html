@@ -32,7 +32,7 @@
         <span class="icon-bar"></span>
       </button>
       <a href="index.html" id="topNavTitle" class="navbar-brand">
-        <span class="conf_name">CONFERENCE</span>
+        <span class="conf_name"></span>
       </a>
     </nav>
 
@@ -43,15 +43,15 @@
           <div class="col-sm-12 headerGradient">
             <div class="col-sm-6">
              <h1 class="headerTitle">
-               <span class="conf_name">CONFERENCE</span>
+               <span class="conf_name"></span>
              </h1>
             </div>
             <div class="col-sm-6">
               <h3 class="headerInfoTop">
-                <span class="conf_dates">DATES</span>
+                <span class="conf_dates"></span>
               </h3>
               <h3 class="headerInfoBottom">
-                <span class="conf_location">LOCATION</span>
+                <span class="conf_location"></span>
               </h3>
             </div>
           </div>
@@ -65,10 +65,10 @@
       </div>
 
       <div class="row">
-        <section class="col-sm-12">
-          <!-- NOTE: this must be commented out or deleted once the accepted papers are released -->
+        <section class="col-sm-12 countdown">
+          <!-- NOTE: this <p> is meant to be temporary and should be deleted once the accepted papers are released -->
           <p>
-            This information is not yet available. We expect it to be ready sometime after May 8 2017. Thank you for your patience.
+            This information is not yet available. We expect it to be ready after when we notify authors of our decision, which is <span id="notDecis"></span>. Thank you for your patience.
           </p>
 
           <!-- NOTE: this must be uncommented once the accepted papers are released -->
@@ -89,7 +89,7 @@
       <div class="row">
         <footer class="col-sm-12 text-center footer">
           <small>
-            <span class="conf_name">CONFERENCE</span>
+            <span class="conf_name"></span>
           </small>
         </footer>
       </div>
@@ -102,6 +102,7 @@
 
     <!-- Bootstrap plugins -->
     <script src="./js/jasny-bootstrap.js" type="text/javascript"></script>
+    <script src="./js/hilios-countdown.js" type="text/javascript"></script>
 
     <!-- Handlebars -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.6/handlebars.js" type="text/javascript"></script>
@@ -109,10 +110,11 @@
     <!-- Personal scripts -->
     <script src="./js/menus.js" type="text/javascript"></script>
     <script src="./js/navTitleFade.js" type="text/javascript"></script>
+    <script src="./js/cryptoCountdowns.js" type="text/javascript"></script>
     <script src="./js/accepted.js" type="text/javascript"></script>
 
     <!-- Handlebars import of accepted papers -->
-    <!-- NOTE: this must be uncommented once the accepted papers are released -->
+    <!-- NOTE: this must be uncommented once the accepted papers are released/ready to be added to the website -->
     <!-- <script id="acceptedScript" type="text/x-handlebars-template">
       {{#each acceptedPapers}}
         <li>
