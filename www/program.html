@@ -32,7 +32,7 @@
         <span class="icon-bar"></span>
       </button>
       <a href="index.html" id="topNavTitle" class="navbar-brand">
-        <span class="conf_name">CONFERENCE</span>
+        <span class="conf_name"></span>
       </a>
     </nav>
 
@@ -43,15 +43,15 @@
           <div class="col-sm-12 headerGradient">
             <div class="col-sm-6">
              <h1 class="headerTitle">
-               <span class="conf_name">CONFERENCE</span>
+               <span class="conf_name"></span>
              </h1>
             </div>
             <div class="col-sm-6">
               <h3 class="headerInfoTop">
-                <span class="conf_dates">DATES</span>
+                <span class="conf_dates"></span>
               </h3>
               <h3 class="headerInfoBottom">
-                <span class="conf_location">LOCATION</span>
+                <span class="conf_location"></span>
               </h3>
             </div>
           </div>
@@ -59,18 +59,30 @@
       </div>
 
       <div class="row">
-        <div class="col-sm-12 sectionSpacing">
-          <h2 class="indPageTitle">Program</h2>
+        <div class="col-sm-12">
+          <h2 class="indPageTitle">
+            Program
+          </h2>
         </div>
       </div>
 
+      <!-- NOTE: below is standard placeholder text for when the page is under construction. please delete this entire <div class="row"> when ready to add other content -->
       <div class="row">
+        <div class="col-sm-12">
+          <p>
+            This information is not yet available. Thank you for your patience.
+          </p>
+        </div>
+      </div>
+
+      <!-- NOTE: below is placeholder content derived from the Crypto 2016 conference. please uncomment and replace with your own content when ready. this code is here to give you an idea of what the structure of this page has looked like in the past -->
+      <!-- <div class="row">
         <aside class="col-xs-12">
           <p>
             All track 1 events will take place in Corwin Pavilion, while all track 2 events are in Lotte Lehmann Hall, unless otherwise noted. Track 1 events have a green background and track 2 events have an orange background. Events for everyone or those that are not assigned to a particular track have a light blue background.
           </p>
         </aside>
-      </div>
+      </div> -->
 
       <!-- TODO: demo of marker size changes, per Mike's request, though these still need to be linked to the json -->
       <!-- <div class="row">
@@ -106,7 +118,9 @@
         </aside>
       </div> -->
 
-      <script id="program-template" type="text/x-handlebars-template">
+
+      <!-- NOTE: this must be uncommented for the program to function properly, once you have created a program.json. see installation.md for more information -->
+      <!-- <script id="program-template" type="text/x-handlebars-template">
         {{#each days}}
           <div class="row">
             <div class="col-xs-12 col-sm-5">
@@ -146,9 +160,9 @@
                     <p class="dualTrackDescr">
                       {{authors}}
                     </p>
-                  {{/each}}
+                  {{/each}} -->
                   <!-- TODO: symbol links, to papers and so on, would go here (except location, that goes directly after moderator) -->
-                </div>
+                <!-- </div>
               </div>
               <div class="col-xs-2 hidden-sm hidden-md hidden-lg">
                 <p class="timeSlot">
@@ -177,9 +191,9 @@
                     <p class="dualTrackDescr">
                       {{authors}}
                     </p>
-                  {{/each}}
+                  {{/each}} -->
                   <!-- TODO: symbol links, to papers and so on, would go here (except location, that goes directly after moderator) -->
-                </div>
+                <!-- </div>
               </div>
             {{else}}
      	        <div class="col-xs-10 col-sm-10">
@@ -211,12 +225,12 @@
             </div>
           {{/each}}
         {{/each}}
-      </script>
+      </script> -->
 
-      <div id="footer" class="row">
+      <div class="row">
         <footer class="col-sm-12 text-center footer">
           <small>
-            <span class="conf_name">CONFERENCE</span>
+            <span class="conf_name"></span>
           </small>
         </footer>
       </div>
