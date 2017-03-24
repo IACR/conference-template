@@ -1,46 +1,45 @@
-// TODO: import some (all?) of these dates from metadata.json
-
+// commented out all code not currently in use
 
 //countdown for submission deadline
-$('#submission').countdown('2017/02/08 02:00')
-.on('update.countdown', function(event) {
-  var format = ' in %D days %H:%M';
-  if(event.offset.totalDays === 1) {
-    format = ' in %-d day%!d %H:%M';
-  }
-  $(this).html(event.strftime(format));
-})
-.on('finish.countdown', function(event) {
-  $(this).html(' has passed');
-});
+// $('#submission').countdown('2017/02/08 02:00')
+// .on('update.countdown', function(event) {
+//   var format = ' in %D days %H:%M';
+//   if(event.offset.totalDays === 1) {
+//     format = ' in %-d day%!d %H:%M';
+//   }
+//   $(this).html(event.strftime(format));
+// })
+// .on('finish.countdown', function(event) {
+//   $(this).html(' has passed');
+// });
 
 
 //countdown for notification of decision
-$('#notDecis').countdown('2017/05/08')
-.on('update.countdown', function(event) {
-  var format = ' in %D days';
-  if(event.offset.totalDays === 1) {
-    format = ' in %-d day%!d';
-  }
-  $(this).html(event.strftime(format));
-})
-.on('finish.countdown', function(event) {
-  $(this).html('This deadline has passed ');
-});
+// $('#notDecis').countdown('2017/05/08')
+// .on('update.countdown', function(event) {
+//   var format = ' in %D days';
+//   if(event.offset.totalDays === 1) {
+//     format = ' in %-d day%!d';
+//   }
+//   $(this).html(event.strftime(format));
+// })
+// .on('finish.countdown', function(event) {
+//   $(this).html('This deadline has passed ');
+// });
 
 
 //countdown for proceedings version
-$('#procVer').countdown('2017/06/05')
-.on('update.countdown', function(event) {
-  var format = ' due in %D days';
-  if(event.offset.totalDays === 1) {
-    format = ' due in %-d day%!d';
-  }
-  $(this).html(event.strftime(format));
-})
-.on('finish.countdown', function(event) {
-  $(this).html(' has occurred');
-});
+// $('#procVer').countdown('2017/06/05')
+// .on('update.countdown', function(event) {
+//   var format = ' due in %D days';
+//   if(event.offset.totalDays === 1) {
+//     format = ' due in %-d day%!d';
+//   }
+//   $(this).html(event.strftime(format));
+// })
+// .on('finish.countdown', function(event) {
+//   $(this).html(' has occurred');
+// });
 
 // NOTE: there is currently no date for this in the html; don't forget to edit this to match the others
 //countdown for registration date
@@ -72,7 +71,7 @@ $('#procVer').countdown('2017/06/05')
 // });
 
 // countdown for conference date
-$('#conf').countdown('2017/08/14')
+$('#conf').countdown('2017/12/03')
 .on('update.countdown', function(event) {
   var format = ' starts in %D days';
   if(event.offset.totalDays === 1) {
