@@ -1,5 +1,5 @@
 # Conference Website Template
-This is a freelance project for IACR (International Association for Cryptologic Research). If you're trying to install this, please refer to [installation.md](/installation.md).
+This is a freelance project for IACR (International Association for Cryptologic Research). If you're trying to install this, please refer to [installation.md](/installation.md). Please note that you will need to clone a specific branch (choose the one whose name matches your conference). More info in the installation docs.
 
 Currently live preview at (http://geekscat.com/iacr)
 
