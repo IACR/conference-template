@@ -64,24 +64,30 @@
       </div>
 
       <div class="row">
-        <!-- NOTE: this div class must be changed back to col-sm-7 upon addition of important dates -->
-        <section class="col-sm-6">
+        <section class="col-sm-7">
           <h3 class="pageSubtitle">General Information</h3>
+          <!-- TODO: should I also link to the pdf call for papers? where is that, if so? -->
           <p>
-            Original research papers on all technical aspects of cryptology are solicited for submission to <span class="conf_name"></span>, the 23rd Annual International Conference on Theory and Application of Cryptology and Information Security. The conference is organized by the International Association for Cryptologic Research (IACR).
+            <span class="conf_name"></span>, the 23rd Annual International Conference on the Theory and Applications of Cryptology and Information Security, will take place at The University of Hong Kong in <span class="conf_location"></span> on <span class="conf_dates"></span>. The conference is organized by the International Association for Cryptologic Research (IACR). Original research papers on all technical aspects of cryptology are solicited for submission.
+          </p>
+          <!-- TODO: this was in the stipends section. does it need to be included there? I thought it made more sense here, but maybe it just doesn't make sense at all?? -->
+          <p>
+            The primary source of information is the conference website.
           </p>
         </section>
-        <section class="col-sm-6">
+        <section class="col-sm-5">
           <div class="panel panel-success">
             <div class="panel-heading">
               <h3 class="panel-title">
                 Important Dates
               </h3>
             </div>
+            <!-- TODO: get these importing data from metadata.json, using cryptoCountdowns.js. also note that notification date in json and dual notification dates in call for papers need to be resolved -->
             <div class="panel-body">
               <div class="row">
                 <div class="col-xs-5">
                   <p class="dateTitle">
+                    <!-- NOTE: May 19 2017 @ 02:00 UTC -->
                     TBA
                   </p>
                 </div>
@@ -97,13 +103,14 @@
               <div class="row">
                 <div class="col-xs-5">
                   <p class="dateTitle">
+                    <!-- NOTE: July 9 2017 -->
                     TBA
                   </p>
                 </div>
                 <div class="col-xs-7">
                   <div class="countdown">
                     <p class="dateText">
-                      Notification of decision
+                      First round notification
                     </p>
                   </div>
                 </div>
@@ -112,13 +119,46 @@
               <div class="row">
                 <div class="col-xs-5">
                   <p class="dateTitle">
+                    <!-- NOTE: July 14 2017 -->
                     TBA
                   </p>
                 </div>
                 <div class="col-xs-7">
                   <div class="countdown">
                     <p class="dateText">
-                      Camera-ready
+                      Rebuttals due
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <hr />
+              <div class="row">
+                <div class="col-xs-5">
+                  <p class="dateTitle">
+                    <!-- NOTE: August 13 2017 -->
+                    TBA
+                  </p>
+                </div>
+                <div class="col-xs-7">
+                  <div class="countdown">
+                    <p class="dateText">
+                      Final notification
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <hr />
+              <div class="row">
+                <div class="col-xs-5">
+                  <p class="dateTitle">
+                    <!-- NOTE: September 7 2017 -->
+                    TBA
+                  </p>
+                </div>
+                <div class="col-xs-7">
+                  <div class="countdown">
+                    <p class="dateText">
+                      Camera-ready version due
                     </p>
                   </div>
                 </div>
@@ -139,9 +179,9 @@
                 </div>
               </div>
             </div>
-            <!-- <div class="panel-footer">
+            <div class="panel-footer">
               Please note: all times are in UTC/GMT. To convert this to your local time zone, <a href="http://www.thetimezoneconverter.com/">click here</a>.
-            </div> -->
+            </div>
           </div>
         </section>
       </div>
@@ -152,27 +192,46 @@
             Instructions for Authors
           </h3>
           <p>
-            Submissions must not substantially duplicate work that any of the authors has published elsewhere or has submitted in parallel to a journal or any other conference/workshop that has proceedings. IACR reserves the right to share information about submissions with other program committees to detect parallel submissions and the IACR policy on irregular submissions will be strictly enforced. For further details, see <a href="http://www.iacr.org/docs/irregular.pdf">here</a>.
+            Submissions must be at most 30 pages excluding any auxiliary supporting material, and using the Springer LNCS format (in particular, do not modify the LNCS default font sizes or margins). Details on the Springer LNCS format can be obtained <a href="http://www.springer.com/us/computer-science/lncs/conference-proceedings-guidelines">here</a>. It is strongly encouraged that submissions are processed in LaTeX. All submissions must have page numbers (e.g. using LaTeX command <code>\pagestyle{plain}</code>).
           </p>
           <p>
-            The submission must be anonymous with no author names, affiliations or obvious references. The length of the submission must be at most 14 pages excluding references and appendices. For papers that are accepted, the length of the proceedings version will be at most 20 pages in the appropriate format. The text should be in a single column format, in at least 11-point fonts and have reasonable margins, and submitted in PDF format. The submission should begin with a title, a short abstract and a list of keywords. The introduction should summarize the contributions of the paper at the level understandable for a non-expert reader. The reviewers are not required to read appendices and the paper should be intelligible without them. Submissions not meeting these guidelines risk rejection without consideration of their merits.
+            All submissions will be blind-refereed and thus must be anonymous, with no author names, affiliations, acknowledgments, or obvious references. Submissions should begin with a title, a short abstract, and a list of keywords, followed by an introduction, a main body, an appendix (if any), and references, within 30 pages. The introduction should summarize the contributions of the paper at the level understandable for a non-expert reader.
           </p>
           <p>
-            It is strongly encouraged that submissions be processed in LaTeX. Authors should refer to the instructions listed on <a href="http://www.springer.com/us/computer-science/lncs/conference-proceedings-guidelines">Springer's website</a> for typesetting their manuscripts. These instructions are mandatory for the final papers. The papers should be submitted electronically. A detailed description of the electronic submission procedure and the submission link will be announced at the conference homepage at a later date.
+            Optionally, if an author desires, a clearly-marked auxiliary supporting material can be appended to the submission. The auxiliary supporting material has no prescribed form or page limit and might be used, for instance, to provide program code, additional experimental data, etc. Alternatively, the auxiliary supporting material can be submitted as a separate file from the submission. The reviewers are not required to read the auxiliary supporting material and submissions should be intelligible without it. The final published version of an accepted paper is expected to closely match the submitted 30 pages.
           </p>
           <p>
-            The proceedings will be published by Springer-Verlag in the Lecture Notes in Computer Science series and will be available at the conference. Authors of accepted papers must complete the IACR copyright assignment form available <a href="https://www.iacr.org/docs/pub_2013-16.html">here</a> for their work to be published in the proceedings. Authors of accepted papers must guarantee that their paper will be presented at the conference.
+            Submissions must be submitted electronically in PDF format. A detailed description of the electronic submission procedure and a submission link will be available on the <span class="conf_name"></span> website at a later date.
+          </p>
+          <p class="alert alert-success">
+            <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>&ensp;
+            Submissions not meeting these guidelines risk rejection without consideration of their merits.
+          </p>
+          <p>
+            For papers that are accepted, the length of the proceedings version will be at most 30 pages using Springer’s standard fonts, font sizes, and margins. The proceedings will be published by Springer-Verlag in the Lecture Notes in Computer Science series and will be available at the conference. Authors of accepted papers must complete the <a href="http://www.iacr.org/docs/copyright_form.pdf">IACR copyright assignment form</a> for their work to be published in the proceedings. Moreover, authors of accepted papers must guarantee that their paper will be presented at the conference and agree that the presentations will be video recorded during the event. The camera-ready version of the accepted articles will be automatically uploaded to the <a href="https://eprint.iacr.org/">IACR ePrint server</a>.
+          </p>
+          <p>
+            Submissions must not substantially duplicate work that any of the authors has published elsewhere or has submitted in parallel to a journal or any other conference/workshop that has proceedings. Accepted submissions may not appear in any other conference or workshop that has proceedings. IACR reserves the right to share information about submissions with other program committees to detect parallel submissions and the <a href="http://www.iacr.org/docs/irregular.pdf">IACR policy on irregular submissions</a> will be strictly enforced.
+          </p>
+          <p>
+            Articles will not be reviewed by reviewers who have a conflict of interest with at least one author of the submission. As the IACR does not impose a detailed policy on conflicts of interest, the Program co-chairs will decide on what constitutes a conflict according to high standards in terms of scientific integrity (at least colleagues from the same research group, people in a current or very recent student-advisor relationship, close friends, and family members have a conflict).
+          </p>
+          <p>
+            The Program Committee may select a paper for the best paper award.
           </p>
         </section>
       </div>
 
-      <!-- <div class="row">
+      <div class="row">
         <section class="col-sm-6">
           <h3 class="pageSubtitle">
-            Awards
+            Schedule
           </h3>
           <p>
-            The Program Committee may choose one or more papers to receive a "Best Paper" award, and may also choose to aware a prize for the best paper authored exclusively by young researchers (i.e., researchers who have not received a PhD by August 2014). As usual, awards will only be given if deserving papers are identified.
+            <span class="conf_name"></span> will operate a two-round review system with rebuttal phase. In the first round, the program committee selects the submissions which are considered of value for proceeding to the second round, and the authors receive the first round notification with review comments. The authors of the selected submissions are invited to submit a text-based rebuttal letter to the review comments.
+          </p>
+          <p>
+            In the second round the program committee further reviews the selected submissions by taking into account their rebuttal letter, and makes the final decision of acceptance or rejection. The submissions that have not been selected during the first round of reviews may be submitted in other conferences after the first round notification date. The dates for this schedule are listed above.
           </p>
         </section>
         <section class="col-sm-6">
@@ -180,43 +239,44 @@
             Stipends
           </h3>
           <p>
-            The IACR's Cryptography Research Fund allows us to waive the registration fee for all student presenters of an accepted paper. A limited number of stipends will also be available to students unable to obtain funding to attend the conference. Students in under-represented groups are especially encouraged to apply. Requests for waivers and/or stipends should be addressed to the General Chair and not to the Program Chairs.
+            Students whose papers have been accepted and who present their talks at the conference will have their registration waived. A limited number of stipends are available to those unable to obtain funding to attend the conference. Students, whose papers are accepted and who will present the paper themselves, are encouraged to apply if such assistance is needed. Requests for stipends should be sent to the general chair.
           </p>
         </section>
-      </div> -->
+      </div>
 
-      <!-- <div class="row">
+      <div class="row">
         <section class="col-sm-12">
           <h3 class="pageSubtitle">
             Program Committee
           </h3>
         </section>
-      </div> -->
+      </div>
 
-      <!-- <div class="row">
+      <!-- TODO: Celine Blondeau, Chris Brzuska, Steven Galbraith, Peter Gazi*, Jeremy Jean, Giles Van Assche, not in cryptodb. added in manually, left ids blank -->
+      <div class="row">
         <section class="col-sm-12">
-          <ul class="list-group" id="committee"> -->
+          <ul class="list-group" id="committee">
             <!-- Handlebars import of PC members -->
-            <!-- <script id="committee-member" type="text/x-handlebars-template">
+            <script id="committee-member" type="text/x-handlebars-template">
               {{#each committee}}
                 <li class="list-group-item listItems col-sm-4 wrapWell">
                   <h4 class="list-group-item-heading tableItemTitle">
                     {{name}}
                   </h4>
                   <p class="list-group-item-text listText">
-                    {{institution}}
+                    {{affiliation}}
                   </p>
                 </li>
               {{/each}}
             </script>
           </ul>
         </section>
-      </div> -->
+      </div>
 
       <div class="row">
         <div class="col-sm-12 text-center">
           <h3 class="pageSubtitle">
-            General Chairs
+            General Co-Chairs
           </h3>
         </div>
       </div>
@@ -227,22 +287,18 @@
             Duncan Wong
           </h4>
           <p class="text-center">
+            <!-- NOTE: affiliation differs in call for papers -->
             ASTRI<br/>
-            5/F, Photonics Centre<br/>
-            2 Science Park East Avenue<br/>
-            Hong Kong Science Park<br/>
-            Shatin, Hong Kong
+            Hong Kong, China
           </p>
         </aside>
         <aside class="col-sm-4 text-center">
           <h4 class="tableItemTitle">
-            S.M. Yiu
+            Siu Ming Yiu
           </h4>
           <p class="text-center">
-            Department of Computer Science<br/>
-            Rm 301 Chow Yei Ching Building<br/>
             The University of Hong Kong<br/>
-            Pokfulam Road, Hong Kong
+            China
           </p>
         </aside>
       </div>
@@ -252,6 +308,7 @@
           <a href="mailto:asiacrypt2017@iacr.org">
             <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
           </a>&nbsp;
+          <!-- TODO: this address differs in the call for papers -->
           asiacrypt2017@iacr.org
         </div>
       </div>
@@ -271,9 +328,7 @@
           </h4>
           <p class="text-center">
             Kyushu University<br/>
-            Institute of Mathematics for Industry<br/>
-            744, Motooka, Nishi-ku, Fukuoka<br/>
-            819-0395, Japan
+            Japan
           </p>
         </aside>
         <aside class="col-sm-4 text-center">
@@ -282,10 +337,7 @@
           </h4>
           <p class="text-center">
             Nanyang Technological University<br/>
-            Division of Mathematical Sciences<br/>
-            School of Physical &amp; Mathematical Sciences<br/>
-            College of Science<br/>
-            50 Nanyang Avenue, Singapore 639798
+            Singapore
           </p>
         </aside>
       </div>
@@ -295,6 +347,7 @@
           <a href="mailto:asiacrypt2017programchairs@iacr.org">
             <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
           </a>&nbsp;
+          <!-- TODO: this address differs in the call for papers -->
           asiacrypt2017programchairs@iacr.org
         </div>
       </div>
