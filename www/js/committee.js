@@ -6,6 +6,6 @@ $(document).ready(function() {
     $('#committee').html(theCompiledHtml);
   })
   .fail(function(jqxhr, textStatus, error) {
-    alert('Houston, we have a problem with comm.json. The problem is ' + error);
+    alert('There is a problem with comm.json. The problem is ' + error);
   });
 });

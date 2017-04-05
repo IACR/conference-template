@@ -7,7 +7,7 @@ $(document).ready(function() {
       $('.conf_location').text(data.location);
     })
     .fail(function(jqxhr, textStatus, error) {
-     console.log('Houston, we have a problem with metadata.json. The problem is ' + error);
+     console.log('There is a problem with metadata.json. The problem is ' + error);
   });
 
     // fetch a fragment the left nav, and insert it into the DOM.

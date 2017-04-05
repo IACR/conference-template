@@ -25,7 +25,7 @@ $('#notDecis').countdown('2017/05/08')
   $(this).html(event.strftime(format));
 })
 .on('finish.countdown', function(event) {
-  $(this).html('This deadline has passed ');
+  $(this).html(' has passed ');
 });
 
 
@@ -39,7 +39,7 @@ $('#procVer').countdown('2017/06/05')
   $(this).html(event.strftime(format));
 })
 .on('finish.countdown', function(event) {
-  $(this).html(' has occurred');
+  $(this).html(' has passed');
 });
 
 // NOTE: there is currently no date for this in the html; don't forget to edit this to match the others
@@ -81,5 +81,5 @@ $('#conf').countdown('2017/08/14')
   $(this).html(event.strftime(format));
 })
 .on('finish.countdown', function(event) {
-  $(this).html('has passed');
+  $(this).html(' has passed');
 });
