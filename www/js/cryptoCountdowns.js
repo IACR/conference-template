@@ -88,5 +88,5 @@ $.getJSON('./json/metadata.json', function(data) {
   });
 })
 .fail(function(jqxhr, textStatus, error) {
-  console.log('There\'s an issue with metadata.json. The problem is ' + error);
+  console.log('There is an issue with metadata.json. The problem is ' + error);
 });
