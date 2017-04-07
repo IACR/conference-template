@@ -330,3 +330,11 @@ p.mutualEventTalkTitle {
 p.dualTrackDescr {
   text-align: left;
 }
+
+span.authorName:after {
+  content: ',';
+}
+
+span.authorName:last-of-type:after {
+  content: '';
+}
