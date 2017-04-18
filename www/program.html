@@ -67,13 +67,13 @@
       </div>
 
       <!-- NOTE: below is standard placeholder text for when the page is under construction. please delete this entire <div class="row"> when ready to add other content -->
-      <div class="row">
+      <!-- <div class="row">
         <div class="col-sm-12">
           <p>
             This information is not yet available. Thank you for your patience.
           </p>
         </div>
-      </div>
+      </div> -->
 
       <!-- NOTE: below is placeholder content derived from the Crypto 2016 conference. please uncomment and replace with your own content when ready. this code is here to give you an idea of what the structure of this page has looked like in the past -->
       <!-- <div class="row">
@@ -120,7 +120,7 @@
 
 
       <!-- NOTE: this must be uncommented for the program to function properly, once you have created a program.json. see installation.md for more information -->
-      <!-- <script id="program-template" type="text/x-handlebars-template">
+      <script id="program-template" type="text/x-handlebars-template">
         {{#each days}}
           <div class="row">
             <div class="col-xs-12 col-sm-5">
@@ -143,9 +143,9 @@
                   <h4 class="text-center">
                     {{sessions.0.session_title}}
                   </h4>
-                  {{#if sessions.0.location}}
+                  {{#if sessions.0.location.name.name}}
                     <p class="dualTrackDescr">
-                      {{sessions.0.location}}
+                      {{sessions.0.location.name.name}}
                     </p>
                   {{/if}}
                   {{#if sessions.0.moderator}}
@@ -158,11 +158,13 @@
                       {{title}}
                     </p>
                     <p class="dualTrackDescr">
-                      {{authors}}
+                      {{#each authors}}
+                        <span class="authorName">{{name}}</span>
+                      {{/each}}
                     </p>
-                  {{/each}} -->
+                  {{/each}}
                   <!-- TODO: symbol links, to papers and so on, would go here (except location, that goes directly after moderator) -->
-                <!-- </div>
+                </div>
               </div>
               <div class="col-xs-2 hidden-sm hidden-md hidden-lg">
                 <p class="timeSlot">
@@ -174,9 +176,9 @@
                   <h4 class="text-center">
                     {{sessions.1.session_title}}
                   </h4>
-                  {{#if sessions.1.location}}
+                  {{#if sessions.1.location.name}}
                     <p class="dualTrackDescr">
-                      {{sessions.1.location}}
+                      {{sessions.1.location.name}}
                     </p>
                   {{/if}}
                   {{#if sessions.1.moderator}}
@@ -189,11 +191,13 @@
                       {{title}}
                     </p>
                     <p class="dualTrackDescr">
-                      {{authors}}
+                      {{#each authors}}
+                        <span class="authorName">{{name}}</span>
+                      {{/each}}
                     </p>
-                  {{/each}} -->
+                  {{/each}}
                   <!-- TODO: symbol links, to papers and so on, would go here (except location, that goes directly after moderator) -->
-                <!-- </div>
+                </div>
               </div>
             {{else}}
      	        <div class="col-xs-10 col-sm-10">
@@ -201,9 +205,9 @@
                   <h4>
                     {{sessions.0.session_title}}
                   </h4>
-                  {{#if sessions.0.location}}
+                  {{#if sessions.0.location.name}}
                     <p class="eventDescr">
-                      {{sessions.0.location}}
+                      {{sessions.0.location.name}}
                     </p>
                   {{/if}}
                   {{#if sessions.0.moderator}}
@@ -216,7 +220,9 @@
                       {{title}}
                     </p>
                     <p class="eventDescr">
-                      {{authors}}
+                      {{#each authors}}
+                        <span class="authorName">{{name}}</span>
+                      {{/each}}
                     </p>
                   {{/each}}
                 </div>
@@ -225,10 +231,10 @@
             </div>
           {{/each}}
         {{/each}}
-      </script> -->
+      </script>
 
       <div class="row">
-        <footer class="col-sm-12 text-center footer">
+        <footer class="col-sm-12 text-center footer" id="footer">
           <small>
             <span class="conf_name"></span>
           </small>

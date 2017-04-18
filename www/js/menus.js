@@ -5,6 +5,7 @@ $(document).ready(function() {
       $('.conf_name').text(data.shortName);
       $('.conf_dates').text(data.dates);
       $('.conf_location').text(data.location);
+      $('.conf_start').text(data.startdate);
     })
     .fail(function(jqxhr, textStatus, error) {
      console.log('There is a problem with metadata.json. The problem is ' + error);

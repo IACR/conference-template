@@ -1,6 +1,19 @@
 {
- "fullName": "Crypto 2017",
- "shortName": "Crypto 2017",
- "dates": "August 20-24 2017",
- "location": "Santa Barbara, CA, USA"
+  "id": 3547,
+  "name": "Asiacrypt 2017",
+  "shortName": "Asiacrypt 2017",
+  "dates": "December 3-7 2017",
+  "location": "Hong Kong, China",
+  "startdate": "2017-12-03",
+  "enddate": "2017-12-07",
+  "city": "Hong Kong",
+  "country": "China",
+  "submitdate": "2017-05-19 02:00:00",
+  "firstRound": "2017-07-09",
+  "rebuttalDue": "2017-07-14",
+  "finalNotification": "2017-08-13",
+  "cameraReady": "2017-09-07",
+  "latitude": 114.174695,
+  "longitude": 22.2783151,
+  "_comment": "Be careful editing this file. It must be valid JSON."
 }
