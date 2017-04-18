@@ -121,18 +121,17 @@
       <!-- NOTE: this must be uncommented for the program to function properly, once you have created a program.json. see installation.md for more information -->
       <div class="row">
         <div class="col-xs-12">
+          <!-- TODO: issue appears to be single track events only that occur after dual track events, then problem cascades down rest of page unless new date is found. BUT problem is not found on 8-17 until after several of these events have occurred, so maybe it's somehow a json issue?? added two divs above to keep text from running off page, and added row below to encapsulate time slot, but now the event descr backgrounds run off the page...better than text but still -->
           <script id="program-template" type="text/x-handlebars-template">
             {{#each days}}
-              <!-- <div class="row"> -->
                 <div class="col-xs-12 col-sm-12">
                  <hr />
                  <h3 class="pageSubtitle">
                    {{date}}
                  </h3>
                 </div>
-              <!-- </div> -->
               {{#each timeslots}}
-                <!-- <div class="row"> -->
+                <div class="row">
                   <div class="col-xs-2 col-sm-2">
                     <p class="timeSlot">
                       {{starttime}}-{{endtime}}
@@ -167,14 +166,13 @@
                       <!-- TODO: symbol links, to papers and so on, would go here (except location, that goes directly after moderator) -->
                     </div>
                   </div>
-                  <!-- TODO: I think the sizing problem stems from this, because hiding this no longer works?? -->
                   <div class="col-xs-2 hidden-sm hidden-md hidden-lg">
                     <p class="timeSlot">
                       {{starttime}}-{{endtime}}
                     </p>
                   </div>
                   <div class="col-xs-10 col-sm-5">
-                    <div class="panel-body track2Event">
+                    <div class="track2Event panel-body">
                       <h4 class="text-center">
                         {{sessions.1.session_title}}
                       </h4>
@@ -230,7 +228,7 @@
                     </div>
                   </div>
                 {{/if}}
-                <!-- </div> -->
+                </div>
               {{/each}}
             {{/each}}
           </script>
