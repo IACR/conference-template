@@ -13,7 +13,6 @@ $(document).ready(function() {
       }
     }
     var theCompiledHtml = theTemplate(data);
-    console.log(theCompiledHtml);
     $('#footer').before(theCompiledHtml);
   })
   .fail(function(jqxhr, textStatus, error) {
