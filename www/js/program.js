@@ -13,8 +13,8 @@ $(document).ready(function() {
       }
     }
     var theCompiledHtml = theTemplate(data);
-    console.log(theCompiledHtml);
-    $('#footer').before(theCompiledHtml);
+    var renderedProgram = document.getElementById('renderedProgram');
+    renderedProgram.innerHTML = theCompiledHtml
   })
   .fail(function(jqxhr, textStatus, error) {
    console.log('There is a problem with program.json. The problem is ' + error);
