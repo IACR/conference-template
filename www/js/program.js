@@ -14,7 +14,7 @@ $(document).ready(function() {
     }
     var theCompiledHtml = theTemplate(data);
     var renderedProgram = document.getElementById('renderedProgram');
-    renderedProgram.innerHTML = theCompiledHtml
+    renderedProgram.innerHTML = theCompiledHtml;
   })
   .fail(function(jqxhr, textStatus, error) {
    console.log('There is a problem with program.json. The problem is ' + error);
