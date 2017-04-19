@@ -167,73 +167,110 @@
                   {{/each}}
                   <!-- TODO: symbol links, to papers and so on, would go here (except location, that goes directly after moderator) -->
                 </div>
-              </div>
-              <div class="col-xs-2 hidden-sm hidden-md hidden-lg">
-                <p class="timeSlot">
-                  {{starttime}}-{{endtime}}
-                </p>
-              </div>
-              <div class="col-xs-10 col-sm-5">
-                <div class="panel-body track2Event">
-                  <h4 class="text-center">
-                    {{sessions.1.session_title}}
-                  </h4>
-                  {{#if sessions.1.location.name}}
-                    <p class="dualTrackDescr">
-                      {{sessions.1.location.name}}
+              {{#each timeslots}}
+                <div class="row">
+                  <div class="col-xs-2 col-sm-2">
+                    <p class="timeSlot">
+                      {{starttime}}-{{endtime}}
                     </p>
-                  {{/if}}
-                  {{#if sessions.1.moderator}}
-                    <p class="dualTrackDescr">
-                      {{sessions.1.moderator}}
-                    </p>
-                  {{/if}}
-                  {{#each sessions.1.talks}}
-                    <p class="talkTitle">
-                      {{title}}
-                    </p>
-                    <p class="dualTrackDescr">
-                      {{#each authors}}
-                        <span class="authorName">{{name}}</span>
+                  </div>
+                {{#if twosessions}}
+                  <div class="col-xs-10 col-sm-5">
+                    <div class="track1Event panel-body">
+                      <h4 class="text-center">
+                        {{sessions.0.session_title}}
+                      </h4>
+                      {{#if sessions.0.location.name.name}}
+                        <p class="dualTrackDescr">
+                          {{sessions.0.location.name.name}}
+                        </p>
+                      {{/if}}
+                      {{#if sessions.0.moderator}}
+                        <p class="dualTrackDescr">
+                          {{sessions.0.moderator}}
+                        </p>
+                      {{/if}}
+                      {{#each sessions.0.talks}}
+                        <p class="talkTitle">
+                          {{title}}
+                        </p>
+                        <p class="dualTrackDescr">
+                          {{#each authors}}
+                            <span class="authorName">{{name}}</span>
+                          {{/each}}
+                        </p>
                       {{/each}}
+                      <!-- TODO: symbol links, to papers and so on, would go here (except location, that goes directly after moderator) -->
+                    </div>
+                  </div>
+                  <div class="col-xs-2 hidden-sm hidden-md hidden-lg">
+                    <p class="timeSlot">
+                      {{starttime}}-{{endtime}}
                     </p>
-                  {{/each}}
-                  <!-- TODO: symbol links, to papers and so on, would go here (except location, that goes directly after moderator) -->
-                </div>
-              </div>
-            {{else}}
-     	        <div class="col-xs-10 col-sm-10">
-                <div class="panel-body mutualEvent">
-                  <h4>
-                    {{sessions.0.session_title}}
-                  </h4>
-                  {{#if sessions.0.location.name}}
-                    <p class="eventDescr">
-                      {{sessions.0.location.name}}
-                    </p>
-                  {{/if}}
-                  {{#if sessions.0.moderator}}
-                    <p class="eventDescr">
-                      {{sessions.0.moderator}}
-                    </p>
-                  {{/if}}
-                  {{#each sessions.0.talks}}
-                    <p class="mutualEventTalkTitle">
-                      {{title}}
-                    </p>
-                    <p class="eventDescr">
-                      {{#each authors}}
-                        <span class="authorName">{{name}}</span>
+                  </div>
+                  <div class="col-xs-10 col-sm-5">
+                    <div class="track2Event panel-body">
+                      <h4 class="text-center">
+                        {{sessions.1.session_title}}
+                      </h4>
+                      {{#if sessions.1.location.name}}
+                        <p class="dualTrackDescr">
+                          {{sessions.1.location.name}}
+                        </p>
+                      {{/if}}
+                      {{#if sessions.1.moderator}}
+                        <p class="dualTrackDescr">
+                          {{sessions.1.moderator}}
+                        </p>
+                      {{/if}}
+                      {{#each sessions.1.talks}}
+                        <p class="talkTitle">
+                          {{title}}
+                        </p>
+                        <p class="dualTrackDescr">
+                          {{#each authors}}
+                            <span class="authorName">{{name}}</span>
+                          {{/each}}
+                        </p>
                       {{/each}}
-                    </p>
-                  {{/each}}
+                      <!-- TODO: symbol links, to papers and so on, would go here (except location, that goes directly after moderator) -->
+                    </div>
+                  </div>
+                {{else}}
+         	        <div class="col-xs-10 col-sm-10">
+                    <div class="panel-body mutualEvent">
+                      <h4>
+                        {{sessions.0.session_title}}
+                      </h4>
+                      {{#if sessions.0.location.name}}
+                        <p class="eventDescr">
+                          {{sessions.0.location.name}}
+                        </p>
+                      {{/if}}
+                      {{#if sessions.0.moderator}}
+                        <p class="eventDescr">
+                          {{sessions.0.moderator}}
+                        </p>
+                      {{/if}}
+                      {{#each sessions.0.talks}}
+                        <p class="mutualEventTalkTitle">
+                          {{title}}
+                        </p>
+                        <p class="eventDescr">
+                          {{#each authors}}
+                            <span class="authorName">{{name}}</span>
+                          {{/each}}
+                        </p>
+                      {{/each}}
+                    </div>
+                  </div>
+                {{/if}}
                 </div>
-              </div>
-            {{/if}}
-            </div>
-          {{/each}}
-        {{/each}}
-      </script>
+              {{/each}}
+            {{/each}}
+          </script>
+        </div>
+      </div>
 
       <div class="row">
         <footer class="col-sm-12 text-center footer">

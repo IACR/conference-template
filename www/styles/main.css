@@ -272,7 +272,7 @@ p.priceText {
 
 
 /***** Page-specific: program *****/
-/*NOTE: remove once certain that won't need vertical alignment for times*/
+/*NOTE: remove once finalized that vertical alignment for times is unnecessary*/
 /*.verticalAlign {
   display: -ms-flexbox;
   display: flex;
