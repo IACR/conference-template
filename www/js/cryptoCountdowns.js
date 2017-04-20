@@ -38,9 +38,9 @@ $.getJSON('./json/metadata.json', function(data) {
   //countdown for rebuttals due
   $('#rebuttals').countdown(countRebuttal)
   .on('update.countdown', function(event) {
-    var format = ' due in %D days';
+    var format = ' due in %D days %H:%M';
     if(event.offset.totalDays === 1) {
-      format = ' due in %-d day%!d';
+      format = ' due in %-d day%!d %H:%M';
     }
     $(this).html(event.strftime(format));
   })
