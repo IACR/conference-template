@@ -32,7 +32,7 @@ Make sure your file is encoded as UTF-8.
 ___
 
 ### Adding your page content to individual pages (``*.html``)
-All pages have included boilerplate content from the CRYPTO 2017 conference. You will need to go through each individual page and edit content that does not pertain to your conference, as well as add your own information.
+All pages have included boilerplate content, sometimes based on other conferences hosted by IACR. You will need to go through each individual page and edit content that does not pertain to your conference, as well as add your own information.
 
 While we have tried our best to remove all conference-specific references from the HTML and have these imported from JSON, we *strongly* recommend proofreading the HTML to make sure all content relates to your specific conference.
 
