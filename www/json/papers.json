@@ -1,11 +1,11 @@
 { "acceptedPapers": [
-  {"title": "insert paper title here",
-	 "author": "insert author names here",
-   "institution": "insert institution names/affiliations"},
-  {"title": "insert paper title here",
-   "author": "insert author names here",
-   "institution": "insert institution names/affiliations"},
-  {"title": "insert paper title here",
-   "author": "insert author names here",
-   "institution": "insert institution names/affiliations"}
+  {"title": "Example Paper Title 1",
+	 "author": "Author Lastname, Second Author, Student Author",
+   "institution": "University of Computer Stuff, Prague, Austria"},
+  {"title": "Extra Jazzy Paper Title",
+   "author": "Professor Author",
+   "institution": "University of Smart Scientists (USS), London, England"},
+  {"title": "A Third Paper Title",
+   "author": "Author Researcher, Smart Human, Prolific Writer",
+   "institution": "Institute of Code and Innovation (ICI), Arizona, United States"}
 ]}

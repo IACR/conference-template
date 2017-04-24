@@ -3,6 +3,7 @@ $(document).ready(function() {
     $.getJSON('./json/metadata.json', function(data) {
       document.title = data.shortName;
       $('.conf_name').text(data.shortName);
+      $('.long_conf').text(data.name);
       $('.conf_dates').text(data.dates);
       $('.conf_location').text(data.location);
       $('.conf_start').text(data.startdate);

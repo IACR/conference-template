@@ -11,7 +11,7 @@ Log into the server and cd to a temporary directory. Type:
 
 This creates a copy of the files for the site in your current directory. All files in the /www subdirectory should be moved to location where your web server will serve the content from. We’ll call that directory WebHome. Once you move the files to the subdirectory WebHome, you should cd there.
 
-Verify that the web server is serving from there by visiting the appropriate URL in your browser. You should see the CRYPTO 2017 website. Once you’ve verified it’s serving correctly, you can begin to edit the relevant files.
+Verify that the web server is serving from there by visiting the appropriate URL in your browser. You should see the conference demo website. Once you’ve verified it’s serving correctly, you can begin to edit the relevant files.
 
 ___
 
@@ -32,7 +32,7 @@ Make sure your file is encoded as UTF-8.
 ___
 
 ### Adding your page content to individual pages (``*.html``)
-All pages have included boilerplate content from the CRYPTO 2017 conference. You will need to go through each individual page and edit content that does not pertain to your conference, as well as add your own information.
+All pages have included boilerplate content, sometimes based on other conferences hosted by IACR. You will need to go through each individual page and edit content that does not pertain to your conference, as well as add your own information.
 
 While we have tried our best to remove all conference-specific references from the HTML and have these imported from JSON, we *strongly* recommend proofreading the HTML to make sure all content relates to your specific conference.
 
