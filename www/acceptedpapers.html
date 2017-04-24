@@ -89,10 +89,24 @@
         <!-- </section>
       </div> -->
 
-      <!-- NOTE: this must be uncommented once the accepted papers are released -->
       <div class="row">
         <section class="col-sm-12">
           <ol id="accepted">
+            <!-- Handlebars import of accepted papers -->
+            <script id="acceptedScript" type="text/x-handlebars-template">
+              {{#each acceptedPapers}}
+                <li>
+                  <h4 class="paperTitle">
+                    {{title}}
+                  </h4>
+                  <p>
+                    {{author}}
+                    <br />
+                    {{institution}}
+                  </p>
+                </li>
+              {{/each}}
+            </script>
           </ol>
         </section>
       </div>
@@ -123,22 +137,6 @@
     <script src="./js/navTitleFade.js" type="text/javascript"></script>
     <script src="./js/cryptoCountdowns.js" type="text/javascript"></script>
     <script src="./js/accepted.js" type="text/javascript"></script>
-
-    <!-- Handlebars import of accepted papers -->
-    <script id="acceptedScript" type="text/x-handlebars-template">
-      {{#each acceptedPapers}}
-        <li>
-          <h4 class="paperTitle">
-            {{title}}
-          </h4>
-          <p>
-            {{author}}
-            <br />
-            {{institution}}
-          </p>
-        </li>
-      {{/each}}
-    </script>
 
   </body>
 </html>
