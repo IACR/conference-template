@@ -9,7 +9,7 @@ $(document).ready(function() {
       $('.conf_start').text(data.startdate);
     })
     .fail(function(jqxhr, textStatus, error) {
-     console.log('There is a problem with metadata.json. The problem is ' + error);
+     alert('There is a problem with metadata.json. The problem is ' + error);
   });
 
     // fetch a fragment - the left nav - and insert it into the DOM
