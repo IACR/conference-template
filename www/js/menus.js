@@ -12,7 +12,7 @@ $(document).ready(function() {
      console.log('There is a problem with metadata.json. The problem is ' + error);
   });
 
-    // fetch a fragment the left nav, and insert it into the DOM.
+    // fetch a fragment - the left nav - and insert it into the DOM
     $.get('./fragments/nav.html', function(data) {
       $('#mainmenu').html(data);
     },'html');
