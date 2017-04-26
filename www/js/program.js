@@ -12,11 +12,15 @@ $(document).ready(function() {
         }
       }
     }
+
     var theCompiledHtml = theTemplate(data);
     var renderedProgram = document.getElementById('renderedProgram');
     renderedProgram.innerHTML = theCompiledHtml;
   })
   .fail(function(jqxhr, textStatus, error) {
-   console.log('There is a problem with program.json. The problem is ' + error);
+   alert('There is a problem with program.json. The problem is ' + error);
+
+   document.getElementById('renderedProgram');
+   renderedProgram.innerHTML = '<p class="alert alert-success" role="alert"><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>&ensp;The program is not currently available.</p>';
   });
 })
