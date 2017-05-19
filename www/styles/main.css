@@ -3,7 +3,7 @@
 
 /***** General styling *****/
 body {
-  background-color: #FEFDFB;
+  /*background-color: #FEFDFB;*/
   /* NOTE: alternative color choices:
   blue-based = #F3F3FB;
   green-based = #EDFDF4; */
@@ -17,7 +17,7 @@ p {
 }
 
 a {
-  color: #0F773C;
+  /*color: #0F773C;*/
   /* NOTE: alternative color choices:
   green-based = #2E3192; */
 }
@@ -35,7 +35,7 @@ a#topNavTitle {
 /***** Nav (in /fragments/nav.html) *****/
 .navHeader {
   font-family: 'Roboto Condensed', sans-serif;
-  color: #CB831E;
+  /*color: #CB831E;*/
   /* NOTE: alternative color choices:
   blue = #2E3192;
   green = #0F773C; */
@@ -67,11 +67,11 @@ a#topNavTitle {
 }
 
 .headerGradient {
-  background: rgba(204, 132, 30, 0.6);
+  /*background: rgba(204, 132, 30, 0.6);
   background: -webkit-linear-gradient(rgba(204, 132, 30, 0.6), rgba(254, 253, 251, 1));
   background: -o-linear-gradient(rgba(204, 132, 30, 0.6), rgba(254, 253, 251, 1));
   background: -moz-linear-gradient(rgba(204, 132, 30, 0.6), rgba(254, 253, 251, 1));
-  background: linear-gradient(rgba(204, 132, 30, 0.6), rgba(254, 253, 251, 1));
+  background: linear-gradient(rgba(204, 132, 30, 0.6), rgba(254, 253, 251, 1));*/
   /* NOTE: alternative color choices:
   blue-based = rgba(47, 50, 147, 0.6), rgba(243, 243, 251, 1)
   green-based = rgba(15, 118, 59, 0.6), rgba(237, 253, 244, 1) */
@@ -83,7 +83,7 @@ a#topNavTitle {
 
 .headerTitle {
   font-family: 'Roboto Condensed', sans-serif;
-  color: #2E3192;
+  /*color: #2E3192;*/
   /* NOTE: alternative color choices:
   green = #0F773C; */
   text-shadow: 5px 5px 20px #FEFDFB, 0.3px 0.3px #1F2161;
@@ -94,7 +94,7 @@ a#topNavTitle {
 
 .headerInfoTop {
   font-family: 'Roboto Condensed', sans-serif;
-  color: #2E3192;
+  /*color: #2E3192;*/
   /* NOTE: alternative color choices:
   green = #0F773C; */
   text-shadow: 5px 5px 20px #FEFDFB, 0.3px 0.3px #1F2161;
@@ -108,7 +108,7 @@ a#topNavTitle {
 
 .headerInfoBottom {
   font-family: 'Roboto Condensed', sans-serif;
-  color: #2E3192;
+  /*color: #2E3192;*/
   /* NOTE: alternative color choices:
   green = #0F773C; */
   text-shadow: 5px 5px 20px #FEFDFB, 0.3px 0.3px #1F2161;
@@ -138,7 +138,7 @@ a#topNavTitle {
 
 /***** Main Content: general styling *****/
 .indPageTitle {
-  color: #0F773C;
+  /*color: #0F773C;*/
   /* NOTE: alternative color choices:
   blue = #2E3192;
   orange = #CB831E; */
@@ -148,7 +148,7 @@ a#topNavTitle {
 }
 
 .pageSubtitle {
-  color: #CB831E;
+  /*color: #CB831E;*/
   /* NOTE: alternative color choices:
   blue = #2E3192;
   green = #0F773C; */
@@ -163,7 +163,7 @@ a#topNavTitle {
 }
 
 .dateTitle {
-  color: #CB831E;
+  /*color: #CB831E;*/
   /* NOTE: alternative color choices:
   blue = #2E3192;
   green = #0F773C; */
@@ -198,7 +198,7 @@ a#topNavTitle {
 
 /***** Page-specific (multiple): call for papers, accommodations *****/
 .listItems {
-  background-color: #FEFDFB;
+  /*background-color: #FEFDFB;*/
   /* NOTE: alternative color choices:
   blue-based = #F3F3FB;
   green-based = #EDFDF4; */
