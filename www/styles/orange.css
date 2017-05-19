@@ -5,10 +5,6 @@ body {
   background-color: #FEFDFB;
 }
 
-a {
-  color: #0F773C;
-}
-
 
 /***** Header (found in ./index.html) *****/
 .navHeader {
@@ -39,14 +35,6 @@ a {
 /***** Main Content: general styling *****/
 .indPageTitle {
   color: #0F773C;
-}
-
-.pageSubtitle {
-  color: #CB831E;
-}
-
-.dateTitle {
-  color: #CB831E;
 }
 
 
