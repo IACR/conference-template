@@ -6,6 +6,12 @@ body {
 }
 
 
+/***** Nav (in /fragments/nav.html) *****/
+nav#mainmenu {
+  background-color: #FEFDFB;
+}
+
+
 /***** Header (found in ./index.html) *****/
 .navHeader {
   color: #CB831E;
