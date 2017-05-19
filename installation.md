@@ -68,6 +68,8 @@ Removing the header image will not remove the gradient effect. If you would like
 ___
 
 ### Changing the color scheme
+**NOTE** This is currently being reworked. In the future, you will be able to choose to include an additional style sheet that will style the page in an orange, green, or blue theme. Please be patient while this feature is in production.
+
 This is a multi-step process. If you are not confident editing CSS3, we strongly recommend against customizing the colors. Please do **NOT** add styles in any HTML document; all editable styles are found in /www/styles/main.css or /www/styles/navmenu.css. Do not edit any other files in the /styles directory.
 
 The default colors are an orange-based light gray background, a dark blue text, and medium green links that change to orange on mouseover. The alternative color themes are:
