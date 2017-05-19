@@ -18,15 +18,14 @@ $(document).ready(function() {
     renderedProgram.innerHTML = theCompiledHtml;
   })
   .fail(function(jqxhr, textStatus, error) {
+    document.getElementById('renderedProgram');
+    renderedProgram.innerHTML = '<p>The conference program is not currently available. Please check back later.</p>';
+
     if (textStatus === 'error') {
-      alert('program.json not found, check file name and try again');
-      document.getElementById('renderedProgram');
-      renderedProgram.innerHTML = '<p class="alert alert-success" role="alert"><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>&ensp;The file that contains the program does not exist. Please check the file name and try again.</p>';
+      console.log('program.json not found, check file name and try again');
     }
     else {
       console.log('There is a problem with program.json. The problem is ' + error);
-      document.getElementById('renderedProgram');
-      renderedProgram.innerHTML = '<p class="alert alert-success" role="alert"><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>&ensp;The program is not currently available.</p>';
     }
   });
 })
