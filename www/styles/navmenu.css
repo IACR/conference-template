@@ -4,10 +4,6 @@ body {
 
 .navmenu {
   padding-top: 35px;
-  background-color: #FEFDFB;
-  /* NOTE: alternative color choices:
-  blue-based = #F3F3FB;
-  green-based = #E8FCF1; */
 }
 
 /*fixes mobile nav scroll issue*/

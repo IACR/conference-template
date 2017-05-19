@@ -7,7 +7,7 @@ ___
 ### Getting the site on the server
 Log into the server and cd to a temporary directory. Type:
 
-``git clone https://github.com/kaymckelly/freelance-iacr.git .`` (Note the period at the end.)
+`git clone https://github.com/kaymckelly/freelance-iacr.git .` (Note the period at the end.)
 
 This creates a copy of the files for the site in your current directory. All files in the /www subdirectory should be moved to location where your web server will serve the content from. We’ll call that directory WebHome. Once you move the files to the subdirectory WebHome, you should cd there.
 
@@ -25,13 +25,13 @@ ___
 ### Changing the names of the program committee
 Open /www/json/comm.json. Editing this will change the places where this text would appear throughout all pages.
 
-Please remember that first names should be included as they appear on the papers, rather than first initials. There is a tool at [http://www.iacr.org/cryptodb/pc] to help you generate this file.
+Please remember that first names should be included as they appear on the papers, rather than first initials. There is a tool at [http://www.iacr.org/cryptodb/pc] to help you generate this file. You can also edit the existing example file that comes with this template if you prefer.
 
 Make sure your file is encoded as UTF-8.
 
 ___
 
-### Adding your page content to individual pages (``*.html``)
+### Adding your page content to individual pages (`*.html`)
 All pages have included boilerplate content, sometimes based on other conferences hosted by IACR. You will need to go through each individual page and edit content that does not pertain to your conference, as well as add your own information.
 
 While we have tried our best to remove all conference-specific references from the HTML and have these imported from JSON, we *strongly* recommend proofreading the HTML to make sure all content relates to your specific conference.
@@ -54,59 +54,25 @@ ___
 
 # Optional
 ### Editing the left navigation menu links and titles
-Open /www/fragments/nav.html. If you want to add a new page to the site, you need to create the file for it and add a link to it in this nav.html file. If you want to remove a file, then you need to remove it from this navigation (for example, if you don’t have a rump session). Also delete the corresponding file if you wish.
+Open /www/fragments/nav.html. If you want to add a new page to the site, you need to create the file for it and add a link to it in this nav.html file. If you want to remove a file, then you need to remove it from this navigation (for example, if you don’t have a rump session). Don't forget to delete the corresponding file.
 
 ___
 
 ### Editing the header image
-The header image is specified in /styles/main.css as .headerImg. There are three default images you can choose from (defaultbg1_crop.jpg, etc). If you want to remove the background image in the header, delete or comment out .headerImg{background-side}, .headerImg{background-image}, and .headerImg{background-position}.
+The header image is specified in /styles/main.css as .headerImg. There are three default images you can choose from (defaultbg1_crop.jpg, etc). If you want to remove the background image in the header, delete or comment out .headerImg{background-side}, .headerImg{background-image}, and .headerImg{background-position} in /styles/main.css.
 
-If you want to use a custom image, it must be 1200x480px or larger (note that larger may affect page load time). Acceptable file formats are .jpg, .png, or .gif. If using an animated gif, proceed with caution as this has the potential to be supremely annoying and/or negatively affect page load times.
+If you want to use a custom image, it *must* be 1200x480px or larger (note that larger may affect page load time). Acceptable file formats are .jpg, .png, or .gif. If using an animated gif, proceed with caution as this has the potential to be supremely annoying and/or negatively affect page load times.
 
-Removing the header image will not remove the gradient effect. If you would like to remove the background image and the gradient on the header, delete or comment out everything *except* .headerGradient{margin-bottom}.
-
-___
-
-### Changing the color scheme
-**NOTE** This is currently being reworked. In the future, you will be able to choose to include an additional style sheet that will style the page in an orange, green, or blue theme. Please be patient while this feature is in production.
-
-This is a multi-step process. If you are not confident editing CSS3, we strongly recommend against customizing the colors. Please do **NOT** add styles in any HTML document; all editable styles are found in /www/styles/main.css or /www/styles/navmenu.css. Do not edit any other files in the /styles directory.
-
-The default colors are an orange-based light gray background, a dark blue text, and medium green links that change to orange on mouseover. The alternative color themes are:
-- blue-based light gray background with green links
-- green-based light gray background with blue links
-
-When changing the colors, you *must* edit the following in main.css:
-- body{background-color}
-- .headerGradient{background}
-  - There are 5 instances of .headerGradient{background} that must be changed. The redundancy is to maximize cross-browser compatibility of the gradient effect.
-- .listItems{background-color}
-
-And in navmenu.css, you *must* edit the following in conjunction with the above:
-- .navmenu{background-color}
-  - This should match whatever color is in body{background-color} and .listItems{background-color} in main.css, so the page looks coherent.
-
-Specifically, if you're switching to a blue-based theme, you may find that blue header text may not provide enough contrast, in which case you'll also need to edit the following in main.css:
-- .headerTitle{color}
-- .headerInfoTop{color}
-- .headerInfoBottom{color}
-
-Optional changes with a new color scheme include:
-- .navHeader{color}
-- .indPageTitle{color}
-- .pageSubtitle{color}
-- .dateTitle{color}
-
-Additional instructions and hex/rgba for the alternative color choices appear in /styles/main.css near the sections in question.
+Removing the header image will not remove the gradient effect. If you would like to remove the background image and the gradient on the page header, delete or comment out everything *except* .headerGradient{margin-bottom}. This must be done in /styles/orange.css (or whichever color theme you have decided to use).
 
 ___
 
-### Editing countdown timers for important dates
-Open /www/js/cryptoCountdowns.js. Titles for which timer the code refers to are above each code block. The code where you edit the time and date looks like this: ``$('#submission').countdown('2017/02/08 02:00')``
+### Changing the default colors
+In /styles are three supplemental stylesheets: orange.css, blue.css, and green.css. Orange.css is the default theme and is orange-based, as the name suggests. It is already included on every html page. Blue.css is a blue-based theme, and green.css is a green-based theme.
 
-Make sure that all times are in UTC. You can use this converter: [http://www.thetimezoneconverter.com/].
+If you would like to switch to using the blue or green theme, simply change `<link href="./styles/orange.css" rel="stylesheet">` to either `<link href="./styles/blue.css" rel="stylesheet">` or `<link href="./styles/green.css" rel="stylesheet">`
 
-When changing the dates for countdown timers, don't forget to also change the dates in index.html and/or callforpapers.html. They are in ``<p class="dateTitle">`` tags.
+Please do **NOT** add styles in any HTML document; all added styles should go in main.css. Everything in /styles is editable with the exception of jasny-bootstrap.css. This is part of a plugin required by the page and should NEVER be edited.
 
 ___
 
