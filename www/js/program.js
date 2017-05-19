@@ -18,9 +18,14 @@ $(document).ready(function() {
     renderedProgram.innerHTML = theCompiledHtml;
   })
   .fail(function(jqxhr, textStatus, error) {
-   alert('There is a problem with program.json. The problem is ' + error);
+    document.getElementById('renderedProgram');
+    renderedProgram.innerHTML = '<p>The conference program is not currently available. Please check back later.</p>';
 
-   document.getElementById('renderedProgram');
-   renderedProgram.innerHTML = '<p class="alert alert-success" role="alert"><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>&ensp;The program is not currently available.</p>';
+    if (textStatus === 'error') {
+      console.log('program.json not found, check file name and try again');
+    }
+    else {
+      console.log('There is a problem with program.json. The problem is ' + error);
+    }
   });
 })

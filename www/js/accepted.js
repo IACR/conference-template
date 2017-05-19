@@ -6,9 +6,14 @@ $(document).ready(function() {
     $('#accepted').html(theCompiledHtml);
   })
   .fail(function(jqxhr, textStatus, error) {
-    alert('There is a problem with papers.json. The problem is ' + error);
+    document.getElementById('errorBox');
+    errorBox.innerHTML = '<p>The list of accepted papers is not currently available. Please check back again later.</p>';
 
-    document.getElementById('accepted');
-    accepted.innerHTML = '<p>The list of accepted papers is not currently available. Please check back later.</p>';
+    if (textStatus === 'error') {
+      console.log('papers.json not found, check file name and try again');
+    }
+    else {
+      console.log('There is a problem with papers.json. The problem is ' + error);
+    }
   });
 })
