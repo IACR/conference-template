@@ -1,4 +1,4 @@
-/* NOTE: this is a supplemental style sheet. You should only include orange.css OR green.css OR blue.css on all individual html pages. One of these supplemental style sheets MUST be included in addition to main.css */
+/* NOTE: this is a theme stylesheet. You do NOT need to include additional stylesheets on any of the pages. If you would like a custom style, add to this file.  Please see installation docs for more information on how to change the theme. */
 
 /***** General styling *****/
 body {
