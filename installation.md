@@ -68,11 +68,9 @@ Removing the header image will not remove the gradient effect. If you would like
 ___
 
 ### Changing the default colors
-In /styles are three supplemental stylesheets: orange.css, blue.css, and green.css. Orange.css is the default theme and is orange-based, as the name suggests. It is already included on every html page. Blue.css is a blue-based theme, and green.css is a green-based theme.
+The default theme is found in /styles/theme.css. There are some other stylesheets in /styles for different color schemes. If you would like to switch to a different color scheme, copy the contents of one of the other color schemes (e.g. blue.css, green.css, etc) and paste it into theme.css. This will change the color scheme for the entire site.
 
-If you would like to switch to using the blue or green theme, simply change `<link href="./styles/orange.css" rel="stylesheet">` to either `<link href="./styles/blue.css" rel="stylesheet">` or `<link href="./styles/green.css" rel="stylesheet">`
-
-Please do **NOT** add styles in any HTML document; all added styles should go in main.css. Everything in /styles is editable with the exception of jasny-bootstrap.css. This is part of a plugin required by the page and should NEVER be edited.
+Please do **NOT** add styles in any HTML document; all added styles should go in theme.css.
 
 ___
 
