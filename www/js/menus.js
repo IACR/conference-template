@@ -1,7 +1,7 @@
 $(document).ready(function() {
   function getInfo() {
     $.getJSON('./json/metadata.json', function(data) {
-      document.title = data.shortName;
+      document.title = data.shortName + ' ' + document.title;
       $('.conf_name').text(data.shortName);
       $('.long_conf').text(data.name);
       $('.conf_dates').text(data.dates);
