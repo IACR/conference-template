@@ -1,4 +1,5 @@
-{ "acceptedPapers": [
+{ "_source": "websubrev",
+  "acceptedPapers": [
   {"title": "Example Paper Title 1",
 	 "author": "Author Lastname, Second Author, Student Author",
    "institution": "University of Computer Stuff, Prague, Austria"},
