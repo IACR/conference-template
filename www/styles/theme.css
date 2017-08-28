@@ -1,7 +1,7 @@
 /* NOTE: this is a theme stylesheet. You do NOT need to include additional stylesheets on any of the pages. If you would like a custom style, add to this file.  Please see installation docs for more information on how to change the theme. */
 
 /***** General styling *****/
-body {
+body, .listItems {
   background-color: #FEFDFB;
 }
 
@@ -41,10 +41,4 @@ nav#mainmenu {
 /***** Main Content: general styling *****/
 .indPageTitle {
   color: #0F773C;
-}
-
-
-/***** Page-specific (multiple): call for papers, accommodations *****/
-.listItems {
-  background-color: #FEFDFB;
 }
