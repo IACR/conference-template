@@ -171,7 +171,7 @@
                         </p>
                         <p class="dualTrackDescr">
                           {{#each authors}}
-                            <span class="authorName">{{name}}</span>
+                            <span class="authorName">{{#if name}}{{name}}{{else}}{{.}}{{/if}}</span>
                           {{/each}}
                         </p>
                       {{/each}}
@@ -204,7 +204,7 @@
                         </p>
                         <p class="dualTrackDescr">
                           {{#each authors}}
-                            <span class="authorName">{{name}}</span>
+                            <span class="authorName">{{#if name}}{{name}}{{else}}{{.}}{{/if}}</span>
                           {{/each}}
                         </p>
                       {{/each}}
@@ -233,7 +233,7 @@
                         </p>
                         <p class="eventDescr">
                           {{#each authors}}
-                            <span class="authorName">{{name}}</span>
+                            <span class="authorName">{{#if name}}{{name}}{{else}}{{.}}{{/if}}</span>
                           {{/each}}
                         </p>
                       {{/each}}
