@@ -1,8 +1,13 @@
 $(document).ready(function() {
   $.getJSON('./json/program.json', function(data) {
+    var renderedProgram = document.getElementById('renderedProgram');
+    if (!data.hasOwnProperty('days')) {
+      document.getElementById('renderedProgram');
+      renderedProgram.innerHTML = '<p>The conference program is not currently available. Please check back later.</p>';
+      return;
+    }
     var theTemplateScript = $("#program-template").html();
     var theTemplate = Handlebars.compile(theTemplateScript);
-
     var days = data['days'];
     for (var i = 0; i < days.length; i++) {
       var timeslots = days[i]['timeslots'];
@@ -14,7 +19,6 @@ $(document).ready(function() {
     }
 
     var theCompiledHtml = theTemplate(data);
-    var renderedProgram = document.getElementById('renderedProgram');
     renderedProgram.innerHTML = theCompiledHtml;
   })
   .fail(function(jqxhr, textStatus, error) {

@@ -76,16 +76,7 @@
         </div>
       </div>
 
-      <!-- NOTE: below is standard placeholder text for when the page is under construction. please delete this entire <div class="row"> and all elements contained within it when ready to add other content -->
-      <!-- <div class="row">
-        <div class="col-sm-12">
-          <p>
-            This information is not yet available. Thank you for your patience.
-          </p>
-        </div>
-      </div> -->
-
-      <!-- NOTE: below is placeholder content derived from the Crypto 2016 conference. remove and replace with your own content when ready. this code is here to give you an idea of what the structure of this page has looked like in the past -->
+      <!-- NOTE: below is placeholder content derived from the Crypto 2016 conference. remove and replace with your own content when ready. this code is here to give you an idea of what the structure of this page has looked like in the past 
       <div class="row">
         <aside class="col-xs-12">
           <p>
@@ -93,6 +84,7 @@
           </p>
         </aside>
       </div>
+      -->
 
       <!-- TODO: work in progress - demo of marker size changes, per Mike's request, though these still need to be linked to the json -->
       <!-- <div class="row">
@@ -171,7 +163,7 @@
                         </p>
                         <p class="dualTrackDescr">
                           {{#each authors}}
-                            <span class="authorName">{{name}}</span>
+                            <span class="authorName">{{this}}</span>
                           {{/each}}
                         </p>
                       {{/each}}
@@ -204,7 +196,7 @@
                         </p>
                         <p class="dualTrackDescr">
                           {{#each authors}}
-                            <span class="authorName">{{name}}</span>
+                            <span class="authorName">{{this}}</span>
                           {{/each}}
                         </p>
                       {{/each}}
@@ -233,7 +225,7 @@
                         </p>
                         <p class="eventDescr">
                           {{#each authors}}
-                            <span class="authorName">{{name}}</span>
+                            <span class="authorName">{{this}}</span>
                           {{/each}}
                         </p>
                       {{/each}}
