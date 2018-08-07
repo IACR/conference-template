@@ -1,3 +1,1977 @@
 {
-    "_source": "https://www.iacr.org/tools"
+  "name": "Crypto 2018",
+  "config": {
+    "default_track_locations": [
+      {
+        "name": "Lotte Lehman Hall"
+      },
+      {
+        "name": "Campbell Hall"
+      }
+    ],
+    "default_talk_minutes": 25,
+    "unassigned_talks": [
+      {
+        "name": "Foundations",
+        "talks": [],
+        "id": "category-4"
+      },
+      {
+        "name": "Implementations, FHE, Side channels",
+        "talks": [],
+        "id": "category-7"
+      },
+      {
+        "name": "Information-theoretic crypto",
+        "talks": [],
+        "id": "category-11"
+      },
+      {
+        "name": "Lattice crypto",
+        "talks": [],
+        "id": "category-8"
+      },
+      {
+        "name": "None",
+        "talks": [],
+        "id": "category-6"
+      },
+      {
+        "name": "Obfuscation",
+        "talks": [],
+        "id": "category-10"
+      },
+      {
+        "name": "Other",
+        "talks": [],
+        "id": "category-3"
+      },
+      {
+        "name": "Provable security for asymmetric cryptography",
+        "talks": [],
+        "id": "category-9"
+      },
+      {
+        "name": "Provable security for symmetric cryptography",
+        "talks": [],
+        "id": "category-1"
+      },
+      {
+        "name": "Quantum crypto",
+        "talks": [],
+        "id": "category-12"
+      },
+      {
+        "name": "Secure multiparty computation",
+        "talks": [],
+        "id": "category-2"
+      },
+      {
+        "name": "Symmetric cryptanalysis",
+        "talks": [],
+        "id": "category-5"
+      },
+      {
+        "name": "Uncategorized",
+        "talks": [],
+        "id": "category-0"
+      },
+      {
+        "id": "category-204",
+        "name": "Invited talks",
+        "talks": []
+      },
+      {
+        "id": "category-620",
+        "name": "Best Paper Award",
+        "talks": []
+      },
+      {
+        "id": "category-621",
+        "name": "Best Young Researcher Paper Award",
+        "talks": []
+      }
+    ],
+    "uniqueIDIndex": 976
+  },
+  "days": [
+    {
+      "date": "2018-08-19",
+      "timeslots": [
+        {
+          "starttime": "17:00",
+          "endtime": "20:00",
+          "sessions": [
+            {
+              "session_title": "Registration",
+              "location": {
+                "name": "Anacapa Formal Lounge"
+              },
+              "id": "session-918"
+            }
+          ]
+        },
+        {
+          "starttime": "17:30",
+          "endtime": "21:30",
+          "sessions": [
+            {
+              "session_title": "Reception Dinner",
+              "location": {
+                "name": "Anacapa Lawn"
+              },
+              "id": "session-919"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2018-08-20",
+      "timeslots": [
+        {
+          "endtime": "8:45",
+          "starttime": "7:30",
+          "sessions": [
+            {
+              "session_title": "Breakfast",
+              "location": {
+                "name": "De La Guerra Dining Commons"
+              },
+              "id": "session-920"
+            }
+          ]
+        },
+        {
+          "endtime": "9:00",
+          "starttime": "8:50",
+          "sessions": [
+            {
+              "moderator": "Crypto General Chair, Tal Rabin",
+              "session_title": "Opening remarks",
+              "location": {
+                "name": "Corwin Pavilion"
+              },
+              "id": "session-921"
+            }
+          ]
+        },
+        {
+          "endtime": "10:25",
+          "starttime": "9:05",
+          "sessions": [
+            {
+              "session_title": "Secure Messaging",
+              "talks": [
+                {
+                  "title": "Towards Bidirectional Ratcheted Key Exchange",
+                  "authors": [
+                    "Bertram Poettering",
+                    "Paul Rösler"
+                  ],
+                  "affiliations": "Royal Holloway, University of London; Ruhr University Bochum",
+                  "category": "Provable security for asymmetric cryptography",
+                  "keyWords": "Ratcheting, Ratcheted Key Exchange, Forward Secrecy, Post-Compromise Security",
+                  "id": "talk-106",
+                  "paperUrl": "http://dx.doi.org/10.1007/978-3-319-96884-1_1",
+                  "slidesUrl": "http://geekscat.com"
+                },
+                {
+                  "title": "Optimal Channel Security Against Fine-Grained State Compromise: The Safety of Messaging",
+                  "authors": [
+                    "Joseph Jaeger",
+                    "Igors Stepanovs"
+                  ],
+                  "affiliations": "UC San Diego; UC San Diego",
+                  "category": "Provable security for asymmetric cryptography",
+                  "keyWords": "Secure channel, forward/backward security, security models",
+                  "id": "talk-130",
+                  "paperUrl": "http://dx.doi.org/10.1007/978-3-319-96884-1_2"
+                },
+                {
+                  "title": "Out-of-Band Authentication in Group Messaging: Computational, Statistical, Optimal",
+                  "authors": [
+                    "Lior Rotem",
+                    "Gil Segev"
+                  ],
+                  "affiliations": "Hebrew University of Jerusalem; Hebrew University of Jerusalem",
+                  "category": "None",
+                  "id": "talk-124",
+                  "paperUrl": "http://dx.doi.org/10.1007/978-3-319-96884-1_3"
+                }
+              ],
+              "location": {
+                "name": "Lotte Lehman Hall"
+              },
+              "id": "session-922",
+              "moderator": "Kenny Paterson"
+            },
+            {
+              "session_title": "Round Optimal MPC",
+              "talks": [
+                {
+                  "title": "Round-Optimal Secure Multiparty Computation with Honest Majority",
+                  "authors": [
+                    "Prabhanjan Ananth",
+                    "Arka Rai Choudhuri",
+                    "Aarushi Goel",
+                    "Abhishek Jain"
+                  ],
+                  "affiliations": "MIT; JHU; JHU; JHU",
+                  "category": "Secure multiparty computation",
+                  "keyWords": "Secure Computation",
+                  "id": "talk-132",
+                  "paperUrl": "http://dx.doi.org/10.1007/978-3-319-96881-0_14"
+                },
+                {
+                  "title": "On the Exact Round Complexity of Secure Three-Party Computation",
+                  "authors": [
+                    "Arpita Patra",
+                    "Divya Ravi"
+                  ],
+                  "affiliations": "Indian Institute of Science, India; Indian Institute of Science, India",
+                  "category": "Secure multiparty computation",
+                  "keyWords": "Three-party Computation, Round Complexity, Garbled Circuit",
+                  "id": "talk-101",
+                  "paperUrl": "http://dx.doi.org/10.1007/978-3-319-96881-0_15"
+                },
+                {
+                  "title": "Soft Merge with the next talk: Promise Zero Knowledge and its Applications to Round Optimal MPC",
+                  "authors": [
+                    "Saikrishna Badrinarayanan",
+                    "Vipul Goyal",
+                    "Abhishek Jain",
+                    "Yael Tauman Kalai",
+                    "Dakshita Khurana",
+                    "Amit Sahai"
+                  ],
+                  "affiliations": "UCLA; CMU; JHU; MIT and Microsoft Research; UCLA; UCLA",
+                  "category": "Foundations",
+                  "keyWords": "MPC, zero knowledge, round optimal, coin tossing, rewinding",
+                  "id": "talk-81",
+                  "paperUrl": "https://doi.org/10.1007/978-3-319-96881-0_16"
+                },
+                {
+                  "title": "Round-Optimal Secure Multi-Party Computation",
+                  "authors": [
+                    "Shai Halevi",
+                    "Carmit Hazay",
+                    "Antigoni Polychroniadou",
+                    "Muthuramakrishnan Venkitasubramaniam"
+                  ],
+                  "affiliations": "IBM; Bar Ilan University; Cornell-Tech / University of Rochester; University of Rochester",
+                  "category": "Foundations",
+                  "keyWords": "Secure Multi-Party Computation, Garbled Circuits, Round Complexity, Additive Errors",
+                  "id": "talk-128",
+                  "paperUrl": "http://dx.doi.org/10.1007/978-3-319-96881-0_17"
+                }
+              ],
+              "location": {
+                "name": "Corwin Pavilion"
+              },
+              "id": "session-923",
+              "moderator": "Fabrice Benhamouda"
+            }
+          ],
+          "twosessions": true
+        },
+        {
+          "endtime": "10:50",
+          "starttime": "10:25",
+          "sessions": [
+            {
+              "session_title": "Coffee Break",
+              "id": "session-924"
+            }
+          ]
+        },
+        {
+          "endtime": "11:40",
+          "starttime": "10:50",
+          "sessions": [
+            {
+              "session_title": "Implementations and Physical Attacks",
+              "talks": [
+                {
+                  "title": "Faster Homomorphic Linear Transformations in HElib",
+                  "authors": [
+                    "Shai Halevi",
+                    "Victor Shoup"
+                  ],
+                  "affiliations": "IBM Research; NYU",
+                  "category": "Implementations, FHE, Side channels",
+                  "keyWords": "Homomorphic encryption, Implementation, Linear transformations",
+                  "id": "talk-71",
+                  "paperUrl": "http://dx.doi.org/10.1007/978-3-319-96884-1_4"
+                },
+                {
+                  "title": "CAPA: The Spirit of Beaver against Physical Attacks",
+                  "authors": [
+                    "Oscar Reparaz",
+                    "Lauren De Meyer",
+                    "Begül Bilgin",
+                    "Victor Arribas",
+                    "Svetla Nikova",
+                    "Ventzislav Nikov",
+                    "Nigel P. Smart"
+                  ],
+                  "affiliations": "KU Leuven, imec - Cosic, Leuven, Belgium; Square Inc., San Francisco, USA; KU Leuven, imec - Cosic, Leuven, Belgium; KU Leuven, imec - Cosic, Leuven, Belgium; KU Leuven, imec - Cosic, Leuven, Belgium; KU Leuven, imec - Cosic, Leuven, Belgium; NXP Semiconductors, Leuven, Belgium",
+                  "category": "Implementations, FHE, Side channels",
+                  "keyWords": "MPC, masking, SCA, leakage, FA, physical attacks, combined, countermeasures, threshold implementation, AES, KATAN",
+                  "id": "talk-66",
+                  "paperUrl": "http://dx.doi.org/10.1007/978-3-319-96884-1_5"
+                }
+              ],
+              "location": {
+                "name": "Lotte Lehman Hall"
+              },
+              "id": "session-925",
+              "moderator": "Tancrède Lepoint"
+            },
+            {
+              "session_title": "Foundations",
+              "talks": [
+                {
+                  "title": "Yes, There is an Oblivious RAM Lower Bound!",
+                  "authors": [
+                    "Kasper Green Larsen",
+                    "Jesper Buus Nielsen"
+                  ],
+                  "affiliations": "Aarhus University; Aarhus University",
+                  "category": "Best Paper Award",
+                  "keyWords": "oblivious RAM, lower bound",
+                  "id": "talk-83",
+                  "paperUrl": "http://dx.doi.org/10.1007/978-3-319-96881-0_18"
+                },
+                {
+                  "title": "Constrained PRFs for NC1 in Traditional Groups",
+                  "authors": [
+                    "Nuttapong Attrapadung",
+                    "Takahiro Matsuda",
+                    "Ryo Nishimaki",
+                    "Shota Yamada",
+                    "Takashi Yamakawa"
+                  ],
+                  "affiliations": "AIST; AIST; NTT Secure Platform Laboratories; AIST; NTT Secure Platform Laboratories",
+                  "category": "Foundations",
+                  "keyWords": "pseudo-randomness, constrained PRF, pairing free group, correlated-input hash",
+                  "id": "talk-73",
+                  "paperUrl": "https://doi.org/10.1007/978-3-319-96881-0_19"
+                }
+              ],
+              "location": {
+                "name": "Corwin Pavilion"
+              },
+              "id": "session-926",
+              "moderator": "Daniel Wichs"
+            }
+          ],
+          "twosessions": true
+        },
+        {
+          "endtime": "11:45",
+          "starttime": "11:40",
+          "sessions": [
+            {
+              "session_title": "Track-switch Break",
+              "id": "session-927"
+            }
+          ]
+        },
+        {
+          "endtime": "12:45",
+          "starttime": "11:45",
+          "sessions": [
+            {
+              "session_title": "IACR Distinguished Lecture",
+              "location": {
+                "name": "Corwin Pavilion"
+              },
+              "id": "session-928",
+              "talks": [
+                {
+                  "id": "talk-205",
+                  "title": "Cryptography and ML, what else?",
+                  "authors": [
+                    "Shafi Goldwasser"
+                  ],
+                  "affiliations": "Berkeley and MIT",
+                  "category": "Foundations",
+                  "paperUrl": "http://geekscat.com",
+                  "slidesUrl": "http://kevin.org"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "endtime": "14:00",
+          "starttime": "12:50",
+          "sessions": [
+            {
+              "session_title": "Lunch",
+              "location": {
+                "name": "De La Guerra Dining Commons"
+              },
+              "id": "session-929"
+            }
+          ]
+        },
+        {
+          "endtime": "15:30",
+          "starttime": "14:15",
+          "sessions": [
+            {
+              "session_title": "Authenticated and Format-Preserving Encryption",
+              "talks": [
+                {
+                  "title": "Fast Message Franking: From Invisible Salamanders to Encryptment",
+                  "authors": [
+                    "Yevgeniy Dodis",
+                    "Paul Grubbs",
+                    "Thomas Ristenpart",
+                    "Joanne Woodage"
+                  ],
+                  "affiliations": "NYU; Cornell Tech; Cornell Tech; Royal Holloway",
+                  "category": "Other",
+                  "keyWords": "message franking, attacks, encrypted messaging, authenticated encryption",
+                  "id": "talk-131",
+                  "paperUrl": "http://dx.doi.org/10.1007/978-3-319-96884-1_6"
+                },
+                {
+                  "title": "Indifferentiable Authenticated Encryption",
+                  "authors": [
+                    "Manuel Barbosa",
+                    "Pooya Farshim"
+                  ],
+                  "affiliations": "INESC TEC and FC University of Porto; DI/ENS, CNRS, PSL University and Inria, Paris, France",
+                  "category": "Provable security for symmetric cryptography",
+                  "keyWords": "AEAD, indifferentiability, composition, Feistel, lower bound.",
+                  "id": "talk-125",
+                  "paperUrl": "http://dx.doi.org/10.1007/978-3-319-96884-1_7"
+                },
+                {
+                  "title": "The Curse of Small Domains: New Attacks on Format-Preserving Encryption",
+                  "authors": [
+                    "Viet Tung Hoang",
+                    "Stefano Tessaro",
+                    "Ni Trieu"
+                  ],
+                  "affiliations": "Florida State University; UCSB; Oregon State University",
+                  "category": "Symmetric cryptanalysis",
+                  "keyWords": "Format-preserving encryption, attacks",
+                  "id": "talk-95",
+                  "paperUrl": "http://dx.doi.org/10.1007/978-3-319-96884-1_8"
+                }
+              ],
+              "location": {
+                "name": "Lotte Lehman Hall"
+              },
+              "id": "session-930",
+              "moderator": "Aishwarya Thiruvengadam"
+            },
+            {
+              "session_title": "Lattices",
+              "talks": [
+                {
+                  "title": "GGH15 Beyond Permutation Branching Programs: Proofs, Attacks, and Candidates",
+                  "authors": [
+                    "Yilei Chen",
+                    "Vinod Vaikuntanathan",
+                    "Hoeteck Wee"
+                  ],
+                  "affiliations": "Boston University; MIT; CNRS and ENS, PSL",
+                  "category": "Lattice crypto",
+                  "id": "talk-116",
+                  "paperUrl": "http://dx.doi.org/10.1007/978-3-319-96881-0_20"
+                },
+                {
+                  "title": "Lower Bounds on Lattice Enumeration with Extreme Pruning",
+                  "authors": [
+                    "Yoshinori Aono",
+                    "Phong Q. Nguyen",
+                    "Takenobu Seito",
+                    "Junji Shikata"
+                  ],
+                  "affiliations": "NICT; Inria and CNRS, JFLI, University of Tokyo; Bank of Japan; Yokohama National University",
+                  "category": "Foundations",
+                  "keyWords": "Lattices, Enumeration, Pruning, Security Estimates",
+                  "id": "talk-79",
+                  "paperUrl": "http://dx.doi.org/10.1007/978-3-319-96881-0_21"
+                },
+                {
+                  "title": "Dissection-BKW",
+                  "authors": [
+                    "Andre Esser",
+                    "Felix Heuer",
+                    "Robert Kübler",
+                    "Alexander May",
+                    "Christian Sohler"
+                  ],
+                  "affiliations": "Ruhr University Bochum; Ruhr University Bochum; Ruhr University Bochum; Ruhr University Bochum; TU Dortmund",
+                  "category": "Other",
+                  "keyWords": "LPN, BKW algorithm, Dissection, Time-Memory Trade-Off",
+                  "id": "talk-102",
+                  "paperUrl": "http://dx.doi.org/10.1007/978-3-319-96881-0_22"
+                }
+              ],
+              "location": {
+                "name": "Corwin Pavilion"
+              },
+              "id": "session-931",
+              "moderator": "Daniele Micciancio"
+            }
+          ],
+          "twosessions": true
+        },
+        {
+          "endtime": "16:00",
+          "starttime": "15:30",
+          "sessions": [
+            {
+              "session_title": "Coffee Break",
+              "id": "session-932"
+            }
+          ]
+        },
+        {
+          "endtime": "17:15",
+          "starttime": "16:00",
+          "sessions": [
+            {
+              "session_title": "Cryptanalysis",
+              "talks": [
+                {
+                  "title": "Cryptanalysis via algebraic spans",
+                  "authors": [
+                    "Adi Ben-Zvi",
+                    "Arkadius Kalka",
+                    "Boaz Tsaban"
+                  ],
+                  "affiliations": "Bar-Ilan University; Bar-Ilan University; Bar-Ilan University",
+                  "category": "Foundations",
+                  "keyWords": "nonabelian algebraic cryptography, group theory-based cryptography,  braid-based cryptography, Triple Decomposition key exchange,  Commutator key exchange, Centralizer key exchange, Braid Diffie--Hellman key exchange, algebraic span cryptanalysis.",
+                  "id": "talk-62",
+                  "paperUrl": "http://dx.doi.org/10.1007/978-3-319-96884-1_9"
+                },
+                {
+                  "title": "Improved Division Property Based Cube Attacks Exploiting Algebraic Properties of Superpoly",
+                  "authors": [
+                    "Qingju Wang",
+                    "Yonglin Hao",
+                    "Yosuke Todo",
+                    "Chaoyun Li",
+                    "Takanori Isobe",
+                    "Willi Meier"
+                  ],
+                  "affiliations": "University of Luxembourg, Luxembourg; State Key Laboratory of Cryptology, P.O. Box 5159, Beijing 100878, China; NTT Secure Platform Laboratories, Japan; imec-COSIC, Dept. Electrical Engineering (ESAT), KU Leuven, Belgium; University of Hyogo, Japan; FHNW, Switzerland",
+                  "category": "Symmetric cryptanalysis",
+                  "keyWords": "Cube attack, Division Property, MILP, TRIVIUM, Kreyvium, Grain-128a, ACORN, Clique",
+                  "id": "talk-68",
+                  "paperUrl": "http://dx.doi.org/10.1007/978-3-319-96884-1_10"
+                },
+                {
+                  "title": "Generic Attacks against Beyond-Birthday-Bound MACs",
+                  "authors": [
+                    "Gaëtan Leurent",
+                    "Mridul Nandi",
+                    "Ferdinand Sibleyras"
+                  ],
+                  "affiliations": "Inria; ; ",
+                  "category": "Symmetric cryptanalysis",
+                  "keyWords": "Modes of operation, Cryptanalysis, Message Authentication Codes, Beyond-Birthday-Bound security",
+                  "id": "talk-90",
+                  "paperUrl": "http://dx.doi.org/10.1007/978-3-319-96884-1_11"
+                }
+              ],
+              "location": {
+                "name": "Lotte Lehman Hall"
+              },
+              "id": "session-933",
+              "moderator": "Viet Tung Hoang"
+            },
+            {
+              "session_title": "Lattice-based Zero Knowledge",
+              "talks": [
+                {
+                  "title": "Sub-Linear Lattice-Based Zero-Knowledge Arguments for Arithmetic Circuits",
+                  "authors": [
+                    "Carsten Baum",
+                    "Jonathan Bootle",
+                    "Andrea Cerulli",
+                    "Rafael del Pino",
+                    "Jens Groth",
+                    "Vadim Lyubashevsky"
+                  ],
+                  "affiliations": "Bar Ilan University; UCL; UCL; IBM Research - Zurich; UCL; IBM Research - Zurich",
+                  "category": "Lattice crypto",
+                  "keyWords": "Zero-Knowledge, Arithmetic Circuits, Sub-linear proofs, Commitments",
+                  "id": "talk-137",
+                  "paperUrl": "http://dx.doi.org/10.1007/978-3-319-96881-0_23"
+                },
+                {
+                  "title": "Lattice-Based Zero-Knowledge Arguments for Integer Relations",
+                  "authors": [
+                    "Benoît Libert",
+                    "San Ling",
+                    "Khoa Nguyen",
+                    "Huaxiong Wang"
+                  ],
+                  "affiliations": "CNRS and ENS de Lyon (France); Nanyang Technological University (Singapore); Nanyang Technological University (Singapore); Nanyang Technological University (Singapore)",
+                  "category": "Lattice crypto",
+                  "keyWords": "Lattice-based cryptography, zero-knowledge arguments, integer relations, range proofs, standard assumptions",
+                  "id": "talk-96",
+                  "paperUrl": "http://dx.doi.org/10.1007/978-3-319-96881-0_24"
+                },
+                {
+                  "title": "Multi-Theorem Preprocessing NIZKs from Lattices",
+                  "authors": [
+                    "Sam Kim",
+                    "David J. Wu"
+                  ],
+                  "affiliations": "Stanford University; Stanford University",
+                  "category": "Best Young Researcher Paper Award",
+                  "keyWords": "NIZKs, MPC, Homomorphic Signatures, Blind Signatures",
+                  "id": "talk-74",
+                  "paperUrl": "http://dx.doi.org/10.1007/978-3-319-96881-0_25"
+                }
+              ],
+              "location": {
+                "name": "Corwin Pavilion"
+              },
+              "id": "session-934",
+              "moderator": "Anna Lysyanskaya"
+            }
+          ],
+          "twosessions": true
+        },
+        {
+          "endtime": "21:00",
+          "starttime": "19:00",
+          "sessions": [
+            {
+              "session_title": "Dinner",
+              "location": {
+                "name": "Anacapa Lawn"
+              },
+              "id": "session-935"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2018-08-21",
+      "timeslots": [
+        {
+          "endtime": "8:35",
+          "starttime": "7:30",
+          "sessions": [
+            {
+              "session_title": "Breakfast",
+              "location": {
+                "name": "De La Guerra Dining Commons"
+              },
+              "id": "session-936"
+            }
+          ]
+        },
+        {
+          "endtime": "10:20",
+          "starttime": "8:40",
+          "sessions": [
+            {
+              "session_title": "Searchable Encryption and Differential Privacy",
+              "talks": [
+                {
+                  "title": "Structured Encryption and Leakage Suppression",
+                  "authors": [
+                    "Seny Kamara",
+                    "Tarik Moataz",
+                    "Olga Ohrimenko"
+                  ],
+                  "affiliations": "Brown University; Brown University; Microsoft Research",
+                  "category": "None",
+                  "keyWords": "structured encryption, searchable symmetric encryption, leakage, square root solution",
+                  "id": "talk-121",
+                  "paperUrl": "http://dx.doi.org/10.1007/978-3-319-96884-1_12"
+                },
+                {
+                  "title": "Soft Merge with the next talk: Searchable Encryption with Optimal Locality: Achieving Sublogarithmic Read Efficiency",
+                  "authors": [
+                    "Ioannis Demertzis",
+                    "Dimitrios Papadopoulos",
+                    "Charalampos Papamanthou"
+                  ],
+                  "affiliations": "University of Maryland; Hong Kong University of Science and Technology; University of Maryland",
+                  "category": "Foundations",
+                  "keyWords": "Searchable Encryption, Locality, Read Efficiency",
+                  "id": "talk-98",
+                  "paperUrl": "https://doi.org/10.1007/978-3-319-96884-1_13"
+                },
+                {
+                  "title": "Tight Tradeoffs in Searchable Symmetric Encryption",
+                  "authors": [
+                    "Gilad Asharov",
+                    "Gil Segev",
+                    "Ido Shahaf"
+                  ],
+                  "affiliations": "Cornell Tech; Hebrew University of Jerusalem; Hebrew University of Jerusalem",
+                  "category": "None",
+                  "id": "talk-100",
+                  "paperUrl": "http://dx.doi.org/10.1007/978-3-319-96884-1_14"
+                },
+                {
+                  "title": "Soft Merge with the next talk: Hardness of Non-Interactive Differential Privacy from One-Way Functions",
+                  "authors": [
+                    "Lucas Kowalczyk",
+                    "Tal Malkin",
+                    "Jonathan Ullman",
+                    "Daniel Wichs"
+                  ],
+                  "affiliations": "Columbia University; Columbia University; Northeastern University; Northeastern University",
+                  "category": "Foundations",
+                  "keyWords": "differential privacy, one-way functions, traitor tracing, functional encryption",
+                  "id": "talk-88",
+                  "paperUrl": "https://doi.org/10.1007/978-3-319-96884-1_15"
+                },
+                {
+                  "title": "Risky Traitor Tracing and New Differential Privacy Negative Results",
+                  "authors": [
+                    "Rishab Goyal",
+                    "Venkata Koppula",
+                    "Andrew Russell",
+                    "Brent Waters"
+                  ],
+                  "affiliations": "UT Austin; UT Austin; UT Austin; UT Austin",
+                  "category": "None",
+                  "keyWords": "traitor tracing, differential privacy, bilinear groups",
+                  "id": "talk-105",
+                  "paperUrl": "http://dx.doi.org/10.1007/978-3-319-96884-1_16"
+                }
+              ],
+              "location": {
+                "name": "Lotte Lehman Hall - starts at 8:55"
+              },
+              "id": "session-937",
+              "moderator": "Alexandra Boldyreva"
+            },
+            {
+              "session_title": "Efficient MPC",
+              "talks": [
+                {
+                  "title": "SPDZ2k: Efficient MPC mod 2^k for Dishonest Majority",
+                  "authors": [
+                    "Ronald Cramer",
+                    "Ivan Damgård",
+                    "Daniel Escudero",
+                    "Peter Scholl",
+                    "Chaoping Xing"
+                  ],
+                  "affiliations": "CWI, Amsterdam; Aarhus University; Aarhus Univerity; Aarhus University; Nanyang Technological University, Singapore",
+                  "category": "Foundations",
+                  "keyWords": "Multi-Party computation, Oblivious transfer, Efficiency",
+                  "id": "talk-94",
+                  "paperUrl": "https://doi.org/10.1007/978-3-319-96881-0_26"
+                },
+                {
+                  "title": "Yet Another Compiler for Active Security or: Efficient MPC Over Arbitrary Rings",
+                  "authors": [
+                    "Ivan Damgård",
+                    "Claudio Orlandi",
+                    "Mark Simkin"
+                  ],
+                  "affiliations": "Aarhus University; Aarhus University; Aarhus University",
+                  "category": "Foundations",
+                  "keyWords": "Blackbox, MPC",
+                  "id": "talk-84",
+                  "paperUrl": "http://dx.doi.org/10.1007/978-3-319-96881-0_27"
+                },
+                {
+                  "title": "TinyKeys: A New Approach to Efficient Multi-Party Computation",
+                  "authors": [
+                    "Carmit Hazay",
+                    "Emmanuela Orsini",
+                    "Peter Scholl",
+                    "Eduardo Soria-Vazquez"
+                  ],
+                  "affiliations": "Bar-Ilan University; KU Leuven; Aarhus University; University of Bristol",
+                  "category": "Secure multiparty computation",
+                  "keyWords": "multi-party computation, garbled circuits, oblivious transfer, syndrome decoding",
+                  "id": "talk-67",
+                  "paperUrl": "http://dx.doi.org/10.1007/978-3-319-96878-0_1"
+                },
+                {
+                  "title": "Fast Large-Scale Honest-Majority MPC for Malicious Adversaries",
+                  "authors": [
+                    "Koji Chida",
+                    "Daniel Genkin",
+                    "Koki Hamada",
+                    "Dai Ikarashi",
+                    "Ryo Kikuchi",
+                    "Yehuda Lindell",
+                    "Ariel Nof"
+                  ],
+                  "affiliations": "NTT Secure Platform Laboratories; University of Pennsylvania and University of Maryland; NTT Secure Platform Laboratories; NTT Secure Platform Laboratories; NTT Secure Platform Laboratories; Bar-Ilan University; Bar-Ilan University",
+                  "category": "Secure multiparty computation",
+                  "keyWords": "honest majority, arithmetic circuits, information-theoretic security, concrete efficiency",
+                  "id": "talk-60",
+                  "paperUrl": "http://dx.doi.org/10.1007/978-3-319-96878-0_2"
+                }
+              ],
+              "location": {
+                "name": "Corwin Pavilion"
+              },
+              "id": "session-938",
+              "moderator": "Mike Rosulek"
+            }
+          ],
+          "twosessions": true
+        },
+        {
+          "endtime": "10:50",
+          "starttime": "10:20",
+          "sessions": [
+            {
+              "session_title": "Coffee Break",
+              "id": "session-939"
+            }
+          ]
+        },
+        {
+          "endtime": "11:40",
+          "starttime": "10:50",
+          "sessions": [
+            {
+              "session_title": "Secret Sharing",
+              "talks": [
+                {
+                  "title": "Non-Malleable Secret Sharing for General Access Structures",
+                  "authors": [
+                    "Vipul Goyal",
+                    "Ashutosh Kumar"
+                  ],
+                  "affiliations": "CMU; UCLA",
+                  "category": "None",
+                  "id": "talk-85",
+                  "paperUrl": "http://dx.doi.org/10.1007/978-3-319-96884-1_17"
+                },
+                {
+                  "title": "On the Local Leakage Resilience of Linear Secret Sharing Schemes",
+                  "authors": [
+                    "Fabrice Benhamouda",
+                    "Akshay Degwekar",
+                    "Yuval Ishai",
+                    "Tal Rabin"
+                  ],
+                  "affiliations": "IBM Research; MIT; Technion; IBM Research",
+                  "category": "Information-theoretic crypto",
+                  "keyWords": "Leakage Resilience, Shamir Secret Sharing, Fourier Analysis",
+                  "id": "talk-115",
+                  "paperUrl": "http://dx.doi.org/10.1007/978-3-319-96884-1_18"
+                }
+              ],
+              "location": {
+                "name": "Lotte Lehman Hall"
+              },
+              "id": "session-940",
+              "moderator": "Hoeteck Wee"
+            },
+            {
+              "session_title": "Quantum Cryptography I",
+              "talks": [
+                {
+                  "title": "Quantum FHE (Almost) As Secure As Classical",
+                  "authors": [
+                    "Zvika Brakerski"
+                  ],
+                  "affiliations": "Weizmann Institute of Science",
+                  "category": "Quantum crypto",
+                  "keyWords": "homomorphic encryption, quantum computation, learning with errors, quantum FHE",
+                  "id": "talk-120",
+                  "paperUrl": "http://dx.doi.org/10.1007/978-3-319-96878-0_3"
+                },
+                {
+                  "title": "IND-CCA-secure Key Encapsulation Mechanism in the Quantum Random Oracle Model, Revisited",
+                  "authors": [
+                    "Haodong Jiang",
+                    "Zhenfeng Zhang",
+                    "Long Chen",
+                    "Hong Wang",
+                    "Zhi Ma"
+                  ],
+                  "affiliations": "State Key Laboratory of Mathematical Engineering and Advanced Computing, Zhengzhou, Henan, China, TCA Laboratory, State Key Laboratory of Computer Science, Institute of Software, Chinese Academy of Sciences, China; TCA Laboratory, State Key Laboratory of Computer Science, Institute of Software, Chinese Academy of Sciences, China, University of Chinese Academy of Sciences, Beijing, China; TCA Laboratory, State Key Laboratory of Computer Science, Institute of Software, Chinese Academy of Sciences, China, University of Chinese Academy of Sciences, Beijing, China; State Key Laboratory of Mathematical Engineering and Advanced Computing, Zhengzhou, Henan, China; State Key Laboratory of Mathematical Engineering and Advanced Computing, Zhengzhou, Henan, China, CAS Center for Excellence and Synergetic Innovation Center in Quantum information and Quantum Physics,USTC, Hefei, Anhui, China",
+                  "category": "Provable security for asymmetric cryptography",
+                  "keyWords": "quantum random oracle model, key encapsulation mechanism, IND-CCA security, generic transformation",
+                  "id": "talk-77",
+                  "paperUrl": "http://dx.doi.org/10.1007/978-3-319-96878-0_4"
+                }
+              ],
+              "location": {
+                "name": "Corwin Pavilion"
+              },
+              "id": "session-941",
+              "moderator": "Alexandra Boldyreva"
+            }
+          ],
+          "twosessions": true
+        },
+        {
+          "starttime": "11:40",
+          "endtime": "11:45",
+          "sessions": [
+            {
+              "id": "session-942",
+              "session_title": "Track-switch Break"
+            }
+          ]
+        },
+        {
+          "endtime": "12:40",
+          "starttime": "11:45",
+          "sessions": [
+            {
+              "session_title": "Encryption",
+              "talks": [
+                {
+                  "title": "Threshold Cryptosystems From Threshold Fully Homomorphic Encryption",
+                  "authors": [
+                    "Dan Boneh",
+                    "Rosario Gennaro",
+                    "Steven Goldfeder",
+                    "Aayush Jain",
+                    "Sam Kim",
+                    "Peter M. R. Rasmussen",
+                    "Amit Sahai"
+                  ],
+                  "affiliations": "Stanford University; City College of New York; Princeton University; UCLA and Center for Encrypted Functionalities; Stanford University; UCLA and Center for Encrypted Functionalities; UCLA and Center for Encrypted Functionalities",
+                  "category": "Lattice crypto",
+                  "keyWords": "Fully Homomorphic Encryption, Threshold Cryptosystems, Threshold Signatures",
+                  "id": "talk-75",
+                  "paperUrl": "http://dx.doi.org/10.1007/978-3-319-96884-1_19"
+                },
+                {
+                  "title": "Multi-Input Functional Encryption for Inner Products: Function-Hiding Realizations and Constructions without Pairings",
+                  "authors": [
+                    "Michel Abdalla",
+                    "Dario Catalano",
+                    "Dario Fiore",
+                    "Romain Gay",
+                    "Bogdan Ursu"
+                  ],
+                  "affiliations": "Departement informatique de l’ENS, Ecole normale supérieure, CNRS, PSL University, 75005 Paris, France and INRIA, Paris, France; Università di Catania, Italy; IMDEA Software Institute, Madrid, Spain; Departement informatique de l’ENS, Ecole normale supérieure, CNRS, PSL University, 75005 Paris, France and INRIA, Paris, France; KIT, Karlsruhe, Germany",
+                  "category": "Provable security for asymmetric cryptography",
+                  "keyWords": "Multi-input functional encryption, inner-product functionality, DDH, LWE",
+                  "id": "talk-119",
+                  "paperUrl": "http://dx.doi.org/10.1007/978-3-319-96884-1_20"
+                }
+              ],
+              "location": {
+                "name": "Lotte Lehman Hall"
+              },
+              "id": "session-943",
+              "moderator": "Ananth Raghunathan"
+            },
+            {
+              "session_title": "Quantum Cryptography II",
+              "id": "session-944",
+              "talks": [
+                {
+                  "title": "Pseudorandom Quantum States",
+                  "authors": [
+                    "Zhengfeng Ji",
+                    "Yi-Kai Liu",
+                    "Fang Song"
+                  ],
+                  "affiliations": "University of Technology Sydney; University of Maryland and NIST; Portland State University",
+                  "category": "Quantum crypto",
+                  "keyWords": "pseudorandomness, quantum money",
+                  "id": "talk-123",
+                  "paperUrl": "http://dx.doi.org/10.1007/978-3-319-96878-0_5"
+                },
+                {
+                  "title": "Soft Merge with the next talk: Quantum Attacks against Indistinguishablility Obfuscators Proved Secure in the Weak Multilinear Map Model",
+                  "authors": [
+                    "Alice Pellet-Mary"
+                  ],
+                  "affiliations": "Univ Lyon, CNRS, ENS de Lyon, Inria, UCBL, LIP, Lyon, France.",
+                  "category": "Foundations",
+                  "keyWords": "Cryptanalysis, Obfuscation",
+                  "id": "talk-114",
+                  "paperUrl": "https://doi.org/10.1007/978-3-319-96878-0_6"
+                },
+                {
+                  "title": "Cryptanalyses of Branching Program Obfuscations over GGH13 Multilinear Map from the NTRU Problem",
+                  "authors": [
+                    "Jung Hee Cheon",
+                    "Minki Hhan",
+                    "Jiseung Kim",
+                    "Changmin Lee"
+                  ],
+                  "affiliations": "Seoul National University; Seoul National University; Seoul National University; Seoul National University",
+                  "category": "Obfuscation",
+                  "keyWords": "Obfuscation, multilinear maps, graded encoding schemes.",
+                  "id": "talk-93",
+                  "paperUrl": "http://dx.doi.org/10.1007/978-3-319-96878-0_7"
+                }
+              ],
+              "location": {
+                "name": "Corwin Pavilion"
+              },
+              "moderator": "Chitchanok Chuengsatiansup"
+            }
+          ],
+          "twosessions": true
+        },
+        {
+          "endtime": "14:00",
+          "starttime": "12:45",
+          "sessions": [
+            {
+              "session_title": "Lunch",
+              "location": {
+                "name": "De La Guerra Dining Commons"
+              },
+              "id": "session-945"
+            }
+          ]
+        },
+        {
+          "endtime": "18:00",
+          "starttime": "14:00",
+          "sessions": [
+            {
+              "session_title": "Free afternoon",
+              "id": "session-946"
+            }
+          ]
+        },
+        {
+          "endtime": "21:00",
+          "starttime": "18:00",
+          "sessions": [
+            {
+              "session_title": "Dinner Reception",
+              "location": {
+                "name": "University Center Lagoon Plaza"
+              },
+              "id": "session-947"
+            }
+          ]
+        },
+        {
+          "endtime": "19:30",
+          "starttime": "19:00",
+          "sessions": [
+            {
+              "session_title": "IACR Award Ceremony",
+              "location": {
+                "name": "Corwin Pavilion"
+              },
+              "id": "session-948"
+            }
+          ]
+        },
+        {
+          "endtime": "23:00",
+          "starttime": "19:30",
+          "sessions": [
+            {
+              "session_title": "Rump Session",
+              "location": {
+                "name": "Corwin Pavilion"
+              },
+              "id": "session-949"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2018-08-22",
+      "timeslots": [
+        {
+          "endtime": "8:35",
+          "starttime": "7:30",
+          "sessions": [
+            {
+              "session_title": "Breakfast",
+              "location": {
+                "name": "De La Guerra Dining Commons"
+              },
+              "id": "session-950"
+            }
+          ]
+        },
+        {
+          "endtime": "10:20",
+          "starttime": "8:40",
+          "sessions": [
+            {
+              "session_title": "Symmetric Cryptography",
+              "talks": [
+                {
+                  "title": "Encrypt or Decrypt? To Make a Single-Key Beyond Birthday Secure Nonce-Based MAC",
+                  "authors": [
+                    "Nilanjan Datta",
+                    "Avijit Dutta",
+                    "Mridul Nandi",
+                    "Kan Yasuda"
+                  ],
+                  "affiliations": "Indian Institute of Technology, Kharagpur; Indian Statistical Institute, Kolkata; Indian Statistical Institute, Kolkata; NTT Information Sharing Platform Laboratories, NTT Corporation, Japan",
+                  "category": "Provable security for symmetric cryptography",
+                  "keyWords": "EDM, EWCDM, Mirror Theory, Extended Mirror Theory, H-Coefficient.",
+                  "id": "talk-126",
+                  "paperUrl": "http://dx.doi.org/10.1007/978-3-319-96884-1_21"
+                },
+                {
+                  "title": "Rasta: A cipher with low ANDdepth and few ANDs per bit",
+                  "authors": [
+                    "Christoph Dobraunig",
+                    "Maria Eichlseder",
+                    "Lorenzo Grassi",
+                    "Virginie Lallemand",
+                    "Gregor Leander",
+                    "Eik List",
+                    "Florian Mendel",
+                    "Christian Rechberger"
+                  ],
+                  "affiliations": "Graz University of Technology; Graz University of Technology; Graz University of Technology; Horst Görtz Institute for IT Security, Ruhr-Universität Bochum; Horst Görtz Institute for IT Security, Ruhr-Universität Bochum; Bauhaus-Universität Weimar; Infineon Technologies AG; Graz University of Technology",
+                  "category": "Symmetric cryptanalysis",
+                  "keyWords": "Symmetric encryption, ASASA, homomorphic encryption, multiplicative complexity, multiplicative depth",
+                  "id": "talk-87",
+                  "paperUrl": "http://dx.doi.org/10.1007/978-3-319-96884-1_22"
+                },
+                {
+                  "title": "Non-Uniform Bounds in the Random-Permutation, Ideal-Cipher, and Generic-Group Models",
+                  "authors": [
+                    "Sandro Coretti",
+                    "Yevgeniy Dodis",
+                    "Siyao Guo"
+                  ],
+                  "affiliations": "New York University; New York University; Northeastern University",
+                  "category": "Provable security for symmetric cryptography",
+                  "keyWords": "Random-Permutation Model, Ideal-Cipher Model, Generic-Group Model, Non-Uniformity, Preprocessing Attacks",
+                  "id": "talk-107",
+                  "paperUrl": "http://dx.doi.org/10.1007/978-3-319-96884-1_23"
+                },
+                {
+                  "title": "Provable Security of (Tweakable) Block Ciphers Based on Substitution-Permutation Networks",
+                  "authors": [
+                    "Benoit Cogliati",
+                    "Yevgeniy Dodis",
+                    "Jonathan Katz",
+                    "Jooyoung Lee",
+                    "John Steinberger",
+                    "Aishwarya Thiruvengadam",
+                    "Zhe Zhang"
+                  ],
+                  "affiliations": "University of Luxembourg, Luxembourg; New York University, USA; University of Maryland, USA; KAIST, Korea; ; University of California, Santa Barbara; Tsinghua University, Beijing",
+                  "category": "Provable security for symmetric cryptography",
+                  "keyWords": "substitution-permutation networks, tweakable block ciphers, domain extension of block ciphers, beyond-birthday-bound security",
+                  "id": "talk-59",
+                  "paperUrl": "http://dx.doi.org/10.1007/978-3-319-96884-1_24"
+                }
+              ],
+              "location": {
+                "name": "Lotte Lehman Hall"
+              },
+              "id": "session-951",
+              "moderator": "Xuejia Lai"
+            },
+            {
+              "session_title": "MPC",
+              "talks": [
+                {
+                  "title": "An Optimal Distributed Discrete Log Protocol with Applications to Homomorphic Secret Sharing",
+                  "authors": [
+                    "Itai Dinur",
+                    "Nathan Keller",
+                    "Ohad Klein"
+                  ],
+                  "affiliations": "Ben-Gurion University, Israel; Bar-Ilan University, Israel; Bar-Ilan University, Israel",
+                  "category": "Secure multiparty computation",
+                  "keyWords": "Homomorphic secret sharing, share conversion, fully homomorphic encryption, discrete logarithm, discrete logarithm in a short interval, random walk.",
+                  "id": "talk-99",
+                  "paperUrl": "http://dx.doi.org/10.1007/978-3-319-96878-0_8"
+                },
+                {
+                  "title": "Must the Communication Graph of MPC Protocols be an Expander?",
+                  "authors": [
+                    "Elette Boyle",
+                    "Ran Cohen",
+                    "Deepesh Data",
+                    "Pavel Hubacek"
+                  ],
+                  "affiliations": "IDC Herzliya; MIT and Northeastern University; UCLA; Charles University",
+                  "category": "Secure multiparty computation",
+                  "keyWords": "secure multiparty computation, expander graph, communication locality",
+                  "id": "talk-136",
+                  "paperUrl": "http://dx.doi.org/10.1007/978-3-319-96878-0_9"
+                },
+                {
+                  "title": "Two-Round Multiparty Secure Computation Minimizing Public Key Operations",
+                  "authors": [
+                    "Sanjam Garg",
+                    "Peihan Miao",
+                    "Akshayaram Srinivasan"
+                  ],
+                  "affiliations": "University of California, Berkeley; University of California, Berkeley; University of California, Berkeley",
+                  "category": "Secure multiparty computation",
+                  "id": "talk-65",
+                  "paperUrl": "http://dx.doi.org/10.1007/978-3-319-96878-0_10"
+                },
+                {
+                  "title": "Limits of Practical Sublinear Secure Computation",
+                  "authors": [
+                    "Elette Boyle",
+                    "Yuval Ishai",
+                    "Antigoni Polychroniadou"
+                  ],
+                  "affiliations": "IDC Herzliya; Technion; Cornell Tech and University of Rochester",
+                  "category": "None",
+                  "keyWords": "Secure Computation, Private Information Retrieval, Sublinear Communication, Locally Decodable Codes",
+                  "id": "talk-127",
+                  "paperUrl": "http://dx.doi.org/10.1007/978-3-319-96878-0_11"
+                }
+              ],
+              "location": {
+                "name": "Corwin Pavilion"
+              },
+              "id": "session-952",
+              "moderator": "Seny Kamara"
+            }
+          ],
+          "twosessions": true
+        },
+        {
+          "endtime": "10:50",
+          "starttime": "10:20",
+          "sessions": [
+            {
+              "session_title": "Coffee Break",
+              "id": "session-953"
+            }
+          ]
+        },
+        {
+          "endtime": "11:40",
+          "starttime": "10:50",
+          "sessions": [
+            {
+              "session_title": "Proofs of Work and Proofs of Stake",
+              "talks": [
+                {
+                  "title": "Verifiable Delay Functions",
+                  "authors": [
+                    "Dan Boneh",
+                    "Joseph Bonneau",
+                    "Benedikt Bünz",
+                    "Ben Fisch"
+                  ],
+                  "affiliations": "Stanford University; New-York University; Stanford University; Stanford University",
+                  "category": "Other",
+                  "keyWords": "Blockchain,New primitives,Timelock puzzles, Randomness beacons",
+                  "id": "talk-109",
+                  "paperUrl": "http://dx.doi.org/10.1007/978-3-319-96884-1_25"
+                },
+                {
+                  "title": "Proofs of Work from Worst-Case Assumptions",
+                  "authors": [
+                    "Marshall Ball",
+                    "Alon Rosen",
+                    "Manuel Sabin",
+                    "Prashant Nalini Vasudevan"
+                  ],
+                  "affiliations": "Columbia University; IDC Herzliya; UC Berkeley; MIT",
+                  "category": "Foundations",
+                  "keyWords": "Proofs of Work, Fine-Grained, Zero-Knowledge, Direct Sum Theorem, Non-Amortizability",
+                  "id": "talk-110",
+                  "paperUrl": "http://dx.doi.org/10.1007/978-3-319-96884-1_26"
+                }
+              ],
+              "location": {
+                "name": "Lotte Lehman Hall"
+              },
+              "id": "session-954",
+              "moderator": "Alessandra Scafuro"
+            },
+            {
+              "session_title": "Garbling",
+              "talks": [
+                {
+                  "title": "Limits on the Power of Garbling Techniques for Public-Key Encryption",
+                  "authors": [
+                    "Sanjam Garg",
+                    "Mohammad Hajiabadi",
+                    "Mohammad Mahmoody",
+                    "Ameer Mohammed"
+                  ],
+                  "affiliations": "University of California, Berkeley; ; ; ",
+                  "category": "Foundations",
+                  "keyWords": "Public-key encryption, one-way function, black-box constructions, non-black-box separations, garbling schemes",
+                  "id": "talk-133",
+                  "paperUrl": "http://dx.doi.org/10.1007/978-3-319-96878-0_12"
+                },
+                {
+                  "title": "Optimizing Authenticated Garbling for Faster Secure Two-Party Computation",
+                  "authors": [
+                    "Jonathan Katz",
+                    "Samuel Ranellucci",
+                    "Mike Rosulek",
+                    "Xiao Wang"
+                  ],
+                  "affiliations": "University of Maryland; University of Maryland and George Mason University; Oregon State University; University of Maryland",
+                  "category": "Secure multiparty computation",
+                  "keyWords": "Two-party computation, garbled circuits, malicious security",
+                  "id": "talk-104",
+                  "paperUrl": "http://dx.doi.org/10.1007/978-3-319-96878-0_13"
+                }
+              ],
+              "location": {
+                "name": "Corwin Pavilion"
+              },
+              "id": "session-955",
+              "moderator": "Hoeteck Wee"
+            }
+          ],
+          "twosessions": true
+        },
+        {
+          "endtime": "11:45",
+          "starttime": "11:40",
+          "sessions": [
+            {
+              "session_title": "Track-switch Break",
+              "id": "session-956"
+            }
+          ]
+        },
+        {
+          "endtime": "12:45",
+          "starttime": "11:45",
+          "sessions": [
+            {
+              "session_title": "Invited Talk",
+              "location": {
+                "name": "Corwin Pavillon"
+              },
+              "id": "session-957",
+              "talks": [
+                {
+                  "id": "talk-917",
+                  "title": "Crypto: a Key Ingredient to Building Respectful Products",
+                  "authors": [
+                    "Lea Kissner"
+                  ],
+                  "affiliations": "Google",
+                  "category": "Foundations"
+                }
+              ],
+              "moderator": "Hovav Shacham"
+            }
+          ]
+        },
+        {
+          "endtime": "14:00",
+          "starttime": "12:50",
+          "sessions": [
+            {
+              "session_title": "Lunch",
+              "location": {
+                "name": "De La Guerra Dining Commons"
+              },
+              "id": "session-958"
+            }
+          ]
+        },
+        {
+          "endtime": "15:05",
+          "starttime": "14:15",
+          "sessions": [
+            {
+              "session_title": "Proof Tools",
+              "talks": [
+                {
+                  "title": "Simplifying Game-Based Definitions: Indistinguishability up to Correctness and Its Application to Stateful AE",
+                  "authors": [
+                    "Phillip Rogaway",
+                    "Yusi Zhang"
+                  ],
+                  "affiliations": "University of California, Davis, USA; University of California, Davis, USA",
+                  "category": "Foundations",
+                  "keyWords": "indistinguishability, oracle silencing, provable security, stateful authenticated encryption",
+                  "id": "talk-134",
+                  "paperUrl": "https://doi.org/10.1007/978-3-319-96881-0_1"
+                },
+                {
+                  "title": "The Algebraic Group Model and its Applications",
+                  "authors": [
+                    "Georg Fuchsbauer",
+                    "Eike Kiltz",
+                    "Julian Loss"
+                  ],
+                  "affiliations": "Inria, ENS, CNRS, PSL, France; Ruhr University Bochum, Germany; Ruhr University Bochum, Germany",
+                  "category": "Foundations",
+                  "keyWords": "Algebraic algorithms, generic group model, security reductions, cryptographic assumptions",
+                  "id": "talk-97",
+                  "paperUrl": "http://dx.doi.org/10.1007/978-3-319-96881-0_2"
+                }
+              ],
+              "location": {
+                "name": "Lotte Lehman Hall"
+              },
+              "id": "session-959",
+              "moderator": "Alexandra Boldyreva"
+            },
+            {
+              "session_title": "Information-Theoretic MPC",
+              "talks": [
+                {
+                  "title": "Amortized Complexity of Information-Theoretically Secure MPC Revisited",
+                  "authors": [
+                    "Ignacio Cascudo",
+                    "Ronald Cramer",
+                    "Chaoping Xing",
+                    "Chen Yuan"
+                  ],
+                  "affiliations": "Aalborg University, Denmark; CWI Amsterdam and Leiden University, the Netherlands; Nanyang Technological University, Singapore; CWI Amsterdam, the Netherlands",
+                  "category": "Secure multiparty computation",
+                  "keyWords": "secure multiparty computation, amortization, information-theoretical security",
+                  "id": "talk-129",
+                  "paperUrl": "http://dx.doi.org/10.1007/978-3-319-96878-0_14"
+                },
+                {
+                  "title": "Private Circuits: A Modular Approach",
+                  "authors": [
+                    "Prabhanjan Ananth",
+                    "Yuval Ishai",
+                    "Amit Sahai"
+                  ],
+                  "affiliations": "MIT; Technion; UCLA",
+                  "category": "Information-theoretic crypto",
+                  "id": "talk-112",
+                  "paperUrl": "http://dx.doi.org/10.1007/978-3-319-96878-0_15"
+                }
+              ],
+              "location": {
+                "name": "Corwin Pavilion"
+              },
+              "id": "session-960",
+              "moderator": "Daniel Wichs"
+            }
+          ],
+          "twosessions": true
+        },
+        {
+          "endtime": "15:35",
+          "starttime": "15:05",
+          "sessions": [
+            {
+              "session_title": "Coffee Break",
+              "id": "session-961"
+            }
+          ]
+        },
+        {
+          "endtime": "16:25",
+          "starttime": "15:35",
+          "sessions": [
+            {
+              "session_title": "Key Exchange",
+              "talks": [
+                {
+                  "title": "On Tightly Secure Non-Interactive Key Exchange",
+                  "authors": [
+                    "Julia Hesse",
+                    "Dennis Hofheinz",
+                    "Lisa Kohl"
+                  ],
+                  "affiliations": "TU Darmstadt; Karlsruhe Institute of Technology; Karlsruhe Institute of Technology",
+                  "category": "Provable security for asymmetric cryptography",
+                  "keyWords": "Non-Interactive Key Exchange, Hash Proof Systems, Tight Security",
+                  "id": "talk-113",
+                  "paperUrl": "http://dx.doi.org/10.1007/978-3-319-96881-0_3"
+                },
+                {
+                  "title": "Practical and Tightly-Secure Digital Signatures and Authenticated Key Exchange",
+                  "authors": [
+                    "Kristian Gjøsteen",
+                    "Tibor Jager"
+                  ],
+                  "affiliations": "NTNU - Norwegian University of Science and Technology, Trondheim, Norway; Paderborn University, Paderborn, Germany",
+                  "category": "Provable security for asymmetric cryptography",
+                  "keyWords": "Digital signatures, authenticated key exchange, tight security, Fiat-Shamir",
+                  "id": "talk-111",
+                  "paperUrl": "http://dx.doi.org/10.1007/978-3-319-96881-0_4"
+                }
+              ],
+              "location": {
+                "name": "Lotte Lehman Hall"
+              },
+              "id": "session-962",
+              "moderator": "Marc Fischlin"
+            },
+            {
+              "session_title": "Various Topics",
+              "talks": [
+                {
+                  "title": "A New Public-Key Cryptosystem via Mersenne Numbers",
+                  "authors": [
+                    "Divesh Aggarwal",
+                    "Antoine Joux",
+                    "Anupam Prakash",
+                    "Miklos Santha"
+                  ],
+                  "affiliations": "NUS; Fondation Partenariale de l; NTU and CQT, NUS; CNRS and CQT, NUS",
+                  "category": "Provable security for asymmetric cryptography",
+                  "keyWords": "Public-key cryptosystem, Key encapsulation mechanism, Mersenne primes",
+                  "id": "talk-92",
+                  "paperUrl": "http://dx.doi.org/10.1007/978-3-319-96878-0_16"
+                },
+                {
+                  "title": "Fast Homomorphic Evaluation of Deep Discretized Neural Networks",
+                  "authors": [
+                    "Florian Bourse",
+                    "Michele Minelli",
+                    "Matthias Minihold",
+                    "Pascal Paillier"
+                  ],
+                  "affiliations": "Orange Labs; ENS, CNRS, PSL Research University, Inria; Ruhr-Universität Bochum; CryptoExperts",
+                  "category": "Implementations, FHE, Side channels",
+                  "keyWords": "Fully Homomorphic Encryption, Neural Networks, Bootstrapping, MNIST",
+                  "id": "talk-69",
+                  "paperUrl": "http://dx.doi.org/10.1007/978-3-319-96878-0_17"
+                }
+              ],
+              "location": {
+                "name": "Corwin Pavilion"
+              },
+              "id": "session-963",
+              "moderator": "Hoeteck Wee"
+            }
+          ],
+          "twosessions": true
+        },
+        {
+          "endtime": "17:35",
+          "starttime": "16:35",
+          "sessions": [
+            {
+              "session_title": "IACR Membership Meeting",
+              "location": {
+                "name": "Corwin Pavilion"
+              },
+              "id": "session-964"
+            }
+          ]
+        },
+        {
+          "endtime": "19:30",
+          "starttime": "18:00",
+          "sessions": [
+            {
+              "session_title": "Beach Barbeque",
+              "location": {
+                "name": "Goleta Beach"
+              },
+              "id": "session-965"
+            }
+          ]
+        },
+        {
+          "endtime": "22:30",
+          "starttime": "19:30",
+          "sessions": [
+            {
+              "starttime": "21:00",
+              "session_title": "Crypto Café",
+              "location": {
+                "name": "Anacapa Formal Lounge and Anacapa Front Lawn"
+              },
+              "id": "session-966"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2018-08-23",
+      "timeslots": [
+        {
+          "endtime": "8:35",
+          "starttime": "7:30",
+          "sessions": [
+            {
+              "session_title": "Breakfast",
+              "location": {
+                "name": "De La Guerra Dining Commons"
+              },
+              "id": "session-967"
+            }
+          ]
+        },
+        {
+          "endtime": "10:20",
+          "starttime": "8:40",
+          "sessions": [
+            {
+              "session_title": "Symmetric Cryptanalysis",
+              "talks": [
+                {
+                  "title": "Improved Key Recovery Attacks on Reduced-Round AES with Practical Data and Memory Complexities",
+                  "authors": [
+                    "Achiya Bar-On",
+                    "Orr Dunkelman",
+                    "Nathan Keller",
+                    "Eyal Ronen",
+                    "Adi Shamir"
+                  ],
+                  "affiliations": "Bar Ilan University, Israel; University of Haifa, Israel; Bar Ilan University, Israel; Weizmann Institute, Israel; Weizmann Institute, Israel",
+                  "category": "Symmetric cryptanalysis",
+                  "keyWords": "AES, Mixture Differential",
+                  "id": "talk-76",
+                  "paperUrl": "http://dx.doi.org/10.1007/978-3-319-96881-0_7"
+                },
+                {
+                  "title": "Fast Correlation Attack Revisited - Cryptanalysis on Full Grain-128a, Grain-128, and Grain-v1",
+                  "authors": [
+                    "Yosuke Todo",
+                    "Takanori Isobe",
+                    "Willi Meier",
+                    "Kazumaro Aoki",
+                    "Bin Zhang"
+                  ],
+                  "affiliations": "NTT Secure Platform Laboratories; University of Hyogo; FHNW; NTT Secure Platform Laboratories; Chinese Academy of Sciences",
+                  "category": "Foundations",
+                  "keyWords": "Fast correlation attack, Stream cipher, LFSR, Finite field, Multiple linear approximations, Grain-128a, Grain-128, Grain-v1",
+                  "id": "talk-82",
+                  "paperUrl": "https://doi.org/10.1007/978-3-319-96881-0_5"
+                },
+                {
+                  "title": "A Key-recovery Attack on 855-round Trivium",
+                  "authors": [
+                    "Ximing Fu",
+                    "Xiaoyun Wang",
+                    "Xiaoyang Dong",
+                    "Willi Meier"
+                  ],
+                  "affiliations": "Tsinghua University; Tsinghua University, Shandong University; Tsinghua University; FHNW",
+                  "category": "Symmetric cryptanalysis",
+                  "keyWords": "Trivium, Nullification Technique, Polynomial Reduction, IV Representation, Key-recovery Attack",
+                  "id": "talk-70",
+                  "paperUrl": "http://dx.doi.org/10.1007/978-3-319-96881-0_6"
+                },
+                {
+                  "title": "Bernstein Bound on WCS is Tight - Repairing Luykx-Preneel Optimal Forgeries",
+                  "authors": [
+                    "Mridul Nandi"
+                  ],
+                  "affiliations": "Indian Statistical Institute, Kolkata",
+                  "category": "Foundations",
+                  "keyWords": "Authenticator, WCS, GCM, Polynomial hash, AXU, key recovery, forgery.",
+                  "id": "talk-63",
+                  "paperUrl": "https://doi.org/10.1007/978-3-319-96881-0_8"
+                }
+              ],
+              "location": {
+                "name": "Lotte Lehman Hall"
+              },
+              "id": "session-968",
+              "moderator": "Hovav Shacham"
+            },
+            {
+              "session_title": "Oblivious Transfer and Non-Malleable Codes",
+              "talks": [
+                {
+                  "title": "Adaptive Garbled RAM from Laconic Oblivious Transfer",
+                  "authors": [
+                    "Sanjam Garg",
+                    "Rafail Ostrovsky",
+                    "Akshayaram Srinivasan"
+                  ],
+                  "affiliations": "University of California, Berkeley; UCLA; University of California, Berkeley",
+                  "category": "Foundations",
+                  "id": "talk-89",
+                  "paperUrl": "http://dx.doi.org/10.1007/978-3-319-96878-0_18"
+                },
+                {
+                  "title": "On the Round Complexity of OT Extension",
+                  "authors": [
+                    "Sanjam Garg",
+                    "Mohammad mahmoody",
+                    "Daniel Masny",
+                    "Izaak Meckler"
+                  ],
+                  "affiliations": "Berkeley; University of Virginia; Berkeley; Berkeley",
+                  "category": "Foundations",
+                  "keyWords": "Oblivious Transfer Extension, Symmetric Key Primitives, Random Oracle Model, Black-Box Separations, Non-Black-Box Constructions",
+                  "id": "talk-72",
+                  "paperUrl": "http://dx.doi.org/10.1007/978-3-319-96878-0_19"
+                },
+                {
+                  "title": "Non-Malleable Codes for Partial Functions with Manipulation Detection",
+                  "authors": [
+                    "Aggelos Kiayias",
+                    "Feng-Hao Liu",
+                    "Yiannis Tselekounis"
+                  ],
+                  "affiliations": "University of Edinburgh; Florida Atlantic University; University of Edinburgh",
+                  "category": "None",
+                  "keyWords": "non-malleable codes, manipulation-detection codes, tamper-resilient cryptography",
+                  "id": "talk-64",
+                  "paperUrl": "http://dx.doi.org/10.1007/978-3-319-96878-0_20"
+                },
+                {
+                  "title": "Continuously Non-Malleable Codes in the Split-State Model from Minimal Assumptions",
+                  "authors": [
+                    "Rafail Ostrovsky",
+                    "Giuseppe Persiano",
+                    "Daniele Venturi",
+                    "Ivan Visconti"
+                  ],
+                  "affiliations": "UCLA; University of Salerno; Sapienza University of Rome; University of Salerno",
+                  "category": "Foundations",
+                  "keyWords": "continuously non-malleable codes, split-state tampering, plain model, minimal assumptions",
+                  "id": "talk-108",
+                  "paperUrl": "http://dx.doi.org/10.1007/978-3-319-96878-0_21"
+                }
+              ],
+              "location": {
+                "name": "Corwin Pavilion"
+              },
+              "id": "session-969",
+              "moderator": "Pooya Farshim"
+            }
+          ],
+          "twosessions": true
+        },
+        {
+          "endtime": "10:50",
+          "starttime": "10:20",
+          "sessions": [
+            {
+              "session_title": "Coffee Break",
+              "id": "session-970"
+            }
+          ]
+        },
+        {
+          "endtime": "12:05",
+          "starttime": "10:50",
+          "sessions": [
+            {
+              "session_title": "Hashes and Random Oracles",
+              "talks": [
+                {
+                  "title": "Correcting Subverted Random Oracles",
+                  "authors": [
+                    "Alexander Russell",
+                    "Qiang Tang",
+                    "Moti Yung",
+                    "Hong-Sheng Zhou"
+                  ],
+                  "affiliations": "UNIVERSITY OF CONNECTICUT; New Jersey Institute of Technology; Snapchat and Columbia University; Virginia Commonwealth University",
+                  "category": "Foundations",
+                  "keyWords": "indifferentiability, randomness",
+                  "id": "talk-78",
+                  "paperUrl": "http://dx.doi.org/10.1007/978-3-319-96881-0_9"
+                },
+                {
+                  "title": "Combiners for Backdoored Random Oracles",
+                  "authors": [
+                    "Balthazar Bauer",
+                    "Pooya Farshim",
+                    "Sogol Mazaheri"
+                  ],
+                  "affiliations": "École Normale Supérieure; École Normale Supérieure; Technische Universität Darmstadt",
+                  "category": "Foundations",
+                  "keyWords": "random oracle, combiner, communication complexity, set-disjointness, set-intersection, lower bounds",
+                  "id": "talk-135",
+                  "paperUrl": "http://dx.doi.org/10.1007/978-3-319-96881-0_10"
+                },
+                {
+                  "title": "On Distributional Collision Resistant Hashing",
+                  "authors": [
+                    "Ilan Komargodski",
+                    "Eylon Yogev"
+                  ],
+                  "affiliations": "Cornell Tech; Weizmann Institute",
+                  "category": "Foundations",
+                  "keyWords": "multi collision resistant hash, MCRH, distributional CRH, non black box",
+                  "id": "talk-117",
+                  "paperUrl": "http://dx.doi.org/10.1007/978-3-319-96881-0_11"
+                }
+              ],
+              "location": {
+                "name": "Lotte Lehman Hall"
+              },
+              "id": "session-971",
+              "moderator": "Stanislaw Jarecki"
+            },
+            {
+              "session_title": "Zero Knowledge",
+              "talks": [
+                {
+                  "title": "Non-Interactive Zero-Knowledge Proofs for Composite Statements",
+                  "authors": [
+                    "Shashank Agrawal",
+                    "Chaya Ganesh",
+                    "Payman Mohassel"
+                  ],
+                  "affiliations": "Visa Research; Aarhus University; Visa Research",
+                  "category": "Other",
+                  "keyWords": "Non-interactive zero-knowledge, sigma protocols, SNARK, proof of solvency",
+                  "id": "talk-86",
+                  "paperUrl": "http://dx.doi.org/10.1007/978-3-319-96878-0_22"
+                },
+                {
+                  "title": "From Laconic Zero-Knowledge to Public-Key Cryptography",
+                  "authors": [
+                    "Itay Berman",
+                    "Akshay Degwekar",
+                    "Ron D. Rothblum",
+                    "Prashant Nalini Vasudevan"
+                  ],
+                  "affiliations": "MIT; MIT; MIT, Northeastern University; MIT",
+                  "category": "Foundations",
+                  "keyWords": "Public Key Cryptography, zero knowledge",
+                  "id": "talk-91",
+                  "paperUrl": "http://dx.doi.org/10.1007/978-3-319-96878-0_23"
+                },
+                {
+                  "title": "Updatable and Universal Common Reference Strings with Applications to zk-SNARKs",
+                  "authors": [
+                    "Jens Groth",
+                    "Markulf Kohlweiss",
+                    "Mary Maller",
+                    "Sarah Meiklejohn",
+                    "Ian Miers"
+                  ],
+                  "affiliations": "University College London; University of Edinburgh; University College London; University College London; Cornell Tech",
+                  "category": "Provable security for asymmetric cryptography",
+                  "keyWords": "zk-SNARKs, CRS, zero-knowledge",
+                  "id": "talk-103",
+                  "paperUrl": "http://dx.doi.org/10.1007/978-3-319-96878-0_24"
+                }
+              ],
+              "location": {
+                "name": "Corwin Pavilion"
+              },
+              "id": "session-972",
+              "moderator": "Daniel Genkin"
+            }
+          ],
+          "twosessions": true
+        },
+        {
+          "starttime": "12:05",
+          "endtime": "12:10",
+          "sessions": [
+            {
+              "id": "session-973",
+              "session_title": "Track-switch Break"
+            }
+          ]
+        },
+        {
+          "starttime": "12:10",
+          "endtime": "13:00",
+          "sessions": [
+            {
+              "id": "session-974",
+              "session_title": "Trapdoor Functions",
+              "talks": [
+                {
+                  "title": "Fast Distributed RSA Key Generation for Semi-Honest and Malicious Adversaries",
+                  "authors": [
+                    "Tore K. Frederiksen",
+                    "Yehuda Lindell",
+                    "Valery Osheter",
+                    "Benny Pinkas"
+                  ],
+                  "affiliations": "Alexandra Institute; Bar-Ilan University; Unbound Tech Ltd.; Bar-Ilan University",
+                  "category": "Other",
+                  "keyWords": "Distributed key generation, RSA",
+                  "id": "talk-61",
+                  "paperUrl": "http://dx.doi.org/10.1007/978-3-319-96881-0_12"
+                },
+                {
+                  "title": "Trapdoor Functions from the Computational Diffie-Hellman Assumption",
+                  "authors": [
+                    "Sanjam Garg",
+                    "Mohammad Hajiabadi"
+                  ],
+                  "affiliations": "University of California Berkeley; University of California Berkeley and University of Virginia",
+                  "category": "Provable security for asymmetric cryptography",
+                  "keyWords": "Trapdoor Functions, Chameleon encryption, Computational Diffie-Hellman",
+                  "id": "talk-80",
+                  "paperUrl": "http://dx.doi.org/10.1007/978-3-319-96881-0_13"
+                }
+              ],
+              "location": {
+                "name": "Lotte Lehman Hall"
+              },
+              "moderator": "Marc Fischlin"
+            },
+            {
+              "id": "session-975",
+              "session_title": "Obfuscation",
+              "talks": [
+                {
+                  "title": "On the Complexity of Compressing Obfuscation",
+                  "authors": [
+                    "Gilad Asharov",
+                    "Naomi Ephraim",
+                    "Ilan Komargodski",
+                    "Rafael Pass"
+                  ],
+                  "affiliations": "Cornell Tech; Cornell University; Cornell Tech; Cornell Tech",
+                  "category": "Obfuscation",
+                  "keyWords": "obfuscation, compression, XiO, correctness amplification, black-box separation",
+                  "id": "talk-122",
+                  "paperUrl": "http://dx.doi.org/10.1007/978-3-319-96878-0_26"
+                },
+                {
+                  "title": "A Simple Obfuscation Scheme for Pattern-Matching with Wildcards",
+                  "authors": [
+                    "Allison Bishop",
+                    "Lucas Kowalczyk",
+                    "Tal Malkin",
+                    "Valerio Pastro",
+                    "Mariana Raykova",
+                    "Kevin Shi"
+                  ],
+                  "affiliations": "IEX, Columbia University; Columbia University; Columbia University; Columbia University, Yale University; Yale University; Columbia University",
+                  "category": "Obfuscation",
+                  "keyWords": "virtual black box obfuscation, generic group",
+                  "id": "talk-118",
+                  "paperUrl": "http://dx.doi.org/10.1007/978-3-319-96878-0_25"
+                }
+              ],
+              "location": {
+                "name": "Corwin Pavilion"
+              },
+              "moderator": "Tancrède Lepoint"
+            }
+          ],
+          "twosessions": true
+        },
+        {
+          "endtime": "14:00",
+          "starttime": "13:05",
+          "sessions": [
+            {
+              "session_title": "Lunch",
+              "location": {
+                "name": "De La Guerra Dining Commons"
+              },
+              "id": "session-976"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "database_id": "201"
 }

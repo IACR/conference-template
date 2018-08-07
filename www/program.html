@@ -75,7 +75,7 @@
         </div>
       </div>
 
-      <!-- NOTE: below is placeholder content derived from the Crypto 2016 conference. remove and replace with your own content when ready. this code is here to give you an idea of what the structure of this page has looked like in the past 
+      <!-- NOTE: below is placeholder content derived from the Crypto 2016 conference. remove and replace with your own content when ready. this code is here to give you an idea of what the structure of this page has looked like in the past
       <div class="row">
         <aside class="col-xs-12">
           <p>
@@ -84,40 +84,6 @@
         </aside>
       </div>
       -->
-
-      <!-- TODO: work in progress - demo of marker size changes, per Mike's request, though these still need to be linked to the json -->
-      <!-- <div class="row">
-        <aside class="col-xs-12">
-          <p class="eventDescr">
-            testing next to eventDescr because why not <a href="#" class="iconLink">
-              <span class="glyphicon glyphicon-map-marker" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="location"></span>
-             </a>
-             <a href="https://www.dropbox.com/s/ifbav952rb4cgog/reality.pdf" class="iconLink">
-               <span class="glyphicon glyphicon-blackboard" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="slides"></span>
-             </a>
-             <a href="#" class="iconLink">
-               <span class="glyphicon glyphicon-file" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="paper"></span>
-             </a>
-             <a href="#" class="iconLink">
-               <span class="glyphicon glyphicon-facetime-video" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="video"></span>
-             </a>
-          </p>
-          <p class="dualTrackDescr">
-            also testing next to dualTrackDescr because I gotta know <a href="#" class="iconLink">
-              <span class="glyphicon glyphicon-map-marker" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="location"></span>
-             </a>
-             <a href="https://www.dropbox.com/s/ifbav952rb4cgog/reality.pdf" class="iconLink">
-               <span class="glyphicon glyphicon-blackboard" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="slides"></span>
-             </a>
-             <a href="#" class="iconLink">
-               <span class="glyphicon glyphicon-file" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="paper"></span>
-             </a>
-             <a href="#" class="iconLink">
-               <span class="glyphicon glyphicon-facetime-video" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="video"></span>
-             </a>
-          </p>
-        </aside>
-      </div> -->
 
       <div class="row">
         <div id="renderedProgram" class="col-xs-12">
@@ -165,8 +131,17 @@
                             <span class="authorName">{{this}}</span>
                           {{/each}}
                         </p>
+                        {{#if paperUrl}}
+                        <span class="talkMedia">
+                          Media: &nbsp; <a href="{{paperUrl}}"><img class="talkMediaIcon" src="images/file.svg" title="Paper"></a>
+                        </span>
+                        {{/if}}
+                        {{#if slidesUrl}}
+                        <span class="talkMedia">
+                          &nbsp; <a href="{{slidesUrl}}"><img class="talkMediaIcon" src="images/presentation.svg" title="Slides"></a>
+                        </span>
+                        {{/if}}
                       {{/each}}
-                      <!-- TODO: symbol links, to papers and so on, would go here (except location, that goes directly after moderator) -->
                     </div>
                   </div>
                   <div class="col-xs-2 hidden-sm hidden-md hidden-lg">
@@ -198,8 +173,17 @@
                             <span class="authorName">{{this}}</span>
                           {{/each}}
                         </p>
+                        {{#if paperUrl}}
+                        <span class="talkMedia">
+                          Media: &nbsp; <a href="{{paperUrl}}"><img class="talkMediaIcon" src="images/file.svg" title="Paper"></a>
+                        </span>
+                        {{/if}}
+                        {{#if slidesUrl}}
+                        <span class="talkMedia">
+                          &nbsp; <a href="{{slidesUrl}}"><img class="talkMediaIcon" src="images/presentation.svg" title="Slides"></a>
+                        </span>
+                        {{/if}}
                       {{/each}}
-                      <!-- TODO: symbol links, to papers and so on, would go here (except location, that goes directly after moderator) -->
                     </div>
                   </div>
                 {{else}}
@@ -227,6 +211,16 @@
                             <span class="authorName">{{this}}</span>
                           {{/each}}
                         </p>
+                        {{#if paperUrl}}
+                        <span class="talkMedia">
+                          Media: &nbsp; <a href="{{paperUrl}}"><img class="talkMediaIcon" src="images/file.svg" title="Paper"></a>
+                        </span>
+                        {{/if}}
+                        {{#if slidesUrl}}
+                        <span class="talkMedia">
+                          &nbsp; <a href="{{slidesUrl}}"><img class="talkMediaIcon" src="images/presentation.svg" title="Slides"></a>
+                        </span>
+                        {{/if}}
                       {{/each}}
                     </div>
                   </div>
