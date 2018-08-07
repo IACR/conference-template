@@ -252,6 +252,8 @@ p.talkTitle {
   font-size: 1.1em;
   font-weight: bold;
   text-align: left;
+  margin-top: 10px;
+  margin-bottom: 2px;
 }
 
 p.trackSwitch {
@@ -267,12 +269,15 @@ p.trackSwitch {
 
 p.eventDescr {
   text-align: center;
+  margin-bottom: 2px;
 }
 
 p.mutualEventTalkTitle {
   font-size: 1.1em;
   font-weight: bold;
   text-align: center;
+  margin-top: 10px;
+  margin-bottom: 2px;
 }
 
 .track1Event {
@@ -287,6 +292,7 @@ p.mutualEventTalkTitle {
 
 p.dualTrackDescr {
   text-align: left;
+  margin-bottom: 2px;
 }
 
 span.authorName:after {
@@ -295,4 +301,13 @@ span.authorName:after {
 
 span.authorName:last-of-type:after {
   content: '';
+}
+
+span.talkMedia {
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+img.talkMediaIcon {
+  height: 20px;
 }
