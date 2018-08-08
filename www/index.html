@@ -4,11 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title></title>
+    <title>
+      <!-- NOTE: populated by menus.js -->
+    </title>
 
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/spacelab/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap with spacelab theme -->
+    <link href="https://stackpath.bootstrapcdn.com/bootswatch/3.3.7/spacelab/bootstrap.min.css" rel="stylesheet" integrity="sha384-L/tgI3wSsbb3f/nW9V6Yqlaw3Gj7mpE56LWrhew/c8MIhAYWZ/FNirA64AVkB5pI" crossorigin="anonymous" />
 
     <!-- Extensions of bootstrap -->
     <link rel="stylesheet" href="./styles/jasny-bootstrap.css" />
@@ -22,8 +23,9 @@
   </head>
 
   <body data-spy="scroll">
+     <!-- NOTE: though role=navigation is redundant, some screenreaders do not yet recognize the nav element as having the role of navigation. while the W3 validator complains about this, I'm keeping it in for the benefit of users who may be using screenreaders. -->
     <nav id="mainmenu" class="navmenu navmenu-default navmenu-fixed-left offcanvas-sm" role="navigation">
-      <!-- populated by menus.js -->
+      <!-- NOTE: populated by menus.js -->
     </nav>
 
     <nav class="navbar navbar-default navbar-fixed-top hidden-md hidden-lg">
@@ -59,14 +61,20 @@
         </div>
       </header>
 
+      <!-- NOTE: noscript tag lets people who aren't running JS know that this page may not function correctly without JS. -->
       <noscript>
-	<div class="row">
-	  <article class="col-sm-12 sectionSpacing">
-	    <h1>This site is designed for browsers with javascript.</h1>
-	    <h3>The dates, name, and location for the conference are <a href="json/metadata.json">in a json file.</a></h3>
-	  </article>
-	</div>
+        <div class="row">
+          <article class="col-sm-12 sectionSpacing">
+            <h2>
+              This site is designed for browsers with javascript.
+            </h2>
+            <h3>
+                The dates, name, and location for the conference are <a href="json/metadata.json">in a json file.</a>
+            </h3>
+          </article>
+        </div>
       </noscript>
+
       <!-- NOTE: below is placeholder content. please uncomment and replace contents with your own content when ready. this content serves to give you an idea of what the structure of this page has looked like in the past -->
       <div class="row">
         <article class="col-sm-12 sectionSpacing">
@@ -273,15 +281,15 @@
     </main>
 
     <!-- Bootstrap scripts -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
     <!-- Bootstrap plugins -->
-    <script src="./js/jasny-bootstrap.js" type="text/javascript"></script>
+    <script src="./js/jasny-bootstrap.js"></script>
 
     <!-- Personal scripts -->
-    <script src="./js/menus.js" type="text/javascript"></script>
-    <script src="./js/navTitleFade.js" type="text/javascript"></script>
+    <script src="./js/menus.js"></script>
+    <script src="./js/navTitleFade.js"></script>
 
   </body>
 </html>

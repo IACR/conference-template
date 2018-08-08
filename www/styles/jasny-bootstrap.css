@@ -139,11 +139,19 @@
 }
 .navmenu,
 .navbar-offcanvas {
-  width: 300px;
+  width: 250px;
   height: auto;
   border-style: solid;
   border-width: 1px;
   border-radius: 4px;
+  /* NOTE: added to defaults to offset navbar text */
+  padding-left: 10px;
+}
+/* NOTE: when width of .navmenu changed, this media query was necessary to add so there wouldn't be a 50px wide gutter on the right margin of the navmenu on larger screens - had to specify above 992px b/c otherwise below that the main content would be pulled left offscreen by 50px */
+@media (min-width: 992px) {
+  main.container-fluid {
+    margin-left: -50px;
+  }
 }
 .navmenu-fixed-left,
 .navmenu-fixed-right,
@@ -220,7 +228,9 @@
 .navmenu-default,
 .navbar-default .navbar-offcanvas {
   background-color: #f8f8f8;
+  /* NOTE: this is the setting for the right border of the side navbar */
   border-color: #e7e7e7;
+  /* NOTE: if using dark side nav bg, try #182A2E  */
 }
 .navmenu-default .navmenu-brand,
 .navbar-default .navbar-offcanvas .navmenu-brand {
