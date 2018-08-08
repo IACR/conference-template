@@ -104,7 +104,7 @@
         <section class="col-sm-12">
           <ol id="accepted">
 
-            <!-- Handlebars import of accepted papers -->
+            <!-- Handlebars import of accepted papers in websubrev export format -->
             <script id="acceptedScript" type="text/x-handlebars-template">
               {{#each acceptedPapers}}
                 <li>
@@ -112,9 +112,9 @@
                     {{title}}
                   </h4>
                   <p>
-                    {{author}}
+                    {{authors}}
                     <br />
-                    {{institution}}
+                    {{institutions}}
                   </p>
                 </li>
               {{/each}}

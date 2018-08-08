@@ -1,3 +1,5 @@
+// NOTE: this imports the list of accepted papers in a format that is exported from websubrev. See sample papers.json.
+
 $(document).ready(function() {
   $.getJSON('./json/papers.json', function(data) {
     var theTemplateScript = $("#acceptedScript").html();
