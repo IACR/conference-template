@@ -2,11 +2,11 @@
   "acceptedPapers": [
   {"title": "Example Paper Title 1",
 	 "authors": "Author Lastname, Second Author, Student Author",
-   "institutions": "University of Computer Stuff, Prague, Austria"},
+   "affiliations": "University of Computer Stuff, Prague, Austria"},
   {"title": "Extra Jazzy Paper Title",
    "authors": "Professor Author",
-   "institutions": "University of Smart Scientists (USS), London, England"},
+   "affiliations": "University of Smart Scientists (USS), London, England"},
   {"title": "A Third Paper Title",
    "authors": "Author Researcher, Smart Human, Prolific Writer",
-   "institutions": "Institute of Code and Innovation (ICI), Arizona, United States"}
+   "affiliations": "Institute of Code and Innovation (ICI), Arizona, United States"}
 ]}
