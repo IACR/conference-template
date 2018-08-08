@@ -21,6 +21,7 @@
   </head>
 
   <body data-spy="scroll">
+    <!-- NOTE: see index.html for explanation of why the role=navigation is still here despite appearance of redundancy -->
     <nav id="mainmenu" class="navmenu navmenu-default navmenu-fixed-left offcanvas-sm" role="navigation">
       <!-- populated by menus.js -->
     </nav>
@@ -57,6 +58,20 @@
           </div>
         </header>
       </div>
+
+      <!-- NOTE: noscript tag lets people who aren't running JS know that this page may not function correctly without JS. -->
+      <noscript>
+        <div class="row">
+          <article class="col-sm-12 sectionSpacing">
+            <h2>
+              This site is designed for browsers with javascript.
+            </h2>
+            <h3>
+                The dates, name, and location for the conference are <a href="json/metadata.json">in a json file.</a>
+            </h3>
+          </article>
+        </div>
+      </noscript>
 
       <!-- NOTE: below is standard placeholder text for when the page is under construction. please delete this entire <div class="row"> when ready to add other content -->
       <div class="row">
