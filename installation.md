@@ -96,7 +96,7 @@ session). Don't forget to delete the corresponding html file.
 ___
 
 ### Changing the default colors
-The default theme is found in /styles/theme.css. There are some other
+The default theme is found in /www/styles/theme.css. There are some other
 stylesheets in /styles for different color schemes. If you would like
 to switch to a different color scheme, copy the contents of one of the
 other color schemes (e.g. blue.css, green.css, etc) and paste it into
@@ -108,24 +108,12 @@ should go in theme.css.
 ___
 
 ### Editing the header image
-The header image is specified in /styles/main.css as .headerImg. There
-are three default images you can choose from (defaultbg1_crop.jpg,
-etc). If you want to remove the background image in the header, delete
-or comment out .headerImg{background-side},
-.headerImg{background-image}, and .headerImg{background-position} in
-/styles/main.css.
+The header image is specified in /www/styles/main.css as .headerImg. There are three default images you can choose from that are found in /www/images/. If you want to remove the background image in the header, delete or comment out .headerImg{background-size}, .headerImg{background-image}, and .headerImg{background-position} in /www/styles/main.css.
 
-If you want to use a custom image, it *must* be 1200x480px or larger
-(note that larger may affect page load time). Acceptable file formats
-are .jpg, .png, or .gif. If using an animated gif, proceed with
-caution as this has the potential to be supremely annoying and/or
-negatively affect page load times.
+If you want to use a custom image, it *must* be 1200x480px or larger (note that larger may affect page load time). Acceptable file formats are .jpg, .png, or .gif. If using an animated gif, proceed with caution as this has the potential to be supremely annoying and/or negatively affect page load times.
 
-Removing the header image will not remove the gradient effect. If you
-would like to remove the background image and the gradient on the page
-header, delete or comment out everything *except*
-.headerGradient{margin-bottom}. This must be done in
-/styles/orange.css (or whichever color theme you have decided to use).
+Removing the header image will not remove the gradient effect. If you would like to remove the background image and the gradient on the page header, delete or comment out everything *except* .headerGradient{margin-bottom}. This must be done in
+/www/styles/main.css (or whichever color theme stylesheet you have decided to use).
 
 ___
 
