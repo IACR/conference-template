@@ -22,13 +22,13 @@ edit the relevant files.
 
 ___
 
-### Changing the conference names/dates/location 
+### Changing the conference names/dates/location
 Open /www/json/metadata.json. Editing this will change the places
 where this text would appear throughout all pages. Load the site again
 and you should see the changes you’ve made.
 
 If you need to generate a JSON file for your conference, go here:
-[http://www.iacr.org/cryptodb/pc]. This will supply the name of the
+http://www.iacr.org/cryptodb/pc. This will supply the name of the
 conference, latitude, longitude, and dates.
 
 ___
@@ -39,7 +39,7 @@ this text would appear throughout all pages.
 
 Please remember that first names should be included as they appear on
 the papers, rather than first initials. There is a tool at
-[http://www.iacr.org/cryptodb/pc] to help you generate this file. You
+http://www.iacr.org/cryptodb/pc to help you generate this file. You
 can also edit the existing example file that comes with this template
 if you prefer.
 
@@ -55,16 +55,16 @@ conference, as well as add your own information.
 
 While we have tried our best to remove all conference-specific
 references from the HTML and have these imported from JSON, we
-*strongly* recommend proofreading the HTML to make sure all content
+**strongly** recommend proofreading the HTML to make sure all content
 relates to your specific conference.
 
 #### To delete a page
 You can omit a page by deleting the html file and removing the link to
-it from /fragments/nav.html.
+it from /www/fragments/nav.html.
 
 #### To add a new page
 The process here is similar to deleting a page. Create your html page
-by copying empty.html, add the link to /fragments/nav.html, and then
+by copying empty.html, add the link to /www/fragments/nav.html, and then
 edit the new page to add your content.
 
 ___
@@ -79,14 +79,10 @@ ___
 ### Steps in the future
 You should now have a functioning website with the call for papers. As the time
 gets closer to the conference, you will want to add the list of accepted papers
-and the program. The list of accepted papers may be produced by websubrev, and a
-sample is present in /www/json/papers.json. The program is much more complicated,
-but there is a tool at https://www.iacr.org/tools to help you create the program
-from the list of accepted papers. The json file for the program would appear as
-/www/json/program.json and there is a
-[sample](https://www.iacr.org/tools/docs/program/program.json) at the IACR site.
+and the program. The list of accepted papers can be produced by websubrev (a
+sample is included in /www/json/papers.json). The program is much more complicated, but there is a tool at https://www.iacr.org/tools to help you create the program from the list of accepted papers. The json file for the program would appear as /www/json/program.json and there is a
+[sample](https://www.iacr.org/tools/sample_program.json) at the IACR site.
 
-___
 ___
 
 # Optional
