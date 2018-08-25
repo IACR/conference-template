@@ -15,6 +15,3 @@ IACR requested a makeover of their conference website, with the main
 concerns that it would be mobile friendly and look more modern. Their
 intention is to use this as a template for future conferences,
 including Crypto, Asiacrypt, and Eurocrypt. Data for a given conference is largely contained in JSON files, including the dates, name of conference, location, program, committee names, etc.
-
-For comparison, here's a screenshot of the 2016 website (the last year before I was commissioned to improve the site):
-![the old conference website, with many notable hallmarks of early 2000s/late 1990s web design](./www/images/oldCryptoSite.png)
