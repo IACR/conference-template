@@ -112,8 +112,7 @@ The header image is specified in /www/styles/main.css as .headerImg. There are t
 
 If you want to use a custom image, it *must* be 1200x480px or larger (note that larger may affect page load time). Acceptable file formats are .jpg, .png, or .gif. If using an animated gif, proceed with caution as this has the potential to be supremely annoying and/or negatively affect page load times.
 
-Removing the header image will not remove the gradient effect. If you would like to remove the background image and the gradient on the page header, delete or comment out everything *except* .headerGradient{margin-bottom}. This must be done in
-/www/styles/main.css (or whichever color theme stylesheet you have decided to use).
+Removing the header image will not remove the gradient effect. If you would like to remove the gradient effect independent of the header image, delete or comment out the background on .headerGradient in www/styles/theme.css.
 
 ___
 
