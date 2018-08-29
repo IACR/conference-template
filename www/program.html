@@ -96,12 +96,25 @@
 
           <!-- Handlebars script that will render the program template based on the program.json file -->
           <script id="program-template" type="text/x-handlebars-template">
+
+            <div role="navigation">
+              <ul class="nav nav-tabs nav-justified">
+                {{#each days}}
+                  <li role="presentation">
+                    <a href="#day-{{date}}">
+                      {{formatDate date}}
+                    </a>
+                  </li>
+                {{/each}}
+              </ul>
+            </div>
+
             {{#each days}}
-              <div class="row">
+              <div class="row" id="day-{{date}}">
                 <div class="col-xs-12 col-sm-5">
                  <hr />
                  <h3 class="pageSubtitle">
-                   {{date}}
+                   {{formatDate date}}
                  </h3>
                 </div>
               </div>
