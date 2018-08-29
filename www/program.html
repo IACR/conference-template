@@ -81,6 +81,36 @@
         </div>
       </div>
 
+      <div class="row">
+        <aside class="col-xs-12 text-center" role="navigation">
+          <p>
+            Skip to
+          </p>
+          <script id="dayNav" type="text/x-handlebars-template">
+            <!-- TODO outline: 1) ((everything inside the below ul)) if statement (is it a single day? then display nothing)
+            2) for each day after day 0, generate an li like the below
+           -->
+            <!-- <ul class="nav nav-pills">
+              <li role="presentation">
+                <a href="#first">
+                  {{days.date.0}}
+                </a>
+              </li>
+              <li role="presentation">
+                <a href="#second">
+                  Day 3 (Thursday)
+                </a>
+              </li>
+              <li role="presentation">
+                <a href="#third">
+                  Day 4 (Friday)
+                </a>
+              </li>
+            </ul> -->
+          </script>
+        </aside>
+      </div>
+
       <!-- NOTE: below is placeholder content derived from the Crypto 2016 conference. remove and replace with your own content when ready. this code is here to give you an idea of what the structure of this page has looked like in the past
       <div class="row">
         <aside class="col-xs-12">
@@ -101,7 +131,7 @@
                 <div class="col-xs-12 col-sm-5">
                  <hr />
                  <br />
-                 <h3 class="pageSubtitle">
+                 <h3 class="pageSubtitle" id="{{date}}">
                    {{formatDate date}}
                  </h3>
                 </div>
