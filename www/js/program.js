@@ -9,7 +9,6 @@ $(document).ready(function() {
 
     // set up Handlebars helper to display dates with day of the week
     Handlebars.registerHelper('formatDate', function(isodate) {
-      // NOTE: if possible, detect user's locale(?)
       return new Date(isodate).toLocaleString('en-En', {weekday: "long", month: "short", day: "numeric"});
     })
 
