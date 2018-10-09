@@ -6,7 +6,6 @@ $(document).ready(function() {
     success: function(data) {
       var renderedProgram = document.getElementById('renderedProgram');
       if (!data.hasOwnProperty('days')) {
-        document.getElementById('renderedProgram');
         renderedProgram.innerHTML = '<p>The conference program is not currently available. Please check back later.</p>';
         return;
       }
@@ -37,8 +36,7 @@ $(document).ready(function() {
 
       if (textStatus === 'error') {
         console.log('program.json not found, check file name and try again');
-      }
-      else {
+      } else {
         console.log('There is a problem with program.json. The problem is ' + error);
       }
     }
