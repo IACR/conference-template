@@ -1,7 +1,9 @@
 $(document).ready(function() {
   function getInfo() {
     $.ajax({
-      cache: false,
+      headers: {
+        'Cache-Control': 'max-age=30'
+      },
       url: './json/metadata.json',
       dataType: 'json',
       success: function(data) {
