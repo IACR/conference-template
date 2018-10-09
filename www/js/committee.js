@@ -1,6 +1,8 @@
 $(document).ready(function() {
   $.ajax({
-    cache: false,
+    headers: {
+      'Cache-Control': 'max-age=400'
+    },
     url: './json/comm.json',
     dataType: 'json',
     success: function(data) {
