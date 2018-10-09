@@ -36,8 +36,7 @@ $(document).ready(function() {
 
       if (textStatus === 'error') {
         console.log('program.json not found, check file name and try again');
-      }
-      else {
+      } else {
         console.log('There is a problem with program.json. The problem is ' + error);
       }
     }
