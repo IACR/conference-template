@@ -6,7 +6,6 @@ $(document).ready(function() {
     success: function(data) {
       var renderedProgram = document.getElementById('renderedProgram');
       if (!data.hasOwnProperty('days')) {
-        document.getElementById('renderedProgram');
         renderedProgram.innerHTML = '<p>The conference program is not currently available. Please check back later.</p>';
         return;
       }
