@@ -12,8 +12,11 @@ $(document).ready(function() {
 
       // set up Handlebars helper to display dates with day of the week
       Handlebars.registerHelper('formatDate', function(isodate) {
-        return new Date(isodate).toLocaleString('en-US', {weekday: "long", month: "short", day: "numeric"});
-      })
+	  var parts = isodate.split('-');
+	  return new Date(parts[0],
+			  parts[1] - 1, // months are zero-based
+			  parts[2]).toLocaleString('en-US', {weekday: "long", month: "short", day: "numeric"});
+      });
 
       var theTemplateScript = $("#program-template").html();
       var theTemplate = Handlebars.compile(theTemplateScript);
