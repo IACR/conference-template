@@ -130,6 +130,9 @@
                     <div class="track1Event panel-body">
                       <h4 class="text-center">
                         {{sessions.0.session_title}}
+                        {{#if sessions.0.session_url}}
+                          &nbsp; <a href="{{sessions.0.session_url}}"><img class="sessionInfoIcon" src="images/info.svg" title="Session Info"></a>
+                        {{/if}}
                       </h4>
                       {{#if sessions.0.location.name}}
                         <p class="dualTrackDescr">
@@ -172,6 +175,9 @@
                     <div class="panel-body track2Event">
                       <h4 class="text-center">
                         {{sessions.1.session_title}}
+                        {{#if sessions.1.session_url}}
+                          &nbsp; <a href="{{sessions.1.session_url}}"><img class="sessionInfoIcon" src="images/info.svg" title="Session Info"></a>
+                        {{/if}}
                       </h4>
                       {{#if sessions.1.location.name}}
                         <p class="dualTrackDescr">
@@ -210,6 +216,9 @@
                     <div class="panel-body mutualEvent">
                       <h4>
                         {{sessions.0.session_title}}
+                        {{#if sessions.0.session_url}}
+                          &nbsp; <a href="{{sessions.0.session_url}}"><img class="sessionInfoIcon" src="images/info.svg" title="Session Info"></a>
+                        {{/if}}
                       </h4>
                       {{#if sessions.0.location.name}}
                         <p class="eventDescr">
