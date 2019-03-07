@@ -307,6 +307,6 @@ span.talkMedia {
   display: inline-block;
 }
 
-img.talkMediaIcon {
+img.talkMediaIcon, img.sessionInfoIcon {
   height: 20px;
 }
