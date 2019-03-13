@@ -73,6 +73,9 @@ ___
 The program chairs and general chair appear on both callforpapers.html
 and contact.html. You will want to edit these.
 
+#### Updating the code of conduct page
+Section 8.10 of the [General Chair Guidelines](https://www.iacr.org/docs/genchair.pdf) requires an up to date code of conduct for each conference. You should edit the conduct.html accordingly. Sections that need editing will show up in red on the page because they contain a span with class editMe.
+
 At this point you should have a working site. The steps below this are optional.
 
 ___

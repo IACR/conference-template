@@ -228,6 +228,12 @@ p.priceText {
 }
 
 
+/***** Page-specific: code of conduct *****/
+span.editMe {
+  color: #DD0000;
+}
+
+
 /***** Page-specific: program *****/
 /*NOTE: remove once finalized that vertical alignment for times is unnecessary*/
 /*.verticalAlign {
