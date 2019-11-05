@@ -1,7 +1,7 @@
 # Conference Website Template
 If you're trying to install this, please refer to [installation.md](/installation.md).
 
-Currently live preview at (http://geekscat.com/iacr-demo). This site is meant to be reusable and could easily be adapted for your conference. Please contact me directly at kayasmckelly at gmail dot com for more info on usage rights.
+Currently live preview at (http://kaymckelly.com/iacr-demo). This site is meant to be reusable and could easily be adapted for your conference. Please contact me directly at kayasmckelly at gmail dot com for more info on usage rights.
 
 Conferences using this site template include:
 - [PKC 2018](https://pkc.iacr.org/2018/)
