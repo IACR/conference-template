@@ -24,7 +24,7 @@ body {
   float: none;
 }
 
-.navbar-toggle {
+.navbar-toggler {
   position: absolute;
   float: left;
   margin-left: 15px;
@@ -35,7 +35,7 @@ body {
 }
 
 @media (min-width: 1px) {
-  .navbar-toggle {
+  .navbar-toggler {
     display: block !important;
   }
 }

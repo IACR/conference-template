@@ -38,11 +38,11 @@ a#topNavTitle {
   max-height: 7.5em;
 }
 
-.navbar-default .navbar-toggle {
+.navbar-light .navbar-toggler {
   border-color: #2E3192;
 }
 
-.navbar-default .navbar-toggle .icon-bar {
+.navbar-light .navbar-toggler .icon-bar {
   background-color: #2E3192;
 }
 

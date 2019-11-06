@@ -26,8 +26,8 @@
       <!-- populated by menus.js -->
     </nav>
 
-    <nav class="navbar navbar-default navbar-fixed-top hidden-md hidden-lg">
-      <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navmenu">
+    <nav class="navbar navbar-light navbar-fixed-top hidden-md hidden-lg">
+      <button type="button" class="navbar-toggler" data-toggle="offcanvas" data-target=".navmenu">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -83,7 +83,7 @@
 
       <!-- NOTE: below is placeholder content derived from the Crypto 2016 conference. remove and replace with your own content when ready. this code is here to give you an idea of what the structure of this page has looked like in the past
       <div class="row">
-        <aside class="col-xs-12">
+        <aside class="col-12">
           <p>
             All track 1 events at this fictitious conference will take place in Corwin Pavilion, while all track 2 events are in Lotte Lehmann Hall, unless otherwise noted. Track 1 events have a green background and track 2 events have an orange background. Events for everyone or those that are not assigned to a particular track have a light blue background.
           </p>
@@ -92,7 +92,7 @@
       -->
 
       <div class="row">
-        <div id="renderedProgram" class="col-xs-12">
+        <div id="renderedProgram" class="col-12">
 
           <!-- Handlebars script that will render the program template based on the program.json file -->
           <script id="program-template" type="text/x-handlebars-template">
@@ -111,7 +111,7 @@
 
             {{#each days}}
               <div class="row" id="day-{{date}}">
-                <div class="col-xs-12 col-sm-5">
+                <div class="col-12 col-sm-5">
                  <hr />
                  <h3 class="pageSubtitle">
                    {{formatDate date}}
@@ -120,13 +120,13 @@
               </div>
               {{#each timeslots}}
                 <div class="row">
-                  <div class="col-xs-2 col-sm-2">
+                  <div class="col-2 col-sm-2">
                     <p class="timeSlot">
                       {{starttime}}-{{endtime}}
                     </p>
                   </div>
                 {{#if twosessions}}
-                  <div class="col-xs-10 col-sm-5">
+                  <div class="col-10 col-sm-5">
                     <div class="track1Event panel-body">
                       <h4 class="text-center">
                         {{sessions.0.session_title}}
@@ -166,12 +166,12 @@
                       {{/each}}
                     </div>
                   </div>
-                  <div class="col-xs-2 hidden-sm hidden-md hidden-lg">
+                  <div class="col-2 hidden-sm hidden-md hidden-lg">
                     <p class="timeSlot">
                       {{starttime}}-{{endtime}}
                     </p>
                   </div>
-                  <div class="col-xs-10 col-sm-5">
+                  <div class="col-10 col-sm-5">
                     <div class="panel-body track2Event">
                       <h4 class="text-center">
                         {{sessions.1.session_title}}
@@ -212,7 +212,7 @@
                     </div>
                   </div>
                 {{else}}
-         	        <div class="col-xs-10 col-sm-10">
+         	        <div class="col-10 col-sm-10">
                     <div class="panel-body mutualEvent">
                       <h4>
                         {{sessions.0.session_title}}
