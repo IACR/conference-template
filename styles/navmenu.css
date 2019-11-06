@@ -1,20 +1,20 @@
-body {
+/* body {
   padding: 50px 0 0 0;
-}
+} */
 
-.navmenu {
+/* .navmenu {
   padding-top: 35px;
-}
+} */
 
 /*fixes mobile nav scroll issue*/
-@media (max-height: 600px) {
+/* @media (max-height: 600px) {
   .navmenu {
     max-height: 500px;
     overflow-y: scroll;
   }
-}
+} */
 
-.navbar {
+/* .navbar {
   display: block;
   text-align: center;
 }
@@ -32,9 +32,9 @@ body {
 
 .container {
   max-width: 100%;
-}
+} */
 
-@media (min-width: 1px) {
+/* @media (min-width: 1px) {
   .navbar-toggler {
     display: block !important;
   }
@@ -50,4 +50,44 @@ body {
   .navbar {
     display: none !important; /* IE8 fix */
   }
+} */
+
+/*** start bootstrap side menu ***/
+body {
+  overflow-x: hidden;
 }
+
+#mainmenu {
+  min-height: 100vh;
+  margin-left: -15rem;
+  -webkit-transition: margin .25s ease-out;
+  -moz-transition: margin .25s ease-out;
+  -o-transition: margin .25s ease-out;
+  transition: margin .25s ease-out;
+  min-width: 35vh;
+}
+
+/* NOTE: not used (yet?) */
+/* #page-content-wrapper {
+  min-width: 100vw;
+} */
+
+#wrapper.toggled #mainmenu {
+  margin-left: 0;
+}
+
+@media (min-width: 768px) {
+  #mainmenu {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #wrapper.toggled #mainmenu {
+    margin-left: -15rem;
+  }
+}
+/* end start bootstrap */
