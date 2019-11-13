@@ -20,8 +20,9 @@ $(document).ready(function() {
     });
 
     // fetch a fragment - the left nav - and insert it into the DOM
-    $.get('./fragments/nav.html', function(data) {
-      $('#mainmenu').html(data);
+    // TODO: only for experimental.html DO NOT PUSH
+    $.get('./fragments/try-nav.html', function(data) {
+      $('#sidebarWrapper').html(data);
     },'html');
   }
 

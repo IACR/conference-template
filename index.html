@@ -2,17 +2,17 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <title>
       <!-- NOTE: populated by menus.js -->
     </title>
 
     <!-- Bootstrap with spacelab theme -->
-    <link href="https://stackpath.bootstrapcdn.com/bootswatch/3.3.7/spacelab/bootstrap.min.css" rel="stylesheet" integrity="sha384-L/tgI3wSsbb3f/nW9V6Yqlaw3Gj7mpE56LWrhew/c8MIhAYWZ/FNirA64AVkB5pI" crossorigin="anonymous" />
+    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/spacelab/bootstrap.min.css" rel="stylesheet" integrity="sha384-sZG5VVk41YqhJjYXgJFoRVd3d2AdDgy4oyIytQJMGx/Mizz1N+5bgKQBSCGfKQnP" crossorigin="anonymous">
 
     <!-- Extensions of bootstrap -->
-    <link rel="stylesheet" href="./styles/jasny-bootstrap.css" />
+    <!-- <link rel="stylesheet" href="./styles/jasny-bootstrap.css" /> -->
     <link rel="stylesheet" href="./styles/navmenu.css">
 
     <!-- Styling -->
@@ -22,14 +22,22 @@
 
   </head>
 
-  <body data-spy="scroll">
-     <!-- NOTE: though role=navigation is redundant, some screenreaders do not yet recognize the nav element as having the role of navigation. while the W3 validator complains about this, I'm keeping it in for the benefit of users who may be using screenreaders. -->
-    <nav id="mainmenu" class="navmenu navmenu-default navmenu-fixed-left offcanvas-sm" role="navigation">
+  <!-- <body data-spy="scroll"> -->
+  <body id="wrapper" class="d-flex">
+    <!-- OLD NAV WRAPPER (for offcanvas) -->
+    <!-- <nav id="mainmenu" class="navmenu navmenu-default navmenu-fixed-left offcanvas-sm"> -->
+
+    <!-- OLD NAV -->
+    <!-- <nav id="mainmenu" class="navbar"> -->
+      <!-- NOTE: populated by menus.js -->
+    <!-- </nav> -->
+    <nav id="mainmenu" class="border-right px-3">
       <!-- NOTE: populated by menus.js -->
     </nav>
+    <!-- end sidebar wrapper -->
 
-    <nav class="navbar navbar-default navbar-fixed-top hidden-md hidden-lg">
-      <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navmenu">
+    <!-- <nav class="navbar navbar-light navbar-fixed-top hidden-md hidden-lg">
+      <button type="button" class="navbar-toggler" data-toggle="offcanvas" data-target=".navmenu">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -37,7 +45,7 @@
       <a href="index.html" id="topNavTitle" class="navbar-brand">
         <span class="conf_name"></span>
       </a>
-    </nav>
+    </nav> -->
 
     <main class="container-fluid">
 
@@ -97,12 +105,12 @@
             </div>
             <div class="panel-body">
               <div class="row">
-                <div class="col-xs-5">
+                <div class="col-5">
                   <p class="dateTitle">
                     Feb 13 2050
                   </p>
                 </div>
-                <div class="col-xs-7">
+                <div class="col-7">
                   <div class="countdown">
                     <p class="dateText">
                       Submission deadline at 04:00:00 UTC
@@ -112,12 +120,12 @@
               </div>
               <hr />
               <div class="row">
-                <div class="col-xs-5">
+                <div class="col-5">
                   <p class="dateTitle">
                     March 30 2050
                   </p>
                 </div>
-                <div class="col-xs-7">
+                <div class="col-7">
                   <div class="countdown">
                     <p class="dateText">
                       First round notification
@@ -127,12 +135,12 @@
               </div>
               <hr />
               <div class="row">
-                <div class="col-xs-5">
+                <div class="col-5">
                   <p class="dateTitle">
                     April 5 2050
                   </p>
                 </div>
-                <div class="col-xs-7">
+                <div class="col-7">
                   <div class="countdown">
                     <p class="dateText">
                       Rebuttals due by 11:45:00 UTC
@@ -142,12 +150,12 @@
               </div>
               <hr />
               <div class="row">
-                <div class="col-xs-5">
+                <div class="col-5">
                   <p class="dateTitle">
                     April 22 2050
                   </p>
                 </div>
-                <div class="col-xs-7">
+                <div class="col-7">
                   <div class="countdown">
                     <p class="dateText">
                       Final notification
@@ -157,12 +165,12 @@
               </div>
               <hr />
               <div class="row">
-                <div class="col-xs-5">
+                <div class="col-5">
                   <p class="dateTitle">
                     July 5 2050
                   </p>
                 </div>
-                <div class="col-xs-7">
+                <div class="col-7">
                   <div class="countdown">
                     <p class="dateText">
                       Camera-ready version
@@ -172,12 +180,12 @@
               </div>
               <hr />
               <div class="row">
-                <div class="col-xs-5">
+                <div class="col-5">
                   <p class="dateTitle">
                     Sept 1 2050
                   </p>
                 </div>
-                <div class="col-xs-7">
+                <div class="col-7">
                   <div class="countdown">
                     <p class="dateText">
                       Conference
@@ -201,12 +209,12 @@
             <div class="panel-body">
               <!-- NOTE: add new website updates below this (see installation.md for more information) -->
               <div class="row">
-                <div class="col-xs-4">
+                <div class="col-4">
                   <p class="dateTitle">
                     April 20 2017
                   </p>
                 </div>
-                <div class="col-xs-8">
+                <div class="col-8">
                   <p class="dateText">
                     Web developer added a cool new feature to the site
                   </p>
@@ -214,12 +222,12 @@
               </div>
               <hr />
               <div class="row">
-                <div class="col-xs-4">
+                <div class="col-4">
                   <p class="dateTitle">
                     April 18 2017
                   </p>
                 </div>
-                <div class="col-xs-8">
+                <div class="col-8">
                   <p class="dateText">
                     Updates for demo of this site
                   </p>
@@ -227,12 +235,12 @@
               </div>
               <hr />
               <div class="row">
-                <div class="col-xs-4">
+                <div class="col-4">
                   <p class="dateTitle">
                     March 28 2017
                   </p>
                 </div>
-                <div class="col-xs-8">
+                <div class="col-8">
                   <p class="dateText">
                     <a href="./callforpapers.html">Call for papers</a> page updated
                   </p>
@@ -240,12 +248,12 @@
               </div>
               <hr />
               <div class="row">
-                <div class="col-xs-4">
+                <div class="col-4">
                   <p class="dateTitle">
                     March 20 2017
                   </p>
                 </div>
-                <div class="col-xs-8">
+                <div class="col-8">
                   <p class="dateText">
                     Website launched
                   </p>
@@ -281,11 +289,13 @@
     </main>
 
     <!-- Bootstrap scripts -->
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- NOTE: CANNOT USE SLIM BUILD; DOESN'T INCLUDE AJAX -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
     <!-- Bootstrap plugins -->
-    <script src="./js/jasny-bootstrap.js"></script>
+    <!-- <script src="./js/jasny-bootstrap.js"></script> -->
 
     <!-- Personal scripts -->
     <script src="./js/menus.js"></script>

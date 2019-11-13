@@ -5,7 +5,7 @@
 body {
   color: #1F2161;
   font-family: 'Roboto', sans-serif;
-  font-size: 1.5em;
+  /* font-size: 1.5em; */
 }
 
 p {
@@ -38,11 +38,11 @@ a#topNavTitle {
   max-height: 7.5em;
 }
 
-.navbar-default .navbar-toggle {
+.navbar-light .navbar-toggler {
   border-color: #2E3192;
 }
 
-.navbar-default .navbar-toggle .icon-bar {
+.navbar-light .navbar-toggler .icon-bar {
   background-color: #2E3192;
 }
 
@@ -65,7 +65,7 @@ a#topNavTitle {
   font-family: 'Roboto Condensed', sans-serif;
   text-shadow: 5px 5px 20px #FEFDFB, 0.3px 0.3px #1F2161;
   letter-spacing: 3px;
-  font-size: 3.5em;
+  /* font-size: 3.5em; */
   padding-top: 20px;
 }
 
@@ -73,36 +73,45 @@ a#topNavTitle {
   font-family: 'Roboto Condensed', sans-serif;
   text-shadow: 5px 5px 20px #FEFDFB, 0.3px 0.3px #1F2161;
   letter-spacing: 2px;
-  font-size: 1.7em;
+  /* font-size: 1.7em; */
   text-align: right;
   font-weight: bold;
   margin-top: 10px;
   padding-top: 20px;
 }
 
+/* NOTE: for experimental only, do not push */
+/* NOTE: this is so the title isn't layered under the hamburger on mobile */
+@media (max-width: 768px) {
+  .headerTitle {
+    margin-top: 35px;
+  }
+}
+
 .headerInfoBottom {
   font-family: 'Roboto Condensed', sans-serif;
   text-shadow: 5px 5px 20px #FEFDFB, 0.3px 0.3px #1F2161;
   letter-spacing: 2px;
-  font-size: 1.7em;
+  /* font-size: 1.7em; */
   text-align: right;
   font-weight: bold;
 }
 
+/* TODO: check these breakpoints */
 /* NOTE: fixes iphone header text problem */
 @media (max-width: 700px) {
   .headerTitle {
-    font-size: 2.8em;
+    /* font-size: 2.8em; */
     padding-top: 0px;
   }
 
   .headerInfoTop {
-    font-size: 1.2em;
+    /* font-size: 1.2em; */
     padding-top: 0px;
   }
 
   .headerInfoBottom {
-    font-size: 1.2em;
+    /* font-size: 1.2em; */
   }
 }
 
@@ -111,14 +120,14 @@ a#topNavTitle {
 .indPageTitle {
   font-family: 'Roboto Condensed', sans-serif;
   letter-spacing: 2px;
-  font-size: 1.8em;
+  /* font-size: 1.8em; */
 }
 
 .pageSubtitle {
   color: #CB831E;
   font-family: 'Roboto Condensed', sans-serif;
   letter-spacing: 2px;
-  font-size: 1.4em;
+  /* font-size: 1.4em; */
   font-weight: bold;
 }
 
@@ -129,7 +138,7 @@ a#topNavTitle {
 .dateTitle {
   color: #CB831E;
   font-family: 'Roboto Condensed', sans-serif;
-  font-size: 1.1em;
+  /* font-size: 1.1em; */
   font-weight: bold;
   text-align: left;
 }
@@ -141,7 +150,7 @@ a#topNavTitle {
 .footer {
   margin-top: 30px;
   margin-bottom: 10px;
-  font-size: 1em;
+  /* font-size: 1em; */
 }
 
 
@@ -165,7 +174,7 @@ a#topNavTitle {
 
 .tableItemTitle {
   color: #0F773C;
-  font-size: 1.1em;
+  /* font-size: 1.1em; */
 }
 
 .listText {
@@ -175,7 +184,7 @@ a#topNavTitle {
 
 /***** Page-specific: accepted papers *****/
 .paperTitle {
-  font-size: 1.1em;
+  /* font-size: 1.1em; */
   font-weight: bold;
   color: #1F2161;
 }
@@ -213,7 +222,7 @@ a#topNavTitle {
 }
 
 p.regTitle {
-  font-size: 1.1em;
+  /* font-size: 1.1em; */
   font-weight: bold;
   padding-top: 8px;
   text-align: center;
@@ -244,17 +253,17 @@ span.editMe {
 }*/
 
 a.iconLink {
-  font-size: 1.3em;
+  /* font-size: 1.3em; */
 }
 
 p.timeSlot {
-  font-size: 0.9em;
+  /* font-size: 0.9em; */
   text-align: right;
   margin-top: 25px;
 }
 
 p.talkTitle {
-  font-size: 1.1em;
+  /* font-size: 1.1em; */
   font-weight: bold;
   text-align: left;
   margin-top: 10px;
@@ -278,7 +287,7 @@ p.eventDescr {
 }
 
 p.mutualEventTalkTitle {
-  font-size: 1.1em;
+  /* font-size: 1.1em; */
   font-weight: bold;
   text-align: center;
   margin-top: 10px;

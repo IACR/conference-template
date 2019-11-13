@@ -124,12 +124,12 @@ Look for the NOTE in index.html that says "add new website updates below this".
 Copy/paste the following:
 ```
 <div class="row">
-  <div class="col-xs-4">
+  <div class="col-4">
     <p class="dateTitle">
       DATE OF UPDATE
     </p>
   </div>
-  <div class="col-xs-8">
+  <div class="col-8">
     <p class="dateText">
       TEXT OF UPDATE
     </p>

@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>
+      <!-- NOTE: populated by menus.js -->
+    </title>
+
+    <!-- Bootstrap with spacelab theme -->
+    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/spacelab/bootstrap.min.css" rel="stylesheet" integrity="sha384-sZG5VVk41YqhJjYXgJFoRVd3d2AdDgy4oyIytQJMGx/Mizz1N+5bgKQBSCGfKQnP" crossorigin="anonymous">
+
+    <!-- Extensions of bootstrap -->
+    <!-- <link rel="stylesheet" href="./styles/jasny-bootstrap.css" /> -->
+    <link rel="stylesheet" href="./styles/navmenu.css">
+
+    <!-- Styling -->
+    <link href="./styles/main.css" rel="stylesheet">
+    <link href="./styles/theme.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto%7CRoboto+Condensed" rel="stylesheet">
+  </head>
+
+  <body>
+    <!-- NOTE: for try.html ONLY DO NOT PUSH -->
+    <nav id="sidebarWrapper">
+      <!-- menu inserted by menus.js  -->
+
+      <!-- BUG:
+          1) close sidebar btn doesn't work
+          2) long_conf doesn't show
+      -->
+
+    </nav>
+
+    <div class="page-content">
+      <main class="container-fluid">
+        <header id="conf_id" class="row headerImg">
+          <div class="col-sm-12 headerGradient">
+            <a id="show-sidebar" class="btn btn-sm d-block d-md-none" href="#">
+              <ion-icon name="menu" id="hamburger"></ion-icon>
+            </a>
+            <div class="row">
+              <div class="col-sm-6">
+                <h1 class="headerTitle">
+                  <span class="conf_name"></span>
+                </h1>
+              </div>
+              <div class="col-sm-6">
+                <h3 class="headerInfoTop">
+                  <span class="conf_dates"></span>
+                </h3>
+                <h3 class="headerInfoBottom">
+                  <span class="conf_location"></span>
+                </h3>
+              </div>
+            </div>
+          </div>
+        </header>
+
+        <!-- NOTE: noscript tag lets people who aren't running JS know that this page may not function correctly without JS. -->
+        <noscript>
+          <div class="row">
+            <article class="col-sm-12 sectionSpacing">
+              <h2>
+                This site is designed for browsers with javascript.
+              </h2>
+              <h3>
+                The dates, name, and location for the conference are <a href="json/metadata.json">in a json file.</a>
+              </h3>
+            </article>
+          </div>
+        </noscript>
+
+        <!-- NOTE: below is placeholder content. please replace contents with your own content when ready. this content serves to give you an idea of what the structure of this page has looked like in the past -->
+        <div class="row">
+          <article class="col-sm-12 sectionSpacing">
+            <p>
+              <span class="long_conf"></span> will take place in <span class="conf_location"></span> on <span class="conf_dates"></span>. <span class="conf_name"></span> is organized by <a href="http://iacr.org/">the International Association for Cryptologic Research</a> (IACR).
+            </p>
+            <p>
+              Please visit the <a href="./callforpapers.html">call for papers</a> page while we work on adding more information to our other pages. Thank you for your patience.
+            </p>
+          </article>
+        </div>
+
+        <div class="row">
+          <section class="col-sm-6">
+            <div class="panel panel-success">
+              <div class="panel-heading">
+                <h3 class="panel-title">
+                  Example Dates
+                </h3>
+              </div>
+              <div class="panel-body">
+                <div class="row">
+                  <div class="col-5">
+                    <p class="dateTitle">
+                      Feb 13 2050
+                    </p>
+                  </div>
+                  <div class="col-7">
+                    <div class="countdown">
+                      <p class="dateText">
+                        Submission deadline at 04:00:00 UTC
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <hr />
+                <div class="row">
+                  <div class="col-5">
+                    <p class="dateTitle">
+                      March 30 2050
+                    </p>
+                  </div>
+                  <div class="col-7">
+                    <div class="countdown">
+                      <p class="dateText">
+                        First round notification
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <hr />
+                <div class="row">
+                  <div class="col-5">
+                    <p class="dateTitle">
+                      April 5 2050
+                    </p>
+                  </div>
+                  <div class="col-7">
+                    <div class="countdown">
+                      <p class="dateText">
+                        Rebuttals due by 11:45:00 UTC
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <hr />
+                <div class="row">
+                  <div class="col-5">
+                    <p class="dateTitle">
+                      April 22 2050
+                    </p>
+                  </div>
+                  <div class="col-7">
+                    <div class="countdown">
+                      <p class="dateText">
+                        Final notification
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <hr />
+                <div class="row">
+                  <div class="col-5">
+                    <p class="dateTitle">
+                      July 5 2050
+                    </p>
+                  </div>
+                  <div class="col-7">
+                    <div class="countdown">
+                      <p class="dateText">
+                        Camera-ready version
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <hr />
+                <div class="row">
+                  <div class="col-5">
+                    <p class="dateTitle">
+                      Sept 1 2050
+                    </p>
+                  </div>
+                  <div class="col-7">
+                    <div class="countdown">
+                      <p class="dateText">
+                        Conference
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="panel-footer">
+                <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span> To convert UTC to your local time zone, <a href="https://www.timeanddate.com/time/zone/timezone/utc">click here</a>.
+              </div>
+            </div>
+          </section>
+          <section class="col-sm-6">
+            <div class="panel panel-success">
+              <div class="panel-heading">
+                <h3 class="panel-title">
+                  Website Updates
+                </h3>
+              </div>
+              <div class="panel-body">
+                <!-- NOTE: add new website updates below this (see installation.md for more information) -->
+                <div class="row">
+                  <div class="col-4">
+                    <p class="dateTitle">
+                      April 20 2017
+                    </p>
+                  </div>
+                  <div class="col-8">
+                    <p class="dateText">
+                      Web developer added a cool new feature to the site
+                    </p>
+                  </div>
+                </div>
+                <hr />
+                <div class="row">
+                  <div class="col-4">
+                    <p class="dateTitle">
+                      April 18 2017
+                    </p>
+                  </div>
+                  <div class="col-8">
+                    <p class="dateText">
+                      Updates for demo of this site
+                    </p>
+                  </div>
+                </div>
+                <hr />
+                <div class="row">
+                  <div class="col-4">
+                    <p class="dateTitle">
+                      March 28 2017
+                    </p>
+                  </div>
+                  <div class="col-8">
+                    <p class="dateText">
+                      <a href="./callforpapers.html">Call for papers</a> page updated
+                    </p>
+                  </div>
+                </div>
+                <hr />
+                <div class="row">
+                  <div class="col-4">
+                    <p class="dateTitle">
+                      March 20 2017
+                    </p>
+                  </div>
+                  <div class="col-8">
+                    <p class="dateText">
+                      Website launched
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <div class="row">
+          <section class="col-sm-12">
+            <h3 class="pageSubtitle">
+              Example Sponsors
+            </h3>
+            <a href="http://geekscat.com/">
+              <img src="./images/demo/examplesponsor1.png" alt="black and white vector graphic of an elephant" class="sponsorLogo firstLogo" />
+            </a>
+            <a href="http://geekscat.com/">
+              <img src="./images/demo/examplesponsor2.png" alt="deep blue vector graphic of a map pin with a piece missing from the circle at the top" class="sponsorLogo" />
+            </a>
+          </section>
+        </div>
+
+        <div class="row">
+          <footer class="col-sm-12 text-center footer">
+            <small>
+              <span class="conf_name"></span>
+            </small>
+          </footer>
+        </div>
+      </main>
+      <!-- END .container-fluid -->
+    </div>
+    <!-- END .page-content -->
+
+    <!-- Bootstrap scripts -->
+    <!-- NOTE: CANNOT USE SLIM BUILD; DOESN'T INCLUDE AJAX -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!-- For experimental.html ONLY -->
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+    <!-- Bootstrap plugins -->
+    <!-- <script src="./js/jasny-bootstrap.js"></script> -->
+
+    <!-- Personal scripts -->
+    <script type="text/javascript">
+      // FOR try.html ONLY, delete if fail
+      jQuery(function($) {
+        // sidebar has been closed
+        $("#close-sidebar").click(function() {
+          $("body").removeClass("toggled");
+        });
+        // sidebar has been opened
+        $("#show-sidebar").click(function() {
+          $("body").addClass("toggled");
+        });
+
+        // on smaller screens and below, close sidenav by default
+        if ($(window).width() > 768) {
+          $("body").addClass("toggled");
+        }
+      });
+    </script>
+    <script src="./js/menus.js"></script>
+    <script src="./js/navTitleFade.js"></script>
+
+  </body>
+</html>
