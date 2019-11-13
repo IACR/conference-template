@@ -97,6 +97,7 @@ a#topNavTitle {
   font-weight: bold;
 }
 
+/* TODO: check these breakpoints */
 /* NOTE: fixes iphone header text problem */
 @media (max-width: 700px) {
   .headerTitle {
