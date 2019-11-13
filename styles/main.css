@@ -80,6 +80,14 @@ a#topNavTitle {
   padding-top: 20px;
 }
 
+/* NOTE: for experimental only, do not push */
+/* NOTE: this is so the title isn't layered under the hamburger on mobile */
+@media (max-width: 768px) {
+  .headerTitle {
+    margin-top: 35px;
+  }
+}
+
 .headerInfoBottom {
   font-family: 'Roboto Condensed', sans-serif;
   text-shadow: 5px 5px 20px #FEFDFB, 0.3px 0.3px #1F2161;

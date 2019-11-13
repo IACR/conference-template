@@ -1,3 +1,4 @@
+/***** NOTE: artifacts from bootstrap 3.3/off-canvas side menu ******/
 /* body {
   padding: 50px 0 0 0;
 } */
@@ -51,43 +52,151 @@
     display: none !important; /* IE8 fix */
   }
 } */
+/* END artifacts (probably) */
 
-/*** start bootstrap side menu ***/
-body {
-  overflow-x: hidden;
-}
 
-#mainmenu {
-  min-height: 100vh;
-  margin-left: -15rem;
-  -webkit-transition: margin .25s ease-out;
-  -moz-transition: margin .25s ease-out;
-  -o-transition: margin .25s ease-out;
-  transition: margin .25s ease-out;
-  min-width: 35vh;
-}
 
-/* NOTE: not used (yet?) */
-/* #page-content-wrapper {
-  min-width: 100vw;
-} */
 
-#wrapper.toggled #mainmenu {
-  margin-left: 0;
-}
 
-@media (min-width: 768px) {
-  #mainmenu {
-    margin-left: 0;
+/***** Hidey Sidebar Nav: general *****/
+/* NOTE: smoothes css animations (so even if you disable js you cannot escape my animations muahahaha) */
+@keyframes swing {
+  0% {
+    transform: rotate(0deg);
   }
-
-  #page-content-wrapper {
-    min-width: 0;
-    width: 100%;
+  10% {
+    transform: rotate(10deg);
   }
-
-  #wrapper.toggled #mainmenu {
-    margin-left: -15rem;
+  30% {
+    transform: rotate(0deg);
+  }
+  40% {
+    transform: rotate(-10deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  60% {
+    transform: rotate(5deg);
+  }
+  70% {
+    transform: rotate(0deg);
+  }
+  80% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(0deg);
   }
 }
-/* end start bootstrap */
+
+#sidebarWrapper, #sidebarWrapper .sidebar-brand > a, .page-content, #sidebarWrapper .navMenu ul li a, #show-sidebar, #close-sidebar {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#sidebarWrapper {
+  width: 18.8rem;
+  height: 100%;
+  max-height: 100%;
+  position: fixed;
+  top: 0;
+  left: -300px;
+  z-index: 2;
+  overflow-y: auto;
+  background: #F2F2F2;
+}
+
+
+
+/***** Open Sidebar (md+ screens only) *****/
+.toggled #sidebarWrapper {
+  left: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .toggled .page-content {
+    padding-left: 300px;
+  }
+}
+
+
+
+/***** Open/Close Sidebar Buttons *****/
+#show-sidebar {
+  position: fixed;
+  left: 1em;
+  top: 1em;
+  /* tab style */
+  /* left: 0;
+  top: 1.3rem;
+  border-radius: 0 4px 4px 0px; */
+  /* transition-delay: 0.3s; */
+  z-index: 2;
+  color: #102A83;
+  padding-bottom: 0;
+}
+
+#hamburger {
+  font-size: 1.9em;
+}
+
+.toggled #show-sidebar {
+  left: -50px;
+}
+
+.toggled #close-sidebar {
+  color: #1F2161;
+}
+
+.toggled #close-sidebar:hover {
+  color: #0F773C;
+}
+
+
+
+/***** Sidebar brand & logo *****/
+#sidebarWrapper .sidebar-brand {
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+}
+
+#sidebarWrapper .sidebar-brand > a {
+  text-transform: uppercase;
+  font-weight: bold;
+  flex-grow: 1;
+}
+
+#sidebarWrapper .sidebar-brand #close-sidebar {
+  cursor: pointer;
+  font-size: 1.3rem;
+  padding-top: 6px;
+  /* NOTE: makes a bigger touch target */
+  padding-left: 20px;
+}
+
+.sidebar-brand, .sidebar-brand span {
+  font-size: 1.1rem;
+  color: #1F2161;
+}
+
+
+
+/***** Sidebar nav links *****/
+.navMenu {
+  padding-bottom: 20px;
+}
+
+.navMenu ul li a {
+  padding-left: 1.5rem;
+  color: #1F2161;
+}
+
+.navMenu ul li:hover > a,
+.sidebar-brand > a:hover {
+  color: #0F773C;
+}
