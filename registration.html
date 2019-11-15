@@ -1,289 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- The header includes the head tag and start of body -->
+  <!--#include file="includes/header.html" -->
 
-    <title>Registration</title>
+  <main class="container mt-5">
+    <div class="row">
+      <div class="col-sm-12">
+        <h2 class="indPageTitle">
+          Registration
+        </h2>
+      </div>
+    </div>
 
-    <!-- Bootstrap with spacelab theme -->
-    <link href="https://stackpath.bootstrapcdn.com/bootswatch/3.3.7/spacelab/bootstrap.min.css" rel="stylesheet" integrity="sha384-L/tgI3wSsbb3f/nW9V6Yqlaw3Gj7mpE56LWrhew/c8MIhAYWZ/FNirA64AVkB5pI" crossorigin="anonymous" />
+    <!-- NOTE: below is standard placeholder text for when the page is under construction. please delete this entire <div class="row"> and all elements contained within it when ready to add other content -->
+    <div class="row">
+      <div class="col-sm-12">
+        <p>
+          This information is not yet available. Thank you for your patience. Below is sample information, derived from CRYPTO 2016.
+        </p>
+      </div>
+    </div>
 
-    <!-- Extensions of bootstrap -->
-    <!-- <link rel="stylesheet" href="./styles/jasny-bootstrap.css" /> -->
-    <link rel="stylesheet" href="./styles/navmenu.css">
-
-    <!-- Styling -->
-    <link href="./styles/main.css" rel="stylesheet">
-    <link href="./styles/theme.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto%7CRoboto+Condensed" rel="stylesheet">
-
-  </head>
-
-  <body data-spy="scroll">
-    <!-- NOTE: see index.html for explanation of why the role=navigation is still here despite appearance of redundancy -->
-    <nav id="mainmenu" class="navmenu navmenu-default navmenu-fixed-left offcanvas-sm" role="navigation">
-       <!-- populated by menus.js -->
-    </nav>
-
-    <nav class="navbar navbar-light navbar-fixed-top hidden-md hidden-lg">
-      <button type="button" class="navbar-toggler" data-toggle="offcanvas" data-target=".navmenu">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a href="index.html" id="topNavTitle" class="navbar-brand">
-        <span class="conf_name"></span>
-      </a>
-    </nav>
-
-    <main class="container-fluid">
-
-      <header id="conf_id" class="row headerImg">
-        <div class="col-sm-12 headerGradient">
-          <div class="row">
-            <div class="col-sm-6">
-              <h1 class="headerTitle">
-                <span class="conf_name"></span>
-              </h1>
-            </div>
-            <div class="col-sm-6">
-              <h3 class="headerInfoTop">
-                <span class="conf_dates"></span>
-              </h3>
-              <h3 class="headerInfoBottom">
-                <span class="conf_location"></span>
-              </h3>
-            </div>
+    <div class="row">
+      <section class="col-sm-8 col-sm-offset-2" id="regTable">
+        <div class="row" id="regTopRow">
+          <div class="col-6">
+            <p class="regTitle">
+              Registration Cost
+            </p>
+          </div>
+          <div class="col-3">
+            <p class="regTitle">
+              Regular
+            </p>
+          </div>
+          <div class="col-3">
+            <p class="regTitle">
+              Student
+            </p>
           </div>
         </div>
-      </header>
 
-      <!-- NOTE: noscript tag lets people who aren't running JS know that this page may not function correctly without JS. -->
-      <noscript>
+        <div class="row" id="regBodyRow">
+          <div class="col-6">
+            <p class="regBodyText">
+              Registration Fee + IACR dues
+              (NOT attending CHES)
+            </p>
+          </div>
+          <div class="col-3">
+            <p class="priceText">
+              TBD
+            </p>
+          </div>
+          <div class="col-3">
+            <p class="priceText">
+              TBD
+            </p>
+          </div>
+        </div>
+
         <div class="row">
-          <article class="col-sm-12 sectionSpacing">
-            <h2>
-              This site is designed for browsers with javascript.
-            </h2>
-            <h3>
-                The dates, name, and location for the conference are <a href="json/metadata.json">in a json file.</a>
-            </h3>
-          </article>
+          <div class="col-6">
+            <p class="regBodyText">
+              Registration Fee + IACR dues (attending CHES)
+            </p>
+          </div>
+          <div class="col-3">
+            <p class="priceText">
+              TBD
+            </p>
+          </div>
+          <div class="col-3">
+            <p class="priceText">
+              TBD
+            </p>
+          </div>
         </div>
-      </noscript>
 
-      <div class="row">
-        <div class="col-sm-12">
-          <h2 class="indPageTitle">
-            Registration
-          </h2>
+        <div class="row">
+          <div class="col-6">
+            <p class="regBodyText">
+              Attended prior 2017 IACR conferences or workshops (NOT attending CHES)
+            </p>
+          </div>
+          <div class="col-3">
+            <p class="priceText">
+              TBD
+            </p>
+          </div>
+          <div class="col-3">
+            <p class="priceText">
+              TBD
+            </p>
+          </div>
         </div>
-      </div>
 
-      <!-- NOTE: below is standard placeholder text for when the page is under construction. please delete this entire <div class="row"> and all elements contained within it when ready to add other content -->
-      <div class="row">
-        <div class="col-sm-12">
-          <p>
-            This information is not yet available. Thank you for your patience. Below is sample information, derived from CRYPTO 2016.
-          </p>
+        <div class="row">
+          <div class="col-6">
+            <p class="regBodyText">
+              Attended prior 2017 IACR conferences or workshops (attending CHES)
+            </p>
+          </div>
+          <div class="col-3">
+            <p class="priceText">
+              TBD
+            </p>
+          </div>
+          <div class="col-3">
+            <p class="priceText">
+              TBD
+            </p>
+          </div>
         </div>
-      </div>
+      </section>
+    </div>
 
-      <div class="row">
-        <section class="col-sm-8 col-sm-offset-2" id="regTable">
-          <div class="row" id="regTopRow">
-            <div class="col-6">
-              <p class="regTitle">
-                Registration Cost
-              </p>
-            </div>
-            <div class="col-3">
-              <p class="regTitle">
-                Regular
-              </p>
-            </div>
-            <div class="col-3">
-              <p class="regTitle">
-                Student
-              </p>
-            </div>
-          </div>
+    <div class="row">
+      <!-- NOTE: the following <br> and <section> tags are a separate under construction message for when you can release the above chart but have not yet added other information to this page. these should both be deleted upon adding additional content below to replace the boilerplate -->
+      <!-- <br />
+           <section class="col-sm-12">
+             <p>
+               Thank you for your patience with us while we finalize the information about registration for this year's conference. Please check back for updated information closer to when registration opens.
+             </p>
+           </section> -->
 
-          <div class="row" id="regBodyRow">
-            <div class="col-6">
-              <p class="regBodyText">
-                Registration Fee + IACR dues
-                (NOT attending CHES)
-              </p>
-            </div>
-            <div class="col-3">
-              <p class="priceText">
-                TBD
-              </p>
-            </div>
-            <div class="col-3">
-              <p class="priceText">
-                TBD
-              </p>
-            </div>
-          </div>
+      <!-- NOTE: here's where boilerplate content for any additional content you may add to the page begins -->
+      <section class="col-sm-6">
+        <h3 class="pageSubtitle">What the Conference Fee Includes</h3>
+        <p>
+          The conference registration fee includes participation in the technical program, all social functions as well as an electronic copy of the conference proceedings. Accompanying guests can also be registered for participation in the conference social functions. Guests who only want to attend one or two events can register onsite.
+        </p>
+        <p>
+          Two conferences are located in <span class="conf_location"></span> on <span class="conf_dates"></span>. If you are interested in attending both <span class="conf_name"></span> and CHES, there is a $50 joint registration discount ($25 off each conference) for regular registrations. Student joint registrations are discounted by $100 ($50 off each conference).
+        </p>
+      </section>
+      <section class="col-sm-6">
+        <h3 class="pageSubtitle">An Important Note for Students</h3>
+        <p>
+          If you are a student presenting at <span class="conf_name"></span>, your registration fee will be covered by the IACR Fund for Student Presenters; you do not need to pay for registration. Please register for the conference but do not submit any payment. After registering, send an email to the <a href="mailto:doNotEmailMe@fakeDomain.com">General Chair</a>, explaining that you are a student presenter and have already registered. More information is available <a href="./stipends.html">here</a>.
+        </p>
+      </section>
+    </div>
 
-          <div class="row">
-            <div class="col-6">
-              <p class="regBodyText">
-                Registration Fee + IACR dues (attending CHES)
-              </p>
-            </div>
-            <div class="col-3">
-              <p class="priceText">
-                TBD
-              </p>
-            </div>
-            <div class="col-3">
-              <p class="priceText">
-                TBD
-              </p>
-            </div>
-          </div>
+    <!-- NOTE: also boilerplate content; add in your content and uncomment -->
+    <div class="row">
+      <aside class="col-sm-6 col-sm-offset-3 text-center">
+        <h5>
+          <b>Registration is not currently available. This button will become active when registration opens.</b>
+        </h5>
+        <a href="https://secure.iacr.org/conferences/tcc2017b/register/" class="btn btn-lg btn-warning btn-block regBtn disabled" role="button">Register now!</a>
+      </aside>
+    </div>
 
-          <div class="row">
-            <div class="col-6">
-              <p class="regBodyText">
-                Attended prior 2017 IACR conferences or workshops (NOT attending CHES)
-              </p>
-            </div>
-            <div class="col-3">
-              <p class="priceText">
-                TBD
-              </p>
-            </div>
-            <div class="col-3">
-              <p class="priceText">
-                TBD
-              </p>
-            </div>
-          </div>
+    <div class="row">
+      <section class="col-sm-6">
+        <h3 class="pageSubtitle">Additional Information</h3>
+        <p>
+          IACR dues are $50 for regular attendees and $25 for student attendees.
+        </p>
+        <p>
+          All attendees who register after August 20th 2050 will incur a $100 late registration surcharge.
+        </p>
+        <p>
+          Fee for an accompanying person will be $150.
+        </p>
+        <p>
+          It will be possible to register on-site at the registration desk on the first day of the conference, beginning at 8 a.m.
+        </p>
+      </section>
+      <section class="col-sm-6">
+        <h3 class="pageSubtitle">IACR Policy for Proceedings</h3>
+        <p>
+          Proceedings will be made available online to attendees. There will not be a USB key this year.
+        </p>
+        <p>
+          If you would like to obtain a printed copy of the proceedings, please select the option during registration and pay $80 for each proceedings.
+        </p>
+      </section>
+    </div>
 
-          <div class="row">
-            <div class="col-6">
-              <p class="regBodyText">
-                Attended prior 2017 IACR conferences or workshops (attending CHES)
-              </p>
-            </div>
-            <div class="col-3">
-              <p class="priceText">
-                TBD
-              </p>
-            </div>
-            <div class="col-3">
-              <p class="priceText">
-                TBD
-              </p>
-            </div>
-          </div>
-        </section>
-      </div>
+    <div class="row">
+      <section class="col-sm-6">
+        <h3 class="pageSubtitle">Refund Policy</h3>
+        <p>
+          Cancellation requests should be made in writing or email to the conference general chair. Those received by 30 days prior to the conference will receive a full refund less $100 to cover fixed costs for the conference. No refunds will be made for cancellations after this date.
+        </p>
+      </section>
+      <section class="col-sm-6">
+        <h3 class="pageSubtitle">Housing</h3>
+        <p>
+          Conference registration and on-site housing registration are now separate processes. To learn more about housing options, visit the <a href="./accommodations.html">accommodations</a> page.
+        </p>
+      </section>
+    </div>
 
-      <div class="row">
-        <!-- NOTE: the following <br> and <section> tags are a separate under construction message for when you can release the above chart but have not yet added other information to this page. these should both be deleted upon adding additional content below to replace the boilerplate -->
-        <!-- <br />
-        <section class="col-sm-12">
-          <p>
-            Thank you for your patience with us while we finalize the information about registration for this year's conference. Please check back for updated information closer to when registration opens.
-          </p>
-        </section> -->
+    <div class="row">
+      <footer class="col-sm-12 text-center footer">
+        <small>
+          <span class="conf_name"></span>
+        </small>
+      </footer>
+    </div>
 
-        <!-- NOTE: here's where boilerplate content for any additional content you may add to the page begins -->
-        <section class="col-sm-6">
-          <h3 class="pageSubtitle">What the Conference Fee Includes</h3>
-          <p>
-            The conference registration fee includes participation in the technical program, all social functions as well as an electronic copy of the conference proceedings. Accompanying guests can also be registered for participation in the conference social functions. Guests who only want to attend one or two events can register onsite.
-          </p>
-          <p>
-            Two conferences are located in <span class="conf_location"></span> on <span class="conf_dates"></span>. If you are interested in attending both <span class="conf_name"></span> and CHES, there is a $50 joint registration discount ($25 off each conference) for regular registrations. Student joint registrations are discounted by $100 ($50 off each conference).
-          </p>
-        </section>
-        <section class="col-sm-6">
-          <h3 class="pageSubtitle">An Important Note for Students</h3>
-          <p>
-            If you are a student presenting at <span class="conf_name"></span>, your registration fee will be covered by the IACR Fund for Student Presenters; you do not need to pay for registration. Please register for the conference but do not submit any payment. After registering, send an email to the <a href="mailto:doNotEmailMe@fakeDomain.com">General Chair</a>, explaining that you are a student presenter and have already registered. More information is available <a href="./stipends.html">here</a>.
-          </p>
-        </section>
-      </div>
+  </main>
 
-      <!-- NOTE: also boilerplate content; add in your content and uncomment -->
-      <div class="row">
-        <aside class="col-sm-6 col-sm-offset-3 text-center">
-          <h5>
-            <b>Registration is not currently available. This button will become active when registration opens.</b>
-          </h5>
-          <a href="https://secure.iacr.org/conferences/tcc2017b/register/" class="btn btn-lg btn-warning btn-block regBtn disabled" role="button">Register now!</a>
-        </aside>
-      </div>
-
-      <div class="row">
-        <section class="col-sm-6">
-          <h3 class="pageSubtitle">Additional Information</h3>
-          <p>
-            IACR dues are $50 for regular attendees and $25 for student attendees.
-          </p>
-          <p>
-            All attendees who register after August 20th 2050 will incur a $100 late registration surcharge.
-          </p>
-          <p>
-            Fee for an accompanying person will be $150.
-          </p>
-          <p>
-            It will be possible to register on-site at the registration desk on the first day of the conference, beginning at 8 a.m.
-          </p>
-        </section>
-        <section class="col-sm-6">
-          <h3 class="pageSubtitle">IACR Policy for Proceedings</h3>
-          <p>
-            Proceedings will be made available online to attendees. There will not be a USB key this year.
-          </p>
-          <p>
-            If you would like to obtain a printed copy of the proceedings, please select the option during registration and pay $80 for each proceedings.
-          </p>
-        </section>
-      </div>
-
-      <div class="row">
-        <section class="col-sm-6">
-          <h3 class="pageSubtitle">Refund Policy</h3>
-          <p>
-            Cancellation requests should be made in writing or email to the conference general chair. Those received by 30 days prior to the conference will receive a full refund less $100 to cover fixed costs for the conference. No refunds will be made for cancellations after this date.
-          </p>
-        </section>
-        <section class="col-sm-6">
-          <h3 class="pageSubtitle">Housing</h3>
-          <p>
-            Conference registration and on-site housing registration are now separate processes. To learn more about housing options, visit the <a href="./accommodations.html">accommodations</a> page.
-          </p>
-        </section>
-      </div>
-
-      <div class="row">
-        <footer class="col-sm-12 text-center footer">
-          <small>
-            <span class="conf_name"></span>
-          </small>
-        </footer>
-      </div>
-
-    </main>
-
-    <!-- Bootstrap scripts -->
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-    <!-- Bootstrap plugins -->
-    <!-- <script src="./js/jasny-bootstrap.js"></script> -->
-
-    <!-- Personal scripts -->
-    <script src="./js/menus.js"></script>
-    <script src="./js/navTitleFade.js"></script>
-
-  </body>
+  <!--#include file="includes/footer.html" -->
+</body>
 </html>
