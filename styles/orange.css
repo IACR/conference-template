@@ -1,0 +1,46 @@
+/* NOTE: this is a supplemental style sheet. You should only include orange.css OR green.css OR blue.css on all individual html pages. One of these supplemental style sheets MUST be included in addition to main.css.
+
+By default, orange.css and theme.css are identical. */
+
+/***** General styling *****/
+body, .listItems {
+  background-color: #FEFDFB;
+}
+
+
+/***** Nav (in /fragments/nav.html) *****/
+nav#mainmenu {
+  background-color: #FEFDFB;
+}
+
+
+/***** Header (found in ./index.html) *****/
+.navHeader {
+  color: #CB831E;
+}
+
+.headerGradient {
+  background: rgba(204, 132, 30, 0.6);
+  background: -webkit-linear-gradient(rgba(204, 132, 30, 0.6), rgba(254, 253, 251, 1));
+  background: -o-linear-gradient(rgba(204, 132, 30, 0.6), rgba(254, 253, 251, 1));
+  background: -moz-linear-gradient(rgba(204, 132, 30, 0.6), rgba(254, 253, 251, 1));
+  background: linear-gradient(rgba(204, 132, 30, 0.6), rgba(254, 253, 251, 1));
+}
+
+.headerTitle {
+  color: #2E3192;
+}
+
+.headerInfoTop {
+  color: #2E3192;
+}
+
+.headerInfoBottom {
+  color: #2E3192;
+}
+
+
+/***** Main Content: general styling *****/
+.indPageTitle {
+  color: #0F773C;
+}

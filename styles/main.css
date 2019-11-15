@@ -5,7 +5,6 @@
 body {
   color: #1F2161;
   font-family: 'Roboto', sans-serif;
-  /* font-size: 1.5em; */
 }
 
 p {
@@ -21,30 +20,27 @@ a:hover {
   text-decoration: none;
 }
 
-a#topNavTitle {
-  color: #2E3192;
-}
 
 
-/***** Nav (in /fragments/nav.html) *****/
-.navHeader {
-  font-family: 'Roboto Condensed', sans-serif;
-  letter-spacing: 2px;
-  margin-left: 5px;
-  font-weight: bold;
+/***** Nav (in /imcludes/header.html) *****/
+#main-nav-row {
+  background-color: #102A83;
 }
 
-#logo {
-  max-height: 7.5em;
+a.nav-link {
+  color: #FEFDFB !important;
+  font-size: 1.2rem;
 }
 
-.navbar-light .navbar-toggler {
-  border-color: #2E3192;
+div.dropdown-menu {
+  color: #FEFDFB;
+  background-color: #102A83;
 }
 
-.navbar-light .navbar-toggler .icon-bar {
-  background-color: #2E3192;
+a.dropdown-item {
+  color: #FEFDFB;
 }
+
 
 
 /***** Header (found in ./index.html) *****/
@@ -57,77 +53,41 @@ a#topNavTitle {
 
 .headerGradient {
   height: 100%;
-  margin-bottom: 40px;
-  padding: 20px;
+  padding-top: 15px;
+}
+
+#logo {
+  max-height: 7.5em;
 }
 
 .headerTitle {
   font-family: 'Roboto Condensed', sans-serif;
   text-shadow: 5px 5px 20px #FEFDFB, 0.3px 0.3px #1F2161;
-  letter-spacing: 3px;
-  /* font-size: 3.5em; */
+  letter-spacing: 0.3rem;
   padding-top: 20px;
+  margin-bottom: 10px;
+  padding-bottom: 15px;
 }
 
-.headerInfoTop {
+.headerInfoTop, .headerInfoBottom {
   font-family: 'Roboto Condensed', sans-serif;
   text-shadow: 5px 5px 20px #FEFDFB, 0.3px 0.3px #1F2161;
   letter-spacing: 2px;
-  /* font-size: 1.7em; */
   text-align: right;
-  font-weight: bold;
-  margin-top: 10px;
-  padding-top: 20px;
 }
 
-/* NOTE: for experimental only, do not push */
-/* NOTE: this is so the title isn't layered under the hamburger on mobile */
-@media (max-width: 768px) {
-  .headerTitle {
-    margin-top: 35px;
-  }
-}
-
-.headerInfoBottom {
-  font-family: 'Roboto Condensed', sans-serif;
-  text-shadow: 5px 5px 20px #FEFDFB, 0.3px 0.3px #1F2161;
-  letter-spacing: 2px;
-  /* font-size: 1.7em; */
-  text-align: right;
-  font-weight: bold;
-}
-
-/* TODO: check these breakpoints */
-/* NOTE: fixes iphone header text problem */
-@media (max-width: 700px) {
-  .headerTitle {
-    /* font-size: 2.8em; */
-    padding-top: 0px;
-  }
-
-  .headerInfoTop {
-    /* font-size: 1.2em; */
-    padding-top: 0px;
-  }
-
-  .headerInfoBottom {
-    /* font-size: 1.2em; */
-  }
-}
 
 
 /***** Main Content: general styling *****/
 .indPageTitle {
   font-family: 'Roboto Condensed', sans-serif;
   letter-spacing: 2px;
-  /* font-size: 1.8em; */
 }
 
 .pageSubtitle {
   color: #CB831E;
   font-family: 'Roboto Condensed', sans-serif;
   letter-spacing: 2px;
-  /* font-size: 1.4em; */
   font-weight: bold;
 }
 
@@ -138,7 +98,6 @@ a#topNavTitle {
 .dateTitle {
   color: #CB831E;
   font-family: 'Roboto Condensed', sans-serif;
-  /* font-size: 1.1em; */
   font-weight: bold;
   text-align: left;
 }
@@ -150,8 +109,8 @@ a#topNavTitle {
 .footer {
   margin-top: 30px;
   margin-bottom: 10px;
-  /* font-size: 1em; */
 }
+
 
 
 /***** Page-specific: index *****/
@@ -166,6 +125,7 @@ a#topNavTitle {
 }
 
 
+
 /***** Page-specific (multiple): call for papers, accommodations *****/
 .listItems {
   text-align: left;
@@ -174,7 +134,6 @@ a#topNavTitle {
 
 .tableItemTitle {
   color: #0F773C;
-  /* font-size: 1.1em; */
 }
 
 .listText {
@@ -182,12 +141,13 @@ a#topNavTitle {
 }
 
 
+
 /***** Page-specific: accepted papers *****/
 .paperTitle {
-  /* font-size: 1.1em; */
   font-weight: bold;
   color: #1F2161;
 }
+
 
 
 /***** Page-specific: accommodations *****/
@@ -200,11 +160,13 @@ a#topNavTitle {
 }
 
 
+
 /***** Page-specific: call for papers *****/
 /* fixes issue of incorrect column wrapping on smaller screens */
 .wrapWell:nth-child(3n+1) {
   clear: both;
 }
+
 
 
 /***** Page-specific: registration *****/
@@ -222,7 +184,6 @@ a#topNavTitle {
 }
 
 p.regTitle {
-  /* font-size: 1.1em; */
   font-weight: bold;
   padding-top: 8px;
   text-align: center;
@@ -237,10 +198,12 @@ p.priceText {
 }
 
 
+
 /***** Page-specific: code of conduct *****/
 span.editMe {
   color: #DD0000;
 }
+
 
 
 /***** Page-specific: program *****/
@@ -252,18 +215,12 @@ span.editMe {
   align-items: center;
 }*/
 
-a.iconLink {
-  /* font-size: 1.3em; */
-}
-
 p.timeSlot {
-  /* font-size: 0.9em; */
   text-align: right;
   margin-top: 25px;
 }
 
 p.talkTitle {
-  /* font-size: 1.1em; */
   font-weight: bold;
   text-align: left;
   margin-top: 10px;
@@ -287,7 +244,6 @@ p.eventDescr {
 }
 
 p.mutualEventTalkTitle {
-  /* font-size: 1.1em; */
   font-weight: bold;
   text-align: center;
   margin-top: 10px;
@@ -324,23 +280,4 @@ span.talkMedia {
 
 img.talkMediaIcon, img.sessionInfoIcon {
   height: 20px;
-}
-
-/* TODO: move these to themes. */
-
-/***** Navbar colors and font size */
-
-#main-nav-row {
-    background-color: #102a83;
-}
-a.nav-link {
-    color: #ffffff !important;
-    font-size: 1.25rem;
-}
-div.dropdown-menu {
-    color: #ffffff;
-    background-color: #102a83;
-}
-a.dropdown-item {
-    color: #ffffff;
 }
