@@ -325,3 +325,22 @@ span.talkMedia {
 img.talkMediaIcon, img.sessionInfoIcon {
   height: 20px;
 }
+
+/* TODO: move these to themes. */
+
+/***** Navbar colors and font size */
+
+#main-nav-row {
+    background-color: #102a83;
+}
+a.nav-link {
+    color: #ffffff !important;
+    font-size: 1.25rem;
+}
+div.dropdown-menu {
+    color: #ffffff;
+    background-color: #102a83;
+}
+a.dropdown-item {
+    color: #ffffff;
+}
