@@ -5,7 +5,7 @@
           <div class="row d-md-flex align-items-center">
             <div class="col-md-5">
               <h1 class="headerTitle">
-                <span class="conf_name"><?php echo $META['name'];?></span>
+                <span class="conf_name"><?php echo $META['shortName'];?></span>
               </h1>
             </div>
             <div class="col-md-2">
@@ -25,7 +25,7 @@
         </div>
       </div>
     </header>
-    <div id="main-nav-row">
+    <div id="main-nav-row" class="sticky-top">
       <nav class="container navbar navbar-dark navbar-expand-md">
         <button class="navbar-toggler"
                 type="button"

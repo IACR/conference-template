@@ -10,4 +10,4 @@
     <script src="https://iacr.org/libs/css/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
     <!-- TODO: review these -->
-    <script src="./js/navTitleFade.js"></script>
+    <script src="./js/nav.js"></script>
