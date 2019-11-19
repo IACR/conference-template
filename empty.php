@@ -1,9 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-  <!-- The header includes the head tag and start of body -->
-  <!--#include file="includes/header.html" -->
+  <head>
+    <?php // The header includes the head tag and start of body
+        require "includes/head.php";
+          ?>
+  </head>
+  <body>
+    <?php require "includes/nav.php"; ?>
 
-  <main class="container mt-5">
+    <main class="container mt-5">
 
       <!-- NOTE: below is standard placeholder text for when the page is under construction. please delete this entire <div class="row"> when ready to add other content -->
       <div class="row">
@@ -14,16 +19,8 @@
         </div>
       </div>
 
-      <div class="row">
-        <footer class="col-sm-12 text-center footer">
-          <small>
-            <span class="conf_name"></span>
-          </small>
-        </footer>
-      </div>
-
     </main>
 
-  <!--#include file="includes/footer.html" -->
+  <?php include "includes/footer.php"; ?>
   </body>
 </html>

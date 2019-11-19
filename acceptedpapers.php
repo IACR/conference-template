@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-  <!-- The header includes the head tag and start of body -->
-  <!--#include file="includes/header.html" -->
+  <head>
+    <?php // The header includes the head tag and start of body
+        require "includes/head.php";
+          ?>
+  </head>
+  <body>
+    <?php require "includes/nav.php"; ?>
 
   <main class="container mt-5">
 
@@ -56,17 +61,11 @@
       </section>
     </div>
 
-    <div class="row">
-      <footer class="col-sm-12 text-center footer">
-        <small>
-          <span class="conf_name"></span>
-        </small>
-      </footer>
-    </div>
-
   </main>
 
-  <!--#include file="includes/footer.html" -->
+  <?php include "includes/footer.php";?>
+    <!-- Handlebars -->
+    <script src="https://iacr.org/libs/js/handlebars/handlebars-v4.1.0.js" type="text/javascript"></script>
 
 </body>
 </html>

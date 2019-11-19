@@ -247,10 +247,10 @@
         <h3 class="pageSubtitle">
           Example Sponsors
         </h3>
-        <a href="http://geekscat.com/">
+        <a href="http://kaymckelly.com/">
           <img src="./images/demo/examplesponsor1.png" alt="black and white vector graphic of an elephant" class="sponsorLogo firstLogo" />
         </a>
-        <a href="http://geekscat.com/">
+        <a href="http://kaymckelly.com/">
           <img src="./images/demo/examplesponsor2.png" alt="deep blue vector graphic of a map pin with a piece missing from the circle at the top" class="sponsorLogo" />
         </a>
       </section>
