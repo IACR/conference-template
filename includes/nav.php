@@ -5,7 +5,7 @@
           <div class="row d-md-flex align-items-center">
             <div class="col-md-5">
               <h1 class="headerTitle">
-                <span class="conf_name"><?php echo $META['name'];?></span>
+                <span class="conf_name"><?php echo $META['shortName'];?></span>
               </h1>
             </div>
             <div class="col-md-2">
