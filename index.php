@@ -256,13 +256,6 @@
       </section>
     </div>
 
-    <div class="row">
-      <footer class="col-sm-12 text-center footer">
-        <small>
-          <span class="conf_name"></span>
-        </small>
-      </footer>
-    </div>
 
   </main>
 
