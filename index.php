@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-  <!-- The header includes the head tag and start of body -->
-  <!--#include file="includes/header.html" -->
+  <head>
+    <?php // The header includes the head tag and start of body
+        require "includes/head.php";
+          ?>
+  </head>
+  <body>
+    <?php require "includes/nav.php"; ?>
 
   <main class="container mt-5">
 
@@ -57,7 +62,10 @@
     <div class="row">
       <article class="col-sm-12 sectionSpacing">
         <p>
-          <span class="long_conf"></span> will take place in <span class="conf_location"></span> on <span class="conf_dates"></span>. <span class="conf_name"></span> is organized by <a href="http://iacr.org/">the International Association for Cryptologic Research</a> (IACR).
+          <span class="long_conf"><?php echo $META['name'];?></span> will take place in
+          <span class="conf_location"><?php echo $META['city'] . ', ' . $META['country'];?></span>
+          on <span class="conf_dates"><?php echo $META['dates'];?></span>.
+          <span class="conf_name"><?php echo $META['name'];?></span> is organized by <a href="http://iacr.org/">the International Association for Cryptologic Research</a> (IACR).
         </p>
         <p>
           Please visit the <a href="./callforpapers.html">call for papers</a> page while we work on adding more information to our other pages. Thank you for your patience.

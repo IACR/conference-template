@@ -1,27 +1,11 @@
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <title>
-      TODO: use header include for title?
-    </title>
-
-    <!-- Generic bootstrap -->
-    <link href="https://iacr.org/libs/css/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" >
-
-    <!-- Styling -->
-    <link rel="stylesheet" href="./styles/main.css">
-    <link rel="stylesheet" href="./styles/theme.css">
-
-  </head>
-  <body>
+<!-- BEGIN nav -->
     <header id="conf_id" class="headerImg">
       <div class="col-sm-12 headerGradient pt-md-5">
         <div class="container">
           <div class="row d-md-flex align-items-center">
             <div class="col-md-5">
               <h1 class="headerTitle">
-                <span class="conf_name"></span>
+                <span class="conf_name"><?php echo $META['name'];?></span>
               </h1>
             </div>
             <div class="col-md-2">
@@ -31,10 +15,10 @@
             </div>
             <div class="col-md-5">
               <h3 class="headerInfoTop">
-                <span class="conf_dates"></span>
+                <span class="conf_dates"><?php echo $META['dates'];?></span>
               </h3>
               <h3 class="headerInfoBottom">
-                <span class="conf_location"></span>
+                <span class="conf_location"><?php echo $META['location'];?></span>
               </h3>
             </div>
           </div>
@@ -106,4 +90,4 @@
         </h3>
       </div>
     </noscript>
-    <!-- END OF HEADER -->
+    <!-- END OF nav -->
