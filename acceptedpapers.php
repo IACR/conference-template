@@ -64,6 +64,8 @@
   </main>
 
   <?php include "includes/footer.php";?>
+    <!-- Handlebars -->
+    <script src="https://iacr.org/libs/js/handlebars/handlebars-v4.1.0.js" type="text/javascript"></script>
 
 </body>
 </html>

@@ -202,7 +202,7 @@
 
     <?php include "includes/footer.php"; ?>
     <!-- Handlebars -->
-    <script src="/libs/js/handlebars/handlebars-v4.1.0.js" type="text/javascript"></script>
+    <script src="https://iacr.org/libs/js/handlebars/handlebars-v4.1.0.js" type="text/javascript"></script>
 
     <!-- Personal scripts TODO: review these. -->
     <script src="./js/tooltips.js"></script>
