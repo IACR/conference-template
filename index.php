@@ -266,6 +266,6 @@
 
   </main>
 
-  <?php include "includes/footer.html";?>
+  <?php include "includes/footer.php";?>
 </body>
 </html>
