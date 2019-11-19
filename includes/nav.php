@@ -25,7 +25,7 @@
         </div>
       </div>
     </header>
-    <div id="main-nav-row">
+    <div id="main-nav-row" class="sticky-top">
       <nav class="container navbar navbar-dark navbar-expand-md">
         <button class="navbar-toggler"
                 type="button"
