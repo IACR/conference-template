@@ -10,7 +10,7 @@
 
     <main class="container mt-5">
       <div class="row">
-        <div class="col-sm-12">
+        <div class="col-12">
           <h2 class="indPageTitle">
             Registration
           </h2>
@@ -19,7 +19,7 @@
 
       <!-- NOTE: below is standard placeholder text for when the page is under construction. please delete this entire <div class="row"> and all elements contained within it when ready to add other content -->
       <div class="row">
-        <div class="col-sm-12">
+        <div class="col-12">
           <p>
             This information is not yet available. Thank you for your patience. Below is sample information, derived from CRYPTO 2016.
           </p>
@@ -27,7 +27,7 @@
       </div>
 
       <div class="row">
-        <section class="col-sm-8 col-sm-offset-2" id="regTable">
+        <section class="col-12" id="regTable">
           <div class="row" id="regTopRow">
             <div class="col-6">
               <p class="regTitle">
@@ -150,7 +150,7 @@
 
       <!-- NOTE: also boilerplate content; add in your content and uncomment -->
       <div class="row">
-        <aside class="col-sm-6 col-sm-offset-3 text-center">
+        <aside class="col-sm-6 mx-auto text-center">
           <h5>
             <b>Registration is not currently available. This button will become active when registration opens.</b>
           </h5>
