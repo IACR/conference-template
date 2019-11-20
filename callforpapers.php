@@ -141,7 +141,7 @@
 
       <!-- NOTE: the information below used for the purposes of demoing this page is from Asiacrypt 2017  -->
       <div class="row">
-        <section class="col-sm-12">
+        <section class="col-12">
           <h3 class="pageSubtitle">
             Instructions for Authors
           </h3>
@@ -199,7 +199,7 @@
       </div>
 
       <div class="row">
-        <section class="col-sm-12">
+        <section class="col-12">
           <h3 class="pageSubtitle">
             Sample Program Committee
           </h3>
@@ -237,7 +237,7 @@
       </div>
 
       <div class="row">
-        <aside class="col-6 text-center mt-3 mb-2">
+        <aside class="col-12 col-sm-6 text-center mt-3 mb-2">
           <h4 class="tableItemTitle">
             Important Professor #1
           </h4>
@@ -246,7 +246,7 @@
             China
           </p>
         </aside>
-        <aside class="col-6 text-center mt-3 mb-2">
+        <aside class="col-12 col-sm-6 text-center mt-3 mb-2">
           <h4 class="tableItemTitle">
             World-Famous Researcher
           </h4>
@@ -275,7 +275,7 @@
       </div>
 
       <div class="row">
-        <aside class="col-6 text-center mt-3 mb-2">
+        <aside class="col-12 col-sm-6 text-center mt-3 mb-2">
           <h4 class="tableItemTitle">
             SmartGuy McWriter
           </h4>
@@ -284,7 +284,7 @@
             Romania
           </p>
         </aside>
-        <aside class="col-6 text-center mt-3 mb-2">
+        <aside class="col-12 col-sm-6 text-center mt-3 mb-2">
           <h4 class="tableItemTitle">
             Ellis Papers
           </h4>

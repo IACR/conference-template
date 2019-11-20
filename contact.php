@@ -28,7 +28,7 @@
       </div> -->
 
       <div class="row">
-        <div class="col-sm-12 text-center">
+        <div class="col-12 text-center">
           <h3 class="pageSubtitle">
             General Co-Chairs
           </h3>
@@ -36,7 +36,7 @@
       </div>
 
       <div class="row">
-        <aside class="col-sm-4 col-sm-offset-2 text-center">
+        <aside class="col-12 col-sm-6 text-center mt-3 mb-2">
           <h4 class="tableItemTitle">
             Important Professor #1
           </h4>
@@ -45,7 +45,7 @@
             China
           </p>
         </aside>
-        <aside class="col-sm-4 text-center">
+        <aside class="col-12 col-sm-6 text-center mt-3 mb-2">
           <h4 class="tableItemTitle">
             World-Famous Researcher
           </h4>
@@ -57,7 +57,7 @@
       </div>
 
       <div class="row">
-        <div class="col-sm-12 text-center">
+        <div class="col-12 text-center mb-5">
           <a href="mailto:doNotEmailMe@fakeDomain.com">
             <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
           </a>&nbsp;
@@ -66,7 +66,7 @@
       </div>
 
       <div class="row">
-        <div class="col-sm-12 text-center">
+        <div class="col-12 text-center">
           <h3 class="pageSubtitle">
             Program Co-Chairs
           </h3>
@@ -74,7 +74,7 @@
       </div>
 
       <div class="row">
-        <aside class="col-sm-4 col-sm-offset-2 text-center">
+        <aside class="col-12 col-sm-6 text-center mt-3 mb-2">
           <h4 class="tableItemTitle">
             SmartGuy McWriter
           </h4>
@@ -83,7 +83,7 @@
             Romania
           </p>
         </aside>
-        <aside class="col-sm-4 text-center">
+        <aside class="col-12 col-sm-6 text-center mt-3 mb-2">
           <h4 class="tableItemTitle">
             Ellis Papers
           </h4>
@@ -95,7 +95,7 @@
       </div>
 
       <div class="row">
-        <div class="col-sm-12 text-center">
+        <div class="col-12 text-center">
           <a href="mailto:reallyDoNotEmailMe@fakeDomain.com">
             <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
           </a>&nbsp;
