@@ -207,13 +207,13 @@
       </div>
 
       <div class="row">
-        <section class="col-sm-12">
-          <ul class="list-group" id="committee">
+        <section class="col-12">
+          <ul class="list-unstyled row" id="committee">
 
             <!-- Handlebars import of PC members -->
             <script id="committee-member" type="text/x-handlebars-template">
               {{#each committee}}
-                <li class="list-group-item listItems col-sm-4 wrapWell">
+                <li class="listItems col-6 col-md-4 col-xl-3 my-2">
                   <h4 class="list-group-item-heading tableItemTitle">
                     {{name}}
                   </h4>
@@ -229,7 +229,7 @@
       </div>
 
       <div class="row">
-        <div class="col-sm-12 text-center">
+        <div class="col-12 text-center">
           <h3 class="pageSubtitle">
             General Co-Chairs
           </h3>
@@ -237,7 +237,7 @@
       </div>
 
       <div class="row">
-        <aside class="col-sm-4 col-sm-offset-2 text-center">
+        <aside class="col-6 text-center mt-3 mb-2">
           <h4 class="tableItemTitle">
             Important Professor #1
           </h4>
@@ -246,7 +246,7 @@
             China
           </p>
         </aside>
-        <aside class="col-sm-4 text-center">
+        <aside class="col-6 text-center mt-3 mb-2">
           <h4 class="tableItemTitle">
             World-Famous Researcher
           </h4>
@@ -258,7 +258,7 @@
       </div>
 
       <div class="row">
-        <div class="col-sm-12 text-center">
+        <div class="col-12 text-center mb-5">
           <a href="mailto:doNotEmailMe@fakeDomain.com">
             <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
           </a>&nbsp;
@@ -267,7 +267,7 @@
       </div>
 
       <div class="row">
-        <aside class="col-sm-12 text-center">
+        <aside class="col-12 text-center">
           <h3 class="pageSubtitle">
             Program Co-Chairs
           </h3>
@@ -275,7 +275,7 @@
       </div>
 
       <div class="row">
-        <aside class="col-sm-4 col-sm-offset-2 text-center">
+        <aside class="col-6 text-center mt-3 mb-2">
           <h4 class="tableItemTitle">
             SmartGuy McWriter
           </h4>
@@ -284,7 +284,7 @@
             Romania
           </p>
         </aside>
-        <aside class="col-sm-4 text-center">
+        <aside class="col-6 text-center mt-3 mb-2">
           <h4 class="tableItemTitle">
             Ellis Papers
           </h4>
@@ -296,7 +296,7 @@
       </div>
 
       <div class="row">
-        <div class="col-sm-12 text-center">
+        <div class="col-12 text-center">
           <a href="mailto:reallyDoNotEmailMe@fakeDomain.com">
             <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
           </a>&nbsp;
