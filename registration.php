@@ -131,7 +131,7 @@
              </section> -->
 
         <!-- NOTE: here's where boilerplate content for any additional content you may add to the page begins -->
-        <section class="col-sm-6">
+        <section class="col-md-6">
           <h3 class="pageSubtitle">What the Conference Fee Includes</h3>
           <p>
             The conference registration fee includes participation in the technical program, all social functions as well as an electronic copy of the conference proceedings. Accompanying guests can also be registered for participation in the conference social functions. Guests who only want to attend one or two events can register onsite.
@@ -140,7 +140,7 @@
             Two conferences are located in <span class="conf_location"></span> on <span class="conf_dates"></span>. If you are interested in attending both <span class="conf_name"></span> and CHES, there is a $50 joint registration discount ($25 off each conference) for regular registrations. Student joint registrations are discounted by $100 ($50 off each conference).
           </p>
         </section>
-        <section class="col-sm-6">
+        <section class="col-md-6">
           <h3 class="pageSubtitle">An Important Note for Students</h3>
           <p>
             If you are a student presenting at <span class="conf_name"></span>, your registration fee will be covered by the IACR Fund for Student Presenters; you do not need to pay for registration. Please register for the conference but do not submit any payment. After registering, send an email to the <a href="mailto:doNotEmailMe@fakeDomain.com">General Chair</a>, explaining that you are a student presenter and have already registered. More information is available <a href="./stipends.html">here</a>.
@@ -159,7 +159,7 @@
       </div>
 
       <div class="row">
-        <section class="col-sm-6">
+        <section class="col-md-6">
           <h3 class="pageSubtitle">Additional Information</h3>
           <p>
             IACR dues are $50 for regular attendees and $25 for student attendees.
@@ -174,7 +174,7 @@
             It will be possible to register on-site at the registration desk on the first day of the conference, beginning at 8 a.m.
           </p>
         </section>
-        <section class="col-sm-6">
+        <section class="col-md-6">
           <h3 class="pageSubtitle">IACR Policy for Proceedings</h3>
           <p>
             Proceedings will be made available online to attendees. There will not be a USB key this year.
@@ -186,13 +186,13 @@
       </div>
 
       <div class="row">
-        <section class="col-sm-6">
+        <section class="col-md-6">
           <h3 class="pageSubtitle">Refund Policy</h3>
           <p>
             Cancellation requests should be made in writing or email to the conference general chair. Those received by 30 days prior to the conference will receive a full refund less $100 to cover fixed costs for the conference. No refunds will be made for cancellations after this date.
           </p>
         </section>
-        <section class="col-sm-6">
+        <section class="col-md-6">
           <h3 class="pageSubtitle">Housing</h3>
           <p>
             Conference registration and on-site housing registration are now separate processes. To learn more about housing options, visit the <a href="./accommodations.html">accommodations</a> page.
