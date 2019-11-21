@@ -6,10 +6,12 @@ body, .listItems {
 }
 
 
+
 /***** Nav (in /fragments/nav.html) *****/
 nav#mainmenu {
   background-color: #FEFDFB;
 }
+
 
 
 /***** Header (found in ./index.html) *****/
@@ -38,7 +40,26 @@ nav#mainmenu {
 }
 
 
+
 /***** Main Content: general styling *****/
 .indPageTitle {
   color: #0F773C;
+}
+
+.customCard {
+  border: 1px solid rgba(203, 131, 30, 0.3);
+}
+
+.customCardHeader {
+  background-color: rgba(203, 131, 30, 0.4);
+  color: #1F2161;
+}
+
+.dateTitle {
+  color: #CB831E;
+}
+
+.customCardFooter {
+  /* NOTE: typically this is a more transparent version of the card header bg color */
+  background-color: rgba(203, 131, 30, 0.1);
 }
