@@ -213,11 +213,11 @@
             <!-- Handlebars import of PC members -->
             <script id="committee-member" type="text/x-handlebars-template">
               {{#each committee}}
-                <li class="listItems col-6 col-md-4 col-xl-3 my-2">
-                  <h4 class="list-group-item-heading tableItemTitle">
+                <li class="col-12 col-sm-6 col-md-4 col-xl-3 my-2">
+                  <h4 class="tableItemTitle">
                     {{name}}
                   </h4>
-                  <p class="list-group-item-text listText">
+                  <p class="text-left">
                     {{affiliation}}
                   </p>
                 </li>

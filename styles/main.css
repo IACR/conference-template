@@ -127,17 +127,8 @@ a.dropdown-item {
 
 
 /***** Page-specific (multiple): call for papers, accommodations *****/
-.listItems {
-  text-align: left;
-  border: none;
-}
-
 .tableItemTitle {
   color: #0F773C;
-}
-
-.listText {
-  text-align: left;
 }
 
 
@@ -157,14 +148,6 @@ a.dropdown-item {
 
 .hotelBtn {
   margin-bottom: 20px;
-}
-
-
-
-/***** Page-specific: call for papers *****/
-/* fixes issue of incorrect column wrapping on smaller screens */
-.wrapWell:nth-child(3n+1) {
-  clear: both;
 }
 
 
