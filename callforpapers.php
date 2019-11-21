@@ -9,15 +9,13 @@
     <?php require "includes/nav.php"; ?>
 
     <main class="container mt-5">
-      <div class="row">
-        <div class="col-sm-12">
-          <h2 class="indPageTitle">Call for Papers</h2>
-        </div>
-      </div>
+      <h2 class="indPageTitle">
+        Call for Papers
+      </h2>
 
       <!-- NOTE: below is standard placeholder text for when the page is under construction. please delete this entire <div class="row"> and all elements contained within it when ready to add other content -->
       <!-- <div class="row">
-        <div class="col-sm-12">
+        <div class="col-12">
           <p>
             This information is not yet available. Thank you for your patience.
           </p>
@@ -25,7 +23,7 @@
       </div> -->
 
       <div class="row">
-        <section class="col-sm-6">
+        <section class="col-md-6">
           <h3 class="pageSubtitle">General Information</h3>
           <p>
             <span class="conf_name"></span> will take place in <span class="conf_location"></span> on <span class="conf_dates"></span>. <span class="conf_name"></span> is organized by <a href="http://iacr.org/">the International Association for Cryptologic Research</a> (IACR). Original research papers on all technical aspects of cryptology are solicited for submission.
@@ -34,7 +32,7 @@
             This is not a real conference; it is a demo of what this site might look like. Parts of it are derived from past conferences that IACR has hosted, such as the program and program committee.
           </p>
         </section>
-        <section class="col-sm-6">
+        <section class="col-md-6">
           <div class="panel panel-success">
             <div class="panel-heading">
               <h3 class="panel-title">
@@ -177,7 +175,7 @@
       </div>
 
       <div class="row">
-        <section class="col-sm-6">
+        <section class="col-md-6">
           <h3 class="pageSubtitle">
             Schedule
           </h3>
@@ -188,7 +186,7 @@
             In the second round the program committee further reviews the selected submissions by taking into account their rebuttal letter, and makes the final decision of acceptance or rejection. The submissions that have not been selected during the first round of reviews may be submitted in other conferences after the first round notification date. The dates for this schedule are listed above.
           </p>
         </section>
-        <section class="col-sm-6">
+        <section class="col-md-6">
           <h3 class="pageSubtitle">
             Stipends
           </h3>
@@ -198,13 +196,9 @@
         </section>
       </div>
 
-      <div class="row">
-        <section class="col-12">
-          <h3 class="pageSubtitle">
-            Sample Program Committee
-          </h3>
-        </section>
-      </div>
+      <h3 class="pageSubtitle">
+        Sample Program Committee
+      </h3>
 
       <div id="committee" class="row">
         <!-- Handlebars import of PC members -->
@@ -222,16 +216,12 @@
         </script>
       </div>
 
-      <div class="row">
-        <div class="col-12 text-center">
-          <h3 class="pageSubtitle">
-            General Co-Chairs
-          </h3>
-        </div>
-      </div>
+      <h3 class="pageSubtitle text-center">
+        General Co-Chairs
+      </h3>
 
       <div class="row">
-        <aside class="col-12 col-sm-6 text-center mt-3 mb-2">
+        <aside class="col-12 col-md-6 text-center mt-3 mb-2">
           <h4 class="tableItemTitle">
             Important Professor #1
           </h4>
@@ -240,7 +230,7 @@
             China
           </p>
         </aside>
-        <aside class="col-12 col-sm-6 text-center mt-3 mb-2">
+        <aside class="col-12 col-md-6 text-center mt-3 mb-2">
           <h4 class="tableItemTitle">
             World-Famous Researcher
           </h4>
@@ -260,16 +250,12 @@
         </div>
       </div>
 
-      <div class="row">
-        <aside class="col-12 text-center">
-          <h3 class="pageSubtitle">
-            Program Co-Chairs
-          </h3>
-        </aside>
-      </div>
+      <h3 class="pageSubtitle text-center">
+        Program Co-Chairs
+      </h3>
 
       <div class="row">
-        <aside class="col-12 col-sm-6 text-center mt-3 mb-2">
+        <aside class="col-12 col-md-6 text-center mt-3 mb-2">
           <h4 class="tableItemTitle">
             SmartGuy McWriter
           </h4>
@@ -278,7 +264,7 @@
             Romania
           </p>
         </aside>
-        <aside class="col-12 col-sm-6 text-center mt-3 mb-2">
+        <aside class="col-12 col-md-6 text-center mt-3 mb-2">
           <h4 class="tableItemTitle">
             Ellis Papers
           </h4>
