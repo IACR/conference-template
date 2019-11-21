@@ -31,10 +31,10 @@
       <div class="row">
         <section class="col-sm-8">
           <p>
-            The conference will be held in <span class="conf_location"></span>, which is located approximately 7,136 miles from the <a href="http://geekscat.com">Santa Barbara airport</a>, making that perhaps the least desirable airport to arrive at. All major rental car agencies are available in the immediate area. <a href="http://geekscat.com">AMTRAK</a> also definitely does not offer rail connections to <span class="conf_location"></span>, but if you're in good shape, you might be able to swim here. Watch out for sharks.
+            The conference will be held in <span class="conf_location"></span>, which is located approximately 7,136 miles from the <a href="http://kaymckelly.com">Santa Barbara airport</a>, making that perhaps the least desirable airport to arrive at. All major rental car agencies are available in the immediate area. <a href="http://kaymckelly.com">AMTRAK</a> also definitely does not offer rail connections to <span class="conf_location"></span>, but if you're in good shape, you might be able to swim here. Watch out for sharks.
           </p>
           <p>
-            Information about on-site accommodations and local hotels can be found <a href="./accommodations.html">here</a>. Also, maps of the  <a href="http://geekscat.com">general area</a> and a visit to <a href="http://geekscat.com">my home page</a> may be useful.
+            Information about on-site accommodations and local hotels can be found <a href="./accommodations.html">here</a>. Also, maps of the  <a href="http://kaymckelly.com">general area</a> and a visit to <a href="http://kaymckelly.com">my home page</a> may be useful.
           </p>
         </section>
         <div class="col-sm-4 alert alert-success" role="alert">

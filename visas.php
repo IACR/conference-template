@@ -33,7 +33,7 @@
             It is imperative that authors and delegates allow sufficient time to obtain visas.
           </p>
           <p>
-            Information about Australian visas can be found <a href="http://geekscat.com">here</a>. It is advisable to begin the application process as early as possible to avoid last minute problems. The time to obtain a visa can vary widely and has taken over three months for some individuals in the past. An interview at a consulate may also be required.
+            Information about Australian visas can be found <a href="http://kaymckelly.com">here</a>. It is advisable to begin the application process as early as possible to avoid last minute problems. The time to obtain a visa can vary widely and has taken over three months for some individuals in the past. An interview at a consulate may also be required.
           </p>
           <p>
             Lorem ipsum dolor sit amet, vis ut quem appellantur. Id eos hinc wisi, an prima solet essent eam. Ei qui sonet putant, case probo suscipit pri id. An est vocibus accusam accusata, ius delectus expetendis ne.

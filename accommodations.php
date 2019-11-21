@@ -38,7 +38,7 @@
           <p>
             Once on-site registration is available, there will be a link below.
           </p>
-          <a href="http://geekscat.com" class="btn btn-warning btn-md btn-block bottomBtn disabled" role="button">Register for on-site accommodations</a>
+          <a href="http://kaymckelly.com" class="btn btn-warning btn-md btn-block bottomBtn disabled" role="button">Register for on-site accommodations</a>
         </section>
         <section class="col-sm-6">
           <h3 class="pageSubtitle">Off-Site Accommodations</h3>
@@ -95,7 +95,7 @@
                 A very nice hotel, you'll be comfortable here with daily towel service and a large pool. Be sure to check out the walled garden or enjoy a cup of elevenses at the cafe next to the lobby. Lots of amenities.
               </p>
               <br />
-              <a href="http://geekscat.com" class="btn btn-warning btn-md btn-block hotelBtn" role="button">
+              <a href="http://kaymckelly.com" class="btn btn-warning btn-md btn-block hotelBtn" role="button">
                 Stay at Example Hotel #1
               </a>
             </li>
@@ -127,7 +127,7 @@
                 Group Rate available until the end of August.
               </p>
               <br />
-              <a href="http://geekscat.com" class="btn btn-warning btn-md btn-block hotelBtn" role="button">
+              <a href="http://kaymckelly.com" class="btn btn-warning btn-md btn-block hotelBtn" role="button">
                 Stay at Example Hotel #2
               </a>
             </li>

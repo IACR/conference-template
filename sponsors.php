@@ -43,7 +43,7 @@
       </h3>
       <section class="row">
         <div class="col-12 col-md-10 col-lg-6 mx-auto">
-          <a href="http://geekscat.com" class="thumbnail">
+          <a href="http://kaymckelly.com" class="thumbnail">
             <img src="./images/demo/logo1.jpg" alt="fake company 1" class="img-thumbnail">
           </a>
           <div class="caption">
@@ -56,7 +56,7 @@
           </div>
         </div>
         <div class="col-12 col-md-10 col-lg-6 mx-auto">
-          <a href="http://geekscat.com" class="thumbnail">
+          <a href="http://kaymckelly.com" class="thumbnail">
             <img src="./images/demo/logo2.jpg" alt="fake company 1" class="img-thumbnail">
           </a>
           <div class="caption">
@@ -64,7 +64,7 @@
               The Shouty Corporation
             </p>
             <p>
-              This company is not a real sponsor, nor is it a real company. But if it were, I'd probably register this name because that would be pretty funny. Perhaps <a href="http://geekscat.com">my main domain</a> is in for a name change?
+              This company is not a real sponsor, nor is it a real company. But if it were, I'd probably register this name because that would be pretty funny. Perhaps <a href="http://kaymckelly.com">my main domain</a> is in for a name change?
             </p>
           </div>
         </div>
@@ -77,7 +77,7 @@
       </h3>
       <section class="row">
         <div class="col-10 col-md-6 col-lg-4 mx-auto">
-          <a href="http://geekscat.com" class="thumbnail">
+          <a href="http://kaymckelly.com" class="thumbnail">
             <img src="./images/demo/logo5.jpg" alt="fake company 2" class="img-thumbnail">
           </a>
           <div class="caption">
@@ -90,7 +90,7 @@
           </div>
         </div>
         <div class="col-10 col-md-6 col-lg-4 mx-auto">
-          <a href="http://geekscat.com" class="thumbnail">
+          <a href="http://kaymckelly.com" class="thumbnail">
             <img src="./images/demo/logo4.jpg" alt="fake company 2" class="img-thumbnail">
           </a>
           <div class="caption">
@@ -103,7 +103,7 @@
           </div>
         </div>
         <div class="col-10 col-md-6 col-lg-4 mx-auto">
-          <a href="http://geekscat.com" class="thumbnail">
+          <a href="http://kaymckelly.com" class="thumbnail">
             <img src="./images/demo/logo5.jpg" alt="fake company 2" class="img-thumbnail">
           </a>
           <div class="caption">
@@ -127,7 +127,7 @@
       </h3>
       <section class="row">
         <div class="col-6 col-md-4 col-lg-3 mx-auto">
-          <a href="http://geekscat.com" class="thumbnail">
+          <a href="http://kaymckelly.com" class="thumbnail">
             <img src="./images/demo/logo6.jpg" alt="fake company 2" class="img-thumbnail">
           </a>
           <div class="caption">
@@ -140,7 +140,7 @@
           </div>
         </div>
         <div class="col-6 col-md-4 col-lg-3 mx-auto">
-          <a href="http://geekscat.com" class="thumbnail">
+          <a href="http://kaymckelly.com" class="thumbnail">
             <img src="./images/demo/logo7.jpg" alt="fake company 2" class="img-thumbnail">
           </a>
           <div class="caption">
@@ -153,7 +153,7 @@
           </div>
         </div>
         <div class="col-6 col-md-4 col-lg-3 mx-auto">
-          <a href="http://geekscat.com" class="thumbnail">
+          <a href="http://kaymckelly.com" class="thumbnail">
             <img src="./images/demo/logo6.jpg" alt="fake company 2" class="img-thumbnail">
           </a>
           <div class="caption">
@@ -166,7 +166,7 @@
           </div>
         </div>
         <div class="col-6 col-md-4 col-lg-3 mx-auto">
-          <a href="http://geekscat.com" class="thumbnail">
+          <a href="http://kaymckelly.com" class="thumbnail">
             <img src="./images/demo/logo7.jpg" alt="fake company 2" class="img-thumbnail">
           </a>
           <div class="caption">
