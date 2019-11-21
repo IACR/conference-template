@@ -9,14 +9,14 @@ body, .listItems {
 
 
 
-/***** Nav (in /fragments/nav.html) *****/
+/***** Nav (in /includes/nav.php) *****/
 nav#mainmenu {
   background-color: #FEFDFB;
 }
 
 
 
-/***** Header (found in ./index.html) *****/
+/***** Header (in /includes/nav.php) *****/
 .navHeader {
   color: #CB831E;
 }

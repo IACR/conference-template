@@ -22,7 +22,7 @@ a:hover {
 
 
 
-/***** Nav (in /imcludes/header.html) *****/
+/***** Nav (in /includes/nav.php) *****/
 #main-nav-row {
   background-color: #102A83;
 }
@@ -43,7 +43,7 @@ a.dropdown-item {
 
 
 
-/***** Header (found in ./index.html) *****/
+/***** Header (in /includes/nav.php) *****/
 .headerImg {
   background-size: cover;
   background-image: url("../images/defaultbg2_crop.jpg");
