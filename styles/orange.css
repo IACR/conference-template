@@ -17,10 +17,6 @@ nav#mainmenu {
 
 
 /***** Header (in /includes/nav.php) *****/
-.navHeader {
-  color: #CB831E;
-}
-
 .headerGradient {
   background: rgba(204, 132, 30, 0.6);
   background: -webkit-linear-gradient(rgba(204, 132, 30, 0.6), rgba(254, 253, 251, 1));
