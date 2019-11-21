@@ -206,26 +206,20 @@
         </section>
       </div>
 
-      <div class="row">
-        <section class="col-12">
-          <ul class="list-unstyled row" id="committee">
-
-            <!-- Handlebars import of PC members -->
-            <script id="committee-member" type="text/x-handlebars-template">
-              {{#each committee}}
-                <li class="col-12 col-sm-6 col-md-4 col-xl-3 my-2">
-                  <h4 class="tableItemTitle">
-                    {{name}}
-                  </h4>
-                  <p class="text-left">
-                    {{affiliation}}
-                  </p>
-                </li>
-              {{/each}}
-            </script>
-
-          </ul>
-        </section>
+      <div id="committee" class="row">
+        <!-- Handlebars import of PC members -->
+        <script id="committee-member" type="text/x-handlebars-template">
+          {{#each committee}}
+            <article class="col-12 col-sm-6 col-md-4 col-xl-3 my-2">
+              <h4 class="tableItemTitle">
+                {{name}}
+              </h4>
+              <p class="text-left">
+                {{affiliation}}
+              </p>
+            </article>
+          {{/each}}
+        </script>
       </div>
 
       <div class="row">
