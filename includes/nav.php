@@ -36,13 +36,13 @@
                 aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse justify-content-lg-center" id="navbarNav">
-          <ul class="navbar-nav nav-fill w-100">
-            <li class="nav-item">
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav flex-md-row w-100 text-md-center">
+            <li class="nav-item flex-md-fill mt-3 mt-md-0">
               <!-- TODO: home icon? -->
               <a class="nav-link" href="">Home</a>
             </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item dropdown flex-md-fill">
               <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Technical Program</a>
               <div class="dropdown-menu">
                 <a class="dropdown-item" href="callforpapers.html">Call for papers</a>
@@ -56,7 +56,7 @@
                 <a class="dropdown-item" href="rumpsession.html">Rump session</a>
               </div>
             </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item dropdown flex-md-fill">
               <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Attend</a>
               <div class="dropdown-menu">
                 <a class="dropdown-item" href="registration.html">Registration</a>
@@ -69,11 +69,11 @@
                 <a class="dropdown-item" href="conduct.html">Code of conduct</a>
               </div>
             </li>
-            <li class="nav-item">
+            <li class="nav-item flex-md-fill">
               <a class="nav-link" href="sponsors.html">Sponsors</a>
             </li>
             <!-- TODO: email icon? -->
-            <li class="nav-item">
+            <li class="nav-item flex-md-fill">
               <a class="nav-link" href="contact.html">Contact</a>
             </li>
           </ul>

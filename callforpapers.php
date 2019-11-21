@@ -9,15 +9,13 @@
     <?php require "includes/nav.php"; ?>
 
     <main class="container mt-5">
-      <div class="row">
-        <div class="col-sm-12">
-          <h2 class="indPageTitle">Call for Papers</h2>
-        </div>
-      </div>
+      <h2 class="indPageTitle">
+        Call for Papers
+      </h2>
 
       <!-- NOTE: below is standard placeholder text for when the page is under construction. please delete this entire <div class="row"> and all elements contained within it when ready to add other content -->
       <!-- <div class="row">
-        <div class="col-sm-12">
+        <div class="col-12">
           <p>
             This information is not yet available. Thank you for your patience.
           </p>
@@ -25,7 +23,7 @@
       </div> -->
 
       <div class="row">
-        <section class="col-sm-6">
+        <section class="col-md-6">
           <h3 class="pageSubtitle">General Information</h3>
           <p>
             <span class="conf_name"></span> will take place in <span class="conf_location"></span> on <span class="conf_dates"></span>. <span class="conf_name"></span> is organized by <a href="http://iacr.org/">the International Association for Cryptologic Research</a> (IACR). Original research papers on all technical aspects of cryptology are solicited for submission.
@@ -34,7 +32,7 @@
             This is not a real conference; it is a demo of what this site might look like. Parts of it are derived from past conferences that IACR has hosted, such as the program and program committee.
           </p>
         </section>
-        <section class="col-sm-6">
+        <section class="col-md-6">
           <div class="panel panel-success">
             <div class="panel-heading">
               <h3 class="panel-title">
@@ -141,12 +139,12 @@
 
       <!-- NOTE: the information below used for the purposes of demoing this page is from Asiacrypt 2017  -->
       <div class="row">
-        <section class="col-sm-12">
+        <section class="col-12">
           <h3 class="pageSubtitle">
             Instructions for Authors
           </h3>
           <p>
-            Submissions must be at most 30 pages excluding any auxiliary supporting material, and using the Springer LNCS format (in particular, do not modify the LNCS default font sizes or margins). Details on the Springer LNCS format can be obtained <a href="http://geekscat.com">here</a>. It is strongly encouraged that submissions are processed in LaTeX. All submissions must have page numbers (e.g. using LaTeX command <code>\pagestyle{plain}</code>).
+            Submissions must be at most 30 pages excluding any auxiliary supporting material, and using the Springer LNCS format (in particular, do not modify the LNCS default font sizes or margins). Details on the Springer LNCS format can be obtained <a href="http://kaymckelly.com">here</a>. It is strongly encouraged that submissions are processed in LaTeX. All submissions must have page numbers (e.g. using LaTeX command <code>\pagestyle{plain}</code>).
           </p>
           <p>
             All submissions will be blind-refereed and thus must be anonymous, with no author names, affiliations, acknowledgments, or obvious references. Submissions should begin with a title, a short abstract, and a list of keywords, followed by an introduction, a main body, an appendix (if any), and references, within 30 pages. The introduction should summarize the contributions of the paper at the level understandable for a non-expert reader.
@@ -162,10 +160,10 @@
             Submissions not meeting these guidelines risk rejection without consideration of their merits.
           </p>
           <p>
-            For papers that are accepted, the length of the proceedings version will be at most 30 pages using Springer’s standard fonts, font sizes, and margins. The proceedings will be published by Springer-Verlag in the Lecture Notes in Computer Science series and will be available at the conference. Authors of accepted papers must complete the <a href="http://geekscat.com">IACR copyright assignment form</a> for their work to be published in the proceedings. Moreover, authors of accepted papers must guarantee that their paper will be presented at the conference and agree that the presentations will be video recorded during the event. The camera-ready version of the accepted articles will be automatically uploaded to the <a href="http://geekscat.com">IACR ePrint server</a>.
+            For papers that are accepted, the length of the proceedings version will be at most 30 pages using Springer’s standard fonts, font sizes, and margins. The proceedings will be published by Springer-Verlag in the Lecture Notes in Computer Science series and will be available at the conference. Authors of accepted papers must complete the <a href="http://kaymckelly.com">IACR copyright assignment form</a> for their work to be published in the proceedings. Moreover, authors of accepted papers must guarantee that their paper will be presented at the conference and agree that the presentations will be video recorded during the event. The camera-ready version of the accepted articles will be automatically uploaded to the <a href="http://kaymckelly.com">IACR ePrint server</a>.
           </p>
           <p>
-            Submissions must not substantially duplicate work that any of the authors has published elsewhere or has submitted in parallel to a journal or any other conference/workshop that has proceedings. Accepted submissions may not appear in any other conference or workshop that has proceedings. IACR reserves the right to share information about submissions with other program committees to detect parallel submissions and the <a href="http://geekscat.com">IACR policy on irregular submissions</a> will be strictly enforced.
+            Submissions must not substantially duplicate work that any of the authors has published elsewhere or has submitted in parallel to a journal or any other conference/workshop that has proceedings. Accepted submissions may not appear in any other conference or workshop that has proceedings. IACR reserves the right to share information about submissions with other program committees to detect parallel submissions and the <a href="http://kaymckelly.com">IACR policy on irregular submissions</a> will be strictly enforced.
           </p>
           <p>
             Articles will not be reviewed by reviewers who have a conflict of interest with at least one author of the submission. As the IACR does not impose a detailed policy on conflicts of interest, the Program co-chairs will decide on what constitutes a conflict according to high standards in terms of scientific integrity (at least colleagues from the same research group, people in a current or very recent student-advisor relationship, close friends, and family members have a conflict).
@@ -177,7 +175,7 @@
       </div>
 
       <div class="row">
-        <section class="col-sm-6">
+        <section class="col-md-6">
           <h3 class="pageSubtitle">
             Schedule
           </h3>
@@ -188,7 +186,7 @@
             In the second round the program committee further reviews the selected submissions by taking into account their rebuttal letter, and makes the final decision of acceptance or rejection. The submissions that have not been selected during the first round of reviews may be submitted in other conferences after the first round notification date. The dates for this schedule are listed above.
           </p>
         </section>
-        <section class="col-sm-6">
+        <section class="col-md-6">
           <h3 class="pageSubtitle">
             Stipends
           </h3>
@@ -198,46 +196,32 @@
         </section>
       </div>
 
-      <div class="row">
-        <section class="col-sm-12">
-          <h3 class="pageSubtitle">
-            Sample Program Committee
-          </h3>
-        </section>
+      <h3 class="pageSubtitle">
+        Sample Program Committee
+      </h3>
+
+      <div id="committee" class="row">
+        <!-- Handlebars import of PC members -->
+        <script id="committee-member" type="text/x-handlebars-template">
+          {{#each committee}}
+            <article class="col-12 col-sm-6 col-md-4 col-xl-3 my-2">
+              <h4 class="tableItemTitle">
+                {{name}}
+              </h4>
+              <p class="text-left">
+                {{affiliation}}
+              </p>
+            </article>
+          {{/each}}
+        </script>
       </div>
 
-      <div class="row">
-        <section class="col-sm-12">
-          <ul class="list-group" id="committee">
-
-            <!-- Handlebars import of PC members -->
-            <script id="committee-member" type="text/x-handlebars-template">
-              {{#each committee}}
-                <li class="list-group-item listItems col-sm-4 wrapWell">
-                  <h4 class="list-group-item-heading tableItemTitle">
-                    {{name}}
-                  </h4>
-                  <p class="list-group-item-text listText">
-                    {{affiliation}}
-                  </p>
-                </li>
-              {{/each}}
-            </script>
-
-          </ul>
-        </section>
-      </div>
+      <h3 class="pageSubtitle text-center">
+        General Co-Chairs
+      </h3>
 
       <div class="row">
-        <div class="col-sm-12 text-center">
-          <h3 class="pageSubtitle">
-            General Co-Chairs
-          </h3>
-        </div>
-      </div>
-
-      <div class="row">
-        <aside class="col-sm-4 col-sm-offset-2 text-center">
+        <aside class="col-12 col-md-6 text-center mt-3 mb-2">
           <h4 class="tableItemTitle">
             Important Professor #1
           </h4>
@@ -246,7 +230,7 @@
             China
           </p>
         </aside>
-        <aside class="col-sm-4 text-center">
+        <aside class="col-12 col-md-6 text-center mt-3 mb-2">
           <h4 class="tableItemTitle">
             World-Famous Researcher
           </h4>
@@ -258,7 +242,7 @@
       </div>
 
       <div class="row">
-        <div class="col-sm-12 text-center">
+        <div class="col-12 text-center mb-5">
           <a href="mailto:doNotEmailMe@fakeDomain.com">
             <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
           </a>&nbsp;
@@ -266,16 +250,12 @@
         </div>
       </div>
 
-      <div class="row">
-        <aside class="col-sm-12 text-center">
-          <h3 class="pageSubtitle">
-            Program Co-Chairs
-          </h3>
-        </aside>
-      </div>
+      <h3 class="pageSubtitle text-center">
+        Program Co-Chairs
+      </h3>
 
       <div class="row">
-        <aside class="col-sm-4 col-sm-offset-2 text-center">
+        <aside class="col-12 col-md-6 text-center mt-3 mb-2">
           <h4 class="tableItemTitle">
             SmartGuy McWriter
           </h4>
@@ -284,7 +264,7 @@
             Romania
           </p>
         </aside>
-        <aside class="col-sm-4 text-center">
+        <aside class="col-12 col-md-6 text-center mt-3 mb-2">
           <h4 class="tableItemTitle">
             Ellis Papers
           </h4>
@@ -296,7 +276,7 @@
       </div>
 
       <div class="row">
-        <div class="col-sm-12 text-center">
+        <div class="col-12 text-center">
           <a href="mailto:reallyDoNotEmailMe@fakeDomain.com">
             <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
           </a>&nbsp;
