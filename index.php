@@ -13,7 +13,7 @@
     <!-- NOTE: below is placeholder content. please replace contents with your own
          content when ready. this content serves to give you an idea of what the
          structure of this page has looked like in the past -->
-    <p>
+    <!-- <p>
       Iceland sriracha YOLO schlitz. Wolf literally cray stumptown,
       edison bulb lomo mixtape selfies vexillologist. Meggings offal
       hell of cloud bread DIY godard. Woke paleo health goth
@@ -58,9 +58,9 @@
       subway tile keffiyeh meh listicle palo santo aesthetic
       polaroid. Vegan jean shorts sustainable stumptown hammock woke
       fashion axe meh. Pork belly shaman sartorial pok pok.
-    </p>
-    <div class="row">
-      <article class="col-sm-12 sectionSpacing">
+    </p> -->
+    <div class="row my-3">
+      <article class="col-12">
         <p>
           <span class="long_conf"><?php echo $META['name'];?></span> will take place in
           <span class="conf_location"><?php echo $META['city'] . ', ' . $META['country'];?></span>
@@ -73,174 +73,110 @@
       </article>
     </div>
 
-    <div class="row">
-      <section class="col-sm-6">
-        <div class="card">
-          <div class="card-header">
+    <section class="row my-3">
+      <div class="col-md-6">
+        <article class="customCard">
+          <div class="customCardHeader">
             <h3>
               Example Dates
             </h3>
           </div>
-          <div class="card-body">
-            <div class="row">
-              <div class="col-5">
-                <p class="dateTitle">
-                  Feb 13 2050
-                </p>
-              </div>
-              <div class="col-7">
-                <div class="countdown">
-                  <p class="dateText">
-                    Submission deadline at 04:00:00 UTC
-                  </p>
-                </div>
-              </div>
-            </div>
-            <hr />
-            <div class="row">
-              <div class="col-5">
-                <p class="dateTitle">
-                  March 30 2050
-                </p>
-              </div>
-              <div class="col-7">
-                <div class="countdown">
-                  <p class="dateText">
-                    First round notification
-                  </p>
-                </div>
-              </div>
-            </div>
-            <hr />
-            <div class="row">
-              <div class="col-5">
-                <p class="dateTitle">
-                  April 5 2050
-                </p>
-              </div>
-              <div class="col-7">
-                <div class="countdown">
-                  <p class="dateText">
-                    Rebuttals due by 11:45:00 UTC
-                  </p>
-                </div>
-              </div>
-            </div>
-            <hr />
-            <div class="row">
-              <div class="col-5">
-                <p class="dateTitle">
-                  April 22 2050
-                </p>
-              </div>
-              <div class="col-7">
-                <div class="countdown">
-                  <p class="dateText">
-                    Final notification
-                  </p>
-                </div>
-              </div>
-            </div>
-            <hr />
-            <div class="row">
-              <div class="col-5">
-                <p class="dateTitle">
-                  July 5 2050
-                </p>
-              </div>
-              <div class="col-7">
-                <div class="countdown">
-                  <p class="dateText">
-                    Camera-ready version
-                  </p>
-                </div>
-              </div>
-            </div>
-            <hr />
-            <div class="row">
-              <div class="col-5">
-                <p class="dateTitle">
-                  Sept 1 2050
-                </p>
-              </div>
-              <div class="col-7">
-                <div class="countdown">
-                  <p class="dateText">
-                    Conference
-                  </p>
-                </div>
-              </div>
-            </div>
+          <div class="customCardRow row">
+            <p class="dateTitle col-5 col-md-4">
+              Feb 13 2050
+            </p>
+            <p class="col-7 col-md-8">
+              Submission deadline at 04:00:00 UTC
+            </p>
           </div>
-          <div class="panel-footer">
+          <div class="customCardRow row">
+            <p class="dateTitle col-5 col-md-4">
+              March 30 2050
+            </p>
+            <p class="col-7 col-md-8">
+              First round notification
+            </p>
+          </div>
+          <div class="customCardRow row">
+            <p class="dateTitle col-5 col-md-4">
+              April 5 2050
+            </p>
+            <p class="col-7 col-md-8">
+              Rebuttals due by 11:45:00 UTC
+            </p>
+          </div>
+          <div class="customCardRow row">
+            <p class="dateTitle col-5 col-md-4">
+              April 22 2050
+            </p>
+            <p class="col-7 col-md-8">
+              Final notification
+            </p>
+          </div>
+          <div class="customCardRow row">
+            <p class="dateTitle col-5 col-md-4">
+              July 5 2050
+            </p>
+            <p class="col-7 col-md-8">
+              Camera-ready version
+            </p>
+          </div>
+          <div class="customCardRow row">
+            <p class="dateTitle col-5 col-md-4">
+              Sept 1 2050
+            </p>
+            <p class="col-7 col-md-8">
+              Conference begins
+            </p>
+          </div>
+          <div class="customCardFooter">
             <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span> To convert UTC to your local time zone, <a href="https://www.timeanddate.com/time/zone/timezone/utc">click here</a>.
           </div>
-        </div>
-      </section>
-      <section class="col-sm-6">
-        <div class="panel panel-success">
-          <div class="panel-heading">
-            <h3 class="panel-title">
+        </article>
+      </div>
+
+      <div class="col-md-6">
+        <article class="customCard">
+          <div class="customCardHeader">
+            <h3>
               Website Updates
             </h3>
           </div>
-          <div class="panel-body">
-            <!-- NOTE: add new website updates below this (see installation.md for more information) -->
-            <div class="row">
-              <div class="col-4">
-                <p class="dateTitle">
-                  April 20 2017
-                </p>
-              </div>
-              <div class="col-8">
-                <p class="dateText">
-                  Web developer added a cool new feature to the site
-                </p>
-              </div>
-            </div>
-            <hr />
-            <div class="row">
-              <div class="col-4">
-                <p class="dateTitle">
-                  April 18 2017
-                </p>
-              </div>
-              <div class="col-8">
-                <p class="dateText">
-                  Updates for demo of this site
-                </p>
-              </div>
-            </div>
-            <hr />
-            <div class="row">
-              <div class="col-4">
-                <p class="dateTitle">
-                  March 28 2017
-                </p>
-              </div>
-              <div class="col-8">
-                <p class="dateText">
-                  <a href="./callforpapers.html">Call for papers</a> page updated
-                </p>
-              </div>
-            </div>
-            <hr />
-            <div class="row">
-              <div class="col-4">
-                <p class="dateTitle">
-                  March 20 2017
-                </p>
-              </div>
-              <div class="col-8">
-                <p class="dateText">
-                  Website launched
-                </p>
-              </div>
-            </div>
+          <div class="customCardRow row">
+            <p class="dateTitle col-5 col-md-4">
+              April 20 2017
+            </p>
+            <p class="col-7 col-md-8">
+              Web developer added a cool new feature to the site
+            </p>
           </div>
-        </div>
-      </section>
-    </div>
+          <div class="customCardRow row">
+            <p class="dateTitle col-5 col-md-4">
+              April 18 2017
+            </p>
+            <p class="col-7 col-md-8">
+              Updates for demo of this site
+            </p>
+          </div>
+          <div class="customCardRow row">
+            <p class="dateTitle col-5 col-md-4">
+              March 28 2017
+            </p>
+            <p class="col-7 col-md-8">
+              <a href="./callforpapers.html">Call for papers</a> page updated
+            </p>
+          </div>
+          <div class="customCardRow row">
+            <p class="dateTitle col-5 col-md-4">
+              March 20 2017
+            </p>
+            <p class="col-7 col-md-8">
+              Website launched
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
 
     <div class="row">
       <section class="col-sm-12">

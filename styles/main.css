@@ -91,20 +91,43 @@ a.dropdown-item {
   font-weight: bold;
 }
 
-.sectionSpacing {
-  margin-bottom: 20px;
+/* relates to cards (NOTE: this is likely to be moved into themes but for now it's here) */
+.customCard {
+  border: 1px solid rgba(203, 131, 30, 0.3);
+  padding: 0;
+}
+
+.customCardHeader {
+  background-color: rgba(203, 131, 30, 0.4);
+  color: #1F2161;
+  padding: 1rem;
+}
+
+.customCardHeader h3 {
+  margin: 0;
+}
+
+.customCardRow {
+  padding: 1rem 1rem 1.2rem 1rem;
+}
+
+.customCardRow p {
+  text-align: left;
+  margin-bottom: 0;
 }
 
 .dateTitle {
   color: #CB831E;
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: bold;
-  text-align: left;
 }
 
-.dateText {
-  text-align: left;
+.customCardFooter {
+  padding: 0.5rem 1rem;
+  text-align: center;
+  background-color: rgba(203, 131, 30, 0.1);
 }
+/* END styles related to cards */
 
 .footer {
   margin-top: 30px;
