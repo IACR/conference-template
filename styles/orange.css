@@ -8,17 +8,15 @@ body, .listItems {
 }
 
 
-/***** Nav (in /fragments/nav.html) *****/
+
+/***** Nav (in /includes/nav.php) *****/
 nav#mainmenu {
   background-color: #FEFDFB;
 }
 
 
-/***** Header (found in ./index.html) *****/
-.navHeader {
-  color: #CB831E;
-}
 
+/***** Header (in /includes/nav.php) *****/
 .headerGradient {
   background: rgba(204, 132, 30, 0.6);
   background: -webkit-linear-gradient(rgba(204, 132, 30, 0.6), rgba(254, 253, 251, 1));
@@ -40,7 +38,26 @@ nav#mainmenu {
 }
 
 
+
 /***** Main Content: general styling *****/
 .indPageTitle {
   color: #0F773C;
+}
+
+.customCard {
+  border: 1px solid rgba(203, 131, 30, 0.3);
+}
+
+.customCardHeader {
+  background-color: rgba(203, 131, 30, 0.4);
+  color: #1F2161;
+}
+
+.dateTitle {
+  color: #CB831E;
+}
+
+.customCardFooter {
+  /* NOTE: typically this is a more transparent version of the card header bg color */
+  background-color: rgba(203, 131, 30, 0.1);
 }

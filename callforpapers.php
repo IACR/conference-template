@@ -32,109 +32,64 @@
             This is not a real conference; it is a demo of what this site might look like. Parts of it are derived from past conferences that IACR has hosted, such as the program and program committee.
           </p>
         </section>
-        <section class="col-md-6">
-          <div class="panel panel-success">
-            <div class="panel-heading">
-              <h3 class="panel-title">
-                Example Dates
-              </h3>
+        <div class="col-md-6">
+          <article class="customCard">
+            <h4 class="customCardHeader">
+              Example Dates
+            </h4>
+            <div class="customCardRow row">
+              <h6 class="dateTitle col-5 col-md-4">
+                Feb 13 2050
+              </h6>
+              <p class="col-7 col-md-8">
+                Submission deadline at 04:00:00 UTC
+              </p>
             </div>
-            <div class="panel-body">
-              <div class="row">
-                <div class="col-5">
-                  <p class="dateTitle">
-                    Feb 13 2050
-                  </p>
-                </div>
-                <div class="col-7">
-                  <div class="countdown">
-                    <p class="dateText">
-                      Submission deadline at 04:00:00 UTC
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <hr />
-              <div class="row">
-                <div class="col-5">
-                  <p class="dateTitle">
-                    March 30 2050
-                  </p>
-                </div>
-                <div class="col-7">
-                  <div class="countdown">
-                    <p class="dateText">
-                      First round notification
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <hr />
-              <div class="row">
-                <div class="col-5">
-                  <p class="dateTitle">
-                    April 5 2050
-                  </p>
-                </div>
-                <div class="col-7">
-                  <div class="countdown">
-                    <p class="dateText">
-                      Rebuttals due by 11:45:00 UTC
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <hr />
-              <div class="row">
-                <div class="col-5">
-                  <p class="dateTitle">
-                    April 22 2050
-                  </p>
-                </div>
-                <div class="col-7">
-                  <div class="countdown">
-                    <p class="dateText">
-                      Final notification
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <hr />
-              <div class="row">
-                <div class="col-5">
-                  <p class="dateTitle">
-                    July 5 2050
-                  </p>
-                </div>
-                <div class="col-7">
-                  <div class="countdown">
-                    <p class="dateText">
-                      Camera-ready version
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <hr />
-              <div class="row">
-                <div class="col-5">
-                  <p class="dateTitle">
-                    Sept 1 2050
-                  </p>
-                </div>
-                <div class="col-7">
-                  <div class="countdown">
-                    <p class="dateText">
-                      Conference
-                    </p>
-                  </div>
-                </div>
-              </div>
+            <div class="customCardRow row">
+              <h6 class="dateTitle col-5 col-md-4">
+                March 30 2050
+              </h6>
+              <p class="col-7 col-md-8">
+                First round notification
+              </p>
             </div>
-            <div class="panel-footer">
+            <div class="customCardRow row">
+              <h6 class="dateTitle col-5 col-md-4">
+                April 5 2050
+              </h6>
+              <p class="col-7 col-md-8">
+                Rebuttals due by 11:45:00 UTC
+              </p>
+            </div>
+            <div class="customCardRow row">
+              <h6 class="dateTitle col-5 col-md-4">
+                April 22 2050
+              </h6>
+              <p class="col-7 col-md-8">
+                Final notification
+              </p>
+            </div>
+            <div class="customCardRow row">
+              <h6 class="dateTitle col-5 col-md-4">
+                July 5 2050
+              </h6>
+              <p class="col-7 col-md-8">
+                Camera-ready version
+              </p>
+            </div>
+            <div class="customCardRow row">
+              <h6 class="dateTitle col-5 col-md-4">
+                Sept 1 2050
+              </h6>
+              <p class="col-7 col-md-8">
+                Conference begins
+              </p>
+            </div>
+            <div class="customCardFooter">
               <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span> To convert UTC to your local time zone, <a href="https://www.timeanddate.com/time/zone/timezone/utc">click here</a>.
             </div>
-          </div>
-        </section>
+          </article>
+        </div>
       </div>
 
       <!-- NOTE: the information below used for the purposes of demoing this page is from Asiacrypt 2017  -->

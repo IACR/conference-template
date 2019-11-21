@@ -6,17 +6,13 @@ body, .listItems {
 }
 
 
-/***** Nav (in /fragments/nav.html) *****/
+/***** Nav (in /includes/nav.php) *****/
 nav#mainmenu {
   background-color: #EDFDF4;
 }
 
 
-/***** Header (found in ./index.html) *****/
-.navHeader {
-  color: #0F773C;
-}
-
+/***** Header (in /includes/nav.php) *****/
 .headerGradient {
   background: rgba(15, 118, 59, 0.6);
   background: -webkit-linear-gradient(rgba(15, 118, 59, 0.6), rgba(237, 253, 244, 1));
@@ -42,5 +38,3 @@ nav#mainmenu {
 .indPageTitle {
   color: #2E3192;
 }
-
-

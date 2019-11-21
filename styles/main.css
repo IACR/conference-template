@@ -22,7 +22,7 @@ a:hover {
 
 
 
-/***** Nav (in /imcludes/header.html) *****/
+/***** Nav (in /includes/nav.php) *****/
 #main-nav-row {
   background-color: #102A83;
 }
@@ -43,7 +43,7 @@ a.dropdown-item {
 
 
 
-/***** Header (found in ./index.html) *****/
+/***** Header (in /includes/nav.php) *****/
 .headerImg {
   background-size: cover;
   background-image: url("../images/defaultbg2_crop.jpg");
@@ -91,20 +91,37 @@ a.dropdown-item {
   font-weight: bold;
 }
 
-.sectionSpacing {
-  margin-bottom: 20px;
+/* relates to cards (NOTE: color info for cards in theme stylesheets) */
+.customCard {
+  padding: 0;
+  margin-bottom: 1rem;
+}
+
+.customCardHeader {
+  padding: 1rem;
+  font-weight: normal;
+}
+
+.customCardRow {
+  padding: 1rem 1rem 1.2rem 1rem;
+}
+
+.customCardRow p {
+  text-align: left;
+  margin-bottom: 0;
 }
 
 .dateTitle {
-  color: #CB831E;
   font-family: 'Roboto Condensed', sans-serif;
-  font-weight: bold;
-  text-align: left;
+  margin-top: 0.1rem;
+  font-size: 1.15rem;
 }
 
-.dateText {
-  text-align: left;
+.customCardFooter {
+  padding: 0.5rem 1rem;
+  text-align: center;
 }
+/* END styles related to cards */
 
 .footer {
   margin-top: 30px;
