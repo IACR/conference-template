@@ -160,7 +160,7 @@
         <script id="committee-member" type="text/x-handlebars-template">
           {{#each committee}}
             <article class="col-12 col-sm-6 col-md-4 col-xl-3 my-2">
-              <h4 class="tableItemTitle">
+              <h4 class="subSubtitle">
                 {{name}}
               </h4>
               <p class="text-left">
@@ -177,7 +177,7 @@
 
       <div class="row">
         <aside class="col-12 col-md-6 text-center mt-3 mb-2">
-          <h4 class="tableItemTitle">
+          <h4 class="subSubtitle">
             Important Professor #1
           </h4>
           <p class="text-center">
@@ -186,7 +186,7 @@
           </p>
         </aside>
         <aside class="col-12 col-md-6 text-center mt-3 mb-2">
-          <h4 class="tableItemTitle">
+          <h4 class="subSubtitle">
             World-Famous Researcher
           </h4>
           <p class="text-center">
@@ -211,7 +211,7 @@
 
       <div class="row">
         <aside class="col-12 col-md-6 text-center mt-3 mb-2">
-          <h4 class="tableItemTitle">
+          <h4 class="subSubtitle">
             SmartGuy McWriter
           </h4>
           <p class="text-center">
@@ -220,7 +220,7 @@
           </p>
         </aside>
         <aside class="col-12 col-md-6 text-center mt-3 mb-2">
-          <h4 class="tableItemTitle">
+          <h4 class="subSubtitle">
             Ellis Papers
           </h4>
           <p class="text-center">
