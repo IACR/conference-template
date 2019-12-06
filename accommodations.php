@@ -72,7 +72,7 @@
           </h3>
           <div class="row">
             <div class="col-md-4 d-flex flex-column">
-              <h4 class="subSubtitle">
+              <h4 class="subSubtitle text-center">
                 Example Hotel #1
               </h4>
               <address>
@@ -93,7 +93,7 @@
               </a>
             </div>
             <div class="col-md-4 d-flex flex-column">
-              <h4 class="subSubtitle">
+              <h4 class="subSubtitle text-center">
                 Example Hotel #2
               </h4>
               <address>
@@ -117,7 +117,7 @@
               </a>
             </div>
             <div class="col-md-4 d-flex flex-column">
-              <h4 class="subSubtitle">
+              <h4 class="subSubtitle text-center">
                 Example Hotel #3
               </h4>
               <address>
