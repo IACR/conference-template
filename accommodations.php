@@ -71,7 +71,7 @@
             Example Hotels
           </h3>
           <div class="row">
-            <div class="col-md-4 d-flex flex-column">
+            <div class="col-md-4 d-flex flex-column mb-4">
               <h4 class="subSubtitle text-center">
                 Example Hotel #1
               </h4>
@@ -88,11 +88,11 @@
               <p>
                 A very nice hotel, you'll be comfortable here with daily towel service and a large pool. Be sure to check out the walled garden or enjoy a cup of elevenses at the cafe next to the lobby. Lots of amenities.
               </p>
-              <a href="http://kaymckelly.com" class="btn btn-warning btn-md btn-block mb-4 mt-auto" role="button">
+              <a href="http://kaymckelly.com" class="btn btn-warning btn-md btn-block mt-auto" role="button">
                 Stay at Example Hotel #1
               </a>
             </div>
-            <div class="col-md-4 d-flex flex-column">
+            <div class="col-md-4 d-flex flex-column mb-4">
               <h4 class="subSubtitle text-center">
                 Example Hotel #2
               </h4>
@@ -112,11 +112,11 @@
               <p>
                 Group Rate available until the end of August.
               </p>
-              <a href="http://kaymckelly.com" class="btn btn-warning btn-md btn-block mb-4 mt-auto" role="button">
+              <a href="http://kaymckelly.com" class="btn btn-warning btn-md btn-block mt-auto" role="button">
                 Stay at Example Hotel #2
               </a>
             </div>
-            <div class="col-md-4 d-flex flex-column">
+            <div class="col-md-4 d-flex flex-column mb-4">
               <h4 class="subSubtitle text-center">
                 Example Hotel #3
               </h4>
@@ -133,7 +133,7 @@
               <p>
                 Business travelers and well-heeled folks stay here regularly, so you'll be among friends. With a huge conference center, free wifi, access to printers and teleconference facilities, you don't have to stop working just because you're not at home. Free espressos too!
               </p>
-              <a href="http://kaymckelly.com" class="btn btn-warning btn-md btn-block mb-4 mt-auto" role="button">
+              <a href="http://kaymckelly.com" class="btn btn-warning btn-md btn-block mt-auto" role="button">
                 Stay at Example Hotel #3
               </a>
             </div>
