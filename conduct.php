@@ -46,7 +46,7 @@
 
       <div class="row">
         <aside class="col-sm-4">
-          <h4 class="tableItemTitle">
+          <h4 class="subSubtitle">
             Code-of-Conduct Liaison
           </h4>
           <p class="text-left">
@@ -55,7 +55,7 @@
         </aside>
 
         <aside class="col-sm-4">
-          <h4 class="tableItemTitle">
+          <h4 class="subSubtitle">
             Ethics Committee
           </h4>
           <p class="text-left">
@@ -64,7 +64,7 @@
         </aside>
 
         <aside class="col-sm-4">
-          <h4 class="tableItemTitle">
+          <h4 class="subSubtitle">
             IACR President
           </h4>
           <p class="text-left">
