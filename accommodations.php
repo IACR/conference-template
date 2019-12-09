@@ -48,7 +48,7 @@
         </section>
         <aside class="col-md-6 testing">
           <p>
-            <img src="/images/icons/exclamation.svg" class="icon" /> Room blocks may be released as early as two months prior to the conference.
+            <img src="images/icons/exclamation.svg" class="icon" /> Room blocks may be released as early as two months prior to the conference.
           </p>
         </aside>
         <section class="col-md-6">
@@ -58,7 +58,7 @@
         </section>
         <aside class="col-md-6">
           <p>
-            <img src="/images/icons/exclamation.svg" class="icon" /> You must mention <span class="conf_name"></span> when you are making your reservations so you will be eligible for any special rates that may be available.
+            <img src="images/icons/exclamation.svg" class="icon" /> You must mention <span class="conf_name"></span> when you are making your reservations so you will be eligible for any special rates that may be available.
           </p>
         </aside>
       </div>
@@ -74,9 +74,9 @@
                 Example Hotel #1
               </h4>
               <address>
-                <img src="/images/icons/location.svg" class="icon mr-1" /> 1234 Internet Street<br />
+                <img src="images/icons/location.svg" class="icon mr-1" /> 1234 Internet Street<br />
                 &emsp;&emsp;Ipswich, Australia<br /><br />
-                <img src="/images/icons/phone.svg" class="icon mr-1" /> 123.456.7890
+                <img src="images/icons/phone.svg" class="icon mr-1" /> 123.456.7890
               </address>
               <p>
                 Rates: $100 single/double (Sunday - Thursday). Please note that Friday &amp; Saturday rates may differ.
@@ -93,9 +93,9 @@
                 Example Hotel #2
               </h4>
               <address>
-                <img src="/images/icons/location.svg" class="icon mr-1" /> 5678 IP Drive<br />
+                <img src="images/icons/location.svg" class="icon mr-1" /> 5678 IP Drive<br />
                 &emsp;&emsp;Ipswich, Australia<br /><br />
-                <img src="/images/icons/phone.svg" class="icon mr-1" /> 123.456.7890
+                <img src="images/icons/phone.svg" class="icon mr-1" /> 123.456.7890
               </address>
               <p>
                 Rates: $150 single/double (Sunday - Thursday). Please note that Friday &amp; Saturday rates may differ.
@@ -115,9 +115,9 @@
                 Example Hotel #3
               </h4>
               <address>
-                <img src="/images/icons/location.svg" class="icon mr-1" /> 123 Encryption Avenue<br />
+                <img src="images/icons/location.svg" class="icon mr-1" /> 123 Encryption Avenue<br />
                 &emsp;&emsp;Ipswich, Australia<br /><br />
-                <img src="/images/icons/phone.svg" class="icon mr-1" /> 123.456.7890
+                <img src="images/icons/phone.svg" class="icon mr-1" /> 123.456.7890
               </address>
               <p>
                 Rates: $200 single/double (Sunday - Thursday). Please note that Friday &amp; Saturday rates may differ.

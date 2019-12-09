@@ -86,7 +86,7 @@
               </p>
             </div>
             <div class="customCardFooter">
-              <img src="/images/icons/exclamation.svg" class="icon" /> To convert UTC to your local time zone, <a href="https://www.timeanddate.com/time/zone/timezone/utc">click here</a>.
+              <img src="images/icons/exclamation.svg" class="icon" /> To convert UTC to your local time zone, <a href="https://www.timeanddate.com/time/zone/timezone/utc">click here</a>.
             </div>
           </article>
         </div>
@@ -111,7 +111,7 @@
             Submissions must be submitted electronically in PDF format. A detailed description of the electronic submission procedure and a submission link will be available on the <span class="conf_name"></span> website at a later date.
           </p>
           <p class="alert alert-success">
-            <img src="/images/icons/exclamation.svg" class="icon" /> Submissions not meeting these guidelines risk rejection without consideration of their merits.
+            <img src="images/icons/exclamation.svg" class="icon" /> Submissions not meeting these guidelines risk rejection without consideration of their merits.
           </p>
           <p>
             For papers that are accepted, the length of the proceedings version will be at most 30 pages using Springer’s standard fonts, font sizes, and margins. The proceedings will be published by Springer-Verlag in the Lecture Notes in Computer Science series and will be available at the conference. Authors of accepted papers must complete the <a href="http://kaymckelly.com">IACR copyright assignment form</a> for their work to be published in the proceedings. Moreover, authors of accepted papers must guarantee that their paper will be presented at the conference and agree that the presentations will be video recorded during the event. The camera-ready version of the accepted articles will be automatically uploaded to the <a href="http://kaymckelly.com">IACR ePrint server</a>.
@@ -198,7 +198,7 @@
       <div class="row">
         <div class="col-12 text-center mb-5">
           <a href="mailto:doNotEmailMe@fakeDomain.com">
-            <img src="/images/icons/email.svg" class="icon" />
+            <img src="images/icons/email.svg" class="icon" />
           </a>&nbsp;
           doNotEmailMe@fakeDomain.com
         </div>
@@ -232,7 +232,7 @@
       <div class="row">
         <div class="col-12 text-center">
           <a href="mailto:reallyDoNotEmailMe@fakeDomain.com">
-            <img src="/images/icons/email.svg" class="icon" />
+            <img src="images/icons/email.svg" class="icon" />
           </a>&nbsp;
           reallyDoNotEmailMe@fakeDomain.com
         </div>
