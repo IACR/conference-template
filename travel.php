@@ -67,7 +67,7 @@
         </section>
         <div class="col-sm-4">
 	  <div class="alert alert-success" role="alert">
-            <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>&ensp;
+            <img src="images/icons/exclamation.svg" class="icon" />&ensp;
             Bring a sweater and/or jacket. <?php echo $META['city'];?>
 	    can be cold at night. (This is crucial for the beach party!)
 	  </div>
