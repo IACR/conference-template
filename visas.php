@@ -39,8 +39,7 @@
             Lorem ipsum dolor sit amet, vis ut quem appellantur. Id eos hinc wisi, an prima solet essent eam. Ei qui sonet putant, case probo suscipit pri id. An est vocibus accusam accusata, ius delectus expetendis ne.
           </p>
           <p>
-            <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>&ensp;
-            Illegitimi non carborundum.
+            <img src="/images/icons/exclamation.svg" class="icon" /> Illegitimi non carborundum.
           </p>
         </section>
       </div>
