@@ -20,6 +20,12 @@ a:hover {
   text-decoration: none;
 }
 
+.icon {
+  width: 1.3em;
+  height: 1.3em;
+  filter: invert(16%) sepia(91%) saturate(6408%) hue-rotate(156deg) brightness(92%) contrast(88%);
+}
+
 
 
 /***** Nav (in /includes/nav.php) *****/

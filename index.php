@@ -80,7 +80,7 @@
             </p>
           </div>
           <div class="customCardFooter">
-            <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span> To convert UTC to your local time zone, <a href="https://www.timeanddate.com/time/zone/timezone/utc">click here</a>.
+            <img src="images/icons/exclamation.svg" class="icon" /> To convert UTC to your local time zone, <a href="https://www.timeanddate.com/time/zone/timezone/utc">click here</a>.
           </div>
         </article>
       </div>
