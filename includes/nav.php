@@ -62,7 +62,7 @@
                 <a class="dropdown-item" href="registration.html">Registration</a>
                 <a class="dropdown-item" href="stipends.html">Student stipends</a>
                 <!-- BUG: this page doesn't currently exist in our example -->
-                <a class="dropdown-item" href="travel.html">Venue and Travel</a>
+                <a class="dropdown-item" href="travel.html">Venue and travel</a>
                 <a class="dropdown-item" href="accommodations.html">Accommodations</a>
                 <a class="dropdown-item" href="visas.html">Visas</a>
                 <a class="dropdown-item" href="conduct.html">Code of conduct</a>

@@ -1,4 +1,5 @@
 {
+  "_source": "https://www.iacr.org/cryptodb/pc"
   "id": 5092,
   "name": "40th Annual International Cryptology Conference",
   "shortName": "Crypto 2020",
@@ -6,12 +7,14 @@
   "location": "Santa Barbara, CA, USA",
   "startdate": "2020-08-16",
   "enddate": "2020-08-20",
-  "submitdate": "2020-02-11",
   "city": "Santa Barbara, CA",
   "country": "USA",
-  "notificationdate": "2020-05-08",
+  "submitdate": "2020-02-11",
+  "firstRound": "2020-04-02",
+  "rebuttalDue": "2020-04-21 11:45:00",
+  "finalNotification": "2020-04-26",
+  "cameraReady": "2022-07-05",
   "latitude": -119.84698971268,
   "longitude": 34.411605668706,
   "_comment": "Be careful editing this file. It must be valid JSON.",
-  "_source": "https://www.iacr.org/cryptodb/pc"
 }
