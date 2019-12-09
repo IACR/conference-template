@@ -1,5 +1,5 @@
 {
-  "_source": "https://www.iacr.org/cryptodb/pc"
+  "_source": "https://www.iacr.org/cryptodb/pc",
   "id": 5092,
   "name": "40th Annual International Cryptology Conference",
   "shortName": "Crypto 2020",
@@ -16,5 +16,5 @@
   "cameraReady": "2022-07-05",
   "latitude": -119.84698971268,
   "longitude": 34.411605668706,
-  "_comment": "Be careful editing this file. It must be valid JSON.",
+  "_comment": "Be careful editing this file. It must be valid JSON."
 }
