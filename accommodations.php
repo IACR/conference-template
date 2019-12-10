@@ -8,7 +8,7 @@
   <body>
     <?php require "includes/nav.php"; ?>
 
-    <main class="container mt-5">
+    <main class="container mt-4">
 
       <div class="row">
         <div class="col-sm-12">
@@ -26,7 +26,7 @@
       </div>
 
       <!-- NOTE: below is placeholder content derived from the Crypto 2016 conference. remove and replace with your own content when ready. this code is here to give you an idea of what the structure of this page has looked like in the past -->
-      <div class="row">
+      <div class="row mt-4">
         <section class="col-md-6">
           <h3 class="pageSubtitle">On-Site Accommodations</h3>
           <p>
@@ -46,6 +46,9 @@
             For those who choose not to stay on-site, the following is a list of hotels that have provided room blocks for <span class="conf_name"></span>. Those who choose to stay off-site are responsible for making their own reservations. Early reservations are advised since September is a popular season in <span class="conf_location"></span>.
           </p>
         </section>
+      </div>
+
+      <div class="row mt-4">
         <aside class="col-md-6 testing">
           <p>
             <img src="images/icons/exclamation.svg" class="icon" /> Room blocks may be released as early as two months prior to the conference.
@@ -63,7 +66,7 @@
         </aside>
       </div>
 
-      <div class="row">
+      <div class="row mt-4">
         <section class="col-12">
           <h3 class="pageSubtitle">
             Example Hotels

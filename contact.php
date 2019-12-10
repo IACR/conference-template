@@ -27,16 +27,12 @@
         </div>
       </div> -->
 
-      <div class="row">
-        <div class="col-12 text-center">
-          <h3 class="pageSubtitle">
-            General Co-Chairs
-          </h3>
-        </div>
-      </div>
+      <h3 class="pageSubtitle text-center mt-4">
+        General Co-Chairs
+      </h3>
 
-      <div class="row">
-        <aside class="col-12 col-sm-6 text-center mt-3 mb-2">
+      <div class="row mt-3 mt-md-4">
+        <aside class="col-12 col-sm-6 text-center mb-2">
           <h4 class="subSubtitle">
             Important Professor #1
           </h4>
@@ -45,7 +41,7 @@
             China
           </p>
         </aside>
-        <aside class="col-12 col-sm-6 text-center mt-3 mb-2">
+        <aside class="col-12 col-sm-6 text-center mb-2">
           <h4 class="subSubtitle">
             World-Famous Researcher
           </h4>
@@ -65,16 +61,12 @@
         </div>
       </div>
 
-      <div class="row">
-        <div class="col-12 text-center">
-          <h3 class="pageSubtitle">
-            Program Co-Chairs
-          </h3>
-        </div>
-      </div>
+      <h3 class="pageSubtitle text-center mt-4">
+        Program Co-Chairs
+      </h3>
 
-      <div class="row">
-        <aside class="col-12 col-sm-6 text-center mt-3 mb-2">
+      <div class="row mt-3 mt-md-4">
+        <aside class="col-12 col-sm-6 text-center mb-2">
           <h4 class="subSubtitle">
             SmartGuy McWriter
           </h4>
@@ -83,7 +75,7 @@
             Romania
           </p>
         </aside>
-        <aside class="col-12 col-sm-6 text-center mt-3 mb-2">
+        <aside class="col-12 col-sm-6 text-center mb-2">
           <h4 class="subSubtitle">
             Ellis Papers
           </h4>
