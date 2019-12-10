@@ -40,40 +40,37 @@
           <ul class="navbar-nav flex-md-row w-100 text-md-center">
             <li class="nav-item flex-md-fill mt-3 mt-md-0">
               <!-- TODO: home icon? -->
-              <a class="nav-link" href="">Home</a>
+              <a class="nav-link" href="/">Home</a>
             </li>
             <li class="nav-item dropdown flex-md-fill">
               <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Technical Program</a>
               <div class="dropdown-menu">
-                <a class="dropdown-item" href="callforpapers.html">Call for papers</a>
-                <a class="dropdown-item" href="papersubmission.html">Paper submission</a>
-                <!-- BUG: this page doesn't currently exist in our example -->
-                <a class="dropdown-item" href="invitedtalks.html">Invited talks</a>
-                <a class="dropdown-item" href="acceptedpapers.html">Accepted papers</a>
-                <a class="dropdown-item" href="program.html">Main program</a>
-                <!-- BUG: this page doesn't currently exist in our example -->
-                <a class="dropdown-item" href="affiliatedevents.html">Affiliated events</a>
-                <a class="dropdown-item" href="rumpsession.html">Rump session</a>
+                <a class="dropdown-item" href="callforpapers.php">Call for papers</a>
+                <a class="dropdown-item" href="papersubmission.php">Paper submission</a>
+                <a class="dropdown-item" href="invitedtalks.php">Invited talks</a>
+                <a class="dropdown-item" href="acceptedpapers.php">Accepted papers</a>
+                <a class="dropdown-item" href="program.php">Main program</a>
+                <a class="dropdown-item" href="affiliated.php">Affiliated events</a>
+                <a class="dropdown-item" href="rumpsession.php">Rump session</a>
               </div>
             </li>
             <li class="nav-item dropdown flex-md-fill">
               <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Attend</a>
               <div class="dropdown-menu">
-                <a class="dropdown-item" href="registration.html">Registration</a>
-                <a class="dropdown-item" href="stipends.html">Student stipends</a>
-                <!-- BUG: this page doesn't currently exist in our example -->
-                <a class="dropdown-item" href="travel.html">Venue and travel</a>
-                <a class="dropdown-item" href="accommodations.html">Accommodations</a>
-                <a class="dropdown-item" href="visas.html">Visas</a>
-                <a class="dropdown-item" href="conduct.html">Code of conduct</a>
+                <a class="dropdown-item" href="registration.php">Registration</a>
+                <a class="dropdown-item" href="stipends.php">Student stipends</a>
+                <a class="dropdown-item" href="travel.php">Venue & travel</a>
+                <a class="dropdown-item" href="accommodations.php">Accommodations</a>
+                <a class="dropdown-item" href="visas.php">Visas</a>
+                <a class="dropdown-item" href="conduct.php">Code of conduct</a>
               </div>
             </li>
             <li class="nav-item flex-md-fill">
-              <a class="nav-link" href="sponsors.html">Sponsors</a>
+              <a class="nav-link" href="sponsors.php">Sponsors</a>
             </li>
             <!-- TODO: email icon? -->
             <li class="nav-item flex-md-fill">
-              <a class="nav-link" href="contact.html">Contact</a>
+              <a class="nav-link" href="contact.php">Contact</a>
             </li>
           </ul>
         </div>

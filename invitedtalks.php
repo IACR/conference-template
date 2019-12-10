@@ -9,11 +9,11 @@
     <?php require "includes/nav.php"; ?>
 
     <main class="container mt-4">
+      <h2 class="indPageTitle">
+        Invited Talks
+      </h2>
 
       <!-- NOTE: below is standard placeholder text for when the page is under construction. please delete this entire <div class="row"> when ready to add other content -->
-      <h2 class="indPageTitle">
-        New Page Title
-      </h2>
       <div class="row">
         <div class="col-sm-12">
           <p>

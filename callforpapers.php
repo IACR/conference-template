@@ -8,7 +8,7 @@
   <body>
     <?php require "includes/nav.php"; ?>
 
-    <main class="container mt-5">
+    <main class="container mt-4">
       <h2 class="indPageTitle">
         Call for Papers
       </h2>
@@ -22,11 +22,11 @@
         </div>
       </div> -->
 
-      <div class="row">
+      <div class="row mt-4">
         <section class="col-md-6">
           <h3 class="pageSubtitle">General Information</h3>
           <p>
-            <span class="conf_name"></span> will take place in <span class="conf_location"></span> on <span class="conf_dates"></span>. <span class="conf_name"></span> is organized by <a href="http://iacr.org/">the International Association for Cryptologic Research</a> (IACR). Original research papers on all technical aspects of cryptology are solicited for submission.
+            <span class="conf_name"><?php echo $META['shortName'];?></span> will take place in <span class="conf_location"><?php echo $META['location'];?></span> on <span class="conf_dates"><?php echo $META['dates'];?></span>. <span class="conf_name"><?php echo $META['shortName'];?></span> is organized by <a href="http://iacr.org/">the International Association for Cryptologic Research</a> (IACR). Original research papers on all technical aspects of cryptology are solicited for submission.
           </p>
           <p>
             This is not a real conference; it is a demo of what this site might look like. Parts of it are derived from past conferences that IACR has hosted, such as the program and program committee.
@@ -93,7 +93,7 @@
       </div>
 
       <!-- NOTE: the information below used for the purposes of demoing this page is from Asiacrypt 2017  -->
-      <div class="row">
+      <div class="row mt-4">
         <section class="col-12">
           <h3 class="pageSubtitle">
             Instructions for Authors
@@ -108,7 +108,7 @@
             Optionally, if an author desires, a clearly-marked auxiliary supporting material can be appended to the submission. The auxiliary supporting material has no prescribed form or page limit and might be used, for instance, to provide program code, additional experimental data, etc. Alternatively, the auxiliary supporting material can be submitted as a separate file from the submission. The reviewers are not required to read the auxiliary supporting material and submissions should be intelligible without it. The final published version of an accepted paper is expected to closely match the submitted 30 pages.
           </p>
           <p>
-            Submissions must be submitted electronically in PDF format. A detailed description of the electronic submission procedure and a submission link will be available on the <span class="conf_name"></span> website at a later date.
+            Submissions must be submitted electronically in PDF format. A detailed description of the electronic submission procedure and a submission link will be available on the <span class="conf_name"><?php echo $META['shortName'];?></span> website at a later date.
           </p>
           <p class="alert alert-success">
             <img src="images/icons/exclamation.svg" class="icon" /> Submissions not meeting these guidelines risk rejection without consideration of their merits.
@@ -128,13 +128,13 @@
         </section>
       </div>
 
-      <div class="row">
+      <div class="row mt-4">
         <section class="col-md-6">
           <h3 class="pageSubtitle">
             Schedule
           </h3>
           <p>
-            <span class="conf_name"></span> will operate a two-round review system with rebuttal phase. In the first round, the program committee selects the submissions which are considered of value for proceeding to the second round, and the authors receive the first round notification with review comments. The authors of the selected submissions are invited to submit a text-based rebuttal letter to the review comments.
+            <span class="conf_name"><?php echo $META['shortName'];?></span> will operate a two-round review system with rebuttal phase. In the first round, the program committee selects the submissions which are considered of value for proceeding to the second round, and the authors receive the first round notification with review comments. The authors of the selected submissions are invited to submit a text-based rebuttal letter to the review comments.
           </p>
           <p>
             In the second round the program committee further reviews the selected submissions by taking into account their rebuttal letter, and makes the final decision of acceptance or rejection. The submissions that have not been selected during the first round of reviews may be submitted in other conferences after the first round notification date. The dates for this schedule are listed above.
@@ -150,7 +150,7 @@
         </section>
       </div>
 
-      <h3 class="pageSubtitle">
+      <h3 class="pageSubtitle mt-4">
         Sample Program Committee
       </h3>
 
@@ -170,12 +170,12 @@
         </script>
       </div>
 
-      <h3 class="pageSubtitle text-center">
+      <h3 class="pageSubtitle text-center mt-4">
         General Co-Chairs
       </h3>
 
-      <div class="row">
-        <aside class="col-12 col-md-6 text-center mt-3 mb-2">
+      <div class="row mt-3 mt-md-4">
+        <aside class="col-12 col-md-6 text-center mb-2">
           <h4 class="subSubtitle">
             Important Professor #1
           </h4>
@@ -184,7 +184,7 @@
             China
           </p>
         </aside>
-        <aside class="col-12 col-md-6 text-center mt-3 mb-2">
+        <aside class="col-12 col-md-6 text-center mb-2">
           <h4 class="subSubtitle">
             World-Famous Researcher
           </h4>
@@ -204,12 +204,12 @@
         </div>
       </div>
 
-      <h3 class="pageSubtitle text-center">
+      <h3 class="pageSubtitle text-center mt-4">
         Program Co-Chairs
       </h3>
 
-      <div class="row">
-        <aside class="col-12 col-md-6 text-center mt-3 mb-2">
+      <div class="row mt-3 mt-md-4">
+        <aside class="col-12 col-md-6 text-center mb-2">
           <h4 class="subSubtitle">
             SmartGuy McWriter
           </h4>
@@ -218,7 +218,7 @@
             Romania
           </p>
         </aside>
-        <aside class="col-12 col-md-6 text-center mt-3 mb-2">
+        <aside class="col-12 col-md-6 text-center mb-2">
           <h4 class="subSubtitle">
             Ellis Papers
           </h4>

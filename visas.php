@@ -8,14 +8,10 @@
   <body>
     <?php require "includes/nav.php"; ?>
 
-    <main class="container mt-5">
-      <div class="row">
-        <div class="col-sm-12">
-          <h2 class="indPageTitle">
-            Visa Information
-          </h2>
-        </div>
-      </div>
+    <main class="container mt-4">
+      <h2 class="indPageTitle">
+        Visa Information
+      </h2>
 
       <!-- NOTE: below is standard placeholder text for when the page is under construction. please delete this entire <div class="row"> and all elements contained within it when ready to add other content -->
       <div class="row">
@@ -44,7 +40,7 @@
         </section>
       </div>
 
-      <div class="row">
+      <div class="row mt-4">
         <section class="col-sm-12">
           <h3 class="pageSubtitle">
             Invitation Letters
@@ -70,7 +66,7 @@
             </li>
           </ul>
           <p>
-            We hope that you will be able to attend <span class="conf_name"></span> and help us make the conference a great success.
+            We hope that you will be able to attend <span class="conf_name"><?php echo $META['shortName'];?></span> and help us make the conference a great success.
           </p>
         </section>
       </div>

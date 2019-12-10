@@ -25,7 +25,7 @@
       </article>
     </div>
 
-    <div class="row mb-4">
+    <div class="row mt-4">
       <div class="col-md-6">
         <article class="customCard">
           <h4 class="customCardHeader">
@@ -126,7 +126,7 @@
       </div>
     </div>
 
-    <h3 class="pageSubtitle">
+    <h3 class="pageSubtitle mt-4">
       Example Sponsors
     </h3>
     <a href="http://kaymckelly.com/">

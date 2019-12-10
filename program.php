@@ -8,14 +8,10 @@
   <body>
     <?php require "includes/nav.php"; ?>
 
-    <main class="container mt-5">
-      <div class="row">
-        <div class="col-sm-12">
-          <h2 class="indPageTitle">
-            Program
-          </h2>
-        </div>
-      </div>
+    <main class="container mt-4">
+      <h2 class="indPageTitle">
+        Program
+      </h2>
 
       <!-- NOTE: below is placeholder content derived from the Crypto 2016 conference. remove and replace with your own content when ready. this code is here to give you an idea of what the structure of this page has looked like in the past
            <div class="row">
@@ -32,7 +28,6 @@
 
           <!-- Handlebars script that will render the program template based on the program.json file -->
           <script id="program-template" type="text/x-handlebars-template">
-
             <div role="navigation">
               <ul class="nav nav-tabs nav-justified">
                 {{#each days}}

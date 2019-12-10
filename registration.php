@@ -8,14 +8,10 @@
   <body>
     <?php require "includes/nav.php"; ?>
 
-    <main class="container mt-5">
-      <div class="row">
-        <div class="col-12">
-          <h2 class="indPageTitle">
-            Registration
-          </h2>
-        </div>
-      </div>
+    <main class="container mt-4">
+      <h2 class="indPageTitle">
+        Registration
+      </h2>
 
       <!-- NOTE: below is standard placeholder text for when the page is under construction. please delete this entire <div class="row"> and all elements contained within it when ready to add other content -->
       <div class="row">
@@ -26,7 +22,7 @@
         </div>
       </div>
 
-      <div class="row">
+      <div class="row mt-3">
         <section class="col-12" id="regTable">
           <div class="row" id="regTopRow">
             <div class="col-6">
@@ -121,7 +117,7 @@
         </section>
       </div>
 
-      <div class="row">
+      <div class="row mt-4">
         <!-- NOTE: the following <br> and <section> tags are a separate under construction message for when you can release the above chart but have not yet added other information to this page. these should both be deleted upon adding additional content below to replace the boilerplate -->
         <!-- <br />
              <section class="col-sm-12">
@@ -137,13 +133,13 @@
             The conference registration fee includes participation in the technical program, all social functions as well as an electronic copy of the conference proceedings. Accompanying guests can also be registered for participation in the conference social functions. Guests who only want to attend one or two events can register onsite.
           </p>
           <p>
-            Two conferences are located in <span class="conf_location"></span> on <span class="conf_dates"></span>. If you are interested in attending both <span class="conf_name"></span> and CHES, there is a $50 joint registration discount ($25 off each conference) for regular registrations. Student joint registrations are discounted by $100 ($50 off each conference).
+            Two conferences are located in <span class="conf_location"><?php echo $META['location'];?></span> on <span class="conf_dates"><?php echo $META['dates'];?></span>. If you are interested in attending both <span class="conf_name"><?php echo $META['shortName'];?></span> and CHES, there is a $50 joint registration discount ($25 off each conference) for regular registrations. Student joint registrations are discounted by $100 ($50 off each conference).
           </p>
         </section>
         <section class="col-md-6">
           <h3 class="pageSubtitle">An Important Note for Students</h3>
           <p>
-            If you are a student presenting at <span class="conf_name"></span>, your registration fee will be covered by the IACR Fund for Student Presenters; you do not need to pay for registration. Please register for the conference but do not submit any payment. After registering, send an email to the <a href="mailto:doNotEmailMe@fakeDomain.com">General Chair</a>, explaining that you are a student presenter and have already registered. More information is available <a href="./stipends.html">here</a>.
+            If you are a student presenting at <span class="conf_name"><?php echo $META['shortName'];?></span>, your registration fee will be covered by the IACR Fund for Student Presenters; you do not need to pay for registration. Please register for the conference but do not submit any payment. After registering, send an email to the <a href="mailto:doNotEmailMe@fakeDomain.com">General Chair</a>, explaining that you are a student presenter and have already registered. More information is available <a href="./stipends.html">here</a>.
           </p>
         </section>
       </div>
@@ -152,13 +148,13 @@
       <div class="row">
         <aside class="col-sm-6 mx-auto text-center">
           <h5>
-            <b>Registration is not currently available. This button will become active when registration opens.</b>
+            <strong>Registration is not currently available. This button will become active when registration opens.</strong>
           </h5>
           <a href="https://secure.iacr.org/conferences/tcc2017b/register/" class="btn btn-lg btn-warning btn-block regBtn disabled" role="button">Register now!</a>
         </aside>
       </div>
 
-      <div class="row">
+      <div class="row mt-5">
         <section class="col-md-6">
           <h3 class="pageSubtitle">Additional Information</h3>
           <p>
@@ -185,7 +181,7 @@
         </section>
       </div>
 
-      <div class="row">
+      <div class="row mt-4">
         <section class="col-md-6">
           <h3 class="pageSubtitle">Refund Policy</h3>
           <p>

@@ -8,15 +8,10 @@
   <body>
     <?php require "includes/nav.php"; ?>
 
-    <main class="container mt-5">
-
-      <div class="row">
-        <div class="col-sm-12">
-          <h2 class="indPageTitle">
-            Paper Submission
-          </h2>
-        </div>
-      </div>
+    <main class="container mt-4">
+      <h2 class="indPageTitle">
+        Paper Submission
+      </h2>
 
       <!-- NOTE: below is standard placeholder text for when the page is under construction. please delete this entire <div class="row"> and all elements contained within it when ready to add other content -->
       <div class="row">
@@ -37,7 +32,7 @@
             Please see the <a href="./callforpapers.html">call for papers page</a> for more information while we work on getting the submission server up and running.
           </p>
           <p>
-            The submission deadline for <span class="conf_name"></span> has passed. The list of accepted papers is <a href="./acceptedpapers.html">now available</a>.
+            The submission deadline for <span class="conf_name"><?php echo $META['shortName'];?></span> has passed. The list of accepted papers is <a href="./acceptedpapers.html">now available</a>.
           </p>
         </section>
       </div> -->

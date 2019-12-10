@@ -8,15 +8,10 @@
   <body>
     <?php require "includes/nav.php"; ?>
 
-    <main class="container mt-5">
-
-      <div class="row">
-        <div class="col-sm-12">
-          <h2 class="indPageTitle">
-            Code of Conduct
-          </h2>
-        </div>
-      </div>
+    <main class="container mt-4">
+      <h2 class="indPageTitle">
+        Code of Conduct
+      </h2>
 
       <!-- NOTE: the following is required text for the code of conduct. Any text that looks like ***some sample text*** is text that MUST be changed by the general chair or whoever is responsible for the conference website -->
       <div class="row">
@@ -36,12 +31,12 @@
         </div>
       </div>
 
-      <div class="row">
-        <header class="col-sm-12">
+      <div class="row mt-4">
+        <div class="col-sm-12">
           <h3 class="pageSubtitle">
             Who to Contact
           </h3>
-        </header>
+        </div>
       </div>
 
       <div class="row">
