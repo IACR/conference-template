@@ -8,7 +8,7 @@
   <body>
     <?php require "includes/nav.php"; ?>
 
-    <main class="container mt-5">
+    <main class="container mt-4">
       <h2 class="indPageTitle">
         Paper Submission
       </h2>

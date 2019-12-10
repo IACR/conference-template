@@ -8,7 +8,7 @@
   <body>
     <?php require "includes/nav.php"; ?>
 
-    <main class="container mt-5">
+    <main class="container mt-4">
 
       <!-- NOTE: below is standard placeholder text for when the page is under construction. please delete this entire <div class="row"> when ready to add other content -->
       <h2 class="indPageTitle">
