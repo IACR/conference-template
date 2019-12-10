@@ -22,6 +22,8 @@
         </div>
       </div>
 
+      <!-- TODO: one section about process for submitting affiliated events, then another on the events themselves once they're approved. see crypto 2019 affiliated events -->
+
     </main>
 
   <?php include "includes/footer.php"; ?>
