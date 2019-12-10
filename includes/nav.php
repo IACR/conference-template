@@ -1,3 +1,20 @@
+<?php
+  function rootPath() {
+    // must declare $META as global variable, as it's created in head.php
+    // and doesn't work here unless defined within the function
+    global $META;
+
+    // NOTE: for debug purposes: if year is not an int, it'll fail to generate
+    // the correct paths in the nav. in metadata.json, you need to change year
+    // to an integer for production
+    if (is_int($META['year'])) {
+      return "/" . strval($META['year']) . "/";
+    } else {
+      return "/";
+    }
+  }
+?>
+
 <!-- BEGIN nav -->
     <header id="conf_id" class="headerImg">
       <div class="col-sm-12 headerGradient pt-md-5">
@@ -40,37 +57,38 @@
           <ul class="navbar-nav flex-md-row w-100 text-md-center">
             <li class="nav-item flex-md-fill mt-3 mt-md-0">
               <!-- TODO: home icon? -->
-              <a class="nav-link" href="/">Home</a>
+              <a class="nav-link" href="<?php echo rootPath(); ?>">Home</a>
             </li>
             <li class="nav-item dropdown flex-md-fill">
               <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Technical Program</a>
               <div class="dropdown-menu">
-                <a class="dropdown-item" href="callforpapers.php">Call for papers</a>
-                <a class="dropdown-item" href="papersubmission.php">Paper submission</a>
-                <a class="dropdown-item" href="invitedtalks.php">Invited talks</a>
-                <a class="dropdown-item" href="acceptedpapers.php">Accepted papers</a>
-                <a class="dropdown-item" href="program.php">Main program</a>
-                <a class="dropdown-item" href="affiliated.php">Affiliated events</a>
-                <a class="dropdown-item" href="rumpsession.php">Rump session</a>
+                <a class="dropdown-item" href="<?php echo rootPath() . 'callforpapers.php' ?>">Call for papers</a>
+                <a class="dropdown-item" href="<?php echo rootPath() . 'papersubmission.php' ?>">Paper submission</a>
+                <a class="dropdown-item" href="<?php echo rootPath() . 'invitedtalks.php' ?>">Invited talks</a>
+                <a class="dropdown-item" href="<?php echo rootPath() . 'acceptedpapers.php' ?>">Accepted papers</a>
+                <a class="dropdown-item" href="<?php echo rootPath() . 'program.php' ?>">Main program</a>
+                <a class="dropdown-item" href="<?php echo rootPath() . 'affiliated.php' ?>">Affiliated events</a>
+                <a class="dropdown-item" href="<?php echo rootPath() . 'rumpsession.php' ?>">Rump session</a>
               </div>
             </li>
             <li class="nav-item dropdown flex-md-fill">
               <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Attend</a>
               <div class="dropdown-menu">
-                <a class="dropdown-item" href="registration.php">Registration</a>
-                <a class="dropdown-item" href="stipends.php">Student stipends</a>
-                <a class="dropdown-item" href="travel.php">Venue & travel</a>
-                <a class="dropdown-item" href="accommodations.php">Accommodations</a>
-                <a class="dropdown-item" href="visas.php">Visas</a>
-                <a class="dropdown-item" href="conduct.php">Code of conduct</a>
+                <a class="dropdown-item" href="<?php echo rootPath() . 'registration.php' ?>">Registration</a>
+                <a class="dropdown-item" href="<?php echo rootPath() . 'stipends.php' ?>">Student stipends</a>
+                <a class="dropdown-item" href="<?php echo rootPath() . 'travel.php' ?>">Venue & travel</a>
+                <!-- TODO: soon to be merged with travel.php -->
+                <a class="dropdown-item" href="<?php echo rootPath() . 'accommodations.php' ?>">Accommodations</a>
+                <a class="dropdown-item" href="<?php echo rootPath() . 'visas.php' ?>">Visas</a>
+                <a class="dropdown-item" href="<?php echo rootPath() . 'conduct.php' ?>">Code of conduct</a>
               </div>
             </li>
             <li class="nav-item flex-md-fill">
-              <a class="nav-link" href="sponsors.php">Sponsors</a>
+              <a class="nav-link" href="<?php echo rootPath() . 'sponsors.php' ?>">Sponsors</a>
             </li>
             <!-- TODO: email icon? -->
             <li class="nav-item flex-md-fill">
-              <a class="nav-link" href="contact.php">Contact</a>
+              <a class="nav-link" href="<?php echo rootPath() . 'contact.php' ?>">Contact</a>
             </li>
           </ul>
         </div>
