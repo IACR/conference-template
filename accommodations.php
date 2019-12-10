@@ -40,7 +40,7 @@
         <section class="col-md-6">
           <h3 class="pageSubtitle">Off-Site Accommodations</h3>
           <p>
-            For those who choose not to stay on-site, the following is a list of hotels that have provided room blocks for <span class="conf_name"></span>. Those who choose to stay off-site are responsible for making their own reservations. Early reservations are advised since September is a popular season in <span class="conf_location"></span>.
+            For those who choose not to stay on-site, the following is a list of hotels that have provided room blocks for <span class="conf_name"><?php echo $META['shortName'];?></span>. Those who choose to stay off-site are responsible for making their own reservations. Early reservations are advised since September is a popular season in <span class="conf_location"></span>.
           </p>
         </section>
       </div>
@@ -53,12 +53,12 @@
         </aside>
         <section class="col-md-6">
           <p>
-            Blocks of rooms will be reserved for <span class="conf_name"></span> in all hotels listed below. All prices are subject to change and do not include tax; prices should be confirmed by calling the hotels directly.
+            Blocks of rooms will be reserved for <span class="conf_name"><?php echo $META['shortName'];?></span> in all hotels listed below. All prices are subject to change and do not include tax; prices should be confirmed by calling the hotels directly.
           </p>
         </section>
         <aside class="col-md-6">
           <p>
-            <img src="images/icons/exclamation.svg" class="icon" /> You must mention <span class="conf_name"></span> when you are making your reservations so you will be eligible for any special rates that may be available.
+            <img src="images/icons/exclamation.svg" class="icon" /> You must mention <span class="conf_name"><?php echo $META['shortName'];?></span> when you are making your reservations so you will be eligible for any special rates that may be available.
           </p>
         </aside>
       </div>

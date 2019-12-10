@@ -26,7 +26,7 @@
         <section class="col-md-6">
           <h3 class="pageSubtitle">General Information</h3>
           <p>
-            <span class="conf_name"></span> will take place in <span class="conf_location"></span> on <span class="conf_dates"></span>. <span class="conf_name"></span> is organized by <a href="http://iacr.org/">the International Association for Cryptologic Research</a> (IACR). Original research papers on all technical aspects of cryptology are solicited for submission.
+            <span class="conf_name"><?php echo $META['shortName'];?></span> will take place in <span class="conf_location"><?php echo $META['location'];?></span> on <span class="conf_dates"><?php echo $META['dates'];?></span>. <span class="conf_name"><?php echo $META['shortName'];?></span> is organized by <a href="http://iacr.org/">the International Association for Cryptologic Research</a> (IACR). Original research papers on all technical aspects of cryptology are solicited for submission.
           </p>
           <p>
             This is not a real conference; it is a demo of what this site might look like. Parts of it are derived from past conferences that IACR has hosted, such as the program and program committee.
@@ -108,7 +108,7 @@
             Optionally, if an author desires, a clearly-marked auxiliary supporting material can be appended to the submission. The auxiliary supporting material has no prescribed form or page limit and might be used, for instance, to provide program code, additional experimental data, etc. Alternatively, the auxiliary supporting material can be submitted as a separate file from the submission. The reviewers are not required to read the auxiliary supporting material and submissions should be intelligible without it. The final published version of an accepted paper is expected to closely match the submitted 30 pages.
           </p>
           <p>
-            Submissions must be submitted electronically in PDF format. A detailed description of the electronic submission procedure and a submission link will be available on the <span class="conf_name"></span> website at a later date.
+            Submissions must be submitted electronically in PDF format. A detailed description of the electronic submission procedure and a submission link will be available on the <span class="conf_name"><?php echo $META['shortName'];?></span> website at a later date.
           </p>
           <p class="alert alert-success">
             <img src="images/icons/exclamation.svg" class="icon" /> Submissions not meeting these guidelines risk rejection without consideration of their merits.
@@ -134,7 +134,7 @@
             Schedule
           </h3>
           <p>
-            <span class="conf_name"></span> will operate a two-round review system with rebuttal phase. In the first round, the program committee selects the submissions which are considered of value for proceeding to the second round, and the authors receive the first round notification with review comments. The authors of the selected submissions are invited to submit a text-based rebuttal letter to the review comments.
+            <span class="conf_name"><?php echo $META['shortName'];?></span> will operate a two-round review system with rebuttal phase. In the first round, the program committee selects the submissions which are considered of value for proceeding to the second round, and the authors receive the first round notification with review comments. The authors of the selected submissions are invited to submit a text-based rebuttal letter to the review comments.
           </p>
           <p>
             In the second round the program committee further reviews the selected submissions by taking into account their rebuttal letter, and makes the final decision of acceptance or rejection. The submissions that have not been selected during the first round of reviews may be submitted in other conferences after the first round notification date. The dates for this schedule are listed above.

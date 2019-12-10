@@ -66,7 +66,7 @@
             </li>
           </ul>
           <p>
-            We hope that you will be able to attend <span class="conf_name"></span> and help us make the conference a great success.
+            We hope that you will be able to attend <span class="conf_name"><?php echo $META['shortName'];?></span> and help us make the conference a great success.
           </p>
         </section>
       </div>

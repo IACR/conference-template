@@ -26,7 +26,7 @@
       <div class="row">
         <section class="col-sm-12">
           <p>
-            <span class="conf_name"></span> relies on sponsors to help ensure student participation. Please contact the <a href="./contact.html">General Chair</a> if your company is interested in sponsoring this conference.
+            <span class="conf_name"><?php echo $META['shortName'];?></span> relies on sponsors to help ensure student participation. Please contact the <a href="./contact.html">General Chair</a> if your company is interested in sponsoring this conference.
           </p>
         </section>
       </div>
@@ -120,7 +120,7 @@
       <h3 class="pageSubtitle mt-4">
         Silver Level
       </h3>
-      
+
       <section class="row">
         <div class="col-6 col-md-4 col-lg-3 mx-auto">
           <a href="http://kaymckelly.com" class="thumbnail">

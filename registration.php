@@ -133,13 +133,13 @@
             The conference registration fee includes participation in the technical program, all social functions as well as an electronic copy of the conference proceedings. Accompanying guests can also be registered for participation in the conference social functions. Guests who only want to attend one or two events can register onsite.
           </p>
           <p>
-            Two conferences are located in <span class="conf_location"></span> on <span class="conf_dates"></span>. If you are interested in attending both <span class="conf_name"></span> and CHES, there is a $50 joint registration discount ($25 off each conference) for regular registrations. Student joint registrations are discounted by $100 ($50 off each conference).
+            Two conferences are located in <span class="conf_location"><?php echo $META['location'];?></span> on <span class="conf_dates"><?php echo $META['dates'];?></span>. If you are interested in attending both <span class="conf_name"><?php echo $META['shortName'];?></span> and CHES, there is a $50 joint registration discount ($25 off each conference) for regular registrations. Student joint registrations are discounted by $100 ($50 off each conference).
           </p>
         </section>
         <section class="col-md-6">
           <h3 class="pageSubtitle">An Important Note for Students</h3>
           <p>
-            If you are a student presenting at <span class="conf_name"></span>, your registration fee will be covered by the IACR Fund for Student Presenters; you do not need to pay for registration. Please register for the conference but do not submit any payment. After registering, send an email to the <a href="mailto:doNotEmailMe@fakeDomain.com">General Chair</a>, explaining that you are a student presenter and have already registered. More information is available <a href="./stipends.html">here</a>.
+            If you are a student presenting at <span class="conf_name"><?php echo $META['shortName'];?></span>, your registration fee will be covered by the IACR Fund for Student Presenters; you do not need to pay for registration. Please register for the conference but do not submit any payment. After registering, send an email to the <a href="mailto:doNotEmailMe@fakeDomain.com">General Chair</a>, explaining that you are a student presenter and have already registered. More information is available <a href="./stipends.html">here</a>.
           </p>
         </section>
       </div>
