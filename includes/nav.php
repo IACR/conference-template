@@ -50,7 +50,7 @@
                 <a class="dropdown-item" href="invitedtalks.php">Invited talks</a>
                 <a class="dropdown-item" href="acceptedpapers.php">Accepted papers</a>
                 <a class="dropdown-item" href="program.php">Main program</a>
-                <a class="dropdown-item" href="affiliatedevents.html">Affiliated events</a>
+                <a class="dropdown-item" href="affiliated.php">Affiliated events</a>
                 <a class="dropdown-item" href="rumpsession.php">Rump session</a>
               </div>
             </li>
