@@ -9,13 +9,9 @@
     <?php require "includes/nav.php"; ?>
 
     <main class="container mt-5">
-      <div class="row">
-        <div class="col-12">
-          <h2 class="indPageTitle">
-            Registration
-          </h2>
-        </div>
-      </div>
+      <h2 class="indPageTitle">
+        Registration
+      </h2>
 
       <!-- NOTE: below is standard placeholder text for when the page is under construction. please delete this entire <div class="row"> and all elements contained within it when ready to add other content -->
       <div class="row">
@@ -26,7 +22,7 @@
         </div>
       </div>
 
-      <div class="row">
+      <div class="row mt-3">
         <section class="col-12" id="regTable">
           <div class="row" id="regTopRow">
             <div class="col-6">
@@ -121,7 +117,7 @@
         </section>
       </div>
 
-      <div class="row">
+      <div class="row mt-4">
         <!-- NOTE: the following <br> and <section> tags are a separate under construction message for when you can release the above chart but have not yet added other information to this page. these should both be deleted upon adding additional content below to replace the boilerplate -->
         <!-- <br />
              <section class="col-sm-12">
@@ -152,13 +148,13 @@
       <div class="row">
         <aside class="col-sm-6 mx-auto text-center">
           <h5>
-            <b>Registration is not currently available. This button will become active when registration opens.</b>
+            <strong>Registration is not currently available. This button will become active when registration opens.</strong>
           </h5>
           <a href="https://secure.iacr.org/conferences/tcc2017b/register/" class="btn btn-lg btn-warning btn-block regBtn disabled" role="button">Register now!</a>
         </aside>
       </div>
 
-      <div class="row">
+      <div class="row mt-5">
         <section class="col-md-6">
           <h3 class="pageSubtitle">Additional Information</h3>
           <p>
@@ -185,7 +181,7 @@
         </section>
       </div>
 
-      <div class="row">
+      <div class="row mt-4">
         <section class="col-md-6">
           <h3 class="pageSubtitle">Refund Policy</h3>
           <p>

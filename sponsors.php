@@ -9,18 +9,13 @@
     <?php require "includes/nav.php"; ?>
 
     <main class="container mt-5">
-
-      <div class="row">
-        <div class="col-sm-12">
-          <h2 class="indPageTitle">
-            Sponsors
-          </h2>
-        </div>
-      </div>
+      <h2 class="indPageTitle">
+        Sponsors
+      </h2>
 
       <!-- NOTE: below is standard placeholder text for when the page is under construction. please delete this entire <div class="row"> and all elements contained within it when ready to add other content -->
       <div class="row">
-        <div class="col-sm-12">
+        <div class="col-12">
           <p>
             This information is not yet available. Thank you for your patience. If it were available, this is what this page might look like.
           </p>
@@ -36,11 +31,10 @@
         </section>
       </div>
 
-      <!-- <div class="row">
-        <section class="col-sm-12"> -->
-      <h3 class="pageSubtitle">
+      <h3 class="pageSubtitle mt-4">
         Platinum Level
       </h3>
+
       <section class="row">
         <div class="col-12 col-md-10 col-lg-6 mx-auto">
           <a href="http://kaymckelly.com" class="thumbnail">
@@ -72,9 +66,10 @@
 
       <hr />
 
-      <h3 class="pageSubtitle">
+      <h3 class="pageSubtitle mt-4">
         Gold Level
       </h3>
+
       <section class="row">
         <div class="col-10 col-md-6 col-lg-4 mx-auto">
           <a href="http://kaymckelly.com" class="thumbnail">
@@ -122,9 +117,10 @@
 
       <hr />
 
-      <h3 class="pageSubtitle">
+      <h3 class="pageSubtitle mt-4">
         Silver Level
       </h3>
+      
       <section class="row">
         <div class="col-6 col-md-4 col-lg-3 mx-auto">
           <a href="http://kaymckelly.com" class="thumbnail">

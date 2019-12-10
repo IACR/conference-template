@@ -9,12 +9,9 @@
     <?php require "includes/nav.php"; ?>
 
     <main class="container mt-4">
-
-      <div class="row">
-        <div class="col-sm-12">
-          <h2 class="indPageTitle">Accommodations</h2>
-        </div>
-      </div>
+      <h2 class="indPageTitle">
+        Accommodations
+      </h2>
 
       <!-- NOTE: below is standard placeholder text for when the page is under construction. please delete this entire <div class="row"> and all elements contained within it when ready to add other content -->
       <div class="row">
