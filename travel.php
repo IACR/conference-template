@@ -112,8 +112,8 @@
 	need to make separate arrangements in one of the nearby
 	hotels.
       </p>
-      <div class="row mt-2">
-        <section class="col-12 col-md-6 mt-2">
+      <div class="row justify-content-around">
+        <section class="col-lg-4 col-md-6 d-flex flex-column mt-4">
 	  <h4 class="subSubtitle text-center">Dormitory rooms</h4>
 	  <p>
             Reasonably priced accommodations are available in the
@@ -124,9 +124,9 @@
           <p>
             Once on-site registration is available, there will be a link below.
           </p>
-          <a href="http://kaymckelly.com" class="btn btn-warning btn-md btn-block disabled mb-5" role="button">Register for dorms</a>
+          <a href="http://kaymckelly.com" class="btn btn-warning btn-block disabled mb-5 mt-auto" role="button">Register for dorms</a>
 	</section>
-	<section class="col-12 col-md-6">
+	<section class="col-lg-4 col-md-6 d-flex flex-column mt-4">
 	  <h4 class="subSubtitle text-center">
 	    Club &amp; Guest House at UC Santa Barbara.
           </h4>
@@ -152,7 +152,7 @@
 	</section>
       </div>
 
-      <h3 class="pageSubtitle">Off-Campus Accommodations</h3>
+      <h3 class="pageSubtitle mt-4">Off-Campus Accommodations</h3>
       <p>
         For those who choose not to stay on-site, the following is
         a list of hotels that have provided room blocks for
@@ -227,51 +227,6 @@
 	  <a class="btn btn-warning btn-block mt-auto" role="button"
 	       href="https://www.pacificasuites.com">www.pacificasuites.com</a>
 	</section>
-	<section class="col-lg-4 col-md-6 d-flex flex-column mt-4">
-	  <h4 class="subSubtitle text-center">
-	    A sample third hotel
-	  </h4>
-	  <address>
-	    <ul class="hotel-info">
-	      <li class="location">1313 Mockingbird Lane</li>
-	      <li>Goleta, CA 93111</li>
-              <li></li>
-	      <li class="phone">(805) 555-1212</li>
-	      <li>Fax: (805) 555-1212</li>
-	    </ul>
-          </address>
-          <p>
-            Rates: $1500 single/double.
-          </p>
-          <p>
-	    Rate includes almost nothing. This is clearly the third choice.
-	  </p>
-	  <a class="btn btn-warning btn-block mt-auto" role="button"
-	     href="https://kaymckelly.com">WeDontWantYourBusiness.com</a>
-	</section>
-	<section class="col-lg-4 col-md-6 d-flex flex-column mt-4">
-	  <h4 class="subSubtitle text-center">
-	    A sample fourth hotel
-	  </h4>
-	  <address>
-	    <ul class="hotel-info">
-	      <li class="location">1314 Mockingbird Lane</li>
-	      <li>Goleta, CA 93111</li>
-              <li></li>
-	      <li class="phone">(805) 555-1212</li>
-	      <li>Fax: (805) 555-1212</li>
-	    </ul>
-          </address>
-          <p>
-            Rates: $2500 single/double.
-          </p>
-          <p>
-	    Rate includes almost nothing. This is clearly the fourth choice.
-	    You could walk next door for a better deal.
-	  </p>
-	  <a class="btn btn-warning btn-block mt-auto" role="button"
-	     href="https://kaymckelly.com">WeDontWantYourBusiness.com</a>
-	</section>
       </div>
     </main>
     <script src="https://iacr.org/libs/js/leafletjs/leaflet-src.js"></script>
@@ -299,7 +254,7 @@
 		   {name: 'The Club &amp; Guest House at UC Santa Barbara',
 		    latitude: -119.851345,
 		    longitude: 34.411853},
-		   {name: 'Dormintory accomodations (various)',
+		   {name: 'Dormitory accomodations (various)',
 		    latitude: -119.84423,
 		    longitude: 34.4111}                  
       ];
