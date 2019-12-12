@@ -226,6 +226,8 @@
     </main>
     <script src="https://iacr.org/libs/js/leafletjs/leaflet-src.js"></script>
     <script>
+      // You can recover latitude & longitude from this page:
+      // https://iacr.org/events/edit.php
       var mymap = L.map('venuemap').setView([<?php echo $META['longitude'] . ',' . $META['latitude'];?>], 13);
       var tiles = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
       {maxZoom: 18,
