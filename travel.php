@@ -79,11 +79,6 @@
 	    north of the Los Angeles airport and 350 miles (560km)
 	    south of San Francisco.
 	  </p>
-          <p>
-            Information about on-site accommodations and local hotels
-            can be
-            found <a href="./accommodations.html">here</a>.
-          </p>
         </section>
         <div class="col-sm-4">
 	  <div class="alert alert-success" role="alert">
@@ -237,8 +232,6 @@
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
       });
      tiles.addTo(mymap);
-     // You can define points on the map below.  If you want to add hotels,
-     // you should probably do a separate map on the accomodations.php file.
      var points = [{name: 'Conference Venue: UCSB',
 		    latitude: <?php echo $META['latitude'];?>,
 		    longitude: <?php echo $META['longitude'];?> },
