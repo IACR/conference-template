@@ -7,10 +7,10 @@
     // NOTE: for debug purposes: if year is not an int, it'll fail to generate
     // the correct paths in the nav. in metadata.json, you need to change year
     // to an integer for production
-    if (is_int($META['year'])) {
-      return "/" . strval($META['year']) . "/";
+    if (empty($META['year'])) {
+        return "/";
     } else {
-      return "/";
+      return "/" . strval($META['year']) . "/";
     }
   }
 ?>
@@ -77,8 +77,6 @@
                 <a class="dropdown-item" href="<?php echo rootPath() . 'registration.php' ?>">Registration</a>
                 <a class="dropdown-item" href="<?php echo rootPath() . 'stipends.php' ?>">Student stipends</a>
                 <a class="dropdown-item" href="<?php echo rootPath() . 'travel.php' ?>">Venue & travel</a>
-                <!-- TODO: soon to be merged with travel.php -->
-                <a class="dropdown-item" href="<?php echo rootPath() . 'accommodations.php' ?>">Accommodations</a>
                 <a class="dropdown-item" href="<?php echo rootPath() . 'visas.php' ?>">Visas</a>
                 <a class="dropdown-item" href="<?php echo rootPath() . 'conduct.php' ?>">Code of conduct</a>
               </div>
