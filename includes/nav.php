@@ -77,7 +77,6 @@
                 <a class="dropdown-item" href="<?php echo rootPath() . 'registration.php' ?>">Registration</a>
                 <a class="dropdown-item" href="<?php echo rootPath() . 'stipends.php' ?>">Student stipends</a>
                 <a class="dropdown-item" href="<?php echo rootPath() . 'travel.php' ?>">Venue & travel</a>
-                <!-- TODO: soon to be merged with travel.php -->
                 <a class="dropdown-item" href="<?php echo rootPath() . 'visas.php' ?>">Visas</a>
                 <a class="dropdown-item" href="<?php echo rootPath() . 'conduct.php' ?>">Code of conduct</a>
               </div>
