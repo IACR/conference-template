@@ -174,17 +174,20 @@ ___
 
 ## Travel information
 
+Travel information resides in `travel.php` but there is an
+additional page for visas if you need one.
+
 The `travel.php` page incorporates a map that is centered at the
 latitude, longitude contained in
-[`json/metadata.json`](json/metadata.json).  There is a piece of
-javascript in `travel.php` that places pins on the map at the
-appropriately places, and you should update that to provide
-information about airport, train station, hotels, or locations of
-outings in order to help people plan their trip. There is a tool at
+[`json/metadata.json`](json/metadata.json).  It was assumed that your
+latitude,longitude is the location of the venue, so please check
+that. There is a piece of javascript in `travel.php` that places pins
+on the map at the appropriate places, and you should update that to
+provide information about airport, train station, hotels, or locations
+of outings in order to help people plan their trip. There is a tool at
 [https://iacr.org/tools/geocode/](https://iacr.org/tools/geocode/)
 that will assist you in locating the latitude,longitude of points on
-the map.  Travel information resides in `travel.php` but there is an
-additional page for visas if you need one.
+the map.
 
 ___
 
