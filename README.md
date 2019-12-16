@@ -13,6 +13,8 @@ because they are incompatible.  The old template has been deprecated
 and you should not copy the pages from an old conference.  That
 version has been abandoned and there will be no futher updates.
 
+___
+
 # INSTALLATION
 
 You will need to have [php](https://www.php.net/manual/en/install.php)
@@ -21,7 +23,7 @@ the iacr.org machine, but it's best to work on your local machine, and
 only push files to the live server once you are satisfied with them.
 
 In order to get started with the template, simply open a shell, change
-to your clean working directory, and type:
+to your working directory, and type:
 
 ```
 git clone https://github.com/kmccurley/conference-template.git .
@@ -31,20 +33,84 @@ git clone https://github.com/kmccurley/conference-template.git .
 If you do not have git installed, then you can download a [zip file
 with the
 template](https://github.com/IACR/conference-template/archive/master.zip).
-This creates a copy of the files for the site on your machine.  Next make
-sure you are in the directory containing `travel.php` and run the command
+This creates a copy of the files for the site on your machine.  Next
+make sure you are in the directory containing `acceptedpapers.php` and
+run the command
 
 ```
 php -S localhost:8000
 ```
 
-Then point your browser at http://localhost:8000 to see the website
-and you'll see the conference demo website. Once you’ve verified it’s
-serving correctly, you can begin to edit the relevant files.
+Then point your browser at http://localhost:8000 to see the website.
+Once you’ve verified it’s serving correctly, you can begin to edit the
+relevant files.
+
+## REQUIRED: THE BASICS
+
+### Changing the conference names/dates/location
+
+Assuming that your conference is listed in the [IACR calendar of
+events](https://iacr.org/events), you should be able to download the
+`json/metadata.json` file from
+[http://iacr.org/cryptodb/pc](http://iacr.org/cryptodb/pc).  This file
+contains year, conference names, latitude, longitude, etc, and the
+settings there show up on all pages of the site. The `year` field should
+match the path of the directory that you host your pages from on
+iacr.org.
+
+### Changing the names of the program committee
+
+The program committee is stored in `json/comm.json`. You should go to
+[http://iacr.org/cryptodb/pc](http://iacr.org/cryptodb/pc)
+to download your program committee file. The IDs in the file are used
+to enter the program committee into [Cryptodb](https://iacr.org/cryptodb)
+so be careful if you edit this file by hand.
+
+
+### Changing the contact information
+
+The program chairs and general chair appear on both `callforpapers.php`
+and `contact.php`. You will want to edit these.
+
+### Updating the code of conduct page
+
+Section 8.10 of the [General Chair
+Guidelines](https://www.iacr.org/docs/genchair.pdf) requires an up to
+date code of conduct for each conference. You should edit the
+`conduct.php` accordingly. Sections that need editing will show up in
+red on the page because they contain a span with class editMe.
+
+At this point you should have a working first site, and you should copy
+your files over to the iacr.org server in the appropriate directory.
+
+### Adding your page content to individual pages (`*.php`)
+
+All pages have included boilerplate content, most of which is
+commented out.  You will need to go through each individual page and
+edit content that does not pertain to your conference, as well as add
+your own information.
+
+We **strongly** recommend proofreading the HTML to make sure all content
+relates to your specific conference. Some content may not be ready at
+the time that you first put your site up, so you can comment things
+out in the pages with standard HTML comments &lt;!--  ... --&gt;
+
+#### To delete a page
+
+You may not need every page (e.g., you may not have a rump session).
+You can omit a page by deleting the php file and removing the link to
+it in `includes/nav.php` (or anywhere else in the php files).
+
+#### To add a new page
+
+Let's say you want a separate page for an affiliated event called
+`event1.php`. You would create the page by copying `empty.php` to
+`event1.php`, add the link to the file in `includes/nav.php`, and then
+edit `event1.php` to add your content.
 
 ___
 
-### Copying your files to the IACR server
+# Deployment to the IACR server
 
 In order to host your website on the iacr.org server, you will need
 login credentials from the IACR webmaster. You will then be
@@ -64,75 +130,7 @@ iacr.org server.
 
 ___
 
-### Changing the conference names/dates/location
-
-Assuming that your conference is listed in the [IACR calendar of
-events](https://iacr.org/events), you should be able to download the
-`json/metadata.json` file from
-[http://iacr.org/cryptodb/pc](http://iacr.org/cryptodb/pc).  This file
-contains year, conference names, latitude, longitude, etc, and the
-settings there show up on all pages of the site. The `year` field should
-match the path of the directory that you host your pages from on
-iacr.org.
-
-___
-
-### Changing the names of the program committee
-
-The program committee is stored in `json/comm.json`. You should go to
-[http://iacr.org/cryptodb/pc](http://iacr.org/cryptodb/pc)
-to download your program committee file. The IDs in the file are used
-to enter the program committee into [Cryptodb](https://iacr.org/cryptodb)
-so be careful if you edit this file by hand.
-
-___
-
-### Changing the contact information
-
-The program chairs and general chair appear on both `callforpapers.php`
-and `contact.php`. You will want to edit these.
-
-___
-
-### Updating the code of conduct page
-
-Section 8.10 of the [General Chair
-Guidelines](https://www.iacr.org/docs/genchair.pdf) requires an up to
-date code of conduct for each conference. You should edit the
-`conduct.php` accordingly. Sections that need editing will show up in
-red on the page because they contain a span with class editMe.
-
-At this point you should have a working first site, and you should copy
-your files over to the iacr.org server in the appropriate directory.
-
-___
-
-### Adding your page content to individual pages (`*.php`)
-
-All pages have included boilerplate content, based on the contents
-from Crypto 2020. You will need to go through each
-individual page and edit content that does not pertain to your
-conference, as well as add your own information.
-
-We **strongly** recommend proofreading the HTML to make sure all content
-relates to your specific conference. Some content may not be ready at
-the time that you first put your site up, so you can comment things
-out in the pages with standard HTML comments &lt;!--  ... --&gt;
-
-#### To delete a page
-
-You can omit a page by deleting the php file and removing the link to
-it in `includes/nav.php` (or anywhere else in the php files).
-
-#### To add a new page
-
-Let's say you want a separate page for an affiliated event called
-`event1.php`. You would create the page by copying `empty.php` to
-`event1.php`, add the link to the file in `includes/nav.php`, and then
-edit `event1.php` to add your content.
-
-___
-### Further steps
+# Additional steps
 
 When you first put up your site, you will probably only have basic information
 about the call for papers, the program committee, the dates, etc. Later
@@ -150,8 +148,12 @@ on you will want to add more information in the individual pages:
 * information about the rump session (if you have one)
 * information about corporate sponsors (if any)
 
+### Accepted papers
+
 The list of accepted papers is stored in `json/papers.json`, and can
 be exported from websubrev.
+
+### Program
 
 The program is more complicated, but there is a tool at
 [https://www.iacr.org/tools/program](https://iacr.org/tools/program)
@@ -163,28 +165,24 @@ links to papers, links to slides, etc. The
 [tool](https://iacr.org/tools/program) is designed to make this
 process very easy.
 
-___
+### Travel information
 
-## Travel information
-
-Travel information resides in `travel.php` but there is an
-additional page for visas if you need one.
-
-The `travel.php` page incorporates a map that is centered at the
-latitude, longitude contained in
+Travel information resides in `travel.php` but there is an additional
+page for visas if you need one.  The `travel.php` page incorporates a
+map that is centered at the latitude, longitude contained in
 [`json/metadata.json`](json/metadata.json).  It was assumed that your
-latitude,longitude is the location of the venue, so please check
+latitude, longitude is the location of the venue, so please check
 that. There is a piece of javascript in `travel.php` that places pins
 on the map at the appropriate places, and you should update that to
 provide information about airport, train station, hotels, or locations
 of outings in order to help people plan their trip. There is a tool at
 [https://iacr.org/tools/geocode/](https://iacr.org/tools/geocode/)
-that will assist you in locating the latitude,longitude of points on
-the map.
+that will assist you in locating the latitude, longitude of points on a
+map.
 
 ___
 
-# Optional
+# Optional Customization
 
 ### Changing the default colors
 
