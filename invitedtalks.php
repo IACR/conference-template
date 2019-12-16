@@ -7,7 +7,7 @@
 
     <style>
       @media only screen and (min-width: 768px) {
-        .rowPrepImg {
+        .speakerImg {
           max-width: 30%;
         }
       }
@@ -35,7 +35,7 @@
       </h3>
       <div class="row">
         <div class="col-12">
-          <img class="img-fluid ml-2 mb-2 mb-md-0 mt-md-2 ml-md-3 p-2 float-md-right rowPrepImg" src="https://asiacrypt.iacr.org/2019/images/Pietrzak.jpg" alt="Krzysztof Pietrzak" />
+          <img class="img-fluid ml-2 mb-2 mb-md-0 mt-md-2 ml-md-3 p-2 float-md-right speakerImg" src="https://asiacrypt.iacr.org/2019/images/Pietrzak.jpg" alt="Krzysztof Pietrzak" />
           <h4 class="subSubtitle">
             Title
           </h4>
@@ -62,7 +62,7 @@
       </h3>
       <div class="row">
         <div class="col-12">
-          <img class="img-fluid ml-2 mb-2 mb-md-0 mt-md-2 ml-md-3 p-2 float-md-right rowPrepImg" src="https://asiacrypt.iacr.org/2019/images/Shi.png" alt="Elaine Shi" />
+          <img class="img-fluid ml-2 mb-2 mb-md-0 mt-md-2 ml-md-3 p-2 float-md-right speakerImg" src="https://asiacrypt.iacr.org/2019/images/Shi.png" alt="Elaine Shi" />
           <h4 class="subSubtitle">
             Title
           </h4>
