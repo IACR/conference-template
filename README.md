@@ -8,17 +8,10 @@ conference, then [see below](#advanced-other-conferences).
 This is a complete rewrite of the IACR conference template.  The
 previous version of this template was written in javascript and
 Bootstrap 3, but this one is written mostly in php and Bootstrap 4.
-You should not try to mix the old version with the new version,
+You should not mix the old version with the new version,
 because they are incompatible.  The old template has been deprecated
-and you should not try to copy the pages from an old conference.  That
+and you should not copy the pages from an old conference.  That
 version has been abandoned and there will be no futher updates.
-
-This template should be easier to work with than the old one. By using
-php, we are able to store the top menu in a single file and have it
-show on every page. You shouldn't need to learn php in order to use
-this template, but it's easy to do because php is an extension of
-html.  Each page consists of a file that ends in the `.php` extension
-so that the server knows to process it as php.
 
 # INSTALLATION
 
@@ -26,15 +19,6 @@ You will need to have [php](https://www.php.net/manual/en/install.php)
 installed on the machine you work on.  These are already installed on
 the iacr.org machine, but it's best to work on your local machine, and
 only push files to the live server once you are satisfied with them.
-
-In order to host your website on the iacr.org server, you will need
-login credentials from the IACR webmaster, but then you will be
-assigned a directory like `/var/www/asiacrypt/html/2021`) for your
-conference. If you place all the files from the template in that
-directory, you will immediately be able to reference it via
-https://asiacrypt.iacr.org/2021. Obviously you should substitute
-asiacrypt with the name of your conference (e.g., crypto, eurocrypt,
-rwc, tcc, etc).
 
 In order to get started with the template, simply open a shell, change
 to your clean working directory, and type:
@@ -60,7 +44,16 @@ serving correctly, you can begin to edit the relevant files.
 
 ___
 
-### Differences between the IACR server and your development environment
+### Copying your files to the IACR server
+
+In order to host your website on the iacr.org server, you will need
+login credentials from the IACR webmaster. You will then be
+assigned a directory like `/var/www/asiacrypt/html/2021`) for your
+conference. If you place all the files from the template in that
+directory, you will immediately be able to reference it via
+https://asiacrypt.iacr.org/2021. Obviously you should substitute
+asiacrypt with the name of your conference (e.g., crypto, eurocrypt,
+rwc, tcc, etc).
 
 The URLs on iacr.org start with
 &lt;conference_name&gt;.iacr.org/&lt;year&gt;/ and for this reason the
