@@ -2,8 +2,8 @@
 <html lang="en">
   <head>
     <?php // The header includes the head tag and start of body
-        require "includes/head.php";
-          ?>
+      require "includes/head.php";
+    ?>
 
     <style>
       @media only screen and (min-width: 768px) {
@@ -12,6 +12,10 @@
         }
       }
     </style>
+
+    <title>
+      <?php echo $META['shortName'];?> Invited Talks
+    </title>
   </head>
   <body>
     <?php require "includes/nav.php"; ?>
@@ -35,7 +39,7 @@
       </h3>
       <div class="row">
         <div class="col-12">
-          <img class="img-fluid ml-2 mb-2 mb-md-0 mt-md-2 ml-md-3 p-2 float-md-right speakerImg" src="https://asiacrypt.iacr.org/2019/images/Pietrzak.jpg" alt="Krzysztof Pietrzak" />
+          <img class="img-fluid mb-2 mb-md-0 mt-md-2 ml-md-3 p-2 float-md-right speakerImg" src="https://asiacrypt.iacr.org/2019/images/Pietrzak.jpg" alt="Krzysztof Pietrzak" />
           <h4 class="subSubtitle">
             Title
           </h4>
@@ -62,7 +66,7 @@
       </h3>
       <div class="row">
         <div class="col-12">
-          <img class="img-fluid ml-2 mb-2 mb-md-0 mt-md-2 ml-md-3 p-2 float-md-right speakerImg" src="https://asiacrypt.iacr.org/2019/images/Shi.png" alt="Elaine Shi" />
+          <img class="img-fluid mb-2 mb-md-0 mt-md-2 ml-md-3 p-2 float-md-right speakerImg" src="https://asiacrypt.iacr.org/2019/images/Shi.png" alt="Elaine Shi" />
           <h4 class="subSubtitle">
             Title
           </h4>
