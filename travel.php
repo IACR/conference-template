@@ -89,7 +89,7 @@
       <div id="venuemap">
       </div>
 
-      <h3 class="pageSubtitle mt-4">
+      <h3 class="pageSubtitle mt-5">
         On-Campus Accommodations
       </h3>
       <p>
