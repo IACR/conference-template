@@ -101,7 +101,7 @@
 
       <div class="row justify-content-around">
         <section class="col-lg-4 col-md-6 d-flex flex-column mt-4">
-	        <h4 class="subSubtitle text-center">
+          <h4 class="subSubtitle text-center">
             Dormitory rooms
           </h4>
 	        <p>
