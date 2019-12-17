@@ -17,11 +17,6 @@
       Accepted Papers
     </h2>
 
-    <noscript>
-      <p>
-        <h4>This page requires javascript</h4>
-      </p>
-    </noscript>
     <!-- NOTE: if json/papers.json exists, then this will be hidden. -->
     <p id="notYetAvailable">
       This information is not yet available. This information will be available after authors are notified, which should
@@ -40,7 +35,7 @@
       <p>
         These papers are listed in order of submission.
       </p>
-      <ol id="accepted">
+      <ol>
         {{#each acceptedPapers}}
         <li>
           <h4 class="paperTitle">
@@ -49,7 +44,7 @@
           <p>
             {{authors}}
             <br />
-            {{affiliations}}
+            <span class="font-italic">{{affiliations}}</span>
           </p>
         </li>
         {{/each}}
