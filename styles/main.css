@@ -33,6 +33,18 @@ a:hover {
   background-color: #102A83;
 }
 
+/* NOTE: Normally in Bootstrap you'd just add .nav-fill and .w-100 to ul.navbar-nav. Unfortunately this makes all nav links centered in mobile, which looks dumb. This is the workaround. Thanks to myself (Kay) and a ridiculous amount of searching + trial & error for this solution. */
+@media only screen and (min-width: 768px) {
+  #nav-ul {
+    width: 100% !important;
+  }
+
+  #nav-ul .nav-item {
+    flex: 1 1 auto;
+    text-align: center;
+  }
+}
+
 a.nav-link {
   color: #FEFDFB !important;
   font-size: 1.2rem;
