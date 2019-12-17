@@ -125,7 +125,7 @@
               <li>
                 University of California
               </li>
-	            <li>
+              <li>
                 Santa Barbara, CA 93106
               </li>
               <!-- NOTE: this li is used for spacing purposes only -->
@@ -136,15 +136,15 @@
 	            <li class="email">
                 simon.herrera@theclub.ucsb.edu
               </li>
-	          </ul>
+            </ul>
           </address>
           <p>
             Rates: $100 single/double (Sunday - Thursday). Please note that Friday &amp; Saturday rates may differ.
           </p>
           <p>
-	          Well-appointed guest rooms all come with lagoon and ocean views and guests enjoy two complimentary deluxe continental breakfasts. Conference meeting locations are within a 5-minute walking distance from The Guest House.
+            Well-appointed guest rooms all come with lagoon and ocean views and guests enjoy two complimentary deluxe continental breakfasts. Conference meeting locations are within a 5-minute walking distance from The Guest House.
 	        </p>
-	      </section>
+        </section>
       </div>
 
       <h3 class="pageSubtitle mt-4">
@@ -154,13 +154,13 @@
         For those who choose not to stay on-site, the following is a list of hotels that have provided room blocks for <?php echo $META['shortName'];?>. Note that none of the hotels is walking distance to the venue. Those who choose to stay off-site are responsible for making their own reservations. Early reservations are advised since August is a popular season in Santa Barbara.
       </p>
       <aside class="alert alert-warning">
-	       <img src="images/icons/exclamation.svg" class="icon" />&ensp;
-	       All prices are subject to change and do not include tax; prices should be confirmed by calling the hotels directly. Room blocks may be released as early as two months prior to the conference. You must mention Crypto 2020 when you are making your reservations so you will be eligible for any special rates that may be available. Other hotels are available in the area.
+        <img src="images/icons/exclamation.svg" class="icon" />&ensp;
+        All prices are subject to change and do not include tax; prices should be confirmed by calling the hotels directly. Room blocks may be released as early as two months prior to the conference. You must mention Crypto 2020 when you are making your reservations so you will be eligible for any special rates that may be available. Other hotels are available in the area.
       </aside>
 
       <div class="row justify-content-around">
         <section class="col-lg-4 col-md-6 d-flex flex-column mt-4">
-	        <h4 class="subSubtitle text-center">
+          <h4 class="subSubtitle text-center">
 	          Best Western South Coast Inn
 	        </h4>
 	        <address>
@@ -180,12 +180,12 @@
                 Fax: 805.683.4466
               </li>
             </ul>
-	        </address>
+          </address>
+          <p>
+            Rates: $177 single/double (Sunday - Thursday). $223 (Friday and Saturday).
+          </p>
       	  <p>
-      	    Rates: $177 single/double (Sunday - Thursday). $223 (Friday and Saturday).
-      	  </p>
-      	  <p>
-      	    Five minutes from the University; newly renovated. Breakfast Buffet daily. Complimentary afternoon beverages Monday through Thursday. Free local calls. Refrigerator, coffeemaker, hairdryer and WI-FI for free internet access in all rooms. Pool and spa. Morning and evening shuttle to UCSB and airport 7:30am–10:00pm.
+            Five minutes from the University; newly renovated. Breakfast Buffet daily. Complimentary afternoon beverages Monday through Thursday. Free local calls. Refrigerator, coffeemaker, hairdryer and WI-FI for free internet access in all rooms. Pool and spa. Morning and evening shuttle to UCSB and airport 7:30am–10:00pm.
       	  </p>
           <a class="btn btn-warning btn-block mt-auto" role="button" href="https://www.hotelsone.com/goleta-hotels-us/best-western-plus-south-coast-inn.html">Reservations</a>
 	      </section>
