@@ -17,26 +17,30 @@
       Accepted Papers
     </h2>
 
-    <!-- NOTE: below is standard placeholder text for when the page is under construction. please delete this entire <div class="row"> and all elements contained within it when ready to add other content -->
-    <div class="row">
-      <div id="errorBox" class="col-sm-12">
-        <!-- NOTE: this is where any error messages will appear. please check the developer console for further information on the error -->
-      </div>
-    </div>
-
-    <!-- NOTE: this <p> is meant to be a secondary under construction message after you have deleted the above standard placeholder text,  and should be deleted once the accepted papers are released -->
-    <div class="row">
-      <section class="col-sm-12">
-        <p>
-          This information is not yet available, but if it were, it would look like what appears below. We expect this information to be ready after when we notify authors of our decision, which is March 30 2050. Thank you for your patience.
-        </p>
-
-        <p>
-          In order of submission:
-        </p>
-      </section>
-    </div>
-
+    <!-- NOTE: if json/papers.json exists, then this will generate the list of papers. -->
+    <?php
+       if (file_exists('json/papers.json')) {
+         try {
+           $papers = json_decode(file_get_contents("json/papers.json"), true);
+           if ($papers === null) {
+             throw new Exception('json file is malformed');
+           }
+           $papers = $papers['acceptedPapers'];
+           echo '<p>In order of submission:</p>';
+           echo  '<ol id="accepted">';
+           foreach($papers as $paper) {
+             echo '<li><h4 class="paperTitle">' . $paper['title'] . '</h4>';
+	     echo ' <p>' . $paper['authors'] . '<br/>';
+             echo '  <span class="font-italic"> ' . $paper['affiliations'] . '</span></p></li>';
+           }
+           echo '</ol>';
+         } catch (Exception $e) {
+           echo '<p class="text-danger">papers.json file is malformed.</p>';
+         }
+       } else {
+         echo '<p>This information is not yet available. This information will be available after authors are notified, which should occur by ' . $META['finalNotification'] . '. Thank you for your patience.</p>';
+       }
+    ?>
 
     <div class="row">
       <section class="col-sm-12">

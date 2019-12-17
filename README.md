@@ -151,7 +151,9 @@ on you will want to add more information in the individual pages:
 ### Accepted papers
 
 The list of accepted papers is stored in `json/papers.json`, and can
-be exported from websubrev.
+be exported from websubrev. Once that file exists, it should show up
+in the `acceptedpapers.php page`. The format of the file is shown
+in `json/sample_papers.json`.
 
 ### Program
 
