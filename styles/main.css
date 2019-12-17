@@ -47,7 +47,18 @@ a.dropdown-item {
   color: #FEFDFB;
 }
 
-
+/* NOTE: hover effect for navbar only on larger screens. massive thanks to
+ * https://stackoverflow.com/questions/51413782/dropdown-on-hover-in-bootstrap-4-1
+ */
+@media only screen and (min-width: 992px) {
+  #navbarNav li:not(:last-child):hover>.dropdown-menu {
+    display: block;
+  }
+  #navbarNav .dropdown > .dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+  }
+}
 
 /***** Header (in /includes/nav.php) *****/
 .headerImg {
