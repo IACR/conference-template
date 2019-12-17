@@ -2,8 +2,12 @@
 <html lang="en">
   <head>
     <?php // The header includes the head tag and start of body
-        require "includes/head.php";
-          ?>
+      require "includes/head.php";
+    ?>
+
+    <title>
+      <?php echo $META['shortName'];?> Call for Papers
+    </title>
   </head>
   <body>
     <?php require "includes/nav.php"; ?>

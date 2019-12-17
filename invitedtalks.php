@@ -2,8 +2,8 @@
 <html lang="en">
   <head>
     <?php // The header includes the head tag and start of body
-        require "includes/head.php";
-          ?>
+      require "includes/head.php";
+    ?>
 
     <style>
       @media only screen and (min-width: 768px) {
@@ -12,6 +12,10 @@
         }
       }
     </style>
+
+    <title>
+      <?php echo $META['shortName'];?> Invited Talks
+    </title>
   </head>
   <body>
     <?php require "includes/nav.php"; ?>

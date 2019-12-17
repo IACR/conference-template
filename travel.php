@@ -2,8 +2,9 @@
 <html lang="en">
   <head>
     <?php // The header includes the head tag and start of body
-        require "includes/head.php";
-          ?>
+      require "includes/head.php";
+    ?>
+
     <style>
       div#venuemap {
         margin-top: 15px;
@@ -43,7 +44,10 @@
       }
     </style>
 
-    <title><?php echo $META['shortName'];?> Travel and Venue </title>
+    <title>
+      <?php echo $META['shortName'];?> Travel & Venue
+    </title>
+
     <link rel="stylesheet" href="https://iacr.org/libs/js/leafletjs/leaflet.css"/>
   </head>
   <body>
@@ -51,7 +55,7 @@
 
     <main class="container mt-4">
       <h2 class="indPageTitle">
-        Travel Information
+        Travel & Venue Information
       </h2>
 
       <!-- NOTE: below is standard placeholder text for when the page is under construction. please delete this entire <div class="row"> and all elements contained within it when ready to add other content -->
