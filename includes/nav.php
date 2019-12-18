@@ -23,7 +23,8 @@
 ?>
 
 <!-- BEGIN nav -->
-    <header id="conf_id" class="headerImg">
+<div id="pageTop">
+   <header id="conf_id" class="headerImg">
       <div class="col-sm-12 headerGradient pt-md-5">
         <div class="container">
           <div class="row d-md-flex align-items-center">
@@ -97,6 +98,7 @@
         </div>
       </nav>
     </div>
+</div>
     <noscript>
       <div class="container">
         <h2>
