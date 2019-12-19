@@ -46,7 +46,7 @@ aria-haspopup="true" aria-expanded="false">
             </div>
             <div class="col-md-2">
               <a href="https://iacr.org/">
-                <img id="logo" class="d-none d-lg-block" src="https://iacr.org/img/logo/iacrlogo_small.png" title="International Association for Cryptologic Research">
+                <img id="logo" class="d-none d-lg-block mx-auto" src="https://iacr.org/img/logo/iacrlogo_small.png" title="International Association for Cryptologic Research">
               </a>
             </div>
             <div class="col-md-5">
