@@ -1,4 +1,4 @@
-<!----------------- REMOVE THIS AFTER FIXING STYLES -------->
+<!-- %%%%%%%%%%%%%%%%%% REMOVE THIS AFTER FIXING STYLES %%%%%%% -->
 
 <script>
   function setTheme(val) {
@@ -31,7 +31,7 @@ aria-haspopup="true" aria-expanded="false">
     <a class="dropdown-item" href="#" onclick='setTheme("blue")'>Blue</a>
   </div>
 </div>
-<!----------------- REMOVE ABOVE AFTER FIXING STYLES -------->
+<!-- %%%%%%%%%%%%%%%%%%%%%% REMOVE ABOVE AFTER FIXING STYLES %%%%%%%%%%% -->
 
 <!-- BEGIN nav -->
 <div id="pageTop">

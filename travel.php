@@ -42,7 +42,7 @@
   <body>
     <?php require "includes/nav.php"; ?>
 
-    <main class="container mt-5">
+    <main class="container mt-5 p-4">
 
       <div class="row">
         <div class="col-sm-12">
