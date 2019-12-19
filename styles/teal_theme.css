@@ -28,10 +28,6 @@ main {
 }
 
 /***** Header (in /includes/nav.php) *****/
-.headerGradient2 {
-  background: -webkit-linear-gradient(top, rgba(34,122,122,.6) 0%, rgba(57,204,204,.1) 100%);
-  background: linear-gradient(to bottom,  rgba(34,122,122,.6) 0%, rgba(57,204,204,0) 100%);
-}
 
 .headerTitle {
   color: #2E3192;
