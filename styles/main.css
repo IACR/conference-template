@@ -7,6 +7,11 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+main {
+    padding: 1rem;
+    background-color: #ffffff;
+}
+
 p {
   text-align: justify;
 }
@@ -52,7 +57,6 @@ a.dropdown-item {
 /***** Header (in /includes/nav.php) *****/
 .headerImg {
   background-size: cover;
-  background-image: url("../images/defaultbg2_crop.jpg");
   background-position: center center;
   height: 240px;
 }
