@@ -37,6 +37,18 @@ a:hover {
   background-color: #102A83;
 }
 
+/* NOTE: Normally in Bootstrap you'd just add .nav-fill and .w-100 to ul.navbar-nav. Unfortunately this makes all nav links centered in mobile, which looks dumb. This is the workaround. Thanks to myself (Kay) and a ridiculous amount of searching + trial & error for this solution. */
+@media only screen and (min-width: 768px) {
+  #nav-ul {
+    width: 100% !important;
+  }
+
+  #nav-ul .nav-item {
+    flex: 1 1 auto;
+    text-align: center;
+  }
+}
+
 a.nav-link {
   color: #FEFDFB !important;
   font-size: 1.2rem;
@@ -51,7 +63,18 @@ a.dropdown-item {
   color: #FEFDFB;
 }
 
-
+/* NOTE: hover effect for navbar only on larger screens. massive thanks to
+ * https://stackoverflow.com/questions/51413782/dropdown-on-hover-in-bootstrap-4-1
+ */
+@media only screen and (min-width: 992px) {
+  #navbarNav li:not(:last-child):hover>.dropdown-menu {
+    display: block;
+  }
+  #navbarNav .dropdown > .dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+  }
+}
 
 /***** Header (in /includes/nav.php) *****/
 .headerImg {
