@@ -1,26 +1,37 @@
-<?php
-  // Set the root path in the nav menu.
-  function rootPath() {
-    // must declare $META as global variable, as it's created in head.php
-    // and doesn't work here unless defined within the function
-    global $META;
+<!-- %%%%%%%%%%%%%%%%%% REMOVE THIS AFTER FIXING STYLES %%%%%%% -->
 
-    // NOTE: if you are developing on a local machine, then you probably
-    // should use "/" as your root path. On the iacr.org server the URL is
-    // prefixed by the year (e.g., crypto.iacr.org/2020). We distinguish these
-    // cases using the $_SERVER['HTTP_HOST'] variable.
-
-    if (empty($_SERVER['HTTP_HOST'])) {
-      return "/";
-    }
-    $length = strlen($_SERVER['HTTP_HOST']);
-    if ($length >= 8 &&
-        substr($_SERVER['HTTP_HOST'], -8) === 'iacr.org') {
-      return "/" . strval($META['year']) . "/";
-    }
-    return "/";
+<script>
+  function setTheme(val) {
+     document.getElementById('style').href = '/iacr/styles/' + val + '_theme.css';
   }
-?>
+</script>
+<style>
+#theme-menu {
+  position: fixed;
+  top: 0%;
+  right: 0%;
+  z-index: 2000;
+  height: 0;
+}
+
+#theme-menu button {
+  background: #f0f0f0 !important;
+  border: 2px solid blue;
+}
+</style>
+<div class="dropdown" id="theme-menu">
+  <button class="btn btn-transparent dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" \
+aria-haspopup="true" aria-expanded="false">
+    Choose a color scheme
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#" onclick='setTheme("orange")'>Orange</a>
+    <a class="dropdown-item" href="#" onclick='setTheme("green")'>Green</a>
+    <a class="dropdown-item" href="#" onclick='setTheme("teal")'>Teal</a>
+    <a class="dropdown-item" href="#" onclick='setTheme("blue")'>Blue</a>
+  </div>
+</div>
+<!-- %%%%%%%%%%%%%%%%%%%%%% REMOVE ABOVE AFTER FIXING STYLES %%%%%%%%%%% -->
 
 <!-- BEGIN nav -->
 <div id="pageTop">

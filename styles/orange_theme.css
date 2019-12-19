@@ -1,9 +1,16 @@
-/* NOTE: this is a supplemental style sheet. You should only include orange.css OR green.css OR blue.css on all individual html pages. One of these supplemental style sheets MUST be included in addition to main.css.
+/* NOTE: this is a supplemental style sheet. You should select one of the
+   styles/*_theme.css files to include (orange_theme.css is included by default).
+*/
 
-By default, orange.css and theme.css are identical. */
 
 /***** General styling *****/
-body, .listItems {
+
+
+.headerImg {
+  background-image: url("../images/banners/circuit.jpg");
+}
+
+ody, .listItems {
   background-color: #FEFDFB;
 }
 

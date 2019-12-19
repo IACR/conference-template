@@ -1,27 +1,33 @@
 /* NOTE: this is a theme stylesheet. You do NOT need to include additional stylesheets on any of the pages. If you would like a custom style, add to this file.  Please see installation docs for more information on how to change the theme. */
 
 /***** General styling *****/
+
+body {
+  background-size:cover;
+  background-image: url("../images/banners/ellipses.svg");
+
+}
+
 body, .listItems {
   background-color: #FEFDFB;
 }
 
+main {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
 
 
 /***** Nav (in /includes/nav.php) *****/
-nav#mainmenu {
-  background-color: #FEFDFB;
+#pageTop {
+  /* equivalent of d-flex */
+  display: -ms-flexbox !important;
+  display: flex !important;
+  /* equivalent of flex-column-reverse */
+  -ms-flex-direction: column-reverse !important;
+  flex-direction: column-reverse !important;
 }
-
-
 
 /***** Header (in /includes/nav.php) *****/
-.headerGradient {
-  background: rgba(204, 132, 30, 0.6);
-  background: -webkit-linear-gradient(rgba(204, 132, 30, 0.6), rgba(254, 253, 251, 1));
-  background: -o-linear-gradient(rgba(204, 132, 30, 0.6), rgba(254, 253, 251, 1));
-  background: -moz-linear-gradient(rgba(204, 132, 30, 0.6), rgba(254, 253, 251, 1));
-  background: linear-gradient(rgba(204, 132, 30, 0.6), rgba(254, 253, 251, 1));
-}
 
 .headerTitle {
   color: #2E3192;
@@ -36,7 +42,20 @@ nav#mainmenu {
 }
 
 
+#main-nav-row {
+    /*  background-color: #0F5C45;*/
+    background-color: rgba(4, 101, 119, 1);
+}
 
+div.dropdown-menu {
+/*  background-color: #0F5C45;*/
+  background-color: rgba(4, 101, 119, 1);
+  color: #FEFDFB;
+}
+
+a.dropdown-item {
+  color: #FEFDFB;
+}
 /***** Main Content: general styling *****/
 .indPageTitle {
   color: #0F773C;

@@ -12,7 +12,7 @@
   <body>
     <?php require "includes/nav.php"; ?>
 
-    <main class="container mt-4">
+    <main class="container mt-4 p-4">
       <h2 class="indPageTitle">
         Call for Papers
       </h2>

@@ -188,12 +188,13 @@ ___
 
 ### Changing the default colors
 
-There are several color schemes to choose from, and these are
-represented by the contents of `styles/theme.css`. The default is the
-same as `styles/orange.css` but you can select another one if you
-prefer. If you want to switch to the blue color scheme, then copy
-`blue.css` to `theme.css`.  This will change the color scheme for the
-entire site.
+The colors are set by including a css file in the `styles/` directory.
+This is controlled in the file `includes/head.php`, which by default
+includes `styles/orange_theme.css`. You can change that to any file of
+the `styles/*_theme.css` files (or make your own). This will change
+the color scheme for the entire site. We recommend that you try a few
+to see what you prefer. Each theme uses a different banner image, but
+the next section has instructions to change that.
 
 You may need to [disable the browser
 cache](https://en.wikipedia.org/wiki/Wikipedia:Bypass_your_cache) to
@@ -205,20 +206,25 @@ instructions.
 
 ___
 
-### Editing the header image
+### Changing the header image
 
-The header image is specified in `styles/main.css` as
-`.headerImg`. There are three default images you can choose from that
-are found in `images/`. If you want to remove the background image
-in the header, delete or comment out `.headerImg{background-size}`,
-`.headerImg{background-image}`, and `.headerImg{background-position}` in
-`styles/main.css`.
+Once you choose a color theme, you can also choose a header image.
+The header image is specified in the themes file mentioned in the
+previous section, as `.headerImg`. There are several default images
+located in the `images/banners/` directory. Each theme currently uses
+a different banner, but you can freely mix them by changing the
+`.headerImg` setting in the theme css file that you select.
+
+If you want to remove the background image in the header, delete or
+comment out `.headerImg{background-size}`,
+`.headerImg{background-image}`, and `.headerImg{background-position}`
+in your css file from `styles/`.
 
 If you want to use a custom image, it *must* be 1200x480px or larger
 (note that larger may affect page load time). Acceptable file formats
-are .jpg, .png, or .gif. If using an animated gif, proceed with
-caution as this has the potential to be supremely annoying and/or
-negatively affect page load times.
+are .jpg, .png, .svg, or .gif. You should not use an animated gif, as
+this has the potential to be supremely annoying and/or negatively
+affect page load times.
 
 Removing the header image will not remove the gradient effect. If you
 would like to remove the gradient effect independent of the header
