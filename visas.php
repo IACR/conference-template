@@ -53,7 +53,7 @@
             Requests for invitation letters need to be received by 2040.
           </p>
           <p>
-            Conference attendees who require a visa will typically need an invitation letter from the <a href="./contact.html">General Chair</a>. To expedite the process, please provide as many of the following pieces of information as possible in your request:
+            Conference attendees who require a visa will typically need an invitation letter from the <a href="./contact.php">General Chair</a>. To expedite the process, please provide as many of the following pieces of information as possible in your request:
           </p>
           <ul>
             <li>

@@ -143,7 +143,7 @@
         <section class="col-md-6">
           <h3 class="pageSubtitle">An Important Note for Students</h3>
           <p>
-            If you are a student presenting at <span class="conf_name"><?php echo $META['shortName'];?></span>, your registration fee will be covered by the IACR Fund for Student Presenters; you do not need to pay for registration. Please register for the conference but do not submit any payment. After registering, send an email to the <a href="mailto:doNotEmailMe@fakeDomain.com">General Chair</a>, explaining that you are a student presenter and have already registered. More information is available <a href="./stipends.html">here</a>.
+            If you are a student presenting at <span class="conf_name"><?php echo $META['shortName'];?></span>, your registration fee will be covered by the IACR Fund for Student Presenters; you do not need to pay for registration. Please register for the conference but do not submit any payment. After registering, send an email to the <a href="mailto:doNotEmailMe@fakeDomain.com">General Chair</a>, explaining that you are a student presenter and have already registered. More information is available <a href="./stipends.php">here</a>.
           </p>
         </section>
       </div>

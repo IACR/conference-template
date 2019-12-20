@@ -33,10 +33,10 @@
       <!-- <div class="row">
         <section class="col-12">
           <p>
-            Please see the <a href="./callforpapers.html">call for papers page</a> for more information while we work on getting the submission server up and running.
+            Please see the <a href="./callforpapers.php">call for papers page</a> for more information while we work on getting the submission server up and running.
           </p>
           <p>
-            The submission deadline for <span class="conf_name"><?php echo $META['shortName'];?></span> has passed. The list of accepted papers is <a href="./acceptedpapers.html">now available</a>.
+            The submission deadline for <span class="conf_name"><?php echo $META['shortName'];?></span> has passed. The list of accepted papers is <a href="./acceptedpapers.php">now available</a>.
           </p>
         </section>
       </div> -->
