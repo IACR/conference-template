@@ -12,7 +12,7 @@
   <body>
     <?php require "includes/nav.php"; ?>
 
-    <main class="container mt-4 p-4">
+    <main class="container mt-3 mt-lg-4 p-4">
       <h2 class="indPageTitle">
         Call for Papers
       </h2>
@@ -27,7 +27,7 @@
       </div> -->
 
       <div class="row mt-4">
-        <section class="col-md-6">
+        <section class="col-lg-6">
           <h3 class="pageSubtitle">General Information</h3>
           <p>
             <span class="conf_name"><?php echo $META['shortName'];?></span> will take place in <span class="conf_location"><?php echo $META['location'];?></span> on <span class="conf_dates"><?php echo $META['dates'];?></span>. <span class="conf_name"><?php echo $META['shortName'];?></span> is organized by <a href="http://iacr.org/">the International Association for Cryptologic Research</a> (IACR). Original research papers on all technical aspects of cryptology are solicited for submission.
@@ -36,7 +36,7 @@
             This is not a real conference; it is a demo of what this site might look like. Parts of it are derived from past conferences that IACR has hosted, such as the program and program committee.
           </p>
         </section>
-        <div class="col-md-6">
+        <div class="col-lg-6 mt-3 mt-lg-0">
           <article class="customCard">
             <h4 class="customCardHeader">
               Example Dates

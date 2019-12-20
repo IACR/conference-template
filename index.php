@@ -12,7 +12,7 @@
   <body>
     <?php require "includes/nav.php"; ?>
 
-  <main class="container mt-4 mt-md-5 p-4">
+  <main class="container mt-3 mt-lg-4 p-4">
 
     <!-- NOTE: below is placeholder content. please replace contents with your own content when ready. this content serves to give you an idea of what the structure of this page has looked like in the past -->
     <div class="row mb-2">
@@ -30,7 +30,7 @@
     </div>
 
     <div class="row mt-4">
-      <div class="col-md-6">
+      <div class="col-lg-6">
         <article class="customCard">
           <h4 class="customCardHeader">
             Example Dates
@@ -89,7 +89,7 @@
         </article>
       </div>
 
-      <div class="col-md-6">
+      <div class="col-lg-6 mt-4 mt-lg-0">
         <article class="customCard">
           <h4 class="customCardHeader">
             Website Updates
