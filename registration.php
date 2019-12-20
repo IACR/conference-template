@@ -124,7 +124,7 @@
       <div class="row mt-4">
         <!-- NOTE: the following <br> and <section> tags are a separate under construction message for when you can release the above chart but have not yet added other information to this page. these should both be deleted upon adding additional content below to replace the boilerplate -->
         <!-- <br />
-             <section class="col-sm-12">
+             <section class="col-12">
                <p>
                  Thank you for your patience with us while we finalize the information about registration for this year's conference. Please check back for updated information closer to when registration opens.
                </p>

@@ -29,7 +29,7 @@
 
       <!-- NOTE: below is placeholder content derived from the Crypto 2016 conference. please uncomment and replace with your own content when ready. this code is here to give you an idea of what the structure of this page has looked like in the past -->
       <div class="row">
-        <section class="col-sm-12">
+        <section class="col-12">
           <p>
             The Cryptography Research Fund allows us to waive the registration fee for all student presenters of an accepted paper. A limited number of stipends will be available to those students unable to obtain funding to attend the conference, and to students who have an accepted paper that they will present. Students in under-represented groups are especially encouraged to apply. To apply, please ask your PhD supervisor or Department Head to email a brief justification  to the <a href="./contact.html">General Chair</a>.
           </p>

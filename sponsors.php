@@ -28,7 +28,7 @@
 
       <!-- NOTE: below is placeholder content. please uncomment and replace with your own content when ready. -->
       <div class="row">
-        <section class="col-sm-12">
+        <section class="col-12">
           <p>
             <span class="conf_name"><?php echo $META['shortName'];?></span> relies on sponsors to help ensure student participation. Please contact the <a href="./contact.html">General Chair</a> if your company is interested in sponsoring this conference.
           </p>

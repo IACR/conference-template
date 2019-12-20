@@ -19,7 +19,7 @@
         New Page Title
       </h2>
       <div class="row">
-        <div class="col-sm-12">
+        <div class="col-12">
           <p>
             This information is not yet available. Thank you for your patience.
           </p>

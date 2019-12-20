@@ -19,7 +19,7 @@
 
       <!-- NOTE: the following is required text for the code of conduct. Any text that looks like ***some sample text*** is text that MUST be changed by the general chair or whoever is responsible for the conference website -->
       <div class="row">
-        <div class="col-sm-12">
+        <div class="col-12">
           <p>
             The IACR is committed to providing an experience free of harassment and discrimination in its events, respecting the dignity of every participant.
           </p>
@@ -35,14 +35,9 @@
         </div>
       </div>
 
-      <div class="row mt-4">
-        <div class="col-sm-12">
-          <h3 class="pageSubtitle">
-            Who to Contact
-          </h3>
-        </div>
-      </div>
-
+      <h3 class="pageSubtitle mt-4">
+        Who to Contact
+      </h3>
       <div class="row">
         <aside class="col-sm-4">
           <h4 class="subSubtitle">
