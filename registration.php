@@ -195,7 +195,7 @@
         <section class="col-md-6">
           <h3 class="pageSubtitle">Housing</h3>
           <p>
-            Conference registration and on-site housing registration are now separate processes. To learn more about housing options, visit the <a href="./accommodations.html">accommodations</a> page.
+            Conference registration and on-site housing registration are now separate processes. To learn more about housing options, visit the <a href="./travel.php">travel</a> page.
           </p>
         </section>
       </div>
