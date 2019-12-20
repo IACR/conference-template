@@ -302,3 +302,17 @@ span.talkMedia {
 img.talkMediaIcon, img.sessionInfoIcon {
   height: 20px;
 }
+
+
+
+/***** Page-specific: sponsors *****/
+img.sponsorPageLogo {
+  width: 100%;
+  height: auto;
+  padding: 0.25rem;
+}
+
+/* TODO: is this div just completely unnecessary? */
+/* .caption {
+  margin-top: 1.5rem;
+} */

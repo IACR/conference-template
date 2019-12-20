@@ -41,8 +41,8 @@
 
       <section class="row">
         <div class="col-12 col-md-10 col-lg-6 mx-auto">
-          <a href="http://kaymckelly.com" class="thumbnail">
-            <img src="./images/demo/logo1.jpg" alt="fake company 1" class="img-thumbnail">
+          <a href="http://kaymckelly.com">
+            <img src="./images/demo/logo1.jpg" alt="fake company 1" class="sponsorPageLogo">
           </a>
           <div class="caption">
             <p class="lead text-center">
@@ -54,8 +54,8 @@
           </div>
         </div>
         <div class="col-12 col-md-10 col-lg-6 mx-auto">
-          <a href="http://kaymckelly.com" class="thumbnail">
-            <img src="./images/demo/logo2.jpg" alt="fake company 1" class="img-thumbnail">
+          <a href="http://kaymckelly.com">
+            <img src="./images/demo/logo2.jpg" alt="fake company 1" class="sponsorPageLogo">
           </a>
           <div class="caption">
             <p class="lead text-center">
@@ -76,8 +76,8 @@
 
       <section class="row">
         <div class="col-10 col-md-6 col-lg-4 mx-auto">
-          <a href="http://kaymckelly.com" class="thumbnail">
-            <img src="./images/demo/logo5.jpg" alt="fake company 2" class="img-thumbnail">
+          <a href="http://kaymckelly.com">
+            <img src="./images/demo/logo5.jpg" alt="fake company 2" class="sponsorPageLogo">
           </a>
           <div class="caption">
             <p class="lead text-center">
@@ -89,8 +89,8 @@
           </div>
         </div>
         <div class="col-10 col-md-6 col-lg-4 mx-auto">
-          <a href="http://kaymckelly.com" class="thumbnail">
-            <img src="./images/demo/logo4.jpg" alt="fake company 2" class="img-thumbnail">
+          <a href="http://kaymckelly.com">
+            <img src="./images/demo/logo4.jpg" alt="fake company 2" class="sponsorPageLogo">
           </a>
           <div class="caption">
             <p class="lead text-center">
@@ -102,8 +102,8 @@
           </div>
         </div>
         <div class="col-10 col-md-6 col-lg-4 mx-auto">
-          <a href="http://kaymckelly.com" class="thumbnail">
-            <img src="./images/demo/logo5.jpg" alt="fake company 2" class="img-thumbnail">
+          <a href="http://kaymckelly.com">
+            <img src="./images/demo/logo5.jpg" alt="fake company 2" class="sponsorPageLogo">
           </a>
           <div class="caption">
             <p class="lead text-center">
@@ -127,8 +127,8 @@
 
       <section class="row">
         <div class="col-6 col-md-4 col-lg-3 mx-auto">
-          <a href="http://kaymckelly.com" class="thumbnail">
-            <img src="./images/demo/logo6.jpg" alt="fake company 2" class="img-thumbnail">
+          <a href="http://kaymckelly.com">
+            <img src="./images/demo/logo6.jpg" alt="fake company 2" class="sponsorPageLogo">
           </a>
           <div class="caption">
             <p class="lead text-center">
@@ -140,8 +140,8 @@
           </div>
         </div>
         <div class="col-6 col-md-4 col-lg-3 mx-auto">
-          <a href="http://kaymckelly.com" class="thumbnail">
-            <img src="./images/demo/logo7.jpg" alt="fake company 2" class="img-thumbnail">
+          <a href="http://kaymckelly.com">
+            <img src="./images/demo/logo7.jpg" alt="fake company 2" class="sponsorPageLogo">
           </a>
           <div class="caption">
             <p class="lead text-center">
@@ -153,8 +153,8 @@
           </div>
         </div>
         <div class="col-6 col-md-4 col-lg-3 mx-auto">
-          <a href="http://kaymckelly.com" class="thumbnail">
-            <img src="./images/demo/logo6.jpg" alt="fake company 2" class="img-thumbnail">
+          <a href="http://kaymckelly.com">
+            <img src="./images/demo/logo6.jpg" alt="fake company 2" class="sponsorPageLogo">
           </a>
           <div class="caption">
             <p class="lead text-center">
@@ -166,8 +166,8 @@
           </div>
         </div>
         <div class="col-6 col-md-4 col-lg-3 mx-auto">
-          <a href="http://kaymckelly.com" class="thumbnail">
-            <img src="./images/demo/logo7.jpg" alt="fake company 2" class="img-thumbnail">
+          <a href="http://kaymckelly.com">
+            <img src="./images/demo/logo7.jpg" alt="fake company 2" class="sponsorPageLogo">
           </a>
           <div class="caption">
             <p class="lead text-center">
