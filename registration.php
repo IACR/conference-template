@@ -12,7 +12,7 @@
   <body>
     <?php require "includes/nav.php"; ?>
 
-    <main class="container mt-4 p-4">
+    <main class="container mt-3 mt-lg-4 p-4">
       <h2 class="indPageTitle">
         Registration
       </h2>
@@ -124,7 +124,7 @@
       <div class="row mt-4">
         <!-- NOTE: the following <br> and <section> tags are a separate under construction message for when you can release the above chart but have not yet added other information to this page. these should both be deleted upon adding additional content below to replace the boilerplate -->
         <!-- <br />
-             <section class="col-sm-12">
+             <section class="col-12">
                <p>
                  Thank you for your patience with us while we finalize the information about registration for this year's conference. Please check back for updated information closer to when registration opens.
                </p>
@@ -143,7 +143,7 @@
         <section class="col-md-6">
           <h3 class="pageSubtitle">An Important Note for Students</h3>
           <p>
-            If you are a student presenting at <span class="conf_name"><?php echo $META['shortName'];?></span>, your registration fee will be covered by the IACR Fund for Student Presenters; you do not need to pay for registration. Please register for the conference but do not submit any payment. After registering, send an email to the <a href="mailto:doNotEmailMe@fakeDomain.com">General Chair</a>, explaining that you are a student presenter and have already registered. More information is available <a href="./stipends.html">here</a>.
+            If you are a student presenting at <span class="conf_name"><?php echo $META['shortName'];?></span>, your registration fee will be covered by the IACR Fund for Student Presenters; you do not need to pay for registration. Please register for the conference but do not submit any payment. After registering, send an email to the <a href="mailto:doNotEmailMe@fakeDomain.com">General Chair</a>, explaining that you are a student presenter and have already registered. More information is available <a href="./stipends.php">here</a>.
           </p>
         </section>
       </div>
@@ -195,7 +195,7 @@
         <section class="col-md-6">
           <h3 class="pageSubtitle">Housing</h3>
           <p>
-            Conference registration and on-site housing registration are now separate processes. To learn more about housing options, visit the <a href="./accommodations.html">accommodations</a> page.
+            Conference registration and on-site housing registration are now separate processes. To learn more about housing options, visit the <a href="./travel.php">travel</a> page.
           </p>
         </section>
       </div>

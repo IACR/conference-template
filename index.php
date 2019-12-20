@@ -12,7 +12,7 @@
   <body>
     <?php require "includes/nav.php"; ?>
 
-  <main class="container mt-4 mt-md-5 p-4">
+  <main class="container mt-3 mt-lg-4 p-4">
 
     <!-- NOTE: below is placeholder content. please replace contents with your own content when ready. this content serves to give you an idea of what the structure of this page has looked like in the past -->
     <div class="row mb-2">
@@ -24,13 +24,13 @@
           <span class="conf_name"><?php echo $META['name'];?></span> is organized by <a href="http://iacr.org/">the International Association for Cryptologic Research</a> (IACR).
         </p>
         <p>
-          Please visit the <a href="./callforpapers.html">call for papers</a> page while we work on adding more information to our other pages. Thank you for your patience.
+          Please visit the <a href="./callforpapers.php">call for papers</a> page while we work on adding more information to our other pages. Thank you for your patience.
         </p>
       </article>
     </div>
 
     <div class="row mt-4">
-      <div class="col-md-6">
+      <div class="col-lg-6">
         <article class="customCard">
           <h4 class="customCardHeader">
             Example Dates
@@ -89,7 +89,7 @@
         </article>
       </div>
 
-      <div class="col-md-6">
+      <div class="col-lg-6 mt-4 mt-lg-0">
         <article class="customCard">
           <h4 class="customCardHeader">
             Website Updates
@@ -115,7 +115,7 @@
               March 28 2017
             </h6>
             <p class="col-7 col-md-8">
-              <a href="./callforpapers.html">Call for papers</a> page updated
+              <a href="./callforpapers.php">Call for papers</a> page updated
             </p>
           </div>
           <div class="customCardRow row">

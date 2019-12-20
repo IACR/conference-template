@@ -1,5 +1,5 @@
     <div class="row">
-      <footer class="col-sm-12 text-center footer">
+      <footer class="col-12 text-center footer">
         <small>
           <span class="conf_name"><?php echo $META['name'];?></span>
         </small>

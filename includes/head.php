@@ -25,7 +25,7 @@
         substr($_SERVER['HTTP_HOST'], -8) === 'iacr.org') {
       return "/" . strval($META['year']) . "/";
     }
-    return "/iacr/";
+    return "/";
   }
 ?>
 
@@ -37,8 +37,8 @@
     <link href="https://iacr.org/libs/css/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" >
 
     <!-- Styling -->
-    <link rel="stylesheet" href="<?php echo rootPath();?>/styles/main.css">
-    <link id="style" rel="stylesheet" href="<?php echo rootPath();?>/styles/orange_theme.css">
+    <link rel="stylesheet" href="<?php echo rootPath();?>styles/main.css">
+    <link id="style" rel="stylesheet" href="<?php echo rootPath();?>styles/orange_theme.css">
     <!-- metadata for googlebot -->
     <script type="application/ld+json">
      {
@@ -95,4 +95,3 @@
     <meta property="twitter:image" content="https://iacr.org/img/logo/iacr_wordmark_twitter.png"/>
     <!-- apple format for iMessage and search -->
     <link rel="apple-touch-icon" href="https://iacr.org/img/logo/iacrlogo_small.png">
-

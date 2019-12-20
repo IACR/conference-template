@@ -12,14 +12,14 @@
   <body>
     <?php require "includes/nav.php"; ?>
 
-    <main class="container mt-4 p-4">
+    <main class="container mt-3 mt-lg-4 p-4">
       <h2 class="indPageTitle">
         Visa Information
       </h2>
 
       <!-- NOTE: below is standard placeholder text for when the page is under construction. please delete this entire <div class="row"> and all elements contained within it when ready to add other content -->
       <div class="row">
-        <div class="col-sm-12">
+        <div class="col-12">
           <p>
             This information is not yet available. Thank you for your patience. If it were, it might look something like this.
           </p>
@@ -28,7 +28,7 @@
 
       <!-- NOTE: below is placeholder content derived from the Crypto 2016 conference. please uncomment and replace with your own content when ready. this code is here to give you an idea of what the structure of this page has looked like in the past -->
       <div class="row">
-        <section class="col-sm-12">
+        <section class="col-12">
           <p>
             It is imperative that authors and delegates allow sufficient time to obtain visas.
           </p>
@@ -45,7 +45,7 @@
       </div>
 
       <div class="row mt-4">
-        <section class="col-sm-12">
+        <section class="col-12">
           <h3 class="pageSubtitle">
             Invitation Letters
           </h3>
@@ -53,7 +53,7 @@
             Requests for invitation letters need to be received by 2040.
           </p>
           <p>
-            Conference attendees who require a visa will typically need an invitation letter from the <a href="./contact.html">General Chair</a>. To expedite the process, please provide as many of the following pieces of information as possible in your request:
+            Conference attendees who require a visa will typically need an invitation letter from the <a href="./contact.php">General Chair</a>. To expedite the process, please provide as many of the following pieces of information as possible in your request:
           </p>
           <ul>
             <li>
