@@ -17,5 +17,6 @@
   "cameraReady": "2022-07-05",
   "latitude": -119.84698971268,
   "longitude": 34.411605668706,
+  "eventtype": "crypto",
   "_comment": "Be careful editing this file. It must be valid JSON."
 }
