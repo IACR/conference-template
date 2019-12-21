@@ -8,11 +8,24 @@
     <title>
       <?php echo $META['shortName'];?>
     </title>
+    <style>
+      main {
+        /* emulate mt-3 */
+        margin-top: 1rem;
+      }
+      @media only screen and (min-width: 992px) {
+        main {
+          /* emulate mt-lg-4 */
+          margin-top: 1.5rem;
+        }
+      }
+    </style>
+
   </head>
   <body>
     <?php require "includes/nav.php"; ?>
 
-  <main class="container mt-3 mt-lg-4 p-4">
+  <main class="container p-4">
 
     <!-- NOTE: below is placeholder content. please replace contents with your own content when ready. this content serves to give you an idea of what the structure of this page has looked like in the past -->
     <div class="row mb-2">
