@@ -9,8 +9,15 @@ body {
 
 main {
     background-color: #ffffff;
-    /* emulate mt-4 */
-    margin-top: 1.5rem;
+    /* emulate mt-3 */
+    margin-top: 1rem;
+}
+
+@media only screen and (min-width: 992px) {
+    main {
+        /* emulate mt-lg-4 */
+        margin-top: 1.5rem;
+    }
 }
 
 p {

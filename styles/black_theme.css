@@ -36,8 +36,24 @@ ul#nav-ul {
   margin-bottom: 0.8em;
 }
 
+@media only screen and (max-width: 768px) {
+   background-color: #11001A;
+}
+
 ul#nav-ul a.nav-link {
-  color: #0D0D0D;
+    color: #FEFDFB;
+/*  color: #0D0D0D;*/
+}
+
+@media only screen and (max-width: 768px) {
+    li.nav-item {
+        background-color: #11001A;
+    }
+}
+
+div.dropdown-menu {
+    background-color: #11001A;
+    border: none;
 }
 
 @media only screen and (min-width: 768px) {
@@ -53,8 +69,6 @@ ul#nav-ul a.nav-link {
   div.dropdown-menu {
     /* make sure dropdown doesn't disappear when you move. */
     top: 2.2rem;
-    background-color: #11001A;
-    border: none;
   }
   
   a.dropdown-item:hover {

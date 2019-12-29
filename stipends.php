@@ -13,7 +13,7 @@
     <?php require "includes/nav.php"; ?>
 
 
-    <main class="container mt-3 mt-lg-4 p-4">
+    <main class="container p-4">
       <h2 class="indPageTitle">
         Student Stipends
       </h2>
