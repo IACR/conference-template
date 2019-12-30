@@ -45,6 +45,15 @@ main {
 #main-nav-row {
     /*  background-color: #0F5C45;*/
     background-color: rgba(4, 101, 119, 1);
+    /* emulated fixed-top */
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+.headerImg {
+    margin-top: 60px;
 }
 
 div.dropdown-menu {

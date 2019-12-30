@@ -9,6 +9,15 @@ body {
 
 main {
     background-color: #ffffff;
+    /* emulate mt-3 */
+    margin-top: 1rem;
+}
+
+@media only screen and (min-width: 992px) {
+    main {
+        /* emulate mt-lg-4 */
+        margin-top: 1.5rem;
+    }
 }
 
 p {
@@ -50,7 +59,7 @@ a:hover {
 }
 
 a.nav-link {
-  color: #FEFDFB !important;
+  color: #FEFDFB;
   font-size: 1.2rem;
 }
 
@@ -81,6 +90,36 @@ a.dropdown-item {
   background-size: cover;
   background-position: center center;
   height: 240px;
+}
+
+/* pageTopContainer behaves like container without !important. */
+.pageTopContainer {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media (min-width: 576px) {
+  .pageTopContainer {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .pageTopContainer {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .pageTopContainer {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .pageTopContainer {
+    max-width: 1140px;
+  }
 }
 
 .headerGradient {

@@ -1,0 +1,251 @@
+#pageTop {
+  /* equivalent of d-flex */
+  display: -ms-flexbox !important;
+  display: flex !important;
+  /* equivalent of flex-column-reverse */
+  -ms-flex-direction: column-reverse !important;
+  flex-direction: column-reverse !important;
+}
+
+/* inspiration = an ungodly bright sunset (https://coolors.co/ece300-8a0268-ff5f09-33004d-800039) */
+body {
+    background-size: cover;
+    background: #33004D;
+    background-size:cover;
+    background: linear-gradient(187deg,
+                                #EDE300 0%,
+                                #8A0268 30%,
+                                #800039 55%,
+                                #4A1F60 75%,
+                                #33004D 80%,
+                                #11001A 100%);
+/*    background: linear-gradient(187deg,
+                                #EDE300 0%,
+                                #8A0268 100px,
+                                #800039 250px,
+                                #4A1F60 500px,
+                                #33004D 700px,
+                                #11001A 100%);*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+ul#nav-ul {
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-bottom: 0.8em;
+}
+
+@media only screen and (max-width: 768px) {
+   background-color: #11001A;
+}
+
+ul#nav-ul a.nav-link {
+    color: #FEFDFB;
+/*  color: #0D0D0D;*/
+}
+
+@media only screen and (max-width: 768px) {
+    li.nav-item {
+        background-color: #11001A;
+    }
+}
+
+div.dropdown-menu {
+    background-color: #11001A;
+    border: none;
+}
+
+@media only screen and (min-width: 768px) {
+  #nav-ul {
+    width: 80% !important;
+  }
+
+  #nav-ul .nav-item {
+    flex: 1 1 auto;
+    text-align: center;
+  }
+  
+  div.dropdown-menu {
+    /* make sure dropdown doesn't disappear when you move. */
+    top: 2.2rem;
+  }
+  
+  a.dropdown-item:hover {
+    color: #0D0D0D;
+  }
+}
+
+main {
+  background-color: #0D0D0D;
+  color: #F2F2F2;
+  box-shadow: -5px 10px 30px #11001A;
+/*  height: 82vh;
+  overflow-y: scroll;*/
+}
+
+h1 {
+  border-bottom: 1px solid #424242;
+  border-radius: 32%;
+}
+
+#iacrLogo {
+  height: 4rem;
+}
+
+
+footer {
+  background-color: #11001A;
+  color: #F2F2F2;
+  text-align: center;
+  font-size: small;
+}
+
+/************************************** */
+/* NOTE: this is a supplemental style sheet. You should select one of the
+   styles/*_theme.css files to include (orange_theme.css is included by default).
+*/
+
+
+/***** General styling *****/
+
+
+
+body, .listItems {
+  background-color: #FEFDFB;
+}
+
+
+
+/***** Nav (in /includes/nav.php) *****/
+#main-nav-row {
+    background: #33004D;
+    background-size:cover;
+    background: linear-gradient(187deg,
+                                #EDE300 0%,
+                                #8A0268 30%,
+                                #800039 55%,
+                                #4A1F60 75%,
+                                #33004D 80%,
+                                #11001A 100%);
+    background-attachment: fixed;
+    background-color: rgba(0,0,0,0);
+    color: #0D0D0D;
+    height: 4rem;
+    /* emulated fixed-top */
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+.headerImg {
+    margin-top: 60px;
+}
+
+
+
+/***** Header (in /includes/nav.php) *****/
+.headerGradient {
+  box-shadow: -5px 10px 30px #11001A;
+  background: #0D0D0D;
+  color: #F2F2F2;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+img#logo {
+  display:none !important;
+}
+@media (min-width: 576px) {
+  .headerGradient {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .headerGradient {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .headerGradient {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .headerGradient {
+    max-width: 1140px;
+  }
+}
+
+.headerConferenceName {
+  flex-grow: 1;
+}
+
+.headerTitle {
+  color: #F2F2F2;
+  text-align: center !important;
+  text-shadow: none !important;
+  /* emulate display-2 */
+  font-size: 5.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.headerInfoTop {
+  color: #F2F2F2;
+  display: none;
+}
+
+.headerInfoBottom {
+  color: #F2F2F2;
+  display: none;
+}
+
+main {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+
+
+/***** Main Content: general styling *****/
+.indPageTitle {
+  color: #0F773C;
+}
+
+.darkCard h3 {
+}
+
+.customCard {
+  border: 1px solid #484848;
+}
+
+.customCardHeader {
+/*  background-color: rgba(203, 131, 30, 0.4);*/
+  color: #F2F2F2;
+  text-align: center;
+  border-radius: 12%;
+  padding-bottom: 1rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid #424242;
+}
+
+.dateTitle {
+  color: #CB831E;
+}
+
+.pageSubtitle {
+  color: #F2F2F2;
+}
+
+.customCardFooter {
+  /* NOTE: typically this is a more transparent version of the card header bg color */
+  background-color: rgba(203, 131, 30, 0.1);
+}
