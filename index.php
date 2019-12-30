@@ -8,18 +8,6 @@
     <title>
       <?php echo $META['shortName'];?>
     </title>
-    <style>
-      main {
-        /* emulate mt-3 */
-        margin-top: 1rem;
-      }
-      @media only screen and (min-width: 992px) {
-        main {
-          /* emulate mt-lg-4 */
-          margin-top: 1.5rem;
-        }
-      }
-    </style>
 
   </head>
   <body>
