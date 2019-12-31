@@ -9,8 +9,6 @@
 
 /* inspiration = an ungodly bright sunset (https://coolors.co/ece300-8a0268-ff5f09-33004d-800039) */
 body {
-    background-size: cover;
-    background: #33004D;
     background-size:cover;
     background: linear-gradient(187deg,
                                 #EDE300 0%,
@@ -65,12 +63,12 @@ div.dropdown-menu {
     flex: 1 1 auto;
     text-align: center;
   }
-  
+
   div.dropdown-menu {
     /* make sure dropdown doesn't disappear when you move. */
     top: 2.2rem;
   }
-  
+
   a.dropdown-item:hover {
     color: #0D0D0D;
   }
@@ -147,7 +145,7 @@ body, .listItems {
 
 /***** Header (in /includes/nav.php) *****/
 .headerGradient {
-  box-shadow: -5px 10px 30px #11001A;
+  /* box-shadow: -5px 10px 30px #11001A; */
   background: #0D0D0D;
   color: #F2F2F2;
   width: 100%;
