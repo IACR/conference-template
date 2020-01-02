@@ -119,13 +119,14 @@ body, .listItems {
 #main-nav-row {
     background: #33004D;
     background-size:cover;
-    background: linear-gradient(187deg,
+    background: linear-gradient(7deg, rgba(17,0,26,1) 0%, rgba(51,0,77,1) 20%, rgba(74,31,96,1) 25%, rgba(128,0,57,0.9) 45%, rgba(138,2,104,0.8) 65%, rgba(237,227,0,0.7) 95%);
+    /* background: linear-gradient(187deg,
                                 #EDE300 0%,
                                 #8A0268 30%,
                                 #800039 55%,
                                 #4A1F60 75%,
                                 #33004D 80%,
-                                #11001A 100%);
+                                #11001A 100%); */
     background-attachment: fixed;
     background-color: rgba(0,0,0,0);
     color: #0D0D0D;
@@ -190,10 +191,11 @@ img#logo {
   color: #F2F2F2;
   text-align: center !important;
   text-shadow: none !important;
-  /* emulate display-2 */
+  /* emulate .display-2 */
   font-size: 5.5rem;
   font-weight: 300;
   line-height: 1.2;
+  padding-bottom: 2.5rem;
 }
 
 .headerInfoTop {
@@ -209,6 +211,14 @@ img#logo {
 main {
   padding-top: 0 !important;
   margin-top: 0 !important;
+}
+
+a {
+  color: #FB04BD;
+}
+
+a:hover {
+  color: #4A1F60;
 }
 
 
