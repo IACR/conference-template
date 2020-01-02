@@ -67,7 +67,7 @@ aria-haspopup="true" aria-expanded="false">
       </div>
     </header>
     <div id="main-nav-row" class="sticky-top">
-      <nav class="container navbar navbar-dark navbar-expand-md">
+      <nav class="container navbar navbar-expand-md">
         <button class="navbar-toggler mt-1 collapsed nofocus" type="button" data-toggle="collapse"
                 data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="icon-bar top-bar"></span>
