@@ -9,7 +9,7 @@
 }
 
 body, .listItems {
-  background-color: #EDFDF4;
+    background-color: #f0f0f0; /* was #EDFDF4; */
 }
 
 
@@ -42,6 +42,20 @@ nav#mainmenu {
 
 
 /***** Main Content: general styling *****/
+div#main-nav-row {
+    background-color: #004445;
+}
 .indPageTitle {
   color: #2E3192;
+}
+
+.customCard {
+    border: 1px solid #6FB98F;
+}
+.customCardHeader {
+    background-color: #2c7873;   /* #265728; */
+    color: #f0f0d0;
+}
+.customCardFooter {
+    background-color: #6FB98F; /* #b7dfb8;*/
 }

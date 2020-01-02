@@ -4,15 +4,14 @@
       <stop offset='0' stop-color='#102a83'/>
       <stop offset='1' stop-color='#F0F0F0'/>
     </radialGradient>
-    <linearGradient id='b' gradientUnits='userSpaceOnUse' x1='400' y1='800' x2='400' y2='200'>
+    <linearGradient id='b' gradientUnits='objectBoundingBox' x1='400' y1='800' x2='400' y2='200'>
       <stop offset='0' stop-color='#2F8899' stop-opacity='0'/>
-      <stop offset='1' stop-color='#2F8899' stop-opacity='0.1'/>
+      <stop offset='1' stop-color='#2F8899' stop-opacity='0.06'/>
     </linearGradient>
   </defs>
-  <rect x="0" y="0" width="800" height="1000" stroke="green" stroke-width=".1" fill="none"/>
   <g fill-opacity='0.8'>
-    <ellipse fill='url(#b)' cx='300' cy='600' rx='400' ry="300"/>
-    <ellipse fill='url(#b)' cx='500' cy='600' rx='400' ry="300"/>
+    <ellipse fill='url(#b)' cx='300' cy='300' rx='400' ry="400"/>
+    <ellipse fill='url(#b)' cx='500' cy='300' rx='400' ry="400"/>
     <ellipse fill='url(#b)' cx='350' cy='500' rx='400' ry="400"/>
     <ellipse fill='url(#b)' cx='450' cy='500' rx='400' ry="400"/>
     <ellipse fill='url(#b)' cx='400' cy='400' rx='400' ry="600"/>

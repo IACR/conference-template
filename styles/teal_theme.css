@@ -3,7 +3,7 @@
 /***** General styling *****/
 
 body {
-  background-size:cover;
+  background-size: 100% 100%;
   background-image: url("../images/banners/ellipses.svg");
 
 }
@@ -86,4 +86,29 @@ a.dropdown-item {
 .customCardFooter {
   /* NOTE: typically this is a more transparent version of the card header bg color */
   background-color: rgba(203, 131, 30, 0.1);
+}
+
+/* Rearrange the top elements. */
+div.pageTopContainer > div {
+    flex-direction: column;
+}
+
+div.headerLogo {
+    position: absolute;
+    right: 0;
+    top: 15%;
+}
+div.headerConferenceName {
+    order: 0;
+    flex: 1 0 100%;
+}
+div.headerInfo {
+    order: 1;
+}
+div.headerInfo > h3 {
+    font-size: 1rem;
+    text-align: center;
+}
+div.pageTopContainer {
+    position: relative;
 }
