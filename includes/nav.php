@@ -2,6 +2,10 @@
 
 <script>
   function setTheme(val) {
+    // for Kay's machine
+     // document.getElementById('style').href = '/styles/' + val + '_theme.css';
+
+     // for Kevin's machine
      document.getElementById('style').href = '/iacr/styles/' + val + '_theme.css';
   }
 </script>
