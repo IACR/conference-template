@@ -2,60 +2,89 @@
    styles/*_theme.css files to include (orange_theme.css is included by default).
 */
 
+/* inspiration: https://coolors.co/39735e-5ba77b-6aa785-a9d9b0-8fbfaa */
+
 /***** General styling *****/
-
-.headerImg {
-  background-image: url("../images/banners/globe.jpg");
+a {
+  color: #913E2B;
 }
 
-body, .listItems {
-    background-color: #f0f0f0; /* was #EDFDF4; */
+a:hover {
+  color: #D07662;
 }
+
 
 
 /***** Nav (in /includes/nav.php) *****/
-nav#mainmenu {
-  background-color: #EDFDF4;
+.headerImg {
+  background-image: url("../images/banners/waveDesat.png");
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: 128%;
 }
+
+div#main-nav-row {
+  background: #39735E;
+}
+
+a.nav-link {
+  color: #FEFDFB;
+  font-size: 1.2rem;
+}
+
+a.nav-link:hover {
+  color: #E7ECD4;
+}
+
+div.dropdown-menu {
+  color: #FEFDFB;
+  background-color: #39735E;
+  border: none;
+}
+
+a.dropdown-item:hover {
+  background-color: #E7ECD4;
+  color: #1F2161;
+}
+
 
 
 /***** Header (in /includes/nav.php) *****/
 .headerGradient {
-  background: rgba(15, 118, 59, 0.6);
-  background: -webkit-linear-gradient(rgba(15, 118, 59, 0.6), rgba(237, 253, 244, 1));
-  background: -o-linear-gradient(rgba(15, 118, 59, 0.6), rgba(237, 253, 244, 1));
-  background: -moz-linear-gradient(rgba(15, 118, 59, 0.6), rgba(237, 253, 244, 1));
-  background: linear-gradient(rgba(15, 118, 59, 0.6), rgba(237, 253, 244, 1));
+  background: rgb(57, 115, 94);
+  background: linear-gradient(0deg, rgba(57, 115, 94, 0.7) 0%, rgba(91, 167, 123, 0.6) 18%, rgba(106, 167, 133, 0.7) 37%, rgba(143, 191, 170, 0.8) 62%, rgba(169, 217, 176, 0.9) 80%, rgba(207, 217, 169, 1) 100%);
 }
 
-.headerTitle {
-  color: #2E3192;
+.headerTitle, .headerInfoTop, .headerInfoBottom {
+  color: #1F2161;
+  text-shadow: 5px 5px 30px #CDF9A9, 0.9px 0.9px #39735E;
 }
 
-.headerInfoTop {
-  color: #2E3192;
-}
-
-.headerInfoBottom {
-  color: #2E3192;
-}
 
 
 /***** Main Content: general styling *****/
-div#main-nav-row {
-    background-color: #004445;
-}
 .indPageTitle {
-  color: #2E3192;
+  color: #1F2161;
+}
+
+.pageSubtitle {
+  color: #BF5239;
 }
 
 .customCard {
-    border: 1px solid #6FB98F;
+  border: 1px solid rgba(207, 217, 169, 0.5);
 }
+
 .customCardHeader {
-    background-color: #2c7873;   /* #265728; */
-    color: #f0f0d0;
+  color: #39735E;
+  border-bottom: 3px solid rgba(91, 167, 123, 0.6);
 }
+
 .customCardFooter {
-    background-color: #6FB98F; /* #b7dfb8;*/
+  background-color: rgba(169, 217, 176, 0.4);
+}
+
+footer {
+  background-color: rgba(208, 118, 98, 0.2);
+  padding: 0.3rem 0 0.3rem 0;
 }
