@@ -6,13 +6,13 @@ img#logo {
   box-shadow: 0px 0px 20px 0px rgba(255,255,255,.5);
 }
 
-
 /* a background image on the header. It may need to be muted by headerGradient. */
 .headerImg {
   background-color: #7C8ABB;
   /*  background-image: url("../images/banners/binary.jpg");*/
-  background-image: url("https://crypto.iacr.org/2020/images/Aerial_Lagoon_Road_001-cropped-resized.jpg");
 /*  background-image: url("https://iacr.org/conf/generic_crypto.jpg");  */
+  background-image: url("../images/banners/ucsb.jpg"); 
+/*  background-image: url("../images/banners/ucsb2.png");  */
   background-size: cover;
 }
 
@@ -36,6 +36,14 @@ img#logo {
     color: white;
 }
 
+#main-nav-row {
+    background-color: #194687;
+}
+
+div.dropdown-menu {
+  color: #FEFDFB;
+  background-color: #194687;
+}
 
 /***** Main Content: general styling *****/
 

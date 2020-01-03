@@ -85,7 +85,7 @@
             </p>
           </div>
           <div class="customCardFooter">
-            <img src="images/icons/exclamation.svg" class="icon" /> To convert UTC to your local time zone, <a href="https://www.timeanddate.com/time/zone/timezone/utc">click here</a>.
+            <img src="images/icons/exclamation.svg" class="icon" /> Unless otherwise indicated, all deadlines are <a href="https://en.wikipedia.org/wiki/Anywhere_on_Earth">Anywhere On Earth</a>.
           </div>
         </article>
       </div>
