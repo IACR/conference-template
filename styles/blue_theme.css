@@ -72,5 +72,5 @@ body {
 
 .customCardFooter {
   /* NOTE: typically this is a more transparent version of the card header bg color */
-  background-color: #9CBCEB;
+    background-color: rgba(156, 188, 235, .4);
 }
