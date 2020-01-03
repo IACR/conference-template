@@ -10,9 +10,8 @@ img#logo {
 .headerImg {
   background-color: #7C8ABB;
   /*  background-image: url("../images/banners/binary.jpg");*/
-/*  background-image: url("https://iacr.org/conf/generic_crypto.jpg");  */
-  background-image: url("../images/banners/ucsb.jpg"); 
-/*  background-image: url("../images/banners/ucsb2.png");  */
+  /*  background-image: url("../images/banners/ucsb.jpg"); */
+  background-image: url("../images/banners/ucsb2.png");  
   background-size: cover;
 }
 
@@ -24,16 +23,19 @@ img#logo {
 /* conference name. */
 .headerTitle {
     color: white;
+    text-shadow: 0 0 4px black;
 }
 
 /* conference location */
 .headerInfoTop {
   color: white;
+    text-shadow: 0 0 4px black;
 }
 
 /* conference dates */
 .headerInfoBottom {
     color: white;
+    text-shadow: 0 0 4px black;
 }
 
 #main-nav-row {
