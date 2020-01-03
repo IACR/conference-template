@@ -2,6 +2,10 @@
 
 <script>
   function setTheme(val) {
+    // for Kay's machine
+     // document.getElementById('style').href = '/styles/' + val + '_theme.css';
+
+     // for Kevin's machine
      document.getElementById('style').href = '/iacr/styles/' + val + '_theme.css';
   }
 </script>
@@ -28,6 +32,7 @@ aria-haspopup="true" aria-expanded="false">
     <a class="dropdown-item" href="#" onclick='setTheme("black")'>Black (once you go black ...)</a>
     <a class="dropdown-item" href="#" onclick='setTheme("orange")'>Orange</a>
     <a class="dropdown-item" href="#" onclick='setTheme("green")'>Green</a>
+    <a class="dropdown-item" href="#" onclick='setTheme("green2")'>Green 2</a>
     <a class="dropdown-item" href="#" onclick='setTheme("teal")'>Teal</a>
     <a class="dropdown-item" href="#" onclick='setTheme("blue")'>Blue</a>
   </div>

@@ -1,0 +1,94 @@
+/* NOTE: this is a supplemental style sheet. You should select one of the
+   styles/*_theme.css files to include (orange_theme.css is included by default).
+*/
+
+/* inspiration: https://coolors.co/39735e-5ba77b-6aa785-a9d9b0-8fbfaa */
+
+/***** General styling *****/
+body, .listItems {
+  background: #EDFDF4;
+}
+
+a {
+  color: #913E2B;
+}
+
+a:hover {
+  color: #D07662;
+}
+
+
+
+/***** Nav (in /includes/nav.php) *****/
+.headerImg {
+  background-image: url("../images/banners/waveDesat.png");
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: 128%;
+}
+
+div#main-nav-row {
+  background: #39735E;
+}
+
+a.nav-link {
+  color: #FEFDFB;
+  font-size: 1.2rem;
+}
+
+a.nav-link:hover {
+  color: #E7ECD4;
+}
+
+div.dropdown-menu {
+  color: #FEFDFB;
+  background-color: #39735E;
+  border: none;
+}
+
+a.dropdown-item:hover {
+  background-color: #E7ECD4;
+  color: #1F2161;
+}
+
+
+
+/***** Header (in /includes/nav.php) *****/
+.headerGradient {
+  background: rgb(57, 115, 94);
+  background: linear-gradient(0deg, rgba(57, 115, 94, 0.7) 0%, rgba(91, 167, 123, 0.6) 18%, rgba(106, 167, 133, 0.7) 37%, rgba(143, 191, 170, 0.8) 62%, rgba(169, 217, 176, 0.9) 80%, rgba(207, 217, 169, 1) 100%);
+}
+
+.headerTitle, .headerInfoTop, .headerInfoBottom {
+  color: #1F2161;
+  text-shadow: 5px 5px 30px #CDF9A9, 0.9px 0.9px #39735E;
+}
+
+
+
+/***** Main Content: general styling *****/
+.indPageTitle {
+  color: #1F2161;
+}
+
+.pageSubtitle {
+  color: #BF5239;
+}
+
+.customCard {
+  border: 1px solid rgba(207, 217, 169, 0.5);
+}
+
+.customCardHeader {
+  color: #39735E;
+  border-bottom: 3px solid rgba(91, 167, 123, 0.6);
+}
+
+.customCardFooter {
+  background-color: rgba(169, 217, 176, 0.4);
+}
+
+footer {
+  background-color: rgba(191, 82, 57, 0.3);
+  padding: 0.3rem 0 0.3rem 0;
+}
