@@ -9,25 +9,19 @@
 
 /* inspiration = an ungodly bright sunset (https://coolors.co/ece300-8a0268-ff5f09-33004d-800039) */
 body {
-    background-size: cover;
-    background: #33004D;
-    background-size:cover;
-    background: linear-gradient(187deg,
+  background-size:cover;
+  background: #33004D;
+  background: linear-gradient(7deg, rgba(17,0,26,1) 0%, rgba(51,0,77,1) 20%, rgba(74,31,96,1) 25%, rgba(128,0,57,0.9) 45%, rgba(138,2,104,0.8) 65%, rgba(237,227,0,0.7) 95%);
+    /* currently working but brighter than desired */
+    /* background: linear-gradient(187deg,
                                 #EDE300 0%,
                                 #8A0268 30%,
                                 #800039 55%,
                                 #4A1F60 75%,
                                 #33004D 80%,
-                                #11001A 100%);
-/*    background: linear-gradient(187deg,
-                                #EDE300 0%,
-                                #8A0268 100px,
-                                #800039 250px,
-                                #4A1F60 500px,
-                                #33004D 700px,
-                                #11001A 100%);*/
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+                                #11001A 100%); */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 ul#nav-ul {
@@ -41,8 +35,7 @@ ul#nav-ul {
 }
 
 ul#nav-ul a.nav-link {
-    color: #FEFDFB;
-/*  color: #0D0D0D;*/
+  color: #0D0D0D;
 }
 
 @media only screen and (max-width: 768px) {
@@ -65,12 +58,12 @@ div.dropdown-menu {
     flex: 1 1 auto;
     text-align: center;
   }
-  
+
   div.dropdown-menu {
     /* make sure dropdown doesn't disappear when you move. */
     top: 2.2rem;
   }
-  
+
   a.dropdown-item:hover {
     color: #0D0D0D;
   }
@@ -119,26 +112,28 @@ body, .listItems {
 
 /***** Nav (in /includes/nav.php) *****/
 #main-nav-row {
-    background: #33004D;
-    background-size:cover;
-    background: linear-gradient(187deg,
-                                #EDE300 0%,
-                                #8A0268 30%,
-                                #800039 55%,
-                                #4A1F60 75%,
-                                #33004D 80%,
-                                #11001A 100%);
-    background-attachment: fixed;
-    background-color: rgba(0,0,0,0);
-    color: #0D0D0D;
-    height: 4rem;
-    /* emulated fixed-top */
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 1030;
+  /* background-size: cover; */
+  background: linear-gradient(6deg, rgba(188, 113, 102, 1) 0%, rgba(237, 220, 94, 1) 63%);
+
+  /* background: linear-gradient(7deg, #b55f6e 25%, #c98f5a 45%, #d7ae50 65%, #f3ea58 95%); */
+  /* background: linear-gradient(187deg,
+                              #EDE300 0%,
+                              #8A0268 30%,
+                              #800039 55%,
+                              #4A1F60 75%,
+                              #33004D 80%,
+                              #11001A 100%); */
+  /* background-attachment: fixed; */
+  /* background-color: rgba(0,0,0,0); */
+  height: 4rem;
+  /* emulated fixed-top */
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
 }
+
 .headerImg {
     margin-top: 60px;
 }
@@ -147,7 +142,6 @@ body, .listItems {
 
 /***** Header (in /includes/nav.php) *****/
 .headerGradient {
-  box-shadow: -5px 10px 30px #11001A;
   background: #0D0D0D;
   color: #F2F2F2;
   width: 100%;
@@ -192,10 +186,11 @@ img#logo {
   color: #F2F2F2;
   text-align: center !important;
   text-shadow: none !important;
-  /* emulate display-2 */
+  /* emulate .display-2 */
   font-size: 5.5rem;
   font-weight: 300;
   line-height: 1.2;
+  padding-bottom: 2.5rem;
 }
 
 .headerInfoTop {
@@ -211,6 +206,14 @@ img#logo {
 main {
   padding-top: 0 !important;
   margin-top: 0 !important;
+}
+
+a {
+  color: #FD5DD5;
+}
+
+a:hover {
+  color: #ca0298;
 }
 
 
@@ -238,14 +241,23 @@ main {
 }
 
 .dateTitle {
-  color: #CB831E;
+  color: #FFBB9E;
 }
 
 .pageSubtitle {
   color: #F2F2F2;
 }
 
+.customCardHeader {
+  color: #C48265;
+}
+
 .customCardFooter {
   /* NOTE: typically this is a more transparent version of the card header bg color */
-  background-color: rgba(203, 131, 30, 0.1);
+  background-color: rgba(52, 20, 77, 0.6);
+}
+
+.sponsorLogo {
+  background-color: #F2F2F2;
+  border-radius: 25%;
 }
