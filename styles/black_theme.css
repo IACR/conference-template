@@ -20,14 +20,6 @@ body {
                                 #4A1F60 75%,
                                 #33004D 80%,
                                 #11001A 100%); */
-    /* outdated way of doing the gradient? */
-/*    background: linear-gradient(187deg,
-                                #EDE300 0%,
-                                #8A0268 100px,
-                                #800039 250px,
-                                #4A1F60 500px,
-                                #33004D 700px,
-                                #11001A 100%);*/
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -43,7 +35,6 @@ ul#nav-ul {
 }
 
 ul#nav-ul a.nav-link {
-  /* color: #FEFDFB; */
   color: #0D0D0D;
 }
 
@@ -151,7 +142,6 @@ body, .listItems {
 
 /***** Header (in /includes/nav.php) *****/
 .headerGradient {
-  /* box-shadow: -5px 10px 30px #11001A; */
   background: #0D0D0D;
   color: #F2F2F2;
   width: 100%;
