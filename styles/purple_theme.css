@@ -1,0 +1,53 @@
+
+/***** General styling *****/
+
+body, .listItems {
+  background-color: #E6E7F0; /* #F3F3FB;*/
+}
+
+
+/***** Header (in /includes/nav.php) *****/
+.headerImg {
+  background-image: url("../images/banners/binary.jpg");
+}
+
+.headerGradient {
+  background-color: rgba(42,42,114, .4);
+  background-image: linear-gradient(315deg, rgba(42,42,114, .8) 0%, rgba(192,192,253,.8) 74%);
+}
+
+.headerTitle {
+  font-size: 3rem;
+  font-weight: 600;
+  color: #F0F0D0;
+  text-shadow: none;
+}
+
+.headerInfoTop, .headerInfoBottom {
+  color: #F0F0D0;
+  font-weight: 600;
+  text-shadow: none;
+}
+
+div.dropdown-menu {
+  color: #FEFDFB;
+  background-color: #3D3D7E;
+}
+
+/***** Main Content: general styling *****/
+
+.indPageTitle {
+  color: #0F773C;
+}
+
+.customCard {
+    border: 1px solid #D1EBFD;
+}
+
+.customCardHeader {
+    background-color: #3D3D7E;
+    color: #f0f0d0;
+}
+.customCardFooter {
+    background-color: #C6C8EE;
+}
