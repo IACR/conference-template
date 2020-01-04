@@ -2,52 +2,69 @@
 /***** General styling *****/
 
 body {
-  background-color: #E6E7F0; /* #F3F3FB;*/
+  background-color: #E6E7F0;
 }
 
 
 /***** Header (in /includes/nav.php) *****/
 .headerImg {
-  background-image: url("../images/banners/binary.jpg");
+    background-image: url("../images/banners/grayHive.jpg");
 }
 
 .headerGradient {
-  background-color: rgba(42,42,114, .4);
-  background-image: linear-gradient(315deg, rgba(42,42,114, .8) 0%, rgba(192,192,253,.8) 74%);
+  background: rgb(93,46,140);
+  background: linear-gradient(43deg, rgba(93,46,140,.4) 0%, rgba(130,100,159,.4) 37%, rgba(177,137,217,.4) 62%, rgba(240,240,240,.4) 100%);
 }
 
 .headerTitle {
   font-size: 3rem;
   font-weight: 600;
-  color: #F0F0D0;
-  text-shadow: none;
+  color: #1a0c27;
 }
 
 .headerInfoTop, .headerInfoBottom {
-  color: #F0F0D0;
+  color: #1a0c27;
   font-weight: 600;
-  text-shadow: none;
 }
 
 div.dropdown-menu {
-  color: #FEFDFB;
-  background-color: #3D3D7E;
+  color: black;
+  background-color: #3B1D59;
 }
 
+#main-nav-row {
+    background-color: #3B1D59;
+}
 /***** Main Content: general styling *****/
 
+.dateTitle {
+    color:  #008577;
+}
 .indPageTitle {
-  color: #0F773C;
+    color: #0F773C;
 }
 
 .customCard {
-    border: 1px solid #D1EBFD;
+    border: 1px solid #F2ECF9;
 }
 
 .customCardHeader {
-    background-color: #3D3D7E;
-    color: #f0f0d0;
+    background-color: #5D2E8C;
+    color: #FEFDFB;
 }
 .customCardFooter {
-    background-color: #C6C8EE;
+    background-color: #F2ECF9;
+}
+
+
+a {
+    color: #008577;
+}
+
+a:hover {
+    color: #67428C;
+}
+
+ul#nav-ul a.nav-link:hover {
+  color: #FEFDFB;
 }
