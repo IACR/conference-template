@@ -29,6 +29,7 @@ aria-haspopup="true" aria-expanded="false">
     Choose a color scheme
   </button>
   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#" onclick='setTheme("purple")'>Purple</a>
     <a class="dropdown-item" href="#" onclick='setTheme("black")'>Black (once you go black ...)</a>
     <a class="dropdown-item" href="#" onclick='setTheme("orange")'>Orange</a>
     <a class="dropdown-item" href="#" onclick='setTheme("green")'>Green</a>

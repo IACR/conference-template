@@ -1,45 +1,76 @@
-/* NOTE: this is a supplemental style sheet. You should only include orange.css OR green.css OR blue.css on all individual html pages. One of these supplemental style sheets MUST be included in addition to main.css */
-
-/***** General styling *****/
-
-.headerImg {
-  background-image: url("../images/banners/binary.jpg");
-}
-
-body, .listItems {
-  background-color: #F3F3FB;
-}
-
-
-/***** Nav (in /includes/nav.php) *****/
-nav#mainmenu {
-  background-color: #F3F3FB;
-}
-
-
 /***** Header (in /includes/nav.php) *****/
+
+/* A glow around the IACR logo */
+img#logo {
+  border-radius:50%;
+  box-shadow: 0px 0px 20px 0px rgba(255,255,255,.5);
+}
+
+/* a background image on the header. It may need to be muted by headerGradient. */
+.headerImg {
+  background-color: #7C8ABB;
+  /*  background-image: url("../images/banners/binary.jpg");*/
+  /*  background-image: url("../images/banners/ucsb.jpg"); */
+  background-image: url("../images/banners/ucsb2.png");  
+  background-size: cover;
+}
+
+/* optional gradient to blur header image. */
 .headerGradient {
-  background: rgba(47, 50, 147, 0.6);
-  background: -webkit-linear-gradient(rgba(47, 50, 147, 0.6), rgba(243, 243, 251, 1));
-  background: -o-linear-gradient(rgba(47, 50, 147, 0.6), rgba(243, 243, 251, 1));
-  background: -moz-linear-gradient(rgba(47, 50, 147, 0.6), rgba(243, 243, 251, 1));
-  background: linear-gradient(rgba(47, 50, 147, 0.6), rgba(243, 243, 251, 1));
+  background: linear-gradient(rgba(47, 50, 147, 0.2), rgba(243, 243, 251, .6));
 }
 
+/* conference name. */
 .headerTitle {
-  color: #0F773C;
+    color: white;
+    text-shadow: 0 0 4px black;
 }
 
+/* conference location */
 .headerInfoTop {
-  color: #0F773C;
+  color: white;
+    text-shadow: 0 0 4px black;
 }
 
+/* conference dates */
 .headerInfoBottom {
-  color: #0F773C;
+    color: white;
+    text-shadow: 0 0 4px black;
 }
 
+#main-nav-row {
+    background-color: #194687;
+}
+
+div.dropdown-menu {
+  color: #FEFDFB;
+  background-color: #194687;
+}
 
 /***** Main Content: general styling *****/
+
+body {
+  background-color: #F3F3FB;
+}
+
 .indPageTitle {
   color: #0F773C;
+}
+
+.customCard {
+  border: 1px solid #9CBCEB;
+}
+
+.customCardHeader {
+  background-color: #266DD3;
+  color: #F3F3FB;
+}
+
+.dateTitle {
+  color: #CB831E;
+}
+
+.customCardFooter {
+  /* NOTE: typically this is a more transparent version of the card header bg color */
+    background-color: rgba(156, 188, 235, .4);
 }

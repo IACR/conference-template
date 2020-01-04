@@ -4,12 +4,9 @@
 
 body {
   background-size: 100% 100%;
+  background-repeat: none;
   background-image: url("../images/banners/ellipses.svg");
 
-}
-
-body, .listItems {
-  background-color: #FEFDFB;
 }
 
 main {
@@ -100,7 +97,6 @@ div.headerLogo {
 }
 div.headerConferenceName {
     order: 0;
-    flex: 1 0 100%;
 }
 div.headerInfo {
     order: 1;
