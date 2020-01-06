@@ -82,7 +82,6 @@
     <meta property="og:url" content="<?php echo $META['url'];?>"/>
     <meta property="event:start_time" content="<?php echo $META['startdate'];?>"/>
     <meta property="event:end_time" content="<?php echo $META['enddate'];?>"/>
-    <meta property="og:title" content="<?php echo $META['shortName'];?>"/>
     <meta property="og:description" content="<?php echo $META['name'];?>"/>
     <meta property="og:image" content="https://iacr.org/img/logo/iacrlogo_small_og.png"/>
     <meta property="og:latitude" content="<?php echo $META['latitude'];?>"/>
@@ -90,7 +89,6 @@
     <!-- metadata for twitter. -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@iacr_news"/>
-    <meta name="twitter:title" content="<?php echo $META['shortName'];?>"/>
     <meta name="twitter:description" content="<?php echo $META['name'];?>"/>
     <meta property="twitter:image" content="https://iacr.org/img/logo/iacr_wordmark_twitter.png"/>
     <!-- apple format for iMessage and search -->
