@@ -4,6 +4,8 @@
     <?php // The header includes the head tag and start of body
       require "includes/head.php";
     ?>
+    <meta property="og:title" content="<?php echo $META['shortName'];?> code of conduct"/>
+    <meta name="twitter:title" content="<?php echo $META['shortName'];?> code of conduct"/>
 
     <title>
       Code of Conduct for <?php echo $META['shortName'];?>

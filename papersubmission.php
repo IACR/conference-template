@@ -4,6 +4,7 @@
     <?php // The header includes the head tag and start of body
       require "includes/head.php";
     ?>
+    <meta name="twitter:title" content="<?php echo $META['shortName'];?> paper submission"/>
 
     <title>
       Paper Submission for <?php echo $META['shortName'];?>

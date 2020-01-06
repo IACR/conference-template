@@ -4,6 +4,8 @@
     <?php // The header includes the head tag and start of body
       require "includes/head.php";
     ?>
+    <meta property="og:title" content="<?php echo $META['shortName'];?> rump session"/>
+    <meta name="twitter:title" content="<?php echo $META['shortName'];?> rump session"/>
 
     <title>
       <?php echo $META['shortName'];?> Rump Session
