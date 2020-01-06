@@ -1,0 +1,62 @@
+<?xml version="1.0" ?><svg height="300" width="1920" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="blue">
+      <stop offset="0%" stop-color="#c0c0f0"/>
+      <stop offset="50%" stop-color="#c0c0d0"/>
+      <stop offset="100%" stop-color="#c0c0e0"/>
+    </radialGradient>
+  </defs>
+  <g stroke-width="1">
+    <path d="M910,-55L1200,-430L581,-362Z" opacity="0.175"/>
+    <path d="M1200,-430L347,-711L581,-362Z" opacity="0.075"/>
+    <path d="M910,-55L1354,86L1200,-430Z" opacity="0.175"/>
+    <path d="M581,-362L247,-144L910,-55Z" opacity="0.025"/>
+    <path d="M910,-55L771,418L1354,86Z" opacity="0.1"/>
+    <path d="M347,-711L247,-144L581,-362Z" opacity="0.2"/>
+    <path d="M1354,86L1609,-109L1200,-430Z" opacity="0.225"/>
+    <path d="M193,225L771,418L910,-55Z" opacity="0.05"/>
+    <path d="M1200,-430L1664,-602L347,-711Z" opacity="0.025"/>
+    <path d="M1609,-109L1664,-602L1200,-430Z" opacity="0.075"/>
+    <path d="M247,-144L193,225L910,-55Z" opacity="0.0"/>
+    <path d="M1609,-109L2231,-387L1664,-602Z" opacity="0.025"/>
+    <path d="M1354,86L1623,215L1609,-109Z" opacity="0.175"/>
+    <path d="M1347,565L1623,215L1354,86Z" opacity="0.025"/>
+    <path d="M347,-711L-20,-655L247,-144Z" opacity="0.25"/>
+    <path d="M247,-144L-41,250L193,225Z" opacity="0.075"/>
+    <path d="M771,418L1347,565L1354,86Z" opacity="0.1"/>
+    <path d="M-20,-655L-141,-191L247,-144Z" opacity="0.15"/>
+    <path d="M-141,-191L-41,250L247,-144Z" opacity="0.25"/>
+    <path d="M193,225L394,777L771,418Z" opacity="0.075"/>
+    <path d="M771,418L1197,947L1347,565Z" opacity="0.1"/>
+    <path d="M-142,729L394,777L193,225Z" opacity="0.15"/>
+    <path d="M2216,-58L1609,-109L1623,215Z" opacity="0.175"/>
+    <path d="M2216,-58L2231,-387L1609,-109Z" opacity="0.15"/>
+    <path d="M2020,511L2216,-58L1623,215Z" opacity="0.225"/>
+    <path d="M583,982L1197,947L771,418Z" opacity="0.15"/>
+    <path d="M2020,511L1623,215L1941,759Z" opacity="0.175"/>
+    <path d="M394,777L583,982L771,418Z" opacity="0.025"/>
+    <path d="M1941,759L1623,215L1347,565Z" opacity="0.075"/>
+    <path d="M-20,-655L-568,-501L-141,-191Z" opacity="0.2"/>
+    <path d="M-141,-191L-630,4L-41,250Z" opacity="0.0"/>
+    <path d="M583,982L1583,939L1197,947Z" opacity="0.1"/>
+    <path d="M1197,947L1583,939L1347,565Z" opacity="0.05"/>
+    <path d="M-41,250L-142,729L193,225Z" opacity="0.125"/>
+    <path d="M394,777L-142,729L583,982Z" opacity="0.1"/>
+    <path d="M-630,401L-142,729L-41,250Z" opacity="0.225"/>
+    <path d="M1583,939L1941,759L1347,565Z" opacity="0.125"/>
+    <path d="M2020,511L2405,79L2216,-58Z" opacity="0.2"/>
+    <path d="M-568,-501L-630,4L-141,-191Z" opacity="0.05"/>
+    <path d="M2445,567L2405,79L2020,511Z" opacity="0.15"/>
+    <path d="M2216,-58L2405,79L2231,-387Z" opacity="0.175"/>
+    <path d="M2231,-387L2491,-519L1664,-602Z" opacity="0.05"/>
+    <path d="M2405,79L2491,-519L2231,-387Z" opacity="0.15"/>
+    <path d="M-630,4L-630,401L-41,250Z" opacity="0.05"/>
+    <path d="M2405,79L2500,646L2491,-519Z" opacity="0.225"/>
+    <path d="M1941,759L2445,567L2020,511Z" opacity="0.2"/>
+    <path d="M2500,646L2445,567L1941,759Z" opacity="0.175"/>
+    <path d="M1583,939L2500,646L1941,759Z" opacity="0.025"/>
+    <path d="M2445,567L2500,646L2405,79Z" opacity="0.2"/>
+    <path d="M-630,401L-459,989L-142,729Z" opacity="0.25"/>
+    <path d="M-142,729L-459,989L583,982Z" opacity="0.0"/>
+  </g>
+</svg>
