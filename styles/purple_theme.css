@@ -8,23 +8,23 @@ body {
 
 /***** Header (in /includes/nav.php) *****/
 .headerImg {
-    background-image: url("../images/banners/grayHive.jpg");
+  background: #2EA656; 
+  background-image: url("../images/banners/tris.svg");
 }
 
 .headerGradient {
-  background: rgb(93,46,140);
-  background: linear-gradient(43deg, rgba(93,46,140,.4) 0%, rgba(130,100,159,.4) 37%, rgba(177,137,217,.4) 62%, rgba(240,240,240,.4) 100%);
+    background: linear-gradient(43deg, rgba(93,46,140,.4) 0%, rgba(130,100,159,.4) 37%, rgba(177,137,217,.4) 62%, rgba(240,240,240,.4) 100%);
 }
 
 .headerTitle {
+  text-shadow: none;
+  color: #F2ECF9;
   font-size: 3rem;
-  font-weight: 600;
-  color: #1a0c27;
 }
 
 .headerInfoTop, .headerInfoBottom {
-  color: #1a0c27;
-  font-weight: 600;
+  text-shadow: none;
+  color: #F2ECF9;
 }
 
 div.dropdown-menu {
