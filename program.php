@@ -10,6 +10,16 @@
     <title>
       <?php echo $META['shortName'];?> Program
     </title>
+    <style>
+      #renderedProgram a.nav-link {
+        color: green;
+      }
+     #renderedProgram .track1Event,
+     #renderedProgram .track2Event,
+     #renderedProgram .mutualEvent {
+       padding: 1rem;
+     }
+    </style>
   </head>
   <body>
     <?php require "includes/nav.php"; ?>
@@ -20,13 +30,15 @@
       </h2>
 
       <!-- NOTE: below is placeholder content derived from the Crypto 2016 conference. remove and replace with your own content when ready. this code is here to give you an idea of what the structure of this page has looked like in the past
-           <div class="row">
-             <aside class="col-12">
-               <p>
-                 All track 1 events at this fictitious conference will take place in Corwin Pavilion, while all track 2 events are in Lotte Lehmann Hall, unless otherwise noted. Track 1 events have a green background and track 2 events have an orange background. Events for everyone or those that are not assigned to a particular track have a light blue background.
-               </p>
-             </aside>
-           </div>
+           <p>
+             All track 1 events at this fictitious conference will
+             take place in Corwin Pavilion, while all track 2 events
+             are in Lotte Lehmann Hall, unless otherwise noted. Track
+             1 events have a green background and track 2 events have
+             an orange background. Events for everyone or those that
+             are not assigned to a particular track have a light blue
+             background.
+           </p>
            -->
 
       <div class="row">
@@ -37,8 +49,8 @@
             <div role="navigation">
               <ul class="nav nav-tabs nav-justified">
                 {{#each days}}
-                <li role="presentation">
-                  <a href="#day-{{date}}">
+                <li role="presentation nav-item">
+                  <a href="#day-{{date}}" class="nav-link">
                     {{formatDate date}}
                   </a>
                 </li>
@@ -64,11 +76,11 @@
               </div>
               {{#if twosessions}}
               <div class="col-10 col-sm-5">
-                <div class="track1Event panel-body">
+                <div class="track1Event">
                   <h4 class="text-center">
                     {{sessions.0.session_title}}
                     {{#if sessions.0.session_url}}
-                    &nbsp; <a href="{{sessions.0.session_url}}"><img class="sessionInfoIcon" src="images/info.svg" title="Session Info"></a>
+                    &nbsp; <a href="{{sessions.0.session_url}}"><img class="sessionInfoIcon" src="images/icons/info.svg" title="Session Info"></a>
                     {{/if}}
                   </h4>
                   {{#if sessions.0.location.name}}
@@ -92,29 +104,29 @@
                   </p>
                   {{#if paperUrl}}
                   <span class="talkMedia">
-                    Media: &nbsp; <a href="{{paperUrl}}"><img class="talkMediaIcon" src="images/file.svg" title="Paper"></a>
+                    Media: &nbsp; <a href="{{paperUrl}}"><img class="talkMediaIcon" src="images/icons/file.svg" title="Paper"></a>
                   </span>
                   {{/if}}
                   {{#if slidesUrl}}
                   <span class="talkMedia">
-                    &nbsp; <a href="{{slidesUrl}}"><img class="talkMediaIcon" src="images/presentation.svg" title="Slides"></a>
+                    &nbsp; <a href="{{slidesUrl}}"><img class="talkMediaIcon" src="images/icons/presentation.svg" title="Slides"></a>
                   </span>
                   {{/if}}
                   {{/each}}
                 </div>
               </div>
-              <!-- TODO: hidden-sm and etc may no longer be functional/necessary -->
-              <div class="col-2 hidden-sm hidden-md hidden-lg">
+              <!-- This is visible only on mobile, when sessions wrap -->
+              <div class="col-2 d-sm-block d-md-none">
                 <p class="timeSlot">
                   {{starttime}}-{{endtime}}
                 </p>
               </div>
               <div class="col-10 col-sm-5">
-                <div class="panel-body track2Event">
+                <div class="track2Event">
                   <h4 class="text-center">
                     {{sessions.1.session_title}}
                     {{#if sessions.1.session_url}}
-                    &nbsp; <a href="{{sessions.1.session_url}}"><img class="sessionInfoIcon" src="images/info.svg" title="Session Info"></a>
+                    &nbsp; <a href="{{sessions.1.session_url}}"><img class="sessionInfoIcon" src="images/icons/info.svg" title="Session Info"></a>
                     {{/if}}
                   </h4>
                   {{#if sessions.1.location.name}}
@@ -138,12 +150,12 @@
                   </p>
                   {{#if paperUrl}}
                   <span class="talkMedia">
-                    Media: &nbsp; <a href="{{paperUrl}}"><img class="talkMediaIcon" src="images/file.svg" title="Paper"></a>
+                    Media: &nbsp; <a href="{{paperUrl}}"><img class="talkMediaIcon" src="images/icons/file.svg" title="Paper"></a>
                   </span>
                   {{/if}}
                   {{#if slidesUrl}}
                   <span class="talkMedia">
-                    &nbsp; <a href="{{slidesUrl}}"><img class="talkMediaIcon" src="images/presentation.svg" title="Slides"></a>
+                    &nbsp; <a href="{{slidesUrl}}"><img class="talkMediaIcon" src="images/icons/presentation.svg" title="Slides"></a>
                   </span>
                   {{/if}}
                   {{/each}}
@@ -151,11 +163,11 @@
               </div>
               {{else}}
               <div class="col-10">
-                <div class="panel-body mutualEvent">
+                <div class="mutualEvent">
                   <h4>
                     {{sessions.0.session_title}}
                     {{#if sessions.0.session_url}}
-                    &nbsp; <a href="{{sessions.0.session_url}}"><img class="sessionInfoIcon" src="images/info.svg" title="Session Info"></a>
+                    &nbsp; <a href="{{sessions.0.session_url}}"><img class="sessionInfoIcon" src="images/icons/info.svg" title="Session Info"></a>
                     {{/if}}
                   </h4>
                   {{#if sessions.0.location.name}}
@@ -179,12 +191,12 @@
                   </p>
                   {{#if paperUrl}}
                   <span class="talkMedia">
-                    Media: &nbsp; <a href="{{paperUrl}}"><img class="talkMediaIcon" src="images/file.svg" title="Paper"></a>
+                    Media: &nbsp; <a href="{{paperUrl}}"><img class="talkMediaIcon" src="images/icons/file.svg" title="Paper"></a>
                   </span>
                   {{/if}}
                   {{#if slidesUrl}}
                   <span class="talkMedia">
-                    &nbsp; <a href="{{slidesUrl}}"><img class="talkMediaIcon" src="images/presentation.svg" title="Slides"></a>
+                    &nbsp; <a href="{{slidesUrl}}"><img class="talkMediaIcon" src="images/icons/presentation.svg" title="Slides"></a>
                   </span>
                   {{/if}}
                   {{/each}}
