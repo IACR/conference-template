@@ -110,22 +110,31 @@
         by the submission deadline.
       </p>
 
-      <h3 class="pageSubtitle">
-        Important Dates
-      </h3>
-          
-      <table style="margin-bottom: 20px;">
-        <tbody>
-          <tr>
-            <td style="width: 300px;">Submission deadline for proposals:</td>
-            <td>January 31, 2020, 23:59 UTC</td>
-          </tr>
-          <tr>
-            <td>Notification will be sent by:</td>
-            <td>February 20, 2020</td>
-          </tr>
-        </tbody>
-      </table>
+      <div class="row mt-4">
+        <div class="offset-lg-2 col-lg-8">
+          <article class="customCard">
+            <h4 class="customCardHeader">
+              Important Dates
+            </h4>
+            <div class="customCardRow row">
+              <h6 class="dateTitle col-6 col-md-5">
+                January 31, 2020, 23:59 UTC
+              </h6>
+              <p class="col-6 col-md-7">
+                Submission deadline for proposals
+              </p>
+            </div>
+            <div class="customCardRow row">
+              <h6 class="dateTitle col-6 col-md-5">
+                February 20, 2020
+              </h6>
+              <p class="col-6 col-md-7">
+                Notification of decision
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
 
       <h3 class="pageSubtitle">
         Proposal Evaluation Criteria
@@ -138,15 +147,21 @@
         cryptographic community to engage with the event (as
         speakers or committee members) will be taken into account.
       </p>
-      <p>
-        For any questions please contact the workshop chair:
-      </p>
-      <address class="text-center">
-        Carmit Hazay<br>
-        Bar-Ilan University<br/>
-        Israel<br/>
-        <tt>crypto2020workshopchair@gmail.com</tt>
-      </address>
+      <div class="row mt-4">
+        <div class="offset-lg-2 col-lg-8">
+          <article class="customCard">
+            <h4 class="customCardHeader">
+              For any questions please contact the workshop chair:
+            </h4>
+            <address class="text-center">
+              Carmit Hazay<br>
+              Bar-Ilan University<br/>
+              Israel<br/>
+              <tt>crypto2020workshopchair@gmail.com</tt>
+            </address>
+          </article>
+        </div>
+      </div>
     </main>
 
   <?php include "includes/footer.php"; ?>
