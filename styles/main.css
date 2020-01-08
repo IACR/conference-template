@@ -58,7 +58,7 @@ a:hover {
   }
 }
 
-a.nav-link {
+.navbar-nav a.nav-link {
   color: #FEFDFB;
   font-size: 1.2rem;
 }
@@ -384,6 +384,10 @@ span.talkMedia {
 
 img.talkMediaIcon, img.sessionInfoIcon {
   height: 20px;
+}
+
+img.sessionInfoIcon {
+  vertical-align: unset;
 }
 
 
