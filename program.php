@@ -77,12 +77,12 @@
               {{#if twosessions}}
               <div class="col-10 col-sm-5">
                 <div class="track1Event">
-                  <h4 class="text-center">
+                  <h5 class="text-center">
                     {{sessions.0.session_title}}
                     {{#if sessions.0.session_url}}
                     &nbsp; <a href="{{sessions.0.session_url}}"><img class="sessionInfoIcon" src="images/icons/info.svg" title="Session Info"></a>
                     {{/if}}
-                  </h4>
+                  </h5>
                   {{#if sessions.0.location.name}}
                   <p class="dualTrackDescr">
                     {{sessions.0.location.name}}
@@ -123,12 +123,12 @@
               </div>
               <div class="col-10 col-sm-5">
                 <div class="track2Event">
-                  <h4 class="text-center">
+                  <h5 class="text-center">
                     {{sessions.1.session_title}}
                     {{#if sessions.1.session_url}}
                     &nbsp; <a href="{{sessions.1.session_url}}"><img class="sessionInfoIcon" src="images/icons/info.svg" title="Session Info"></a>
                     {{/if}}
-                  </h4>
+                  </h5>
                   {{#if sessions.1.location.name}}
                   <p class="dualTrackDescr">
                     {{sessions.1.location.name}}
@@ -164,12 +164,12 @@
               {{else}}
               <div class="col-10">
                 <div class="mutualEvent">
-                  <h4>
+                  <h5>
                     {{sessions.0.session_title}}
                     {{#if sessions.0.session_url}}
                     &nbsp; <a href="{{sessions.0.session_url}}"><img class="sessionInfoIcon" src="images/icons/info.svg" title="Session Info"></a>
                     {{/if}}
-                  </h4>
+                  </h5>
                   {{#if sessions.0.location.name}}
                   <p class="eventDescr">
                     {{sessions.0.location.name}}

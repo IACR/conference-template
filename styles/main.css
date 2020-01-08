@@ -386,6 +386,10 @@ img.talkMediaIcon, img.sessionInfoIcon {
   height: 20px;
 }
 
+img.sessionInfoIcon {
+  vertical-align: unset;
+}
+
 
 
 /***** Page-specific: sponsors *****/
