@@ -49,7 +49,7 @@
             <div role="navigation">
               <ul class="nav nav-tabs nav-justified">
                 {{#each days}}
-                <li role="presentation nav-item">
+                <li role="presentation" class="nav-item">
                   <a href="#day-{{date}}" class="nav-link">
                     {{formatDate date}}
                   </a>
