@@ -11,13 +11,13 @@
       <?php echo $META['shortName'];?> Program
     </title>
     <style>
-      #renderedProgram a.nav-link {
-        color: green;
-      }
      #renderedProgram .track1Event,
      #renderedProgram .track2Event,
      #renderedProgram .mutualEvent {
        padding: 1rem;
+     }
+     ul.nav .nav-link:hover {
+       background-color: #eeeeee;
      }
     </style>
   </head>
