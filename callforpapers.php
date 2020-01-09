@@ -19,41 +19,56 @@
         Call for Papers
       </h2>
 
-      <!-- NOTE: below is standard placeholder text for when the page is under construction. please delete this entire <div class="row"> and all elements contained within it when ready to add other content -->
-      <!-- <div class="row">
-        <div class="col-12">
-          <p>
-            This information is not yet available. Thank you for your patience.
-          </p>
-        </div>
-      </div> -->
+      <h3 class="pageSubtitle">General Information</h3>
+      <!-- this is for Crypto 2020. Modify to suit -->
+      <p>
+        <span class="conf_name"><?php echo $META['shortName'];?></span> will take place in <span class="conf_location"><?php echo $META['location'];?></span> on <span class="conf_dates"><?php echo $META['dates'];?></span>. <span class="conf_name"><?php echo $META['shortName'];?></span> is organized by <a href="http://iacr.org/">the International Association for Cryptologic Research</a> (IACR).
+        The proceedings will be published by Springer in the LNCS series.
+      </p>
+      <p>
+        Original contributions on all technical aspects of
+        cryptology are solicited for submission to Crypto 2020,
+        the 40th Annual International Cryptology
+        Conference. Submissions are welcomed on any cryptographic
+        topic including, but not limited to:
+      </p>
+      <ul>
+        <li>foundational theory and mathematics</li>
+        <li>the design, proposal, and analysis of cryptographic primitives and protocols</li>
+        <li>secure implementation and optimization in hardware or software; and applied aspects of cryptography</li>
+      </ul>
 
       <div class="row mt-4">
         <section class="col-lg-6">
-          <h3 class="pageSubtitle">General Information</h3>
+          <h3 class="pageSubtitle">
+            Schedule
+          </h3>
           <p>
-            <span class="conf_name"><?php echo $META['shortName'];?></span> will take place in <span class="conf_location"><?php echo $META['location'];?></span> on <span class="conf_dates"><?php echo $META['dates'];?></span>. <span class="conf_name"><?php echo $META['shortName'];?></span> is organized by <a href="http://iacr.org/">the International Association for Cryptologic Research</a> (IACR). Original research papers on all technical aspects of cryptology are solicited for submission.
+            <span class="conf_name"><?php echo $META['shortName'];?></span> will operate a two-round review system with rebuttal phase. In the first round, the program committee selects the submissions which are considered of value for proceeding to the second round, and the authors receive the first round notification with review comments. The authors of the selected submissions are invited to submit a text-based rebuttal letter to the review comments.
           </p>
           <p>
-            This is not a real conference; it is a demo of what this site might look like. Parts of it are derived from past conferences that IACR has hosted, such as the program and program committee.
+            The submissions that have not been selected during the first round of reviews may be submitted in other conferences after the first round notification date.
+          </p>
+          <p>
+            In the second round the program committee further reviews the selected submissions by taking into account their rebuttal letter. They then make the final decision of acceptance or rejection.
           </p>
         </section>
         <div class="col-lg-6 mt-3 mt-lg-0">
           <article class="customCard">
             <h4 class="customCardHeader">
-              Example Dates
+              Important Dates
             </h4>
             <div class="customCardRow row">
               <h6 class="dateTitle col-5 col-md-4">
-                Feb 13 2050
+                Feb 11 2020
               </h6>
               <p class="col-7 col-md-8">
-                Submission deadline at 04:00:00 UTC
+                Submission deadline at 21:00 UTC
               </p>
             </div>
             <div class="customCardRow row">
               <h6 class="dateTitle col-5 col-md-4">
-                March 30 2050
+                March 27 2020
               </h6>
               <p class="col-7 col-md-8">
                 First round notification
@@ -61,15 +76,15 @@
             </div>
             <div class="customCardRow row">
               <h6 class="dateTitle col-5 col-md-4">
-                April 5 2050
+                April 3 2020
               </h6>
               <p class="col-7 col-md-8">
-                Rebuttals due by 11:45:00 UTC
+                Rebuttal deadline
               </p>
             </div>
             <div class="customCardRow row">
               <h6 class="dateTitle col-5 col-md-4">
-                April 22 2050
+                May 8 2020
               </h6>
               <p class="col-7 col-md-8">
                 Final notification
@@ -77,10 +92,10 @@
             </div>
             <div class="customCardRow row">
               <h6 class="dateTitle col-5 col-md-4">
-                July 5 2050
+                June 15 2020
               </h6>
               <p class="col-7 col-md-8">
-                Camera-ready version
+                Final version due
               </p>
             </div>
             <div class="customCardRow row">
@@ -92,58 +107,28 @@
               </p>
             </div>
             <div class="customCardFooter">
-              <img src="images/icons/exclamation.svg" class="icon" /> To convert UTC to your local time zone, <a href="https://www.timeanddate.com/time/zone/timezone/utc">click here</a>.
+              <img src="images/icons/exclamation.svg" class="icon" /> For further details, consult the <a href="papersubmission.php">paper submission page</a>.
             </div>
           </article>
         </div>
       </div>
 
-      <!-- NOTE: the information below used for the purposes of demoing this page is from Asiacrypt 2017  -->
-      <div class="row mt-4">
-        <section class="col-12">
-          <h3 class="pageSubtitle">
-            Instructions for Authors
-          </h3>
-          <p>
-            Submissions must be at most 30 pages excluding any auxiliary supporting material, and using the Springer LNCS format (in particular, do not modify the LNCS default font sizes or margins). Details on the Springer LNCS format can be obtained <a href="http://kaymckelly.com">here</a>. It is strongly encouraged that submissions are processed in LaTeX. All submissions must have page numbers (e.g. using LaTeX command <code>\pagestyle{plain}</code>).
-          </p>
-          <p>
-            All submissions will be blind-refereed and thus must be anonymous, with no author names, affiliations, acknowledgments, or obvious references. Submissions should begin with a title, a short abstract, and a list of keywords, followed by an introduction, a main body, an appendix (if any), and references, within 30 pages. The introduction should summarize the contributions of the paper at the level understandable for a non-expert reader.
-          </p>
-          <p>
-            Optionally, if an author desires, a clearly-marked auxiliary supporting material can be appended to the submission. The auxiliary supporting material has no prescribed form or page limit and might be used, for instance, to provide program code, additional experimental data, etc. Alternatively, the auxiliary supporting material can be submitted as a separate file from the submission. The reviewers are not required to read the auxiliary supporting material and submissions should be intelligible without it. The final published version of an accepted paper is expected to closely match the submitted 30 pages.
-          </p>
-          <p>
-            Submissions must be submitted electronically in PDF format. A detailed description of the electronic submission procedure and a submission link will be available on the <span class="conf_name"><?php echo $META['shortName'];?></span> website at a later date.
-          </p>
-          <p class="alert alert-success">
-            <img src="images/icons/exclamation.svg" class="icon" /> Submissions not meeting these guidelines risk rejection without consideration of their merits.
-          </p>
-          <p>
-            For papers that are accepted, the length of the proceedings version will be at most 30 pages using Springer’s standard fonts, font sizes, and margins. The proceedings will be published by Springer-Verlag in the Lecture Notes in Computer Science series and will be available at the conference. Authors of accepted papers must complete the <a href="http://kaymckelly.com">IACR copyright assignment form</a> for their work to be published in the proceedings. Moreover, authors of accepted papers must guarantee that their paper will be presented at the conference and agree that the presentations will be video recorded during the event. The camera-ready version of the accepted articles will be automatically uploaded to the <a href="http://kaymckelly.com">IACR ePrint server</a>.
-          </p>
-          <p>
-            Submissions must not substantially duplicate work that any of the authors has published elsewhere or has submitted in parallel to a journal or any other conference/workshop that has proceedings. Accepted submissions may not appear in any other conference or workshop that has proceedings. IACR reserves the right to share information about submissions with other program committees to detect parallel submissions and the <a href="http://kaymckelly.com">IACR policy on irregular submissions</a> will be strictly enforced.
-          </p>
-          <p>
-            Articles will not be reviewed by reviewers who have a conflict of interest with at least one author of the submission. As the IACR does not impose a detailed policy on conflicts of interest, the Program co-chairs will decide on what constitutes a conflict according to high standards in terms of scientific integrity (at least colleagues from the same research group, people in a current or very recent student-advisor relationship, close friends, and family members have a conflict).
-          </p>
-          <p>
-            The Program Committee may select a paper for the best paper award.
-          </p>
-        </section>
-      </div>
 
-      <div class="row mt-4">
+      <div class="row mt-lg-4">
         <section class="col-md-6">
           <h3 class="pageSubtitle">
-            Schedule
+            Awards
           </h3>
           <p>
-            <span class="conf_name"><?php echo $META['shortName'];?></span> will operate a two-round review system with rebuttal phase. In the first round, the program committee selects the submissions which are considered of value for proceeding to the second round, and the authors receive the first round notification with review comments. The authors of the selected submissions are invited to submit a text-based rebuttal letter to the review comments.
-          </p>
-          <p>
-            In the second round the program committee further reviews the selected submissions by taking into account their rebuttal letter, and makes the final decision of acceptance or rejection. The submissions that have not been selected during the first round of reviews may be submitted in other conferences after the first round notification date. The dates for this schedule are listed above.
+            The Program Committee may choose a paper to receive an
+            overall best paper award. In a continuing effort to
+            promote independent work by researchers at an early stage
+            in their career, the Program Committee may also award a
+            prize for the best paper authored exclusively by
+            early-career researchers. To be eligible, all co-authors
+            must be studying full/part-time or have received their
+            degree in 2018 or later. As usual, awards will only be
+            given if deserving papers are identified.
           </p>
         </section>
         <section class="col-md-6">
@@ -155,6 +140,10 @@
           </p>
         </section>
       </div>
+      <h3 class="pageSubtitle">Paper submissions</h3>
+      <p>
+        Author instructions for paper submission are on the <a href="papersubmission.php">submissions page</a>.
+      </p>
 
       <h3 class="pageSubtitle mt-4">
         Sample Program Committee
