@@ -1,3 +1,12 @@
+/* NOTE: this is a supplemental style sheet. You should select one of the
+styles/*_theme.css files to include (orange_theme.css is included by default).
+*/
+
+/* Color scheme created by Kay McKelly, inspired by tropical sunsets (https://coolors.co/efe555-9c4683-4a1f60-33004d-8b2e4b) */
+
+
+
+/***** General Styling *****/
 #pageTop {
   /* equivalent of d-flex */
   display: -ms-flexbox !important;
@@ -7,126 +16,52 @@
   flex-direction: column-reverse !important;
 }
 
-/* inspiration = an ungodly bright sunset (https://coolors.co/ece300-8a0268-ff5f09-33004d-800039) */
 body {
-  background-size:cover;
-  background: #33004D;
-  background: linear-gradient(7deg, rgba(17,0,26,1) 0%, rgba(51,0,77,1) 20%, rgba(74,31,96,1) 25%, rgba(128,0,57,0.9) 45%, rgba(138,2,104,0.8) 65%, rgba(237,227,0,0.7) 95%);
-    /* currently working but brighter than desired */
-    /* background: linear-gradient(187deg,
-                                #EDE300 0%,
-                                #8A0268 30%,
-                                #800039 55%,
-                                #4A1F60 75%,
-                                #33004D 80%,
-                                #11001A 100%); */
-  background-repeat: no-repeat;
+  background: linear-gradient(7deg, #11001A 0%, #33004D 20%, #4A1F60 25%, #8B2E4B 45%, #9C4683 65%, #EFE555 95%);
   background-attachment: fixed;
 }
 
+
+
+/***** Nav (in /includes/nav.php) *****/
 ul#nav-ul {
   font-weight: bold;
   font-size: 1.1em;
   margin-bottom: 0.8em;
 }
 
-@media only screen and (max-width: 768px) {
-   background-color: #11001A;
-}
-
 ul#nav-ul a.nav-link {
   color: #0D0D0D;
 }
 
-@media only screen and (max-width: 768px) {
-    li.nav-item {
-        background-color: #11001A;
-    }
+/* make navbar dark bg/light text once it collapses */
+@media only screen and (max-width: 576px) {
+  li.nav-item {
+    background-color: #0D0D0D;
+  }
+
+  ul#nav-ul a.nav-link {
+    color: #FEFDFB;
+    padding: 1rem;
+  }
 }
 
 div.dropdown-menu {
-    background-color: #11001A;
-    border: none;
+  background-color: #0D0D0D;
+  border: none;
 }
 
 @media only screen and (min-width: 768px) {
-  #nav-ul {
-    width: 80% !important;
-  }
-
-  #nav-ul .nav-item {
-    flex: 1 1 auto;
-    text-align: center;
-  }
-
   div.dropdown-menu {
     /* make sure dropdown doesn't disappear when you move. */
     top: 2.2rem;
   }
-
-  a.dropdown-item:hover {
-    color: #0D0D0D;
-  }
 }
 
-main {
-  background-color: #0D0D0D;
-  color: #F2F2F2;
-  box-shadow: -5px 10px 30px #11001A;
-/*  height: 82vh;
-  overflow-y: scroll;*/
-}
-
-h1 {
-  border-bottom: 1px solid #424242;
-  border-radius: 32%;
-}
-
-#iacrLogo {
-  height: 4rem;
-}
-
-
-footer {
-  background-color: #11001A;
-  color: #F2F2F2;
-  text-align: center;
-  font-size: small;
-}
-
-/************************************** */
-/* NOTE: this is a supplemental style sheet. You should select one of the
-   styles/*_theme.css files to include (orange_theme.css is included by default).
-*/
-
-
-/***** General styling *****/
-
-
-
-body, .listItems {
-  background-color: #FEFDFB;
-}
-
-
-
-/***** Nav (in /includes/nav.php) *****/
 #main-nav-row {
-  /* background-size: cover; */
-  background: linear-gradient(6deg, rgba(188, 113, 102, 1) 0%, rgba(237, 220, 94, 1) 63%);
-
-  /* background: linear-gradient(7deg, #b55f6e 25%, #c98f5a 45%, #d7ae50 65%, #f3ea58 95%); */
-  /* background: linear-gradient(187deg,
-                              #EDE300 0%,
-                              #8A0268 30%,
-                              #800039 55%,
-                              #4A1F60 75%,
-                              #33004D 80%,
-                              #11001A 100%); */
-  /* background-attachment: fixed; */
-  /* background-color: rgba(0,0,0,0); */
+  background: linear-gradient(187deg, #EADB58 0%, #EDDC5E 25%, #E3CE5B 33%, #B97B71 83%, #B67572 89%, #B47174 91%);
   height: 4rem;
-  /* emulated fixed-top */
+  /* emulate .fixed-top */
   position: fixed;
   top: 0;
   right: 0;
@@ -134,13 +69,13 @@ body, .listItems {
   z-index: 1030;
 }
 
-.headerImg {
-    margin-top: 60px;
-}
-
 
 
 /***** Header (in /includes/nav.php) *****/
+.headerImg {
+  margin-top: 60px;
+}
+
 .headerGradient {
   background: #0D0D0D;
   color: #F2F2F2;
@@ -152,8 +87,10 @@ body, .listItems {
 }
 
 img#logo {
-  display:none !important;
+  display: none !important;
 }
+
+/* make .headerGradient same size as body.container */
 @media (min-width: 576px) {
   .headerGradient {
     max-width: 540px;
@@ -177,7 +114,9 @@ img#logo {
     max-width: 1140px;
   }
 }
+/* END make .headerGradient same size as body.container */
 
+/* centers and expands conf name */
 .headerConferenceName {
   flex-grow: 1;
 }
@@ -187,69 +126,82 @@ img#logo {
   text-align: center !important;
   text-shadow: none !important;
   /* emulate .display-2 */
-  font-size: 5.5rem;
+  font-size: 4.5rem;
   font-weight: 300;
   line-height: 1.2;
   padding-bottom: 2.5rem;
+  /* add border arc below title */
+  border-bottom: 1px solid #424242;
+  border-radius: 32%;
 }
 
-.headerInfoTop {
-  color: #F2F2F2;
+@media (min-width: 992px) {
+  font-size: 5.5rem;
+}
+
+.headerInfoTop, .headerInfoBottom {
   display: none;
 }
 
-.headerInfoBottom {
-  color: #F2F2F2;
-  display: none;
-}
 
+
+/***** Main content (e.g. h1-h6, a, text, etc) *****/
 main {
+  background-color: #0D0D0D;
+  color: #F2F2F2;
+  box-shadow: -5px 10px 30px #11001A;
+  /* makes main and header seamless */
   padding-top: 0 !important;
   margin-top: 0 !important;
 }
 
 a {
-  color: #FD5DD5;
+  color: #E378CE;
+  /* brighter option */
+  /* color: #FD5DD5; */
 }
 
 a:hover {
-  color: #ca0298;
+  color: #DE5BC3;
+  /* brighter option */
+  /* color: #ca0298; */
 }
 
-
-
-/***** Main Content: general styling *****/
 .indPageTitle {
-  color: #0F773C;
+  color: #A061D1;
 }
 
-.darkCard h3 {
+.pageSubtitle {
+  color: #FFBB9E;
 }
 
+.subSubtitle {
+  color: #F2E68C;
+}
+
+code {
+  color: #CA8E72;
+}
+
+
+
+/***** Main Content: cards & alerts *****/
 .customCard {
   border: 1px solid #484848;
 }
 
 .customCardHeader {
-/*  background-color: rgba(203, 131, 30, 0.4);*/
-  color: #F2F2F2;
+  color: #C48265;
   text-align: center;
   border-radius: 12%;
   padding-bottom: 1rem;
   margin-bottom: 1.5rem;
-  border-bottom: 2px solid #424242;
+  border-bottom: 2px solid #484848;
+  font-size: 1.75rem;
 }
 
 .dateTitle {
   color: #FFBB9E;
-}
-
-.pageSubtitle {
-  color: #F2F2F2;
-}
-
-.customCardHeader {
-  color: #C48265;
 }
 
 .customCardFooter {
@@ -257,7 +209,48 @@ a:hover {
   background-color: rgba(52, 20, 77, 0.6);
 }
 
-.sponsorLogo {
+.alert-success {
+  background-color: #FFBB9E;
+  color: #33004D;
+  border: none;
+}
+
+.alert-warning {
+  background-color: #F2E68C;
+  color: #33004D;
+  border: none;
+}
+
+.alert-success .icon, .alert-warning .icon {
+  filter: brightness(0) saturate(100%) invert(10%) sepia(39%) saturate(6663%) hue-rotate(274deg) brightness(75%) contrast(113%);
+}
+
+
+
+/***** Main Content: images & icons *****/
+/* change color of icons */
+.icon {
+  /* thanks https://codepen.io/sosuke/pen/Pjoqqp for generating this filter (the first two properties set the icon to black first to achieve a truer color match) */
+  filter: brightness(0) saturate(100%) invert(86%) sepia(8%) saturate(4081%) hue-rotate(306deg) brightness(114%) contrast(101%);
+}
+
+.sponsorLogo, .sponsorPageLogo {
   background-color: #F2F2F2;
   border-radius: 25%;
+}
+
+li.location, li.phone, li.email {
+  filter: brightness(0) saturate(100%) invert(86%) sepia(8%) saturate(4081%) hue-rotate(306deg) brightness(114%) contrast(101%);
+}
+
+
+
+/***** Footer *****/
+footer {
+  background-color: #11001A;
+  color: #F2F2F2;
+  text-align: center;
+  font-size: small;
+  padding: 0.7rem;
+  margin-bottom: 0 !important;
 }
