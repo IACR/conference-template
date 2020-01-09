@@ -2,7 +2,7 @@
 styles/*_theme.css files to include (orange_theme.css is included by default).
 */
 
-/* inspiration = an ungodly bright sunset (https://coolors.co/ece300-8a0268-ff5f09-33004d-800039) */
+/* Color scheme created by Kay McKelly, inspired by tropical sunsets (https://coolors.co/efe555-9c4683-4a1f60-33004d-8b2e4b) */
 
 
 
@@ -17,18 +17,12 @@ styles/*_theme.css files to include (orange_theme.css is included by default).
 }
 
 body {
-  background-size:cover;
-  background: #33004D;
-  background: linear-gradient(7deg, rgba(17,0,26,1) 0%, rgba(51,0,77,1) 20%, rgba(74,31,96,1) 25%, rgba(128,0,57,0.9) 45%, rgba(138,2,104,0.8) 65%, rgba(237,227,0,0.7) 95%);
-    /* currently working but brighter than desired */
-    /* background: linear-gradient(187deg,
-                                #EDE300 0%,
-                                #8A0268 30%,
-                                #800039 55%,
-                                #4A1F60 75%,
-                                #33004D 80%,
-                                #11001A 100%); */
-  background-repeat: no-repeat;
+  /* no longer necessary/doesn't do anything */
+  /* background-size:cover; */
+  /* background: #33004D; */
+  background: linear-gradient(7deg, #11001A 0%, #33004D 20%, #4A1F60 25%, #8B2E4B 45%, #9C4683 65%, #EFE555 95%);
+  /* doesn't do anything */
+  /* background-repeat: no-repeat; */
   background-attachment: fixed;
 }
 
@@ -90,21 +84,9 @@ div.dropdown-menu {
 }
 
 #main-nav-row {
-  /* background-size: cover; */
-  background: linear-gradient(6deg, rgba(188, 113, 102, 1) 0%, rgba(237, 220, 94, 1) 63%);
-
-  /* background: linear-gradient(7deg, #b55f6e 25%, #c98f5a 45%, #d7ae50 65%, #f3ea58 95%); */
-  /* background: linear-gradient(187deg,
-                              #EDE300 0%,
-                              #8A0268 30%,
-                              #800039 55%,
-                              #4A1F60 75%,
-                              #33004D 80%,
-                              #11001A 100%); */
-  /* background-attachment: fixed; */
-  /* background-color: rgba(0,0,0,0); */
+  background: linear-gradient(187deg, #EADB58 0%, #EDDC5E 25%, #E3CE5B 33%, #B97B71 83%, #B67572 89%, #B47174 91%);
   height: 4rem;
-  /* emulated fixed-top */
+  /* emulate .fixed-top */
   position: fixed;
   top: 0;
   right: 0;
@@ -116,7 +98,7 @@ div.dropdown-menu {
 
 /***** Header (in /includes/nav.php) *****/
 .headerImg {
-    margin-top: 60px;
+  margin-top: 60px;
 }
 
 .headerGradient {
