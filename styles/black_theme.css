@@ -90,7 +90,7 @@ img#logo {
   display: none !important;
 }
 
-/* makes header transparent...somehow?? */
+/* make .headerGradient same size as body.container */
 @media (min-width: 576px) {
   .headerGradient {
     max-width: 540px;
@@ -114,6 +114,7 @@ img#logo {
     max-width: 1140px;
   }
 }
+/* END make .headerGradient same size as body.container */
 
 /* centers and expands conf name */
 .headerConferenceName {
@@ -129,6 +130,7 @@ img#logo {
   font-weight: 300;
   line-height: 1.2;
   padding-bottom: 2.5rem;
+  /* add border arc below title */
   border-bottom: 1px solid #424242;
   border-radius: 32%;
 }
@@ -208,8 +210,8 @@ code {
 }
 
 .alert-success {
-  background-color: rgba(52, 20, 77, 0.6);
-  color: #F2F2F2;
+  background-color: #FFBB9E;
+  color: #33004D;
   border: none;
 }
 
@@ -219,7 +221,7 @@ code {
   border: none;
 }
 
-.alert-warning .icon {
+.alert-success .icon, .alert-warning .icon {
   filter: brightness(0) saturate(100%) invert(10%) sepia(39%) saturate(6663%) hue-rotate(274deg) brightness(75%) contrast(113%);
 }
 
