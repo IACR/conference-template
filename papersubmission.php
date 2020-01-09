@@ -19,15 +19,18 @@
       </h2>
 
       <!-- NOTE: below is standard placeholder text for when the page
-           is under construction. please delete this
-           entire <div class="row"> and all elements contained within it
-           when ready to add other content -->
+           is under construction. please delete the <p> below when you
+           finish editing the content.  -->
       <p>
           This information is not yet available. Thank you for your patience.
       </p>
 
-      <!-- NOTE: the information below is from a past IACR conference, but
-           should be checked agains the current Springer requirements. -->
+      <!-- NOTE: below is placeholder content derived from a past conference. 
+           Please uncomment and replace contents with your own content when ready.
+           This code is here to give you an idea of what the structure of this page
+           has looked like in the past.
+        -->
+      <!-- TODO: duplicate card for dates from callforpapers.php -->
       <h3 class="pageSubtitle mt-4">
         Instructions for Authors
       </h3>
