@@ -3,10 +3,10 @@
 <script>
   function setTheme(val) {
     // for Kay's machine
-     // document.getElementById('style').href = '/styles/' + val + '_theme.css';
+     document.getElementById('style').href = '/styles/' + val + '_theme.css';
 
      // for Kevin's machine
-     document.getElementById('style').href = '/iacr/styles/' + val + '_theme.css';
+     // document.getElementById('style').href = '/iacr/styles/' + val + '_theme.css';
   }
 </script>
 <style>
@@ -42,9 +42,9 @@ aria-haspopup="true" aria-expanded="false">
 <!-- BEGIN nav -->
 <div id="pageTop">
    <header id="conf_id" class="headerImg">
-     <div class="headerGradient pt-md-5">
+     <div class="headerGradient">
         <div class="pageTopContainer">
-          <div class="d-flex justify-content-between align-items-center">
+          <div id="titlesLogoDiv" class="d-flex justify-content-between align-items-center">
             <div class="headerConferenceName">
               <h1 class="headerTitle">
                 <span class="conf_name"><?php echo $META['shortName'];?></span>

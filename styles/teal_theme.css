@@ -10,7 +10,7 @@ body {
 }
 
 main {
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
 
 
@@ -24,7 +24,12 @@ main {
   flex-direction: column-reverse !important;
 }
 
+
+
 /***** Header (in /includes/nav.php) *****/
+#titlesLogoDiv {
+  flex-direction: column;
+}
 
 .headerTitle {
   color: #2E3192;
@@ -37,7 +42,6 @@ main {
 .headerInfoBottom {
   color: #2E3192;
 }
-
 
 #main-nav-row {
     /*  background-color: #0F5C45;*/
@@ -62,6 +66,9 @@ div.dropdown-menu {
 a.dropdown-item {
   color: #FEFDFB;
 }
+
+
+
 /***** Main Content: general styling *****/
 .indPageTitle {
   color: #0F773C;
