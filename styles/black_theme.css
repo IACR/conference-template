@@ -112,9 +112,10 @@ div.dropdown-menu {
 }
 
 img#logo {
-  display:none !important;
+  display: none !important;
 }
 
+/* makes header transparent...somehow?? */
 @media (min-width: 576px) {
   .headerGradient {
     max-width: 540px;
@@ -139,6 +140,7 @@ img#logo {
   }
 }
 
+/* centers and expands conf name */
 .headerConferenceName {
   flex-grow: 1;
 }
@@ -152,69 +154,57 @@ img#logo {
   font-weight: 300;
   line-height: 1.2;
   padding-bottom: 2.5rem;
+  border-bottom: 1px solid #424242;
+  border-radius: 32%;
 }
 
-.headerInfoTop {
-  color: #F2F2F2;
-  display: none;
-}
-
-.headerInfoBottom {
-  color: #F2F2F2;
+.headerInfoTop, .headerInfoBottom {
   display: none;
 }
 
 
 
-/***** Main content (e.g. h1-h6, a, etc) *****/
+/***** Main content (e.g. h1-h6, a, text, etc) *****/
 main {
   background-color: #0D0D0D;
   color: #F2F2F2;
   box-shadow: -5px 10px 30px #11001A;
+  /* makes main and header seamless */
   padding-top: 0 !important;
   margin-top: 0 !important;
 }
 
 a {
   color: #E378CE;
+  /* brighter option */
   /* color: #FD5DD5; */
 }
 
 a:hover {
   color: #DE5BC3;
+  /* brighter option */
   /* color: #ca0298; */
 }
 
-h1 {
-  border-bottom: 1px solid #424242;
-  border-radius: 32%;
-}
-
 .indPageTitle {
-  color: #a061d1;
+  color: #A061D1;
 }
 
 .pageSubtitle {
-  color: #a061d1;
+  color: #FFBB9E;
 }
 
 .subSubtitle {
-  color: #f2e68c;
+  color: #F2E68C;
 }
 
-/* doesn't apply in this theme */
-/* #iacrLogo {
-  height: 4rem;
-} */
-
-/* extraneous */
-/* body, .listItems {
-  background-color: #FEFDFB;
-} */
+code {
+  color: #CA8E72;
+}
 
 
 
-/***** Main Content: cards *****/
+/***** Main Content: cards & alerts *****/
 .customCard {
   border: 1px solid #484848;
 }
@@ -225,7 +215,7 @@ h1 {
   border-radius: 12%;
   padding-bottom: 1rem;
   margin-bottom: 1.5rem;
-  border-bottom: 2px solid #424242;
+  border-bottom: 2px solid #484848;
   font-size: 1.75rem;
 }
 
@@ -238,6 +228,22 @@ h1 {
   background-color: rgba(52, 20, 77, 0.6);
 }
 
+.alert-success {
+  background-color: rgba(52, 20, 77, 0.6);
+  color: #F2F2F2;
+  border: none;
+}
+
+.alert-warning {
+  background-color: #F2E68C;
+  color: #33004D;
+  border: none;
+}
+
+.alert-warning .icon {
+  filter: brightness(0) saturate(100%) invert(10%) sepia(39%) saturate(6663%) hue-rotate(274deg) brightness(75%) contrast(113%);
+}
+
 
 
 /***** Main Content: images & icons *****/
@@ -246,9 +252,13 @@ h1 {
   filter: brightness(0) saturate(100%) invert(86%) sepia(8%) saturate(4081%) hue-rotate(306deg) brightness(114%) contrast(101%);
 }
 
-.sponsorLogo {
+.sponsorLogo, .sponsorPageLogo {
   background-color: #F2F2F2;
   border-radius: 25%;
+}
+
+li.location, li.phone, li.email {
+  filter: brightness(0) saturate(100%) invert(86%) sepia(8%) saturate(4081%) hue-rotate(306deg) brightness(114%) contrast(101%);
 }
 
 
