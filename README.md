@@ -21,7 +21,7 @@ content in the &lt;main&gt; element of a page. If you find that you
 can't understand something, the [documentation for
 bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
 is quite good. The most basic thing is to understand the bootstrap
-[grid system](https://getbootstrap.com/docs/4.0/layout/grid/) for
+[grid system](https://getbootstrap.com/docs/4.4/layout/grid/) for
 columns that work on both mobile and desktop. You shouldn't need to
 download anything provided you are online, because the template is
 built to load bootstrap straight from iacr.org.
@@ -81,8 +81,7 @@ The program committee is stored in `json/comm.json`. You should go to
 to download your program committee file. The IDs in the file are used
 to enter the program committee into [Cryptodb](https://iacr.org/cryptodb)
 so be careful if you edit this file by hand. The program committee will
-show up in the `callforpapers.php` page but you must edit the other
-elements there (e.g., dates and program chairs).
+show up in the `callforpapers.php` page.
 
 
 ### Changing the contact information
@@ -101,9 +100,9 @@ red on the page because they contain a span with class editMe.
 ### Adding your page content to individual pages (`*.php`)
 
 All pages have included boilerplate content, some of which is
-commented out.  You will need to go through each individual page and
+commented out.  **You will need to go through each individual page and
 edit content that does not pertain to your conference, as well as add
-your own information.
+your own information.**
 
 We **strongly** recommend proofreading the HTML to make sure all content
 relates to your specific conference. Some content may not be ready at
