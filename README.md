@@ -13,29 +13,45 @@ because they are incompatible.  The old template has been deprecated
 and you should not copy the pages from an old conference.  That
 version has been abandoned and there will be no futher updates.
 
+You do not need to know bootstrap, because most pages already contain
+the bootstrap DOM structure that is needed, and you can cut and paste
+from other pages if you see something you like (e.g., a card).  The
+most basic things are handled for you, and you simply need to edit the
+content in the &lt;main&gt; element of a page. If you find that you
+can't understand something, the [documentation for
+bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+is quite good. The most basic thing is to understand the bootstrap
+[grid system](https://getbootstrap.com/docs/4.0/layout/grid/) for
+columns that work on both mobile and desktop. You shouldn't need to
+download anything provided you are online, because the template is
+built to load bootstrap straight from iacr.org.
+
 ___
 
 # INSTALLATION
 
 You will need to have [php](https://www.php.net/manual/en/install.php)
-installed on the machine you work on.  These are already installed on
-the iacr.org machine, but it's best to work on your local machine, and
-only push files to the live server once you are satisfied with them.
+installed on the machine you work on (you do _not_ need a web server
+like apache, because php provides a basic one).  `php` is already
+installed on the iacr.org machine, but it's best to work on your local
+machine, and only push files to the live server once you are satisfied
+with them.
 
 In order to get started with the template, simply open a shell, change
 to your working directory, and type:
 
 ```
-git clone https://github.com/kmccurley/conference-template.git .
+git clone https://github.com/IACR/conference-template.git .
 ```
 **(NOTE THE DOT AT THE END OF THE PREVIOUS LINE)**
 
 If you do not have git installed, then you can download a [zip file
 with the
 template](https://github.com/IACR/conference-template/archive/master.zip).
-This creates a copy of the files for the site on your machine.  Next
-make sure you are in the directory containing `acceptedpapers.php` and
-run the command
+This creates a copy of the files for the site on your machine, but
+it will make it harder to pull in subsequent changes made to the
+template.  Next make sure you are in the directory containing
+`acceptedpapers.php` and run the command
 
 ```
 php -S localhost:8000
@@ -64,7 +80,9 @@ The program committee is stored in `json/comm.json`. You should go to
 [http://iacr.org/cryptodb/pc](http://iacr.org/cryptodb/pc)
 to download your program committee file. The IDs in the file are used
 to enter the program committee into [Cryptodb](https://iacr.org/cryptodb)
-so be careful if you edit this file by hand.
+so be careful if you edit this file by hand. The program committee will
+show up in the `callforpapers.php` page but you must edit the other
+elements there (e.g., dates and program chairs).
 
 
 ### Changing the contact information
@@ -80,12 +98,9 @@ date code of conduct for each conference. You should edit the
 `conduct.php` accordingly. Sections that need editing will show up in
 red on the page because they contain a span with class editMe.
 
-At this point you should have a working first site, and you should copy
-your files over to the iacr.org server in the appropriate directory.
-
 ### Adding your page content to individual pages (`*.php`)
 
-All pages have included boilerplate content, most of which is
+All pages have included boilerplate content, some of which is
 commented out.  You will need to go through each individual page and
 edit content that does not pertain to your conference, as well as add
 your own information.
@@ -93,7 +108,7 @@ your own information.
 We **strongly** recommend proofreading the HTML to make sure all content
 relates to your specific conference. Some content may not be ready at
 the time that you first put your site up, so you can comment things
-out in the pages with standard HTML comments &lt;!--  ... --&gt;
+out in the pages with standard HTML comments: &lt;!--  this is a comment --&gt;
 
 #### To delete a page
 
@@ -105,8 +120,15 @@ it in `includes/nav.php` (or anywhere else in the php files).
 
 Let's say you want a separate page for an affiliated event called
 `event1.php`. You would create the page by copying `empty.php` to
-`event1.php`, add the link to the file in `includes/nav.php`, and then
-edit `event1.php` to add your content.
+`event1.php`, and then edit `event1.php` to add your content. Then
+you can create a link to it from the `affiliated.php` file, or create
+a menu item in `includes/nav.php` to link to it.
+
+If you create your new page in a subdirectory, then you will need to
+change all of the `include` paths in empty.php when you copy it, e.g., use
+```
+require "../includes/head.php";
+```
 
 ___
 
