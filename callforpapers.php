@@ -23,7 +23,7 @@
       <!-- this is for Crypto 2020. Modify to suit -->
       <p>
         <span class="conf_name"><?php echo $META['shortName'];?></span> will take place in <span class="conf_location"><?php echo $META['location'];?></span> on <span class="conf_dates"><?php echo $META['dates'];?></span>. <span class="conf_name"><?php echo $META['shortName'];?></span> is organized by <a href="http://iacr.org/">the International Association for Cryptologic Research</a> (IACR).
-        The proceedings of will be published by Springer in the LNCS series.
+        The proceedings will be published by Springer in the LNCS series.
       </p>
       <p>
         Original contributions on all technical aspects of
@@ -33,9 +33,9 @@
         topic including, but not limited to:
       </p>
       <ul>
-        <li>foundational theory and mathematics;</li>
-        <li>the design, proposal, and analysis of cryptographic primitives and protocols;</li>
-        <li>secure implementation and optimization in hardware or software; and applied aspects of cryptography.</li>
+        <li>foundational theory and mathematics</li>
+        <li>the design, proposal, and analysis of cryptographic primitives and protocols</li>
+        <li>secure implementation and optimization in hardware or software; and applied aspects of cryptography</li>
       </ul>
       <div class="row mt-4">
         <section class="col-lg-6">
@@ -46,13 +46,16 @@
             <span class="conf_name"><?php echo $META['shortName'];?></span> will operate a two-round review system with rebuttal phase. In the first round, the program committee selects the submissions which are considered of value for proceeding to the second round, and the authors receive the first round notification with review comments. The authors of the selected submissions are invited to submit a text-based rebuttal letter to the review comments.
           </p>
           <p>
-            In the second round the program committee further reviews the selected submissions by taking into account their rebuttal letter, and makes the final decision of acceptance or rejection. The submissions that have not been selected during the first round of reviews may be submitted in other conferences after the first round notification date. The dates for this schedule are listed above.
+            The submissions that have not been selected during the first round of reviews may be submitted in other conferences after the first round notification date.
+          </p>
+          <p>
+            In the second round the program committee further reviews the selected submissions by taking into account their rebuttal letter. They then make the final decision of acceptance or rejection.
           </p>
         </section>
         <div class="col-lg-6 mt-3 mt-lg-0">
           <article class="customCard">
             <h4 class="customCardHeader">
-              Example Important Dates
+              Important Dates
             </h4>
             <div class="customCardRow row">
               <h6 class="dateTitle col-5 col-md-4">
