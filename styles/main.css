@@ -132,9 +132,11 @@ a.dropdown-item {
   padding-top: 2.7rem;
 }
 
-/* different styling for header contents at different sizes */
 @media (min-width: 768px) {
   #titlesLogoDiv {
+    /* imitate .flex-column sans !important in sizes smaller than md */
+    flex-direction: row;
+    /* different styling for header contents at different sizes */
     padding-top: 5rem;
   }
 }
@@ -142,13 +144,6 @@ a.dropdown-item {
 @media (min-width: 992px) {
   #titlesLogoDiv {
     padding-top: 3.5rem;
-  }
-}
-
-/* imitate .flex-column sans !important in sizes smaller than md */
-@media (min-width: 768px) {
-  #titlesLogoDiv {
-    flex-direction: row;
   }
 }
 
