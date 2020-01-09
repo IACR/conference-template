@@ -37,6 +37,7 @@
         <li>the design, proposal, and analysis of cryptographic primitives and protocols</li>
         <li>secure implementation and optimization in hardware or software; and applied aspects of cryptography</li>
       </ul>
+
       <div class="row mt-4">
         <section class="col-lg-6">
           <h3 class="pageSubtitle">
@@ -113,7 +114,7 @@
       </div>
 
 
-      <div class="row mt-4">
+      <div class="row mt-lg-4">
         <section class="col-md-6">
           <h3 class="pageSubtitle">
             Awards
