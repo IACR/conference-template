@@ -1,3 +1,12 @@
+/* NOTE: this is a supplemental style sheet. You should select one of the
+styles/*_theme.css files to include (orange_theme.css is included by default).
+*/
+
+/* inspiration = an ungodly bright sunset (https://coolors.co/ece300-8a0268-ff5f09-33004d-800039) */
+
+
+
+/***** General Styling *****/
 #pageTop {
   /* equivalent of d-flex */
   display: -ms-flexbox !important;
@@ -7,7 +16,6 @@
   flex-direction: column-reverse !important;
 }
 
-/* inspiration = an ungodly bright sunset (https://coolors.co/ece300-8a0268-ff5f09-33004d-800039) */
 body {
   background-size:cover;
   background: #33004D;
@@ -24,15 +32,19 @@ body {
   background-attachment: fixed;
 }
 
+
+
+/***** Nav (in /includes/nav.php) *****/
 ul#nav-ul {
   font-weight: bold;
   font-size: 1.1em;
   margin-bottom: 0.8em;
 }
 
-@media only screen and (max-width: 768px) {
+/* idk what this does */
+/* @media only screen and (max-width: 768px) {
    background-color: #11001A;
-}
+} */
 
 ul#nav-ul a.nav-link {
   color: #0D0D0D;
@@ -40,77 +52,43 @@ ul#nav-ul a.nav-link {
 
 @media only screen and (max-width: 768px) {
     li.nav-item {
-        background-color: #11001A;
+        background-color: #0D0D0D;
+    }
+
+    ul#nav-ul a.nav-link {
+      color: #FEFDFB;
+      padding: 1rem;
     }
 }
 
 div.dropdown-menu {
-    background-color: #11001A;
+    background-color: #0D0D0D;
     border: none;
 }
 
 @media only screen and (min-width: 768px) {
-  #nav-ul {
+  /* makes nav links closer together - whyyyyy */
+  /* #nav-ul {
     width: 80% !important;
-  }
+  } */
 
-  #nav-ul .nav-item {
+  /* idk what this does */
+  /* #nav-ul .nav-item {
     flex: 1 1 auto;
     text-align: center;
-  }
+  } */
 
   div.dropdown-menu {
     /* make sure dropdown doesn't disappear when you move. */
     top: 2.2rem;
   }
 
-  a.dropdown-item:hover {
+  /* doesn't seem to change anything */
+  /* a.dropdown-item:hover {
     color: #0D0D0D;
-  }
+  } */
 }
 
-main {
-  background-color: #0D0D0D;
-  color: #F2F2F2;
-  box-shadow: -5px 10px 30px #11001A;
-/*  height: 82vh;
-  overflow-y: scroll;*/
-}
-
-h1 {
-  border-bottom: 1px solid #424242;
-  border-radius: 32%;
-}
-
-#iacrLogo {
-  height: 4rem;
-}
-
-
-footer {
-  background-color: #11001A;
-  color: #F2F2F2;
-  text-align: center;
-  font-size: small;
-}
-
-/************************************** */
-/* NOTE: this is a supplemental style sheet. You should select one of the
-   styles/*_theme.css files to include (orange_theme.css is included by default).
-*/
-
-
-/***** General styling *****/
-
-
-
-body, .listItems {
-  background-color: #FEFDFB;
-}
-
-
-
-/***** Nav (in /includes/nav.php) *****/
 #main-nav-row {
   /* background-size: cover; */
   background: linear-gradient(6deg, rgba(188, 113, 102, 1) 0%, rgba(237, 220, 94, 1) 63%);
@@ -134,13 +112,13 @@ body, .listItems {
   z-index: 1030;
 }
 
+
+
+/***** Header (in /includes/nav.php) *****/
 .headerImg {
     margin-top: 60px;
 }
 
-
-
-/***** Header (in /includes/nav.php) *****/
 .headerGradient {
   background: #0D0D0D;
   color: #F2F2F2;
@@ -154,6 +132,7 @@ body, .listItems {
 img#logo {
   display:none !important;
 }
+
 @media (min-width: 576px) {
   .headerGradient {
     max-width: 540px;
@@ -203,53 +182,73 @@ img#logo {
   display: none;
 }
 
+
+
+/***** Main content (e.g. h1-h6, a, etc) *****/
 main {
+  background-color: #0D0D0D;
+  color: #F2F2F2;
+  box-shadow: -5px 10px 30px #11001A;
   padding-top: 0 !important;
   margin-top: 0 !important;
 }
 
 a {
-  color: #FD5DD5;
+  color: #E378CE;
+  /* color: #FD5DD5; */
 }
 
 a:hover {
-  color: #ca0298;
+  color: #DE5BC3;
+  /* color: #ca0298; */
 }
 
+h1 {
+  border-bottom: 1px solid #424242;
+  border-radius: 32%;
+}
 
-
-/***** Main Content: general styling *****/
 .indPageTitle {
-  color: #0F773C;
+  color: #a061d1;
 }
 
-.darkCard h3 {
+.pageSubtitle {
+  color: #a061d1;
 }
 
+.subSubtitle {
+  color: #f2e68c;
+}
+
+/* doesn't apply in this theme */
+/* #iacrLogo {
+  height: 4rem;
+} */
+
+/* extraneous */
+/* body, .listItems {
+  background-color: #FEFDFB;
+} */
+
+
+
+/***** Main Content: cards *****/
 .customCard {
   border: 1px solid #484848;
 }
 
 .customCardHeader {
-/*  background-color: rgba(203, 131, 30, 0.4);*/
-  color: #F2F2F2;
+  color: #C48265;
   text-align: center;
   border-radius: 12%;
   padding-bottom: 1rem;
   margin-bottom: 1.5rem;
   border-bottom: 2px solid #424242;
+  font-size: 1.75rem;
 }
 
 .dateTitle {
   color: #FFBB9E;
-}
-
-.pageSubtitle {
-  color: #F2F2F2;
-}
-
-.customCardHeader {
-  color: #C48265;
 }
 
 .customCardFooter {
@@ -257,7 +256,27 @@ a:hover {
   background-color: rgba(52, 20, 77, 0.6);
 }
 
+
+
+/***** Main Content: images & icons *****/
+.icon {
+  /* thanks https://codepen.io/sosuke/pen/Pjoqqp for generating this filter (the first two properties set the icon to black first to achieve a truer color match) */
+  filter: brightness(0) saturate(100%) invert(86%) sepia(8%) saturate(4081%) hue-rotate(306deg) brightness(114%) contrast(101%);
+}
+
 .sponsorLogo {
   background-color: #F2F2F2;
   border-radius: 25%;
+}
+
+
+
+/***** Footer *****/
+footer {
+  background-color: #11001A;
+  color: #F2F2F2;
+  text-align: center;
+  font-size: small;
+  padding: 0.7rem;
+  margin-bottom: 0 !important;
 }
