@@ -44,20 +44,21 @@ ul#nav-ul a.nav-link {
   color: #0D0D0D;
 }
 
-@media only screen and (max-width: 768px) {
-    li.nav-item {
-        background-color: #0D0D0D;
-    }
+/* make navbar dark bg/light text once it collapses */
+@media only screen and (max-width: 576px) {
+  li.nav-item {
+      background-color: #0D0D0D;
+  }
 
-    ul#nav-ul a.nav-link {
-      color: #FEFDFB;
-      padding: 1rem;
-    }
+  ul#nav-ul a.nav-link {
+    color: #FEFDFB;
+    padding: 1rem;
+  }
 }
 
 div.dropdown-menu {
-    background-color: #0D0D0D;
-    border: none;
+  background-color: #0D0D0D;
+  border: none;
 }
 
 @media only screen and (min-width: 768px) {
@@ -150,12 +151,16 @@ img#logo {
   text-align: center !important;
   text-shadow: none !important;
   /* emulate .display-2 */
-  font-size: 5.5rem;
+  font-size: 4.5rem;
   font-weight: 300;
   line-height: 1.2;
   padding-bottom: 2.5rem;
   border-bottom: 1px solid #424242;
   border-radius: 32%;
+}
+
+@media (min-width: 992px) {
+  font-size: 5.5rem;
 }
 
 .headerInfoTop, .headerInfoBottom {
