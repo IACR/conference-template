@@ -22,9 +22,9 @@
            is under construction. please delete this
            entire <div class="row"> and all elements contained within it
            when ready to add other content -->
-      <div class="alert alert-warning mt-3">
+      <p>
           This information is not yet available. Thank you for your patience.
-      </div>
+      </p>
 
       <!-- NOTE: the information below is from a past IACR conference, but
            should be checked agains the current Springer requirements. -->
@@ -108,14 +108,13 @@
         The Program Committee may select a paper for the best paper award.
       </p>
       <h3 class="pageSubtitle mt-4">Submission server</h3>
-      <p class="alert alert-info mt-2">
+      <h5 class="text-center font-weight-bold">
         The submission server is not yet open.
-      </p>
+      </h5>
       <!-- When the submission server is ready, supply the link in the
-             button and remove the statement above. -->
+             button, remove the "disabled" class, and remove the statement above. -->
       <p class="text-center">
-        <a href="https://secure.iacr.org/websubrev/pkc2020/submit/index.php"
-         target="_blank" class="btn btn-lg btn-warning regBtn mx-auto"
+        <a href="#" target="_blank" class="disabled btn btn-lg btn-warning"
            role="button">Submission Server</a>
       </p>
               
