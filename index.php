@@ -34,7 +34,8 @@
 
     <div class="row mt-4">
       <div class="col-lg-6">
-        <article class="customCard">
+        <?php require "includes/important_dates.php";?>
+<!--        <article class="customCard">
           <h4 class="customCardHeader">
             Example Dates
           </h4>
@@ -89,7 +90,7 @@
           <div class="customCardFooter">
             <img src="images/icons/exclamation.svg" class="icon" /> Unless otherwise indicated, all deadlines are <a href="https://en.wikipedia.org/wiki/Anywhere_on_Earth">Anywhere On Earth</a>.
           </div>
-        </article>
+        </article>-->
       </div>
 
       <div class="col-lg-6 mt-4 mt-lg-0">

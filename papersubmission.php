@@ -31,6 +31,9 @@
            has looked like in the past.
         -->
       <!-- TODO: duplicate card for dates from callforpapers.php -->
+      <aside class="float-right p-4">
+        <?php require "includes/important_dates.php";?>
+      </aside>
       <h3 class="pageSubtitle mt-4">
         Instructions for Authors
       </h3>
