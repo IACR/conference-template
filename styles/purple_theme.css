@@ -59,6 +59,14 @@ ul#nav-ul a.nav-link:hover {
   font-weight: normal;
 }
 
+.subSubtitle {
+  /* green option */
+  /* color: #2EA656; */
+
+  /* purple option */
+  color: #5D2E8C;
+}
+
 a {
   color: #008577;
 }
