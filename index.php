@@ -35,62 +35,6 @@
     <div class="row mt-4">
       <div class="col-lg-6">
         <?php require "includes/important_dates.php";?>
-<!--        <article class="customCard">
-          <h4 class="customCardHeader">
-            Example Dates
-          </h4>
-          <div class="customCardRow row">
-            <h6 class="dateTitle col-5 col-md-4">
-              Feb 13 2050
-            </h6>
-            <p class="col-7 col-md-8">
-              Submission deadline at 04:00:00 UTC
-            </p>
-          </div>
-          <div class="customCardRow row">
-            <h6 class="dateTitle col-5 col-md-4">
-              March 30 2050
-            </h6>
-            <p class="col-7 col-md-8">
-              First round notification
-            </p>
-          </div>
-          <div class="customCardRow row">
-            <h6 class="dateTitle col-5 col-md-4">
-              April 5 2050
-            </h6>
-            <p class="col-7 col-md-8">
-              Rebuttals due by 11:45:00 UTC
-            </p>
-          </div>
-          <div class="customCardRow row">
-            <h6 class="dateTitle col-5 col-md-4">
-              April 22 2050
-            </h6>
-            <p class="col-7 col-md-8">
-              Final notification
-            </p>
-          </div>
-          <div class="customCardRow row">
-            <h6 class="dateTitle col-5 col-md-4">
-              July 5 2050
-            </h6>
-            <p class="col-7 col-md-8">
-              Camera-ready version
-            </p>
-          </div>
-          <div class="customCardRow row">
-            <h6 class="dateTitle col-5 col-md-4">
-              Sept 1 2050
-            </h6>
-            <p class="col-7 col-md-8">
-              Conference begins
-            </p>
-          </div>
-          <div class="customCardFooter">
-            <img src="images/icons/exclamation.svg" class="icon" /> Unless otherwise indicated, all deadlines are <a href="https://en.wikipedia.org/wiki/Anywhere_on_Earth">Anywhere On Earth</a>.
-          </div>
-        </article>-->
       </div>
 
       <div class="col-lg-6 mt-4 mt-lg-0">
@@ -98,22 +42,6 @@
           <h4 class="customCardHeader">
             Website Updates
           </h4>
-          <div class="customCardRow row">
-            <h6 class="dateTitle col-5 col-md-4">
-              April 20 2017
-            </h6>
-            <p class="col-7 col-md-8">
-              Web developer added a cool new feature to the site
-            </p>
-          </div>
-          <div class="customCardRow row">
-            <h6 class="dateTitle col-5 col-md-4">
-              April 18 2017
-            </h6>
-            <p class="col-7 col-md-8">
-              Updates for demo of this site
-            </p>
-          </div>
           <div class="customCardRow row">
             <h6 class="dateTitle col-5 col-md-4">
               March 28 2017
