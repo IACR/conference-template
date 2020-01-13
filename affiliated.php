@@ -19,7 +19,7 @@
       <p>
         IACR is soliciting for affiliated events to be held in
         conjunction with <?php echo $META['shortName'];?> on
-        <span class="editMe">*** Saturday, August 15, and/or Sunday, August 16***</span>.
+        <span class="editMe">Saturday, August 15, and/or Sunday, August 16</span>.
         Each such event is expected to provide a forum discussing a
         specific topic of the broad cryptographic world (theory, practice,
         implementation, standardizations, etc.). The format of the event
@@ -32,7 +32,7 @@
       <p>
         Affiliated events can be 1-2 days long.
         Proposals for events should be submitted by email to the <span class="conf_name"></span> workshop
-        chair at <span class="editMe">*** insert email address of affiliated workshops person***
+        chair at <span class="editMe">***insert email address of affiliated workshops person***
         by January 31st, 2020 (23:59 UTC) </span>.
       </p>
       <p>
@@ -106,7 +106,7 @@
       <p>
         A file (preferably in PDF format) containing all the above
         information should be sent to
-<span class="editMe">**** insert email address of workshops chair ***</span>.
+<span class="editMe">insert email address of workshops chair</span>.
         by the submission deadline.
       </p>
 
@@ -118,7 +118,7 @@
             </h4>
             <div class="customCardRow row">
               <h6 class="dateTitle col-6 col-md-5">
-                <span class="editMe">*** January 31, 2020 *** </span>
+                <span class="editMe">January 31, 2020</span>
               </h6>
               <p class="col-6 col-md-7">
                 Submission deadline for proposals
@@ -126,7 +126,7 @@
             </div>
             <div class="customCardRow row">
               <h6 class="dateTitle col-6 col-md-5">
-                <span class="editMe">*** February 20, 2020 ***</span>
+                <span class="editMe">February 20, 2020</span>
               </h6>
               <p class="col-6 col-md-7">
                 Notification of decision
