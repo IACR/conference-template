@@ -46,6 +46,7 @@ a:hover {
 span.editMe {
   color: #DD0000;
 }
+/* This is designed to force you to remove the editMe class everywhere. */
 span.editMe {
     animation: annoyingText 1.5s linear infinite;
     color: #DD0000;
