@@ -31,12 +31,12 @@
      </h3>
       <p>
         Affiliated events can be 1-2 days long.
-        Proposals for events should be submitted by email to the <span class="conf_name"></span> workshop
+        Proposals for events should be submitted by email to the workshop
         chair at <span class="editMe">***insert email address of affiliated workshops person***
         by January 31st, 2020 (23:59 UTC) </span>.
       </p>
       <p>
-	The <span class="conf_name"></span> workshop organizers will provide for each event:
+	The workshop organizers will provide for each event:
       </p>
       <ul>
         <li>Conference room with a projector</li>
@@ -52,18 +52,17 @@
         The organization of an affiliated event is supposed to be
         relatively easy.  The entire registration process as well as
         the local organization is done by the IACR (via
-        the <span class="conf_name"></span> general and workshop
+        the general and workshop
         chairs).  The proposal submitters need to identify a topic and
         decide on the format, and upon acceptance coordinate the
         program/speakers.
       </p>
       <p>
-        The registration fee for attendees of affiliated events will
-        be charged via the <span class="conf_name"></span>
-        registration process and will cover the incurred costs for
-        the location and equipment.  Being registered for a given
-        day of workshop enables a participant to attend any of the
-        workshops of that particular day.
+        The registration fee for attendees of affiliated events will be charged
+        via the registration process and will cover the incurred costs for the
+        location and equipment.  Being registered for a given day of workshop
+        enables a participant to attend any of the workshops of that particular
+        day.
       </p>
       <p>
 	Any additional costs (for example, costs of the program,
@@ -72,18 +71,18 @@
 	organizers.
       </p>
       <p>
-        The organizers of the accepted events are expected to maintain
-        an updated website (which will be linked from
-        the <span class="conf_name"></span> website), containing all
-        relevant information for participants.
+        The organizers of the accepted events are expected to maintain an
+        updated website (which will be linked from the <?php echo
+        $META['shortName'];?> website), containing all relevant information for
+        participants.
       </p>
 
       <h3 class="pageSubtitle">
         Submission Format for Affiliated Event Proposals
       </h3>
       <p>
-        Proposals for <span class="conf_name"></span> affiliated
-        events should include the following information in this order:
+        Proposals for affiliated events should include the following information
+        in this order:
       </p>
       <ol>
         <li>Name (and possible acronym) of the event</li>
