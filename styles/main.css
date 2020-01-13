@@ -52,11 +52,6 @@ span.editMe {
     border-bottom: 1px solid red;
     font-weight: 600;
 }
-@keyframes annoyingText {
-    0% { color: black; }
-    50% {color: red;}
-    75% {color: black;}
-}
 span.editMe:before {
     content: "EDIT THIS: ";
     font-weight: 800;
