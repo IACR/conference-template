@@ -27,9 +27,9 @@
       </p>
       <p>
         Original contributions on all technical aspects of
-        cryptology are solicited for submission to Crypto 2020,
+        cryptology are solicited for submission to <span class="editMe">Crypto 2020,
         the 40th Annual International Cryptology
-        Conference. Submissions are welcomed on any cryptographic
+        Conference</span>. Submissions are welcomed on any cryptographic
         topic including, but not limited to:
       </p>
       <ul>
@@ -146,7 +146,7 @@
       </p>
 
       <h3 class="pageSubtitle mt-4">
-        Sample Program Committee
+        Program Committee
       </h3>
 
       <div id="committee" class="row">

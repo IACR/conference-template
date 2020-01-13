@@ -27,7 +27,9 @@
         Invited Talks
       </h2>
 
-      <!-- NOTE: below is standard placeholder text for when the page is under construction. please delete this entire <div class="row"> when ready to add other content -->
+      <!-- NOTE: below is standard placeholder text for when the page
+      is under construction. please delete this
+      entire <div class="row"> when ready to add other content -->
       <div class="row">
         <div class="col-12">
           <p>
@@ -36,6 +38,10 @@
         </div>
       </div>
 
+      <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+           These are the invited speakers from Asiacrypt 2019. When you have your
+           list of invited speakers, You should uncomment this section and replace
+           the names, photos, and text using the same structure.
       <h3 class="pageSubtitle mt-4">
         Krzysztof Pietrzak
       </h3>
@@ -89,6 +95,7 @@
           </p>
         </div>
       </div>
+      %%%%%%%%%%%%%%%%%%%%%%%%%%% -->
 
     </main>
 

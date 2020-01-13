@@ -8,7 +8,7 @@
     <meta name="twitter:title" content="<?php echo $META['shortName'];?> affiliated events"/>
 
     <title>
-      Affiliated Events
+      <?php echo $META['shortName'];?> Affiliated Events
     </title>
   </head>
   <body>
@@ -18,8 +18,9 @@
       <h2 class="indPageTitle">Call for Affiliated Events</h2>
       <p>
         IACR is soliciting for affiliated events to be held in
-        conjunction with <?php echo $META['shortName'];?> on Saturday, August 15, and/or Sunday,
-        August 16. Each such event is expected to provide a forum discussing a
+        conjunction with <?php echo $META['shortName'];?> on
+        <span class="editMe">*** Saturday, August 15, and/or Sunday, August 16***</span>.
+        Each such event is expected to provide a forum discussing a
         specific topic of the broad cryptographic world (theory, practice,
         implementation, standardizations, etc.). The format of the event
         (e.g., workshop, tutorial, etc.) is up to the organizers.
@@ -31,9 +32,8 @@
       <p>
         Affiliated events can be 1-2 days long.
         Proposals for events should be submitted by email to the <span class="conf_name"></span> workshop
-        chair at
-        <a href="mailto:crypto2020workshopchair@gmail.com">crypto2020workshopchair@gmail.com</a>.
-        by January 31st, 2020 (23:59 UTC).
+        chair at <span class="editMe">*** insert email address of affiliated workshops person***
+        by January 31st, 2020 (23:59 UTC) </span>.
       </p>
       <p>
 	The <span class="conf_name"></span> workshop organizers will provide for each event:
@@ -88,7 +88,7 @@
       <ol>
         <li>Name (and possible acronym) of the event</li>
         <li>Names and contact information of the organizers</li>
-        <li>Length of event (1-2 days); if 1 day, indicate flexibility for Saturday/Sunday</li>
+        <li>Length of event (1-2 days); if 1 day, indicate flexibility for dates</li>
         <li>A proposed format (workshop with submitted/invited talks, tutorial, panel, etc.) and potential speakers (if applicable, not complete, and no commitment)</li>
         <li>Abstract summarizing the proposed event and its justification</li>
         <li>In the case of a submission process:</li>
@@ -106,7 +106,7 @@
       <p>
         A file (preferably in PDF format) containing all the above
         information should be sent to
-        <a href="mailto:crypto2020workshopchair@gmail.com">crypto2020workshopchair@gmail.com</a>.           
+<span class="editMe">**** insert email address of workshops chair ***</span>.
         by the submission deadline.
       </p>
 
@@ -118,7 +118,7 @@
             </h4>
             <div class="customCardRow row">
               <h6 class="dateTitle col-6 col-md-5">
-                January 31, 2020, 23:59 UTC
+                <span class="editMe">*** January 31, 2020 *** </span>
               </h6>
               <p class="col-6 col-md-7">
                 Submission deadline for proposals
@@ -126,7 +126,7 @@
             </div>
             <div class="customCardRow row">
               <h6 class="dateTitle col-6 col-md-5">
-                February 20, 2020
+                <span class="editMe">*** February 20, 2020 ***</span>
               </h6>
               <p class="col-6 col-md-7">
                 Notification of decision
@@ -153,12 +153,14 @@
             <h4 class="customCardHeader">
               For any questions please contact the workshop chair:
             </h4>
-            <address class="text-center">
+            <span class="editMe">
+              <address class="text-center">
               Carmit Hazay<br>
               Bar-Ilan University<br/>
               Israel<br/>
               <tt>crypto2020workshopchair@gmail.com</tt>
-            </address>
+              </address>
+            </span>
           </article>
         </div>
       </div>

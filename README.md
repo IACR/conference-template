@@ -63,6 +63,14 @@ relevant files.
 
 ## REQUIRED: THE BASICS
 
+There are a number of places in the pages that require you to edit
+them, but you are free to edit anything you like. Some things are
+supplied by downloading a json file for basic metadata,
+the program committee, and the program. Other things require you
+to edit the text in a specific page, and we have marked them with
+`class="editMe"` to make them stand out in red. When you edit these
+things, you should remove the `"editMe"` class.
+
 ### Changing the conference names/dates/location
 
 Assuming that your conference is listed in the [IACR calendar of
@@ -102,7 +110,9 @@ red on the page because they contain a span with class editMe.
 All pages have included boilerplate content, some of which is
 commented out.  **You will need to go through each individual page and
 edit content that does not pertain to your conference, as well as add
-your own information.**
+your own information.** As mentioned before, some content is enclosed
+in a `&lt;span class="editMe"&gt;` to indicate that you should
+edit it.
 
 We **strongly** recommend proofreading the HTML to make sure all content
 relates to your specific conference. Some content may not be ready at

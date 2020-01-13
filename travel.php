@@ -64,7 +64,7 @@
       <div class="row">
         <div class="col-12">
           <p>
-            This information is not yet available. Thank you for your patience. If it were, this is what it might look like.
+            This information is not yet available. Thank you for your patience.
           </p>
         </div>
       </div>
@@ -76,14 +76,28 @@
       <div class="row">
         <section class="col-md-8">
           <p>
-            The conference will be held on the campus of the University of California, Santa Barbara (UCSB). UCSB is located approximately two miles from the <a href="http://www.flysba.com/">Santa Barbara airport</a>, and about 10 miles from the city center of <?php echo $META['city'];?>.  The airport is served by over 20 flights a day from major US hub airports. Many rental car agencies are available in the immediate area. Santa Barbara is approximately 100 miles (160km) north of the Los Angeles airport and 350 miles (560km) south of San Francisco.
+            <span class="editMe">
+              The conference will be held on the campus of the
+              University of California, Santa Barbara (UCSB). UCSB is
+              located approximately two miles from
+              the <a href="http://www.flysba.com/">Santa Barbara
+              airport</a>, and about 10 miles from the city center of
+              Santa Barbara.  The airport is served by
+              over 20 flights a day from major US hub airports. Many
+              rental car agencies are available in the immediate
+              area. Santa Barbara is approximately 100 miles (160km)
+              north of the Los Angeles airport and 350 miles (560km)
+              south of San Francisco.
+            </span>
           </p>
         </section>
 
         <div class="col-md-4">
           <div class="alert alert-success" role="alert">
             <img src="images/icons/exclamation.svg" class="icon" />&emsp;
-            Bring a sweater and/or jacket. <?php echo $META['city'];?> can be cold at night. (This is crucial for the beach party!)
+            <!-- this could be a warning that hotels book up fast in the season -->
+            <span class="editMe">Bring a sweater and/or jacket. Santa Barbara
+              can be cold at night. (This is crucial for the beach party!)</span>
           </div>
         </div>
       </div>

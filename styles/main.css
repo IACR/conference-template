@@ -39,6 +39,25 @@ a:hover {
   filter: invert(16%) sepia(91%) saturate(6408%) hue-rotate(156deg) brightness(92%) contrast(88%);
 }
 
+/* This is designed to be deliberately ugly. Anything that contains
+   this class should be edited or commented out, and the class editMe
+   should be removed.
+*/
+span.editMe {
+  color: #DD0000;
+}
+span.editMe {
+    animation: annoyingText 1.5s linear infinite;
+    color: #DD0000;
+}
+@keyframes annoyingText {
+    50% { opacity: 0;
+        }
+}
+span.editMe:before {
+    content: "EDIT THIS: ";
+    font-weight: 800;
+}
 
 
 /***** Nav (in /includes/nav.php) *****/
@@ -82,6 +101,15 @@ a.dropdown-item {
   #navbarNav .dropdown > .dropdown-toggle:active {
     /*Without this, clicking will make it sticky*/
     pointer-events: none;
+  }
+}
+
+/* Fix for dropdown hover. Without this there is a .125rem gap
+   that causes hover to stop working.  */
+@media only screen and (min-width: 768px) {
+  #main-nav-row div.dropdown-menu {
+    margin-top: 0px;
+    padding-top: .625rem;
   }
 }
 
@@ -325,12 +353,6 @@ p.priceText {
   text-align: center;
 }
 
-
-
-/***** Page-specific: code of conduct *****/
-span.editMe {
-  color: #DD0000;
-}
 
 
 

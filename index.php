@@ -17,17 +17,20 @@
 
   <main class="container p-4">
 
-    <!-- NOTE: below is placeholder content. please replace contents with your own content when ready. this content serves to give you an idea of what the structure of this page has looked like in the past -->
+    <!-- NOTE: below is placeholder content. please replace contents with your own content when ready. this content
+    serves to give you an idea of what the structure of this page has looked like in the past -->
     <div class="row mb-2">
       <article class="col-12">
         <p>
-          <span class="long_conf"><?php echo $META['name'];?></span> will take place in
+          <span class="long_conf"><?php echo $META['shortName'];?></span> will take place in
           <span class="conf_location"><?php echo $META['city'] . ', ' . $META['country'];?></span>
           on <span class="conf_dates"><?php echo $META['dates'];?></span>.
-          <span class="conf_name"><?php echo $META['name'];?></span> is organized by <a href="http://iacr.org/">the International Association for Cryptologic Research</a> (IACR).
+          <span class="conf_name"><?php echo $META['shortName'];?></span> is organized by
+          <a href="http://iacr.org/">the International Association for Cryptologic Research</a> (IACR).
         </p>
         <p>
-          Please visit the <a href="./callforpapers.php">call for papers</a> page while we work on adding more information to our other pages. Thank you for your patience.
+          Please visit the <a href="./callforpapers.php">call for papers</a> page while we work on
+          adding more information to our other pages. Thank you for your patience.
         </p>
       </article>
     </div>
