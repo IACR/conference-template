@@ -18,7 +18,7 @@
         Paper Submission
       </h2>
 
-      <!-- NOTE: below is standard placeholder text for when the page
+          <!-- NOTE: below is standard placeholder text for when the page
            is under construction. please delete the <p> below when you
            finish editing the content.  -->
       <p>
@@ -31,10 +31,9 @@
            has looked like in the past.
         -->
       <!-- TODO: duplicate card for dates from callforpapers.php -->
-      <aside class="float-right p-4">
-        <?php require "includes/important_dates.php";?>
-      </aside>
-      <h3 class="pageSubtitle mt-4">
+      <div class="row">
+        <div class="col-lg-6 col-12 mt-4">
+      <h3 class="pageSubtitle">
         Instructions for Authors
       </h3>
       <p>
@@ -76,6 +75,11 @@
         Submissions not meeting these guidelines risk rejection
         without consideration of their merits.
       </p>
+        </div>
+        <div class="col-lg-6 col-12 mt-4">
+          <?php require "includes/important_dates.php";?>
+        </div>
+      </div>
       <p>
         For papers that are accepted, the length of the proceedings
         version will be at most 30 pages using Springer’s standard
@@ -123,7 +127,6 @@
         <a href="#" target="_blank" class="disabled btn btn-lg btn-warning"
            role="button">Submission Server</a>
       </p>
-              
     </main>
 
   <?php include "includes/footer.php"; ?>
