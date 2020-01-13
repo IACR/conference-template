@@ -95,7 +95,7 @@ a.dropdown-item {
 /* NOTE: hover effect for navbar only on larger screens. massive thanks to
  * https://stackoverflow.com/questions/51413782/dropdown-on-hover-in-bootstrap-4-1
  */
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 768px) {
   #navbarNav li:not(:last-child):hover>.dropdown-menu {
     display: block;
   }
@@ -103,12 +103,9 @@ a.dropdown-item {
     /*Without this, clicking will make it sticky*/
     pointer-events: none;
   }
-}
-
-/* Fix for dropdown hover. Without this there is a .125rem gap
-   that causes hover to stop working.  */
-@media only screen and (min-width: 768px) {
-  #main-nav-row div.dropdown-menu {
+  /* Fix for dropdown hover. Without this there is a .125rem gap
+     that causes hover to stop working.  */
+  #navbarNav div.dropdown-menu {
     margin-top: 0px;
     padding-top: .625rem;
   }
