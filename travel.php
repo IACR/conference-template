@@ -60,14 +60,11 @@
         Travel & Venue Information
       </h2>
 
-      <!-- NOTE: below is standard placeholder text for when the page is under construction. please delete this entire <div class="row"> and all elements contained within it when ready to add other content -->
-      <div class="row">
-        <div class="col-12">
-          <p>
-            This information is not yet available. Thank you for your patience. If it were, this is what it might look like.
-          </p>
-        </div>
-      </div>
+      <!-- NOTE: below is standard placeholder text for when the page is under construction. 
+           please delete this paragram when you add other content. -->
+      <p>
+        This information is not yet available. Thank you for your patience.
+      </p>
 
       <!-- NOTE: below is placeholder content derived from the Crypto
            2019 conference. please uncomment and replace with your own
@@ -75,15 +72,25 @@
            what the structure of this page has looked like in the past -->
       <div class="row">
         <section class="col-md-8">
-          <p>
-            The conference will be held on the campus of the University of California, Santa Barbara (UCSB). UCSB is located approximately two miles from the <a href="http://www.flysba.com/">Santa Barbara airport</a>, and about 10 miles from the city center of <?php echo $META['city'];?>.  The airport is served by over 20 flights a day from major US hub airports. Many rental car agencies are available in the immediate area. Santa Barbara is approximately 100 miles (160km) north of the Los Angeles airport and 350 miles (560km) south of San Francisco.
+          <p class="editMe">
+            The conference will be held on the campus of the University of
+            California, Santa Barbara (UCSB). UCSB is located approximately two
+            miles from the <a href="http://www.flysba.com/">Santa Barbara
+            airport</a>, and about 10 miles from the city center of Santa
+            Barbara.  The airport is served by over 20 flights a day from major
+            US hub airports. Many rental car agencies are available in the
+            immediate area. Santa Barbara is approximately 100 miles (160km)
+            north of the Los Angeles airport and 350 miles (560km) south of San
+            Francisco.
           </p>
         </section>
 
         <div class="col-md-4">
           <div class="alert alert-success" role="alert">
             <img src="images/icons/exclamation.svg" class="icon" />&emsp;
-            Bring a sweater and/or jacket. <?php echo $META['city'];?> can be cold at night. (This is crucial for the beach party!)
+            <!-- this could be a warning that hotels book up fast in the season -->
+            <span class="editMe">Bring a sweater and/or jacket. Santa Barbara
+              can be cold at night. (This is crucial for the beach party!)</span>
           </div>
         </div>
       </div>
@@ -91,6 +98,8 @@
       <div id="venuemap">
       </div>
 
+      <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+           This is content from a past Crypto that shows how the formatting should work.
       <h3 class="pageSubtitle mt-5">
         On-Campus Accommodations
       </h3>
@@ -130,7 +139,7 @@
               <li>
                 Santa Barbara, CA 93106
               </li>
-              <!-- NOTE: this li is used for spacing purposes only -->
+              <?php // NOTE: this li is used for spacing purposes only ?>
               <li></li>
               <li class="phone">
                 805.893.7781
@@ -173,7 +182,7 @@
               <li>
                 Goleta, CA 93117
               </li>
-              <!-- NOTE: this li is used for spacing purposes only -->
+              <?php // NOTE: this li is used for spacing purposes only ?>
               <li></li>
               <li class="phone">
                 805.967.3200
@@ -203,7 +212,7 @@
               <li>
                 Goleta, CA 93111
               </li>
-              <!-- NOTE: this li is used for spacing purposes only -->
+              <?php // NOTE: this li is used for spacing purposes only ?>
               <li></li>
               <li class="phone">
                 805.893.6722
@@ -222,6 +231,7 @@
           <a class="btn btn-warning btn-block mt-auto" role="button" href="https://www.pacificasuites.com">www.pacificasuites.com</a>
         </section>
       </div>
+      %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
     </main>
 
     <script src="https://iacr.org/libs/js/leafletjs/leaflet-src.js"></script>

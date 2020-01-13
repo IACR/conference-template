@@ -39,6 +39,23 @@ a:hover {
   filter: invert(16%) sepia(91%) saturate(6408%) hue-rotate(156deg) brightness(92%) contrast(88%);
 }
 
+/* This is designed to be deliberately ugly. Anything that contains
+   this class should be edited or commented out, and the class editMe
+   should be removed.
+*/
+.editMe {
+  color: #DD0000;
+}
+/* This is designed to force you to remove the editMe class everywhere. */
+.editMe {
+    color: #DD0000;
+    border-bottom: 1px solid red;
+    font-weight: 600;
+}
+.editMe:before {
+    content: "EDIT THIS: ";
+    font-weight: 800;
+}
 
 
 /***** Nav (in /includes/nav.php) *****/
@@ -75,13 +92,19 @@ a.dropdown-item {
 /* NOTE: hover effect for navbar only on larger screens. massive thanks to
  * https://stackoverflow.com/questions/51413782/dropdown-on-hover-in-bootstrap-4-1
  */
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 768px) {
   #navbarNav li:not(:last-child):hover>.dropdown-menu {
     display: block;
   }
   #navbarNav .dropdown > .dropdown-toggle:active {
     /*Without this, clicking will make it sticky*/
     pointer-events: none;
+  }
+  /* Fix for dropdown hover. Without this there is a .125rem gap
+     that causes hover to stop working.  */
+  #navbarNav div.dropdown-menu {
+    margin-top: 0px;
+    padding-top: .625rem;
   }
 }
 
@@ -325,12 +348,6 @@ p.priceText {
   text-align: center;
 }
 
-
-
-/***** Page-specific: code of conduct *****/
-span.editMe {
-  color: #DD0000;
-}
 
 
 

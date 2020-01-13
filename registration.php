@@ -20,13 +20,10 @@
       </h2>
 
       <!-- NOTE: below is standard placeholder text for when the page is under construction. please delete this entire <div class="row"> and all elements contained within it when ready to add other content -->
-      <div class="row">
-        <div class="col-12">
-          <p>
-            This information is not yet available. Thank you for your patience. Below is sample information, derived from CRYPTO 2016.
-          </p>
-        </div>
-      </div>
+      <p>
+        This information is not yet available. Thank you for your patience.
+        <span class="editMe">Below is sample information, derived from CRYPTO 2016.</span>
+      </p>
 
       <div class="row mt-3">
         <section class="col-12" id="regTable">

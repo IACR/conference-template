@@ -19,14 +19,15 @@
         Rump Session
       </h2>
 
-      <!-- NOTE: below is standard placeholder text for when the page is under construction. please delete this entire <div class="row"> and all elements contained within it when ready to add other content -->
-      <div class="row">
-        <div class="col-12">
-          <p>
-            This information is not yet available, but will become available at least a month prior to the conference start date. Thank you for your patience.
-          </p>
-        </div>
-      </div>
+      <!-- NOTE: below is standard placeholder text for when the page is under construction.
+           IACR does not have a standard way to organize rump session submissions, but you
+           can always use the program editor to create your program: https://iacr.org/tools/program
+      -->
+      <p>
+        This information is not yet available, but will become
+        available prior to the conference start date.
+        Thank you for your patience.
+      </p>
 
     </main>
 
