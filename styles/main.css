@@ -48,12 +48,14 @@ span.editMe {
 }
 /* This is designed to force you to remove the editMe class everywhere. */
 span.editMe {
-    animation: annoyingText 1.5s linear infinite;
     color: #DD0000;
+    border-bottom: 1px solid red;
+    font-weight: 600;
 }
 @keyframes annoyingText {
-    50% { opacity: 0;
-        }
+    0% { color: black; }
+    50% {color: red;}
+    75% {color: black;}
 }
 span.editMe:before {
     content: "EDIT THIS: ";
