@@ -43,16 +43,16 @@ a:hover {
    this class should be edited or commented out, and the class editMe
    should be removed.
 */
-span.editMe {
+.editMe {
   color: #DD0000;
 }
 /* This is designed to force you to remove the editMe class everywhere. */
-span.editMe {
+.editMe {
     color: #DD0000;
     border-bottom: 1px solid red;
     font-weight: 600;
 }
-span.editMe:before {
+.editMe:before {
     content: "EDIT THIS: ";
     font-weight: 800;
 }

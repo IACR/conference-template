@@ -20,8 +20,8 @@
       </h2>
 
       <!-- NOTE: the following is required text for the code of
-      conduct. Any text that looks like ***some sample text*** is text
-      that MUST be changed by the general chair or whoever is
+      conduct. Any text that is inside <span class="editMe"> is
+      text that MUST be changed by the general chair or whoever is
       responsible for the conference website -->
       <p>
         The IACR is committed to providing an experience free of

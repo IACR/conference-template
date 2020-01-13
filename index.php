@@ -28,7 +28,7 @@
           <span class="conf_name"><?php echo $META['shortName'];?></span> is organized by
           <a href="http://iacr.org/">the International Association for Cryptologic Research</a> (IACR).
         </p>
-        <p>
+        <p class="editMe">
           Please visit the <a href="./callforpapers.php">call for papers</a> page while we work on
           adding more information to our other pages. Thank you for your patience.
         </p>
