@@ -103,16 +103,15 @@ Section 8.10 of the [General Chair
 Guidelines](https://www.iacr.org/docs/genchair.pdf) requires an up to
 date code of conduct for each conference. You should edit the
 `conduct.php` accordingly. Sections that need editing will show up in
-red on the page because they contain a span with class editMe.
+red on the page because they contain a span with class `editMe`.
 
 ### Adding your page content to individual pages (`*.php`)
 
 All pages have included boilerplate content, some of which is
 commented out.  **You will need to go through each individual page and
 edit content that does not pertain to your conference, as well as add
-your own information.** As mentioned before, some content is enclosed
-in a `&lt;span class="editMe"&gt;` to indicate that you should
-edit it.
+your own information.** As mentioned before, some content has a
+`class="editMe"` to indicate that you should edit it.
 
 We **strongly** recommend proofreading the HTML to make sure all content
 relates to your specific conference. Some content may not be ready at
