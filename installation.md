@@ -7,7 +7,7 @@ ___
 ### Getting the site on the server
 Log into the server and cd to a temporary directory. Type:
 
-`git clone https://github.com/IACR/conference-template.git .` (Note the period at the end.)
+`git clone https://github.com/kaymckelly/freelance-iacr.git .` (Note the period at the end.)
 
 This creates a copy of the files for the site in your current
 directory. All files in the /www subdirectory should be moved to the
