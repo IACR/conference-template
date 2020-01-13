@@ -34,7 +34,7 @@
     <meta name="description" content="<?php echo $META['name'];?>"/>
 
     <!-- Generic bootstrap -->
-    <link href="https://iacr.org/libs/css/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <link href="https://iacr.org/libs/css/bootstrap/confv2/css/bootstrap.min.css" rel="stylesheet" >
 
     <!-- Styling -->
     <link rel="stylesheet" href="<?php echo rootPath();?>styles/main.css">
