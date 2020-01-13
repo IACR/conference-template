@@ -74,6 +74,18 @@ settings there show up on all pages of the site. The `year` field should
 match the path of the directory that you host your pages from on
 iacr.org.
 
+Different conferences will have different kinds of dates:
+
+* some conferences have a deadline to propose affiliated events
+* some conferences have a rebuttal phase
+* some conferences have papers submitted to a journal first (ToSC or TCHES)
+* some conferences have only nominations for speakers (RWC)
+
+You should change `includes/important_dates.php` to reflect the dates that
+are relevant to your conference. These will show up in several different
+pages, but there is a single file where your important dates need to be
+updated.
+
 ### Changing the names of the program committee
 
 The program committee is stored in `json/comm.json`. You should go to

@@ -18,7 +18,7 @@
         Paper Submission
       </h2>
 
-      <!-- NOTE: below is standard placeholder text for when the page
+          <!-- NOTE: below is standard placeholder text for when the page
            is under construction. please delete the <p> below when you
            finish editing the content.  -->
       <p>
@@ -31,48 +31,55 @@
            has looked like in the past.
         -->
       <!-- TODO: duplicate card for dates from callforpapers.php -->
-      <h3 class="pageSubtitle mt-4">
-        Instructions for Authors
-      </h3>
-      <p>
-        Submissions must be at most 30 pages excluding any auxiliary
-        supporting material, and using the Springer LNCS format (in
-        particular, do not modify the LNCS default font sizes or
-        margins). Details on the Springer LNCS format can be
-        obtained <a href="https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines">here</a>.
-        It is strongly encouraged that submissions are processed in
-        LaTeX. All submissions must have page numbers (e.g. using
-        LaTeX command <code>\pagestyle{plain}</code>).  Submissions
-        must be submitted electronically in PDF format.
-      </p>
-      <p>
-        All submissions will be blind-refereed and thus must be
-        anonymous, with no author names, affiliations,
-        acknowledgments, or obvious references. Submissions should
-        begin with a title, a short abstract, and a list of keywords,
-        followed by an introduction, a main body, an appendix (if
-        any), and references, within 30 pages. The introduction should
-        summarize the contributions of the paper at the level
-        understandable for a non-expert reader.
-      </p>
-      <p>
-        Optionally, if an author desires, a clearly-marked auxiliary
-        supporting material can be appended to the submission. The
-        auxiliary supporting material has no prescribed form or page
-        limit and might be used, for instance, to provide program
-        code, additional experimental data, etc. Alternatively, the
-        auxiliary supporting material can be submitted as a separate
-        file from the submission. The reviewers are not required to
-        read the auxiliary supporting material and submissions should
-        be intelligible without it. The final published version of an
-        accepted paper is expected to closely match the submitted 30
-        pages.
-      </p>
-      <p class="alert alert-warning">
-        <img src="images/icons/exclamation.svg" class="icon" />
-        Submissions not meeting these guidelines risk rejection
-        without consideration of their merits.
-      </p>
+      <div class="row">
+        <div class="col-lg-6 col-12 mt-4">
+          <h3 class="pageSubtitle">
+            Instructions for Authors
+          </h3>
+          <p>
+            Submissions must be at most 30 pages excluding any auxiliary
+            supporting material, and using the Springer LNCS format (in
+            particular, do not modify the LNCS default font sizes or
+            margins). Details on the Springer LNCS format can be
+            obtained <a href="https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines">here</a>.
+            It is strongly encouraged that submissions are processed in
+            LaTeX. All submissions must have page numbers (e.g. using
+            LaTeX command <code>\pagestyle{plain}</code>).  Submissions
+            must be submitted electronically in PDF format.
+          </p>
+          <p>
+            All submissions will be blind-refereed and thus must be
+            anonymous, with no author names, affiliations,
+            acknowledgments, or obvious references. Submissions should
+            begin with a title, a short abstract, and a list of keywords,
+            followed by an introduction, a main body, an appendix (if
+            any), and references, within 30 pages. The introduction should
+            summarize the contributions of the paper at the level
+            understandable for a non-expert reader.
+          </p>
+          <p>
+            Optionally, if an author desires, a clearly-marked auxiliary
+            supporting material can be appended to the submission. The
+            auxiliary supporting material has no prescribed form or page
+            limit and might be used, for instance, to provide program
+            code, additional experimental data, etc. Alternatively, the
+            auxiliary supporting material can be submitted as a separate
+            file from the submission. The reviewers are not required to
+            read the auxiliary supporting material and submissions should
+            be intelligible without it. The final published version of an
+            accepted paper is expected to closely match the submitted 30
+            pages.
+          </p>
+          <p class="alert alert-warning">
+            <img src="images/icons/exclamation.svg" class="icon" />
+            Submissions not meeting these guidelines risk rejection
+            without consideration of their merits.
+          </p>
+        </div>
+        <div class="col-lg-6 col-12 mt-4">
+          <?php require "includes/important_dates.php";?>
+        </div>
+      </div>
       <p>
         For papers that are accepted, the length of the proceedings
         version will be at most 30 pages using Springer’s standard
@@ -120,7 +127,6 @@
         <a href="#" target="_blank" class="disabled btn btn-lg btn-warning"
            role="button">Submission Server</a>
       </p>
-              
     </main>
 
   <?php include "includes/footer.php"; ?>
