@@ -22,6 +22,7 @@
       <!-- NOTE: below is standard placeholder text for when the page is under construction.
            IACR does not have a standard way to organize rump session submissions, but you
            can always use the program editor to create your program: https://iacr.org/tools/program
+           and then copy stuff from program.php and js/program.js.
       -->
       <p>
         This information is not yet available, but will become
