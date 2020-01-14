@@ -38,7 +38,7 @@
 
     <!-- Styling -->
     <link rel="stylesheet" href="<?php echo rootPath();?>styles/main.css">
-    <link id="style" rel="stylesheet" href="<?php echo rootPath();?>styles/purple_theme.css">
+    <link id="style" rel="stylesheet" href="<?php echo rootPath();?>styles/orange_theme.css">
     <!-- metadata for googlebot -->
     <script type="application/ld+json">
      {

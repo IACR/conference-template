@@ -17,7 +17,7 @@ styles/*_theme.css files to include (orange_theme.css is included by default).
 }
 
 body {
-  background: linear-gradient(7deg, #11001A 0%, #33004D 20%, #4A1F60 25%, #8B2E4B 45%, #9C4683 65%, #EFE555 95%);
+  background: linear-gradient(187deg, #EFE555 10vh, #9C4683 35vh, #8B2E4B 55vh, #4A1F60 75vh, #33004D 80vh, #11001A 100vh);
   background-attachment: fixed;
 }
 
@@ -59,7 +59,7 @@ div.dropdown-menu {
 }
 
 #main-nav-row {
-  background: linear-gradient(187deg, #EADB58 0%, #EDDC5E 25%, #E3CE5B 33%, #B97B71 83%, #B67572 89%, #B47174 91%);
+  background: linear-gradient(187deg, #EFE555 10vh, #9C4683 35vh, #8B2E4B 55vh, #4A1F60 75vh, #33004D 80vh, #11001A 100vh);
   height: 4rem;
   /* emulate .fixed-top */
   position: fixed;
