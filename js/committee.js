@@ -11,9 +11,10 @@ $(document).ready(function() {
       var theCompiledHtml = theTemplate(data);
       $('#committee').html(theCompiledHtml);
     },
-    fail: function(jqxhr, textStatus, error) {
+    error: function(jqxhr, textStatus, error) {
+      console.dir(jqxhr);
       document.getElementById('errorBox');
-      errorBox.innerHTML = '<p class="alert alert-success" role="alert"><img src="images/icons/exclamation.svg" class="icon" /> The list of program committee members is not currently available. Please check back later.</p>';
+      errorBox.innerHTML = '<p class="editMe alert alert-danger" role="alert"><img src="images/icons/exclamation.svg" class="icon" /> You need to supply a json/comm.json file. You can <a href="https://iacr.org/cryptodb/pc/">use this tool</a> to construct it.</p>';
 
       if (textStatus === 'error') {
         console.log('comm.json not found, check file name and try again');
