@@ -30,7 +30,7 @@ aria-haspopup="true" aria-expanded="false">
   </button>
   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
     <a class="dropdown-item" href="#" onclick='setTheme("purple")'>Purple</a>
-    <a class="dropdown-item" href="#" onclick='setTheme("black")'>Black (once you go black ...)</a>
+    <a class="dropdown-item" href="#" onclick='setTheme("black")'>Black</a>
     <a class="dropdown-item" href="#" onclick='setTheme("orange")'>Orange</a>
     <a class="dropdown-item" href="#" onclick='setTheme("green")'>Green</a>
     <a class="dropdown-item" href="#" onclick='setTheme("teal")'>Teal</a>
@@ -77,7 +77,7 @@ aria-haspopup="true" aria-expanded="false">
         </button>
         <div class="collapse navbar-collapse justify-content-md-center" id="navbarNav">
           <ul id="nav-ul" class="navbar-nav">
-            <li class="nav-item mt-3 mt-md-0">
+            <li class="nav-item mt-4 mt-md-0">
               <a class="nav-link" href="<?php echo rootPath(); ?>">Home</a>
             </li>
             <li class="nav-item dropdown">
