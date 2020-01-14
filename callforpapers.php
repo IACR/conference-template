@@ -94,6 +94,7 @@
         Program Committee
       </h3>
 
+      <div id="errorBox"></div>
       <div id="committee" class="row">
         <!-- Handlebars import of PC members -->
         <script id="committee-member" type="text/x-handlebars-template">
