@@ -72,6 +72,10 @@ div.dropdown-menu {
 
 
 /***** Header (in /includes/nav.php) *****/
+.icon-bar {
+    background-color: #0D0D0D;
+}
+
 .headerImg {
   margin-top: 60px;
 }
