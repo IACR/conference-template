@@ -36,7 +36,7 @@
         </button>
         <div class="collapse navbar-collapse justify-content-md-center" id="navbarNav">
           <ul id="nav-ul" class="navbar-nav">
-            <li class="nav-item mt-3 mt-md-0">
+            <li class="nav-item mt-4 mt-md-0">
               <a class="nav-link" href="<?php echo rootPath(); ?>">Home</a>
             </li>
             <li class="nav-item dropdown">
