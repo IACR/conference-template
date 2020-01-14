@@ -434,13 +434,35 @@ img.sessionInfoIcon {
 
 
 /***** Page-specific: sponsors *****/
+.sponsorLogoBox {
+  /* emulates .rounded, needed for black theme */
+  border-radius: .25rem;
+  /* emulate .col-10 */
+  -ms-flex: 0 0 83.333333%;
+  flex: 0 0 83.333333%;
+  max-width: 83.333333%;
+}
+
+/* emulate .col-md-6 */
+@media (min-width: 768px) {
+  .sponsorLogoBox {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+/* emulate .col-lg-4 */
+@media (min-width: 992px) {
+  .sponsorLogoBox {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+}
+
 img.sponsorPageLogo {
   width: 100%;
   height: auto;
-  padding: 0.25rem;
+  padding: 1.5rem;
 }
-
-/* TODO: is this div just completely unnecessary? */
-/* .caption {
-  margin-top: 1.5rem;
-} */
