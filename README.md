@@ -224,6 +224,20 @@ of outings in order to help people plan their trip. There is a tool at
 that will assist you in locating the latitude, longitude of points on a
 map.
 
+### Invited talks
+
+Invited talks are in `invitedtalks.php`. There is boilerplate content
+commented out there that will serve as a good starting point.
+
+### Rump session
+
+If you choose to have a rump session, it's good to put the schedule
+online on the rumpsession.php page. There is no official way to organize
+submissions for a rump session, or what the program should look like.
+You may wish to use the [program editor](https://iacr.org/tools/program/)
+to organize the program, and then build something like program.php
+for your rump session page.
+
 ___
 
 # Optional Customization
