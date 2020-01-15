@@ -1,0 +1,468 @@
+/* Original color scheme by Kay McKelly, available at http://www.colourlovers.com/palette/4331737/Cryptography_Brights */
+
+
+/***** General styling *****/
+body {
+  color: #1F2161;
+  font-family: 'Roboto', sans-serif;
+}
+
+main {
+    background-color: #ffffff;
+    /* emulate mt-3 */
+    margin-top: 1rem;
+}
+
+@media only screen and (min-width: 992px) {
+    main {
+        /* emulate mt-lg-4 */
+        margin-top: 1.5rem;
+    }
+}
+
+p {
+  text-align: justify;
+}
+
+a {
+  color: #0F773C;
+}
+
+a:hover {
+  color: #CB831E;
+  text-decoration: none;
+}
+
+.icon {
+  width: 1.3em;
+  height: 1.3em;
+  filter: invert(16%) sepia(91%) saturate(6408%) hue-rotate(156deg) brightness(92%) contrast(88%);
+}
+
+/* This is designed to be deliberately ugly. Anything that contains
+   this class should be edited or commented out, and the class editMe
+   should be removed.
+*/
+.editMe {
+  color: #DD0000;
+}
+/* This is designed to force you to remove the editMe class everywhere. */
+.editMe {
+    color: #DD0000;
+    border-bottom: 1px solid red;
+    font-weight: 600;
+}
+.editMe:before {
+    content: "EDIT THIS: ";
+    font-weight: 800;
+}
+
+
+/***** Nav (in /includes/nav.php) *****/
+#main-nav-row {
+  background-color: #102A83;
+}
+
+/* NOTE: Normally in Bootstrap you'd just add .nav-fill and .w-100 to ul.navbar-nav. Unfortunately this makes all nav links centered in mobile, which looks dumb. This is the workaround. Thanks to myself (Kay) and a ridiculous amount of searching + trial & error for this solution. */
+@media only screen and (min-width: 768px) {
+  #nav-ul {
+    width: 100% !important;
+  }
+
+  #nav-ul .nav-item {
+    flex: 1 1 auto;
+    text-align: center;
+  }
+}
+
+.navbar-nav a.nav-link {
+  color: #FEFDFB;
+  font-size: 1.2rem;
+}
+
+div.dropdown-menu {
+  color: #FEFDFB;
+  background-color: #102A83;
+}
+
+a.dropdown-item {
+  color: #FEFDFB;
+}
+
+/* NOTE: hover effect for navbar only on larger screens. massive thanks to
+ * https://stackoverflow.com/questions/51413782/dropdown-on-hover-in-bootstrap-4-1
+ */
+@media only screen and (min-width: 768px) {
+  #navbarNav li:not(:last-child):hover>.dropdown-menu {
+    display: block;
+  }
+  #navbarNav .dropdown > .dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+  }
+  /* Fix for dropdown hover. Without this there is a .125rem gap
+     that causes hover to stop working.  */
+  #navbarNav div.dropdown-menu {
+    margin-top: 0px;
+    padding-top: .625rem;
+  }
+}
+
+/***** Header (in /includes/nav.php) *****/
+.headerImg {
+  background-size: cover;
+  background-position: center center;
+  height: 240px;
+}
+
+/* pageTopContainer behaves like container without !important. */
+.pageTopContainer {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media (min-width: 576px) {
+  .pageTopContainer {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .pageTopContainer {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .pageTopContainer {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .pageTopContainer {
+    max-width: 1140px;
+  }
+}
+
+.headerGradient {
+  height: 100%;
+}
+
+#titlesLogoDiv {
+  /* imitate .flex-column sans !important */
+  flex-direction: column;
+  padding-top: 2.7rem;
+}
+
+@media (min-width: 768px) {
+  #titlesLogoDiv {
+    /* imitate .flex-column sans !important in sizes smaller than md */
+    flex-direction: row;
+    /* different styling for header contents at different sizes */
+    padding-top: 5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  #titlesLogoDiv {
+    padding-top: 3.5rem;
+  }
+}
+
+#logo {
+  max-height: 7.5em;
+}
+
+.headerTitle {
+  font-family: 'Roboto Condensed', sans-serif;
+  text-shadow: 5px 5px 20px #FEFDFB, 0.3px 0.3px #1F2161;
+  letter-spacing: 0.3rem;
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+  .headerTitle {
+    margin-bottom: 0;
+  }
+}
+
+.headerInfoTop, .headerInfoBottom {
+  font-family: 'Roboto Condensed', sans-serif;
+  text-shadow: 5px 5px 20px #FEFDFB, 0.3px 0.3px #1F2161;
+  letter-spacing: 2px;
+  text-align: right;
+}
+
+/* Hamburger transform to x */
+.nofocus:focus {
+  outline: none !important;
+}
+
+.icon-bar {
+  width: 29px;
+  height: 2px;
+  background-color: #F0F0F0;
+  display: block;
+  transition: all 0.3s;
+  margin-bottom: 6px
+}
+
+#main-nav-row .navbar-toggler {
+  border: none;
+  background: transparent !important;
+}
+
+#main-nav-row .navbar-toggler .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+}
+
+#main-nav-row .navbar-toggler .middle-bar {
+  opacity: 0;
+}
+
+#main-nav-row .navbar-toggler .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+}
+
+#main-nav-row .navbar-toggler.collapsed .top-bar {
+  transform: rotate(0);
+}
+
+#main-nav-row .navbar-toggler.collapsed .middle-bar {
+  opacity: 1;
+}
+
+#main-nav-row .navbar-toggler.collapsed .bottom-bar {
+  transform: rotate(0);
+}
+/* END hamburger transform to x */
+
+/***** Main Content: general styling *****/
+.indPageTitle {
+  font-family: 'Roboto Condensed', sans-serif;
+  letter-spacing: 2px;
+}
+
+.pageSubtitle {
+  color: #CB831E;
+  font-family: 'Roboto Condensed', sans-serif;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+/* relates to cards (NOTE: color info for cards in theme stylesheets) */
+.customCard {
+  padding: 0;
+  margin-bottom: 1rem;
+}
+
+.customCardHeader {
+  padding: 1rem;
+  font-weight: normal;
+}
+
+.customCardRow {
+  padding: 1rem 1rem 1.2rem 1rem;
+}
+
+.customCardRow p {
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.dateTitle {
+  font-family: 'Roboto Condensed', sans-serif;
+  margin-top: 0.1rem;
+  font-size: 1.15rem;
+}
+
+.customCardFooter {
+  padding: 0.5rem 1rem;
+  text-align: center;
+}
+/* END styles related to cards */
+
+.footer {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+
+
+/***** Page-specific: index *****/
+.sponsorLogo {
+  max-width: 150px;
+}
+
+.firstLogo {
+  margin-left: 20px;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+
+
+
+/***** Page-specific (multiple pages) *****/
+.subSubtitle {
+  color: #0F773C;
+}
+
+
+
+/***** Page-specific: accepted papers *****/
+.paperTitle {
+  font-weight: bold;
+  color: #1F2161;
+}
+
+
+
+/***** Page-specific: registration *****/
+#regTable {
+  border: 1px solid rgba(15, 119, 60, 0.2);
+  border-radius: 15px;
+}
+
+#regTopRow {
+  border-bottom: 1px solid rgba(15, 119, 60, 0.2);
+}
+
+#regBodyRow {
+  padding-top: 10px;
+}
+
+p.regTitle {
+  font-weight: bold;
+  padding-top: 8px;
+  text-align: center;
+}
+
+p.regBodyText {
+  text-align: left;
+}
+
+p.priceText {
+  text-align: center;
+}
+
+
+
+
+/***** Page-specific: program *****/
+/*NOTE: remove once finalized that vertical alignment for times is unnecessary*/
+/*.verticalAlign {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+}*/
+
+p.timeSlot {
+  text-align: right;
+  margin-top: 25px;
+}
+
+p.talkTitle {
+  font-weight: bold;
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 2px;
+}
+
+p.trackSwitch {
+  padding-top: 10px;
+  text-align: center;
+}
+
+.mutualEvent {
+  background-color: rgba(177, 181, 231, 0.3);
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+p.eventDescr {
+  text-align: center;
+  margin-bottom: 2px;
+}
+
+p.mutualEventTalkTitle {
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 2px;
+}
+
+.track1Event {
+  background-color: rgba(242, 210, 166, 0.3);
+  margin-bottom: 10px;
+}
+
+.track2Event {
+  background-color: rgba(164, 244, 199, 0.3);
+  margin-bottom: 10px;
+}
+
+p.dualTrackDescr {
+  text-align: left;
+  margin-bottom: 2px;
+}
+
+span.authorName:after {
+  content: ',';
+}
+
+span.authorName:last-of-type:after {
+  content: '';
+}
+
+span.talkMedia {
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+img.talkMediaIcon, img.sessionInfoIcon {
+  height: 20px;
+}
+
+img.sessionInfoIcon {
+  vertical-align: unset;
+}
+
+
+
+/***** Page-specific: sponsors *****/
+.sponsorLogoBox {
+  /* emulates .rounded, needed for black theme */
+  border-radius: .25rem;
+  /* emulate .col-10 */
+  -ms-flex: 0 0 83.333333%;
+  flex: 0 0 83.333333%;
+  max-width: 83.333333%;
+}
+
+/* emulate .col-md-6 */
+@media (min-width: 768px) {
+  .sponsorLogoBox {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+/* emulate .col-lg-4 */
+@media (min-width: 992px) {
+  .sponsorLogoBox {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+}
+
+img.sponsorPageLogo {
+  width: 100%;
+  height: auto;
+  padding: 1.5rem;
+}

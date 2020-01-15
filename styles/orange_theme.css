@@ -1,0 +1,70 @@
+/* NOTE: this is a supplemental style sheet. You should select one of the
+   styles/*_theme.css files to include (orange_theme.css is included by default).
+*/
+
+
+/***** General styling *****/
+
+
+.headerImg {
+  background-image: url("../images/banners/circuit.jpg");
+}
+
+ody, .listItems {
+  background-color: #FEFDFB;
+}
+
+
+
+/***** Nav (in /includes/nav.php) *****/
+nav#mainmenu {
+  background-color: #FEFDFB;
+}
+
+
+
+/***** Header (in /includes/nav.php) *****/
+.headerGradient {
+  background: rgba(204, 132, 30, 0.6);
+  background: -webkit-linear-gradient(rgba(204, 132, 30, 0.6), rgba(254, 253, 251, 1));
+  background: -o-linear-gradient(rgba(204, 132, 30, 0.6), rgba(254, 253, 251, 1));
+  background: -moz-linear-gradient(rgba(204, 132, 30, 0.6), rgba(254, 253, 251, 1));
+  background: linear-gradient(rgba(204, 132, 30, 0.6), rgba(254, 253, 251, 1));
+}
+
+.headerTitle {
+  color: #2E3192;
+}
+
+.headerInfoTop {
+  color: #2E3192;
+}
+
+.headerInfoBottom {
+  color: #2E3192;
+}
+
+
+
+/***** Main Content: general styling *****/
+.indPageTitle {
+  color: #0F773C;
+}
+
+.customCard {
+  border: 1px solid rgba(203, 131, 30, 0.3);
+}
+
+.customCardHeader {
+  background-color: rgba(203, 131, 30, 0.4);
+  color: #1F2161;
+}
+
+.dateTitle {
+  color: #CB831E;
+}
+
+.customCardFooter {
+  /* NOTE: typically this is a more transparent version of the card header bg color */
+  background-color: rgba(203, 131, 30, 0.1);
+}

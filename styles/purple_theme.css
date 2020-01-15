@@ -1,0 +1,96 @@
+/* Color scheme: https://coolors.co/3b1d59-2ea656-e6e7f0-5d2e8c-008577 */
+
+
+/***** General styling *****/
+body {
+  background-color: #E6E7F0;
+}
+
+
+
+/***** Header (in /includes/nav.php) *****/
+.headerImg {
+  background: #2EA656;
+  background-image: url("../images/banners/tris.svg");
+}
+
+.headerGradient {
+  background: linear-gradient(43deg, rgba(93,46,140,.4) 0%, rgba(130,100,159,.4) 37%, rgba(177,137,217,.4) 62%, rgba(240,240,240,.4) 100%);
+}
+
+.headerTitle {
+  text-shadow: none;
+  color: #E6E7F0;
+  font-size: 3rem;
+}
+
+.headerInfoTop, .headerInfoBottom {
+  text-shadow: none;
+  color: #E6E7F0;
+}
+
+
+
+/***** Nav (in /includes/nav.php) *****/
+div.dropdown-menu {
+  color: black;
+  background-color: #3B1D59;
+}
+
+#main-nav-row {
+  background-color: #3B1D59;
+}
+
+ul#nav-ul a.nav-link:hover {
+  color: #E6E7F0;
+}
+
+
+
+/***** Main Content (e.g. h1-h6, a, text, etc) *****/
+.indPageTitle {
+  color: #008577;
+}
+
+.pageSubtitle {
+  color: #278279;
+  /* paler option of the bg gray */
+  /* color: #6F6FA5; */
+  font-weight: normal;
+}
+
+.subSubtitle {
+  /* green option */
+  /* color: #2EA656; */
+
+  /* purple option */
+  color: #5D2E8C;
+}
+
+a {
+  color: #008577;
+}
+
+a:hover {
+  color: #5D2E8C;
+}
+
+
+
+/***** Main Content: cards & alerts *****/
+.customCard {
+  border: 1px solid #E6E7F0;
+}
+
+.customCardHeader {
+  background-color: #5D2E8C;
+  color: #E6E7F0;
+}
+
+.dateTitle {
+  color: #008577;
+}
+
+.customCardFooter {
+  background-color: #E6E7F0;
+}

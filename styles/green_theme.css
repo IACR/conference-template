@@ -1,0 +1,114 @@
+/* NOTE: this is a supplemental style sheet. You should select one of the
+   styles/*_theme.css files to include (orange_theme.css is included by default).
+*/
+
+/* Color theme by Kay McKelly: https://coolors.co/39735e-cdf9a9-e7ecd4-913e2b-bf5239 */
+
+
+
+/***** Nav (in /includes/nav.php) *****/
+div#main-nav-row {
+  background: #39735E;
+}
+
+a.nav-link {
+  color: #FEFDFB;
+  font-size: 1.2rem;
+}
+
+a.nav-link:hover {
+  color: #E7ECD4;
+}
+
+div.dropdown-menu {
+  color: #FEFDFB;
+  background-color: #39735E;
+  border: none;
+}
+
+a.dropdown-item:hover {
+  background-color: #E7ECD4;
+  color: #1F2161;
+}
+
+
+
+/***** Header (in /includes/nav.php) *****/
+.headerImg {
+  background-image: url("../images/banners/waveDesat.png");
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: 128%;
+}
+
+.headerGradient {
+  background: #39735E;
+  background: linear-gradient(0deg, rgba(57, 115, 94, 0.7) 0%, rgba(91, 167, 123, 0.6) 18%, rgba(106, 167, 133, 0.7) 37%, rgba(143, 191, 170, 0.8) 62%, rgba(169, 217, 176, 0.9) 80%, rgba(207, 217, 169, 1) 100%);
+}
+
+.headerTitle, .headerInfoTop, .headerInfoBottom {
+  color: #1F2161;
+  text-shadow: 5px 5px 30px #CDF9A9, 0.9px 0.9px #39735E;
+}
+
+
+
+/***** Main content (e.g. h1-h6, a, text, etc) *****/
+a {
+  color: #913E2B;
+}
+
+a:hover {
+  color: #D07662;
+}
+
+.indPageTitle {
+  color: #1F2161;
+  /* instead of distinguishing with color we're using spacing and size */
+  font-size: 2.3rem;
+  margin-top: -1rem;
+  margin-bottom: 1rem;
+}
+
+.pageSubtitle {
+  color: #BF5239;
+}
+
+.subSubtitle {
+  color: #39735E;
+}
+
+
+
+/***** Main Content: cards & alerts *****/
+.customCard {
+  border: 1px solid rgba(207, 217, 169, 0.5);
+}
+
+.customCardHeader {
+  color: #39735E;
+  border-bottom: 3px solid rgba(91, 167, 123, 0.6);
+}
+
+.customCardFooter {
+  background-color: rgba(169, 217, 176, 0.4);
+}
+
+
+
+/***** Main Content: images & icons *****/
+/* change color of icons */
+.icon {
+  /* cancel filter on main.css */
+  filter: none;
+}
+
+
+
+/***** Footer *****/
+footer {
+  background-color: rgba(145, 62, 43, 0.2);
+  /* background-color: rgba(208, 118, 98, 0.2); */
+  padding: 0.7rem 0 0.7rem 0;
+  margin-bottom: 0 !important;
+}

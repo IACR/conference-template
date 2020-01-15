@@ -1,0 +1,265 @@
+/* NOTE: this is a supplemental style sheet. You should select one of the
+styles/*_theme.css files to include (orange_theme.css is included by default).
+*/
+
+/* Color scheme created by Kay McKelly, inspired by tropical sunsets (https://coolors.co/efe555-9c4683-4a1f60-33004d-8b2e4b) */
+
+
+
+/***** General Styling *****/
+#pageTop {
+  /* equivalent of d-flex */
+  display: -ms-flexbox !important;
+  display: flex !important;
+  /* equivalent of flex-column-reverse */
+  -ms-flex-direction: column-reverse !important;
+  flex-direction: column-reverse !important;
+}
+
+body {
+  background: linear-gradient(187deg, #EFE555 10vh, #9C4683 35vh, #8B2E4B 55vh, #4A1F60 75vh, #33004D 80vh, #11001A 100vh);
+  background-attachment: fixed;
+}
+
+
+
+/***** Nav (in /includes/nav.php) *****/
+ul#nav-ul {
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-bottom: 0.8em;
+}
+
+ul#nav-ul a.nav-link {
+  color: #0D0D0D;
+}
+
+/* make navbar dark bg/light text once it collapses */
+@media only screen and (max-width: 576px) {
+  li.nav-item {
+    background-color: #0D0D0D;
+  }
+
+  ul#nav-ul a.nav-link {
+    color: #FEFDFB;
+    padding: 1rem;
+  }
+}
+
+div.dropdown-menu {
+  background-color: #0D0D0D;
+  border: none;
+}
+
+@media only screen and (min-width: 768px) {
+  div.dropdown-menu {
+    /* make sure dropdown doesn't disappear when you move. */
+    top: 2.2rem;
+  }
+}
+
+#main-nav-row {
+  background: linear-gradient(187deg, #EFE555 10vh, #9C4683 35vh, #8B2E4B 55vh, #4A1F60 75vh, #33004D 80vh, #11001A 100vh);
+  height: 4rem;
+  /* emulate .fixed-top */
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+
+
+/***** Header (in /includes/nav.php) *****/
+.icon-bar {
+    background-color: #0D0D0D;
+}
+
+.headerImg {
+  margin-top: 60px;
+}
+
+.headerGradient {
+  background: #0D0D0D;
+  color: #F2F2F2;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+img#logo {
+  display: none !important;
+}
+
+/* make .headerGradient same size as body.container */
+@media (min-width: 576px) {
+  .headerGradient {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .headerGradient {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .headerGradient {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .headerGradient {
+    max-width: 1140px;
+  }
+}
+/* END make .headerGradient same size as body.container */
+
+/* centers and expands conf name */
+.headerConferenceName {
+  flex-grow: 1;
+}
+
+.headerTitle {
+  color: #F2F2F2;
+  text-align: center !important;
+  text-shadow: none !important;
+  /* emulate .display-2 */
+  font-size: 4.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+  padding-bottom: 2.5rem;
+  /* add border arc below title */
+  border-bottom: 1px solid #424242;
+  border-radius: 32%;
+}
+
+@media (min-width: 992px) {
+  font-size: 5.5rem;
+}
+
+.headerInfoTop, .headerInfoBottom {
+  display: none;
+}
+
+
+
+/***** Main content (e.g. h1-h6, a, text, etc) *****/
+main {
+  background-color: #0D0D0D;
+  color: #F2F2F2;
+  box-shadow: -5px 10px 30px #11001A;
+  /* makes main and header seamless */
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+a {
+  color: #E378CE;
+  /* brighter option */
+  /* color: #FD5DD5; */
+}
+
+a:hover {
+  color: #DE5BC3;
+  /* brighter option */
+  /* color: #ca0298; */
+}
+
+.indPageTitle {
+  color: #A061D1;
+}
+
+.pageSubtitle {
+  color: #FFBB9E;
+}
+
+.subSubtitle {
+  color: #F2E68C;
+}
+
+code {
+  color: #CA8E72;
+}
+
+
+
+/***** Main Content: cards & alerts *****/
+.customCard {
+  border: 1px solid #484848;
+}
+
+.customCardHeader {
+  color: #C48265;
+  text-align: center;
+  border-radius: 12%;
+  padding-bottom: 1rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid #484848;
+  font-size: 1.75rem;
+}
+
+.dateTitle {
+  color: #FFBB9E;
+}
+
+.customCardFooter {
+  /* NOTE: typically this is a more transparent version of the card header bg color */
+  background-color: rgba(52, 20, 77, 0.6);
+}
+
+.alert-success {
+  background-color: #FFBB9E;
+  color: #33004D;
+  border: none;
+}
+
+.alert-warning {
+  background-color: #F2E68C;
+  color: #33004D;
+  border: none;
+}
+
+.alert-success .icon, .alert-warning .icon {
+  filter: brightness(0) saturate(100%) invert(10%) sepia(39%) saturate(6663%) hue-rotate(274deg) brightness(75%) contrast(113%);
+}
+
+
+
+/***** Main Content: images & icons *****/
+/* change color of icons */
+.icon {
+  /* thanks https://codepen.io/sosuke/pen/Pjoqqp for generating this filter (the first two properties set the icon to black first to achieve a truer color match) */
+  filter: brightness(0) saturate(100%) invert(86%) sepia(8%) saturate(4081%) hue-rotate(306deg) brightness(114%) contrast(101%);
+}
+
+.sponsorLogo {
+  background-color: #F2F2F2;
+  border-radius: 25%;
+}
+
+.sponsorRows {
+  background-color: #FFF;
+  box-shadow: 0px 0px 7px #11001A inset;
+}
+
+li.location, li.phone, li.email {
+  filter: brightness(0) saturate(100%) invert(86%) sepia(8%) saturate(4081%) hue-rotate(306deg) brightness(114%) contrast(101%);
+}
+
+
+
+/***** Footer *****/
+footer {
+  background-color: #11001A;
+  color: #F2F2F2;
+  text-align: center;
+  font-size: small;
+  padding: 0.7rem;
+  margin-bottom: 0 !important;
+}

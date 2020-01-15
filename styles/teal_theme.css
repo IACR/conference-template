@@ -1,0 +1,118 @@
+/* NOTE: this is a theme stylesheet. You do NOT need to include additional stylesheets on any of the pages. If you would like a custom style, add to this file.  Please see installation docs for more information on how to change the theme. */
+
+/***** General styling *****/
+
+body {
+  background-position: top;
+  background-repeat: no-repeat;
+  background-image: url("../images/banners/ellipses.svg");
+  background-size: cover;
+
+}
+
+main {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+
+/***** Nav (in /includes/nav.php) *****/
+#pageTop {
+  /* equivalent of d-flex */
+  display: -ms-flexbox !important;
+  display: flex !important;
+  /* equivalent of flex-column-reverse */
+  -ms-flex-direction: column-reverse !important;
+  flex-direction: column-reverse !important;
+}
+
+
+
+/***** Header (in /includes/nav.php) *****/
+#titlesLogoDiv {
+  flex-direction: column;
+}
+
+.headerTitle {
+  color: #2E3192;
+}
+
+.headerInfoTop {
+  color: #2E3192;
+}
+
+.headerInfoBottom {
+  color: #2E3192;
+}
+
+#main-nav-row {
+    /*  background-color: #0F5C45;*/
+    background-color: rgba(4, 101, 119, 1);
+    /* emulated fixed-top */
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+.headerImg {
+    margin-top: 60px;
+}
+
+div.dropdown-menu {
+/*  background-color: #0F5C45;*/
+  background-color: rgba(4, 101, 119, 1);
+  color: #FEFDFB;
+}
+
+a.dropdown-item {
+  color: #FEFDFB;
+}
+
+
+
+/***** Main Content: general styling *****/
+.indPageTitle {
+  color: #0F773C;
+}
+
+.customCard {
+  border: 1px solid rgba(203, 131, 30, 0.3);
+}
+
+.customCardHeader {
+  background-color: rgba(203, 131, 30, 0.4);
+  color: #1F2161;
+}
+
+.dateTitle {
+  color: #CB831E;
+}
+
+.customCardFooter {
+  /* NOTE: typically this is a more transparent version of the card header bg color */
+  background-color: rgba(203, 131, 30, 0.1);
+}
+
+/* Rearrange the top elements. */
+div.pageTopContainer > div {
+    flex-direction: column;
+}
+
+div.headerLogo {
+    position: absolute;
+    right: 0;
+    top: 15%;
+}
+div.headerConferenceName {
+    order: 0;
+}
+div.headerInfo {
+    order: 1;
+}
+div.headerInfo > h3 {
+    font-size: 1rem;
+    text-align: center;
+}
+div.pageTopContainer {
+    position: relative;
+}
