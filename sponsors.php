@@ -19,16 +19,6 @@
         Sponsors
       </h2>
 
-      <!-- NOTE: below is standard placeholder text for when the page is under construction. please delete this entire <div class="row"> and all elements contained within it when ready to add other content -->
-      <div class="row">
-        <div class="col-12">
-          <p>
-            This information is not yet available. Thank you for your patience.
-          </p>
-        </div>
-      </div>
-
-      <!-- NOTE: below is placeholder content. please uncomment and replace with your own content when ready. -->
       <div class="row">
         <section class="col-12">
           <p>
@@ -37,7 +27,8 @@
         </section>
       </div>
 
-      <h3 class="pageSubtitle mt-4">
+      <!-- NOTE: below is placeholder content. please uncomment and replace with your own content when ready. make sure to verify that all included sponsors are current, with appropriate links. -->
+      <!-- <h3 class="pageSubtitle mt-4">
         Platinum Level
       </h3>
 
@@ -138,7 +129,7 @@
             <img src="./images/sponsors/iohk.png" alt="IOHK" title="IOHK" class="sponsorPageLogo">
           </a>
         </div>
-      </div>
+      </div> -->
     </main>
     <?php include "includes/footer.php"; ?>
   </body>
