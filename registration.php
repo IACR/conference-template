@@ -19,10 +19,13 @@
         Registration
       </h2>
 
-      <!-- NOTE: below is standard placeholder text for when the page is under construction. please delete this entire <div class="row"> and all elements contained within it when ready to add other content -->
       <p>
         This information is not yet available. Thank you for your patience.
-        <span class="editMe">Below is sample information, derived from CRYPTO 2016.</span>
+      </p>
+
+      <!-- 
+      <p class="editMe">
+         Below is sample information, derived from CRYPTO 2016.
       </p>
 
       <div class="row mt-3">
@@ -121,15 +124,6 @@
       </div>
 
       <div class="row mt-4">
-        <!-- NOTE: the following <br> and <section> tags are a separate under construction message for when you can release the above chart but have not yet added other information to this page. these should both be deleted upon adding additional content below to replace the boilerplate -->
-        <!-- <br />
-             <section class="col-12">
-               <p>
-                 Thank you for your patience with us while we finalize the information about registration for this year's conference. Please check back for updated information closer to when registration opens.
-               </p>
-             </section> -->
-
-        <!-- NOTE: here's where boilerplate content for any additional content you may add to the page begins -->
         <section class="col-md-6">
           <h3 class="pageSubtitle">What the Conference Fee Includes</h3>
           <p>
@@ -147,7 +141,6 @@
         </section>
       </div>
 
-      <!-- NOTE: also boilerplate content; add in your content and uncomment -->
       <div class="row">
         <aside class="col-sm-6 mx-auto text-center">
           <h5>
@@ -198,7 +191,7 @@
           </p>
         </section>
       </div>
-
+      -->
     </main>
 
     <?php include "includes/footer.php"; ?>
