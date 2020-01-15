@@ -41,7 +41,7 @@
         Platinum Level
       </h3>
 
-      <div class="d-flex flex-wrap align-items-center">
+      <div class="d-flex flex-wrap align-items-center sponsorRows">
         <div class="sponsorLogoBox justify-content-between">
           <a href="http://kaymckelly.com">
             <img src="./images/sponsors/ethereumFoundation.png" alt="Ethereum Foundation" title="Ethereum Foundation" class="sponsorPageLogo">
@@ -59,7 +59,7 @@
         Gold Level
       </h3>
 
-      <div class="d-flex flex-wrap align-items-center">
+      <div class="d-flex flex-wrap align-items-center sponsorRows">
         <div class="sponsorLogoBox justify-content-between">
           <a href="http://kaymckelly.com">
             <img src="./images/sponsors/cloudFlare.png" alt="Cloudflare" title="Cloudflare" class="sponsorPageLogo">
@@ -92,7 +92,7 @@
         Silver Level
       </h3>
 
-      <div class="d-flex flex-wrap align-items-center">
+      <div class="d-flex flex-wrap align-items-center sponsorRows">
         <div class="sponsorLogoBox justify-content-between">
           <a href="http://kaymckelly.com">
             <img src="./images/sponsors/nucypher.png" alt="NuCypher" title="NuCypher" class="sponsorPageLogo">

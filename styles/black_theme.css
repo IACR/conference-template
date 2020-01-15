@@ -238,9 +238,14 @@ code {
   filter: brightness(0) saturate(100%) invert(86%) sepia(8%) saturate(4081%) hue-rotate(306deg) brightness(114%) contrast(101%);
 }
 
-.sponsorLogo, .sponsorPageLogo {
+.sponsorLogo {
   background-color: #F2F2F2;
   border-radius: 25%;
+}
+
+.sponsorRows {
+  background-color: #FFF;
+  box-shadow: 0px 0px 7px #11001A inset;
 }
 
 li.location, li.phone, li.email {
