@@ -155,12 +155,6 @@ a.dropdown-item {
 }
 /* END hamburger transform to x */
 
-#disConfName {
-  color: #F0F0F0;
-  align-self: flex-end;
-  padding-right: 30%;
-}
-
 
 
 /***** Header (in /includes/nav.php) *****/
