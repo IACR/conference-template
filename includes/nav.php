@@ -34,7 +34,7 @@
           <span class="icon-bar middle-bar"></span>
           <span class="icon-bar bottom-bar"></span>
         </button>
-        <h5 id="disConfName" class="d-flex d-md-none text-center">
+        <h5 id="disConfName">
           <span class="conf_name">
             <?php echo $META['shortName'];?>
           </span>

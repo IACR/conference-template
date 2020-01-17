@@ -30,7 +30,7 @@ ul#nav-ul {
   margin-bottom: 0.8em;
 }
 
-ul#nav-ul a.nav-link {
+ul#nav-ul a.nav-link, #disConfName {
   color: #0D0D0D;
 }
 
