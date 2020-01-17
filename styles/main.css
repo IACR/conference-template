@@ -58,6 +58,7 @@ a:hover {
 }
 
 
+
 /***** Nav (in /includes/nav.php) *****/
 #main-nav-row {
   background-color: #102A83;
@@ -107,6 +108,54 @@ a.dropdown-item {
     padding-top: .625rem;
   }
 }
+
+/* Hamburger transform to x */
+.nofocus:focus {
+  outline: none !important;
+}
+
+.icon-bar {
+  width: 29px;
+  height: 2px;
+  background-color: #F0F0F0;
+  display: block;
+  transition: all 0.3s;
+  margin-bottom: 6px;
+}
+
+#main-nav-row .navbar-toggler {
+  border: none;
+  background: transparent !important;
+}
+
+#main-nav-row .navbar-toggler .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+}
+
+#main-nav-row .navbar-toggler .middle-bar {
+  opacity: 0;
+}
+
+#main-nav-row .navbar-toggler .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+}
+
+#main-nav-row .navbar-toggler.collapsed .top-bar {
+  transform: rotate(0);
+}
+
+#main-nav-row .navbar-toggler.collapsed .middle-bar {
+  opacity: 1;
+}
+
+#main-nav-row .navbar-toggler.collapsed .bottom-bar {
+  transform: rotate(0);
+}
+/* END hamburger transform to x */
+
+
 
 /***** Header (in /includes/nav.php) *****/
 .headerImg {
@@ -194,51 +243,7 @@ a.dropdown-item {
   text-align: right;
 }
 
-/* Hamburger transform to x */
-.nofocus:focus {
-  outline: none !important;
-}
 
-.icon-bar {
-  width: 29px;
-  height: 2px;
-  background-color: #F0F0F0;
-  display: block;
-  transition: all 0.3s;
-  margin-bottom: 6px
-}
-
-#main-nav-row .navbar-toggler {
-  border: none;
-  background: transparent !important;
-}
-
-#main-nav-row .navbar-toggler .top-bar {
-  transform: rotate(45deg);
-  transform-origin: 10% 10%;
-}
-
-#main-nav-row .navbar-toggler .middle-bar {
-  opacity: 0;
-}
-
-#main-nav-row .navbar-toggler .bottom-bar {
-  transform: rotate(-45deg);
-  transform-origin: 10% 90%;
-}
-
-#main-nav-row .navbar-toggler.collapsed .top-bar {
-  transform: rotate(0);
-}
-
-#main-nav-row .navbar-toggler.collapsed .middle-bar {
-  opacity: 1;
-}
-
-#main-nav-row .navbar-toggler.collapsed .bottom-bar {
-  transform: rotate(0);
-}
-/* END hamburger transform to x */
 
 /***** Main Content: general styling *****/
 .indPageTitle {
