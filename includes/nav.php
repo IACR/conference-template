@@ -41,7 +41,7 @@
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Technical Program</a>
-              <div class="dropdown-menu mx-md-5">
+              <div class="dropdown-menu mx-md-3 mx-lg-5">
                 <a class="dropdown-item" href="<?php echo rootPath() . 'callforpapers.php' ?>">Call for papers</a>
                 <a class="dropdown-item" href="<?php echo rootPath() . 'papersubmission.php' ?>">Paper submission</a>
                 <a class="dropdown-item" href="<?php echo rootPath() . 'invitedtalks.php' ?>">Invited talks</a>
@@ -53,7 +53,7 @@
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Attend</a>
-              <div class="dropdown-menu mx-md-5">
+              <div class="dropdown-menu mx-md-3 mx-lg-5">
                 <a class="dropdown-item" href="<?php echo rootPath() . 'registration.php' ?>">Registration</a>
                 <a class="dropdown-item" href="<?php echo rootPath() . 'stipends.php' ?>">Student stipends</a>
                 <a class="dropdown-item" href="<?php echo rootPath() . 'travel.php' ?>">Venue & travel</a>
