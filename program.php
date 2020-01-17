@@ -217,7 +217,7 @@
     <!-- Handlebars -->
     <script src="https://iacr.org/libs/js/handlebars/handlebars-v4.1.0.js" type="text/javascript"></script>
 
-    <!-- Personal scripts TODO: review these. -->
+    <!-- Personal scripts -->
     <script src="./js/tooltips.js"></script>
     <script src="./js/program.js"></script>
 
