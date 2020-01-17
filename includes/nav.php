@@ -34,6 +34,11 @@
           <span class="icon-bar middle-bar"></span>
           <span class="icon-bar bottom-bar"></span>
         </button>
+        <h5 id="disConfName" class="d-flex d-md-none text-center">
+          <span class="conf_name">
+            <?php echo $META['shortName'];?>
+          </span>
+        </h5>
         <div class="collapse navbar-collapse justify-content-md-center" id="navbarNav">
           <ul id="nav-ul" class="navbar-nav">
             <li class="nav-item mt-4 mt-md-0">
