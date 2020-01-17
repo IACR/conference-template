@@ -25,12 +25,11 @@
           This information is not yet available. Thank you for your patience.
       </p>
 
-      <!-- NOTE: below is placeholder content derived from a past conference. 
+      <!-- NOTE: below is placeholder content derived from a past conference.
            Please uncomment and replace contents with your own content when ready.
            This code is here to give you an idea of what the structure of this page
            has looked like in the past.
         -->
-      <!-- TODO: duplicate card for dates from callforpapers.php -->
       <div class="row">
         <div class="col-lg-6 col-12 mt-4">
           <h3 class="pageSubtitle">
