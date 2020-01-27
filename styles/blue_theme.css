@@ -2,6 +2,13 @@
 
 
 
+/***** General Styling *****/
+body {
+  background-color: #F3F3FB;
+}
+
+
+
 /***** Header (in /includes/nav.php) *****/
 /* A glow around the IACR logo */
 img#logo {
@@ -53,10 +60,6 @@ div.dropdown-menu {
 
 
 /***** Main content (e.g. h1-h6, a, text, etc) *****/
-body {
-  background-color: #F3F3FB;
-}
-
 .indPageTitle {
   color: #0F773C;
 }
@@ -79,5 +82,5 @@ body {
 
 .customCardFooter {
   /* NOTE: typically this is a more transparent version of the card header bg color */
-    background-color: rgba(156, 188, 235, .4);
+  background-color: rgba(156, 188, 235, .4);
 }
