@@ -1,4 +1,4 @@
-/* Color palette link? */
+/* Color palette by Kay McKelly: https://coolors.co/a1480d-f3f3fb-266dd3-2261ba-0b3f87 */
 
 
 
@@ -12,7 +12,7 @@ body {
 /***** Header (in /includes/nav.php) *****/
 /* A glow around the IACR logo */
 img#logo {
-  border-radius:50%;
+  border-radius: 50%;
   box-shadow: 0px 0px 20px 0px rgba(255,255,255,.5);
 }
 
@@ -49,30 +49,38 @@ img#logo {
 
 /***** Nav (in /includes/nav.php) *****/
 #main-nav-row {
-  background-color: #194687;
+  background-color: #0B3F87;
 }
 
 div.dropdown-menu {
   color: #FEFDFB;
-  background-color: #194687;
+  background-color: #0B3F87;
 }
 
 
 
 /***** Main content (e.g. h1-h6, a, text, etc) *****/
-.indPageTitle {
-  color: #0F773C;
+a, .indPageTitle, .dateTitle {
+  color: #8E3F0B;
 }
 
-.dateTitle {
-  color: #CB831E;
+a:hover {
+  color: #2261BA;
+}
+
+.pageSubtitle {
+  color: #266DD3;
+}
+
+.subSubtitle {
+  color: #0B3F87;
 }
 
 
 
 /***** Main Content: cards & alerts *****/
 .customCard {
-  border: 1px solid #9CBCEB;
+  border: 1px solid rgba(38, 109, 211, 0.5);
 }
 
 .customCardHeader {
@@ -81,6 +89,5 @@ div.dropdown-menu {
 }
 
 .customCardFooter {
-  /* NOTE: typically this is a more transparent version of the card header bg color */
-  background-color: rgba(156, 188, 235, .4);
+  background-color: rgba(38, 109, 211, .2);
 }
