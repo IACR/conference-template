@@ -1,17 +1,20 @@
-/***** Header (in /includes/nav.php) *****/
+/* Color palette link? */
 
+
+
+/***** Header (in /includes/nav.php) *****/
 /* A glow around the IACR logo */
 img#logo {
   border-radius:50%;
   box-shadow: 0px 0px 20px 0px rgba(255,255,255,.5);
 }
 
-/* a background image on the header. It may need to be muted by headerGradient. */
+/* a background image on the header. It may need to be muted by .headerGradient */
 .headerImg {
   background-color: #7C8ABB;
   /*  background-image: url("../images/banners/binary.jpg");*/
   /*  background-image: url("../images/banners/ucsb.jpg"); */
-  background-image: url("../images/banners/ucsb2.png");  
+  background-image: url("../images/banners/ucsb2.png");
   background-size: cover;
 }
 
@@ -20,26 +23,26 @@ img#logo {
   background: linear-gradient(rgba(47, 50, 147, 0.2), rgba(243, 243, 251, .6));
 }
 
-/* conference name. */
 .headerTitle {
-    color: white;
-    text-shadow: 0 0 4px black;
+  color: white;
+  text-shadow: 0 0 4px black;
 }
 
-/* conference location */
 .headerInfoTop {
   color: white;
-    text-shadow: 0 0 4px black;
+  text-shadow: 0 0 4px black;
 }
 
-/* conference dates */
 .headerInfoBottom {
-    color: white;
-    text-shadow: 0 0 4px black;
+  color: white;
+  text-shadow: 0 0 4px black;
 }
 
+
+
+/***** Nav (in /includes/nav.php) *****/
 #main-nav-row {
-    background-color: #194687;
+  background-color: #194687;
 }
 
 div.dropdown-menu {
@@ -47,8 +50,9 @@ div.dropdown-menu {
   background-color: #194687;
 }
 
-/***** Main Content: general styling *****/
 
+
+/***** Main content (e.g. h1-h6, a, text, etc) *****/
 body {
   background-color: #F3F3FB;
 }
@@ -57,6 +61,13 @@ body {
   color: #0F773C;
 }
 
+.dateTitle {
+  color: #CB831E;
+}
+
+
+
+/***** Main Content: cards & alerts *****/
 .customCard {
   border: 1px solid #9CBCEB;
 }
@@ -64,10 +75,6 @@ body {
 .customCardHeader {
   background-color: #266DD3;
   color: #F3F3FB;
-}
-
-.dateTitle {
-  color: #CB831E;
 }
 
 .customCardFooter {
