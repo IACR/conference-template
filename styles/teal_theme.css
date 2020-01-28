@@ -1,4 +1,4 @@
-/* Color palette by Kay McKelly: https://coolors.co/eef5f6-e9ab1c-2f8899-046577-102a83 */
+/* Color palette by Kay McKelly: https://coolors.co/eef5f6-e9ab1c-2f8899-046577-102a83 and https://coolors.co/2e3192-50a4af-038273-046577-383db9 */
 
 
 
@@ -53,6 +53,12 @@ a.dropdown-item {
   color: #2E3192;
 }
 
+/* negates margin bottom set in main.css (which is necessary in most other themes for .headerTitle) */
+.headerTitle {
+  margin-bottom: 2rem;
+}
+
+/* bumps titles down so they don't run into the navbar */
 .headerImg {
   margin-top: 4.5rem;
   margin-bottom: 0.2rem;
@@ -61,13 +67,12 @@ a.dropdown-item {
 div.headerLogo {
   position: absolute;
   right: 2rem;
-  top: 3rem;
+  top: 4rem;
 }
 
 div.headerInfo > h3 {
-  font-size: 1rem;
+  font-size: 1.3rem;
   text-align: center;
-  margin-top: 1rem;
 }
 
 div.pageTopContainer {
@@ -81,12 +86,25 @@ main {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
 
-.indPageTitle {
+a:hover {
+  color: #E9AB1C;
+}
+
+.indPageTitle, a {
   color: #038273;
 }
 
+.pageSubtitle {
+  font-weight: normal;
+}
+
+.subSubtitle {
+  color: #383DB9;
+  font-weight: normal;
+}
+
 .dateTitle {
-  color: #CB831E;
+  color: #046577;
 }
 
 
