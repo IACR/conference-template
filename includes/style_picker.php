@@ -9,7 +9,7 @@
      //document.getElementById('style').href = '/styles/' + val + '_theme.css';
 
      // for Kevin's machine
-     document.getElementById('style').href = '/iacr/styles/' + val + '_theme.css';
+     document.getElementById('style').href = '/tools/confdemo/styles/' + val + '_theme.css';
   }
 </script>
 <style>
@@ -38,6 +38,7 @@ aria-haspopup="true" aria-expanded="false">
     <a class="dropdown-item" href="#" onclick='setTheme("green")'>Green</a>
     <a class="dropdown-item" href="#" onclick='setTheme("teal")'>Teal</a>
     <a class="dropdown-item" href="#" onclick='setTheme("blue")'>Blue</a>
+    <a class="dropdown-item" href="#" onclick='setTheme("blue2")'>Top blue</a>
   </div>
 </div>
 

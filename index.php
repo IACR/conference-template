@@ -12,7 +12,7 @@
     </title>
 
   </head>
-  <body>
+  <body class="home">
     <?php require "includes/nav.php"; ?>
 
   <main class="container p-4">
