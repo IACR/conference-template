@@ -39,9 +39,11 @@ body.home .headerImg {
     min-height: 360px;
 }
 
-/* remove the blue stripe above main */
-main {
-  margin-top: 0;
+/* remove the blue stripe above main on mobile. */
+@media only screen and (max-width: 768px) {
+  main {
+    margin-top: 0;
+  }
 }
 
 .pageTopContainer {
