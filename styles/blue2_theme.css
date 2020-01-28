@@ -1,0 +1,115 @@
+/***** Header (in /includes/nav.php) *****/
+
+/* same as teal to place nav menu at top. */
+#pageTop {
+  /* equivalent of d-flex */
+  display: -ms-flexbox !important;
+  display: flex !important;
+  /* equivalent of flex-column-reverse */
+  -ms-flex-direction: column-reverse !important;
+  flex-direction: column-reverse !important;
+}
+
+/* Make top nav sticky. This requires moving .pageTopContainer
+   down the page so it isn't covered (in both desktop and mobile). */
+#main-nav-row {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.pageTopContainer {
+    position: relative;
+    top: 30px;
+}
+
+@media only screen and (min-width: 992px) {
+  .pageTopContainer {
+      top: 60px;
+  }
+}
+
+/* Make the image bigger on the home page. */
+.headerImg {
+    min-height: 300px;
+}
+body.home .headerImg {
+    min-height: 360px;
+}
+
+/* remove the blue stripe above main on mobile. */
+@media only screen and (max-width: 768px) {
+  main {
+    margin-top: 0;
+  }
+}
+
+.pageTopContainer {
+    max-width: 95%;
+}
+
+/* A glow around the IACR logo */
+img#logo {
+  border-radius:50%;
+  box-shadow: 0px 0px 20px 0px rgba(255,255,255,.8);
+}
+
+/* a background image on the header. In this theme we don't mute it by .headerGradient */
+.headerImg {
+  /*  background-image: url("../images/banners/binary.jpg");*/
+  background-image: url("../images/banners/ucsb.jpg"); 
+/*  background-image: url("../images/banners/ucsb2.png");*/
+  background-size: cover;
+}
+
+/* optional gradient to blur header image. */
+.headerGradient {
+  background: none;
+}
+
+.headerTitle, .headerInfo {
+  color: #102a83;
+  padding: 10px;
+  border-radius: 20px;
+  border: 2px solid #102a83;
+  background-color: rgba(255,255,255,.8);
+}
+
+#main-nav-row {
+    background-color: #194687;
+}
+
+div.dropdown-menu {
+  color: #FEFDFB;
+  background-color: #194687;
+}
+
+/***** Main Content: general styling *****/
+
+body {
+  background-color: rgba(156, 188, 235, .4);
+}
+
+.indPageTitle {
+  color: #0F773C;
+}
+
+.customCard {
+  border: 1px solid #9CBCEB;
+}
+
+.customCardHeader {
+  background-color: #266DD3;
+  color: #F3F3FB;
+}
+
+.dateTitle {
+  color: #CB831E;
+}
+
+.customCardFooter {
+  /* NOTE: typically this is a more transparent version of the card header bg color */
+    background-color: rgba(156, 188, 235, .4);
+}
