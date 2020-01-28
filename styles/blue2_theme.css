@@ -77,11 +77,6 @@ img#logo {
   background-color: rgba(255,255,255,.8);
 }
 
-/* conference title, location, dates   */
-.headerTitle, .headerInfoTop, .headerInfoBottom {
-  font-weight: 600;
-}
-
 #main-nav-row {
     background-color: #194687;
 }
