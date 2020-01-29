@@ -1,0 +1,172 @@
+/* NOTE: this is a theme stylesheet. You do NOT need to include additional stylesheets on any of the pages. If you would like a custom style, add to this file.  Please see installation docs for more information on how to change the theme. */
+
+/***** General styling *****/
+
+.editMe {
+    color: inherit;
+    border-bottom: inherit;
+    font-weight: inherit;
+}
+
+body {
+  background-color: #8F8F8F;
+  background-position: top;
+  background-repeat: repeat;
+  background-image: linear-gradient(to bottom, rgba(245,245,245, .2), rgba(245,245,245, .25)),
+  url("../images/banners/diagmonds-light.png");
+  background-size: 20% 20%;
+  min-height: 100%;
+}
+
+main {
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  background-color: #202020;
+  color: #d0d0d0;
+  margin-top: 0;
+  min-height: 60vh;
+}
+
+a {
+    /*  color: #E378CE;*/
+    color: #7ED6F6;
+}
+
+a:hover {
+  color: #CB831E;
+}
+
+
+/***** Nav (in /includes/nav.php) *****/
+#pageTop {
+  /* equivalent of d-flex */
+  display: -ms-flexbox !important;
+  display: flex !important;
+  /* equivalent of flex-column-reverse */
+  -ms-flex-direction: column-reverse !important;
+  flex-direction: column-reverse !important;
+}
+
+
+
+/***** Header (in /includes/nav.php) *****/
+#titlesLogoDiv {
+    padding: 30px !important;
+    position: relative;
+    top: 10px;
+    flex-direction: column;
+    background-color: #202020;
+    border-radius: 10px 10px 0px 0px;
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+
+footer {
+  color: #14ABE0;
+  background-color: #202020;
+  padding: 20px;
+}
+
+.headerTitle, .headerInfoTop, .headerInfoBottom {
+  color: #14ABE0;
+  text-shadow:none;
+}
+
+#main-nav-row {
+  background-color: #ffb33e;
+  /* emulated fixed-top */
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+.navbar-nav a.nav-link {
+  color: black;
+}
+
+.headerImg {
+  height: auto;
+  margin-top: 75px;
+}
+
+div.dropdown-menu {
+  background-color: #ffb33e;
+  color: #d0d0d0;
+  border:none;
+}
+
+a.dropdown-item {
+  color: black;
+}
+
+
+/***** Main Content: general styling *****/
+.indPageTitle {
+  color: #14ABE0;
+}
+
+.customCard {
+    border: 1px solid rgba(203, 131, 30, 0.3);
+    background-color: #404040;
+}
+
+.customCardHeader {
+  background-color: #faa21b;
+  color: #1F2161;
+}
+
+.dateTitle {
+  color: #E29D3C;
+}
+
+.customCardFooter {
+  /* NOTE: typically this is a more transparent version of the card header bg color */
+    background-color: #505050;
+    color: #d0d0d0;
+}
+
+/* Rearrange the top elements. */
+div.pageTopContainer > div {
+    flex-direction: column;
+}
+
+
+div.headerLogo {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+div.headerConferenceName {
+    order: 0;
+}
+div.headerInfo {
+  order: 1;
+  margin-top:20px;
+}
+div.headerInfo > h3 {
+    font-size: 1rem;
+    text-align: center;
+}
+div.pageTopContainer {
+    position: relative;
+}
+
+.subSubtitle {
+    color: #CB831E;
+}
+
+.customCardFooter .icon, alert-success .icon, .alert-warning .icon {
+  filter: brightness(0) saturate(100%) invert(86%) sepia(16%) saturate(4330%) hue-rotate(328deg) brightness(93%) contrast(91%);
+}
+
+.alert-danger {
+    background-color: #92030A;
+    border-color: #82030A;
+}
+
+/* change color of icons */
+.icon {
+  /* thanks https://codepen.io/sosuke/pen/Pjoqqp for generating this filter (the first two properties set the icon to black first to achieve a truer color match) */
+  filter: brightness(0) saturate(100%) invert(86%) sepia(16%) saturate(4330%) hue-rotate(328deg) brightness(93%) contrast(91%);
+}

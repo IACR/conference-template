@@ -40,6 +40,7 @@
         <?php require "includes/important_dates.php";?>
       </div>
 
+      <!-- NOTE: Update this to add a row at the top as you add features to the site. -->
       <div class="col-lg-6 mt-4 mt-lg-0">
         <article class="customCard">
           <h4 class="customCardHeader">
@@ -47,7 +48,7 @@
           </h4>
           <div class="customCardRow row">
             <h6 class="dateTitle col-5 col-md-4">
-              March 28 2017
+              March 28 2020
             </h6>
             <p class="col-7 col-md-8">
               <a href="./callforpapers.php">Call for papers</a> page updated
@@ -55,7 +56,7 @@
           </div>
           <div class="customCardRow row">
             <h6 class="dateTitle col-5 col-md-4">
-              March 20 2017
+              March 20 2020
             </h6>
             <p class="col-7 col-md-8">
               Website launched
