@@ -1,13 +1,5 @@
-/* NOTE: this is a theme stylesheet. You do NOT need to include additional stylesheets on any of the pages. If you would like a custom style, add to this file.  Please see installation docs for more information on how to change the theme. */
 
 /***** General styling *****/
-
-.editMe {
-    color: inherit;
-    border-bottom: inherit;
-    font-weight: inherit;
-}
-
 body {
   background-color: #8F8F8F;
   background-position: top;
@@ -28,7 +20,6 @@ main {
 }
 
 a {
-    /*  color: #E378CE;*/
     color: #7ED6F6;
 }
 
