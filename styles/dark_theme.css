@@ -123,6 +123,16 @@ div.pageTopContainer {
   color: #14ABE0;
 }
 
+.dateTitle {
+  color: #E29D3C;
+}
+
+.subSubtitle {
+  color: #CB831E;
+}
+
+
+
 /****** Main Content: cards & alerts *****/
 .customCard {
   border: 1px solid rgba(203, 131, 30, 0.3);
@@ -134,29 +144,23 @@ div.pageTopContainer {
   color: #1F2161;
 }
 
-.dateTitle {
-  color: #E29D3C;
-}
-
 .customCardFooter {
   background-color: #505050;
   color: #d0d0d0;
 }
 
-.subSubtitle {
-    color: #CB831E;
+.alert-danger {
+  background-color: #92030A;
+  border-color: #82030A;
 }
 
+
+
+/****** Main content: images and icons ***********/
 .customCardFooter .icon, alert-success .icon, .alert-warning .icon {
   filter: brightness(0) saturate(100%) invert(86%) sepia(16%) saturate(4330%) hue-rotate(328deg) brightness(93%) contrast(91%);
 }
 
-.alert-danger {
-    background-color: #92030A;
-    border-color: #82030A;
-}
-
-/* change color of icons */
 .icon {
   /* thanks https://codepen.io/sosuke/pen/Pjoqqp for generating this filter (the first two properties set the icon to black first to achieve a truer color match) */
   filter: brightness(0) saturate(100%) invert(86%) sepia(16%) saturate(4330%) hue-rotate(328deg) brightness(93%) contrast(91%);
@@ -166,6 +170,8 @@ div.pageTopContainer {
   margin-top: 1rem;
   background-color: #505050;
 }
+
+
 
 /***** Footer *****/
 footer {
