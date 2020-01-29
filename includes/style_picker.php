@@ -38,7 +38,8 @@ aria-haspopup="true" aria-expanded="false">
     <a class="dropdown-item" href="#" onclick='setTheme("green")'>Green</a>
     <a class="dropdown-item" href="#" onclick='setTheme("teal")'>Teal</a>
     <a class="dropdown-item" href="#" onclick='setTheme("blue")'>Blue</a>
-    <a class="dropdown-item" href="#" onclick='setTheme("blue2")'>Top blue</a>
+    <a class="dropdown-item" href="#" onclick='setTheme("blue2")'>Blue2</a>
+    <a class="dropdown-item" href="#" onclick='setTheme("dark")'>Dark</a>
   </div>
 </div>
 
