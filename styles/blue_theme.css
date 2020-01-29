@@ -1,17 +1,27 @@
-/***** Header (in /includes/nav.php) *****/
+/* Color palette by Kay McKelly: https://coolors.co/a1480d-f3f3fb-266dd3-2261ba-0b3f87 */
 
+
+
+/***** General Styling *****/
+body {
+  background-color: #F3F3FB;
+}
+
+
+
+/***** Header (in /includes/nav.php) *****/
 /* A glow around the IACR logo */
 img#logo {
-  border-radius:50%;
+  border-radius: 50%;
   box-shadow: 0px 0px 20px 0px rgba(255,255,255,.5);
 }
 
-/* a background image on the header. It may need to be muted by headerGradient. */
+/* a background image on the header. It may need to be muted by .headerGradient */
 .headerImg {
   background-color: #7C8ABB;
   /*  background-image: url("../images/banners/binary.jpg");*/
   /*  background-image: url("../images/banners/ucsb.jpg"); */
-  background-image: url("../images/banners/ucsb2.png");  
+  background-image: url("../images/banners/ucsb2.png");
   background-size: cover;
 }
 
@@ -20,45 +30,57 @@ img#logo {
   background: linear-gradient(rgba(47, 50, 147, 0.2), rgba(243, 243, 251, .6));
 }
 
-/* conference name. */
 .headerTitle {
-    color: white;
-    text-shadow: 0 0 4px black;
+  color: white;
+  text-shadow: 0 0 4px black;
 }
 
-/* conference location */
 .headerInfoTop {
   color: white;
-    text-shadow: 0 0 4px black;
+  text-shadow: 0 0 4px black;
 }
 
-/* conference dates */
 .headerInfoBottom {
-    color: white;
-    text-shadow: 0 0 4px black;
+  color: white;
+  text-shadow: 0 0 4px black;
 }
 
+
+
+/***** Nav (in /includes/nav.php) *****/
 #main-nav-row {
-    background-color: #194687;
+  background-color: #0B3F87;
 }
 
 div.dropdown-menu {
   color: #FEFDFB;
-  background-color: #194687;
+  background-color: #0B3F87;
 }
 
-/***** Main Content: general styling *****/
 
-body {
-  background-color: #F3F3FB;
+
+/***** Main content (e.g. h1-h6, a, text, etc) *****/
+a, .indPageTitle, .dateTitle {
+  color: #8E3F0B;
 }
 
-.indPageTitle {
-  color: #0F773C;
+a:hover {
+  color: #2261BA;
 }
 
+.pageSubtitle {
+  color: #266DD3;
+}
+
+.subSubtitle {
+  color: #0B3F87;
+}
+
+
+
+/***** Main Content: cards & alerts *****/
 .customCard {
-  border: 1px solid #9CBCEB;
+  border: 1px solid rgba(38, 109, 211, 0.5);
 }
 
 .customCardHeader {
@@ -66,11 +88,6 @@ body {
   color: #F3F3FB;
 }
 
-.dateTitle {
-  color: #CB831E;
-}
-
 .customCardFooter {
-  /* NOTE: typically this is a more transparent version of the card header bg color */
-    background-color: rgba(156, 188, 235, .4);
+  background-color: rgba(38, 109, 211, .2);
 }

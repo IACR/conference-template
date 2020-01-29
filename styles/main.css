@@ -236,17 +236,17 @@ a.dropdown-item {
   }
 }
 
-@media (max-width: 768px) {
-    .headerInfo {
-        display:none;
-    }
-}
-
 .headerInfoTop, .headerInfoBottom {
   font-family: 'Roboto Condensed', sans-serif;
   text-shadow: 5px 5px 20px #FEFDFB, 0.3px 0.3px #1F2161;
   letter-spacing: 2px;
   text-align: right;
+}
+
+@media (max-width: 768px) {
+  .headerInfoTop, .headerInfoBottom {
+    text-align: center;
+  }
 }
 
 

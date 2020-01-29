@@ -1,16 +1,9 @@
-/* NOTE: this is a supplemental style sheet. You should select one of the
-   styles/*_theme.css files to include (orange_theme.css is included by default).
-*/
+/* Color theme by Kay McKelly: LINK */
+
 
 
 /***** General styling *****/
-
-
-.headerImg {
-  background-image: url("../images/banners/circuit.jpg");
-}
-
-ody, .listItems {
+body {
   background-color: #FEFDFB;
 }
 
@@ -24,6 +17,10 @@ nav#mainmenu {
 
 
 /***** Header (in /includes/nav.php) *****/
+.headerImg {
+  background-image: url("../images/banners/circuit.jpg");
+}
+
 .headerGradient {
   background: rgba(204, 132, 30, 0.6);
   background: -webkit-linear-gradient(rgba(204, 132, 30, 0.6), rgba(254, 253, 251, 1));
@@ -46,11 +43,18 @@ nav#mainmenu {
 
 
 
-/***** Main Content: general styling *****/
+/***** Main Content (e.g. h1-h6, a, text, etc) *****/
 .indPageTitle {
   color: #0F773C;
 }
 
+.dateTitle {
+  color: #CB831E;
+}
+
+
+
+/***** Main Content: cards & alerts *****/
 .customCard {
   border: 1px solid rgba(203, 131, 30, 0.3);
 }
@@ -58,10 +62,6 @@ nav#mainmenu {
 .customCardHeader {
   background-color: rgba(203, 131, 30, 0.4);
   color: #1F2161;
-}
-
-.dateTitle {
-  color: #CB831E;
 }
 
 .customCardFooter {
