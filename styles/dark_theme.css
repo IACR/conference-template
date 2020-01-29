@@ -19,13 +19,6 @@ main {
   min-height: 60vh;
 }
 
-a {
-  color: #7ED6F6;
-}
-
-a:hover {
-  color: #CB831E;
-}
 
 
 /***** Nav (in /includes/nav.php) *****/
@@ -119,6 +112,14 @@ div.pageTopContainer {
 
 
 /***** Main Content: (e.g., h1-h6, a, text, etc) *****/
+a {
+  color: #7ED6F6;
+}
+
+a:hover {
+  color: #CB831E;
+}
+
 .indPageTitle {
   color: #14ABE0;
 }
