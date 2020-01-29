@@ -20,7 +20,7 @@ main {
 }
 
 a {
-    color: #7ED6F6;
+  color: #7ED6F6;
 }
 
 a:hover {
@@ -38,6 +38,30 @@ a:hover {
   flex-direction: column-reverse !important;
 }
 
+#main-nav-row {
+  background-color: #ffb33e;
+  /* emulated fixed-top */
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.navbar-nav a.nav-link {
+  color: black;
+}
+
+div.dropdown-menu {
+  background-color: #ffb33e;
+  color: #d0d0d0;
+  border:none;
+}
+
+a.dropdown-item {
+  color: black;
+}
+
 
 
 /***** Header (in /includes/nav.php) *****/
@@ -52,54 +76,57 @@ a:hover {
     margin-left: auto !important;
 }
 
-footer {
-  color: #14ABE0;
-  background-color: #202020;
-  padding: 20px;
-}
-
 .headerTitle, .headerInfoTop, .headerInfoBottom {
   color: #14ABE0;
   text-shadow:none;
 }
 
-#main-nav-row {
-  background-color: #ffb33e;
-  /* emulated fixed-top */
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 1030;
-}
-.navbar-nav a.nav-link {
-  color: black;
-}
 
 .headerImg {
   height: auto;
   margin-top: 75px;
 }
 
-div.dropdown-menu {
-  background-color: #ffb33e;
-  color: #d0d0d0;
-  border:none;
+/* Rearrange the top elements. */
+div.pageTopContainer > div {
+    flex-direction: column;
 }
 
-a.dropdown-item {
-  color: black;
+div.headerLogo {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+
+div.headerConferenceName {
+    order: 0;
+}
+
+div.headerInfo {
+  order: 1;
+  margin-top:20px;
+}
+
+div.headerInfo > h3 {
+    font-size: 1rem;
+    text-align: center;
+}
+
+div.pageTopContainer {
+    position: relative;
 }
 
 
-/***** Main Content: general styling *****/
+
+/***** Main Content: (e.g., h1-h6, a, text, etc) *****/
 .indPageTitle {
   color: #14ABE0;
 }
 
+/****** Main Content: cards & alerts *****/
 .customCard {
-    border: 1px solid rgba(203, 131, 30, 0.3);
-    background-color: #404040;
+  border: 1px solid rgba(203, 131, 30, 0.3);
+  background-color: #404040;
 }
 
 .customCardHeader {
@@ -112,35 +139,8 @@ a.dropdown-item {
 }
 
 .customCardFooter {
-  /* NOTE: typically this is a more transparent version of the card header bg color */
-    background-color: #505050;
-    color: #d0d0d0;
-}
-
-/* Rearrange the top elements. */
-div.pageTopContainer > div {
-    flex-direction: column;
-}
-
-
-div.headerLogo {
-    position: absolute;
-    right: 30px;
-    top: 30px;
-}
-div.headerConferenceName {
-    order: 0;
-}
-div.headerInfo {
-  order: 1;
-  margin-top:20px;
-}
-div.headerInfo > h3 {
-    font-size: 1rem;
-    text-align: center;
-}
-div.pageTopContainer {
-    position: relative;
+  background-color: #505050;
+  color: #d0d0d0;
 }
 
 .subSubtitle {
@@ -160,4 +160,16 @@ div.pageTopContainer {
 .icon {
   /* thanks https://codepen.io/sosuke/pen/Pjoqqp for generating this filter (the first two properties set the icon to black first to achieve a truer color match) */
   filter: brightness(0) saturate(100%) invert(86%) sepia(16%) saturate(4330%) hue-rotate(328deg) brightness(93%) contrast(91%);
+}
+
+.homeSponsors {
+  margin-top: 1rem;
+  background-color: #505050;
+}
+
+/***** Footer *****/
+footer {
+  color: #14ABE0;
+  background-color: #202020;
+  padding: 20px;
 }
