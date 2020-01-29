@@ -250,11 +250,11 @@ combinations and layout of the menus. These are controlled in the file
 can change that to any file of the `styles/*_theme.css` files (or make your
 own). If you choose a different file, it will change the color scheme for the
 entire site. We recommend that you try a few to see what you prefer. There is a
-tool to view the different themes located at [this
+page to view the different themes located at [this
 page](https://iacr.org/tools/confdemo/). Some of the themes have a photograph or
-banner image at the top, but the next section has instructions to change that.
+banner image at the top, and the next section has instructions to change that.
 
-If you change to another theme, you may need to [disable the browser
+If you are trying out different themes, you may need to [disable the browser
 cache](https://en.wikipedia.org/wiki/Wikipedia:Bypass_your_cache) to see the
 change, because browsers ordinarily cache css and javascript files.  You might
 also try
@@ -266,12 +266,12 @@ ___
 
 ### Changing the header image
 
-Once you choose a color theme, you can also choose a header image for themes
+Once you choose a theme, you can also choose a header image for themes
 that have a banner across the top.  The header image is specified in the themes
 file mentioned in the previous section, as `.headerImg`. There are several
 default images located in the `images/banners/` directory. Each theme currently
 uses a different banner, but you can freely mix them by changing the
-`.headerImg` setting in the theme css file that you select.
+`background-image` in `.headerImg` of the theme file.
 
 If you want to remove the background image in the header, delete or
 comment out `.headerImg{background-size}`,
@@ -287,15 +287,17 @@ affect page load times.
 Some of the themes have a gradient effect overlaying the header image.  If you
 would like to remove the gradient effect independent of the header image, delete
 or comment out the background on .headerGradient in the relevant theme file.
+Be careful to make sure the conference name is still readable on top of
+the photo.
 
 ___
 
 ### Adding an update to the "Website Updates" panel on index.php
 
-As you make changes to the website, you should add a note for the return visitor
-in the home page. Look for the NOTE in `index.php` that says "Update this to add
+As you make changes to the website, you should update the "Website Updates" card
+in `index.php`.  Look for the NOTE in `index.php` that says "Update this to add
 a row" and copy the `div` that has the form
 ```
 <div class="customCardRow row">
 ```
-The edit the new row as desired.
+Then edit the new row as desired.
