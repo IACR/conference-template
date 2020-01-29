@@ -49,6 +49,13 @@ a.dropdown-item {
   flex-direction: column;
 }
 
+@media (min-width: 768px) {
+  #titlesLogoDiv {
+    /* compensates for padding that is necessary in other themes but not in teal */
+    padding-top: 3.5rem;
+  }
+}
+
 .headerTitle, .headerInfoTop, .headerInfoBottom {
   color: #2E3192;
 }
