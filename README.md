@@ -244,18 +244,20 @@ ___
 
 ### Changing the default colors
 
-The colors are set by including a css file in the `styles/` directory.
-This is controlled in the file `includes/head.php`, which by default
-includes `styles/orange_theme.css`. You can change that to any file of
-the `styles/*_theme.css` files (or make your own). This will change
-the color scheme for the entire site. We recommend that you try a few
-to see what you prefer. Each theme uses a different banner image, but
-the next section has instructions to change that.
+You can choose from several different "themes" that provide different color
+combinations and layout of the menus. These are controlled in the file
+`includes/head.php`, which by default includes `styles/orange_theme.css`. You
+can change that to any file of the `styles/*_theme.css` files (or make your
+own). If you choose a different file, it will change the color scheme for the
+entire site. We recommend that you try a few to see what you prefer. There is a
+tool to view the different themes located at [this
+page](https://iacr.org/tools/confdemo/). Some of the themes have a photograph or
+banner image at the top, but the next section has instructions to change that.
 
-You may need to [disable the browser
-cache](https://en.wikipedia.org/wiki/Wikipedia:Bypass_your_cache) to
-see the change, because browsers ordinarily cache css and javascript
-files.  You might also try
+If you change to another theme, you may need to [disable the browser
+cache](https://en.wikipedia.org/wiki/Wikipedia:Bypass_your_cache) to see the
+change, because browsers ordinarily cache css and javascript files.  You might
+also try
 [(chrome)](https://nicholasbering.ca/tools/2016/10/09/devtools-disable-caching/)
 or [(firefox)](https://support.mozilla.org/en-US/questions/1103414)
 instructions.
@@ -264,11 +266,11 @@ ___
 
 ### Changing the header image
 
-Once you choose a color theme, you can also choose a header image.
-The header image is specified in the themes file mentioned in the
-previous section, as `.headerImg`. There are several default images
-located in the `images/banners/` directory. Each theme currently uses
-a different banner, but you can freely mix them by changing the
+Once you choose a color theme, you can also choose a header image for themes
+that have a banner across the top.  The header image is specified in the themes
+file mentioned in the previous section, as `.headerImg`. There are several
+default images located in the `images/banners/` directory. Each theme currently
+uses a different banner, but you can freely mix them by changing the
 `.headerImg` setting in the theme css file that you select.
 
 If you want to remove the background image in the header, delete or
@@ -282,39 +284,18 @@ are .jpg, .png, .svg, or .gif. You should not use an animated gif, as
 this has the potential to be supremely annoying and/or negatively
 affect page load times.
 
-Removing the header image will not remove the gradient effect. If you
-would like to remove the gradient effect independent of the header
-image, delete or comment out the background on .headerGradient in
-`styles/theme.css`.
+Some of the themes have a gradient effect overlaying the header image.  If you
+would like to remove the gradient effect independent of the header image, delete
+or comment out the background on .headerGradient in the relevant theme file.
 
 ___
 
 ### Adding an update to the "Website Updates" panel on index.php
 
-#### IS THIS STILL RELEVANT?
-
-Look for the NOTE in `index.php` that says "add new website updates below this".
-Copy/paste the following:
+As you make changes to the website, you should add a note for the return visitor
+in the home page. Look for the NOTE in `index.php` that says "Update this to add
+a row" and copy the `div` that has the form
 ```
-<div class="row">
-  <div class="col-4">
-    <p class="dateTitle">
-      DATE OF UPDATE
-    </p>
-  </div>
-  <div class="col-8">
-    <p class="dateText">
-      TEXT OF UPDATE
-    </p>
-  </div>
-</div>
-<hr />
+<div class="customCardRow row">
 ```
-and edit as desired.
-
-# Advanced topics
-
-What were we going to put here?
-
-* How to use this on something other than iacr.org?
-* Updating using git.
+The edit the new row as desired.
