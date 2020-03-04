@@ -155,8 +155,8 @@
             <span class="editMe">
               <address class="text-center">
               Carmit Hazay<br>
-              Bar-Ilan University<br/>
-              Israel<br/>
+              Bar-Ilan University<br>
+              Israel<br>
               <tt>crypto2020workshopchair@gmail.com</tt>
               </address>
             </span>

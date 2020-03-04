@@ -121,7 +121,7 @@
             Important Professor #1
           </h4>
           <p class="text-center">
-            University of Peer Review<br/>
+            University of Peer Review<br>
             China
           </p>
         </aside>
@@ -130,7 +130,7 @@
             World-Famous Researcher
           </h4>
           <p class="text-center">
-            Institute for the Advancement of Causative Research<br/>
+            Institute for the Advancement of Causative Research<br>
             Singapore
           </p>
         </aside>
@@ -155,7 +155,7 @@
             SmartGuy McWriter
           </h4>
           <p class="text-center">
-            Synonym College<br/>
+            Synonym College<br>
             Romania
           </p>
         </aside>
@@ -164,7 +164,7 @@
             Ellis Papers
           </h4>
           <p class="text-center">
-            Society for Promotion of Encryption<br/>
+            Society for Promotion of Encryption<br>
             Senegal
           </p>
         </aside>
