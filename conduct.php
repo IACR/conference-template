@@ -18,11 +18,6 @@
       <h2 class="indPageTitle">
         Code of Conduct
       </h2>
-
-      <!-- NOTE: the following is required text for the code of
-      conduct. Any text that is inside <span class="editMe"> is
-      text that MUST be changed by the general chair or whoever is
-      responsible for the conference website -->
       <p>
         The IACR is committed to providing an experience free of
         harassment and discrimination in its events, respecting the
@@ -35,9 +30,8 @@
         the <a href="https://iacr.org/committees.html">Code-of-Conduct
         Liaison</a>, <a href="./contact.html">General Chair(s)</a>,
         any member of the <a href="ethics-committee@iacr.org">Ethics
-        Committee</a>,
-        the <a href="https://iacr.org/bod.html">President</a> <span class="editMe">***and
-        others relevant to event***</span>.
+        Committee</a> and
+        the <a href="https://iacr.org/bod.html">President</a>.
       </p>
       <p>
         Participants who violate this code may be sanctioned and/or
@@ -45,8 +39,7 @@
         Chair(s). Serious incidents may be referred to the Ethics
         Committee for further possible action. Any action will only be
         taken with the consent of the complaining
-        party <span class="editMe">***subject to applicable
-        laws***</span>.
+        party. Local laws apply.
       </p>
       <p>
         If you witness harassment or discriminatory behavior, please consider intervening.

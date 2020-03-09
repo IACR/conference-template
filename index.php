@@ -22,11 +22,16 @@
     <div class="row mb-2">
       <article class="col-12">
         <p>
-          <span class="long_conf"><?php echo $META['shortName'];?></span> will take place in
+          <span class="long_conf"><?php echo $META['shortName'];?></span> ,
+          the 26th Annual International Conference on the Theory and Application of Cryptology and Information Security,
+          will take place in
+          <a href="http://www.dcckorea.or.kr/"> Daejeon Convention Center</a>,
           <span class="conf_location"><?php echo $META['city'] . ', ' . $META['country'];?></span>
           on <span class="conf_dates"><?php echo $META['dates'];?></span>.
           <span class="conf_name"><?php echo $META['shortName'];?></span> is organized by
-          <a href="http://iacr.org/">the International Association for Cryptologic Research</a> (IACR).
+          <a href="http://iacr.org/">the International Association for Cryptologic Research</a> (IACR) in cooperation with
+          <a href="https://www.kaist.ac.kr/en/"> Korea Advanced Institute of Science and Technology </a> (KAIST).
+          <!-- and <a href=""> Korea Institute of Information Security and Cryptology </a> (KIISC). -->
         </p>
         <p class="editMe">
           Please visit the <a href="./callforpapers.php">call for papers</a> page while we work on
@@ -67,14 +72,14 @@
     </div>
 
     <h3 class="pageSubtitle mt-4">
-      Example Sponsors
+      Sponsors
     </h3>
     <div class="homeSponsors">
-      <a href="http://kaymckelly.com/">
-        <img src="./images/demo/examplesponsor1.png" alt="black and white vector graphic of an elephant" class="sponsorLogo firstLogo" />
+      <a href="http://www.dcckorea.or.kr/">
+        <img src="./images/sponsors/dime.png" alt="black and white vector graphic of an elephant" class="sponsorLogo firstLogo" />
       </a>
       <a href="http://kaymckelly.com/">
-        <img src="./images/demo/examplesponsor2.png" alt="deep blue vector graphic of a map pin with a piece missing from the circle at the top" class="sponsorLogo" />
+        <img src="./images/sponsors/daejeon.jpeg" alt="deep blue vector graphic of a map pin with a piece missing from the circle at the top" class="sponsorLogo" />
       </a>
     </div>
 

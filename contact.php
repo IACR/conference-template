@@ -29,36 +29,27 @@
       </div> -->
 
       <h3 class="pageSubtitle text-center mt-4">
-        General Co-Chairs
+        General Chair
       </h3>
 
-      <div class="row mt-3 mt-md-4">
-        <aside class="col-12 col-sm-6 text-center mb-2">
+      <div class="row">
+        <aside class="col-12 text-center mt-3 mb-2">
           <h4 class="subSubtitle">
-            Important Professor #1
+            Kwangjo Kim
           </h4>
           <p class="text-center">
-            University of Peer Review<br>
-            China
-          </p>
-        </aside>
-        <aside class="col-12 col-sm-6 text-center mb-2">
-          <h4 class="subSubtitle">
-            World-Famous Researcher
-          </h4>
-          <p class="text-center">
-            Institute for the Advancement of Causative Research<br>
-            Singapore
+            KAIST<br>
+            Korea
           </p>
         </aside>
       </div>
 
       <div class="row">
         <div class="col-12 text-center mb-5">
-          <a href="mailto:doNotEmailMe@fakeDomain.com">
+          <a href="mailto:asiacrypt2020@iacr.org">
             <img src="images/icons/email.svg" class="icon" />
           </a>&nbsp;
-          doNotEmailMe@fakeDomain.com
+          asiacrypt2020@iacr.org
         </div>
       </div>
 
@@ -69,30 +60,30 @@
       <div class="row mt-3 mt-md-4">
         <aside class="col-12 col-sm-6 text-center mb-2">
           <h4 class="subSubtitle">
-            SmartGuy McWriter
+            Shiho Moriai
           </h4>
           <p class="text-center">
-            Synonym College<br>
-            Romania
+            NICT<br>
+            Japan
           </p>
         </aside>
         <aside class="col-12 col-sm-6 text-center mb-2">
           <h4 class="subSubtitle">
-            Ellis Papers
+            Huaxiong Wang
           </h4>
           <p class="text-center">
-            Society for Promotion of Encryption<br>
-            Senegal
+            Nanyang Technological University<br>
+            Singapore
           </p>
         </aside>
       </div>
 
       <div class="row">
         <div class="col-12 text-center">
-          <a href="mailto:reallyDoNotEmailMe@fakeDomain.com">
+          <a href="mailto:asiacrypt2020programchairs@iacr.org">
             <img src="images/icons/email.svg" class="icon" />
           </a>&nbsp;
-          reallyDoNotEmailMe@fakeDomain.com
+          asiacrypt2020programchairs@iacr.org
         </div>
       </div>
 
