@@ -9,7 +9,7 @@
     },
     {
       "name": "Gorjan Alagic",
-      "affiliation": "UMD, USA",
+      "affiliation": "University of Maryland, USA",
       "lastname": "Alagic",
       "id": 10275
     },
@@ -21,7 +21,7 @@
     },
     {
       "name": "Zhenzhen Bao",
-      "affiliation": "NTU, Singapore",
+      "affiliation": "Nanyang Technological University, Singapore",
       "lastname": "Bao",
       "id": 9045
     },
@@ -38,7 +38,7 @@
     },
     {
       "name": "Amos Beimel",
-      "affiliation": "Ben-Gurion University",
+      "affiliation": "Ben-Gurion University, Israel",
       "lastname": "Beimel",
       "id": 1235
     },
@@ -50,13 +50,13 @@
     },
     {
       "name": "Olivier Blazy",
-      "affiliation": "UniversitÃ© de Limoges",
+      "affiliation": "University de Limoges",
       "lastname": "Blazy",
       "id": 7133
     },
     {
       "name": "Jie Chen",
-      "affiliation": "East China Normal University, CN",
+      "affiliation": "East China Normal University, China",
       "lastname": "Chen",
       "id": 7985
     },
@@ -98,7 +98,7 @@
     },
     {
       "name": "Xinyi Huang",
-      "affiliation": "Fujian Normal University, CN",
+      "affiliation": "Fujian Normal University, China",
       "lastname": "Huang",
       "id": 3223
     },
@@ -116,7 +116,7 @@
     },
     {
       "name": "David Jao",
-      "affiliation": "University of Waterloo and evolutionQ, Inc.",
+      "affiliation": "University of Waterloo and evolutionQ, Inc., Canada",
       "lastname": "Jao",
       "id": 330
     },
@@ -138,14 +138,14 @@
       "id": 4003
     },
     {
-      "name": "Benoît Libert",
-      "affiliation": "CNRS and ENS de Lyon, FR",
+      "name": "Benoit Libert",
+      "affiliation": "CNRS and ENS de Lyon, France",
       "lastname": "Libert",
       "id": 163
     },
     {
       "name": "Dongdai Lin",
-      "affiliation": "Chinese Academy of Sciences, CN",
+      "affiliation": "Chinese Academy of Sciences, China",
       "lastname": "Lin",
       "id": 1974
     },
@@ -252,16 +252,16 @@
       "id": 16
     },
     {
-      "name": "Ling Ren",
-      "affiliation": "VMware Research ; University of Illinois, Urbana-Champaign, USA",
-      "lastname": "Ren",
-      "id": 8700
-    },
-    {
       "name": "Carla Ràfols",
       "affiliation": "Universitat Pompeu Fabra, Spain",
       "lastname": "Ràfols",
       "id": 10453
+    },
+    {
+      "name": "Ling Ren",
+      "affiliation": "VMware Research/University of Illinois, Urbana-Champaign, USA",
+      "lastname": "Ren",
+      "id": 8700
     },
     {
       "name": "Rei Safavi-Naini",
@@ -281,7 +281,7 @@
     },
     {
       "name": "Willy Susilo",
-      "affiliation": "University of Wollongong",
+      "affiliation": "University of Wollongong, Australia",
       "lastname": "Susilo",
       "id": 139
     },
@@ -293,13 +293,13 @@
     },
     {
       "name": "Mehdi Tibouchi",
-      "affiliation": "NTT Laboratories, Japan",
+      "affiliation": "NTT laboratories, Japan",
       "lastname": "Tibouchi",
       "id": 6079
     },
     {
       "name": "Huaxiong Wang",
-      "affiliation": "Nanyang Technological University, SG",
+      "affiliation": "Nanyang Technological University, Singapore",
       "lastname": "Wang",
       "id": 555
     },
@@ -311,7 +311,7 @@
     },
     {
       "name": "Yongge Wang",
-      "affiliation": "University of North Carolina at Charlotte",
+      "affiliation": "University of North Carolina at Charlotte, USA",
       "lastname": "Wang",
       "id": 265
     },

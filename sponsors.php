@@ -27,109 +27,24 @@
         </section>
       </div>
 
-      <!-- NOTE: below is placeholder content. please uncomment and replace with your own content when ready. make sure to verify that all included sponsors are current, with appropriate links. -->
-      <!-- <h3 class="pageSubtitle mt-4">
-        Platinum Level
-      </h3>
-
       <div class="d-flex flex-wrap align-items-center sponsorRows">
         <div class="sponsorLogoBox justify-content-between">
-          <a href="http://kaymckelly.com">
-            <img src="./images/sponsors/ethereumFoundation.png" alt="Ethereum Foundation" title="Ethereum Foundation" class="sponsorPageLogo">
+          <a href="https://www.kaist.ac.kr/en/">
+            <img src="./images/sponsors/kaist.png" alt="KAIST" title="KAIST" class="sponsorPageLogo" />
           </a>
         </div>
         <div class="sponsorLogoBox justify-content-between">
-          <a href="http://kaymckelly.com">
-            <img src="./images/sponsors/AWS.png" alt="AWS" title="AWS" class="sponsorPageLogo">
+          <a href="http://www.dime.or.kr/">
+            <img src="./images/sponsors/dime.png" alt="DIME" title="DIME" class="sponsorPageLogo" />
           </a>
         </div>
+        <div class="sponsorLogoBox justify-content-between">
+          <a href="https://www.etri.re.kr/eng/main/main.etri">
+            <img src="./images/sponsors/etri.png" alt="ETRI" title="ETRI" class="sponsorPageLogo" />
+          </a>
+        </div>
+        
       </div>
-
-      <hr />
-      <h3 class="pageSubtitle mt-4">
-        Gold Level
-      </h3>
-
-      <div class="d-flex flex-wrap align-items-center sponsorRows">
-        <div class="sponsorLogoBox justify-content-between">
-          <a href="http://kaymckelly.com">
-            <img src="./images/sponsors/cloudFlare.png" alt="Cloudflare" title="Cloudflare" class="sponsorPageLogo">
-          </a>
-        </div>
-        <div class="sponsorLogoBox justify-content-between">
-          <a href="http://kaymckelly.com">
-            <img src="./images/sponsors/inpher.png" alt="Inpher" title="Inpher" class="sponsorPageLogo">
-          </a>
-        </div>
-        <div class="sponsorLogoBox justify-content-between">
-          <a href="http://kaymckelly.com">
-            <img src="./images/sponsors/google.png" alt="Google" title="Google" class="sponsorPageLogo">
-          </a>
-        </div>
-        <div class="sponsorLogoBox justify-content-between">
-          <a href="http://kaymckelly.com">
-            <img src="./images/sponsors/jPMorgan.jpg" alt="JPMorgan" title="JPMorgan" class="sponsorPageLogo">
-          </a>
-        </div>
-        <div class="sponsorLogoBox justify-content-between">
-          <a href="http://kaymckelly.com">
-            <img src="./images/sponsors/nsf.gif" alt="National Science Foundation" title="National Science Foundation" class="sponsorPageLogo">
-          </a>
-        </div>
-      </div>
-
-      <hr />
-      <h3 class="pageSubtitle mt-4">
-        Silver Level
-      </h3>
-
-      <div class="d-flex flex-wrap align-items-center sponsorRows">
-        <div class="sponsorLogoBox justify-content-between">
-          <a href="http://kaymckelly.com">
-            <img src="./images/sponsors/nucypher.png" alt="NuCypher" title="NuCypher" class="sponsorPageLogo">
-          </a>
-        </div>
-        <div class="sponsorLogoBox justify-content-between">
-          <a href="http://kaymckelly.com">
-            <img src="./images/sponsors/QEDit.png" alt="QED-it" title="QED-it" class="sponsorPageLogo">
-          </a>
-        </div>
-        <div class="sponsorLogoBox justify-content-between">
-          <a href="http://kaymckelly.com">
-            <img src="./images/sponsors/mozilla.png" alt="Mozilla" title="Mozilla" class="sponsorPageLogo">
-          </a>
-        </div>
-        <div class="sponsorLogoBox justify-content-between">
-          <a href="http://kaymckelly.com">
-            <img src="./images/sponsors/iotex.png" alt="IoTeX" title="IoTeX" class="sponsorPageLogo">
-          </a>
-        </div>
-        <div class="sponsorLogoBox justify-content-between">
-          <a href="http://kaymckelly.com">
-            <img src="./images/sponsors/ibm.png" alt="IBM" title="IBM" class="sponsorPageLogo">
-          </a>
-        </div>
-        <div class="sponsorLogoBox justify-content-between">
-          <a href="http://kaymckelly.com">
-            <img src="./images/sponsors/auditchain.png" alt="Auditchain" title="Auditchain" class="sponsorPageLogo">
-          </a>
-        </div>
-        <div class="sponsorLogoBox justify-content-between">
-          <a href="http://kaymckelly.com">
-            <img src="./images/sponsors/protocolLabs.png" alt="Protocol Labs" title="Protocol Labs" class="sponsorPageLogo">
-          </a>
-        </div>
-        <div class="sponsorLogoBox justify-content-between">
-          <a href="http://kaymckelly.com">
-            <img src="./images/sponsors/poa.jpg" alt="POA" title="POA" class="sponsorPageLogo">
-          </a>
-        </div>
-        <div class="sponsorLogoBox justify-content-between">
-          <a href="http://kaymckelly.com">
-            <img src="./images/sponsors/iohk.png" alt="IOHK" title="IOHK" class="sponsorPageLogo">
-          </a>
-        </div>
-      </div> -->
     </main>
     <?php include "includes/footer.php"; ?>
   </body>

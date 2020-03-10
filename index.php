@@ -27,8 +27,7 @@
           <span class="conf_location"><?php echo $META['city'] . ', ' . $META['country'];?></span>
           on <span class="conf_dates"><?php echo $META['dates'];?></span>.
           <span class="conf_name"><?php echo $META['shortName'];?></span> is organized by
-          <a href="http://iacr.org/">the International Association for Cryptologic Research</a> (IACR) in cooperation with
-          <a href="https://www.kaist.ac.kr/en/"> Korea Advanced Institute of Science and Technology </a> (KAIST).
+          <a href="http://iacr.org/">the International Association for Cryptologic Research</a> (IACR).
           <!-- and <a href=""> Korea Institute of Information Security and Cryptology </a> (KIISC). -->
         </p>
       </article>
@@ -63,18 +62,6 @@
           </div>
         </article>
       </div>
-    </div>
-
-    <h3 class="pageSubtitle mt-4">
-      Sponsors
-    </h3>
-    <div class="homeSponsors">
-      <a href="http://www.dcckorea.or.kr/">
-        <img src="./images/sponsors/dime.png" alt="black and white vector graphic of an elephant" class="sponsorLogo firstLogo" />
-      </a>
-      <a href="http://kaymckelly.com/">
-        <img src="./images/sponsors/daejeon.jpeg" alt="deep blue vector graphic of a map pin with a piece missing from the circle at the top" class="sponsorLogo" />
-      </a>
     </div>
 
   </main>

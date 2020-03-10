@@ -54,8 +54,24 @@
             Code-of-Conduct Liaison
           </h4>
           <p class="text-left">
-            <a href="https://iacr.org/committees.html">
-              <span class="editMe">***Name and contact information here***</span></a>
+            Tal Rabin (
+            <a href="mailto:conduct@iacr.org">
+              conduct@iacr.org
+            </a>
+            )
+          </p>
+        </aside>
+
+        <aside class="col-sm-4">
+          <h4 class="subSubtitle">
+            General Chair
+          </h4>
+          <p class="text-left">
+            Kwangjo Kim (
+            <a href="mailto:asiacrypt2020@iacr.org">
+              asiacrypt2020@iacr.org
+            </a>
+            )
           </p>
         </aside>
 
@@ -64,9 +80,11 @@
             Ethics Committee
           </h4>
           <p class="text-left">
-            <a href="https://iacr.org/committees.html">
-              <span class="editMe">***Name and contact information here***</span>
+            Shai Halevi (
+            <a href="mailto:ethics-committee@iacr.org">
+              ethics-committee@iacr.org
             </a>
+            )
           </p>
         </aside>
 
@@ -75,9 +93,11 @@
             IACR President
           </h4>
           <p class="text-left">
-            <a href="https://iacr.org/bod.html">
-              <span class="editMe">***Name and contact information here***</span>
+            Michel Abdalla (
+            <a href="mailto:president@iacr.org">
+              president@iacr.org
             </a>
+            )
           </p>
         </aside>
       </div>

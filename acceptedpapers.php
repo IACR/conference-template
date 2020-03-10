@@ -21,8 +21,7 @@
 
     <!-- NOTE: if json/papers.json exists, then this will be hidden. -->
     <p id="notYetAvailable">
-      This information is not yet available. This information will be available after authors are notified, which should
-      occur by <?php echo $META['finalNotification'];?>. Thank you for your patience.
+      This information is not yet available. Thank you for your patience.
     </p>
     <!-- NOTE: if json/papers.json is malformed, then this will be shown. -->
     <p id="jsonWarning" class="text-danger d-none">
