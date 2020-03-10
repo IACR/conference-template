@@ -60,7 +60,7 @@
         Travel & Venue Information
       </h2>
 
-      <!-- NOTE: below is standard placeholder text for when the page is under construction. 
+      <!-- NOTE: below is standard placeholder text for when the page is under construction.
            please delete this paragram when you add other content. -->
       <p>
         This information is not yet available. Thank you for your patience.
@@ -69,7 +69,7 @@
       <!-- NOTE: below is placeholder content derived from the Crypto
            2019 conference. please uncomment and replace with your own
            content when ready. this code is here to give you an idea of
-           what the structure of this page has looked like in the past -->
+           what the structure of this page has looked like in the past
       <div class="row">
         <section class="col-md-8">
           <p class="editMe">
@@ -84,19 +84,20 @@
             Francisco.
           </p>
         </section>
-
+        -->
+        <!--
         <div class="col-md-4">
           <div class="alert alert-success" role="alert">
             <img src="images/icons/exclamation.svg" class="icon" />&emsp;
-            <!-- this could be a warning that hotels book up fast in the season -->
+             this could be a warning that hotels book up fast in the season
             <span class="editMe">Bring a sweater and/or jacket. Santa Barbara
               can be cold at night. (This is crucial for the beach party!)</span>
           </div>
         </div>
       </div>
-
       <div id="venuemap">
       </div>
+      -->
 
       <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
            This is content from a past Crypto that shows how the formatting should work.

@@ -1,0 +1,331 @@
+{
+  "_source": "https://www.iacr.org/cryptodb/pc",
+  "committee": [
+    {
+      "name": "Shweta Agrawal",
+      "affiliation": "IIT Madras, India",
+      "lastname": "Agrawal",
+      "id": 6265
+    },
+    {
+      "name": "Gorjan Alagic",
+      "affiliation": "UMD, USA",
+      "lastname": "Alagic",
+      "id": 10275
+    },
+    {
+      "name": "Shi Bai",
+      "affiliation": "Florida Atlantic University, USA",
+      "lastname": "Bai",
+      "id": 8765
+    },
+    {
+      "name": "Zhenzhen Bao",
+      "affiliation": "NTU, Singapore",
+      "lastname": "Bao",
+      "id": 9045
+    },
+    {
+      "name": "Paulo Barreto",
+      "affiliation": "UW Tacoma, USA",
+      "lastname": "Barreto"
+    },
+    {
+      "name": "Lejla Batina",
+      "affiliation": "Radboud University, Netherlands",
+      "lastname": "Batina",
+      "id": 768
+    },
+    {
+      "name": "Amos Beimel",
+      "affiliation": "Ben-Gurion University",
+      "lastname": "Beimel",
+      "id": 1235
+    },
+    {
+      "name": "Sonia Belaïd",
+      "affiliation": "CryptoExperts, France",
+      "lastname": "Belaïd",
+      "id": 8291
+    },
+    {
+      "name": "Olivier Blazy",
+      "affiliation": "UniversitÃ© de Limoges",
+      "lastname": "Blazy",
+      "id": 7133
+    },
+    {
+      "name": "Jie Chen",
+      "affiliation": "East China Normal University, CN",
+      "lastname": "Chen",
+      "id": 7985
+    },
+    {
+      "name": "Yilei Chen",
+      "affiliation": "Visa Research, USA",
+      "lastname": "Chen",
+      "id": 9689
+    },
+    {
+      "name": "Chen-Mou Cheng",
+      "affiliation": "Osaka University, Japan",
+      "lastname": "Cheng",
+      "id": 4020
+    },
+    {
+      "name": "Jun Furukawa",
+      "affiliation": "NEC Israel Research Center, Israel",
+      "lastname": "Furukawa",
+      "id": 124
+    },
+    {
+      "name": "David Galindo",
+      "affiliation": "University of Birmingham and Fetch AI, UK",
+      "lastname": "Galindo",
+      "id": 301
+    },
+    {
+      "name": "Jian Guo",
+      "affiliation": "Nanyang Technological University, Singapore",
+      "lastname": "Guo",
+      "id": 4064
+    },
+    {
+      "name": "Swee-Huay Heng",
+      "affiliation": "Multimedia University, Malaysia",
+      "lastname": "Heng",
+      "id": 1963
+    },
+    {
+      "name": "Xinyi Huang",
+      "affiliation": "Fujian Normal University, CN",
+      "lastname": "Huang",
+      "id": 3223
+    },
+    {
+      "name": "Andreas Hülsing",
+      "affiliation": "TU Eindhoven, Netherlands",
+      "lastname": "Hülsing",
+      "id": 8998
+    },
+    {
+      "name": "Takanori Isobe",
+      "affiliation": "University of Hyogo, Japan",
+      "lastname": "Isobe",
+      "id": 6087
+    },
+    {
+      "name": "David Jao",
+      "affiliation": "University of Waterloo and evolutionQ, Inc.",
+      "lastname": "Jao",
+      "id": 330
+    },
+    {
+      "name": "Zhengfeng Ji",
+      "affiliation": "University of Technology Sydney, Australia",
+      "lastname": "Ji",
+      "id": 10623
+    },
+    {
+      "name": "Hyungtae Lee",
+      "affiliation": "Jeonbuk National University, Korea",
+      "lastname": "Lee"
+    },
+    {
+      "name": "Jooyoung Lee",
+      "affiliation": "KAIST, Korea",
+      "lastname": "Lee",
+      "id": 4003
+    },
+    {
+      "name": "Benoît Libert",
+      "affiliation": "CNRS and ENS de Lyon, FR",
+      "lastname": "Libert",
+      "id": 163
+    },
+    {
+      "name": "Dongdai Lin",
+      "affiliation": "Chinese Academy of Sciences, CN",
+      "lastname": "Lin",
+      "id": 1974
+    },
+    {
+      "name": "Helger Lipmaa",
+      "affiliation": "University of Tartu, Estonia ; Simula UiB, Norway",
+      "lastname": "Lipmaa",
+      "id": 487
+    },
+    {
+      "name": "Feng-Hao Liu",
+      "affiliation": "Florida Atlantic University, USA",
+      "lastname": "Liu",
+      "id": 6181
+    },
+    {
+      "name": "Giorgia Azzurra Marson",
+      "affiliation": "University of Bern, Switzerland/NEC Laboratories Europe, Germany",
+      "lastname": "Marson",
+      "id": 8505
+    },
+    {
+      "name": "Daniel Masny",
+      "affiliation": "Visa Research, USA",
+      "lastname": "Masny",
+      "id": 8002
+    },
+    {
+      "name": "Takahiro Matsuda",
+      "affiliation": "AIST, Japan",
+      "lastname": "Matsuda",
+      "id": 7522
+    },
+    {
+      "name": "Brice Minaud",
+      "affiliation": "Inria and ENS, France",
+      "lastname": "Minaud",
+      "id": 9267
+    },
+    {
+      "name": "Shiho Moriai",
+      "affiliation": "NICT, Japan",
+      "lastname": "Moriai",
+      "id": 552
+    },
+    {
+      "name": "Kartik Nayak",
+      "affiliation": "Duke University/VMware Research, USA",
+      "lastname": "Nayak",
+      "id": 8885
+    },
+    {
+      "name": "Khoa Nguyen",
+      "affiliation": "Nanyang Technological University, Singapore",
+      "lastname": "Nguyen",
+      "id": 7913
+    },
+    {
+      "name": "Svetla Nikova",
+      "affiliation": "KU Leuven, Belgium",
+      "lastname": "Nikova",
+      "id": 462
+    },
+    {
+      "name": "Carles Padró",
+      "affiliation": "UPC, Spain",
+      "lastname": "Padró",
+      "id": 2620
+    },
+    {
+      "name": "Jiaxin Pan",
+      "affiliation": "NTNU, Norway",
+      "lastname": "Pan",
+      "id": 8433
+    },
+    {
+      "name": "Arpita Patra",
+      "affiliation": "Indian Institute of Science, India",
+      "lastname": "Patra",
+      "id": 4499
+    },
+    {
+      "name": "Thomas Peters",
+      "affiliation": "UCL, Belgium",
+      "lastname": "Peters",
+      "id": 7766
+    },
+    {
+      "name": "Duong Hieu Phan",
+      "affiliation": "University of Limoges, France",
+      "lastname": "Phan",
+      "id": 521
+    },
+    {
+      "name": "Raphael C.-W. Phan",
+      "affiliation": "Monash University, Malaysia",
+      "lastname": "Phan",
+      "id": 4665
+    },
+    {
+      "name": "Josef Pieprzyk",
+      "affiliation": "CSIRO, Australia",
+      "lastname": "Pieprzyk",
+      "id": 16
+    },
+    {
+      "name": "Ling Ren",
+      "affiliation": "VMware Research ; University of Illinois, Urbana-Champaign, USA",
+      "lastname": "Ren",
+      "id": 8700
+    },
+    {
+      "name": "Carla Ràfols",
+      "affiliation": "Universitat Pompeu Fabra, Spain",
+      "lastname": "Ràfols",
+      "id": 10453
+    },
+    {
+      "name": "Rei Safavi-Naini",
+      "affiliation": "University of Calgary, Canada",
+      "lastname": "Safavi-Naini"
+    },
+    {
+      "name": "Yu Sasaki",
+      "affiliation": "NTT laboratories, Japan",
+      "lastname": "Sasaki",
+      "id": 560
+    },
+    {
+      "name": "Jaehong Seo",
+      "affiliation": "Hanyang University, Korea",
+      "lastname": "Seo"
+    },
+    {
+      "name": "Willy Susilo",
+      "affiliation": "University of Wollongong",
+      "lastname": "Susilo",
+      "id": 139
+    },
+    {
+      "name": "Qiang Tang",
+      "affiliation": "New Jersey Institute of Technology, USA",
+      "lastname": "Tang",
+      "id": 3122
+    },
+    {
+      "name": "Mehdi Tibouchi",
+      "affiliation": "NTT Laboratories, Japan",
+      "lastname": "Tibouchi",
+      "id": 6079
+    },
+    {
+      "name": "Huaxiong Wang",
+      "affiliation": "Nanyang Technological University, SG",
+      "lastname": "Wang",
+      "id": 555
+    },
+    {
+      "name": "Xiaoyun Wang",
+      "affiliation": "Tsinghua University, China",
+      "lastname": "Wang",
+      "id": 1656
+    },
+    {
+      "name": "Yongge Wang",
+      "affiliation": "University of North Carolina at Charlotte",
+      "lastname": "Wang",
+      "id": 265
+    },
+    {
+      "name": "Chaoping Xing",
+      "affiliation": "Shanghai Jiaotong University, China and NTU, Singapore",
+      "lastname": "Xing",
+      "id": 674
+    },
+    {
+      "name": "Yu Yu",
+      "affiliation": "Shanghai Jiaotong University, China",
+      "lastname": "Yu",
+      "id": 7562
+    }
+  ]
+}

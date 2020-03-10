@@ -27,7 +27,7 @@
         This information is not yet available. Thank you for your patience.
       </p>
 
-      <!-- NOTE: below is placeholder content derived from a past conference. -->
+      <!-- NOTE: below is placeholder content derived from a past conference.
 
       <p class="alert alert-info">
         <img src="images/icons/exclamation.svg" class="icon" />
@@ -40,7 +40,7 @@
         for some individuals in the past. An interview at a consulate
         may also be required.
       </p>
-      
+
       <h3 class="pageSubtitle mt-4">
         Invitation Letters
       </h3>
@@ -74,7 +74,7 @@
         $META['shortName'];?></span> and help us make the conference a
         great success.
       </p>
-
+       -->
     </main>
 
     <?php include "includes/footer.php"; ?>

@@ -22,20 +22,14 @@
     <div class="row mb-2">
       <article class="col-12">
         <p>
-          <span class="long_conf"><?php echo $META['shortName'];?></span> ,
-          the 26th Annual International Conference on the Theory and Application of Cryptology and Information Security,
-          will take place in
-          <a href="http://www.dcckorea.or.kr/"> Daejeon Convention Center</a>,
+          <span class="long_conf"><?php echo $META['shortName'];?></span>, the <span class="long_conf"><?php echo $META['name'];?></span>,
+          will take place in <a href="http://www.dcckorea.or.kr/">Daejeon Convention Center</a>,
           <span class="conf_location"><?php echo $META['city'] . ', ' . $META['country'];?></span>
           on <span class="conf_dates"><?php echo $META['dates'];?></span>.
           <span class="conf_name"><?php echo $META['shortName'];?></span> is organized by
           <a href="http://iacr.org/">the International Association for Cryptologic Research</a> (IACR) in cooperation with
           <a href="https://www.kaist.ac.kr/en/"> Korea Advanced Institute of Science and Technology </a> (KAIST).
           <!-- and <a href=""> Korea Institute of Information Security and Cryptology </a> (KIISC). -->
-        </p>
-        <p class="editMe">
-          Please visit the <a href="./callforpapers.php">call for papers</a> page while we work on
-          adding more information to our other pages. Thank you for your patience.
         </p>
       </article>
     </div>

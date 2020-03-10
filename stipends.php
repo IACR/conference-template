@@ -17,11 +17,13 @@
 
     <main class="container p-4">
       <h2 class="indPageTitle">
-        Student Stipends
+        Stipends
       </h2>
 
-
-      <!-- NOTE: see the general chair guidelines, section 7.5. -->
+      <p>
+        This information is not yet available. Thank you for your patience.
+      </p>
+      <!-- NOTE: see the general chair guidelines, section 7.5.
       <p>
         The Cryptography Research Fund allows us to waive the
         registration fee for all student presenters of an accepted
@@ -34,7 +36,7 @@
         the <a href="./contact.php">General Chair</a>
         <span class="editMe">before the late registration deadline</span>.
       </p>
-
+      -->
     </main>
 
     <?php include "includes/footer.php"; ?>
