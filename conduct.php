@@ -28,8 +28,8 @@
         IACR event, we encourage you to reach out to someone who could
         help. The following are available to you:
         the <a href="https://iacr.org/committees.html">Code-of-Conduct
-        Liaison</a>, <a href="./contact.html">General Chair(s)</a>,
-        any member of the <a href="ethics-committee@iacr.org">Ethics
+        Liaison</a>, <a href="./contact.php">General Chair(s)</a>,
+        any member of the <a href="https://iacr.org/committees.html">Ethics
         Committee</a> and
         the <a href="https://iacr.org/bod.html">President</a>.
       </p>
