@@ -46,6 +46,14 @@
           </h4>
           <div class="customCardRow row">
             <h6 class="dateTitle col-5 col-md-4">
+              March 21, 2020
+            </h6>
+            <p class="col-7 col-md-8">
+              CFP updated
+            </p>
+          </div>
+          <div class="customCardRow row">
+            <h6 class="dateTitle col-5 col-md-4">
               March 10, 2020
             </h6>
             <p class="col-7 col-md-8">

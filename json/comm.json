@@ -121,6 +121,12 @@
       "id": 330
     },
     {
+      "name": "Jérémy Jean",
+      "affiliation": "ANSSI, France",
+      "lastname": "Jean",
+      "id": 7900
+    },
+    {
       "name": "Zhengfeng Ji",
       "affiliation": "University of Technology Sydney, Australia",
       "lastname": "Ji",
@@ -280,6 +286,12 @@
       "lastname": "Seo"
     },
     {
+      "name": "Ron Steinfeld",
+      "affiliation": "Monash University, Australia",
+      "lastname": "Steinfeld",
+      "id": 616
+    },
+    {
       "name": "Willy Susilo",
       "affiliation": "University of Wollongong, Australia",
       "lastname": "Susilo",
@@ -326,6 +338,12 @@
       "affiliation": "Shanghai Jiaotong University, China",
       "lastname": "Yu",
       "id": 7562
+    },
+    {
+      "name": "Mark Zhandry",
+      "affiliation": "Princeton University, USA",
+      "lastname": "Zhandry",
+      "id": 7700
     }
   ]
 }
