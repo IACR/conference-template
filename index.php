@@ -32,6 +32,7 @@
           Please visit the <a href="./callforpapers.php">call for papers</a> page while we work on
           adding more information to our other pages. Thank you for your patience.
         </p>
+        <!-- TODO: place countdown timer to next session here perhaps? -->
       </article>
     </div>
 

@@ -16,15 +16,16 @@
 
     <main class="container p-4">
 
-      <!-- NOTE: below is standard placeholder text for when the page is under construction. please delete this entire <div class="row"> when ready to add other content -->
       <h2 class="indPageTitle">
-        New Page Title
+        Participation Guidelines
       </h2>
       <div class="row">
         <div class="col-12">
           <p>
             This information is not yet available. Thank you for your patience.
           </p>
+
+          <!-- TODO: this page needs info like links to webinars, how to navigate between sessions, etc -->
         </div>
       </div>
 

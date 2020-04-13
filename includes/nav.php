@@ -56,7 +56,7 @@
                 <a class="dropdown-item" href="<?php echo rootPath() . 'registration.php' ?>">Registration</a>
                 <!-- TODO: might remove in future -->
                 <!-- <a class="dropdown-item" href="<?php echo rootPath() . 'stipends.php' ?>">Student stipends</a> -->
-                <a class="dropdown-item" href="<?php echo rootPath() . 'participation.php' ?>">Participation Guidelines</a>
+                <a class="dropdown-item" href="<?php echo rootPath() . 'participation.php' ?>">Participation guidelines</a>
                 <a class="dropdown-item" href="<?php echo rootPath() . 'conduct.php' ?>">Code of conduct</a>
               </div>
             </li>
