@@ -94,11 +94,18 @@
           Chromium (not officially supported by Zoom, but the IACR has tested it and it appears to work similarly to Chrome)
         </li>
       </ul>
-      <small>
-        <sup>*</sup> Please note that if you use Safari, Firefox, or Internet Explorer, you will not be able to ask a question using your computer audio. You can still ask questions using the text Q&A feature.
-      </small>
+      <p>
+        <small><sup>*</sup> Please note that if you use Safari, Firefox, or Internet Explorer, you will not be able to ask a question using your computer audio. You can still ask questions using the text Q&A feature.</small>
+      </p>
       <p>
         If you wish to use the desktop client, it is available for Linux, Mac, and Windows.
+      </p>
+
+      <h4 class="subSubtitle">
+        Do I need a Zoom account?
+      </h4>
+      <p>
+        We offer entrance to our webinars for both attendees with Zoom accounts and those without. When you log in via the browser client, Zoom will ask for an email. This does not have to be a legitimate email address. However, if you plan to use the desktop client, you will need a Zoom account.
       </p>
 
     </main>
