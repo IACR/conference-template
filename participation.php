@@ -41,7 +41,7 @@
       </h3>
       <div class="row">
         <div class="col-md-6 mx-lg-auto col-lg-5 col-xl-4">
-          <h4 class="subSubtitle text-center">
+          <h4 class="subSubtitle text-md-center">
             Webinar
           </h4>
           <p>
@@ -50,7 +50,7 @@
         </div>
 
         <div class="col-md-6 mx-lg-auto col-lg-5 col-xl-4">
-          <h4 class="subSubtitle text-center">
+          <h4 class="subSubtitle text-md-center">
             Chat
           </h4>
           <p>
@@ -59,7 +59,7 @@
         </div>
 
         <div class="col-md-6 mx-lg-auto col-lg-5 col-xl-4">
-          <h4 class="subSubtitle text-center">
+          <h4 class="subSubtitle text-md-center">
             YouTube
           </h4>
           <p>
@@ -67,7 +67,39 @@
           </p>
         </div>
       </div>
-      <!-- TODO: this page needs info like links to webinars, how to navigate between sessions, etc -->
+
+      <h3 class="pageSubtitle mt-4">
+        Attending a Webinar
+      </h3>
+      <p>
+        We are using Zoom for our live Q&A sessions. (Learn more about the IACR's statement on Zoom <a href="#">here</a>.) <strong>You do not have to install Zoom software to attend a webinar</strong>, though it is recommended. If you plan to attend a webinar session using your browser, it needs to be one of the following:
+      </p>
+      <ul>
+        <li>
+          Internet Explorer<sup>*</sup> 10 or higher
+        </li>
+        <li>
+          Microsoft Edge 38.14393.0.0 or higher
+        </li>
+        <li>
+          Google Chrome 53.0.2785 or higher
+        </li>
+        <li>
+          Safari<sup>*</sup> 10.0.602.1.50 or higher
+        </li>
+        <li>
+          Firefox<sup>*</sup> 49.0 or higher
+        </li>
+        <li>
+          Chromium (not officially supported by Zoom, but the IACR has tested it and it appears to work similarly to Chrome)
+        </li>
+      </ul>
+      <small>
+        <sup>*</sup> Please note that if you use Safari, Firefox, or Internet Explorer, you will not be able to ask a question using your computer audio. You can still ask questions using the text Q&A feature.
+      </small>
+      <p>
+        If you wish to use the desktop client, it is available for Linux, Mac, and Windows.
+      </p>
 
     </main>
 
