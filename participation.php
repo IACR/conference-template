@@ -73,7 +73,7 @@
             Watch Parties
           </h4>
           <p>
-            Jitsi (hosted in IACR servers) allows you to host watch parties, whereby you and others watch a talk or Q&A session together. Like chat, watch parties encourage discussion and interaction amongst attendees.
+            Jitsi (hosted on IACR servers) allows you to host watch parties, whereby you and others watch a talk or Q&A session together. Like chat, watch parties encourage discussion and interaction amongst attendees.
           </p>
           <div class="d-md-flex justify-content-center">
             <a href="#" class="btn btn-warning">Host or attend a watch party</a>
@@ -124,7 +124,7 @@
         <small><sup>*</sup> Please note that if you use Safari, Firefox, or Internet Explorer, you will not be able to ask a question using your computer audio. However, you can still ask questions using the text Q&A feature.</small>
       </p>
       <p>
-        If you wish to use the desktop client, it is available for Mac and Windows. (Note that while there is also a desktop client for Linux, but it is extremely insecure. The IACR does NOT recommend installing the Linux desktop client for Zoom.)
+        If you wish to use the desktop client, it is available for Mac and Windows. (Note that while there is also a desktop client for Linux, it is extremely insecure. The IACR does NOT recommend installing the Linux desktop client for Zoom.)
       </p>
 
       <h4 class="subSubtitle">
