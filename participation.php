@@ -36,6 +36,8 @@
         </div>
       </div>
 
+      <!-- TODO: blurb about how virtual and f2f confs differ -->
+
       <h3 class="pageSubtitle mt-4">
         Ways to Participate
       </h3>
@@ -45,7 +47,7 @@
             Webinar
           </h4>
           <p>
-            We will be holding live Q&A panels with authors multiple times daily. At these panels, attendees will be able to ask questions of authors about their work, or to encourage interesting conversation amongst authors. These Q&As will be livestreamed on our YouTube channel and are available for later viewing, should you not wish to watch them live.
+            We will be holding live Q&A panels with authors multiple times daily. At these panels, attendees will be able to ask questions of authors about their work, or to encourage interesting conversation amongst authors. These Q&As will be livestreamed on our YouTube channel and are available for later viewing.
           </p>
         </div>
 
@@ -56,7 +58,11 @@
           <p>
             Much like at a face-to-face conference, we know that the best conversations can happen in the hallways or at coffee breaks. We encourage you to make use of the Slack workspace we have set up to connect with other conference attendees. There are a variety of channels, organized by topic.
           </p>
+          <!-- TODO: custom button? -->
+          <a href="#" class="btn btn-block btn-info">Join the chat</a>
         </div>
+
+        <!-- TODO: watch parties! can organize through Jitsi -->
 
         <div class="col-md-6 mx-lg-auto col-lg-5 col-xl-4">
           <h4 class="subSubtitle text-md-center">
@@ -65,6 +71,8 @@
           <p>
             If you cannot participate live, you will still have access to all talks on our YouTube channel. The authors have pre-recorded their talks and you can view them at any time. Additionally, there will be copies of the live Q&A sessions available to watch.
           </p>
+          <!-- TODO: this may actually be better as link(s) to playlists of talks and webinars -->
+          <a href="#" class="btn btn-block btn-info">IACR YouTube Page</a>
         </div>
       </div>
 
@@ -98,7 +106,7 @@
         <small><sup>*</sup> Please note that if you use Safari, Firefox, or Internet Explorer, you will not be able to ask a question using your computer audio. You can still ask questions using the text Q&A feature.</small>
       </p>
       <p>
-        If you wish to use the desktop client, it is available for Linux, Mac, and Windows.
+        If you wish to use the desktop client, it is available for Mac and Windows. (Note that while there is also a desktop client for Linux, but it is extremely insecure. We do not recommend installing the Linux desktop client for Zoom.)
       </p>
 
       <h4 class="subSubtitle">
