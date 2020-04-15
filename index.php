@@ -23,7 +23,7 @@
       <b>
         Due to the coronavirus spread, Eurocrypt 2020 will be
         virtual. The dates of this event are (close to) the original
-        dates: May 11-15, 2020.
+        dates: May 11-15 2020.
       </b>
     </p>
 
@@ -141,18 +141,6 @@
           </div>
         </article>
       </div>
-    </div>
-
-    <h3 class="pageSubtitle mt-4">
-      Example Sponsors
-    </h3>
-    <div class="homeSponsors">
-      <a href="http://kaymckelly.com/">
-        <img src="./images/demo/examplesponsor1.png" alt="black and white vector graphic of an elephant" class="sponsorLogo firstLogo" />
-      </a>
-      <a href="http://kaymckelly.com/">
-        <img src="./images/demo/examplesponsor2.png" alt="deep blue vector graphic of a map pin with a piece missing from the circle at the top" class="sponsorLogo" />
-      </a>
     </div>
 
   </main>
