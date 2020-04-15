@@ -36,13 +36,18 @@
         </div>
       </div>
 
-      <!-- TODO: blurb about how virtual and f2f confs differ -->
+      <h3 class="pageSubtitle mt-4">
+        Differences Between Physical and Virtual Conferences
+      </h3>
+      <p>
+        We recognize that a virtual conference is not a 1:1 substitute for a physical conference. However, we believe there are distinct advantages to having a virtual conference. These include a lack of space constraints, travel not required, and the ability to attend all talks since they are recorded.
+      </p>
 
       <h3 class="pageSubtitle mt-4">
         Ways to Participate
       </h3>
       <div class="row">
-        <div class="col-md-6 mx-lg-auto col-lg-5 col-xl-4">
+        <div class="col-md-6 mx-lg-auto col-lg-5 col-xl-4 mb-md-4">
           <h4 class="subSubtitle text-md-center">
             Webinar
           </h4>
@@ -51,28 +56,41 @@
           </p>
         </div>
 
-        <div class="col-md-6 mx-lg-auto col-lg-5 col-xl-4">
+        <div class="col-md-6 mx-lg-auto col-lg-5 col-xl-4 mb-md-4">
           <h4 class="subSubtitle text-md-center">
             Chat
           </h4>
           <p>
             Much like at a face-to-face conference, we know that the best conversations can happen in the hallways or at coffee breaks. We encourage you to make use of the Slack workspace we have set up to connect with other conference attendees. There are a variety of channels, organized by topic.
           </p>
-          <!-- TODO: custom button? -->
-          <a href="#" class="btn btn-block btn-info">Join the chat</a>
+          <div class="d-md-flex justify-content-center">
+            <a href="#" class="btn btn-warning">Join the chat</a>
+          </div>
         </div>
 
-        <!-- TODO: watch parties! can organize through Jitsi -->
+        <div class="col-md-6 mx-lg-auto col-lg-5 col-xl-4 mb-md-4">
+          <h4 class="subSubtitle text-md-center">
+            Watch Parties
+          </h4>
+          <p>
+            Jitsi (hosted in IACR servers) allows you to host watch parties, whereby you and others watch a talk or Q&A session together. Like chat, watch parties encourage discussion and interaction amongst attendees.
+          </p>
+          <div class="d-md-flex justify-content-center">
+            <a href="#" class="btn btn-warning">Host or attend a watch party</a>
+          </div>
+        </div>
 
-        <div class="col-md-6 mx-lg-auto col-lg-5 col-xl-4">
+        <div class="col-md-6 mx-lg-auto mx-xl-0 col-lg-5 col-xl-4 mb-md-4">
           <h4 class="subSubtitle text-md-center">
             YouTube
           </h4>
           <p>
             If you cannot participate live, you will still have access to all talks on our YouTube channel. The authors have pre-recorded their talks and you can view them at any time. Additionally, there will be copies of the live Q&A sessions available to watch.
           </p>
-          <!-- TODO: this may actually be better as link(s) to playlists of talks and webinars -->
-          <a href="#" class="btn btn-block btn-info">IACR YouTube Page</a>
+          <div class="d-md-flex justify-content-around">
+            <a href="#" class="btn btn-warning">Talks Playlist</a>
+            <a href="#" class="btn btn-warning">Q&A Playlist</a>
+          </div>
         </div>
       </div>
 
@@ -103,10 +121,10 @@
         </li>
       </ul>
       <p>
-        <small><sup>*</sup> Please note that if you use Safari, Firefox, or Internet Explorer, you will not be able to ask a question using your computer audio. You can still ask questions using the text Q&A feature.</small>
+        <small><sup>*</sup> Please note that if you use Safari, Firefox, or Internet Explorer, you will not be able to ask a question using your computer audio. However, you can still ask questions using the text Q&A feature.</small>
       </p>
       <p>
-        If you wish to use the desktop client, it is available for Mac and Windows. (Note that while there is also a desktop client for Linux, but it is extremely insecure. We do not recommend installing the Linux desktop client for Zoom.)
+        If you wish to use the desktop client, it is available for Mac and Windows. (Note that while there is also a desktop client for Linux, but it is extremely insecure. The IACR does NOT recommend installing the Linux desktop client for Zoom.)
       </p>
 
       <h4 class="subSubtitle">
