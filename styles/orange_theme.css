@@ -18,7 +18,8 @@ nav#mainmenu {
 
 /***** Header (in /includes/nav.php) *****/
 .headerImg {
-  background-image: url("../images/banners/circuit.jpg");
+    background-image: url("../images/banners/sky.jpg");
+/*    background-image: url("../images/banners/circuit.jpg");*/
 }
 
 .headerGradient {

@@ -58,8 +58,9 @@ img#logo {
 
 /* a background image on the header. In this theme we don't mute it by .headerGradient */
 .headerImg {
-  /*  background-image: url("../images/banners/binary.jpg");*/
-  background-image: url("../images/banners/ucsb.jpg"); 
+  /*  background-image: url("../images/banners/binary.jpg");
+  background-image: url("../images/banners/ucsb.jpg"); */
+    background-image: url("../images/banners/sky.jpg");
 /*  background-image: url("../images/banners/ucsb2.png");*/
   background-size: cover;
 }

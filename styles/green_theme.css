@@ -31,7 +31,8 @@ a.dropdown-item:hover {
 
 /***** Header (in /includes/nav.php) *****/
 .headerImg {
-  background-image: url("../images/banners/waveDesat.png");
+    background-image: url("../images/banners/sunset-1645103_1920.jpg");
+/*  background-image: url("../images/banners/waveDesat.png");*/
   background-position: top left;
   background-repeat: no-repeat;
   background-size: 128%;
