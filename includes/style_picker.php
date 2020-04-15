@@ -9,7 +9,7 @@
      //document.getElementById('style').href = '/styles/' + val + '_theme.css';
 
      // for Kevin's machine
-     document.getElementById('style').href = '/tools/confdemo/styles/' + val + '_theme.css';
+     document.getElementById('style').href = '/2020virtual/styles/' + val + '_theme.css';
   }
 </script>
 <style>

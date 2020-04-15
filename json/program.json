@@ -1,3 +1,1427 @@
 {
-    "_source": "https://www.iacr.org/tools"
+    "_source": "https://www.iacr.org/tools",
+    "days": [
+        {
+            "date": "2020-05-10",
+            "timeslots": [
+                {
+                    "starttime": "17:00",
+                    "endtime": "20:00",
+                    "sessions": [
+                        {
+                            "session_title": "Registration",
+                            "location-comment": {
+                                "name": " "
+                            }
+                        }
+                    ]
+                },
+                {
+                    "starttime": "19:00",
+                    "endtime": "21:00",
+                    "sessions": [
+                        {
+                            "session_title": "Reception",
+                            "location-comment": {
+                                "name": " "
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "date": "2020-05-11",
+            "timeslots": [
+                {
+                    "endtime": "",
+                    "starttime": "opens at 8:00",
+                    "sessions": [
+                        {
+                            "session_title": "Registration",
+                            "location-comment": {
+                                "name": "De La Guerra Dining Commons"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "endtime": "9:10",
+                    "starttime": "9:00",
+                    "sessions": [
+                        {
+                            "moderator-comment": " ",
+                            "session_title": "Opening remarks",
+                            "location-comment": {
+                                "name": "Westin"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "endtime": "9:35",
+                    "starttime": "9:10",
+                    "sessions": [
+                        {
+                            "moderator-comment": " ",
+                            "session_title": "Eurocrypt 2020 Best Paper",
+                            "location-comment": {
+                                "name": "Westin"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "endtime": "10:35",
+                    "starttime": "9:35",
+                    "sessions": [
+                        {
+                            "moderator-comment": " ",
+                            "session_title": "Invited talk 1",
+                            "location-comment": {
+                                "name": "Westin"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "endtime": "11:00",
+                    "starttime": "10:35",
+                    "sessions": [
+                        {
+                            "moderator-comment": " ",
+                            "session_title": "Coffee break",
+                            "location-comment": {
+                                "name": "Westin"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "endtime": "12:40",
+                    "starttime": "11:00",
+                    "sessions": [
+                        {
+                            "moderator-comment": " ",
+                            "talks": [
+                                {
+                                    "title-comment": " ",
+                                    "authors-comment": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title-comment": " ",
+                                    "authors-comment": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title-comment": " ",
+                                    "authors-comment": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title-comment": " ",
+                                    "authors-comment": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                }
+                            ],
+                            "session_title": "Session 1: Track I",
+                            "location-comment": {
+                                "name": "Westin"
+                            }
+                        },
+                        {
+                            "moderator-comment": " ",
+                            "talks": [
+                                {
+                                    "title-comment": " ",
+                                    "authors-comment": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title-comment": " ",
+                                    "authors-comment": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title-comment": " ",
+                                    "authors-comment": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title-comment": " ",
+                                    "authors-comment": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                }
+                            ],
+                            "session_title": "Session 1: Track II",
+                            "location-comment": {
+                                "name": "Westin"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "endtime": "14:00",
+                    "starttime": "12:40",
+                    "sessions": [
+                        {
+                            "session_title": "Lunch break",
+                            "location-comment": {
+                                "name": "Westin"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "endtime": "15:15",
+                    "starttime": "14:00",
+                    "sessions": [
+                        {
+                            "moderator-comment": " ",
+                            "talks": [
+                                {
+                                    "title-comment": " ",
+                                    "authors-comment": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title-comment": " ",
+                                    "authors-comment": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title-comment": " ",
+                                    "authors-comment": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                }
+                            ],
+                            "session_title": "Session 2: Track I",
+                            "location-comment": {
+                                "name": "Westin"
+                            }
+                        },
+                        {
+                            "moderator-comment": " ",
+                            "talks": [
+                                {
+                                    "title-comment": " ",
+                                    "authors-comment": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title-comment": " ",
+                                    "authors-comment": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title-comment": " ",
+                                    "authors-comment": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                }
+                            ],
+                            "session_title": "Session 2: Track II",
+                            "location-comment": {
+                                "name": "Westin"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "endtime": "15:45",
+                    "starttime": "15:15",
+                    "sessions": [
+                        {
+                            "session_title": "Coffee Break",
+                            "location-comment": {
+                                "name": "Westin"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "endtime": "17:00",
+                    "starttime": "15:45",
+                    "sessions": [
+                        {
+                            "moderator-comment": " ",
+                            "talks-comment": [
+                                {
+                                    "title": " ",
+                                    "authors": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " n"
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": " ",
+                                    "authors": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                }
+                            ],
+                            "session_title": "Session 3: Track I",
+                            "location-comment": {
+                                "name": " "
+                            }
+                        },
+                        {
+                            "moderator-comment": " ",
+                            "talks-comment": [
+                                {
+                                    "title": " ",
+                                    "authors": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " n"
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": " ",
+                                    "authors": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                }
+                            ],
+                            "session_title": "Session 3: Track II",
+                            "location-comment": {
+                                "name": " "
+                            }
+                        }
+                    ]
+                },
+                {
+                    "endtime": "19:00",
+                    "starttime": "22:00",
+                    "sessions": [
+                        {
+                            "session_title": "Rump session",
+                            "location-comment": {
+                                "name": "Westin"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "date": "2020-05-12",
+            "timeslots": [
+                {
+                    "endtime-comment": "",
+                    "starttime": "opens at 8:00",
+                    "sessions": [
+                        {
+                            "session_title": "Registration",
+                            "location-comment": {
+                                "name": " "
+                            }
+                        }
+                    ]
+                },
+                {
+                    "endtime": "10:25",
+                    "starttime": "09:00",
+                    "sessions": [
+                        {
+                            "moderator-comment": " ",
+                            "talks": [
+                                {
+                                    "title-comment": " ",
+                                    "authors-comment": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title-comment": " ",
+                                    "authors-comment": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title-comment": " ",
+                                    "authors-comment": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title-comment": " ",
+                                    "authors-comment": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                }
+                            ],
+                            "session_title": "Session 4: Track I",
+                            "location-comment": {
+                                "name": "Westin"
+                            }
+                        },
+                        {
+                            "moderator-comment": " ",
+                            "talks": [
+                                {
+                                    "title-comment": " ",
+                                    "authors-comment": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title-comment": " ",
+                                    "authors-comment": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title-comment": " ",
+                                    "authors-comment": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title-comment": " ",
+                                    "authors-comment": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                }
+                            ],
+                            "session_title": "Session 4: Track II",
+                            "location-comment": {
+                                "name": "Westin"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "endtime": "11:00",
+                    "starttime": "10:25",
+                    "sessions": [
+                        {
+                            "moderator-comment": " ",
+                            "session_title": "Coffee break",
+                            "location-comment": {
+                                "name": "Westin"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "endtime": "10:25",
+                    "starttime": "09:00",
+                    "sessions": [
+                        {
+                            "moderator-comment": " ",
+                            "talks": [
+                                {
+                                    "title-comment": " ",
+                                    "authors-comment": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title-comment": " ",
+                                    "authors-comment": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title-comment": " ",
+                                    "authors-comment": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title-comment": " ",
+                                    "authors-comment": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                }
+                            ],
+                            "session_title": "Session 5: Track I",
+                            "location-comment": {
+                                "name": "Westin"
+                            }
+                        },
+                        {
+                            "moderator-comment": " ",
+                            "talks": [
+                                {
+                                    "title-comment": " ",
+                                    "authors-comment": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title-comment": " ",
+                                    "authors-comment": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title-comment": " ",
+                                    "authors-comment": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title-comment": " ",
+                                    "authors-comment": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                }
+                            ],
+                            "session_title": "Session 5: Track II",
+                            "location-comment": {
+                                "name": "Westin"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "endtime": "14:00",
+                    "starttime": "12:40",
+                    "sessions": [
+                        {
+                            "session_title": "Lunch break",
+                            "location-comment": {
+                                "name": "Westin"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "endtime": "14:25",
+                    "starttime": "14:00",
+                    "sessions": [
+                        {
+                            "moderator-comment": " ",
+                            "session_title": "Eurocrypt 2020 Best Student Paper",
+                            "location-comment": {
+                                "name": "Westin"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "endtime": "15:25",
+                    "starttime": "14:25",
+                    "sessions": [
+                        {
+                            "moderator-comment": " ",
+                            "session_title": "Invited talk 2",
+                            "location-comment": {
+                                "name": "Westin"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "endtime": "15:55",
+                    "starttime": "15:25",
+                    "sessions": [
+                        {
+                            "session_title": "Coffee Break",
+                            "location-comment": {
+                                "name": "Westin"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "endtime": "17:10",
+                    "starttime": "15:55",
+                    "sessions": [
+                        {
+                            "moderator-comment": " ",
+                            "talks-comment": [
+                                {
+                                    "title": " ",
+                                    "authors": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": " ",
+                                    "authors": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                }
+                            ],
+                            "session_title": "Session 6: Track I",
+                            "location-comment": {
+                                "name": " "
+                            }
+                        },
+                        {
+                            "moderator-comment": " ",
+                            "talks-comment": [
+                                {
+                                    "title": " ",
+                                    "authors": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": " ",
+                                    "authors": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                }
+                            ],
+                            "session_title": "Session 6: Track II",
+                            "location-comment": {
+                                "name": " "
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "date": "2020-05-13",
+            "timeslots": [
+                {
+                    "endtime-comment": "9:00",
+                    "starttime": "opens at 8:00",
+                    "sessions": [
+                        {
+                            "session_title": "Registration",
+                            "location-comment": {
+                                "name": " "
+                            }
+                        }
+                    ]
+                },
+                {
+                    "endtime": "10:25",
+                    "starttime": "09:00",
+                    "sessions": [
+                        {
+                            "moderator-comment": " ",
+                            "talks": [
+                                {
+                                    "title-comment": " ",
+                                    "authors-comment": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title-comment": " ",
+                                    "authors-comment": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title-comment": " ",
+                                    "authors-comment": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title-comment": " ",
+                                    "authors-comment": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                }
+                            ],
+                            "session_title": "Session 7: Track I",
+                            "location-comment": {
+                                "name": "Westin"
+                            }
+                        },
+                        {
+                            "moderator-comment": " ",
+                            "talks": [
+                                {
+                                    "title-comment": " ",
+                                    "authors-comment": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title-comment": " ",
+                                    "authors-comment": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title-comment": " ",
+                                    "authors-comment": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title-comment": " ",
+                                    "authors-comment": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                }
+                            ],
+                            "session_title": "Session 7: Track II",
+                            "location-comment": {
+                                "name": "Westin"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "endtime": "11:00",
+                    "starttime": "10:25",
+                    "sessions": [
+                        {
+                            "moderator-comment": " ",
+                            "session_title": "Coffee break",
+                            "location-comment": {
+                                "name": "Westin"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "endtime": "12:40",
+                    "starttime": "11:00",
+                    "sessions": [
+                        {
+                            "moderator-comment": " ",
+                            "talks": [
+                                {
+                                    "title-comment": " ",
+                                    "authors-comment": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title-comment": " ",
+                                    "authors-comment": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title-comment": " ",
+                                    "authors-comment": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title-comment": " ",
+                                    "authors-comment": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                }
+                            ],
+                            "session_title": "Session 8: Track I",
+                            "location-comment": {
+                                "name": "Westin"
+                            }
+                        },
+                        {
+                            "moderator-comment": " ",
+                            "talks": [
+                                {
+                                    "title-comment": " ",
+                                    "authors-comment": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title-comment": " ",
+                                    "authors-comment": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title-comment": " ",
+                                    "authors-comment": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title-comment": " ",
+                                    "authors-comment": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                }
+                            ],
+                            "session_title": "Session 8: Track II",
+                            "location-comment": {
+                                "name": "Westin"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "endtime": "14:00",
+                    "starttime": "12:40",
+                    "sessions": [
+                        {
+                            "session_title": "Lunch break",
+                            "location-comment": {
+                                "name": "Westin"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "endtime": "15:40",
+                    "starttime": "14:00",
+                    "sessions": [
+                        {
+                            "moderator-comment": " ",
+                            "talks": [
+                                {
+                                    "title-comment": " ",
+                                    "authors-comment": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title-comment": " ",
+                                    "authors-comment": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title-comment": " ",
+                                    "authors-comment": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                }
+                            ],
+                            "session_title": "Session 9: Track I",
+                            "location-comment": {
+                                "name": "Westin"
+                            }
+                        },
+                        {
+                            "moderator-comment": " ",
+                            "talks": [
+                                {
+                                    "title-comment": " ",
+                                    "authors-comment": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title-comment": " ",
+                                    "authors-comment": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title-comment": " ",
+                                    "authors-comment": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                }
+                            ],
+                            "session_title": "Session 9: Track II",
+                            "location-comment": {
+                                "name": "Westin"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "endtime": "15:40",
+                    "starttime": "16:10",
+                    "sessions": [
+                        {
+                            "session_title": "Coffee Break",
+                            "location-comment": {
+                                "name": "Westin"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "endtime": "19:30",
+                    "starttime": "23:00",
+                    "sessions": [
+                        {
+                            "session_title": "Gala dinner",
+                            "location": {
+                                "name": "Lauba"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "date": "2020-05-14",
+            "timeslots": [
+                {
+                    "endtime-comment": "9:00",
+                    "starttime": "opens at 8:00",
+                    "sessions": [
+                        {
+                            "session_title": "Registration",
+                            "location-comment": {
+                                "name": " "
+                            }
+                        }
+                    ]
+                },
+                {
+                    "endtime": "10:25",
+                    "starttime": "09:00",
+                    "sessions": [
+                        {
+                            "moderator-comment": " ",
+                            "talks": [
+                                {
+                                    "title-comment": " ",
+                                    "authors-comment": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title-comment": " ",
+                                    "authors-comment": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title-comment": " ",
+                                    "authors-comment": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title-comment": " ",
+                                    "authors-comment": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                }
+                            ],
+                            "session_title": "Session 10: Track I",
+                            "location-comment": {
+                                "name": "Westin"
+                            }
+                        },
+                        {
+                            "moderator-comment": " ",
+                            "talks": [
+                                {
+                                    "title-comment": " ",
+                                    "authors-comment": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title-comment": " ",
+                                    "authors-comment": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title-comment": " ",
+                                    "authors-comment": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title-comment": " ",
+                                    "authors-comment": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                }
+                            ],
+                            "session_title": "Session 10: Track II",
+                            "location-comment": {
+                                "name": "Westin"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "endtime": "11:00",
+                    "starttime": "10:25",
+                    "sessions": [
+                        {
+                            "moderator-comment": " ",
+                            "session_title": "Coffee break",
+                            "location-comment": {
+                                "name": "Westin"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "endtime": "12:40",
+                    "starttime": "11:00",
+                    "sessions": [
+                        {
+                            "moderator-comment": " ",
+                            "talks": [
+                                {
+                                    "title-comment": " ",
+                                    "authors-comment": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title-comment": " ",
+                                    "authors-comment": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title-comment": " ",
+                                    "authors-comment": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title-comment": " ",
+                                    "authors-comment": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                }
+                            ],
+                            "session_title": "Session 11: Track I",
+                            "location-comment": {
+                                "name": "Westin"
+                            }
+                        },
+                        {
+                            "moderator-comment": " ",
+                            "talks": [
+                                {
+                                    "title-comment": " ",
+                                    "authors-comment": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title-comment": " ",
+                                    "authors-comment": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title-comment": " ",
+                                    "authors-comment": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title-comment": " ",
+                                    "authors-comment": [
+                                        {
+                                            "name": " "
+                                        },
+                                        {
+                                            "name": " "
+                                        }
+                                    ]
+                                }
+                            ],
+                            "session_title": "Session 11: Track II",
+                            "location-comment": {
+                                "name": "Westin"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }

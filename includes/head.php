@@ -1,4 +1,5 @@
 <?php
+require "style_picker.php";
   // This invokes php to populate some variables that
   // are available as $META. It should be included
   // at the beginning of the <head> tag.
@@ -23,7 +24,7 @@
     $length = strlen($_SERVER['HTTP_HOST']);
     if ($length >= 8 &&
         substr($_SERVER['HTTP_HOST'], -8) === 'iacr.org') {
-      return "/" . strval($META['year']) . "/";
+      return "/2020virtual/"; // " . strval($META['year']) . "/";
     }
     return "/";
   }
@@ -38,7 +39,7 @@
 
     <!-- Styling -->
     <link rel="stylesheet" href="<?php echo rootPath();?>styles/main.css">
-    <link id="style" rel="stylesheet" href="<?php echo rootPath();?>styles/orange_theme.css">
+    <link id="style" rel="stylesheet" href="<?php echo rootPath();?>styles/blue_theme.css">
     <!-- metadata for googlebot -->
     <script type="application/ld+json">
      {

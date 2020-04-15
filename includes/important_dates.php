@@ -11,7 +11,7 @@
   </h4>
   <div class="customCardRow row">
     <h6 class="dateTitle col-5 col-md-4">
-      <?php echo $META['submitdate'];?>
+    September 26 2019
     </h6>
     <p class="col-7 col-md-8">
       Submission deadline at 21:00 UTC
@@ -19,23 +19,23 @@
   </div>
   <div class="customCardRow row">
     <h6 class="dateTitle col-5 col-md-4">
-      March 27 2020
+      December 2 2019
     </h6>
     <p class="col-7 col-md-8">
-      First round notification
+      Reviews sent out for rebuttals
     </p>
   </div>
   <div class="customCardRow row">
     <h6 class="dateTitle col-5 col-md-4">
-      April 3 2020
+      December 6 2019
     </h6>
     <p class="col-7 col-md-8">
-      Rebuttal deadline
+      Rebuttals due by 23:59 CET
     </p>
   </div>
   <div class="customCardRow row">
     <h6 class="dateTitle col-5 col-md-4">
-      May 8 2020
+      January 21 2020
     </h6>
     <p class="col-7 col-md-8">
       Final notification
@@ -43,10 +43,18 @@
   </div>
   <div class="customCardRow row">
     <h6 class="dateTitle col-5 col-md-4">
-      June 15 2020
+      February 20 2020
     </h6>
     <p class="col-7 col-md-8">
       Final version due
+    </p>
+  </div>
+  <div class="customCardRow row">
+    <h6 class="dateTitle col-5 col-md-4">
+      May 6 2020
+    </h6>
+    <p class="col-7 col-md-8">
+      Speaker videos due
     </p>
   </div>
   <div class="customCardRow row">
