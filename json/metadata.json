@@ -5,6 +5,7 @@
   "shortName": "Eurocrypt 2020",
   "dates": "May 11-15 2020",
   "location": "Virtual conference",
+  "year": 2020,
   "startdate": "2020-05-11",
   "enddate": "2020-05-15",
   "submitdate": "2020-09-26",
@@ -13,6 +14,7 @@
   "notificationdate": "2020-01-21",
   "latitude": 15.977048,
   "longitude": 45.813177,
+  "eventtype": "eurocrypt",
   "_comment": "Be careful editing this file. It must be valid JSON.",
   "_source": "https://www.iacr.org/cryptodb/pc"
 }

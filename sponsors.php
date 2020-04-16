@@ -28,19 +28,14 @@
       </div>
 
       <!-- NOTE: below is placeholder content. please uncomment and replace with your own content when ready. make sure to verify that all included sponsors are current, with appropriate links. -->
-      <!-- <h3 class="pageSubtitle mt-4">
-        Platinum Level
+      <h3 class="pageSubtitle mt-4">
+        Diamond Level
       </h3>
 
       <div class="d-flex flex-wrap align-items-center sponsorRows">
         <div class="sponsorLogoBox justify-content-between">
-          <a href="http://kaymckelly.com">
-            <img src="./images/sponsors/ethereumFoundation.png" alt="Ethereum Foundation" title="Ethereum Foundation" class="sponsorPageLogo">
-          </a>
-        </div>
-        <div class="sponsorLogoBox justify-content-between">
-          <a href="http://kaymckelly.com">
-            <img src="./images/sponsors/AWS.png" alt="AWS" title="AWS" class="sponsorPageLogo">
+          <a href="https://tii.ae/">
+            <img src="./images/sponsors/eurocrypt2020/tiilogo.png" alt="Technology Innovation Institute" title="Technology Innovation Institute" class="sponsorPageLogo">
           </a>
         </div>
       </div>
@@ -52,28 +47,13 @@
 
       <div class="d-flex flex-wrap align-items-center sponsorRows">
         <div class="sponsorLogoBox justify-content-between">
-          <a href="http://kaymckelly.com">
-            <img src="./images/sponsors/cloudFlare.png" alt="Cloudflare" title="Cloudflare" class="sponsorPageLogo">
+          <a href="https://www.calibra.com/">
+            <img src="./images/sponsors/eurocrypt2020/calibra.png" alt="Calibra" title="Calibra" class="sponsorPageLogo">
           </a>
         </div>
         <div class="sponsorLogoBox justify-content-between">
-          <a href="http://kaymckelly.com">
-            <img src="./images/sponsors/inpher.png" alt="Inpher" title="Inpher" class="sponsorPageLogo">
-          </a>
-        </div>
-        <div class="sponsorLogoBox justify-content-between">
-          <a href="http://kaymckelly.com">
-            <img src="./images/sponsors/google.png" alt="Google" title="Google" class="sponsorPageLogo">
-          </a>
-        </div>
-        <div class="sponsorLogoBox justify-content-between">
-          <a href="http://kaymckelly.com">
-            <img src="./images/sponsors/jPMorgan.jpg" alt="JPMorgan" title="JPMorgan" class="sponsorPageLogo">
-          </a>
-        </div>
-        <div class="sponsorLogoBox justify-content-between">
-          <a href="http://kaymckelly.com">
-            <img src="./images/sponsors/nsf.gif" alt="National Science Foundation" title="National Science Foundation" class="sponsorPageLogo">
+          <a href="https://usa.visa.com/about-visa/visa-research.html">
+            <img src="./images/sponsors/eurocrypt2020/VisaResearch.png" alt="Visa Research" title="Visa Research" class="sponsorPageLogo">
           </a>
         </div>
       </div>
@@ -85,51 +65,54 @@
 
       <div class="d-flex flex-wrap align-items-center sponsorRows">
         <div class="sponsorLogoBox justify-content-between">
-          <a href="http://kaymckelly.com">
-            <img src="./images/sponsors/nucypher.png" alt="NuCypher" title="NuCypher" class="sponsorPageLogo">
+          <a href="https://cloudflare.com/">
+            <img src="./images/sponsors/eurocrypt2020/cloudflare.png" alt="Cloudflare" title="Cloudflare" class="sponsorPageLogo">
           </a>
         </div>
         <div class="sponsorLogoBox justify-content-between">
-          <a href="http://kaymckelly.com">
-            <img src="./images/sponsors/QEDit.png" alt="QED-it" title="QED-it" class="sponsorPageLogo">
+          <a href="https://www.research.ibm.com/">
+            <img src="./images/sponsors/eurocrypt2020/IBM-Research-logo.png" alt="IBM Research" title="IBM Research" class="sponsorPageLogo">
+          </a>
+        </div>
+      </div>
+
+      <hr />
+      <h3 class="pageSubtitle mt-4">
+        Bronze Level
+      </h3>
+
+      <div class="d-flex flex-wrap align-items-center sponsorRows">
+        <div class="sponsorLogoBox justify-content-between">
+          <a href="http://www.cea.fr/">
+            <img src="./images/sponsors/eurocrypt2020/CEAlogo.png" alt="CEA" title="CEA" class="sponsorPageLogo">
           </a>
         </div>
         <div class="sponsorLogoBox justify-content-between">
-          <a href="http://kaymckelly.com">
-            <img src="./images/sponsors/mozilla.png" alt="Mozilla" title="Mozilla" class="sponsorPageLogo">
+          <a href="https://cryptoexperts.com/">
+            <img src="./images/sponsors/eurocrypt2020/crx.png" alt="CryptoExperts" title="CryptoExperts" class="sponsorPageLogo">
+          </a>
+        </div>
+        <div class="sponsorLogoBox justify-content-between bg-dark">
+          <a href="https://hardwear.io/">
+            <img src="./images/sponsors/eurocrypt2020/hardwear_logo.png" alt="hardwear.io" title="hardwear.io" class="sponsorPageLogo">
           </a>
         </div>
         <div class="sponsorLogoBox justify-content-between">
-          <a href="http://kaymckelly.com">
-            <img src="./images/sponsors/iotex.png" alt="IoTeX" title="IoTeX" class="sponsorPageLogo">
+          <a href="https://www.intrinsic-id.com/">
+            <img src="./images/sponsors/eurocrypt2020/Logo-Intrinsic-ID_238x40.png" alt="Intrinsic ID" title="Intrinsic ID" class="sponsorPageLogo">
           </a>
         </div>
         <div class="sponsorLogoBox justify-content-between">
-          <a href="http://kaymckelly.com">
-            <img src="./images/sponsors/ibm.png" alt="IBM" title="IBM" class="sponsorPageLogo">
+          <a href="https://pqshield.com/">
+            <img src="./images/sponsors/eurocrypt2020/pqshield.jpg" alt="PQShield" title="PQShield" class="sponsorPageLogo">
           </a>
         </div>
         <div class="sponsorLogoBox justify-content-between">
-          <a href="http://kaymckelly.com">
-            <img src="./images/sponsors/auditchain.png" alt="Auditchain" title="Auditchain" class="sponsorPageLogo">
+          <a href="https://www.rambus.com/security/">
+            <img src="./images/sponsors/eurocrypt2020/rambus.png" alt="Rambus" title="Rambus" class="sponsorPageLogo">
           </a>
         </div>
-        <div class="sponsorLogoBox justify-content-between">
-          <a href="http://kaymckelly.com">
-            <img src="./images/sponsors/protocolLabs.png" alt="Protocol Labs" title="Protocol Labs" class="sponsorPageLogo">
-          </a>
-        </div>
-        <div class="sponsorLogoBox justify-content-between">
-          <a href="http://kaymckelly.com">
-            <img src="./images/sponsors/poa.jpg" alt="POA" title="POA" class="sponsorPageLogo">
-          </a>
-        </div>
-        <div class="sponsorLogoBox justify-content-between">
-          <a href="http://kaymckelly.com">
-            <img src="./images/sponsors/iohk.png" alt="IOHK" title="IOHK" class="sponsorPageLogo">
-          </a>
-        </div>
-      </div> -->
+      </div>
     </main>
     <?php include "includes/footer.php"; ?>
   </body>
