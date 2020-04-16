@@ -125,7 +125,7 @@
         <small><sup>*</sup> Please note that if you use Safari, Firefox, or Internet Explorer, you will not be able to ask a question using your computer audio. However, you can still ask questions using the text Q&amp;A feature.</small>
       </p>
       <p>
-        If you wish to use the desktop client, there are options available for all operating systems. However, there are serious security vulnerabilities for each. The IACR does not condone the installation of Zoom desktop clients at this time (15 April 2020).
+        If you wish to use the desktop client, there are options available for all operating systems. However, there are serious security vulnerabilities for each. The IACR does not recommend the installation of Zoom desktop clients at this time (15 April 2020).
       </p>
 
       <h4 class="subSubtitle">
@@ -149,7 +149,7 @@
         The session times are not convenient for me. What can I do?
       </h4>
       <p>
-        We have expended considerable effort to balance time zone difference concerns. Unfortunately, due to the wide variety of time zones IACR members live in, we cannot accommodate everyone. We strongly encourage those who cannot attend live events to still participate in the conference asynchronously.
+        Unfortunately, due to the wide variety of time zones IACR members live in, we cannot accommodate everyone. We strongly encourage those who cannot attend live events to still participate in the conference asynchronously.
       </p>
       <p>
         Live Q&amp;A sessions and invited talks are streamed to YouTube and available for viewing after the fact. You can also watch any of the pre-recorded talks on YouTube, or participate in chat via Slack. If you don't want to watch the talks alone, you could host a watch party for others in your time zone.
@@ -162,7 +162,7 @@
         No. There was no perfect solution available, and we had a very quick turnaround time, so we opted for commercial options that had a high degree of reliability while offering the best user experience. The IACR acknowledges the security and privacy problems of each of these technologies, and our use of them is not to be considered an endorsement.
       </p>
       <p>
-        For future IACR virtual events, we hope to be able to host chat and webinar services on our own servers.
+        For future IACR virtual events, we hope to be able to host some services on our own servers.
       </p>
 
     </main>
