@@ -19,39 +19,31 @@
       <h2 class="indPageTitle">
         Participation Guidelines
       </h2>
-      <p>
-        There are many ways you can participate in an IACR virtual conference. Your participation is valuable and we encourage you to add to the discussion. Like a face-to-face conference, virtual conferences are only as good as the interactions that occur there.
-      </p>
-
-      <div class="row">
-        <div class="col-md-10 mx-md-auto">
-          <article class="customCard">
-            <h4 class="customCardHeader text-center">
-              When does the next session start?
-            </h4>
-            <p class="px-3 pt-2 pb-1 text-center">
-              oooo look, a timer
-            </p>
-          </article>
-        </div>
-      </div>
-
-      <h3 class="pageSubtitle mt-4">
-        Differences Between Physical and Virtual Conferences
-      </h3>
       <div class="row">
         <div class="col-md-7">
           <p>
-            We recognize that a virtual conference is not a 1:1 substitute for a physical conference. However, we believe there are distinct advantages to having a virtual conference. These include a lack of space constraints, travel not required, and the ability to attend all talks since they are recorded.
+            There are many ways you can participate in an IACR virtual conference. Your participation is valuable and we encourage you to add to the discussion. Like a face-to-face conference, virtual conferences are only as good as the interactions that occur there.
+          </p>
+          <p>
+            We recognize that a virtual conference is not a 1:1 substitute for a physical conference. However, we believe there are distinct advantages to having a virtual conference. These include a lack of space constraints, travel is not required, and the ability to attend all talks since they are recorded.
           </p>
         </div>
-
         <div class="col-md-5">
-          <p class="alert alert-warning">
+          <p class="alert alert-warning mb-0 mt-md-5">
             We recommend monitoring <a href="program.php">the conference program</a> to see which sessions are upcoming.
           </p>
         </div>
       </div>
+
+      <!-- TODO: new section -->
+      <h3 class="pageSubtitle mt-4">
+        Schedule Structure
+      </h3>
+      <p>
+        conf organized over 5 days with 4 hours per day. sessions will include live panel discussions (brief summaries of the papers, which are grouped by topic, followed by a Q&A), invited talks, and a rump session.
+      </p>
+
+      <!-- TODO: how to participate in session: can view p.d live on zoom/yt or asynch on yt. Q&A primarily live in zoom but will try to monitor the corresponding slack channel. will need to be linked to from program (use id? separate page?) -->
 
       <h3 class="pageSubtitle mt-4">
         Ways to Participate
@@ -142,6 +134,10 @@
       </h4>
       <p>
         We offer entrance to our webinars for both attendees with Zoom accounts and those without. When you log in via the browser client, Zoom will ask for an email. This does not have to be a legitimate email address. However, if you plan to use the desktop client, you will need a Zoom account.
+      </p>
+
+      <p class="alert alert-danger">
+        All conference attendees must be IACR members. When you participate in Q&A, chat, etc, you must do so in such a way that you are readily identifiable (i.e. by using the name you are known by in professional contexts). The <a href="conduct.php">code of conduct</a> still applies in a virtual setting.
       </p>
 
     </main>
