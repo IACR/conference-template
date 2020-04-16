@@ -40,13 +40,13 @@
       <ol>
         {{#each acceptedPapers}}
         <li>
-          <h4 class="paperTitle">
+          <h6 class="paperTitle">
             {{title}}
-          </h4>
+          </h6>
           <p>
-            {{authors}}
-            <br>
-            <span class="font-italic">{{affiliations}}</span>
+            {{author}}
+            <!-- <br>
+            <span class="font-italic">{{affiliations}}</span> -->
           </p>
         </li>
         {{/each}}
