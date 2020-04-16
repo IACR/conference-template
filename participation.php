@@ -95,7 +95,7 @@
         </div>
       </div>
 
-      <h3 class="pageSubtitle mt-4">
+      <h3 id="attendWebinar" class="pageSubtitle mt-4">
         Attending a Webinar
       </h3>
       <p>
@@ -135,7 +135,7 @@
         We offer entrance to our webinars for both attendees with Zoom accounts and those without. When you log in via the browser client, Zoom will ask for an email. This does not have to be a legitimate email address. However, if you plan to use the desktop client, you will need a Zoom account.
       </p>
 
-      <h3 id="faq" class="pageSubtitle mt-4">
+      <h3 class="pageSubtitle mt-4">
         Frequently Asked Questions
       </h3>
       <h4 class="subSubtitle">
