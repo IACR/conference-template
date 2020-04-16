@@ -35,15 +35,53 @@
         </div>
       </div>
 
-      <!-- TODO: new section -->
       <h3 class="pageSubtitle mt-4">
         Schedule Structure
       </h3>
       <p>
-        conf organized over 5 days with 4 hours per day. sessions will include live panel discussions (brief summaries of the papers, which are grouped by topic, followed by a Q&A), invited talks, and a rump session.
+        The conference is organized over 5 days, with 4 hours per day. Sessions consist of live panel discussions (i.e. brief summaries of the papers, which are grouped by topic, followed by a Q&amp;A with the authors), invited talks, and a rump session.
       </p>
 
-      <!-- TODO: how to participate in session: can view p.d live on zoom/yt or asynch on yt. Q&A primarily live in zoom but will try to monitor the corresponding slack channel. will need to be linked to from program (use id? separate page?) -->
+      <div class="row">
+        <div class="col-sm-6">
+          <h4 class="subSubtitle text-md-center">
+            Synchronous Participation
+          </h4>
+          <ul>
+            <li>
+              attend a Q&amp;A session via Zoom webinar
+            </li>
+            <li>
+              view a Q&amp;A session on YouTube (streamed live from Zoom webinar)
+            </li>
+            <li>
+              ask a question via Zoom webinar Q&amp;A function
+            </li>
+            <li>
+              host or attend a watch party for a pre-recorded talk
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-sm-6">
+          <h4 class="subSubtitle text-md-center">
+            Asynchronous Participation
+          </h4>
+          <ul>
+            <li>
+              watch a pre-recorded talk on YouTube
+            </li>
+            <li>
+              watch a Q&amp;A session on YouTube (these continue to be available after they are streamed live)
+            </li>
+            <li>
+              participate in chat via Slack
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- TODO: how to participate in session: can view p.d live on zoom/yt or asynch on yt. Q&amp;A primarily live in zoom but will try to monitor the corresponding slack channel. will need to be linked to from program (use id? separate page?) -->
 
       <h3 class="pageSubtitle mt-4">
         Ways to Participate
@@ -54,7 +92,7 @@
             Webinar
           </h4>
           <p>
-            We will be holding live Q&A panels with authors multiple times daily. At these panels, attendees will be able to ask questions of authors about their work, or to encourage interesting conversation amongst authors. These Q&As will be livestreamed on our YouTube channel and are available for later viewing.
+            We will be holding live Q&amp;A panels with authors multiple times daily. At these panels, attendees will be able to ask questions of authors about their work, or to encourage interesting conversation amongst authors. These Q&amp;As will be livestreamed on our YouTube channel and are available for later viewing.
           </p>
         </div>
 
@@ -75,7 +113,7 @@
             Watch Parties
           </h4>
           <p>
-            Jitsi (hosted on IACR servers) allows you to host watch parties, whereby you and others watch a talk or Q&A session together. Like chat, watch parties encourage discussion and interaction amongst attendees.
+            Jitsi (hosted on IACR servers) allows you to host watch parties, whereby you and others watch a talk or Q&amp;A session together. Like chat, watch parties encourage discussion and interaction amongst attendees.
           </p>
           <div class="d-md-flex justify-content-center">
             <a href="#" class="btn btn-warning">Host or attend a watch party</a>
@@ -87,11 +125,11 @@
             YouTube
           </h4>
           <p>
-            If you cannot participate live, you will still have access to all talks on our YouTube channel. The authors have pre-recorded their talks and you can view them at any time. Additionally, there will be copies of the live Q&A sessions available to watch.
+            If you cannot participate live, you will still have access to all talks on our YouTube channel. The authors have pre-recorded their talks and you can view them at any time. Additionally, there will be copies of the live Q&amp;A sessions available to watch.
           </p>
           <div class="d-md-flex justify-content-around">
             <a href="#" class="btn btn-warning">Talks Playlist</a>
-            <a href="#" class="btn btn-warning">Q&A Playlist</a>
+            <a href="#" class="btn btn-warning">Q&amp;A Playlist</a>
           </div>
         </div>
       </div>
@@ -100,7 +138,7 @@
         Attending a Webinar
       </h3>
       <p>
-        We are using Zoom for our live Q&A sessions. (Learn more about the IACR's statement on Zoom <a href="#">here</a>.) <strong>You do not have to install Zoom software to attend a webinar</strong>, though it is recommended. If you plan to attend a webinar session using your browser, it needs to be one of the following:
+        We are using Zoom for our live Q&amp;A sessions. (Learn more about the IACR's statement on Zoom <a href="#">here</a>.) <strong>You do not have to install Zoom software to attend a webinar</strong>, though it is recommended. If you plan to attend a webinar session using your browser, it needs to be one of the following:
       </p>
       <ul>
         <li>
@@ -123,7 +161,7 @@
         </li>
       </ul>
       <p>
-        <small><sup>*</sup> Please note that if you use Safari, Firefox, or Internet Explorer, you will not be able to ask a question using your computer audio. However, you can still ask questions using the text Q&A feature.</small>
+        <small><sup>*</sup> Please note that if you use Safari, Firefox, or Internet Explorer, you will not be able to ask a question using your computer audio. However, you can still ask questions using the text Q&amp;A feature.</small>
       </p>
       <p>
         If you wish to use the desktop client, there are options available for all operating systems. However, there are serious security vulnerabilities for each. The IACR does not condone the installation of Zoom desktop clients at this time (15 April 2020).
@@ -137,7 +175,7 @@
       </p>
 
       <p class="alert alert-danger">
-        All conference attendees must be IACR members. When you participate in Q&A, chat, etc, you must do so in such a way that you are readily identifiable (i.e. by using the name you are known by in professional contexts). The <a href="conduct.php">code of conduct</a> still applies in a virtual setting.
+        All conference attendees must be IACR members. When you participate in Q&amp;A, chat, etc, you must do so in such a way that you are readily identifiable (i.e. by using the name you are known by in professional contexts). The <a href="conduct.php">code of conduct</a> still applies in a virtual setting.
       </p>
 
     </main>
