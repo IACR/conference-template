@@ -35,30 +35,30 @@
       <div class="row mt-3 mt-md-4">
         <aside class="col-12 col-sm-6 text-center mb-2">
           <h4 class="subSubtitle">
-            Important Professor #1
+            Lejla Batina
           </h4>
           <p class="text-center">
-            University of Peer Review<br>
-            China
+            Radboud University<br>
+            The Netherlands
           </p>
         </aside>
         <aside class="col-12 col-sm-6 text-center mb-2">
           <h4 class="subSubtitle">
-            World-Famous Researcher
+            Stjepan Picek
           </h4>
           <p class="text-center">
-            Institute for the Advancement of Causative Research<br>
-            Singapore
+            Delft University of Technology<br>
+            The Netherlands
           </p>
         </aside>
       </div>
 
       <div class="row">
         <div class="col-12 text-center mb-5">
-          <a href="mailto:doNotEmailMe@fakeDomain.com">
+          <a href="mailto:eurocrypt2020@iacr.org">
             <img src="images/icons/email.svg" class="icon" />
           </a>&nbsp;
-          doNotEmailMe@fakeDomain.com
+          eurocrypt2020@iacr.org
         </div>
       </div>
 
@@ -69,31 +69,74 @@
       <div class="row mt-3 mt-md-4">
         <aside class="col-12 col-sm-6 text-center mb-2">
           <h4 class="subSubtitle">
-            SmartGuy McWriter
+            Yuval Ishai
           </h4>
           <p class="text-center">
-            Synonym College<br>
-            Romania
+            Technion<br>
+            Israel
           </p>
         </aside>
         <aside class="col-12 col-sm-6 text-center mb-2">
           <h4 class="subSubtitle">
-            Ellis Papers
+            Anne Canteaut
           </h4>
           <p class="text-center">
-            Society for Promotion of Encryption<br>
-            Senegal
+            Inria Paris<br>
+            France
           </p>
         </aside>
       </div>
 
       <div class="row">
-        <div class="col-12 text-center">
-          <a href="mailto:reallyDoNotEmailMe@fakeDomain.com">
+        <div class="col-12 text-center mb-5">
+          <a href="mailto:eurocrypt2020programchairs@iacr.org">
             <img src="images/icons/email.svg" class="icon" />
           </a>&nbsp;
-          reallyDoNotEmailMe@fakeDomain.com
+          eurocrypt2020programchairs@iacr.org
         </div>
+      </div>
+
+      <h3 class="pageSubtitle text-center mt-4">
+        Local Organizing Committee
+      </h3>
+
+      <div class="row mt-3 mt-md-4">
+        <aside class="col-12 col-sm-3 text-center mb-2">
+          <h4 class="subSubtitle">
+            Shanley Fijn
+          </h4>
+          <p class="text-center">
+            Radboud University<br>
+            The Netherlands
+          </p>
+        </aside>
+        <aside class="col-12 col-sm-3 text-center mb-2">
+          <h4 class="subSubtitle">
+            Marin Golub
+          </h4>
+          <p class="text-center">
+            University of Zagreb<br>
+            Croatia
+          </p>
+        </aside>
+        <aside class="col-12 col-sm-3 text-center mb-2">
+          <h4 class="subSubtitle">
+            Domagoj Jakobovi&cacute;
+          </h4>
+          <p class="text-center">
+            University of Zagreb<br>
+            Croatia
+          </p>
+        </aside>
+        <aside class="col-12 col-sm-3 text-center mb-2">
+          <h4 class="subSubtitle">
+            Simona Samardjiska
+          </h4>
+          <p class="text-center">
+            Radboud University<br>
+            The Netherlands
+          </p>
+        </aside>
       </div>
 
     </main>
