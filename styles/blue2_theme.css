@@ -126,3 +126,11 @@ a:hover {
   /* NOTE: typically this is a more transparent version of the card header bg color */
     background-color: rgba(156, 188, 235, .4);
 }
+
+
+/***** Main Content: images & icons *****/
+/* change color of icons */
+.icon {
+  /* thanks https://codepen.io/sosuke/pen/Pjoqqp for generating this filter (the first two properties set the icon to black first to achieve a truer color match) */
+  filter: brightness(0) saturate(100%) invert(25%) sepia(11%) saturate(6019%) hue-rotate(315deg) brightness(97%) contrast(89%);
+}
