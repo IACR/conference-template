@@ -98,8 +98,9 @@
       <h3 id="attendWebinar" class="pageSubtitle mt-4">
         Attending a Webinar
       </h3>
+      <!-- TODO: add after first sentence below (Learn more about the IACR's statement on Zoom <a href="#">here</a>.) -->
       <p>
-        We are using Zoom for our live Q&amp;A sessions. (Learn more about the IACR's statement on Zoom <a href="#">here</a>.) <strong>You do not have to install Zoom software to attend a webinar.</strong> If you plan to attend a webinar session using your browser, it needs to be one of the following:
+        We are using Zoom for our live Q&amp;A sessions. <strong>You do not have to install Zoom software to attend a webinar.</strong> If you plan to attend a webinar session using your browser, it needs to be one of the following:
       </p>
       <ul>
         <li>
