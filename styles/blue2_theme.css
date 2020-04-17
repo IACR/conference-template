@@ -1,5 +1,7 @@
-/***** Header (in /includes/nav.php) *****/
+/* Color scheme: https://coolors.co/70709e-266dd3-194687-467999-af3e4d */
 
+
+/***** Header (in /includes/nav.php) *****/
 /* same as teal to place nav menu at top. */
 #pageTop {
   /* equivalent of d-flex */
@@ -31,12 +33,19 @@
   }
 }
 
-/* Make the image bigger on the home page. */
 .headerImg {
-    min-height: 300px;
+  min-height: 300px;
+  background-image: url('../images/banners/grayHive.jpg');
+  background-size: cover;
 }
+
+.headerGradient {
+  background: linear-gradient(rgba(32,92,128,.9),rgba(65,64,128,.3));
+}
+
+/* Make the image bigger on the home page. */
 body.home .headerImg {
-    min-height: 360px;
+  min-height: 360px;
 }
 
 /* remove the blue stripe above main on mobile. */
@@ -54,20 +63,6 @@ body.home .headerImg {
 img#logo {
   border-radius:50%;
   box-shadow: 0px 0px 20px 0px rgba(255,255,255,.8);
-}
-
-/* a background image on the header. In this theme we don't mute it by .headerGradient */
-.headerImg {
-  /*  background-image: url("../images/banners/binary.jpg");
-  background-image: url("../images/banners/ucsb.jpg"); */
-    background-image: url("../images/banners/sky.jpg");
-/*  background-image: url("../images/banners/ucsb2.png");*/
-  background-size: cover;
-}
-
-/* optional gradient to blur header image. */
-.headerGradient {
-  background: none;
 }
 
 .headerTitle, .headerInfo {
@@ -90,15 +85,32 @@ div.dropdown-menu {
 /***** Main Content: general styling *****/
 
 body {
-  background-color: rgba(156, 188, 235, .4);
+  /* background-color: rgba(25, 70, 135, 0.2); */
+  background-color: rgba(38, 109, 211, 0.2);
 }
 
 .indPageTitle {
-  color: #0F773C;
+  color: #266DD3;
+}
+
+.pageSubtitle {
+  color: #70709E;
+}
+
+.subSubtitle {
+  color: #467999;
+}
+
+a {
+  color: #973542;
+}
+
+a:hover {
+  color: #266DD3;
 }
 
 .customCard {
-  border: 1px solid #9CBCEB;
+  border: 1px solid #B8B8CF;
 }
 
 .customCardHeader {
@@ -107,7 +119,7 @@ body {
 }
 
 .dateTitle {
-  color: #CB831E;
+  color: #205C80;
 }
 
 .customCardFooter {
