@@ -16,9 +16,9 @@ function startTimer(duration, display) {
 }
 
 function adjustTimes(date, session) {
-  let starttime = moment.utc(date + ' ' + session.starttime).local().format('YYYY-MM-DD HH:mm');
+  let starttime = moment.utc(date + ' ' + session.starttime).local().format('ddd DD MMM HH:mm');
   session.localstarttime = starttime;
-  let endtime = moment.utc(date + ' ' + session.endtime).local().format('YYYY-MM-DD HH:mm');
+  let endtime = moment.utc(date + ' ' + session.endtime).local().format('ddd DD MMM HH:mm');
   session.localendtime = endtime;
 }
 
@@ -28,7 +28,6 @@ $(document).ready(function() {
     url: 'currentProgram.php',
     dataType: 'json',
       success: function(data) {
-//      document.getElementById('programJson').innerText = JSON.stringify(data, null, 2);
       var renderedProgram = document.getElementById('renderedProgram');
       if (!data.hasOwnProperty('days')) {
         renderedProgram.innerHTML = '<p>The conference program is not currently available. Please check back later.</p>';
