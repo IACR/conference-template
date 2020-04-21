@@ -97,7 +97,7 @@
               <a href="stipends.php">Deadline for student stipend
               application (Round I)</a> is now closed.
             </p>
-          </div>-->
+          </div>
           <div class="customCardRow row">
             <h6 class="dateTitle col-5 col-md-4">
               December 12 2019
@@ -106,7 +106,7 @@
               <a href="stipends.php">Deadline for student stipend
               application (Round I)</a> is now open
             </p>
-          </div>
+          </div>-->
           <div class="customCardRow row">
             <h6 class="dateTitle col-5 col-md-4">
               September 10 2019
