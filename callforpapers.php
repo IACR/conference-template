@@ -21,14 +21,14 @@
 
       <h3 class="pageSubtitle">General Information</h3>
       <p>
-        <span class="conf_name"><?php echo $META['shortName'];?></span> will take place in <span class="conf_location"><?php echo $META['location'];?></span> on <span class="conf_dates"><?php echo $META['dates'];?></span>. <span class="conf_name"><?php echo $META['shortName'];?></span> is organized by <a href="http://iacr.org/">the International Association for Cryptologic Research</a> (IACR).
+        <span class="conf_name"><?php echo $META['shortName'];?></span> will take place <!--in <span class="conf_location"><?php echo $META['location'];?></span>--> as
+        a virtual conference on <span class="conf_dates"><?php echo $META['dates'];?></span>.
+        <span class="conf_name"><?php echo $META['shortName'];?></span> is organized by <a href="http://iacr.org/">the International Association for Cryptologic Research</a> (IACR).
         The proceedings will be published by Springer in the LNCS series.
       </p>
       <p>
         Original contributions on all technical aspects of
-        cryptology are solicited for submission to <span class="editMe">Crypto 2020, the 40th Annual International Cryptology
-        Conference</span>. Submissions are welcomed on any cryptographic
-        topic including, but not limited to:
+        cryptology are solicited for submission. Topics include, but are not limited to:
       </p>
       <ul>
         <li>foundational theory and mathematics</li>

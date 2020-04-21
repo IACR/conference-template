@@ -40,6 +40,12 @@
         others relevant to event***</span>.
       </p>
       <p>
+        Now that IACR is conducting online conferences, special rules need
+        to be applied. In particular, we require that every participant in an
+        online conference should represent themselves by their full real
+        name that is associated with their professional work.
+      </p>
+      <p>
         Participants who violate this code may be sanctioned and/or
         expelled from the event, at the discretion of the General
         Chair(s). Serious incidents may be referred to the Ethics

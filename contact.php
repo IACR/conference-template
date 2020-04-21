@@ -96,7 +96,7 @@
         </div>
       </div>
 
-      <h3 class="pageSubtitle text-center mt-4">
+<!--      <h3 class="pageSubtitle text-center mt-4">
         Local Organizing Committee
       </h3>
 
@@ -138,7 +138,7 @@
           </p>
         </aside>
       </div>
-
+-->
     </main>
 
   <?php include "includes/footer.php"; ?>

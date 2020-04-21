@@ -28,7 +28,7 @@
       <h2 class="indPageTitle">
         Program
       </h2>
-
+      
       <!-- NOTE: below is placeholder content derived from the Crypto 2016 conference. remove and replace with your own content when ready. this code is here to give you an idea of what the structure of this page has looked like in the past
            <p>
              All track 1 events at this fictitious conference will
@@ -41,12 +41,28 @@
            </p>
            -->
 
+      <p class="alert alert-info">
+        <strong>Your timezone appears to be <span id="timezone"></span>
+          Times in the schedule are shown in your local timezone. Dates are
+          in UTC.
+        </strong>
+      </p>
+        
+        <div class="row">
+        <div class="col-10 offset-2">
+          <h3 class="alert alert-warning text-center">Currently happening: <a href="#session-36">Panel Discussion: Attacks</a></h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-10 offset-2">
+          <h3 class="alert alert-warning text-center">Coming up in <span class="" id="countdown"></span>: <a href="#session-38">Panel Discussion: Public Key Cryptography</a></h3>
+        </div>
+      </div>
       <div class="row">
         <div id="renderedProgram" class="col-12">
-
           <!-- Handlebars script that will render the program template based on the program.json file -->
           <script id="program-template" type="text/x-handlebars-template">
-            <div role="navigation">
+            <div class="mb-3" role="navigation">
               <ul class="nav nav-tabs nav-justified">
                 {{#each days}}
                 <li role="presentation" class="nav-item">
@@ -60,18 +76,21 @@
 
             {{#each days}}
             <div class="row" id="day-{{date}}">
-              <div class="col-12 col-sm-5">
+              <div class="col-12">
+                {{#if @first}}
+                {{else}}
                 <hr />
+                {{/if}}
                 <h3 class="pageSubtitle">
-                  {{formatDate date}}
+                  {{formatDate date}} (UTC date)
                 </h3>
               </div>
             </div>
             {{#each timeslots}}
             <div class="row">
               <div class="col-2">
-                <p class="timeSlot">
-                  {{starttime}}-{{endtime}}
+                <p class="timeSlot text-center" title="UTC: {{../date}} {{starttime}}-{{endtime}}">
+                  {{localstarttime}} <br>to<br> {{localendtime}}<br>
                 </p>
               </div>
               {{#if twosessions}}
@@ -110,6 +129,11 @@
                   {{#if slidesUrl}}
                   <span class="talkMedia">
                     &nbsp; <a href="{{slidesUrl}}"><img class="talkMediaIcon" src="images/icons/presentation.svg" title="Slides"></a>
+                  </span>
+                  {{/if}}
+                  {{#if videoUrl}}
+                  <span class="talkMedia">
+                    &nbsp; <a href="{{videoUrl}}"><img class="talkMediaIcon" src="images/icons/video.svg" title="Video"></a>
                   </span>
                   {{/if}}
                   {{/each}}
@@ -164,12 +188,21 @@
               {{else}}
               <div class="col-10">
                 <div class="mutualEvent">
-                  <h5>
+                  <h4 id="{{sessions.0.id}}">
                     {{sessions.0.session_title}}
                     {{#if sessions.0.session_url}}
                     &nbsp; <a href="{{sessions.0.session_url}}"><img class="sessionInfoIcon" src="images/icons/info.svg" title="Session Info"></a>
                     {{/if}}
-                  </h5>
+                  </h4>
+                  {{#if sessions.0.youtubeUrl}}
+                  <a class="btn btn-info m-3" href="{{sessions.0.youtubeUrl}}">YouTube</a>
+                  {{/if}}
+                  {{#if sessions.0.chatUrl}}
+                  <a class="btn btn-info m-3" href="{{sessions.0.chatUrl}}">Slack channel</a>
+                  {{/if}}
+                  {{#if sessions.0.zoomUrl}}
+                  <a class="btn btn-info m-3" href="{{sessions.0.zoomUrl}}">Zoom webinar</a>
+                  {{/if}}
                   {{#if sessions.0.location.name}}
                   <p class="eventDescr">
                     {{sessions.0.location.name}}
@@ -219,7 +252,13 @@
 
     <!-- Personal scripts -->
     <script src="./js/tooltips.js"></script>
+    <script src="https://momentjs.com/downloads/moment.js"></script>
+    <script src="https://momentjs.com/downloads/moment-timezone-with-data-10-year-range.js"></script>
     <script src="./js/program.js"></script>
-
+    <script>
+      const now = new Date();
+      document.getElementById('timezone').innerText = 'UTC' + -now.getTimezoneOffset()/60;
+    </script>
+    
   </body>
 </html>

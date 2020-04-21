@@ -39,7 +39,7 @@ require "style_picker.php";
 
     <!-- Styling -->
     <link rel="stylesheet" href="<?php echo rootPath();?>styles/main.css">
-    <link id="style" rel="stylesheet" href="<?php echo rootPath();?>styles/blue_theme.css">
+    <link id="style" rel="stylesheet" href="<?php echo rootPath();?>styles/blue2_theme.css">
     <!-- metadata for googlebot -->
     <script type="application/ld+json">
      {
