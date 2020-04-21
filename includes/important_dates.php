@@ -19,7 +19,7 @@
   </div>
   <div class="customCardRow row">
     <h6 class="dateTitle col-5 col-md-4">
-      July 09, 2020
+      <?php echo $META['firstRound'];?>
     </h6>
     <p class="col-7 col-md-8">
       First round notification
@@ -27,7 +27,7 @@
   </div>
   <div class="customCardRow row">
     <h6 class="dateTitle col-5 col-md-4">
-      July 15, 2020
+      <?php echo $META['rebuttalDue'];?>
     </h6>
     <p class="col-7 col-md-8">
       Rebuttals due
@@ -35,7 +35,7 @@
   </div>
   <div class="customCardRow row">
     <h6 class="dateTitle col-5 col-md-4">
-      August 13, 2020
+      <?php echo $META['finalNotification'];?>
     </h6>
     <p class="col-7 col-md-8">
       Final notification
@@ -43,7 +43,7 @@
   </div>
   <div class="customCardRow row">
     <h6 class="dateTitle col-5 col-md-4">
-      September 10, 2020
+      <?php echo $META['cameraReady'];?>
     </h6>
     <p class="col-7 col-md-8">
       Camera-ready version
