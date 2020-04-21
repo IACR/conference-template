@@ -97,6 +97,33 @@
       </div>
 
       <h3 class="pageSubtitle text-center mt-4">
+        Virtual Conference Administrators
+      </h3>
+      <div class="row mt-3 mt-md-4">
+        <aside class="col-12 col-sm-6 text-center mb-2">
+          <h4 class="subSubtitle">
+            Kevin McCurley
+          </h4>
+        </aside>
+        <aside class="col-12 col-sm-6 text-center mb-2">
+          <h4 class="subSubtitle">
+            Kay McKelly
+          </h4>
+          <p class="text-center">
+            IACR
+          </p>
+        </aside>
+      </div>        
+      <div class="row">
+        <div class="col-12 text-center mb-5">
+          <a href="mailto:virtual-conferences@iacr.org">
+            <img src="images/icons/email.svg" class="icon" />
+          </a>&nbsp;
+          virtual-conferences (at) iacr.org
+        </div>
+      </div>
+
+<!--      <h3 class="pageSubtitle text-center mt-4">
         Local Organizing Committee
       </h3>
 
@@ -138,7 +165,7 @@
           </p>
         </aside>
       </div>
-
+-->
     </main>
 
   <?php include "includes/footer.php"; ?>

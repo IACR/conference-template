@@ -477,3 +477,6 @@ img.sponsorPageLogo {
   height: auto;
   padding: 1.5rem;
 }
+.past {
+    text-decoration: line-through;
+}

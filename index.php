@@ -33,7 +33,7 @@
           <!-- <span class="long_conf"><?php echo $META['shortName'];?></span> will take place 
           <span class="conf_location"><?php echo $META['city'] . ', ' . $META['country'];?></span>
           on <span class="conf_dates"><?php echo $META['dates'];?></span>.-->
-            <span class="long_conf"><?php echo $META['shortName'];?></span> is the 39th Annual International Conference on the Theory and Applications of Cryptographic Techniques. Eurocrypt is one of the three flagship conferences of <a href="http://iacr.org/">the International Association for Cryptologic Research</a> (IACR). This the first Eurocrypt to be run as a virtual conference.
+            <span class="long_conf"><?php echo $META['shortName'];?></span> is the 39th Annual International Conference on the Theory and Applications of Cryptographic Techniques. Eurocrypt is one of the three flagship conferences of <a href="http://iacr.org/">the International Association for Cryptologic Research</a> (IACR). This is the first Eurocrypt to be run as a virtual conference.
         </p>
         <!-- <p class="editMe">
           Please visit the <a href="./callforpapers.php">call for papers</a> page while we work on
@@ -80,7 +80,7 @@
               <a href="acceptedpapers.php">The list of accepted papers</a> is now online.
             </p>
           </div>
-          <div class="customCardRow row">
+<!--          <div class="customCardRow row">
             <h6 class="dateTitle col-5 col-md-4">
               February 20 2020
             </h6>
@@ -106,7 +106,7 @@
               <a href="stipends.php">Deadline for student stipend
               application (Round I)</a> is now open
             </p>
-          </div>
+          </div>-->
           <div class="customCardRow row">
             <h6 class="dateTitle col-5 col-md-4">
               September 10 2019

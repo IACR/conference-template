@@ -1,9 +1,33 @@
+function startTimer(duration, display) {
+    var timer = duration, minutes, seconds;
+    setInterval(function () {
+        minutes = parseInt(timer / 60, 10);
+        seconds = parseInt(timer % 60, 10);
+
+        minutes = minutes < 10 ? "0" + minutes : minutes;
+        seconds = seconds < 10 ? "0" + seconds : seconds;
+
+        display.innerText = minutes + ":" + seconds;
+
+        if (--timer < 0) {
+            timer = duration;
+        }
+    }, 1000);
+}
+
+function adjustTimes(date, session) {
+  let starttime = moment.utc(date + ' ' + session.starttime).local().format('ddd DD MMM HH:mm');
+  session.localstarttime = starttime;
+  let endtime = moment.utc(date + ' ' + session.endtime).local().format('ddd DD MMM HH:mm');
+  session.localendtime = endtime;
+}
+
 $(document).ready(function() {
   $.ajax({
     cache: false,
-    url: './json/program.json',
+    url: 'currentProgram.php',
     dataType: 'json',
-    success: function(data) {
+      success: function(data) {
       var renderedProgram = document.getElementById('renderedProgram');
       if (!data.hasOwnProperty('days')) {
         renderedProgram.innerHTML = '<p>The conference program is not currently available. Please check back later.</p>';
@@ -27,11 +51,14 @@ $(document).ready(function() {
           if(timeslots[j]['sessions'].length > 1) {
             timeslots[j]['twosessions'] = true;
           }
+          adjustTimes(days[i].date, timeslots[j]);
         }
       }
 
       var theCompiledHtml = theTemplate(data);
       renderedProgram.innerHTML = theCompiledHtml;
+      let countdown = document.getElementById('countdown');
+      startTimer(2000, countdown);
     },
     fail: function(jqxhr, textStatus, error) {
       document.getElementById('renderedProgram');

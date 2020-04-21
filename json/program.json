@@ -1,1427 +1,1654 @@
 {
-    "_source": "https://www.iacr.org/tools",
-    "days": [
+  "name": "virtual junk",
+  "config": {
+    "default_track_locations": [
+      {
+        "name": "Enter a location"
+      }
+    ],
+    "default_talk_minutes": 25,
+    "unassigned_talks": [
+      {
+        "name": "Uncategorized",
+        "talks": [],
+        "id": "category-0"
+      }
+    ],
+    "uniqueIDIndex": 60
+  },
+  "days": [
+    {
+      "date": "2020-05-11",
+      "timeslots": [
         {
-            "date": "2020-05-10",
-            "timeslots": [
-                {
-                    "starttime": "17:00",
-                    "endtime": "20:00",
-                    "sessions": [
-                        {
-                            "session_title": "Registration",
-                            "location-comment": {
-                                "name": " "
-                            }
-                        }
-                    ]
-                },
-                {
-                    "starttime": "19:00",
-                    "endtime": "21:00",
-                    "sessions": [
-                        {
-                            "session_title": "Reception",
-                            "location-comment": {
-                                "name": " "
-                            }
-                        }
-                    ]
-                }
-            ]
+          "starttime": "13:00",
+          "endtime": "13:15",
+          "sessions": [
+            {
+              "session_title": "Opening remarks",
+              "moderator": "Conference chairs",
+              "id": "session-31"
+            }
+          ]
         },
         {
-            "date": "2020-05-11",
-            "timeslots": [
+          "starttime": "13:15",
+          "endtime": "14:15",
+          "sessions": [
+            {
+              "moderator": "Moderator: Anne Canteaut",
+              "session_title": "Panel discussion: Brief summaries on 6 papers, with Q&A and discussion.",
+              "session_url": "https://iacr.org/foobar",
+              "talks": [
                 {
-                    "endtime": "",
-                    "starttime": "opens at 8:00",
-                    "sessions": [
-                        {
-                            "session_title": "Registration",
-                            "location-comment": {
-                                "name": "De La Guerra Dining Commons"
-                            }
-                        }
-                    ]
+                  "pubkey": 30180,
+                  "authors": [
+                    "Rina Zeitoun",
+                    "Aurélien Greuet",
+                    "Jean-Sébastien Coron"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "Side-channel Masking with Pseudo-Random Generator",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30180",
+                  "affiliations": "IDEMIA, France; IDEMIA, France; University of Luxembourg"
                 },
                 {
-                    "endtime": "9:10",
-                    "starttime": "9:00",
-                    "sessions": [
-                        {
-                            "moderator-comment": " ",
-                            "session_title": "Opening remarks",
-                            "location-comment": {
-                                "name": "Westin"
-                            }
-                        }
-                    ]
+                  "pubkey": 30182,
+                  "authors": [
+                    "Jooyoung Lee",
+                    "Byeonghak Lee",
+                    "Seongkwang Kim"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "Tight Security Bounds for Double-block Hash-then-Sum MACs",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30182",
+                  "affiliations": "KAIST, Daejeon, Korea; KAIST, Daejeon, Korea; KAIST, Daejeon, Korea"
                 },
                 {
-                    "endtime": "9:35",
-                    "starttime": "9:10",
-                    "sessions": [
-                        {
-                            "moderator-comment": " ",
-                            "session_title": "Eurocrypt 2020 Best Paper",
-                            "location-comment": {
-                                "name": "Westin"
-                            }
-                        }
-                    ]
+                  "pubkey": 30179,
+                  "authors": [
+                    "Henry Corrigan-Gibbs",
+                    "Dmitry Kogan"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "Private Information Retrieval with Sublinear Online Time",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30179",
+                  "affiliations": "Stanford University, EPFL, MIT CSAIL; Stanford University"
                 },
                 {
-                    "endtime": "10:35",
-                    "starttime": "9:35",
-                    "sessions": [
-                        {
-                            "moderator-comment": " ",
-                            "session_title": "Invited talk 1",
-                            "location-comment": {
-                                "name": "Westin"
-                            }
-                        }
-                    ]
+                  "pubkey": 30178,
+                  "authors": [
+                    "Alexander May",
+                    "Andre Esser"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "Low Weight Discrete Logarithms and Subset Sum in $2^{0.65n}$ with Polynomial Memory",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30178",
+                  "affiliations": "Ruhr University Bochum; Ruhr University Bochum"
                 },
                 {
-                    "endtime": "11:00",
-                    "starttime": "10:35",
-                    "sessions": [
-                        {
-                            "moderator-comment": " ",
-                            "session_title": "Coffee break",
-                            "location-comment": {
-                                "name": "Westin"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "endtime": "12:40",
-                    "starttime": "11:00",
-                    "sessions": [
-                        {
-                            "moderator-comment": " ",
-                            "talks": [
-                                {
-                                    "title-comment": " ",
-                                    "authors-comment": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                },
-                                {
-                                    "title-comment": " ",
-                                    "authors-comment": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                },
-                                {
-                                    "title-comment": " ",
-                                    "authors-comment": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                },
-                                {
-                                    "title-comment": " ",
-                                    "authors-comment": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                }
-                            ],
-                            "session_title": "Session 1: Track I",
-                            "location-comment": {
-                                "name": "Westin"
-                            }
-                        },
-                        {
-                            "moderator-comment": " ",
-                            "talks": [
-                                {
-                                    "title-comment": " ",
-                                    "authors-comment": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                },
-                                {
-                                    "title-comment": " ",
-                                    "authors-comment": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                },
-                                {
-                                    "title-comment": " ",
-                                    "authors-comment": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                },
-                                {
-                                    "title-comment": " ",
-                                    "authors-comment": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                }
-                            ],
-                            "session_title": "Session 1: Track II",
-                            "location-comment": {
-                                "name": "Westin"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "endtime": "14:00",
-                    "starttime": "12:40",
-                    "sessions": [
-                        {
-                            "session_title": "Lunch break",
-                            "location-comment": {
-                                "name": "Westin"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "endtime": "15:15",
-                    "starttime": "14:00",
-                    "sessions": [
-                        {
-                            "moderator-comment": " ",
-                            "talks": [
-                                {
-                                    "title-comment": " ",
-                                    "authors-comment": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                },
-                                {
-                                    "title-comment": " ",
-                                    "authors-comment": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                },
-                                {
-                                    "title-comment": " ",
-                                    "authors-comment": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                }
-                            ],
-                            "session_title": "Session 2: Track I",
-                            "location-comment": {
-                                "name": "Westin"
-                            }
-                        },
-                        {
-                            "moderator-comment": " ",
-                            "talks": [
-                                {
-                                    "title-comment": " ",
-                                    "authors-comment": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                },
-                                {
-                                    "title-comment": " ",
-                                    "authors-comment": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                },
-                                {
-                                    "title-comment": " ",
-                                    "authors-comment": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                }
-                            ],
-                            "session_title": "Session 2: Track II",
-                            "location-comment": {
-                                "name": "Westin"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "endtime": "15:45",
-                    "starttime": "15:15",
-                    "sessions": [
-                        {
-                            "session_title": "Coffee Break",
-                            "location-comment": {
-                                "name": "Westin"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "endtime": "17:00",
-                    "starttime": "15:45",
-                    "sessions": [
-                        {
-                            "moderator-comment": " ",
-                            "talks-comment": [
-                                {
-                                    "title": " ",
-                                    "authors": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " n"
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                },
-                                {
-                                    "title": " ",
-                                    "authors": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                }
-                            ],
-                            "session_title": "Session 3: Track I",
-                            "location-comment": {
-                                "name": " "
-                            }
-                        },
-                        {
-                            "moderator-comment": " ",
-                            "talks-comment": [
-                                {
-                                    "title": " ",
-                                    "authors": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " n"
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                },
-                                {
-                                    "title": " ",
-                                    "authors": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                }
-                            ],
-                            "session_title": "Session 3: Track II",
-                            "location-comment": {
-                                "name": " "
-                            }
-                        }
-                    ]
-                },
-                {
-                    "endtime": "19:00",
-                    "starttime": "22:00",
-                    "sessions": [
-                        {
-                            "session_title": "Rump session",
-                            "location-comment": {
-                                "name": "Westin"
-                            }
-                        }
-                    ]
+                  "pubkey": 30177,
+                  "authors": [
+                    "Bao Li",
+                    "Wei Yu",
+                    "Saud Al Musa"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "Double-Base Chains for Scalar Multiplications on Elliptic Curves",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30177",
+                  "affiliations": "State Key Laboratory of Information Security, Institute of Information Engineering, Chinese Academy of Sciences, Beijing 100093, China, and School of Cyber Security, University of Chinese Academy of Sciences, Beijing 100049, China; Institute of Information Engineering, Chinese Academy of Sciences, China; College of Computer Science and Engineering, Taibah University, Medina, Saudi Arabia"
                 }
-            ]
+              ],
+              "id": "session-32"
+            }
+          ]
         },
         {
-            "date": "2020-05-12",
-            "timeslots": [
-                {
-                    "endtime-comment": "",
-                    "starttime": "opens at 8:00",
-                    "sessions": [
-                        {
-                            "session_title": "Registration",
-                            "location-comment": {
-                                "name": " "
-                            }
-                        }
-                    ]
-                },
-                {
-                    "endtime": "10:25",
-                    "starttime": "09:00",
-                    "sessions": [
-                        {
-                            "moderator-comment": " ",
-                            "talks": [
-                                {
-                                    "title-comment": " ",
-                                    "authors-comment": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                },
-                                {
-                                    "title-comment": " ",
-                                    "authors-comment": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                },
-                                {
-                                    "title-comment": " ",
-                                    "authors-comment": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                },
-                                {
-                                    "title-comment": " ",
-                                    "authors-comment": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                }
-                            ],
-                            "session_title": "Session 4: Track I",
-                            "location-comment": {
-                                "name": "Westin"
-                            }
-                        },
-                        {
-                            "moderator-comment": " ",
-                            "talks": [
-                                {
-                                    "title-comment": " ",
-                                    "authors-comment": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                },
-                                {
-                                    "title-comment": " ",
-                                    "authors-comment": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                },
-                                {
-                                    "title-comment": " ",
-                                    "authors-comment": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                },
-                                {
-                                    "title-comment": " ",
-                                    "authors-comment": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                }
-                            ],
-                            "session_title": "Session 4: Track II",
-                            "location-comment": {
-                                "name": "Westin"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "endtime": "11:00",
-                    "starttime": "10:25",
-                    "sessions": [
-                        {
-                            "moderator-comment": " ",
-                            "session_title": "Coffee break",
-                            "location-comment": {
-                                "name": "Westin"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "endtime": "10:25",
-                    "starttime": "09:00",
-                    "sessions": [
-                        {
-                            "moderator-comment": " ",
-                            "talks": [
-                                {
-                                    "title-comment": " ",
-                                    "authors-comment": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                },
-                                {
-                                    "title-comment": " ",
-                                    "authors-comment": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                },
-                                {
-                                    "title-comment": " ",
-                                    "authors-comment": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                },
-                                {
-                                    "title-comment": " ",
-                                    "authors-comment": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                }
-                            ],
-                            "session_title": "Session 5: Track I",
-                            "location-comment": {
-                                "name": "Westin"
-                            }
-                        },
-                        {
-                            "moderator-comment": " ",
-                            "talks": [
-                                {
-                                    "title-comment": " ",
-                                    "authors-comment": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                },
-                                {
-                                    "title-comment": " ",
-                                    "authors-comment": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                },
-                                {
-                                    "title-comment": " ",
-                                    "authors-comment": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                },
-                                {
-                                    "title-comment": " ",
-                                    "authors-comment": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                }
-                            ],
-                            "session_title": "Session 5: Track II",
-                            "location-comment": {
-                                "name": "Westin"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "endtime": "14:00",
-                    "starttime": "12:40",
-                    "sessions": [
-                        {
-                            "session_title": "Lunch break",
-                            "location-comment": {
-                                "name": "Westin"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "endtime": "14:25",
-                    "starttime": "14:00",
-                    "sessions": [
-                        {
-                            "moderator-comment": " ",
-                            "session_title": "Eurocrypt 2020 Best Student Paper",
-                            "location-comment": {
-                                "name": "Westin"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "endtime": "15:25",
-                    "starttime": "14:25",
-                    "sessions": [
-                        {
-                            "moderator-comment": " ",
-                            "session_title": "Invited talk 2",
-                            "location-comment": {
-                                "name": "Westin"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "endtime": "15:55",
-                    "starttime": "15:25",
-                    "sessions": [
-                        {
-                            "session_title": "Coffee Break",
-                            "location-comment": {
-                                "name": "Westin"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "endtime": "17:10",
-                    "starttime": "15:55",
-                    "sessions": [
-                        {
-                            "moderator-comment": " ",
-                            "talks-comment": [
-                                {
-                                    "title": " ",
-                                    "authors": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                },
-                                {
-                                    "title": " ",
-                                    "authors": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                }
-                            ],
-                            "session_title": "Session 6: Track I",
-                            "location-comment": {
-                                "name": " "
-                            }
-                        },
-                        {
-                            "moderator-comment": " ",
-                            "talks-comment": [
-                                {
-                                    "title": " ",
-                                    "authors": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                },
-                                {
-                                    "title": " ",
-                                    "authors": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                }
-                            ],
-                            "session_title": "Session 6: Track II",
-                            "location-comment": {
-                                "name": " "
-                            }
-                        }
-                    ]
-                }
-            ]
+          "starttime": "14:15",
+          "endtime": "14:30",
+          "sessions": [
+            {
+              "session_title": "Break",
+              "id": "session-33"
+            }
+          ]
         },
         {
-            "date": "2020-05-13",
-            "timeslots": [
+          "starttime": "14:30",
+          "endtime": "15:30",
+          "sessions": [
+            {
+              "moderator": "Chair: TBD",
+              "session_title": "Panel discussion: attacks. Brief summaries on 7 papers, with Q&A and discussion.",
+              "talks": [
                 {
-                    "endtime-comment": "9:00",
-                    "starttime": "opens at 8:00",
-                    "sessions": [
-                        {
-                            "session_title": "Registration",
-                            "location-comment": {
-                                "name": " "
-                            }
-                        }
-                    ]
+                  "pubkey": 30223,
+                  "authors": [
+                    "Jian Guo",
+                    "Zhenzhen Bao",
+                    "Ling Song",
+                    "Chun Guo"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "TNT: How to Tweak a Block Cipher",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30223",
+                  "affiliations": "Nanyang Technological University, Singapore, Singapore; Nanyang Technological University, Singapore, Singapore; State Key Laboratory of Information Security, Institute of Information Engineering, Chinese Academy of Sciences, Beijing, China, and Jinan University, Guangzhou, China; Key Laboratory of Cryptologic Technology and Information Security of Ministry of Education, Shandong University, Qingdao, China, and School of Cyber Science and Technology, Shandong University, Qingdao, China"
                 },
                 {
-                    "endtime": "10:25",
-                    "starttime": "09:00",
-                    "sessions": [
-                        {
-                            "moderator-comment": " ",
-                            "talks": [
-                                {
-                                    "title-comment": " ",
-                                    "authors-comment": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                },
-                                {
-                                    "title-comment": " ",
-                                    "authors-comment": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                },
-                                {
-                                    "title-comment": " ",
-                                    "authors-comment": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                },
-                                {
-                                    "title-comment": " ",
-                                    "authors-comment": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                }
-                            ],
-                            "session_title": "Session 7: Track I",
-                            "location-comment": {
-                                "name": "Westin"
-                            }
-                        },
-                        {
-                            "moderator-comment": " ",
-                            "talks": [
-                                {
-                                    "title-comment": " ",
-                                    "authors-comment": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                },
-                                {
-                                    "title-comment": " ",
-                                    "authors-comment": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                },
-                                {
-                                    "title-comment": " ",
-                                    "authors-comment": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                },
-                                {
-                                    "title-comment": " ",
-                                    "authors-comment": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                }
-                            ],
-                            "session_title": "Session 7: Track II",
-                            "location-comment": {
-                                "name": "Westin"
-                            }
-                        }
-                    ]
+                  "pubkey": 30176,
+                  "authors": [
+                    "Mridul Nandi"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "Mind the Composition: Birthday Bound Attacks on EWCDMD and SoKAC21",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30176",
+                  "affiliations": "Indian Statistical Institute"
                 },
                 {
-                    "endtime": "11:00",
-                    "starttime": "10:25",
-                    "sessions": [
-                        {
-                            "moderator-comment": " ",
-                            "session_title": "Coffee break",
-                            "location-comment": {
-                                "name": "Westin"
-                            }
-                        }
-                    ]
+                  "pubkey": 30233,
+                  "authors": [
+                    "Orr Dunkelman",
+                    "Nathan Keller",
+                    "Adi Shamir",
+                    "Noam Lasry"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "New Slide Attacks on Almost Self-Similar Ciphers",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30233",
+                  "affiliations": "University of Haifa; Bar-Ilan University; Weizmann Institute of Science; Bar-Ilan University"
                 },
                 {
-                    "endtime": "12:40",
-                    "starttime": "11:00",
-                    "sessions": [
-                        {
-                            "moderator-comment": " ",
-                            "talks": [
-                                {
-                                    "title-comment": " ",
-                                    "authors-comment": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                },
-                                {
-                                    "title-comment": " ",
-                                    "authors-comment": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                },
-                                {
-                                    "title-comment": " ",
-                                    "authors-comment": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                },
-                                {
-                                    "title-comment": " ",
-                                    "authors-comment": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                }
-                            ],
-                            "session_title": "Session 8: Track I",
-                            "location-comment": {
-                                "name": "Westin"
-                            }
-                        },
-                        {
-                            "moderator-comment": " ",
-                            "talks": [
-                                {
-                                    "title-comment": " ",
-                                    "authors-comment": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                },
-                                {
-                                    "title-comment": " ",
-                                    "authors-comment": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                },
-                                {
-                                    "title-comment": " ",
-                                    "authors-comment": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                },
-                                {
-                                    "title-comment": " ",
-                                    "authors-comment": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                }
-                            ],
-                            "session_title": "Session 8: Track II",
-                            "location-comment": {
-                                "name": "Westin"
-                            }
-                        }
-                    ]
+                  "pubkey": 30228,
+                  "authors": [
+                    "Yu Sasaki",
+                    "Akinori Hosoyamada"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "Finding Hash Collisions with Quantum Computers by Using Differential Trails with Smaller Probability than Birthday Bound",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30228",
+                  "affiliations": "NTT Secure Platform Laboratories; NTT Secure Platform Laboratories / Nagoya University"
                 },
                 {
-                    "endtime": "14:00",
-                    "starttime": "12:40",
-                    "sessions": [
-                        {
-                            "session_title": "Lunch break",
-                            "location-comment": {
-                                "name": "Westin"
-                            }
-                        }
-                    ]
+                  "pubkey": 30187,
+                  "authors": [
+                    "Orr Dunkelman",
+                    "Nathan Keller",
+                    "Adi Shamir",
+                    "Eyal Ronen"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "The Retracing Boomerang Attack",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30187",
+                  "affiliations": "University of Haifa; Bar-Ilan University; Weizmann Institute of Science; Tel Aviv University and KU Leuven"
                 },
                 {
-                    "endtime": "15:40",
-                    "starttime": "14:00",
-                    "sessions": [
-                        {
-                            "moderator-comment": " ",
-                            "talks": [
-                                {
-                                    "title-comment": " ",
-                                    "authors-comment": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                },
-                                {
-                                    "title-comment": " ",
-                                    "authors-comment": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                },
-                                {
-                                    "title-comment": " ",
-                                    "authors-comment": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                }
-                            ],
-                            "session_title": "Session 9: Track I",
-                            "location-comment": {
-                                "name": "Westin"
-                            }
-                        },
-                        {
-                            "moderator-comment": " ",
-                            "talks": [
-                                {
-                                    "title-comment": " ",
-                                    "authors-comment": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                },
-                                {
-                                    "title-comment": " ",
-                                    "authors-comment": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                },
-                                {
-                                    "title-comment": " ",
-                                    "authors-comment": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                }
-                            ],
-                            "session_title": "Session 9: Track II",
-                            "location-comment": {
-                                "name": "Westin"
-                            }
-                        }
-                    ]
+                  "pubkey": 30216,
+                  "authors": [
+                    "Fernando Virdia",
+                    "Mélissa Rossi",
+                    "Jan-Pieter D’Anvers"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "(One) failure is not an option: Bootstrapping the search for failures in lattice-based encryption schemes",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30216",
+                  "affiliations": "Information Security Group, Royal Holloway, University of London, UK; ANSSI, ENS Paris, Thales, France, and INRIA; imec-COSIC, KU Leuven, Belgium"
                 },
                 {
-                    "endtime": "15:40",
-                    "starttime": "16:10",
-                    "sessions": [
-                        {
-                            "session_title": "Coffee Break",
-                            "location-comment": {
-                                "name": "Westin"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "endtime": "19:30",
-                    "starttime": "23:00",
-                    "sessions": [
-                        {
-                            "session_title": "Gala dinner",
-                            "location": {
-                                "name": "Lauba"
-                            }
-                        }
-                    ]
+                  "pubkey": 30200,
+                  "authors": [
+                    "Claudio Orlandi",
+                    "Diego F. Aranha",
+                    "Greg Zaverucha",
+                    "Akira Takahashi"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "Security of Hedged Fiat-Shamir Signatures under Fault Attacks",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30200",
+                  "affiliations": "Department of Computer Science, DIGIT, Aarhus University, Denmark; Department of Engineering, DIGIT, Aarhus University, Denmark; Microsoft Research, USA; Department of Computer Science, DIGIT, Aarhus University, Denmark"
                 }
-            ]
+              ],
+              "id": "session-34"
+            }
+          ]
         },
         {
-            "date": "2020-05-14",
-            "timeslots": [
+          "starttime": "15:30",
+          "endtime": "15:45",
+          "sessions": [
+            {
+              "session_title": "Break",
+              "id": "session-35"
+            }
+          ]
+        },
+        {
+          "starttime": "15:45",
+          "endtime": "16:45",
+          "sessions": [
+            {
+              "moderator": "Chair: TBD",
+              "session_title": "Panel discussion: Brief summaries on 6 papers on a random topic, with Q&A",
+              "talks": [
                 {
-                    "endtime-comment": "9:00",
-                    "starttime": "opens at 8:00",
-                    "sessions": [
-                        {
-                            "session_title": "Registration",
-                            "location-comment": {
-                                "name": " "
-                            }
-                        }
-                    ]
+                  "pubkey": 30229,
+                  "authors": [
+                    "Marc Fischlin",
+                    "Christian Janson",
+                    "Patrick Harasser"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "Signatures from Sequential-OR Proofs",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30229",
+                  "affiliations": "Technische Universität Darmstadt; Technische Universität Darmstadt; Technische Universität Darmstadt"
                 },
                 {
-                    "endtime": "10:25",
-                    "starttime": "09:00",
-                    "sessions": [
-                        {
-                            "moderator-comment": " ",
-                            "talks": [
-                                {
-                                    "title-comment": " ",
-                                    "authors-comment": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                },
-                                {
-                                    "title-comment": " ",
-                                    "authors-comment": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                },
-                                {
-                                    "title-comment": " ",
-                                    "authors-comment": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                },
-                                {
-                                    "title-comment": " ",
-                                    "authors-comment": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                }
-                            ],
-                            "session_title": "Session 10: Track I",
-                            "location-comment": {
-                                "name": "Westin"
-                            }
-                        },
-                        {
-                            "moderator-comment": " ",
-                            "talks": [
-                                {
-                                    "title-comment": " ",
-                                    "authors-comment": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                },
-                                {
-                                    "title-comment": " ",
-                                    "authors-comment": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                },
-                                {
-                                    "title-comment": " ",
-                                    "authors-comment": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                },
-                                {
-                                    "title-comment": " ",
-                                    "authors-comment": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                }
-                            ],
-                            "session_title": "Session 10: Track II",
-                            "location-comment": {
-                                "name": "Westin"
-                            }
-                        }
-                    ]
+                  "pubkey": 30234,
+                  "authors": [
+                    "Shafi Goldwasser",
+                    "Sanjam Garg",
+                    "Prashant Nalini Vasudevan"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "Formalizing Data Deletion in the Context of the Right to be Forgotten",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30234",
+                  "affiliations": "Simons Institute for the Theory of Computing, UC Berkeley; UC Berkeley; UC Berkeley"
                 },
                 {
-                    "endtime": "11:00",
-                    "starttime": "10:25",
-                    "sessions": [
-                        {
-                            "moderator-comment": " ",
-                            "session_title": "Coffee break",
-                            "location-comment": {
-                                "name": "Westin"
-                            }
-                        }
-                    ]
+                  "pubkey": 30238,
+                  "authors": [
+                    "Amos Beimel",
+                    "Hussien Othman"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "Evolving Ramp Secret Sharing with a Small Gap",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30238",
+                  "affiliations": "Ben Gurion University, Beer Sheva, Israel; Ben Gurion University, Beer Sheva, Israel"
                 },
                 {
-                    "endtime": "12:40",
-                    "starttime": "11:00",
-                    "sessions": [
-                        {
-                            "moderator-comment": " ",
-                            "talks": [
-                                {
-                                    "title-comment": " ",
-                                    "authors-comment": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                },
-                                {
-                                    "title-comment": " ",
-                                    "authors-comment": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                },
-                                {
-                                    "title-comment": " ",
-                                    "authors-comment": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                },
-                                {
-                                    "title-comment": " ",
-                                    "authors-comment": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                }
-                            ],
-                            "session_title": "Session 11: Track I",
-                            "location-comment": {
-                                "name": "Westin"
-                            }
-                        },
-                        {
-                            "moderator-comment": " ",
-                            "talks": [
-                                {
-                                    "title-comment": " ",
-                                    "authors-comment": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                },
-                                {
-                                    "title-comment": " ",
-                                    "authors-comment": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                },
-                                {
-                                    "title-comment": " ",
-                                    "authors-comment": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                },
-                                {
-                                    "title-comment": " ",
-                                    "authors-comment": [
-                                        {
-                                            "name": " "
-                                        },
-                                        {
-                                            "name": " "
-                                        }
-                                    ]
-                                }
-                            ],
-                            "session_title": "Session 11: Track II",
-                            "location-comment": {
-                                "name": "Westin"
-                            }
-                        }
-                    ]
+                  "pubkey": 30232,
+                  "authors": [
+                    "Joan Daemen",
+                    "Lejla Batina",
+                    "Thierry Simon",
+                    "Francesco Regazzoni",
+                    "Vincent Grosso",
+                    "Pedro Maat Costa Massolino",
+                    "Kostas Papagiannopoulos",
+                    "Niels Samwel"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "Friet: an Authenticated Encryption Scheme with Built-in Fault Detection",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30232",
+                  "affiliations": "Digital Security Group, Radboud University; Digital Security Group, Radboud University; Digital Security Group, Radboud University and STMicroelectronics; ALaRI, University of Lugano; Digital Security Group, Radboud University and CNRS/Univ. Lyon, Laboratoire Hubert Curien UMR 5516; Digital Security Group, Radboud University; Digital Security Group, Radboud University and NXP Semiconductors Hamburg; Digital Security Group, Radboud University"
+                },
+                {
+                  "pubkey": 30241,
+                  "authors": [
+                    "Zvika Brakerski",
+                    "Nico Döttling"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "Hardness of LWE on General Entropic Distributions",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30241",
+                  "affiliations": "Weizmann Institute of Science; CISPA Helmholtz Center"
+                },
+                {
+                  "pubkey": 30237,
+                  "authors": [
+                    "Huijia Lin",
+                    "Ji Luo"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "Compact Adaptively Secure ABE from k-Lin: Beyond NC1 and towards NL",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30237",
+                  "affiliations": "University of Washington, Seattle; University of Washington, Seattle"
+                },
+                {
+                  "pubkey": 30239,
+                  "authors": [
+                    "Alexander Russell",
+                    "Fang Song",
+                    "Gorjan Alagic",
+                    "Christian Majenz"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "Quantum-access-secure message authentication via blind-unforgeability",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30239",
+                  "affiliations": "Department of Computer Science and Engineering, University of Connecticut; Department of Computer Science and Engineering, University of Connecticut; QuICS, University of Maryland, NIST; QuSoft and Centrum Wiskunde & Informatica, Amsterdam, The Netherlands"
+                },
+                {
+                  "pubkey": 30231,
+                  "authors": [
+                    "Ron Steinfeld",
+                    "Damien Stehlé",
+                    "Amin Sakzad",
+                    "Veronika Kuchta",
+                    "Shi-Feng Sun"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "Measure-Rewind-Measure: Tighter Quantum Random Oracle Model Proofs for One-Way to Hiding and CCA Security",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30231",
+                  "affiliations": "Monash University; Univ. Lyon, EnsL, UCBL, CNRS, Inria, LIP, Institut Universitaire de France; Monash University; Monash University; Monash University, Data61, CSIRO"
                 }
-            ]
+              ],
+              "id": "session-36"
+            }
+          ]
         }
-    ]
+      ]
+    },
+    {
+      "date": "2020-05-12",
+      "timeslots": [
+        {
+          "starttime": "13:00",
+          "endtime": "13:15",
+          "sessions": [
+            {
+              "session_title": "Opening remarks",
+              "id": "session-37"
+            }
+          ]
+        },
+        {
+          "starttime": "13:15",
+          "endtime": "14:15",
+          "sessions": [
+            {
+              "moderator": "Chair: TBD",
+              "session_title": "Another panel discussion",
+              "talks": [
+                {
+                  "pubkey": 30230,
+                  "authors": [
+                    "Vinod Vaikuntanathan",
+                    "Yevgeniy Dodis",
+                    "Daniel Wichs"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "Extracting Randomness from Extractor-Dependent Sources",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30230",
+                  "affiliations": "MIT; NYU; Northeastern University and NTT Research Inc."
+                },
+                {
+                  "pubkey": 30226,
+                  "authors": [
+                    "Gil Segev",
+                    "Lior Rotem",
+                    "Ido Shahaf"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "Generic-Group Delay Functions Require Hidden-Order Groups",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30226",
+                  "affiliations": "Hebrew University of Jerusalem; Hebrew University of Jerusalem; Hebrew University of Jerusalem"
+                },
+                {
+                  "pubkey": 30184,
+                  "authors": [
+                    "Amit Sahai",
+                    "Dakshita Khurana",
+                    "Saikrishna Badrinarayanan",
+                    "Aayush Jain",
+                    "Rex Fernando"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "Statistical ZAP Arguments",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30184",
+                  "affiliations": "UCLA; UIUC; VISA Research; UCLA; UCLA"
+                },
+                {
+                  "pubkey": 30244,
+                  "authors": [
+                    "Rafail M. Ostrovsky",
+                    "Aggelos Kiayias",
+                    "Juan A. Garay",
+                    "Vassilis Zikas",
+                    "Giorgos Panagiotakos"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "Resource-Restricted Cryptography: Revisiting MPC Bounds in the Proof-of-Work Era",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30244",
+                  "affiliations": "UCLA Department of Computer Science and Department of Mathematics; School of Informatics, University of Edinburgh & IOHK; Department of Computer Science and Engineering, Texas A&M University; School of Informatics, University of Edinburgh & IOHK; School of Informatics, University of Edinburgh"
+                },
+                {
+                  "pubkey": 30235,
+                  "authors": [
+                    "Benny Pinkas",
+                    "Mike Rosulek",
+                    "Avishay Yanai",
+                    "Ni Trieu"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "PSI from PaXoS: Fast, Malicious Private Set Intersection",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30235",
+                  "affiliations": "Bar-Ilan University; Oregon State University; VMware Research, Israel; Oregon State University"
+                },
+                {
+                  "pubkey": 30245,
+                  "authors": [
+                    "Vinod Vaikuntanathan",
+                    "Daniel Wichs",
+                    "Alex Lombardi"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "Statistical ZAPR Arguments from Bilinear Maps",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30245",
+                  "affiliations": "MIT; Northeastern and NTT Research; MIT"
+                },
+                {
+                  "pubkey": 30227,
+                  "authors": [
+                    "Alessandro Chiesa",
+                    "Nicholas Spooner",
+                    "Dev Ojha"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "Fractal: Post-Quantum and Transparent Recursive Proofs from Holography",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30227",
+                  "affiliations": "UC Berkeley; UC Berkeley; UC Berkeley"
+                }
+              ],
+              "id": "session-38"
+            }
+          ]
+        },
+        {
+          "starttime": "14:15",
+          "endtime": "14:30",
+          "sessions": [
+            {
+              "session_title": "Break",
+              "id": "session-39"
+            }
+          ]
+        },
+        {
+          "starttime": "14:30",
+          "endtime": "15:30",
+          "sessions": [
+            {
+              "moderator": "Chair: TBD",
+              "session_title": "Invited talk: Alice Silverberg",
+              "talks": [
+                {
+                  "pubkey": 30257,
+                  "authors": [
+                    "Alice Silverberg"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "Mathematics and Cryptography: A Marriage of Convenience?",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30257",
+                  "affiliations": "University of California, Irvine"
+                }
+              ],
+              "id": "session-40"
+            }
+          ]
+        },
+        {
+          "starttime": "15:30",
+          "endtime": "15:45",
+          "sessions": [
+            {
+              "session_title": "Break",
+              "id": "session-41"
+            }
+          ]
+        },
+        {
+          "starttime": "15:45",
+          "endtime": "16:45",
+          "sessions": [
+            {
+              "moderator": "Chair: TBD",
+              "session_title": "Yet another panel discussion",
+              "talks": [
+                {
+                  "pubkey": 30255,
+                  "authors": [
+                    "Juan Garay",
+                    "Vassilis Zikas",
+                    "Ran Cohen"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "Broadcast-Optimal Two-Round MPC",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30255",
+                  "affiliations": "Texas A&M University; University of Edinburgh and IOHK; Northeastern University"
+                },
+                {
+                  "pubkey": 30250,
+                  "authors": [
+                    "Geoffroy Couteau",
+                    "Shuichi Katsumata",
+                    "Bogdan Ursu"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "Non-Interactive Zero-Knowledge in Pairing-Free Groups from Weaker Assumptions",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30250",
+                  "affiliations": "CNRS, IRIF, Université Paris-Diderot, France; AIST, Japan; ETH Zurich, Switzerland"
+                },
+                {
+                  "pubkey": 30251,
+                  "authors": [
+                    "Mihir Bellare",
+                    "Igors Stepanovs"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "Security under Message-Derived Keys: Signcryption in iMessage",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30251",
+                  "affiliations": "UC San Diego; ETH Zürich"
+                },
+                {
+                  "pubkey": 30254,
+                  "authors": [
+                    "Srinivasan Raghuraman",
+                    "Siddhartha Jayanti",
+                    "Nikhil Vyas"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "Efficient Constructions for Almost-everywhere Secure Computation",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30254",
+                  "affiliations": "MIT; MIT; MIT"
+                },
+                {
+                  "pubkey": 30249,
+                  "authors": [
+                    "Akin Ünal"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "Impossibility Results for Lattice-Based Functional Encryption Schemes",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30249",
+                  "affiliations": "Karlsruhe Institute of Technology and ETH Zurich, Switzerland"
+                },
+                {
+                  "pubkey": 30253,
+                  "authors": [
+                    "Mihir Bellare",
+                    "Felix Günther",
+                    "Hannah Davis"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "Separate Your Domains: NIST PQC KEMs, Oracle Cloning and Read-Only Indifferentiability",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30253",
+                  "affiliations": "University of California San Diego; ETH Zürich; University of California San Diego"
+                },
+                {
+                  "pubkey": 30256,
+                  "authors": [
+                    "Matthieu Rivain",
+                    "Sonia Belaïd",
+                    "Pierre-Evariste Dagand",
+                    "Darius Mercadier",
+                    "Raphaël Wintersdorff"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "Tornado: Automatic Generation of Probing-Secure Masked Bitsliced Implementations",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30256",
+                  "affiliations": "CryptoExperts, Paris, France; CryptoExperts, Paris, France; Sorbonne Université, Paris, France; Sorbonne Université, Paris, France; "
+                }
+              ],
+              "id": "session-42"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2020-05-13",
+      "timeslots": [
+        {
+          "starttime": "13:00",
+          "endtime": "13:15",
+          "sessions": [
+            {
+              "session_title": "Opening remarks",
+              "id": "session-43"
+            }
+          ]
+        },
+        {
+          "starttime": "13:15",
+          "endtime": "14:15",
+          "sessions": [
+            {
+              "moderator": "Chair: TBD",
+              "session_title": "And yet another panel discussion",
+              "talks": [
+                {
+                  "pubkey": 30225,
+                  "authors": [
+                    "Rafael Pass",
+                    "Ilan Komargodski",
+                    "Naomi Ephraim",
+                    "Cody Freitag"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "Continuous Verifiable Delay Functions",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30225",
+                  "affiliations": "Cornell Tech; NTT Research; Cornell Tech; Cornell Tech"
+                },
+                {
+                  "pubkey": 30236,
+                  "authors": [
+                    "Alexander Russell",
+                    "Gorjan Alagic",
+                    "Christian Majenz"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "Efficient simulation of random states and random unitaries",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30236",
+                  "affiliations": "Department of Computer Science and Engineering, University of Connecticut; QuICS, University of Maryland, and NIST, Gaithersburg, Maryland; QuSoft and Centrum Wiskunde & Informatica, Amsterdam, The Netherlands"
+                },
+                {
+                  "pubkey": 30246,
+                  "authors": [
+                    "Jean-Pierre Tillich",
+                    "Philippe Gaborit",
+                    "Olivier Ruatta",
+                    "Magali Bardet",
+                    "Pierre Briaud",
+                    "Maxime Bros",
+                    "Vincent Neiger"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "An Algebraic Attack on Rank Metric Code-Based Cryptosystems",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30246",
+                  "affiliations": "Inria, 2 rue Simone Iff, 75012 Paris, France; Univ. Limoges, CNRS, XLIM, UMR 7252, F-87000 Limoges, France; Univ. Limoges, CNRS, XLIM, UMR 7252, F-87000 Limoges, France; LITIS, University of Rouen Normandie, France, and Inria, 2 rue Simone Iff, 75012 Paris, France; Inria, 2 rue Simone Iff, 75012 Paris, France; Univ. Limoges, CNRS, XLIM, UMR 7252, F-87000 Limoges, France; Univ. Limoges, CNRS, XLIM, UMR 7252, F-87000 Limoges, France"
+                },
+                {
+                  "pubkey": 30248,
+                  "authors": [
+                    "Vipul Goyal",
+                    "Abhishek Jain",
+                    "Giulio Malavolta",
+                    "Zhengzhong Jin"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "Statistical Zaps and New Oblivious Transfer Protocols",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30248",
+                  "affiliations": "Carnegie Mellon University; Johns Hopkins University; UC Berkeley & Carnegie Mellon University; Johns Hopkins University"
+                },
+                {
+                  "pubkey": 30243,
+                  "authors": [
+                    "Frederik Vercauteren",
+                    "Wouter Castryck",
+                    "Lorenz Panny"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "Rational isogenies from irrational endomorphisms",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30243",
+                  "affiliations": "Cosic, research group at imec and KU Leuven, Belgium; Cosic, research group at imec and KU Leuven, Belgium; Department of Mathematics and Computer Science, Technische Universiteit Eindhoven, The Netherlands"
+                },
+                {
+                  "pubkey": 30247,
+                  "authors": [
+                    "Rafael Pass",
+                    "Ilan Komargodski",
+                    "Naomi Ephraim",
+                    "Cody Freitag"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "SPARKs: Succinct Parallelizable Arguments of Knowledge",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30247",
+                  "affiliations": "Cornell Tech; NTT Research; Cornell Tech; Cornell Tech"
+                }
+              ],
+              "id": "session-44"
+            }
+          ]
+        },
+        {
+          "starttime": "14:15",
+          "endtime": "14:30",
+          "sessions": [
+            {
+              "session_title": "Break",
+              "id": "session-45"
+            }
+          ]
+        },
+        {
+          "starttime": "14:30",
+          "endtime": "15:30",
+          "sessions": [
+            {
+              "moderator": "Chair: TBD",
+              "session_title": "Invited talk: Alon Rosen",
+              "talks": [
+                {
+                  "pubkey": 30258,
+                  "authors": [
+                    "Alon Rosen"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "Fine-Grained Cryptography: A New Frontier?",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30258",
+                  "affiliations": "IDC Herzliya"
+                }
+              ],
+              "id": "session-46"
+            }
+          ]
+        },
+        {
+          "starttime": "15:30",
+          "endtime": "15:45",
+          "sessions": [
+            {
+              "session_title": "Break",
+              "id": "session-47"
+            }
+          ]
+        },
+        {
+          "starttime": "15:45",
+          "endtime": "16:45",
+          "sessions": [
+            {
+              "moderator": "Chair: TBD",
+              "session_title": "Session title TBD",
+              "talks": [
+                {
+                  "pubkey": 30224,
+                  "authors": [
+                    "André Schrottenloher",
+                    "Xavier Bonnetain"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "Quantum Security Analysis of CSIDH",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30224",
+                  "affiliations": "Inria, France; Inria, France and University of Waterloo, Canada"
+                },
+                {
+                  "pubkey": 30218,
+                  "authors": [
+                    "Willi Meier",
+                    "Gregor Leander",
+                    "Qingju Wang",
+                    "Yosuke Todo",
+                    "Yonglin Hao"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "Modeling for Three-Subset Division Property without Unknown Subset -- Improved Cube Attacks against Trivium and Grain-128AEAD",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30218",
+                  "affiliations": "FHNW; Ruhr University Bochum; University of Luxembourg; NTT Secure Platform Laboratories; State Key Laboratory of Cryptology"
+                },
+                {
+                  "pubkey": 30221,
+                  "authors": [
+                    "Carmit Hazay",
+                    "Muthuramakrishnan Venkitasubramaniam",
+                    "Mor Weiss"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "The Price of Active Security in Cryptographic Protocols",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30221",
+                  "affiliations": "Bar-Ilan University; University of Rochester; IDC Herzliya"
+                },
+                {
+                  "pubkey": 30240,
+                  "authors": [
+                    "Chris Peikert"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "He Gives C-Sieves on the CSIDH",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30240",
+                  "affiliations": "University of Michigan"
+                },
+                {
+                  "pubkey": 30219,
+                  "authors": [
+                    "Shweta Agrawal",
+                    "Alice Pellet-Mary"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "Indistinguishability Obfuscation Without Maps: Attacks and Fixes for Noisy Linear FE",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30219",
+                  "affiliations": "IIT Madras, India; KU Leuven, Belgium"
+                },
+                {
+                  "pubkey": 30220,
+                  "authors": [
+                    "Yael Tauman Kalai",
+                    "Dakshita Khurana",
+                    "Ankit Garg"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "Low Error Efficient Computational Extractors in the CRS Model",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30220",
+                  "affiliations": "Microsoft Research New England; UIUC; Microsoft Research India"
+                },
+                {
+                  "pubkey": 30222,
+                  "authors": [
+                    "Ben Fisch",
+                    "Alan Szepieniec",
+                    "Benedikt Bünz"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "Transparent SNARKs from DARK Compilers",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30222",
+                  "affiliations": "Stanford University; Nervos Foundation; Stanford University"
+                }
+              ],
+              "id": "session-48"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2020-05-14",
+      "timeslots": [
+        {
+          "starttime": "13:00",
+          "endtime": "13:15",
+          "sessions": [
+            {
+              "session_title": "Opening remarks",
+              "id": "session-49"
+            }
+          ]
+        },
+        {
+          "starttime": "13:15",
+          "endtime": "14:15",
+          "sessions": [
+            {
+              "moderator": "Moderated by the Michel Abdalla ",
+              "session_title": "IACR Membership meeting",
+              "id": "session-50"
+            }
+          ]
+        },
+        {
+          "starttime": "14:15",
+          "endtime": "14:30",
+          "sessions": [
+            {
+              "session_title": "Break",
+              "id": "session-51"
+            }
+          ]
+        },
+        {
+          "starttime": "14:30",
+          "endtime": "15:30",
+          "sessions": [
+            {
+              "moderator": "Chair: TBD",
+              "session_title": "Panel discussion: Public Key Cryptography",
+              "talks": [
+                {
+                  "pubkey": 30210,
+                  "authors": [
+                    "Yusuke Naito",
+                    "Yu Sasaki",
+                    "Takeshi Sugawara"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "Lightweight Authenticated Encryption Mode Suitable for Threshold Implementation",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30210",
+                  "affiliations": "Mitsubishi Electric Corporation; NTT Secure Platform Laboratories; The University of Electro-Communications"
+                },
+                {
+                  "pubkey": 30212,
+                  "authors": [
+                    "Ivan Visconti",
+                    "Divesh Aggarwal",
+                    "Maciej Obremski",
+                    "Luisa Siniscalchi",
+                    "João Ribeiro"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "How to Extract Useful Randomness from Unreliable Sources",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30212",
+                  "affiliations": "University of Salerno; National University of Singapore; National University of Singapore; Concordium Blockchain Research Center, Aarhus University; Imperial College London"
+                },
+                {
+                  "pubkey": 30252,
+                  "authors": [
+                    "Rafael Pass",
+                    "Antigoni Polychroniadou",
+                    "Andrew Morgan"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "Succinct Non-Interactive Secure Computation",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30252",
+                  "affiliations": "Cornell Tech; J.P. Morgan AI Research; Cornell University"
+                },
+                {
+                  "pubkey": 30211,
+                  "authors": [
+                    "Dennis Hofheinz",
+                    "Julia Kastner",
+                    "Thomas Agrikola"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "On Instantiating the Algebraic Group Model from Falsifiable Assumptions",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30211",
+                  "affiliations": "ETH Zurich, Zurich, Switzerland; ETH Zurich, Zurich, Switzerland; Karlsruhe Institute of Technology, Karlsruhe, Germany"
+                },
+                {
+                  "pubkey": 30213,
+                  "authors": [
+                    "Eike Kiltz",
+                    "Benedikt Auerbach",
+                    "Federico Giacon"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "Everybody’s a Target: Scalability in Public-Key Encryption",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30213",
+                  "affiliations": "Ruhr-Universität Bochum, Bochum, Germany; IST Austria, Klosterneuburg, Austria; Gnosis Service GmbH, Berlin, Germany"
+                },
+                {
+                  "pubkey": 30214,
+                  "authors": [
+                    "Elaine Shi",
+                    "Gilad Asharov",
+                    "Ilan Komargodski",
+                    "Kartik Nayak",
+                    "Wei-Kai Lin",
+                    "Enoch Peserico"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "OptORAMa: Optimal Oblivious RAM",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30214",
+                  "affiliations": "Cornell University; Bar-Ilan University; NTT Research; Duke University; Cornell University; Università degli Studi di Padova"
+                },
+                {
+                  "pubkey": 30217,
+                  "authors": [
+                    "Rafael Pass",
+                    "Carmit Hazay",
+                    "Muthuramakrishnan Venkitasubramaniam"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "Which Languages Have 4-Round Fully Black-Box Zero-Knowledge Arguments from One-Way Functions?",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30217",
+                  "affiliations": "Cornell Tech; Bar-Ilan University; University of Rochester"
+                }
+              ],
+              "id": "session-52"
+            }
+          ]
+        },
+        {
+          "starttime": "15:30",
+          "endtime": "15:45",
+          "sessions": [
+            {
+              "session_title": "Break",
+              "id": "session-53"
+            }
+          ]
+        },
+        {
+          "starttime": "15:45",
+          "endtime": "16:45",
+          "sessions": [
+            {
+              "moderator": "Chair: TBD",
+              "session_title": "Panel Discussion: 7 collected talks",
+              "talks": [
+                {
+                  "pubkey": 30204,
+                  "authors": [
+                    "Yannick Seurin",
+                    "Georg Fuchsbauer",
+                    "Antoine Plouviez"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "Blind Schnorr Signatures and Signed ElGamal Encryption in the Algebraic Group Model",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30204",
+                  "affiliations": "ANSSI, France; TU Wien, Austria; Inria, ENS, and CNRS, France"
+                },
+                {
+                  "pubkey": 30202,
+                  "authors": [
+                    "Pierre-Alain Fouque",
+                    "Mehdi Tibouchi",
+                    "Paul Kirchner",
+                    "Yang Yu",
+                    "Alexandre Wallet"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "Key Recovery from Gram--Schmidt Norm Leakage in Hash-and-Sign Signatures over NTRU Lattices",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30202",
+                  "affiliations": "IRISA and Université Rennes 1; NTT Corporation; IRISA and Université Rennes 1; IRISA, Université Rennes 1, and CNRS; NTT Corporation"
+                },
+                {
+                  "pubkey": 30205,
+                  "authors": [
+                    "Jesper Buus Nielsen",
+                    "Mark Simkin"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "Lower Bounds for Leakage-Resilient Secret Sharing",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30205",
+                  "affiliations": "Aarhus University; Aarhus University"
+                },
+                {
+                  "pubkey": 30203,
+                  "authors": [
+                    "Hoeteck Wee",
+                    "Junqing Gong"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "Adaptively Secure ABE for DFA from k-Lin and More",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30203",
+                  "affiliations": "CNRS, ENS, PSL; East China Normal University and CNRS, ENS, PSL"
+                },
+                {
+                  "pubkey": 30206,
+                  "authors": [
+                    "Christian Schaffner",
+                    "Stacey Jeffery",
+                    "Yfke Dulek",
+                    "Christian Majenz",
+                    "Alex B. Grilo"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "Secure Multi-party Quantum Computation with a Dishonest Majority",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30206",
+                  "affiliations": "QuSoft and University of Amsterdam; QuSoft and CWI; QuSoft and University of Amsterdam; QuSoft and CWI; QuSoft and CWI"
+                },
+                {
+                  "pubkey": 30208,
+                  "authors": [
+                    "Sam Kim"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "Key-Homomorphic Pseudorandom Functions from LWE with Small Modulus",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30208",
+                  "affiliations": "Stanford University"
+                },
+                {
+                  "pubkey": 30209,
+                  "authors": [
+                    "Vladimir Kolesnikov",
+                    "David Heath"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "Stacked Garbling for Disjunctive Zero-Knowledge Proofs",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30209",
+                  "affiliations": "Georgia Institute of Technology; Georgia Institute of Technology"
+                }
+              ],
+              "id": "session-54"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2020-05-15",
+      "timeslots": [
+        {
+          "starttime": "13:00",
+          "endtime": "13:15",
+          "sessions": [
+            {
+              "session_title": "Opening remarks",
+              "id": "session-55"
+            }
+          ]
+        },
+        {
+          "starttime": "13:15",
+          "endtime": "14:15",
+          "sessions": [
+            {
+              "moderator": "Chair: TBD",
+              "session_title": "Session title TBD",
+              "talks": [
+                {
+                  "pubkey": 30201,
+                  "authors": [
+                    "Ryo Nishimaki",
+                    "Shota Yamada",
+                    "Takashi Yamakawa",
+                    "Shuichi Katsumata"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "Compact NIZKs from Standard Assumptions on Bilinear Maps",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30201",
+                  "affiliations": "NTT Secure Platform Laboratories; AIST; NTT Secure Platform Laboratories; AIST"
+                },
+                {
+                  "pubkey": 30194,
+                  "authors": [
+                    "Amit Sahai",
+                    "Aayush Jain",
+                    "Nathan Manohar"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "Combiners for Functional Encryption, Unconditionally",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30194",
+                  "affiliations": "UCLA; UCLA; UCLA"
+                },
+                {
+                  "pubkey": 30198,
+                  "authors": [
+                    "Shweta Agrawal",
+                    "Shota Yamada"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "Optimal Broadcast Encryption from Pairings and LWE",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30198",
+                  "affiliations": "IIT Madras; AIST Japan"
+                },
+                {
+                  "pubkey": 30195,
+                  "authors": [
+                    "Itai Dinur"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "On the Streaming Indistinguishability of a Random Permutation and a Random Function",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30195",
+                  "affiliations": "Ben-Gurion University, Israel"
+                },
+                {
+                  "pubkey": 30196,
+                  "authors": [
+                    "Debdeep Mukhopadhyay",
+                    "Sikhar Patranabis",
+                    "Debapriya Basu Roy",
+                    "Sayandeep Saha",
+                    "Arnab Bag"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "Fault Template Attacks on Block Ciphers Exploiting Fault Propagation",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30196",
+                  "affiliations": "Indian Institute of Technology, Kharagpur; ETH Zurich; Technische Universität München; Indian Institute of Technology, Kharagpur; Indian Institute of Technology, Kharagpur"
+                },
+                {
+                  "pubkey": 30197,
+                  "authors": [
+                    "Stefano Tessaro",
+                    "Ashrujit Ghoshal"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "On the Memory-Tightness of Hashed ElGamal",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30197",
+                  "affiliations": "Paul G. Allen School of Computer Science & Engineering, University of Washington; Paul G. Allen School of Computer Science & Engineering, University of Washington"
+                },
+                {
+                  "pubkey": 30199,
+                  "authors": [
+                    "Christian Rechberger",
+                    "Lorenzo Grassi",
+                    "Dragos Rotaru",
+                    "Reinhard Lüftenegger",
+                    "Markus Schofnegger"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "On a Generalization of Substitution-Permutation Networks: The HADES Design Strategy",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30199",
+                  "affiliations": "IAIK, Graz University of Technology, Austria; IAIK, Graz University of Technology, Austria, and Know-Center, TU Graz, Austria; University of Bristol and imec-Cosic, Dept. Electrical Engineering, KU Leuven; IAIK, Graz University of Technology, Austria; IAIK, Graz University of Technology, Austria"
+                }
+              ],
+              "id": "session-56"
+            }
+          ]
+        },
+        {
+          "starttime": "14:15",
+          "endtime": "14:30",
+          "sessions": [
+            {
+              "session_title": "Break",
+              "id": "session-57"
+            }
+          ]
+        },
+        {
+          "starttime": "14:30",
+          "endtime": "15:30",
+          "sessions": [
+            {
+              "moderator": "Chair: TBD",
+              "session_title": "Session title TBD",
+              "talks": [
+                {
+                  "pubkey": 30191,
+                  "authors": [
+                    "Badih Ghazi",
+                    "Pasin Manurangsi",
+                    "Rasmus Pagh",
+                    "Ameya Velingker"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "Private Aggregation from Fewer Anonymous Messages",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30191",
+                  "affiliations": "Google Research; Google Research; Google Research and IT University of Copenhagen; Google Research"
+                },
+                {
+                  "pubkey": 30189,
+                  "authors": [
+                    "Michael Naehrig",
+                    "Martin Roetteler",
+                    "Fernando Virdia",
+                    "Samuel Jaques"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "Implementing Grover oracles for quantum key search on AES and LowMC",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30189",
+                  "affiliations": "Microsoft Research; Microsoft Quantum; Royal Holloway, University of London; University of Oxford"
+                },
+                {
+                  "pubkey": 30190,
+                  "authors": [
+                    "Alessandro Chiesa",
+                    "Mary Maller",
+                    "Pratyush Mishra",
+                    "Nicholas P. Ward",
+                    "Yuncong Hu",
+                    "Noah Vesely"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "Marlin: Preprocessing zkSNARKs with Universal and Updatable SRS",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30190",
+                  "affiliations": "UC Berkeley; Ethereum Foundation; UC Berkeley; UC Berkeley; UC Berkeley; UC Berkeley"
+                },
+                {
+                  "pubkey": 30188,
+                  "authors": [
+                    "María Naya-Plasencia",
+                    "André Schrottenloher"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "Optimal Merging in Quantum $k$-xor and $k$-sum Algorithms",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30188",
+                  "affiliations": "Inria, France; Inria, France"
+                },
+                {
+                  "pubkey": 30242,
+                  "authors": [
+                    "Sanjam Garg",
+                    "Zvika Brakerski",
+                    "Nico Döttling",
+                    "Giulio Malavolta"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "Candidate iO From Homomorphic Encryption Schemes",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30242",
+                  "affiliations": "UC Berkeley; Weizmann Institute of Science; CISPA Helmholtz Center for Information Security; UC Berkeley and Carnegie Mellon University"
+                },
+                {
+                  "pubkey": 30193,
+                  "authors": [
+                    "Benoît Libert",
+                    "Hoeteck Wee",
+                    "Alain Passelègue",
+                    "David J. Wu"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "New Constructions of Statistical NIZKs: Dual-Mode DV-NIZKs and More",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30193",
+                  "affiliations": "CNRS, Laboratoire LIP and ENS de Lyon, Laboratoire LIP (U. Lyon, CNRS, ENSL, Inria, UCBL); CNRS, ENS, PSL; Inria and ENS de Lyon, Laboratoire LIP (U. Lyon, CNRS, ENSL, Inria, UCBL); University of Virginia"
+                },
+                {
+                  "pubkey": 30207,
+                  "authors": [
+                    "Ward Beullens"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "Sigma protocols for MQ, PKP and SIS, and  fishy signature schemes",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30207",
+                  "affiliations": "imec-COSIC, KU Leuven"
+                }
+              ],
+              "id": "session-58"
+            }
+          ]
+        },
+        {
+          "starttime": "15:30",
+          "endtime": "15:45",
+          "sessions": [
+            {
+              "session_title": "Break",
+              "id": "session-59"
+            }
+          ]
+        },
+        {
+          "starttime": "15:45",
+          "endtime": "16:45",
+          "sessions": [
+            {
+              "moderator": "Chair: TBD",
+              "session_title": "Session title TBD",
+              "talks": [
+                {
+                  "pubkey": 30181,
+                  "authors": [
+                    "Ronald Cramer",
+                    "Chaoping Xing"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "Blackbox Secret Sharing Revisited: A Coding-Theoretic Approach with Application to Expansionless Near-Threshold Schemes",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30181",
+                  "affiliations": "CWI, Netherlands; Shanghai Jiaotong University, Shanghai, China"
+                },
+                {
+                  "pubkey": 30183,
+                  "authors": [
+                    "Serge Fehr",
+                    "Léo Ducas",
+                    "Koen de Boer"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "On the Quantum Complexity of the Continuous Hidden Subgroup Problem",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30183",
+                  "affiliations": "Centrum Wiskunde & Informatica (CWI), Amsterdam, The Netherlands & Mathematical Institute, Leiden University, The Netherlands; Centrum Wiskunde & Informatica (CWI), Amsterdam, The Netherlands; Centrum Wiskunde & Informatica (CWI), Amsterdam, The Netherlands"
+                },
+                {
+                  "pubkey": 30186,
+                  "authors": [
+                    "Steven D. Galbraith",
+                    "Léo Ducas",
+                    "Thomas Prest",
+                    "Yang Yu"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "Integral Matrix Gram Root and Lattice Gaussian Sampling without Floats",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30186",
+                  "affiliations": "University of Auckland; Centrum Wiskunde en Informatica; PQShield Ltd; IRISA, Université Rennes 1, and CNRS"
+                },
+                {
+                  "pubkey": 30215,
+                  "authors": [
+                    "María Naya-Plasencia",
+                    "Antonio Flórez Gutiérrez"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "Improving Key-Recovery in Linear Attacks: Application to 28-round PRESENT",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30215",
+                  "affiliations": "Inria, France; Inria, France"
+                },
+                {
+                  "pubkey": 30185,
+                  "authors": [
+                    "Itai Dinur"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "Tight Time-Space Lower Bounds for Finding Multiple Collision Pairs and Their Applications",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30185",
+                  "affiliations": "Ben-Gurion University, Israel"
+                },
+                {
+                  "pubkey": 30192,
+                  "authors": [
+                    "Daniel Wichs",
+                    "Sanjam Garg",
+                    "Nico Döttling",
+                    "Mohammad Hajiabadi",
+                    "Daniel Masny"
+                  ],
+                  "presentationurl": null,
+                  "DOI": null,
+                  "title": "Two-Round Oblivious Transfer from CDH or LPN",
+                  "youtube": null,
+                  "category": "Uncategorized",
+                  "id": "talk-30192",
+                  "affiliations": "Northeastern University; UC Berkeley; CISPA; UC Berkeley; Visa Research"
+                }
+              ],
+              "id": "session-60"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "database_id": "298"
 }
