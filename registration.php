@@ -136,7 +136,7 @@ attendees are required to pay the IACR membership fee if they have not already i
         <section class="col-md-6">
           <h3 class="pageSubtitle">Refund Policy</h3>
           <p>
-            Cancellation requests should be made in writing or email to the conference general chair. Those received by May 10 will receive a full refund. No refunds will be made for cancellations after this date.
+            Due to the nature of a virtual conference, no cancellations will be accepted.
           </p>
         </section>
       </div>
