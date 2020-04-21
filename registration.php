@@ -102,14 +102,14 @@ attendees are required to pay the IACR membership fee if they have not already i
         </section>
       </div>
 
-      <h3 class="text-center">
+      <h3 class="text-center alert alert-info">
         Registration is not open yet
       </h3>
-      <div class="row">
+<!--      <div class="row">
         <aside class="col-sm-6 mx-auto text-center">
-          <a href="https://secure.iacr.org/conferences/eurocrypt2020/register" class="btn btn-lg btn-warning btn-block regBtn disabled" role="button">Register now!</a>
+          <a href="https://secure.iacr.org/conferences/eurocrypt2020/register" class="btn btn-lg btn-warning btn-block regBtn" role="button">Register now!</a>
         </aside>
-      </div>
+      </div>-->
 
       <div class="row mt-5">
         <section class="col-md-6">

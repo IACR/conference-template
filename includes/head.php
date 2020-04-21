@@ -1,5 +1,5 @@
 <?php
-require "style_picker.php";
+// require "style_picker.php";
   // This invokes php to populate some variables that
   // are available as $META. It should be included
   // at the beginning of the <head> tag.
