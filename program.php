@@ -42,19 +42,19 @@
            -->
 
       <p class="alert alert-info">
-        <strong>Your timezone appears to be <span id="timezone"></span>
+        <strong>Your timezone appears to be <span id="timezone"></span>.
           Times in the schedule are shown in your local timezone. Dates are
           in UTC.
         </strong>
       </p>
         
         <div class="row">
-        <div class="col-10 offset-2">
+        <div class="col-12 col-md-10 mx-auto">
           <h3 class="alert alert-warning text-center">Currently happening: <a href="#session-36">Panel Discussion: Attacks</a></h3>
         </div>
       </div>
       <div class="row">
-        <div class="col-10 offset-2">
+        <div class="col-12 col-md-10 mx-auto">
           <h3 class="alert alert-warning text-center">Coming up in <span class="" id="countdown"></span>: <a href="#session-38">Panel Discussion: Public Key Cryptography</a></h3>
         </div>
       </div>
@@ -257,7 +257,10 @@
     <script src="./js/program.js"></script>
     <script>
       const now = new Date();
-      document.getElementById('timezone').innerText = 'UTC' + -now.getTimezoneOffset()/60;
+      let offset = now.getTimezoneOffset();
+      //      document.getElementById('timezone').innerText = 'UTC' + offset;
+      console.dir(moment.tz.guess());
+      document.getElementById('timezone').innerText = moment.tz.guess();
     </script>
     
   </body>
