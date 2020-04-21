@@ -33,17 +33,17 @@
         IACR event, we encourage you to reach out to someone who could
         help. The following are available to you:
         the <a href="https://iacr.org/committees.html">Code-of-Conduct
-        Liaison</a>, <a href="./contact.html">General Chair(s)</a>,
-        any member of the <a href="ethics-committee@iacr.org">Ethics
-        Committee</a>,
-        the <a href="https://iacr.org/bod.html">President</a> <span class="editMe">***and
-        others relevant to event***</span>.
+        Liaison</a>, <a href="./contact.php">General Chair(s)</a>,
+        any member of the <a href="https://iacr.org/committees.html#ethics">Ethics
+        Committee</a>, and
+        the <a href="https://iacr.org/bod.html">President</a>.
       </p>
       <p>
-        Now that IACR is conducting online conferences, special rules need
-        to be applied. In particular, we require that every participant in an
-        online conference should represent themselves by their full real
-        name that is associated with their professional work.
+        Special rules apply for online conferences. We require that
+        every participant in an online conference represent themselves
+        by the name that they use for their professional work.  In
+        addition, any speech or imagery that are posted in the chats
+        of the various conference activities must be appropriate.
       </p>
       <p>
         Participants who violate this code may be sanctioned and/or
@@ -51,8 +51,7 @@
         Chair(s). Serious incidents may be referred to the Ethics
         Committee for further possible action. Any action will only be
         taken with the consent of the complaining
-        party <span class="editMe">***subject to applicable
-        laws***</span>.
+        party.
       </p>
       <p>
         If you witness harassment or discriminatory behavior, please consider intervening.
@@ -64,32 +63,33 @@
       <div class="row">
         <aside class="col-sm-4">
           <h4 class="subSubtitle">
+            Tal Rabin<br>
             Code-of-Conduct Liaison
           </h4>
           <p class="text-left">
-            <a href="https://iacr.org/committees.html">
-              <span class="editMe">***Name and contact information here***</span></a>
+              <img src="https://iacr.org/images/address/conduct.png">
           </p>
         </aside>
 
         <aside class="col-sm-4">
           <h4 class="subSubtitle">
-            Ethics Committee
+            Ethics Committee<br>
+            Shai Halevi, chair<br>
+            <a href="https://iacr.org/committees.html#ethics">other names here</a>
           </h4>
           <p class="text-left">
-            <a href="https://iacr.org/committees.html">
-              <span class="editMe">***Name and contact information here***</span>
-            </a>
+              <img src="https://iacr.org/images/address/ethics.png">
           </p>
         </aside>
 
         <aside class="col-sm-4">
           <h4 class="subSubtitle">
+            Michel Abdalla<br>
             IACR President
           </h4>
           <p class="text-left">
             <a href="https://iacr.org/bod.html">
-              <span class="editMe">***Name and contact information here***</span>
+              <img src="https://iacr.org/images/address/president.png">
             </a>
           </p>
         </aside>
