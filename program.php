@@ -252,8 +252,8 @@
 
     <!-- Personal scripts -->
     <script src="./js/tooltips.js"></script>
-    <script src="https://momentjs.com/downloads/moment.js"></script>
-    <script src="https://momentjs.com/downloads/moment-timezone-with-data-10-year-range.js"></script>
+    <script src="https://iacr.org/libs/js/moment/moment.js"></script>
+    <script src="https://iacr.org/libs/js/moment/moment-timezone-with-data-10-year-range.js"></script>
     <script src="./js/program.js"></script>
     <script>
       const now = new Date();
