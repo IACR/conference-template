@@ -51,7 +51,7 @@
   </div>
   <div class="customCardRow row">
     <h6 class="dateTitle col-5 col-md-4">
-      May 6 2020
+      May 4 2020
     </h6>
     <p class="col-7 col-md-8">
       Speaker videos due
