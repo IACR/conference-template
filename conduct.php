@@ -61,7 +61,7 @@
         Who to Contact
       </h3>
       <div class="row">
-        <aside class="col-md-4">
+        <aside class="col-md-4 mb-4 mb-md-2">
           <h4 class="subSubtitle">
             Tal Rabin<br>
             <small>Code-of-Conduct Liaison</small>
@@ -71,13 +71,13 @@
           </a>
         </aside>
 
-        <aside class="col-md-4">
+        <aside class="col-md-4 mb-4 mb-md-2">
           <h4 class="subSubtitle">
             Shai Halevi<br>
-            <small>Ethics Committee chair</small><br>
+            <small>Ethics Committee Chair</small><br>
           </h4>
           <p class="w-75">
-            Other committee members include Lejla Batin, Nadia Heninger, Anna Lysyanskaya, and Bart Preneel
+            <a href="https://iacr.org/committees.html#ethics">Other committee members</a> include Lejla Batin, Nadia Heninger, Anna Lysyanskaya, and Bart Preneel
           </p>
           <a href="mailto:ethics-committee@iacr.org">
             <img src="images/icons/email.svg" class="icon" />&nbsp;<img src="images/contacts/ethcom.jpg">
