@@ -61,37 +61,37 @@
         Who to Contact
       </h3>
       <div class="row">
-        <aside class="col-sm-4">
+        <aside class="col-md-4">
           <h4 class="subSubtitle">
             Tal Rabin<br>
-            Code-of-Conduct Liaison
+            <small>Code-of-Conduct Liaison</small>
           </h4>
-          <p class="text-left">
-              <img src="https://iacr.org/images/address/conduct.png">
-          </p>
+          <a href="mailto:conduct@iacr.org">
+            <img src="images/icons/email.svg" class="icon" />&nbsp;<img src="images/contacts/cond.jpg">
+          </a>
         </aside>
 
-        <aside class="col-sm-4">
+        <aside class="col-md-4">
           <h4 class="subSubtitle">
-            Ethics Committee<br>
-            Shai Halevi, chair<br>
-            <a href="https://iacr.org/committees.html#ethics">other names here</a>
+            Shai Halevi<br>
+            <small>Ethics Committee chair</small><br>
           </h4>
-          <p class="text-left">
-              <img src="https://iacr.org/images/address/ethics.png">
+          <p class="w-75">
+            Other committee members include Lejla Batin, Nadia Heninger, Anna Lysyanskaya, and Bart Preneel
           </p>
+          <a href="mailto:ethics-committee@iacr.org">
+            <img src="images/icons/email.svg" class="icon" />&nbsp;<img src="images/contacts/ethcom.jpg">
+          </a>
         </aside>
 
-        <aside class="col-sm-4">
+        <aside class="col-md-4">
           <h4 class="subSubtitle">
             Michel Abdalla<br>
-            IACR President
+            <small>IACR President</small>
           </h4>
-          <p class="text-left">
-            <a href="https://iacr.org/bod.html">
-              <img src="https://iacr.org/images/address/president.png">
-            </a>
-          </p>
+          <a href="mailto:president@iacr.org">
+            <img src="images/icons/email.svg" class="icon" />&nbsp;<img src="images/contacts/pres.jpg">
+          </a>
         </aside>
       </div>
 
