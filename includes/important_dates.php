@@ -66,6 +66,6 @@
     </p>
   </div>
   <div class="customCardFooter">
-    <img src="images/icons/exclamation.svg" class="icon" /> For further details, consult the <a href="papersubmission.php">paper submission page</a>.
+    <img src="images/icons/exclamation.svg" class="icon" />&nbsp;&nbsp;For further details, consult the <a href="papersubmission.php">paper submission page</a>.
   </div>
 </article>
