@@ -115,16 +115,26 @@
             Science at the Herzliya Interdisciplinary Center.
           </p>
           <p>
-            Before that he spent two years as a postdoc in the
-            Cryptography Group of MIT's Computer Science and AI Lab,
-            and two years as a postdoc in the Center for Research on
-            Computation and Society at Harvard's department of
-            Electrical Engineering and Computer Science. He did his
-            Ph.D. at the Weizmann Institute of Science.
+            His areas of expertise are in theoretical computer science
+            and cryptography. He has made contributions to the
+            foundational study of zero-knowledge protocols, as well as
+            fast lattice-based cryptography, notably in the context of
+            collision resistant hashing and pseudo-random functions,
+            where he studied the ring-SIS problem and related SWIFFT
+            hash function, and co-introduced the Learning with
+            Rounding problem. More recently, Alon has been interested
+            in the intersection of cryptography and game theory, with
+            a focus on the hardness of finding a Nash equilibrium in
+            bimatrix games, and in average-case fine-grained hardness.
           </p>
           <p>
-            His main fields of interest are Cryptography and Computational Complexity.
+            Alon earned his PhD from the Weizmann Institute of
+            Science, and was a Postdoctoral Fellow at MIT and at
+            Harvard University. He is a faculty member at IDC since
+            2007.
           </p>
+          <p>
+            He is a founder and former director of the FACT center.
           <p>
             He is a founder and former director of the FACT center.
           </p>

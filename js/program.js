@@ -28,6 +28,7 @@ $(document).ready(function() {
     url: 'currentProgram.php',
     dataType: 'json',
       success: function(data) {
+      console.dir(data);
       var renderedProgram = document.getElementById('renderedProgram');
       if (!data.hasOwnProperty('days')) {
         renderedProgram.innerHTML = '<p>The conference program is not currently available. Please check back later.</p>';

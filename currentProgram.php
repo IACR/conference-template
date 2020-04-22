@@ -13,9 +13,9 @@ foreach($editorData['days'] as $dayindex => &$day) {
     foreach($timeslot['sessions'] as $sessionindex => &$session) {
       //      var_dump($session);
       foreach($session['talks'] as $talkindex => &$talk) {
-        $session['talks'][$talkindex]['paperUrl'] = 'https://dx.doi.org/10.1007/978-3-030-26948-7_5';
-        $talk['slidesUrl'] = 'https://iacr.org/submit/files/slides/2020/eurocrypt/kdev/2/slides.pdf';
-        $talk['videoUrl'] = 'https://iacr.org/submit/files/slides/2020/eurocrypt/kdev/2/slides.pdf';
+          $talk['paperUrl'] = 'https://dx.doi.org/10.1007/978-3-030-26948-7_5';
+          $talk['slidesUrl'] = 'https://iacr.org/submit/files/slides/2020/eurocrypt/kdev/2/slides.pdf';
+          $talk['videoUrl'] = 'https://iacr.org/submit/files/slides/2020/eurocrypt/kdev/2/slides.pdf';
       }
       if ($session['talks']) {
         $session['session_url'] = 'participation.php#webinars';
