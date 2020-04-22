@@ -20,8 +20,7 @@
       </h2>
 
       <p>
-        The IACR board has decided that this virtual conference will be free, but
-attendees are required to pay the IACR membership fee if they have not already in 2020.
+        The IACR board has decided that this virtual conference will be free, but attendees are required to pay the IACR membership fee if they have not already in 2020.
       </p>
       <div class="row mt-3">
         <section class="col-12" id="regTable">
@@ -89,13 +88,12 @@ attendees are required to pay the IACR membership fee if they have not already i
           <p>
             The conference registration fee includes participation in the technical program,
             as well as access to the conference proceedings. This year's virtual conference is
-            expected to involve live webinars, a live chat forum, and static videos.
+            expected to involve live webinars, a live chat forum, and videos of the talks.
           </p>
         </section>
         <section class="col-md-6">
           <h3 class="pageSubtitle">An Important Note for Students</h3>
           <p>
-
             If you are a student presenting at <span class="conf_name"><?php echo $META['shortName'];?></span>,
             your registration fee will be covered by the Cryptography Research Fund for Student Presenters; you do not need to pay for registration. Please contact the General Chair before registration to obtain a registration waiver token.
           </p>

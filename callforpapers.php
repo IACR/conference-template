@@ -137,9 +137,8 @@
       <div class="row">
         <div class="col-12 text-center mb-5">
           <a href="mailto:eurocrypt2020@iacr.org">
-            <img src="images/icons/email.svg" class="icon" />
-          </a>&nbsp;
-          eurocrypt2020@iacr.org
+            <img src="images/icons/email.svg" class="icon" />&nbsp;<img src="images/contacts/ec2020.jpg" />
+          </a>
         </div>
       </div>
 
@@ -171,9 +170,8 @@
       <div class="row">
         <div class="col-12 text-center">
           <a href="mailto:eurocrypt2020programchairs@iacr.org">
-            <img src="images/icons/email.svg" class="icon" />
-          </a>&nbsp;
-          eurocrypt2020programchairs@iacr.org
+            <img src="images/icons/email.svg" class="icon" />&nbsp;<img src="images/contacts/ecpc2020.jpg" />
+          </a>
         </div>
       </div>
 

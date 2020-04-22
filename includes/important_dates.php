@@ -51,7 +51,7 @@
   </div>
   <div class="customCardRow row">
     <h6 class="dateTitle col-5 col-md-4">
-      May 6 2020
+      May 4 2020
     </h6>
     <p class="col-7 col-md-8">
       Speaker videos due
@@ -66,6 +66,6 @@
     </p>
   </div>
   <div class="customCardFooter">
-    <img src="images/icons/exclamation.svg" class="icon" /> For further details, consult the <a href="papersubmission.php">paper submission page</a>.
+    <img src="images/icons/exclamation.svg" class="icon" />&nbsp;&nbsp;For further details, consult the <a href="papersubmission.php">paper submission page</a>.
   </div>
 </article>
