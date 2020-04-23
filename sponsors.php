@@ -48,6 +48,11 @@
             <img src="./images/sponsors/daejeon.png" alt="DAEJEON" title="DAEJEON" class="sponsorPageLogo" />
           </a>
         </div>
+        <div class="sponsorLogoBox justify-content-between">
+          <a href="https://www.springer.com/">
+            <img src="./images/sponsors/springer.svg" alt="SPRINGER" title="SPRINGER" class="sponsorPageLogo" />
+          </a>
+        </div>
       </div>
     </main>
     <?php include "includes/footer.php"; ?>
