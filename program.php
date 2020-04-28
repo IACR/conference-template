@@ -43,9 +43,9 @@
 
       <p class="alert alert-danger">
         This program is tentative. Sessions will be conducted as panel discussions in
-        which authors give a very brief overview (3-5 minutes) of their papers, and then
-        take live questions from the audience. There will also be links to papers and
-        videos of longer talks by authors on their papers.
+        which authors give a very brief overview (5 minutes) of their papers, and then
+        take live questions from the panel moderators and audience. There will also
+        be links to papers and videos of longer talks by authors on their papers.
       </p>
       <p class="alert alert-info">
         <strong>Your timezone appears to be <span id="timezone"></span>.
