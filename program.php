@@ -41,14 +41,20 @@
            </p>
            -->
 
+      <p class="alert alert-danger">
+        This program is tentative. Sessions will be conducted as panel discussions in
+        which authors give a very brief overview (5 minutes) of their papers, and then
+        take live questions from the panel moderators and audience. There will also
+        be links to papers and videos of longer talks by authors on their papers.
+      </p>
       <p class="alert alert-info">
         <strong>Your timezone appears to be <span id="timezone"></span>.
           Times in the schedule are shown in your local timezone. Dates are
           in UTC.
         </strong>
       </p>
-        
-        <div class="row">
+      <!-- 
+      <div class="row">
         <div class="col-12 col-md-10 mx-auto">
           <h3 class="alert alert-warning text-center">Currently happening: <a href="#session-36">Panel Discussion: Attacks</a></h3>
         </div>
@@ -58,6 +64,7 @@
           <h3 class="alert alert-warning text-center">Coming up in <span class="" id="countdown"></span>: <a href="#session-38">Panel Discussion: Public Key Cryptography</a></h3>
         </div>
       </div>
+      -->
       <div class="row">
         <div id="renderedProgram" class="col-12">
           <!-- Handlebars script that will render the program template based on the program.json file -->
@@ -198,7 +205,7 @@
                   <a class="btn btn-info m-3" href="{{sessions.0.youtubeUrl}}">YouTube</a>
                   {{/if}}
                   {{#if sessions.0.chatUrl}}
-                  <a class="btn btn-info m-3" href="{{sessions.0.chatUrl}}">Slack channel</a>
+                  <a class="btn btn-info m-3" href="{{sessions.0.chatUrl}}">Chat</a>
                   {{/if}}
                   {{#if sessions.0.zoomUrl}}
                   <a class="btn btn-info m-3" href="{{sessions.0.zoomUrl}}">Zoom webinar</a>
