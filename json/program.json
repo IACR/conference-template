@@ -18,7 +18,7 @@
         "id": "category-0"
       }
     ],
-    "uniqueIDIndex": 176
+    "uniqueIDIndex": 211
   },
   "days": [
     {
@@ -30,7 +30,7 @@
           "sessions": [
             {
               "session_title": "Opening remarks",
-              "id": "session-142"
+              "id": "session-177"
             }
           ]
         },
@@ -39,7 +39,7 @@
           "endtime": "14:15",
           "sessions": [
             {
-              "moderator": "Chair: TBD",
+              "moderator": "Moderators: TBD",
               "session_title": "Number-theoretic Cryptography",
               "talks": [
                 {
@@ -104,7 +104,7 @@
                   "affiliations": "Ruhr University"
                 }
               ],
-              "id": "session-143"
+              "id": "session-178"
             }
           ]
         },
@@ -114,7 +114,7 @@
           "sessions": [
             {
               "session_title": "Break",
-              "id": "session-144"
+              "id": "session-179"
             }
           ]
         },
@@ -123,7 +123,7 @@
           "endtime": "14:55",
           "sessions": [
             {
-              "moderator": "Chair: TBD",
+              "moderator": "Moderators: TBD",
               "session_title": "Best Paper Award",
               "talks": [
                 {
@@ -139,7 +139,7 @@
                   "affiliations": "IIT Madras; National Institute of Advanced Industrial Science and Technology (AIST)"
                 }
               ],
-              "id": "session-145"
+              "id": "session-180"
             }
           ]
         },
@@ -149,7 +149,7 @@
           "sessions": [
             {
               "session_title": "Break",
-              "id": "session-146"
+              "id": "session-181"
             }
           ]
         },
@@ -158,7 +158,7 @@
           "endtime": "16:00",
           "sessions": [
             {
-              "moderator": "Chair: TBD",
+              "moderator": "Moderators: TBD",
               "session_title": "Obfuscation, Functional Encryption, and Attribute-Based Encryption",
               "talks": [
                 {
@@ -235,7 +235,7 @@
                   "affiliations": "University of Washington"
                 }
               ],
-              "id": "session-147"
+              "id": "session-182"
             }
           ]
         },
@@ -244,7 +244,7 @@
           "endtime": "16:15",
           "sessions": [
             {
-              "id": "session-148",
+              "id": "session-183",
               "session_title": "Break"
             }
           ]
@@ -254,7 +254,7 @@
           "endtime": "16:40",
           "sessions": [
             {
-              "id": "session-149",
+              "id": "session-184",
               "session_title": "Best Young Researcher Award",
               "talks": [
                 {
@@ -270,7 +270,7 @@
                   "affiliations": "Stanford University; EPFL; MIT CSAIL"
                 }
               ],
-              "moderator": "Chair: TBD"
+              "moderator": "Moderators: TBD"
             }
           ]
         }
@@ -284,7 +284,7 @@
           "endtime": "8:00",
           "sessions": [
             {
-              "moderator": "Chair: TBD",
+              "moderator": "Moderators: TBD",
               "session_title": "Symmetric Cryptanalysis",
               "talks": [
                 {
@@ -365,7 +365,7 @@
                   "affiliations": "Department of Computer Science, Ben-Gurion University"
                 }
               ],
-              "id": "session-150"
+              "id": "session-185"
             }
           ]
         },
@@ -374,7 +374,7 @@
           "endtime": "13:45",
           "sessions": [
             {
-              "moderator": "Chair: TBD",
+              "moderator": "Moderators: TBD",
               "session_title": "Quantum Cryptography",
               "talks": [
                 {
@@ -435,7 +435,7 @@
                   "affiliations": "QuICS, University of Maryland, and NIST;  QuSoft and Centrum Wiskunde & Informatica, Amsterdam; Department of Computer Science and Engineering, Univ. of Connecticut; Department of Computer Science and Engineering, Texas A&M University"
                 }
               ],
-              "id": "session-151"
+              "id": "session-186"
             }
           ]
         },
@@ -445,7 +445,7 @@
           "sessions": [
             {
               "session_title": "Break",
-              "id": "session-152"
+              "id": "session-187"
             }
           ]
         },
@@ -454,7 +454,7 @@
           "endtime": "14:45",
           "sessions": [
             {
-              "moderator": "Chair: TBD",
+              "moderator": "Moderators: TBD",
               "session_title": "Quantum Cryptanalysis",
               "talks": [
                 {
@@ -509,7 +509,7 @@
                   "affiliations": "Cryptology Group, Centrum Wiskunde & Informatica (CWI); Mathematical Institute, Leiden University"
                 }
               ],
-              "id": "session-153"
+              "id": "session-188"
             }
           ]
         },
@@ -518,7 +518,7 @@
           "endtime": "15:00",
           "sessions": [
             {
-              "id": "session-154",
+              "id": "session-189",
               "session_title": "Break"
             }
           ]
@@ -528,7 +528,7 @@
           "endtime": "16:10",
           "sessions": [
             {
-              "id": "session-155",
+              "id": "session-190",
               "session_title": "Secure Computation",
               "talks": [
                 {
@@ -628,7 +628,7 @@
                   "affiliations": "CISPA Helmholtz Center for Information Security; UC Berkeley; VISA Research; Northeastern University"
                 }
               ],
-              "moderator": "Chair: TBD"
+              "moderator": "Moderators: TBD"
             }
           ]
         },
@@ -637,7 +637,7 @@
           "endtime": "16:15",
           "sessions": [
             {
-              "id": "session-156",
+              "id": "session-191",
               "session_title": "Break"
             }
           ]
@@ -647,7 +647,7 @@
           "endtime": "17:15",
           "sessions": [
             {
-              "id": "session-157",
+              "id": "session-192",
               "session_title": "IACR Membership Meeting: Part I"
             }
           ]
@@ -663,8 +663,8 @@
           "sessions": [
             {
               "session_title": "Symmetric Designs",
-              "id": "session-158",
-              "moderator": "Chair: TBD",
+              "id": "session-193",
+              "moderator": "Moderators: TBD",
               "talks": [
                 {
                   "authors": [
@@ -741,7 +741,7 @@
           "endtime": "14:00",
           "sessions": [
             {
-              "moderator": "Chair: TBD",
+              "moderator": "Moderators: TBD",
               "session_title": "Zero Knowledge",
               "talks": [
                 {
@@ -800,19 +800,6 @@
                 },
                 {
                   "authors": [
-                    "Alex Lombardi",
-                    "Vinod Vaikuntanathan",
-                    "Daniel Wichs"
-                  ],
-                  "pubkey": 30245,
-                  "keywords": "ZAPs;Statistical Witness Indistinguishability",
-                  "title": "Statistical ZAPR Arguments from Bilinear Maps",
-                  "category": "ZAPs",
-                  "id": "talk-30245",
-                  "affiliations": "MIT; Northeastern and NTT Research Inc."
-                },
-                {
-                  "authors": [
                     "Saikrishna Badrinarayanan",
                     "Rex Fernando",
                     "Aayush Jain",
@@ -839,9 +826,22 @@
                   "category": "Zaps",
                   "id": "talk-30248",
                   "affiliations": "Carnegie Mellon University; Johns Hopkins University; UC Berkeley & Carnegie Mellon University"
+                },
+                {
+                  "authors": [
+                    "Alex Lombardi",
+                    "Vinod Vaikuntanathan",
+                    "Daniel Wichs"
+                  ],
+                  "pubkey": 30245,
+                  "keywords": "ZAPs;Statistical Witness Indistinguishability",
+                  "title": "Statistical ZAPR Arguments from Bilinear Maps",
+                  "category": "ZAPs",
+                  "id": "talk-30245",
+                  "affiliations": "MIT; Northeastern and NTT Research Inc."
                 }
               ],
-              "id": "session-159"
+              "id": "session-194"
             }
           ]
         },
@@ -851,7 +851,7 @@
           "sessions": [
             {
               "session_title": "Break",
-              "id": "session-160"
+              "id": "session-195"
             }
           ]
         },
@@ -860,7 +860,7 @@
           "endtime": "15:20",
           "sessions": [
             {
-              "moderator": "Chair: TBD",
+              "moderator": "Moderators: TBD",
               "session_title": "Succinct and Concretely Efficient Proof Systems",
               "talks": [
                 {
@@ -956,7 +956,7 @@
                   "affiliations": "UC Berkeley"
                 }
               ],
-              "id": "session-161"
+              "id": "session-196"
             }
           ]
         },
@@ -966,7 +966,7 @@
           "sessions": [
             {
               "session_title": "Break",
-              "id": "session-162"
+              "id": "session-197"
             }
           ]
         },
@@ -975,7 +975,7 @@
           "endtime": "16:30",
           "sessions": [
             {
-              "id": "session-163",
+              "id": "session-198",
               "session_title": "Invited Talk 1",
               "talks": [
                 {
@@ -997,7 +997,7 @@
           "endtime": "17:00",
           "sessions": [
             {
-              "id": "session-164",
+              "id": "session-199",
               "session_title": "Break"
             }
           ]
@@ -1007,7 +1007,7 @@
           "endtime": "19:00",
           "sessions": [
             {
-              "id": "session-165",
+              "id": "session-200",
               "session_title": "Rump Session"
             }
           ]
@@ -1022,7 +1022,7 @@
           "endtime": "8:00",
           "sessions": [
             {
-              "moderator": "Chair: TBD",
+              "moderator": "Moderators: TBD",
               "session_title": "Side-Channel and Fault Attacks",
               "talks": [
                 {
@@ -1101,7 +1101,7 @@
                   "affiliations": "Department of Engineering, DIGIT, Aarhus University; Department of Computer Science, DIGIT, Aarhus University; Microsoft Research"
                 }
               ],
-              "id": "session-166"
+              "id": "session-201"
             }
           ]
         },
@@ -1110,7 +1110,7 @@
           "endtime": "14:00",
           "sessions": [
             {
-              "moderator": "Chair: TBD",
+              "moderator": "Moderators: TBD",
               "session_title": "Verifiable Delay Functions and Randomness Extraction",
               "talks": [
                 {
@@ -1182,7 +1182,7 @@
                   "affiliations": "NYU; MIT; Northeastern University; NTT Research Inc."
                 }
               ],
-              "id": "session-167"
+              "id": "session-202"
             }
           ]
         },
@@ -1192,7 +1192,7 @@
           "sessions": [
             {
               "session_title": "Break",
-              "id": "session-168"
+              "id": "session-203"
             }
           ]
         },
@@ -1201,7 +1201,7 @@
           "endtime": "15:15",
           "sessions": [
             {
-              "moderator": "Chair: TBD",
+              "moderator": "Moderators: TBD",
               "session_title": "Secret Sharing and Information Privacy",
               "talks": [
                 {
@@ -1284,7 +1284,7 @@
                   "affiliations": "EECS, UC Berkeley; Simons Institute for the Theory of Computing, UC Berkeley"
                 }
               ],
-              "id": "session-169"
+              "id": "session-204"
             }
           ]
         },
@@ -1293,7 +1293,7 @@
           "endtime": "15:30",
           "sessions": [
             {
-              "id": "session-170",
+              "id": "session-205",
               "session_title": "Break"
             }
           ]
@@ -1303,7 +1303,7 @@
           "endtime": "16:30",
           "sessions": [
             {
-              "id": "session-171",
+              "id": "session-206",
               "session_title": "Invited Talk 2",
               "talks": [
                 {
@@ -1330,7 +1330,7 @@
           "endtime": "14:00",
           "sessions": [
             {
-              "moderator": "Chair: TBD",
+              "moderator": "Moderators: TBD",
               "session_title": "Lattice-Based and Code-Based Cryptography",
               "talks": [
                 {
@@ -1416,7 +1416,7 @@
                   "affiliations": "Stanford University"
                 }
               ],
-              "id": "session-172"
+              "id": "session-207"
             }
           ]
         },
@@ -1426,7 +1426,7 @@
           "sessions": [
             {
               "session_title": "Break",
-              "id": "session-173"
+              "id": "session-208"
             }
           ]
         },
@@ -1435,7 +1435,7 @@
           "endtime": "15:15",
           "sessions": [
             {
-              "moderator": "Chair: TBD",
+              "moderator": "Moderators: TBD",
               "session_title": "Public-Key Encryption and Generic Models",
               "talks": [
                 {
@@ -1515,7 +1515,7 @@
                   "affiliations": "Karlsruhe Institute of Technology; ETH Zurich"
                 }
               ],
-              "id": "session-174"
+              "id": "session-209"
             }
           ]
         },
@@ -1525,7 +1525,7 @@
           "sessions": [
             {
               "session_title": "Break",
-              "id": "session-175"
+              "id": "session-210"
             }
           ]
         },
@@ -1535,7 +1535,7 @@
           "sessions": [
             {
               "session_title": "Closing Remarks + IACR Membership Meeting: Part II",
-              "id": "session-176"
+              "id": "session-211"
             }
           ]
         }
