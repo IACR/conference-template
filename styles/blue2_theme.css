@@ -82,11 +82,13 @@ div.dropdown-menu {
   background-color: #194687;
 }
 
-/***** Main Content: general styling *****/
 
+
+/***** Main Content: general styling *****/
 body {
   /* background-color: rgba(25, 70, 135, 0.2); */
   background-color: rgba(38, 109, 211, 0.2);
+  color: #12143A;
 }
 
 .indPageTitle {
@@ -133,4 +135,15 @@ a:hover {
 .icon {
   /* thanks https://codepen.io/sosuke/pen/Pjoqqp for generating this filter (the first two properties set the icon to black first to achieve a truer color match) */
   filter: brightness(0) saturate(100%) invert(25%) sepia(11%) saturate(6019%) hue-rotate(315deg) brightness(97%) contrast(89%);
+}
+
+
+
+/***** Page-specific: program.php *****/
+div.mutualEvent {
+  background-color: rgba(112, 112, 158, 0.1);
+}
+
+div.mutualEvent h4 {
+  color: #194687;
 }

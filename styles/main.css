@@ -77,17 +77,17 @@ a:hover {
 }
 
 .navbar-nav a.nav-link {
-  color: #FEFDFB;
+  color: #FEFEFE;
   font-size: 1.2rem;
 }
 
 div.dropdown-menu {
-  color: #FEFDFB;
+  color: #FEFEFE;
   background-color: #102A83;
 }
 
 a.dropdown-item {
-  color: #FEFDFB;
+  color: #FEFEFE;
 }
 
 /* NOTE: hover effect for navbar only on larger screens. massive thanks to
