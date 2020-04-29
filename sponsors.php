@@ -112,6 +112,11 @@
             <img src="./images/sponsors/eurocrypt2020/rambus.png" alt="Rambus" title="Rambus" class="sponsorPageLogo">
           </a>
         </div>
+        <div class="sponsorLogoBox justify-content-between">
+          <a href="http://www.platon.network/">
+            <img src="./images/sponsors/eurocrypt2020/PlatON.png" alt="PlatON" title="PlatON" class="sponsorPageLogo">
+          </a>
+        </div>
       </div>
     </main>
     <?php include "includes/footer.php"; ?>
