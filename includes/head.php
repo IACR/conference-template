@@ -24,7 +24,7 @@
     $length = strlen($_SERVER['HTTP_HOST']);
     if ($length >= 8 &&
         substr($_SERVER['HTTP_HOST'], -8) === 'iacr.org') {
-      return "/2020virtual/"; // " . strval($META['year']) . "/";
+      return "/" . strval($META['year']) . "/";
     }
     return "/";
   }
