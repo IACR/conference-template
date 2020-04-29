@@ -100,14 +100,14 @@
         </section>
       </div>
 
-      <h3 class="text-center alert alert-info">
+<!--      <h3 class="text-center alert alert-info">
         Registration is not open yet
-      </h3>
-<!--      <div class="row">
+      </h3>-->
+      <div class="row">
         <aside class="col-sm-6 mx-auto text-center">
           <a href="https://secure.iacr.org/conferences/eurocrypt2020/register" class="btn btn-lg btn-warning btn-block regBtn" role="button">Register now!</a>
         </aside>
-      </div>-->
+      </div>
 
       <div class="row mt-5">
         <section class="col-md-6">
@@ -135,6 +135,12 @@
           <h3 class="pageSubtitle">Refund Policy</h3>
           <p>
             Due to the nature of a virtual conference, no cancellations will be accepted.
+          </p>
+        </section>
+        <section class="col-md-6">
+          <h3 class="pageSubtitle">Code of Conduct</h3>
+          <p>
+            People who register must agree to abide by the <a href="conduct.php">IACR code of conduct</a>.
           </p>
         </section>
       </div>
