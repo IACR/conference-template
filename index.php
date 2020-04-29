@@ -23,7 +23,9 @@
       <b>
         Due to the coronavirus spread, Eurocrypt 2020 will be
         virtual. The dates of this event are (close to) the original
-        dates: May 11-15 2020.
+        dates: May 11-15 2020. We suggest you read the
+        <a href="participation.php">participation guidelines</a>
+        to see what it will be like.
       </b>
     </p>
 
@@ -54,6 +56,14 @@
           <h4 class="customCardHeader">
             Website Updates
           </h4>
+          <div class="customCardRow row">
+            <h6 class="dateTitle col-5 col-md-4">
+              April 28 2020
+            </h6>
+            <p class="col-7 col-md-8">
+              <a href="program.php">Tentative program</a> is now online.
+            </p>
+          </div>
           <div class="customCardRow row">
             <h6 class="dateTitle col-5 col-md-4">
               April 18 2020
