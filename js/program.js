@@ -16,10 +16,11 @@ function startTimer(duration, display) {
 }
 
 function adjustTimes(date, session) {
-  let starttime = moment.utc(date + ' ' + session.starttime).local().format('ddd DD MMM HH:mm');
-  session.localstarttime = starttime;
-  let endtime = moment.utc(date + ' ' + session.endtime).local().format('ddd DD MMM HH:mm');
-  session.localendtime = endtime;
+  // Make sure they are formatted as yyyy-MM-ddTHH:mm:ss, because they could be things like '7:00'
+  let starttime = moment.utc(date + 'T' + session.starttime.padStart(5, '0') + ':00').local().format('ddd DD MMM HH:mm');
+  session.localstarttime = starttime.padStart(5, '0');
+  let endtime = moment.utc(date + 'T' + session.endtime.padStart(5, '0') + ':00').local().format('ddd DD MMM HH:mm');
+  session.localendtime = endtime.padStart(5, '0');
 }
 
 $(document).ready(function() {
@@ -58,8 +59,8 @@ $(document).ready(function() {
 
       var theCompiledHtml = theTemplate(data);
       renderedProgram.innerHTML = theCompiledHtml;
-      let countdown = document.getElementById('countdown');
-      startTimer(2000, countdown);
+//      let countdown = document.getElementById('countdown');
+//      startTimer(2000, countdown);
     },
     fail: function(jqxhr, textStatus, error) {
       document.getElementById('renderedProgram');
