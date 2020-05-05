@@ -41,11 +41,15 @@
            </p>
            -->
 
-      <p class="alert alert-danger">
-        This program is tentative. Sessions will be conducted as panel discussions in
+      <p class="alert alert-info">
+        Sessions will be conducted as panel discussions in
         which authors give a very brief overview (5 minutes) of their papers, and then
         take live questions from the panel moderators and audience. There will also
-        be links to papers and videos of longer talks by authors on their papers.
+        be links to videos of longer talks by authors on their papers. Links to individual
+        papers have been added below, but you can also find links to
+        the full LNCS volumes here: <a href="https://link.springer.com/book/10.1007/978-3-030-45721-1">12105</a>,
+        <a href="https://link.springer.com/book/10.1007/978-3-030-45724-2">12106</a>,
+        <a href="https://link.springer.com/book/10.1007/978-3-030-45727-3">12107</a>.
       </p>
       <p class="alert alert-info">
         <strong>Your timezone appears to be <span id="timezone"></span>.
