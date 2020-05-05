@@ -26,21 +26,11 @@
       "timeslots": [
         {
           "starttime": "13:00",
-          "endtime": "13:15",
-          "sessions": [
-            {
-              "session_title": "Opening remarks",
-              "id": "session-177"
-            }
-          ]
-        },
-        {
-          "starttime": "13:15",
           "endtime": "14:15",
           "sessions": [
             {
               "moderator": "Moderators: Luca de Feo, Marc Joye, Cécile Pierrot, and Fre Vercauteren",
-              "session_title": "Number-theoretic Cryptography",
+              "session_title": "Opening Remarks + Number-theoretic Cryptography",
               "talks": [
                 {
                   "authors": [
