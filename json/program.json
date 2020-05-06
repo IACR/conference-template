@@ -1,5 +1,5 @@
 {
-  "name": "Eurocrypt 2020 with paper links & mods",
+  "name": "Eurocrypt 2020 final",
   "config": {
     "default_track_locations": [
       {
@@ -30,7 +30,7 @@
           "sessions": [
             {
               "moderator": "Moderators: Luca de Feo, Marc Joye, Cécile Pierrot, and Fre Vercauteren",
-              "session_title": "Opening Remarks + Number-theoretic Cryptography",
+              "session_title": "Opening Remarks + Number-Theoretic Cryptography",
               "talks": [
                 {
                   "authors": [
@@ -79,7 +79,7 @@
                   ],
                   "pubkey": 30243,
                   "keywords": "isogeny-based cryptography;endomorphism rings;CSIDH",
-                  "title": "Rational isogenies from irrational endomorphisms",
+                  "title": "Rational Isogenies from Irrational Endomorphisms",
                   "category": "isogeny-based cryptography",
                   "id": "talk-30243",
                   "affiliations": "COSIC, research group at imec and KU Leuven; Department of Mathematics and Computer Science, Technische Universiteit",
@@ -154,7 +154,7 @@
           "endtime": "16:00",
           "sessions": [
             {
-              "moderator": "Moderators: Ryo Nishimaki, Romain Gay, Yilei Chen, and Vipul Goyal",
+              "moderator": "Moderators: Yilei Chen, Romain Gay, Vipul Goyal, and Ryo Nishimaki",
               "session_title": "Obfuscation, Functional Encryption, and Attribute-Based Encryption",
               "talks": [
                 {
@@ -230,7 +230,7 @@
                   ],
                   "pubkey": 30237,
                   "keywords": "ABE;adaptive security;compactness;k-Lin;logspace Turing machine;arithmetic branching program;IPFE",
-                  "title": "Compact Adaptively Secure ABE from k-Lin: Beyond NC1 and towards NL",
+                  "title": "Compact Adaptively Secure ABE from k-Lin: Beyond NC1 and Towards NL",
                   "category": "ABE",
                   "id": "talk-30237",
                   "affiliations": "University of Washington",
@@ -355,7 +355,7 @@
                   ],
                   "pubkey": 30218,
                   "keywords": "stream ciphers;cube attack;division property;three-subset division property;MILP;Trivium;Grain-128AEAD",
-                  "title": "Modeling for Three-Subset Division Property without Unknown Subset -- Improved Cube Attacks against Trivium and Grain-128AEAD",
+                  "title": "Modeling for Three-Subset Division Property Without Unknown Subset -- Improved Cube Attacks Against Trivium and Grain-128AEAD",
                   "category": "stream ciphers",
                   "id": "talk-30218",
                   "affiliations": "State Key Laboratory of Cryptology, China; Ruhr University Bochum, Horst Götz Institute for IT Security, Germany; FHNW, Switzerland; NTT Secure Platform Laboratories, Japan; SnT, University of Luxembourg",
@@ -426,7 +426,7 @@
                   ],
                   "pubkey": 30236,
                   "keywords": "Quantum;lazy sampling;randomness;quantum money",
-                  "title": "Efficient simulation of random states and random unitaries",
+                  "title": "Efficient Simulation of Random States and Random Unitaries",
                   "category": "Quantum",
                   "id": "talk-30236",
                   "affiliations": "QuICS, University of Maryland, and NIST; QuSoft, Amsterdam and Centrum Wiskunde & Informatica; Department of Computer Science and Engineering, University of Connecticut",
@@ -441,7 +441,7 @@
                   ],
                   "pubkey": 30239,
                   "keywords": "Quantum access;quantum-secure;message authentication;query complexity",
-                  "title": "Quantum-access-secure message authentication via blind-unforgeability",
+                  "title": "Quantum-Access-Secure Message Authentication via Blind-Unforgeability",
                   "category": "Quantum access",
                   "id": "talk-30239",
                   "affiliations": "QuICS, University of Maryland, and NIST;  QuSoft and Centrum Wiskunde & Informatica, Amsterdam; Department of Computer Science and Engineering, Univ. of Connecticut; Department of Computer Science and Engineering, Texas A&M University",
@@ -467,7 +467,7 @@
           "endtime": "14:45",
           "sessions": [
             {
-              "moderator": "Moderators: Gilles Van Assche, Jian Guo, Gregor Leander, and Bart Mennik",
+              "moderator": "Moderators: Jian Guo, Gregor Leander, Bart Mennik, and Gilles Van Assche, ",
               "session_title": "Quantum Cryptanalysis",
               "talks": [
                 {
@@ -688,7 +688,7 @@
             {
               "session_title": "Symmetric Designs",
               "id": "session-193",
-              "moderator": "Moderators: Maria Naya Plasencia, Kazuhiko Minematsu, Nathan Keller, and Joan Daemen",
+              "moderator": "Moderators: Joan Daemen, Nathan Keller, Kazuhiko Minematsu, and Maria Naya Plasencia",
               "talks": [
                 {
                   "authors": [
@@ -905,7 +905,7 @@
                   ],
                   "pubkey": 30207,
                   "keywords": "Zero-Knowledge;Post-Quantum digital signatures;SIS;Multivariate cryptography;Permuted Kernel Problem;Silly acronyms",
-                  "title": "Sigma protocols for MQ, PKP and SIS, and fishy signature schemes",
+                  "title": "Sigma Protocols for MQ, PKP and SIS, and Fishy Signature Schemes",
                   "category": "Zero-Knowledge",
                   "id": "talk-30207",
                   "affiliations": "imec-COSIC, KU Leuven",
@@ -1052,7 +1052,8 @@
           "sessions": [
             {
               "id": "session-200",
-              "session_title": "Rump Session"
+              "session_title": "Rump Session",
+              "moderator": "Chairs: Yilei Chen, Rishab Goyal, and Lisa Kohl"
             }
           ]
         }
@@ -1391,7 +1392,7 @@
           "endtime": "14:00",
           "sessions": [
             {
-              "moderator": "Moderators: Leo Ducas, Tancrède Lepoint, Alexander May, and Gilles Zemor",
+              "moderator": "Moderators: Léo Ducas, Tancrède Lepoint, Alexander May, and Gilles Zémor",
               "session_title": "Lattice-Based and Code-Based Cryptography",
               "talks": [
                 {
@@ -1430,7 +1431,7 @@
                   ],
                   "pubkey": 30216,
                   "keywords": "cryptanalysis;lattice-based cryptography;reaction attacks;decryption errors",
-                  "title": "(One) failure is not an option: Bootstrapping the search for failures in lattice-based encryption schemes",
+                  "title": "(One) Failure is Not an Option: Bootstrapping the Search for Failures in Lattice-Based Encryption Schemes",
                   "category": "cryptanalysis",
                   "id": "talk-30216",
                   "affiliations": "imec-COSIC, KU Leuven; ANSSI, France; ENS Paris; Thales, France; INRIA, France; Information Security Group, Royal Holloway, University of London",
@@ -1614,5 +1615,5 @@
       ]
     }
   ],
-  "database_id": "303"
+  "database_id": "305"
 }
