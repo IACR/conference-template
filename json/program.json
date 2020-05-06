@@ -18,7 +18,7 @@
         "id": "category-0"
       }
     ],
-    "uniqueIDIndex": 211
+    "uniqueIDIndex": 212
   },
   "days": [
     {
@@ -29,7 +29,7 @@
           "endtime": "14:15",
           "sessions": [
             {
-              "moderator": "Moderators: Luca de Feo, Marc Joye, Cécile Pierrot, and Fre Vercauteren",
+              "moderator": "Moderators: Luca De Feo, Marc Joye, Cécile Pierrot, and Frederik Vercauteren",
               "session_title": "Opening Remarks + Number-Theoretic Cryptography",
               "talks": [
                 {
@@ -1032,7 +1032,8 @@
                   "affiliations": "University of California, Irvine",
                   "paperUrl": "http://dx.doi.org/10.1007/978-3-030-45721-1_1"
                 }
-              ]
+              ],
+              "moderator": "Moderator: Anne Canteaut and Yuval Ishai"
             }
           ]
         },
@@ -1378,7 +1379,19 @@
                   "affiliations": "IDC Herzliya",
                   "paperUrl": "https://eprint.iacr.org/2020/442.pdf"
                 }
-              ]
+              ],
+              "moderator": "Moderator: Anne Canteaut and Yuval Ishai"
+            }
+          ]
+        },
+        {
+          "starttime": "16:45",
+          "endtime": "18:15",
+          "sessions": [
+            {
+              "id": "session-212",
+              "session_title": "Panel Discussion on Contact Tracing",
+              "moderator": "Moderator: Luca de Feo, Léo Ducas, and Matthew Green"
             }
           ]
         }
