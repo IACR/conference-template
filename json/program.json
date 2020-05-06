@@ -18,7 +18,7 @@
         "id": "category-0"
       }
     ],
-    "uniqueIDIndex": 211
+    "uniqueIDIndex": 212
   },
   "days": [
     {
@@ -29,7 +29,7 @@
           "endtime": "14:15",
           "sessions": [
             {
-              "moderator": "Moderators: Luca de Feo, Marc Joye, Cécile Pierrot, and Fre Vercauteren",
+              "moderator": "Moderators: Luca De Feo, Marc Joye, Cécile Pierrot, and Frederik Vercauteren",
               "session_title": "Opening Remarks + Number-Theoretic Cryptography",
               "talks": [
                 {
@@ -1032,7 +1032,8 @@
                   "affiliations": "University of California, Irvine",
                   "paperUrl": "http://dx.doi.org/10.1007/978-3-030-45721-1_1"
                 }
-              ]
+              ],
+              "moderator": "Moderator: Anne Canteaut and Yuval Ishai"
             }
           ]
         },
@@ -1378,7 +1379,19 @@
                   "affiliations": "IDC Herzliya",
                   "paperUrl": "https://eprint.iacr.org/2020/442.pdf"
                 }
-              ]
+              ],
+              "moderator": "Moderator: Anne Canteaut and Yuval Ishai"
+            }
+          ]
+        },
+        {
+          "starttime": "16:45",
+          "endtime": "18:15",
+          "sessions": [
+            {
+              "id": "session-212",
+              "session_title": "Panel Discussion on Contact Tracing",
+              "moderator": "Moderator: Luca De Feo, Léo Ducas, and Matthew Green"
             }
           ]
         }
@@ -1528,10 +1541,11 @@
                   ],
                   "pubkey": 30253,
                   "keywords": "Random oracle model;domain separation;key encapsulation mechanism;NIST post-quantum cryptography",
-                  "title": "Separate Your Domains: NIST PQC KEMs and Oracle Cloning",
+                  "title": "Separate Your Domains: NIST PQC KEMs, Oracle Cloning and Read-Only Indifferentiability",
                   "category": "Random oracle model",
                   "id": "talk-30253",
-                  "affiliations": "Dept. of Computer Science & Engineering, University of California San Diego; Department of Computer Science, ETH Zürich"
+                  "affiliations": "Dept. of Computer Science & Engineering, University of California San Diego; Department of Computer Science, ETH Zürich",
+                  "paperUrl": "https://dx.doi.org/10.1007/978-3-030-45724-2_1"
                 },
                 {
                   "authors": [
