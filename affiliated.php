@@ -19,7 +19,17 @@
        Affiliated Events
      </h3>
       <p>
-        As this is Eurocrypt's first time as an online event, we have few affiliated events.
+        Given the COVID-19 crisis, many of the affiliated events have chosen to cancel. However, those listed below have moved to an online event, as Eurocrypt 2020 has done.
+      </p>
+
+      <h4 class="subSubtitle">
+        <a href="https://cbcrypto.dii.univpm.it/">CBCrypto: International Workshop on Code-Based Cryptography</a>
+      </h4>
+      <h6>
+        Saturday 9 May and Sunday 10 May 2020
+      </h6>
+      <p>
+        Organizers: Marco Baldi (Universit&agrave; Politecnica delle Marche), Edoardo Persichetti (Florida Atlantic University), Paolo Santini (Universit&agrave; Politecnica delle Marche)
       </p>
     </main>
 
