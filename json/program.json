@@ -1391,7 +1391,7 @@
             {
               "id": "session-212",
               "session_title": "Panel Discussion on Contact Tracing",
-              "moderator": "Moderator: Luca de Feo, Léo Ducas, and Matthew Green"
+              "moderator": "Moderator: Luca De Feo, Léo Ducas, and Matthew Green"
             }
           ]
         }
@@ -1541,10 +1541,11 @@
                   ],
                   "pubkey": 30253,
                   "keywords": "Random oracle model;domain separation;key encapsulation mechanism;NIST post-quantum cryptography",
-                  "title": "Separate Your Domains: NIST PQC KEMs and Oracle Cloning",
+                  "title": "Separate Your Domains: NIST PQC KEMs and Oracle Cloning and Read-Only Indifferentiability",
                   "category": "Random oracle model",
                   "id": "talk-30253",
-                  "affiliations": "Dept. of Computer Science & Engineering, University of California San Diego; Department of Computer Science, ETH Zürich"
+                  "affiliations": "Dept. of Computer Science & Engineering, University of California San Diego; Department of Computer Science, ETH Zürich",
+                  "paperUrl": "https://dx.doi.org/10.1007/978-3-030-45724-2_1"
                 },
                 {
                   "authors": [
