@@ -1541,7 +1541,7 @@
                   ],
                   "pubkey": 30253,
                   "keywords": "Random oracle model;domain separation;key encapsulation mechanism;NIST post-quantum cryptography",
-                  "title": "Separate Your Domains: NIST PQC KEMs and Oracle Cloning and Read-Only Indifferentiability",
+                  "title": "Separate Your Domains: NIST PQC KEMs, Oracle Cloning and Read-Only Indifferentiability",
                   "category": "Random oracle model",
                   "id": "talk-30253",
                   "affiliations": "Dept. of Computer Science & Engineering, University of California San Diego; Department of Computer Science, ETH Zürich",
