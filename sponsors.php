@@ -56,6 +56,11 @@
             <img src="./images/sponsors/eurocrypt2020/VisaResearch.png" alt="Visa Research" title="Visa Research" class="sponsorPageLogo">
           </a>
         </div>
+        <div class="sponsorLogoBox justify-content-between">
+          <a href="https://www.google.com">
+            <img src="./images/sponsors/eurocrypt2020/google.png" alt="Google" title="Google" class="sponsorPageLogo">
+          </a>
+        </div>
       </div>
 
       <hr />
