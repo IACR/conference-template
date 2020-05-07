@@ -22,9 +22,13 @@
            is under construction. please delete the <p> below when you
            finish editing the content.  -->
       <p>
-          This information is not yet available. Thank you for your patience.
+          The submission server is now available.
+          Please see the <a href="https://asiacrypt.iacr.org/2020/callforpapers.php">call for papers</a> page for further instructions.
       </p>
-
+      <p class="text-center">
+        <a href="https://secure.iacr.org/websubrev/ac2020/submit/" target="_blank" class="btn btn-lg btn-warning"
+           role="button">Submission Server</a>
+      </p>
     </main>
 
   <?php include "includes/footer.php"; ?>

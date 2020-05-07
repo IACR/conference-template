@@ -46,6 +46,14 @@
           </h4>
           <div class="customCardRow row">
             <h6 class="dateTitle col-5 col-md-4">
+              May 7, 2020
+            </h6>
+            <p class="col-7 col-md-8">
+              <a href="https://secure.iacr.org/websubrev/ac2020/submit/">Submission server</a> opened
+            </p>
+          </div>
+          <div class="customCardRow row">
+            <h6 class="dateTitle col-5 col-md-4">
               April 21, 2020
             </h6>
             <p class="col-7 col-md-8">
