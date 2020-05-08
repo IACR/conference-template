@@ -32,7 +32,7 @@
     <div class="row mb-2">
       <article class="col-12">
         <p>
-          <!-- <span class="long_conf"><?php echo $META['shortName'];?></span> will take place 
+          <!-- <span class="long_conf"><?php echo $META['shortName'];?></span> will take place
           <span class="conf_location"><?php echo $META['city'] . ', ' . $META['country'];?></span>
           on <span class="conf_dates"><?php echo $META['dates'];?></span>.-->
             <span class="long_conf"><?php echo $META['shortName'];?></span> is the 39th Annual International Conference on the Theory and Applications of Cryptographic Techniques. Eurocrypt is one of the three flagship conferences of <a href="http://iacr.org/">the International Association for Cryptologic Research</a> (IACR). This is the first Eurocrypt to be run as a virtual conference.
@@ -56,6 +56,14 @@
           <h4 class="customCardHeader">
             Website Updates
           </h4>
+          <div class="customCardRow row">
+            <h6 class="dateTitle col-5 col-md-4">
+              May 8 2020
+            </h6>
+            <p class="col-7 col-md-8">
+              <a href="rumpsession.php">Rump session call for papers</a> is now online.
+            </p>
+          </div>
           <div class="customCardRow row">
             <h6 class="dateTitle col-5 col-md-4">
               April 28 2020
