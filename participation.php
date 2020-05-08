@@ -37,12 +37,41 @@
       </div>
 
 
-      <h3 class="pageSubtitle mt-4">
+      <!-- <h3 class="pageSubtitle mt-4">
         Schedule Structure
-      </h3>
+      </h3> -->
       <p>
         The conference is organized over 5 days, with approximately 4 hours per day. Sessions consist of live panel discussions (i.e. brief summaries of the papers, which are grouped by topic, followed by a Q&amp;A with the authors), invited talks, and a rump session. We recommend monitoring <a href="program.php">the conference program</a> to see which sessions are upcoming.
       </p>
+
+      <hr>
+
+      <h3 class="pageSubtitle mt-4">
+        How to Attend <?php echo $META['shortName'];?>
+      </h3>
+      <h4 class="subSubtitle">
+        Attend a Webinar (via Zoom)
+      </h4>
+      <p>
+        We will be holding live Q&amp;A panels with authors
+        multiple times daily. At these panels, attendees will be
+        able to ask questions of authors about their work, or to
+        encourage interesting conversation amongst authors. These
+        Q&amp;As will be available on the Zoom platform with
+        live Q&amp;A, but also livestreamed on our YouTube channel and
+        will be available for later viewing. Links to the webinars
+        will appear on the program if you are registered.
+      </p>
+
+        <div class="col-md-6 mx-lg-auto col-lg-5 col-xl-4 mb-md-4">
+          <h4 class="subSubtitle text-md-center">
+            Chat (Zoom, Zulip)
+          </h4>
+          <p>
+            Please reserve Zoom chat for questions that directly pertain to the live session in progress.
+          </p>
+        </div>
+      </div>
 
       <h3 class="pageSubtitle mt-4">
         Ways to Participate
@@ -177,7 +206,7 @@
       </h4>
       <p>
         Unfortunately, due to the wide variety of time zones IACR members live in, we cannot accommodate everyone.
-        We strongly encourage those who cannot attend live events to still participate in the conference asynchronously. 
+        We strongly encourage those who cannot attend live events to still participate in the conference asynchronously.
       </p>
       <p>
         Live Q&amp;A sessions and invited talks are streamed to YouTube and available for viewing after the fact. You can also watch any of the pre-recorded talks on YouTube, or participate via chat. If you don't want to watch the talks on YouTube alone, you could host a watch party for others in your time zone.
