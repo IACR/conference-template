@@ -31,7 +31,7 @@
 
         <div class="col-md-6 mt-md-4">
           <p class="alert alert-warning">
-            <img src="images/icons/exclamation.svg" class="icon"> All conference attendees must be IACR members. When you participate in Q&amp;A, chat, etc, you must do so in such a way that you are readily identifiable (i.e. by using the name you are known by in professional contexts). The <a href="conduct.php">code of conduct</a> still applies in a virtual setting.
+            <img src="images/icons/exclamation.svg" class="icon"> All conference attendees must be IACR members. When you participate in Q&amp;A, chat, etc, you must do so in such a way that you are readily identifiable (i.e. by using the name you are known by in your professional work). The <a href="conduct.php">code of conduct</a> still applies in a virtual setting.
           </p>
         </div>
       </div>
@@ -41,7 +41,7 @@
         Schedule Structure
       </h3>
       <p>
-        The conference is organized over 5 days, with 4 hours per day. Sessions consist of live panel discussions (i.e. brief summaries of the papers, which are grouped by topic, followed by a Q&amp;A with the authors), invited talks, and a rump session. We recommend monitoring <a href="program.php">the conference program</a> to see which sessions are upcoming.
+        The conference is organized over 5 days, with approximately 4 hours per day. Sessions consist of live panel discussions (i.e. brief summaries of the papers, which are grouped by topic, followed by a Q&amp;A with the authors), invited talks, and a rump session. We recommend monitoring <a href="program.php">the conference program</a> to see which sessions are upcoming.
       </p>
 
       <h3 class="pageSubtitle mt-4">
@@ -53,7 +53,14 @@
             Webinar
           </h4>
           <p>
-            We will be holding live Q&amp;A panels with authors multiple times daily. At these panels, attendees will be able to ask questions of authors about their work, or to encourage interesting conversation amongst authors. These Q&amp;As will be livestreamed on our YouTube channel and are available for later viewing.
+            We will be holding live Q&amp;A panels with authors
+            multiple times daily. At these panels, attendees will be
+            able to ask questions of authors about their work, or to
+            encourage interesting conversation amongst authors. These
+            Q&amp;As will be available on the Zoom platform with
+            live Q&amp;A, but also livestreamed on our YouTube channel and
+            will be available for later viewing. Links to the webinars
+            will appear on the program if you are registered.
           </p>
         </div>
 
@@ -62,11 +69,18 @@
             Chat
           </h4>
           <p>
-            Much like at a face-to-face conference, we know that the best conversations can happen in the hallways or at coffee breaks. We encourage you to make use of the Slack workspace we have set up to connect with other conference attendees. There are a variety of channels, organized by topic.
+            Much like at a face-to-face conference, we know that the
+            best conversations can happen in the hallways or at coffee
+            breaks. We encourage you to make use of the IACR chat
+            server running Zulip to connect with other conference
+            attendees. There are a variety of streams, organized by
+            topic. You can also start video chat rooms from this.
+            Links to the chat will appear on the program if you are
+            registered.
           </p>
-          <div class="d-md-flex justify-content-center">
+<!--          <div class="d-md-flex justify-content-center">
             <a href="#" class="btn btn-warning">Join the chat</a>
-          </div>
+          </div>-->
         </div>
 
         <div class="col-md-6 mx-lg-auto col-lg-5 col-xl-4 mb-md-4">
@@ -74,11 +88,17 @@
             Watch Parties
           </h4>
           <p>
-            Jitsi (hosted on IACR servers) allows you to host watch parties, whereby you and others watch a talk or Q&amp;A session together. Like chat, watch parties encourage discussion and interaction amongst attendees.
+            Jitsi is a videoconference platform that allows you to host watch parties,
+            whereby you and others watch a YouTube video of a talk
+            or Q&amp;A session together.
+            Like chat, watch parties encourage discussion and interaction amongst attendees.
+            Sharing of Jitsi links will occur through chat. This is where you click to
+            start a video conference.<br>
+            <img src="images/jitsi.png" class="img-fluid">
           </p>
-          <div class="d-md-flex justify-content-center">
+<!--          <div class="d-md-flex justify-content-center">
             <a href="#" class="btn btn-warning">Host or attend a watch party</a>
-          </div>
+          </div>-->
         </div>
 
         <div class="col-md-6 mx-lg-auto mx-xl-0 col-lg-5 col-xl-4 mb-md-4">
@@ -86,12 +106,18 @@
             YouTube
           </h4>
           <p>
-            If you cannot participate live, you will still have access to all talks on our YouTube channel. The authors have pre-recorded their talks and you can view them at any time. Additionally, there will be copies of the live Q&amp;A sessions available to watch.
+            If you cannot participate live, you will still have access
+            to all talks on
+            our <a href="https://youtube.com/TheIACR/">YouTube
+            channel</a>. The authors should have pre-recorded their
+            talks and you can view them at any time. Additionally,
+            there will be copies of the live Q&amp;A sessions
+            available to watch.
           </p>
-          <div class="d-md-flex justify-content-around">
+<!--          <div class="d-md-flex justify-content-around">
             <a href="#" class="btn btn-warning">Talks Playlist</a>
             <a href="#" class="btn btn-warning">Q&amp;A Playlist</a>
-          </div>
+          </div>-->
         </div>
       </div>
 
@@ -143,27 +169,28 @@
         How do I ask a question during the live Q&amp;A sessions?
       </h4>
       <p>
-        We strongly encourage you to use the Q&amp;A function in Zoom webinar, but we will also make an effort to monitor the corresponding Slack channel.
+        We strongly encourage you to use the Q&amp;A function in Zoom webinar, but we will also make an effort to monitor the corresponding chat channel.
       </p>
 
       <h4 class="subSubtitle">
         The session times are not convenient for me. What can I do?
       </h4>
       <p>
-        Unfortunately, due to the wide variety of time zones IACR members live in, we cannot accommodate everyone. We strongly encourage those who cannot attend live events to still participate in the conference asynchronously.
+        Unfortunately, due to the wide variety of time zones IACR members live in, we cannot accommodate everyone.
+        We strongly encourage those who cannot attend live events to still participate in the conference asynchronously. 
       </p>
       <p>
-        Live Q&amp;A sessions and invited talks are streamed to YouTube and available for viewing after the fact. You can also watch any of the pre-recorded talks on YouTube, or participate in chat via Slack. If you don't want to watch the talks alone, you could host a watch party for others in your time zone.
+        Live Q&amp;A sessions and invited talks are streamed to YouTube and available for viewing after the fact. You can also watch any of the pre-recorded talks on YouTube, or participate via chat. If you don't want to watch the talks on YouTube alone, you could host a watch party for others in your time zone.
       </p>
 
       <h4 class="subSubtitle">
-        Zoom/Slack/YouTube have security and privacy issues. Does this mean the IACR endorses these technologies?
+        Zoom/chat/YouTube all have security and privacy issues. Does this mean the IACR endorses these technologies?
       </h4>
       <p>
         No. There was no perfect solution available, and we had a very quick turnaround time, so we opted for commercial options that had a high degree of reliability while offering the best user experience. The IACR acknowledges the security and privacy problems of each of these technologies, and our use of them is not to be considered an endorsement.
       </p>
       <p>
-        For future IACR virtual events, we hope to be able to host some services on our own servers.
+        For future IACR virtual events, we hope to be able to host more services on our own servers.
       </p>
 
     </main>

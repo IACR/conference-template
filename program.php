@@ -42,6 +42,7 @@
            -->
 
       <p class="alert alert-info">
+        Zoom and chat links will appear here prior to the session.
         Sessions will be conducted as panel discussions in
         which authors give a very brief overview (5 minutes) of their papers, and then
         take live questions from the panel moderators and audience. There will also
@@ -54,7 +55,8 @@
       <p class="alert alert-info">
         <strong>Your timezone appears to be <span id="timezone"></span>.
           Times in the schedule are shown in your local timezone. Dates are
-          in UTC.
+          in UTC. If the times seem inconvenient, keep in mind that this is an
+          international conference with a European-centric schedule.
         </strong>
       </p>
       <!-- 
@@ -93,7 +95,7 @@
                 <hr />
                 {{/if}}
                 <h3 class="pageSubtitle">
-                  {{formatDate date}} (UTC date)
+                  {{formatDate date}} (dates may differ in your timezone)
                 </h3>
               </div>
             </div>
@@ -265,7 +267,7 @@
     <script src="./js/tooltips.js"></script>
     <script src="https://iacr.org/libs/js/moment/moment.js"></script>
     <script src="https://iacr.org/libs/js/moment/moment-timezone-with-data-10-year-range.js"></script>
-    <script src="./js/program.js"></script>
+    <script src="./js/program.js?v=2"></script>
     <script>
       const now = new Date();
       let offset = now.getTimezoneOffset();
