@@ -24,18 +24,24 @@
            can always use the program editor to create your program: https://iacr.org/tools/program
            and then copy stuff from program.php and js/program.js.
       -->
-      <p>
-        The detailed program for the rump session will be announced on this web page. There are no current plans to distribute printed programs, but we are open to suggestions. :)
-      </p>
-
       <h3 class="pageSubtitle">
         Call for Papers
       </h3>
-      <p>
-        Schools are closed, bars are shut down, the civilization is collapsed, but the rump session will still go on! We will always be here with you (but the snacks are on you this time)! Join us for the first ever virtual rump session at Eurocrypt 2020! If you have any breaking news or interesting stories to share with the crypto community, please make them short and entertaining, and fill out the submission form and ask for a talk slot!
-      </p>
+      <div class="row">
+        <div class="col-12 col-md-7">
+          <p>
+            Schools are closed, bars are shut down, the civilization is collapsed, but the rump session will still go on! We will always be here with you (but the snacks are on you this time)! Join us for the first ever virtual rump session at Eurocrypt 2020! If you have any breaking news or interesting stories to share with the crypto community, please make them short and entertaining, and fill out the submission form and ask for a talk slot!
+          </p>
+        </div>
+        <div class="col-12 col-md-5">
+          <p class="alert alert-info">
+            The detailed program for the rump session will be announced on this web page. There are no current plans to distribute printed programs, but we are open to suggestions. 😃
 
-      <div class="alert alert-info text-center">
+          </p>
+        </div>
+      </div>
+
+      <div class="alert alert-warning">
         <!-- NOTE: don't ask me why but you need .text-center on these p elements -->
         <p class="text-center">
           <strong>Submission deadline:</strong> Tuesday, May 12 at 9 AM UTC
@@ -43,7 +49,7 @@
         <p class="text-center">
           <strong>Time constraints:</strong> 1-5 minutes, 6 minutes if very funny
         </p>
-        <a href="https://submit.iacr.org/ec2020rump/" class="btn btn-warning btn-lg">Submit a talk</a>
+        <a href="https://submit.iacr.org/ec2020rump/" class="btn btn-warning btn-block w-50 mx-auto">Submit a talk</a>
       </div>
 
       <h3 class="pageSubtitle">
@@ -83,7 +89,7 @@
         Format
       </h3>
       <p>
-        The format of the material can be slides, video, or live performance. <strong>Please do not play copyrighted music as part of your talks.</strong> We require the speakers to submit at least a title slide even if you are not planning to prepare slides for the talk. The reason is that we will let every speaker share their screen at the beginning of their talk, thereby bringing the focus to them before the start of their talk.
+        The format of the material can be slides, video, or live performance. <strong>Do not play copyrighted music as part of your talks.</strong> We require the speakers to submit at least a title slide even if you are not planning to prepare slides for the talk. The reason is that we will let every speaker share their screen at the beginning of their talk, thereby bringing the focus to them before the start of their talk.
       </p>
 
       <h3 class="pageSubtitle">
