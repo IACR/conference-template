@@ -104,6 +104,7 @@
               <div class="col-2">
                 <p class="timeSlot text-center" title="UTC: {{../date}} {{starttime}}-{{endtime}}">
                   {{localstarttime}} <br>to<br> {{localendtime}}<br>
+                <small class="text-center">(UTC: {{starttime}}-{{endtime}})</small>
                 </p>
               </div>
               {{#if twosessions}}
