@@ -55,7 +55,8 @@
       <p class="alert alert-info">
         <strong>Your timezone appears to be <span id="timezone"></span>.
           Times in the schedule are shown in your local timezone. Dates are
-          in UTC.
+          in UTC. If the times seem inconvenient, keep in mind that this is an
+          international conference with a European-centric schedule.
         </strong>
       </p>
       <!-- 
