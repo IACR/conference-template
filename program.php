@@ -42,6 +42,7 @@
            -->
 
       <p class="alert alert-info">
+        Zoom and chat links will appear here prior to the session.
         Sessions will be conducted as panel discussions in
         which authors give a very brief overview (5 minutes) of their papers, and then
         take live questions from the panel moderators and audience. There will also
@@ -265,7 +266,7 @@
     <script src="./js/tooltips.js"></script>
     <script src="https://iacr.org/libs/js/moment/moment.js"></script>
     <script src="https://iacr.org/libs/js/moment/moment-timezone-with-data-10-year-range.js"></script>
-    <script src="./js/program.js"></script>
+    <script src="./js/program.js?v=2"></script>
     <script>
       const now = new Date();
       let offset = now.getTimezoneOffset();
