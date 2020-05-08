@@ -18,7 +18,7 @@
         "id": "category-0"
       }
     ],
-    "uniqueIDIndex": 213
+    "uniqueIDIndex": 214
   },
   "days": [
     {
@@ -1052,12 +1052,24 @@
         },
         {
           "starttime": "17:00",
-          "endtime": "19:00",
+          "endtime": "17:15",
+          "sessions": [
+            {
+              "id": "session-214",
+              "session_title": "IACR Awards Ceremony",
+              "moderator": "Moderator: IACR President Michel Abdalla"
+            }
+          ]
+        },
+        {
+          "starttime": "17:15",
+          "endtime": "19:15",
           "sessions": [
             {
               "id": "session-200",
               "session_title": "Rump Session",
-              "moderator": "Chairs: Yilei Chen, Rishab Goyal, and Lisa Kohl"
+              "moderator": "Chairs: Yilei Chen, Rishab Goyal, and Lisa Kohl",
+              "session_url": "https://eurocrypt.iacr.org/2020/rumpsession.php"
             }
           ]
         }
@@ -1634,12 +1646,13 @@
           "endtime": "16:30",
           "sessions": [
             {
-              "session_title": "Closing Remarks + IACR Membership Meeting: Part II",
+              "session_title": "Closing Remarks + Open Feedback Session",
               "id": "session-211"
             }
           ]
         }
       ]
     }
-  ]
+  ],
+  "database_id": "307"
 }
