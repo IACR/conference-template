@@ -94,7 +94,7 @@
                 <hr />
                 {{/if}}
                 <h3 class="pageSubtitle">
-                  {{formatDate date}} (UTC date)
+                  {{formatDate date}} (dates may differ in your timezone)
                 </h3>
               </div>
             </div>
