@@ -19,7 +19,7 @@
         Call for Papers
       </h2>
       <p>
-        <a href="./images/callforpaper/AC20-CFP-v1.4.pdf">Download CFP as PDF</a>
+        <a href="./cfp/AC20-CFP-v1.5.pdf">Download CFP as PDF</a>
       </p>
       <h3 class="pageSubtitle">General Information</h3>
       <!-- this is for Crypto 2020. Modify to suit -->
