@@ -45,6 +45,73 @@
       </article>
     </div>
 
+      <h2 class="text-center">
+        Time until Eurocrypt 2020
+      </h2>
+      <div id="clockdiv" class="d-flex flex-row justify-content-center">
+        <div class="p-2 text-center">
+          <span class="days"></span>
+          <div class="smalltext">Days</div>
+        </div>
+        <div class="p-2 text-center">
+          <span class="hours"></span>
+          <div class="smalltext">Hours</div>
+        </div>
+        <div class="p-2 text-center">
+          <span class="minutes"></span>
+          <div class="smalltext">Minutes</div>
+        </div>
+        <div class="p-2 text-center">
+          <span class="seconds"></span>
+          <div class="smalltext">Seconds</div>
+        </div>
+        </div>
+        <h3 class="text-center">
+          You can still <a href="registration.php">register</a>
+        </h3>
+<script>
+ function getTimeRemaining(endtime) {
+   var t = Date.parse(endtime) - Date.parse(new Date());
+   var seconds = Math.floor((t / 1000) % 60);
+   var minutes = Math.floor((t / 1000 / 60) % 60);
+   var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
+   var days = Math.floor(t / (1000 * 60 * 60 * 24));
+   return {
+     'total': t,
+     'days': days,
+     'hours': hours,
+     'minutes': minutes,
+     'seconds': seconds
+   };
+ }
+
+ function initializeClock(id, endtime) {
+   var clock = document.getElementById(id);
+   var daysSpan = clock.querySelector('.days');
+   var hoursSpan = clock.querySelector('.hours');
+   var minutesSpan = clock.querySelector('.minutes');
+   var secondsSpan = clock.querySelector('.seconds');
+
+   function updateClock() {
+     var t = getTimeRemaining(endtime);
+
+     daysSpan.innerHTML = t.days;
+     hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
+     minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
+     secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
+
+     if (t.total <= 0) {
+       clearInterval(timeinterval);
+     }
+   }
+
+   updateClock();
+   var timeinterval = setInterval(updateClock, 1000);
+ }
+
+ var deadline = new Date(Date.parse('2020-05-11T13:00:00Z'));
+ initializeClock('clockdiv', deadline);
+</script>
     <div class="row mt-4">
       <div class="col-lg-6">
         <?php require "includes/important_dates.php";?>
