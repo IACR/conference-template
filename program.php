@@ -89,19 +89,22 @@
 
             {{#each days}}
             <div class="row" id="day-{{date}}">
-              <div class="col-12">
+              <!-- This is broken if there are two tracks -->
+              <div class="col-12 mb-3">
                 {{#if @first}}
                 {{else}}
                 <hr />
                 {{/if}}
                 <h3 class="pageSubtitle">
-                  {{formatDate date}} (dates may differ in your timezone)
+                  {{formatDate date}}
+                  <br class="d-sm-none">
+                <small>(dates may differ in your timezone)</small>
                 </h3>
               </div>
             </div>
             {{#each timeslots}}
             <div class="row">
-              <div class="col-2">
+              <div class="col-sm-2">
                 <p class="timeSlot text-center" title="UTC: {{../date}} {{starttime}}-{{endtime}}">
                   {{localstarttime}} <br>to<br> {{localendtime}}<br>
                 <small class="text-center">(UTC: {{starttime}}-{{endtime}})</small>
@@ -200,7 +203,7 @@
                 </div>
               </div>
               {{else}}
-              <div class="col-10">
+              <div class="col-sm-10">
                 <div class="mutualEvent">
                   <h4 id="{{sessions.0.id}}">
                     {{sessions.0.session_title}}
