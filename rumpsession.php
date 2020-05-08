@@ -41,7 +41,7 @@
         </div>
       </div>
 
-      <div class="alert alert-warning">
+      <div class="alert alert-danger">
         <!-- NOTE: don't ask me why but you need .text-center on these p elements -->
         <p class="text-center">
           <strong>Submission deadline:</strong> Tuesday, May 12 at 9 AM UTC
