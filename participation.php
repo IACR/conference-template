@@ -62,7 +62,8 @@
             encourage interesting conversation amongst authors. These
             Q&amp;As will be available on the Zoom platform with
             live Q&amp;A, but also livestreamed on our YouTube channel and
-            will be available for later viewing.
+            will be available for later viewing. Links to the webinars
+            will appear on the program if you are registered.
           </p>
         </div>
 
@@ -74,10 +75,11 @@
             Much like at a face-to-face conference, we know that the
             best conversations can happen in the hallways or at coffee
             breaks. We encourage you to make use of the IACR chat
-            server we have set up to connect with other conference
+            server running Zulip to connect with other conference
             attendees. There are a variety of channels, organized by
             topic. You can also start video chat rooms from this.
-            Further details will be forthcoming.
+            Links to the chat will appear on the program if you are
+            registered.
           </p>
 <!--          <div class="d-md-flex justify-content-center">
             <a href="#" class="btn btn-warning">Join the chat</a>
@@ -93,6 +95,7 @@
             whereby you and others watch a YouTube video of a talk
             or Q&amp;A session together.
             Like chat, watch parties encourage discussion and interaction amongst attendees.
+            Sharing of Jitsi links will occur through chat.
           </p>
 <!--          <div class="d-md-flex justify-content-center">
             <a href="#" class="btn btn-warning">Host or attend a watch party</a>
@@ -178,7 +181,7 @@
         We strongly encourage those who cannot attend live events to still participate in the conference asynchronously. 
       </p>
       <p>
-        Live Q&amp;A sessions and invited talks are streamed to YouTube and available for viewing after the fact. You can also watch any of the pre-recorded talks on YouTube, or participate in chat via chat. If you don't want to watch the talks alone, you could host a watch party for others in your time zone.
+        Live Q&amp;A sessions and invited talks are streamed to YouTube and available for viewing after the fact. You can also watch any of the pre-recorded talks on YouTube, or participate via chat. If you don't want to watch the talks on YouTube alone, you could host a watch party for others in your time zone.
       </p>
 
       <h4 class="subSubtitle">
