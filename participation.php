@@ -19,9 +19,6 @@
       <h2 class="indPageTitle">
         Participation Guidelines
       </h2>
-      <p class="alert alert-info">
-        Please be patient with us on the preparation for Eurocrypt 2020. Details will appear here as we deploy and test the technologies.
-      </p>
       <div class="row">
         <div class="col-md-6">
           <p>
@@ -76,7 +73,7 @@
             best conversations can happen in the hallways or at coffee
             breaks. We encourage you to make use of the IACR chat
             server running Zulip to connect with other conference
-            attendees. There are a variety of channels, organized by
+            attendees. There are a variety of streams, organized by
             topic. You can also start video chat rooms from this.
             Links to the chat will appear on the program if you are
             registered.
@@ -95,7 +92,9 @@
             whereby you and others watch a YouTube video of a talk
             or Q&amp;A session together.
             Like chat, watch parties encourage discussion and interaction amongst attendees.
-            Sharing of Jitsi links will occur through chat.
+            Sharing of Jitsi links will occur through chat. This is where you click to
+            start a video conference.<br>
+            <img src="images/jitsi.png" class="img-fluid">
           </p>
 <!--          <div class="d-md-flex justify-content-center">
             <a href="#" class="btn btn-warning">Host or attend a watch party</a>
