@@ -98,19 +98,20 @@
       <div class="row mt-3 mt-md-4">
         <aside class="col-12 col-md-4 text-center mb-2">
           <h4 class="subSubtitle">
-            Rishab Goyal
+            Yilei Chen
           </h4>
           <p class="text-center">
-            University of Texas at Austin<br>
+            Visa Research<br>
             USA
           </p>
         </aside>
         <aside class="col-12 col-md-4 text-center mb-2">
           <h4 class="subSubtitle">
-            Yilei Chen
+            Rishab Goyal
           </h4>
           <p class="text-center">
-            Visa Research<br>
+            Simons Institute for the Theory of Computing<br>
+            University of California, Berkeley<br>
             USA
           </p>
         </aside>
