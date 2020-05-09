@@ -51,6 +51,9 @@
         the full LNCS volumes here: <a href="https://link.springer.com/book/10.1007/978-3-030-45721-1">12105</a>,
         <a href="https://link.springer.com/book/10.1007/978-3-030-45724-2">12106</a>,
         <a href="https://link.springer.com/book/10.1007/978-3-030-45727-3">12107</a>.
+        Most papers below have links to individual videos prepared by the authors,
+        but there is also a <a href="https://www.youtube.com/playlist?list=PLeeS-3Ml-rpp-srdkwAWDA9hlvEyOZCcx">playlist
+          on YouTube</a>
       </p>
       <p class="alert alert-info">
         <strong>Your timezone appears to be <span id="timezone"></span>.
@@ -199,6 +202,11 @@
                     &nbsp; <a href="{{slidesUrl}}"><img class="talkMediaIcon" src="images/icons/presentation.svg" title="Slides"></a>
                   </span>
                   {{/if}}
+                  {{#if videoUrl}}
+                  <span class="talkMedia">
+                    &nbsp; <a href="{{videoUrl}}"><img class="talkMediaIcon" src="images/icons/video.svg" title="Video"></a>
+                  </span>
+                  {{/if}}
                   {{/each}}
                 </div>
               </div>
@@ -247,6 +255,11 @@
                   {{#if slidesUrl}}
                   <span class="talkMedia">
                     &nbsp; <a href="{{slidesUrl}}"><img class="talkMediaIcon" src="images/icons/presentation.svg" title="Slides"></a>
+                  </span>
+                  {{/if}}
+                  {{#if videoUrl}}
+                  <span class="talkMedia">
+                    &nbsp; <a href="{{videoUrl}}"><img class="talkMediaIcon" src="images/icons/video.svg" title="Video"></a>
                   </span>
                   {{/if}}
                   {{/each}}
