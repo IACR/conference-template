@@ -46,7 +46,7 @@
 
       <hr>
 
-      <h3 class="pageSubtitle mt-4">
+      <!-- <h3 class="pageSubtitle mt-4">
         How to Attend <?php echo $META['shortName'];?>
       </h3>
       <h4 class="subSubtitle">
@@ -71,13 +71,13 @@
             Please reserve Zoom chat for questions that directly pertain to the live session in progress.
           </p>
         </div>
-      </div>
+      </div> -->
 
       <h3 class="pageSubtitle mt-4">
         Ways to Participate
       </h3>
       <div class="row">
-        <div class="col-md-6 mx-lg-auto col-lg-5 col-xl-4 mb-md-4">
+        <div class="col-md-6 mx-lg-auto col-lg-5 mb-md-4">
           <h4 class="subSubtitle text-md-center">
             Webinar
           </h4>
@@ -93,44 +93,7 @@
           </p>
         </div>
 
-        <div class="col-md-6 mx-lg-auto col-lg-5 col-xl-4 mb-md-4">
-          <h4 class="subSubtitle text-md-center">
-            Chat
-          </h4>
-          <p>
-            Much like at a face-to-face conference, we know that the
-            best conversations can happen in the hallways or at coffee
-            breaks. We encourage you to make use of the IACR chat
-            server running Zulip to connect with other conference
-            attendees. There are a variety of streams, organized by
-            topic. You can also start video chat rooms from this.
-            Links to the chat will appear on the program if you are
-            registered.
-          </p>
-<!--          <div class="d-md-flex justify-content-center">
-            <a href="#" class="btn btn-warning">Join the chat</a>
-          </div>-->
-        </div>
-
-        <div class="col-md-6 mx-lg-auto col-lg-5 col-xl-4 mb-md-4">
-          <h4 class="subSubtitle text-md-center">
-            Watch Parties
-          </h4>
-          <p>
-            Jitsi is a videoconference platform that allows you to host watch parties,
-            whereby you and others watch a YouTube video of a talk
-            or Q&amp;A session together.
-            Like chat, watch parties encourage discussion and interaction amongst attendees.
-            Sharing of Jitsi links will occur through chat. This is where you click to
-            start a video conference.<br>
-            <img src="images/jitsi.png" class="img-fluid">
-          </p>
-<!--          <div class="d-md-flex justify-content-center">
-            <a href="#" class="btn btn-warning">Host or attend a watch party</a>
-          </div>-->
-        </div>
-
-        <div class="col-md-6 mx-lg-auto mx-xl-0 col-lg-5 col-xl-4 mb-md-4">
+        <div class="col-md-6 mx-lg-auto col-lg-5 mb-md-4">
           <h4 class="subSubtitle text-md-center">
             YouTube
           </h4>
@@ -146,6 +109,36 @@
 <!--          <div class="d-md-flex justify-content-around">
             <a href="#" class="btn btn-warning">Talks Playlist</a>
             <a href="#" class="btn btn-warning">Q&amp;A Playlist</a>
+          </div>-->
+        </div>
+
+        <div class="col-md-11 mx-md-auto mb-md-4">
+          <h4 class="subSubtitle text-md-center">
+            Chat & Watch Parties
+          </h4>
+          <p>
+            Much like at a face-to-face conference, we know that the
+            best conversations can happen in the hallways or at coffee
+            breaks. We encourage you to make use of the IACR chat
+            server running Zulip to connect with other conference
+            attendees. There are a variety of streams, organized by
+            topic. You can also start video chat rooms from this.
+            Links to the chat will appear on the program if you are
+            registered.
+          </p>
+          <div class="d-md-flex">
+            <p>
+              Jitsi is a videoconference platform that allows you to host watch parties,
+              whereby you and others watch a YouTube video of a talk
+              or Q&amp;A session together.
+              Like chat, watch parties encourage discussion and interaction amongst attendees.
+              Sharing of Jitsi links will occur through chat. This is where you click to
+              start a video conference.
+            </p>
+            <img src="images/jitsi.png" class="img-fluid ml-3">
+          </div>
+<!--          <div class="d-md-flex justify-content-center">
+            <a href="#" class="btn btn-warning">Join the chat</a>
           </div>-->
         </div>
       </div>
