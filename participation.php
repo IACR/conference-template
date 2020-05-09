@@ -44,11 +44,40 @@
         The conference is organized over 5 days, with approximately 4 hours per day. Sessions consist of live panel discussions (i.e. brief summaries of the papers, which are grouped by topic, followed by a Q&amp;A with the authors), invited talks, and a rump session. We recommend monitoring <a href="program.php">the conference program</a> to see which sessions are upcoming.
       </p>
 
+      <!-- <hr> -->
+
+      <!-- <h3 class="pageSubtitle mt-4">
+        How to Attend <?php echo $META['shortName'];?>
+      </h3>
+      <h4 class="subSubtitle">
+        Attend a Webinar (via Zoom)
+      </h4>
+      <p>
+        We will be holding live Q&amp;A panels with authors
+        multiple times daily. At these panels, attendees will be
+        able to ask questions of authors about their work, or to
+        encourage interesting conversation amongst authors. These
+        Q&amp;As will be available on the Zoom platform with
+        live Q&amp;A, but also livestreamed on our YouTube channel and
+        will be available for later viewing. Links to the webinars
+        will appear on the program if you are registered.
+      </p>
+
+        <div class="col-md-6 mx-lg-auto col-lg-5 col-xl-4 mb-md-4">
+          <h4 class="subSubtitle text-md-center">
+            Chat (Zoom, Zulip)
+          </h4>
+          <p>
+            Please reserve Zoom chat for questions that directly pertain to the live session in progress.
+          </p>
+        </div>
+      </div> -->
+
       <h3 class="pageSubtitle mt-4">
         Ways to Participate
       </h3>
       <div class="row">
-        <div class="col-md-6 mx-lg-auto col-lg-5 col-xl-4 mb-md-4">
+        <div class="col-md-6 mx-lg-auto col-lg-5 mb-md-4">
           <h4 class="subSubtitle text-md-center">
             Webinar
           </h4>
@@ -64,44 +93,7 @@
           </p>
         </div>
 
-        <div class="col-md-6 mx-lg-auto col-lg-5 col-xl-4 mb-md-4">
-          <h4 class="subSubtitle text-md-center">
-            Chat
-          </h4>
-          <p>
-            Much like at a face-to-face conference, we know that the
-            best conversations can happen in the hallways or at coffee
-            breaks. We encourage you to make use of the IACR chat
-            server running Zulip to connect with other conference
-            attendees. There are a variety of streams, organized by
-            topic. You can also start video chat rooms from this.
-            Links to the chat will appear on the program if you are
-            registered.
-          </p>
-<!--          <div class="d-md-flex justify-content-center">
-            <a href="#" class="btn btn-warning">Join the chat</a>
-          </div>-->
-        </div>
-
-        <div class="col-md-6 mx-lg-auto col-lg-5 col-xl-4 mb-md-4">
-          <h4 class="subSubtitle text-md-center">
-            Watch Parties
-          </h4>
-          <p>
-            Jitsi is a videoconference platform that allows you to host watch parties,
-            whereby you and others watch a YouTube video of a talk
-            or Q&amp;A session together.
-            Like chat, watch parties encourage discussion and interaction amongst attendees.
-            Sharing of Jitsi links will occur through chat. This is where you click to
-            start a video conference.<br>
-            <img src="images/jitsi.png" class="img-fluid">
-          </p>
-<!--          <div class="d-md-flex justify-content-center">
-            <a href="#" class="btn btn-warning">Host or attend a watch party</a>
-          </div>-->
-        </div>
-
-        <div class="col-md-6 mx-lg-auto mx-xl-0 col-lg-5 col-xl-4 mb-md-4">
+        <div class="col-md-6 mx-lg-auto col-lg-5 mb-md-4">
           <h4 class="subSubtitle text-md-center">
             YouTube
           </h4>
@@ -119,6 +111,36 @@
             <a href="#" class="btn btn-warning">Q&amp;A Playlist</a>
           </div>-->
         </div>
+
+        <div class="col-md-11 mx-md-auto mb-md-4">
+          <h4 class="subSubtitle text-md-center">
+            Chat & Watch Parties
+          </h4>
+          <p>
+            Much like at a face-to-face conference, we know that the
+            best conversations can happen in the hallways or at coffee
+            breaks. We encourage you to make use of the IACR chat
+            server running Zulip to connect with other conference
+            attendees. There are a variety of streams, organized by
+            topic. You can also start video chat rooms from this.
+            Links to the chat will appear on the program if you are
+            registered.
+          </p>
+          <div class="d-md-flex">
+            <p>
+              Jitsi is a videoconference platform that allows you to host watch parties,
+              whereby you and others watch a YouTube video of a talk
+              or Q&amp;A session together.
+              Like chat, watch parties encourage discussion and interaction amongst attendees.
+              Sharing of Jitsi links will occur through chat. This is where you click to
+              start a video conference.
+            </p>
+            <img src="images/jitsi.png" class="img-fluid ml-3">
+          </div>
+<!--          <div class="d-md-flex justify-content-center">
+            <a href="#" class="btn btn-warning">Join the chat</a>
+          </div>-->
+        </div>
       </div>
 
       <h3 id="attendWebinar" class="pageSubtitle mt-4">
@@ -128,52 +150,52 @@
       <div class="row">
         <div class="col-sm-7">
           <p>
-        We are using Zoom for our live Q&amp;A sessions. <strong>You
-        do not have to install Zoom software to attend a
-        webinar.</strong> If you plan to attend a webinar session
-        using your browser, it needs to be one of the following:
-      </p>
-      <ul>
-        <li>
-          Internet Explorer<sup>*</sup> 10 or higher
-        </li>
-        <li>
-          Microsoft Edge 38.14393.0.0 or higher
-        </li>
-        <li>
-          Google Chrome 53.0.2785 or higher
-        </li>
-        <li>
-          Safari<sup>*</sup> 10.0.602.1.50 or higher
-        </li>
-        <li>
-          Firefox<sup>*</sup> 49.0 or higher
-        </li>
-        <li>
-          Chromium (not officially supported by Zoom, but the IACR has tested it and it appears to work similarly to Chrome)
-        </li>
-      </ul>
-      <p>
-        <small><sup>*</sup> Please note that if you use Safari, Firefox, or Internet Explorer, you will not be able to ask a question using your computer audio. However, you can still ask questions using the text Q&amp;A feature.</small>
-      </p>
-      <p>
-        If you wish to use the desktop client, there are options available for all operating systems. However, there are serious security vulnerabilities for each. The IACR does not recommend the installation of Zoom desktop clients at this time (10 May 2020).
-      </p>
+            We are using Zoom for our live Q&amp;A sessions. <strong>You
+            do not have to install Zoom software to attend a
+            webinar.</strong> If you plan to attend a webinar session
+            using your browser, it needs to be one of the following:
+          </p>
+          <ul>
+            <li>
+              Internet Explorer<sup>*</sup> 10 or higher
+            </li>
+            <li>
+              Microsoft Edge 38.14393.0.0 or higher
+            </li>
+            <li>
+              Google Chrome 53.0.2785 or higher
+            </li>
+            <li>
+              Safari<sup>*</sup> 10.0.602.1.50 or higher
+            </li>
+            <li>
+              Firefox<sup>*</sup> 49.0 or higher
+            </li>
+            <li>
+              Chromium (not officially supported by Zoom, but the IACR has tested it and it appears to work similarly to Chrome)
+            </li>
+          </ul>
+          <p>
+            <small><sup>*</sup> Please note that if you use Safari, Firefox, or Internet Explorer, you will not be able to ask a question using your computer audio. However, you can still ask questions using the text Q&amp;A feature.</small>
+          </p>
+          <p>
+            If you wish to use the desktop client, there are options available for all operating systems. However, there are serious security vulnerabilities for each. The IACR does not recommend the installation of Zoom desktop clients at this time (10 May 2020).
+          </p>
+        </div>
 
-      <h4 class="subSubtitle">
+        <div class="col-sm-5">
+          <p class="text-center">How to enter a webinar with the <a href="https://support.zoom.us/hc/en-us/articles/214629443-Zoom-web-client">web client</a>.</p>
+          <img src="images/zoom/annoying_zoom_windows.png" class="img-fluid border shadow">
+        </div>
+      </div>
+
+      <h4 class="subSubtitle mt-4 mt-sm-0">
         Do I need a Zoom account?
       </h4>
       <p>
         We offer entrance to our webinars for both attendees with Zoom accounts and those without. When you log in via the browser client, Zoom will ask for an email. This does not have to be a legitimate email address. However, if you plan to use the desktop client, you will need a Zoom account.
       </p>
 
-        </div>
-        <div class="col-sm-5">
-          <p class="text-center">How to enter a webinar with the <a href="https://support.zoom.us/hc/en-us/articles/214629443-Zoom-web-client">web client</a>.</p>
-          <img src="images/zoom/annoying_zoom_windows.png" class="img-fluid border shadow">
-        </div>
-      </div>
-      
         <h3 class="pageSubtitle mt-4">
         Frequently Asked Questions
       </h3>
@@ -189,7 +211,7 @@
       </h4>
       <p>
         Unfortunately, due to the wide variety of time zones IACR members live in, we cannot accommodate everyone.
-        We strongly encourage those who cannot attend live events to still participate in the conference asynchronously. 
+        We strongly encourage those who cannot attend live events to still participate in the conference asynchronously.
       </p>
       <p>
         Live Q&amp;A sessions and invited talks are streamed to YouTube and available for viewing after the fact. You can also watch any of the pre-recorded talks on YouTube, or participate via chat. If you don't want to watch the talks on YouTube alone, you could host a watch party for others in your time zone.
