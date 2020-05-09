@@ -41,12 +41,11 @@
            </p>
            -->
 
-      <p class="alert alert-info">
-        Zoom and chat links will appear here prior to the session.
-        Sessions will be conducted as panel discussions in
+      <div class="alert alert-info">
+        <p>
+          Sessions will be conducted as panel discussions in
         which authors give a very brief overview (5 minutes) of their papers, and then
-        take live questions from the panel moderators and audience. There will also
-        be links to videos of longer talks by authors on their papers. Links to individual
+        take live questions from the panel moderators and audience.  Links to individual
         papers have been added below, but you can also find links to
         the full LNCS volumes here: <a href="https://link.springer.com/book/10.1007/978-3-030-45721-1">12105</a>,
         <a href="https://link.springer.com/book/10.1007/978-3-030-45724-2">12106</a>,
@@ -54,7 +53,14 @@
         Most papers below have links to individual videos prepared by the authors,
         but there is also a <a href="https://www.youtube.com/playlist?list=PLeeS-3Ml-rpp-srdkwAWDA9hlvEyOZCcx">playlist
           on YouTube</a>
-      </p>
+        </p>
+        <p>
+          The program below has links to chat streams on individual sessions, but there is also
+          a <a href="https://iacr.org/virtualconferences/?dest=YU52Q0NBbVMyR3NaVmUwMnFLRjdHNUZYTWtTa1JCaDcrWTg3NUU5WU0yQ0xHbmZ1R2JrZEJsWVppTzdSdnhJSw%3D%3D&iv=5KMMgmAtaYA0TOIlQkhgiw%3D%3D&ivlen=16&conf=eurocrypt2020&auth=e71dea793855f195b746d4d8890d0f313236e1f2a25588429a16722aae9d461f">general stream</a> if
+          you want to start there with chat.
+          Links to Zoom webinars will appear on Sunday
+        </p>
+      </div>
       <p class="alert alert-info">
         <strong>Your timezone appears to be <span id="timezone"></span>.
           Times in the schedule are shown in your local timezone. Dates are

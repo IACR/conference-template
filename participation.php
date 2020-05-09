@@ -122,24 +122,34 @@
             breaks. We encourage you to make use of the IACR chat
             server running Zulip to connect with other conference
             attendees. There are a variety of streams, organized by
-            topic. You can also start video chat rooms from this.
-            Links to the chat will appear on the program if you are
-            registered.
+            topic. Links to streams will appear on <a href="program.php">the program</a>.
+            You can also start video chat rooms from this.
+<!--            Links to the chat will appear on the program if you are
+            registered. -->
           </p>
-          <div class="d-md-flex">
-            <p>
-              Jitsi is a videoconference platform that allows you to host watch parties,
-              whereby you and others watch a YouTube video of a talk
-              or Q&amp;A session together.
-              Like chat, watch parties encourage discussion and interaction amongst attendees.
-              Sharing of Jitsi links will occur through chat. This is where you click to
-              start a video conference.
-            </p>
-            <img src="images/jitsi.png" class="img-fluid ml-3">
+          <div class="d-md-flex justify-content-center mb-2">
+           <a href="https://iacr.org/virtualconferences/?dest=YU52Q0NBbVMyR3NaVmUwMnFLRjdHNUZYTWtTa1JCaDcrWTg3NUU5WU0yQ0xHbmZ1R2JrZEJsWVppTzdSdnhJSw%3D%3D&iv=5KMMgmAtaYA0TOIlQkhgiw%3D%3D&ivlen=16&conf=eurocrypt2020&auth=e71dea793855f195b746d4d8890d0f313236e1f2a25588429a16722aae9d461f" class="btn btn-warning">Join the chat</a>
           </div>
-<!--          <div class="d-md-flex justify-content-center">
-            <a href="#" class="btn btn-warning">Join the chat</a>
-          </div>-->
+          <div class="row">
+            <div class="col-sm-7">
+              <h5>Video conferencing</h5>
+              <p>
+                Jitsi is a videoconference platform that also allows you to host watch parties.
+                You can start a small videoconference on a topic using the button in chat
+                that is shown in the image.
+              </p>
+              <p>One use of Jitsi is to host a "watch party" for a YouTube video of a talk,
+                so that
+                you and other attendee can watch a video together.
+                Like chat, watch parties encourage discussion and interaction amongst attendees.
+                Sharing of Jitsi links will occur through chat. This is where you click to
+                start a video conference.
+              </p>
+            </div>
+            <div class="col-sm-5">
+              <img src="images/jitsi.png" class="img-fluid ml-3 border shadow">
+            </div>
+          </div>
         </div>
       </div>
 
