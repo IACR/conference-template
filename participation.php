@@ -126,7 +126,7 @@
       </h3>
       <!-- TODO: add after first sentence below (Learn more about the IACR's statement on Zoom <a href="#">here</a>.) -->
       <div class="row">
-        <div class="col-7">
+        <div class="col-sm-7">
           <p>
         We are using Zoom for our live Q&amp;A sessions. <strong>You
         do not have to install Zoom software to attend a
@@ -168,7 +168,7 @@
       </p>
 
         </div>
-        <div class="col-5">
+        <div class="col-sm-5">
           <p class="text-center">How to enter a webinar with the <a href="https://support.zoom.us/hc/en-us/articles/214629443-Zoom-web-client">web client</a>.</p>
           <img src="images/zoom/annoying_zoom_windows.png" class="img-fluid border shadow">
         </div>
