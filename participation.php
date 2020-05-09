@@ -150,52 +150,52 @@
       <div class="row">
         <div class="col-sm-7">
           <p>
-        We are using Zoom for our live Q&amp;A sessions. <strong>You
-        do not have to install Zoom software to attend a
-        webinar.</strong> If you plan to attend a webinar session
-        using your browser, it needs to be one of the following:
-      </p>
-      <ul>
-        <li>
-          Internet Explorer<sup>*</sup> 10 or higher
-        </li>
-        <li>
-          Microsoft Edge 38.14393.0.0 or higher
-        </li>
-        <li>
-          Google Chrome 53.0.2785 or higher
-        </li>
-        <li>
-          Safari<sup>*</sup> 10.0.602.1.50 or higher
-        </li>
-        <li>
-          Firefox<sup>*</sup> 49.0 or higher
-        </li>
-        <li>
-          Chromium (not officially supported by Zoom, but the IACR has tested it and it appears to work similarly to Chrome)
-        </li>
-      </ul>
-      <p>
-        <small><sup>*</sup> Please note that if you use Safari, Firefox, or Internet Explorer, you will not be able to ask a question using your computer audio. However, you can still ask questions using the text Q&amp;A feature.</small>
-      </p>
-      <p>
-        If you wish to use the desktop client, there are options available for all operating systems. However, there are serious security vulnerabilities for each. The IACR does not recommend the installation of Zoom desktop clients at this time (10 May 2020).
-      </p>
+            We are using Zoom for our live Q&amp;A sessions. <strong>You
+            do not have to install Zoom software to attend a
+            webinar.</strong> If you plan to attend a webinar session
+            using your browser, it needs to be one of the following:
+          </p>
+          <ul>
+            <li>
+              Internet Explorer<sup>*</sup> 10 or higher
+            </li>
+            <li>
+              Microsoft Edge 38.14393.0.0 or higher
+            </li>
+            <li>
+              Google Chrome 53.0.2785 or higher
+            </li>
+            <li>
+              Safari<sup>*</sup> 10.0.602.1.50 or higher
+            </li>
+            <li>
+              Firefox<sup>*</sup> 49.0 or higher
+            </li>
+            <li>
+              Chromium (not officially supported by Zoom, but the IACR has tested it and it appears to work similarly to Chrome)
+            </li>
+          </ul>
+          <p>
+            <small><sup>*</sup> Please note that if you use Safari, Firefox, or Internet Explorer, you will not be able to ask a question using your computer audio. However, you can still ask questions using the text Q&amp;A feature.</small>
+          </p>
+          <p>
+            If you wish to use the desktop client, there are options available for all operating systems. However, there are serious security vulnerabilities for each. The IACR does not recommend the installation of Zoom desktop clients at this time (10 May 2020).
+          </p>
+        </div>
 
-      <h4 class="subSubtitle">
+        <div class="col-sm-5">
+          <p class="text-center">How to enter a webinar with the <a href="https://support.zoom.us/hc/en-us/articles/214629443-Zoom-web-client">web client</a>.</p>
+          <img src="images/zoom/annoying_zoom_windows.png" class="img-fluid border shadow">
+        </div>
+      </div>
+
+      <h4 class="subSubtitle mt-4 mt-sm-0">
         Do I need a Zoom account?
       </h4>
       <p>
         We offer entrance to our webinars for both attendees with Zoom accounts and those without. When you log in via the browser client, Zoom will ask for an email. This does not have to be a legitimate email address. However, if you plan to use the desktop client, you will need a Zoom account.
       </p>
 
-        </div>
-        <div class="col-sm-5">
-          <p class="text-center">How to enter a webinar with the <a href="https://support.zoom.us/hc/en-us/articles/214629443-Zoom-web-client">web client</a>.</p>
-          <img src="images/zoom/annoying_zoom_windows.png" class="img-fluid border shadow">
-        </div>
-      </div>
-      
         <h3 class="pageSubtitle mt-4">
         Frequently Asked Questions
       </h3>
