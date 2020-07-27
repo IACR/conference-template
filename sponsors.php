@@ -53,6 +53,11 @@
             <img src="./images/sponsors/springer.svg" alt="SPRINGER" title="SPRINGER" class="sponsorPageLogo" />
           </a>
         </div>
+        <div class="sponsorLogoBox justify-content-between">
+          <a href="https://kiisc.or.kr/">
+            <img src="./images/sponsors/kiisc.png" alt="KIISC" title="KIISC" class="sponsorPageLogo" />
+          </a>
+        </div>
       </div>
     </main>
     <?php include "includes/footer.php"; ?>
