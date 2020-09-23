@@ -1,0 +1,428 @@
+{ "_source": "websubrev",
+  "acceptedPapers": [
+  {
+    "title": "Practical Exact Proofs from Lattices: New Techniques to Exploit Fully-Splitting Rings ",
+    "authors": "Muhammed F. Esgin; Ngoc Khanh Nguyen; Gregor Seiler",
+    "affiliations": "Monash University and Data61, CSIRO, Australia; IBM Research - Zurich and ETH Zurich, Switzerland; IBM Research - Zurich and ETH Zurich, Switzerland"
+  },
+  {
+    "title": "MOTIF: (Almost) Free Branching in GMW via Vector-Scalar Multiplication",
+    "authors": "David Heath; Vladimir Kolesnikov; Stanislav Peceny",
+    "affiliations": "Georgia Institute of Technology, USA; Georgia Institute of Technology, USA; Georgia Institute of Technology, USA"
+  },
+  {
+    "title": "Towards Classical Hardness of Module-LWE: The Linear Rank Case",
+    "authors": "Katharina Boudgoust; Corentin Jeudy; Adeline Roux-Langlois; Weiqiang Wen",
+    "affiliations": "Univ Rennes, CNRS, IRISA, France; Univ Rennes, CNRS, IRISA, France; Univ Rennes, CNRS, IRISA, France; Univ Rennes, CNRS, IRISA, France"
+  },
+  {
+    "title": "Maliciously Secure Matrix Multiplication with Applications to Private Deep Learning",
+    "authors": "Hao Chen; Miran Kim; Ilya Razenshteyn; Dragos Rotaru; Yongsoo Song; Sameer Wagh",
+    "affiliations": "Facebook, USA; Ulsan National Institute of Science and Technology ‎Ulsan, South Korea; Microsoft Research, Redmond, USA; Cape Privacy, imec-COSIC, KU Leuven, Belgium; Microsoft Research, Redmond, USA; Princeton University, UC Berkeley, USA"
+  },
+  {
+    "title": "Finding Collisions in a Quantum World: Quantum Black-Box Separation of Collision-Resistance and One-Wayness",
+    "authors": "Akinori Hosoyamada; Takashi Yamakawa",
+    "affiliations": "NTT Secure Platform Laboratories / Nagoya University, Japan; NTT Secure Platform Laboratories, Japan"
+  },
+  {
+    "title": "Estimating quantum speedups for lattice sieves",
+    "authors": "Martin R. Albrecht; Vlad Gheorghiu; Eamonn W. Postlethwaite; John M. Schanck",
+    "affiliations": "Information Security Group, Royal Holloway, University of London, UK; Institute for Quantum Computing, University of Waterloo, Canada; Information Security Group, Royal Holloway, University of London, UK; Institute for Quantum Computing, University of Waterloo, Canada"
+  },
+  {
+    "title": "B-SIDH: supersingular isogeny Diffie-Hellman using twisted torsion",
+    "authors": "Craig Costello",
+    "affiliations": "Microsoft Research, Redmond, USA"
+  },
+  {
+    "title": "Mind the Propagation of States New Automatic Search Tool for Impossible Differentials and  Impossible Polytopic Transitions",
+    "authors": "Xichao Hu; Yongqiang Li; Lin Jiao; Shizhu Tian; Mingsheng Wang",
+    "affiliations": "State Key Laboratory of Information Security,  Institute of Information Engineering, Chnese Academy of Sciences, Beijing, China; School of Cyber Security, University of Chinese Academy of Sciences, Beijing, China; State Key Laboratory of Information Security,  Institute of Information Engineering, Chnese Academy of Sciences, Beijing, China; School of Cyber Security, University of Chinese Academy of Sciences, Beijing, China; State Key Laboratory of Cryptology, Beijing, China"
+  },
+  {
+    "title": "Minimizing the Two-Round Tweakable Even-Mansour Cipher",
+    "authors": "Avijit Dutta",
+    "affiliations": "Institute for Advancing Intelligence, TCG-CREST, Kolkata, India"
+  },
+  {
+    "title": "Determining the Core Primitive for Optimally Secure Ratcheting",
+    "authors": "Fatih Balli; Paul Rösler; Serge Vaudenay",
+    "affiliations": "École polytechnique fédérale de Lausanne, Switzerland; Ruhr University Bochum, Germany; École polytechnique fédérale de Lausanne, Switzerland"
+  },
+  {
+    "title": "Beyond Birthday Bound Secure Fresh Rekeying: Application to Authenticated Encryption",
+    "authors": "Bart Mennink",
+    "affiliations": "Radboud University, the Netherlands"
+  },
+  {
+    "title": "The Direction of Updatable Encryption does not Matter Much",
+    "authors": "Yao Jiang",
+    "affiliations": "NTNU, Norway"
+  },
+  {
+    "title": "Incrementally Aggregatable Vector Commitments and Applications to Verifiable Decentralized Storage",
+    "authors": "Matteo Campanelli; Dario Fiore; Nicola Greco; Dimitris Kolonelos; Luca Nizzardo",
+    "affiliations": "Aarhus University, Denmark; IMDEA Software Institute, Spain; Protocol Labs, USA; IMDEA Software Institute, Denmark, Universidad Politecnica de Madrid, Spain; Protocol Labs, USA"
+  },
+  {
+    "title": "Lattice-Based E-Cash, Revisited",
+    "authors": "Amit Deo; Benoît Libert; Khoa Nguyen; Olivier Sanders",
+    "affiliations": "ENS de Lyon and Inria, France; CNRS and ENS de Lyon, France; Nanyang Technological University, Singapore; Orange Labs, France"
+  },
+  {
+    "title": "Privacy-Preserving Pattern Matching on Encrypted Data",
+    "authors": "Anis Bkakria; Frédéric Cuppens; Nora Cuppens",
+    "affiliations": "IMT Atlantique, France; IMT Atlantique,Polytechnique Montréal, France; IMT Atlantique, Polytechnique Montréal, France"
+  },
+  {
+    "title": "SiGamal: A supersingular isogeny-based PKE and its application to a PRF",
+    "authors": "Tomoki Moriya; Hiroshi Onuki; Tsuyoshi Takagi",
+    "affiliations": "Department of Mathematical Informatics, The University of Tokyo, Japan; Department of Mathematical Informatics, The University of Tokyo, Japan; Department of Mathematical Informatics, The University of Tokyo, Japan"
+  },
+  {
+    "title": "Improving Speed and Security in Updatable Encryption Schemes",
+    "authors": "Dan Boneh; Saba Eskandarian; Sam Kim; Maurice Shih",
+    "affiliations": "Stanford University, USA; Stanford University, USA; Stanford University and Simons Institute for the Theory of Computing, USA; Cisco Systems, USA"
+  },
+  {
+    "title": "Non-Committing Encryption with Constant Ciphertext Expansion from Standard Assumptions",
+    "authors": "Yusuke Yoshida; Fuyuki Kitagawa; Keita Xagawa; Keisuke Tanaka",
+    "affiliations": "Tokyo Institute of Technology, Japan; NTT Secure Platform Laboratories, Japan; NTT Secure Platform Laboratories, Japan; Tokyo Institute of Technology, Japan"
+  },
+  {
+    "title": "Efficient Homomorphic Comparison Methods with Optimal Complexity",
+    "authors": "Jung Hee Cheon; Dongwoo Kim; Duhyeong Kim",
+    "affiliations": "Department of Mathematical Sciences, Seoul National University, Seoul, Republic of Korea; Crypto Lab Inc., Seoul, Republic of Korea; Department of Mathematical Sciences, Seoul National University, Seoul, Republic of Korea"
+  },
+  {
+    "title": "Fuzzy Asymmetric Password-Authenticated Key Exchange",
+    "authors": "Andreas Erwig; Julia Hesse; Maximilian Orlt; Siavash Riahi",
+    "affiliations": "Technische Universität Darmstadt, Germany; IBM Research - Zurich, Switzerland; Technische Universität Darmstadt, Germany; Technische Universität Darmstadt, Germany"
+  },
+  {
+    "title": "Public-Key Generation with Verifiable Randomness",
+    "authors": "Olivier Blazy; Patrick Towa; Damien Vergnaud",
+    "affiliations": "Universite de Limoges, France; IBM Research – Zurich (Switzerland) and ENS (France); Sorbonne Universite, CNRS, Institut Universitaire de France, France"
+  },
+  {
+    "title": "Side Channel Information Set Decoding using Iterative Chunking",
+    "authors": "Norman Lahr; Ruben Niederhagen; Richard Petri; Simona Samardjiska",
+    "affiliations": "Fraunhofer SIT, Germany; Fraunhofer SIT, Germany; Fraunhofer SIT, Germany; Radboud University, Netherlands"
+  },
+  {
+    "title": "On the Exact Round Complexity of Best-of-both-Worlds Multi-party Computation",
+    "authors": "Arpita Patra; Divya Ravi; Swati Singla",
+    "affiliations": "Indian Institute of Science Bangalore, India; Indian Institute of Science Bangalore, India; Google India, Bangalore, India"
+  },
+  {
+    "title": "Improved Security Analysis for Nonce-based Enhanced Hash-then-Mask MACs",
+    "authors": "Wonseok Choi; Byeonghak Lee; Yeongmin Lee; Jooyoung Lee",
+    "affiliations": "KAIST, Daejeon, Korea; KAIST, Daejeon, Korea; KAIST, Daejeon, Korea; KAIST, Daejeon, Korea"
+  },
+  {
+    "title": "Simulation-Sound Arguments for LWE and Applications to KDM-CCA2 Security",
+    "authors": "Benoît Libert; Khoa Nguyen; Alain Passelègue; Radu Titiu",
+    "affiliations": "CNRS and ENS de Lyon, France; Nanyang Technological University, Singapore; INRIA and ENS de Lyon, France; Bitdefender, Romania and ENS de Lyon, France"
+  },
+  {
+    "title": "MPC with Synchronous Security and Asynchronous Responsiveness",
+    "authors": "Chen-Da Liu-Zhang; Julian Loss; Ueli Maurer; Tal Moran; Daniel Tschudi",
+    "affiliations": "ETH Zurich, Switzerland; University of Maryland, USA; ETH Zurich, Switzerland; IDC Herzliya, Israel; Concordium, Zürich, Switzerland"
+  },
+  {
+    "title": "A New Decryption Failure Attack against HQC",
+    "authors": "Qian Guo; Thomas Johansson;",
+    "affiliations": "Lund University, Box 117, 221 00 Lund, Sweden; University of Bergen, Box 7803, N-5020 Bergen, Norway; Lund University, Box 117, 221 00 Lund, Sweden"
+  },
+  {
+    "title": "Possibility and Impossibility Results for Receiver Selective Opening Secure PKE in the Multi-Challenge Setting",
+    "authors": "Rupeng Yang; Junzuo Lai; Zhengan Huang; Man Ho Au; Qiuliang Xu; Willy Susilo",
+    "affiliations": "The University of Hong Kong, China; Jinan University, China; Peng Cheng Laboratory, China; The University of Hong Kong, China; Shandong University, China; University of Wollongong, Australia"
+  },
+  {
+    "title": "Cryptography from One-Way Communication: On Completeness of Finite Channels",
+    "authors": "Shweta Agrawal; Yuval Ishai; Eyal Kushilevitz; Varun Narayanan; Manoj Prabhakaran; Vinod Prabhakaran; Alon Rosen",
+    "affiliations": "Indian Institute of Technology Madras, India; Technion, Israel; Technion, Israel; Tata Institute of Fundamental Research, India; Indian Institute of Technology Bombay, India; Tata Institute of Fundamental Research, India; IDC Herzliya, Israel"
+  },
+  {
+    "title": "Tight Security Analysis of 3-Round Key-Alternating Cipher with A Single Permutation",
+    "authors": "Yusai Wu; Liqing Yu; Zhenfu Cao; Xiaolei Dong",
+    "affiliations": "East China Normal University, China; East China Normal University, China; East China Normal University, China; East China Normal University, China"
+  },
+  {
+    "title": "Quantum Collision Attacks on AES-like Hashing with Low Quantum Random Access Memories",
+    "authors": "Xiaoyang Dong; Siwei Sun; Danping Shi; Fei Gao; Xiaoyun Wang; Lei Hu",
+    "affiliations": "Tsinghua University, China; State Key Laboratory of Information Security, Institute of Information Engineering, Chinese Academy of Sciences, China; State Key Laboratory of Information Security, Institute of Information Engineering, Chinese Academy of Sciences, China; Beijing University of Posts and Telecommunications, China; Tsinghua University, China; State Key Laboratory of Information Security, Institute of Information Engineering, Chinese Academy of Sciences, China"
+  },
+  {
+    "title": "An Algebraic Formulation of the Division Property: Revisiting Degree Evaluations, Cube Attacks, and Key-Independent Sums",
+    "authors": "Kai Hu; Siwei Sun; Meiqin Wang; Qingju Wang",
+    "affiliations": "School of Cyber Science and Technology, Shandong University, Qingdao, Shandong, China, Key Laboratory of Cryptologic Technology and Information Security, Ministry of Education, Shandong University, Qingdao, Shandong, China; State Key Laboratory of Information Security, Institute of Information Engineering, Chinese Academy of Sciences, Beijing, China, School of Cyber Security, University of Chinese Academy of Sciences, Beijing, China.; School of Cyber Science and Technology, Shandong University, Qingdao, Shandong, China, Key Laboratory of Cryptologic Technology and Information Security, Ministry of Education, Shandong University, Qingdao, Shandong, China; SnT, University of Luxembourg, Esch-sur-Alzette, Luxembourg"
+  },
+  {
+    "title": "CCA-Secure (Puncturable) KEMs from Encryption With Non-Negligible Decryption Errors",
+    "authors": "Valerio Cini; Sebastian Ramacher; Daniel Slamanig; Christoph Striecks",
+    "affiliations": "AIT Austrian Institute of Technology, Austria; AIT Austrian Institute of Technology, Austria; AIT Austrian Institute of Technology, Austria; AIT Austrian Institute of Technology, Austria"
+  },
+  {
+    "title": "A Bit-Vector Differential Model for the Modular Addition by a Constant",
+    "authors": "Seyyed Arash Azimi; Adrián Ranea; Mahmoud Salmasizadeh; Javad Mohajeri; Mohammad Reza Aref; Vincent Rijmen",
+    "affiliations": "Department of Electrical Engineering Sharif University of Technology, Iran; imec-COSIC KU Leuven, Belgium; Electronic Research Institute Sharif University of Technology, Iran; Electronic Research Institute Sharif University of Technology, Iran; Department of Electrical Engineering Sharif University of Technology, Iran; imec-COSIC KU Leuven, Belgium, Department of Informatics UiB , Bergen, Norway"
+  },
+  {
+    "title": "MoniPoly---An Expressive $q$-SDH-Based Anonymous Attribute-Based Credential System",
+    "authors": "Syh-Yuan Tan; Thomas Gross",
+    "affiliations": "School of Computing, Newcastle University, UK; School of Computing, Newcastle University, UK"
+  },
+  {
+    "title": "Collusion Resistant Trace-and-Revoke for Arbitrary Identities from Standard Assumptions",
+    "authors": "Sam Kim; David J. Wu",
+    "affiliations": "Stanford University, USA; University of Virginia, USA"
+  },
+  {
+    "title": "An Algebraic Attack on Ciphers with Low-Degree Round Functions: Application to Full MiMC",
+    "authors": "Maria Eichlseder; Lorenzo Grassi; Reinhard Lüftenegger; Morten Øygarden; Christian Rechberger; Markus Schofnegger; Qingju Wang",
+    "affiliations": "IAIK, Graz University of Technology, Austria; IAIK, Graz University of Technology, Austria, Digital Security Group, Radboud University, Nijmegen, The Netherlands; IAIK, Graz University of Technology, Austria; Simula UiB, Norway; IAIK, Graz University of Technology, Austria; IAIK, Graz University of Technology, Austria; SnT, University of Luxembourg, Luxembourg"
+  },
+  {
+    "title": "Adaptively Secure Inner Product Encryption from LWE",
+    "authors": "Shuichi Katsumata; Ryo Nishimaki; Shota Yamada; Takashi Yamakawa",
+    "affiliations": "AIST, Japan; NTT Secure Platform Laboratories, Japan; AIST, Japan; NTT Secure Platform Laboratories, Japan"
+  },
+  {
+    "title": "Scalable Ciphertext Compression Techniques for Post-Quantum KEMs and their Applications",
+    "authors": "Shuichi Katsumata; Kris Kwiatkowski; Federico Pintore; Thomas Prest",
+    "affiliations": "AIST, Japan; PQShield, UK; Mathematical Institute, University of Oxford, UK; PQShield, UK"
+  },
+  {
+    "title": "SILVER - Statistical Independence and Leakage Verification",
+    "authors": "David Knichel; Pascal Sasdrich; Amir Moradi",
+    "affiliations": "Ruhr University Bochum, Germany; Ruhr University Bochum, Germany; Ruhr University Bochum, Germany"
+  },
+  {
+    "title": "Lower Bounds on the Degree of Block Ciphers",
+    "authors": "Phil Hebborn; Baptiste Lambin; Gregor Leander; Yosuke Todo",
+    "affiliations": "Ruhr University Bochum, Germany; Ruhr University Bochum, Germany; Ruhr University Bochum, Germany; NTT Secure Platform Laboratories, Japan"
+  },
+  {
+    "title": "Improvements of Algebraic Attacks for solving the Rank Decoding and MinRank problems",
+    "authors": "Magali Bardet; Maxime Bros; Daniel Cabarcas; Philippe Gaborit; Ray Perlner; Daniel Smith-Tone; Jean-Pierre Tillich; Javier Verbel",
+    "affiliations": "Inria, 2 rue Simone Iff, 75012 Paris, France and LITIS, University of Rouen Normandie, France; Univ. Limoges, CNRS, XLIM, UMR 7252, F-87000 Limoges, France; Universidad Nacional de Colombia Sede Medellín, Medellín, Colombia; Univ. Limoges, CNRS, XLIM, UMR 7252, F-87000 Limoges, France; National Institute of Standards and Technology, USA; University of Louisville, USA and National Institute of Standards and Technology, USA; Inria, 2 rue Simone Iff, 75012 Paris, France; Universidad Nacional de Colombia Sede Medellín, Medellín, Colombia"
+  },
+  {
+    "title": "Succinct Functional Commitment for a Large Class of Arithmetic Circuits",
+    "authors": "Helger Lipmaa; Kateryna Pavlyk",
+    "affiliations": "Simula UiB, Bergen, Norway; Simula UiB, Bergen, Norway"
+  },
+  {
+    "title": "Secure MPC: Laziness Leads to GOD",
+    "authors": "Saikrishna Badrinarayanan; Aayush Jain; Nathan Manohar; Amit Sahai",
+    "affiliations": "Visa Research, USA; UCLA, USA; UCLA, USA; UCLA, USA"
+  },
+  {
+    "title": "Cryptographic Group Actions and Applications",
+    "authors": "Navid Alamati; Luca De Feo; Hart Montgomery; Sikhar Patranabis",
+    "affiliations": "University of Michigan, USA; IBM Research Zürich, Switzerland; Fujitsu Laboratories of America, USA; ETH Zürich, Switzerland"
+  },
+  {
+    "title": "Security Reductions for White-Box Key-Storage in Mobile Payments",
+    "authors": "Estuardo Alpirez Bock; Chris Brzuska; Marc Fischlin; Christian Janson; Wil Michiels",
+    "affiliations": "Aalto University, Finland; Aalto University, Finland; Technische Universität Darmstadt, Germany; Technische Universität Darmstadt, Germany; Technische Universiteit Eindhoven, Netherland and NXP Semiconductors, the Netherlands"
+  },
+  {
+    "title": "Cryptanalysis of Masked Ciphers: A not so Random Idea",
+    "authors": "Tim Beyne; Siemen Dhooghe; Zhenda Zhang",
+    "affiliations": "imec-COSIC, ESAT, KU Leuven, Belgium; imec-COSIC, ESAT, KU Leuven, Belgium; imec-COSIC, ESAT, KU Leuven, Belgium"
+  },
+  {
+    "title": "A Combinatorial Approach to Quantum Random Functions",
+    "authors": "Nico Döttling; Giulio Malavolta; Sihang Pu",
+    "affiliations": "Helmholtz Center for Information Security (CISPA), Germany; Max Planck Institute for Security and Privacy, Germany; Helmholtz Center for Information Security (CISPA), Germany"
+  },
+  {
+    "title": "Calamari and Falafl: Logarithmic (Linkable) Ring Signatures from Isogenies and Lattices",
+    "authors": "Ward Beullens; Shuichi Katsumata; Federico Pintore",
+    "affiliations": "imec-COSIC, KU Leuven, Belgium; National Institute of Advanced Industrial Science and Technology (AIST), Japan; Mathematical Institute, University of Oxford, UK"
+  },
+  {
+    "title": "Crowd Verifiable Zero-Knowledge and End-to-end Verifiable Multiparty Computation",
+    "authors": "Foteini Baldimtsi; Aggelos Kiayias; Thomas Zacharias; Bingsheng Zhang",
+    "affiliations": "George Mason University, USA; The University of Edinburgh, IOHK, UK; The University of Edinburgh, UK; Zhejiang University, Alibaba-Zhejiang University Joint Research Institute of Frontier Technologies, China"
+  },
+  {
+    "title": "Towards Closing The Security Gap of Tweak-aNd-Tweak (TNT)",
+    "authors": "Chun Guo; Jian Guo; Eik List; Ling Song",
+    "affiliations": "School of Cyber Science and Technology, Shandong University, Qingdao, China; Division of Mathematical Sciences, School of Physical and Mathematical Sciences, Nanyang Technological University, Singapore; Bauhaus-Universität Weimar, Weimar, Germany; Jinan University, Guangzhou, China and Institute of Information Engineering, Chinese Academy of Sciences, Beijing, China"
+  },
+  {
+    "title": "Improved Classical and Quantum Algorithms for Subset-Sum",
+    "authors": "Xavier Bonnetain, Rémi Bricout, André Schrottenloher, Yixin Shen",
+    "affiliations": "University of Waterloo, Waterloo, ON, Canada; Sorbonne Université, Paris and Inria, France; Inria, France; Université de Paris, IRIF, CNRS, F-75013 Paris, France"
+  },
+  {
+    "title": "KVaC: Key-Value Commitments for Blockchains and Beyond",
+    "authors": "Shashank Agrawal; Srinivasan Raghuraman",
+    "affiliations": "Western Digital Research, USA; Visa Research, USA"
+  },
+  {
+    "title": "Radical Isogenies",
+    "authors": "Wouter Castryck; Thomas Decru; Frederik Vercauteren",
+    "affiliations": "KU Leuven, Belgium; KU Leuven, Belgium;"
+  },
+  {
+    "title": "Subvert KEM to Break DEM:  Practical Algorithm-Substitution Attacks on Public-Key Encryption",
+    "authors": "Rongmao Chen; Xinyi Huang; Moti Yung",
+    "affiliations": "National University of Defense Technology, China; Fujian Normal University, China; Columbia University, New York, USA"
+  },
+  {
+    "title": "Inner-Product Functional Encryption with Fine-Grained Access Control",
+    "authors": "Michel Abdalla; Dario Catalano; Romain Gay; Bogdan Ursu",
+    "affiliations": "DIENS, École normale supérieure, CNRS, PSL University, Paris, France and INRIA, Paris, France; Dipartimento di Matematica e Informatica, Università di Catania, Italy; IBM Zurich, Switzerland; ETH Zürich, Switzerland"
+  },
+  {
+    "title": "Unbounded HIBE with Tight Security",
+    "authors": "Roman Langrehr; Jiaxin Pan",
+    "affiliations": "ETH Zurich, Zurich, Switzerland; Norwegian University of Science and Technology, Trondheim, Norway"
+  },
+  {
+    "title": "Asymptotically Good Multiplicative LSSS over Galois Rings and Applications to MPC over Z/p^k Z",
+    "authors": "Mark Abspoel; Ronald Cramer; Ivan Damgård; Daniel Escudero; Matthieu Rambaud; Chaoping Xing; Chen Yuan",
+    "affiliations": "CWI, the Netherlands; CWI, the Netherlands; Leiden University, the Netherlands; Aarhus University, Denmark; Aarhus University, Denmark; Telecom Paris, France; Shanghai Jiaotong University, China; CWI, the Netherlands"
+  },
+  {
+    "title": "New results on Gimli: full-permutation distinguishers and improved collisions",
+    "authors": "Antonio Flórez Gutiérrez; Gaëtan Leurent; María Naya-Plasencia; Léo Perrin; André Schrottenloher; Ferdinand Sibleyras",
+    "affiliations": "Inria, France; Inria, France; Inria, France; Inria, France; Inria, France; Inria, France"
+  },
+  {
+    "title": "How to Build Optimally Secure PRFs Using Block Ciphers",
+    "authors": "Benoît Cogliati; Ashwin Jha; Mridul Nandi",
+    "affiliations": "CISPA Helmholtz Center for Information Security, Saarbrücken, Germany; Indian Statistical Institute, Kolkata, India; Indian Statistical Institute, Kolkata, India"
+  },
+  {
+    "title": "Security Limitations of Classical-Client Delegated Quantum Computing",
+    "authors": "Christian Badertscher; Alexandru Cojocaru; Léo Colisson; Elham Kashefi; Dominik Leichtle; Atul Mantri; Petros Wallden",
+    "affiliations": "IOHK, Zurich, Switzerland; University of Edinburgh, Edinburgh, UK; Sorbonne Université, Paris, France; University of Edinburgh, Edinburgh, UK and Sorbonne Université, Paris, France; Sorbonne Université, Paris, France; University of Maryland, College Park, USA; University of Edinburgh, Edinburgh, UK"
+  },
+  {
+    "title": "Packed Multiplication: How to Amortize the Cost of Side-channel Masking? ",
+    "authors": "Weijia Wang; Chun Guo; François-Xavier Standaert; Yu Yu; Gaëtan Cassiers",
+    "affiliations": "School of Cyber Science and Technology, Shandong University, Qingdao 266237, China; School of Cyber Science and Technology, Shandong University, Qingdao 266237, China; Institute of Information and Communication Technologies, Electronics and Applied Mathematics (ICTEAM), UCLouvain, B-1348 Louvain-la-Neuve, Belgium; Department of Computer Science and Engineering, Shanghai Jiao Tong University, Shanghai, 200240, China; Institute of Information and Communication Technologies, Electronics and Applied Mathematics (ICTEAM), UCLouvain, B-1348 Louvain-la-Neuve, Belgium"
+  },
+  {
+    "title": "Catalic: Delegated PSI Cardinality with Applications to Contact Tracing",
+    "authors": "Thai Duong; Duong Hieu Phan; Ni Trieu",
+    "affiliations": "Google, USA; Telecom Paris, Institut Polytechnique de Paris, France; Arizona State University, USA"
+  },
+  {
+    "title": "Secret-Shared Shuffle",
+    "authors": "Melissa Chase; Esha Ghosh; Oxana Poburinnaya",
+    "affiliations": "Microsoft Research, USA; Microsoft Research, USA; University of Rochester/Ligero, Inc, USA"
+  },
+  {
+    "title": "Multi-Client Oblivious RAM with Poly-Logarithmic Communication",
+    "authors": "Sherman S. M. Chow; Katharina Fech; Russell W. F. Lai; Giulio Malavolta",
+    "affiliations": "The Chinese University of Hong Kong, Hong Kong; Friedrich-Alexander University, Erlangen-Nuremberg, Germany; Friedrich-Alexander University, Erlangen-Nuremberg, Germany; Max Planck Institute for Security and Privacy, Germany"
+  },
+  {
+    "title": "SQISign: Compact Post-Quantum signatures from Quaternions and Isogenies",
+    "authors": "Luca De Feo; David Kohel; Antonin Leroux; Christophe Petit; Benjamin Wesolowski",
+    "affiliations": "IBM Research, Zurich, Switzerland; Université Aix-Marseilles, France; DGA, Ecole Polytechnique, France; University of Birmingham, UK; Université de Bordeaux, CNRS, France"
+  },
+  {
+    "title": "Post-Quantum Verification of Fujisaki-Okamoto",
+    "authors": "Dominique Unruh",
+    "affiliations": "University of Tartu, Estonia"
+  },
+  {
+    "title": "Circular Security Is Complete for KDM Security",
+    "authors": "Fuyuki Kitagawa; Takahiro Matsuda",
+    "affiliations": "NTT Secure Platform Laboratories, Japan; National Institute of Advanced Industrial Science and Technology (AIST), Japan"
+  },
+  {
+    "title": "Towards Efficiency-Preserving Round Compression in MPC: Do fewer rounds mean more computation?",
+    "authors": "Prabhanjan Ananth; Arka Rai Choudhuri; Aarushi Goel; Abhishek Jain",
+    "affiliations": "UCSB, USA; Johns Hopkins University, USA; Johns Hopkins University, USA; Johns Hopkins University, USA"
+  },
+  {
+    "title": "Quantum Circuit Implementations of AES with Fewer Qubits",
+    "authors": "Jian Zou; Zihao Wei; Siwei Sun; Ximeng Liu; Wenling Wu",
+    "affiliations": "Mathematics and Computer Science of Fuzhou University, Fuzhou, Fujian Province, China; Key Lab of Information Security of Network Systems (Fuzhou University), Fujian Province, China; State Key Laboratory of Information Security, Institute of Information Engineering, Chinese Academy of Sciences, Beijing, China; School of Cyber Security, University of Chinese Academy of Sciences, Beijing, China; State Key Laboratory of Information Security, Institute of Information Engineering, Chinese Academy of Sciences, Beijing, China; School of Cyber Security, University of Chinese Academy of Sciences, Beijing, China; Mathematics and Computer Science of Fuzhou University, Fuzhou, Fujian Province, China; Key Lab of Information Security of Network Systems (Fuzhou University), Fujian Province, China; Institute of Software, Chinese Academy of Sciences, Beijing, China"
+  },
+  {
+    "title": "ALBATROSS: publicly AttestabLe BATched Randomness based On Secret Sharing",
+    "authors": "Ignacio Cascudo and Bernardo David",
+    "affiliations": "IMDEA Software Institute, Spain; IT University of Copenhagen, Denmark"
+  },
+  {
+    "title": "Oblivious Pseudorandom Functions from Isogenies",
+    "authors": "Dan Boneh; Dmitry Kogan; Katharine Woo",
+    "affiliations": "Stanford University, USA; Stanford University, USA; Stanford University, USA, Princeton University, USA"
+  },
+  {
+    "title": "Non-Interactive Composition of Sigma-Protocols via Share-then-Hash",
+    "authors": "Masayuki Abe; Miguel Ambrona; Andrej Bogdanov; MIyako Ohkubo; Alon Rosen",
+    "affiliations": "NTT Secure Platform Laboratories, Japan; NTT Secure Platform Laboratorie, Japan s; Chinese University of Hong Kong, China; NICT, Japan; IDC Herzliya, Israel"
+  },
+  {
+    "title": "Twisted-PHS: Using the Product Formula to Solve Approx-SVP in Ideal Lattices",
+    "authors": "Olivier Bernard; Adeline Roux-Langlois",
+    "affiliations": "Univ Rennes, CNRS, IRISA and Thales, Gennevilliers, France; Univ Rennes, CNRS, IRISA, France"
+  },
+  {
+    "title": "Succinct Diophantine-Satisfiability Arguments",
+    "authors": "Patrick Towa; Damien Vergnaud",
+    "affiliations": "IBM Research Zurich (Switzerland) and ENS (France); Sorbonne Universite, CNRS, Institut Universitaire de France, France"
+  },
+  {
+    "title": "On the Adaptive Security of MACs and PRFs",
+    "authors": "Andrew Morgan; Rafael Pass; Elaine Shi",
+    "affiliations": "Cornell University, USA; Cornell Tech, USA; Cornell University, USA"
+  },
+  {
+    "title": "Individual Simulations",
+    "authors": "Yi Deng",
+    "affiliations": "SKLOIS, Institute of Information Engineering, CAS, China"
+  },
+  {
+    "title": "Circuit Amortization Friendly Encodings and their Application to Statistically Secure Multiparty Computation",
+    "authors": "Anders Dalskov; Eysa Lee; Eduardo Soria-Vazquez",
+    "affiliations": "Aarhus University, Aarhus, Denmark.; Northeastern University, Boston, USA; Aarhus University, Aarhus, Denmark"
+  },
+  {
+    "title": "Unbounded Dynamic Predicate Compositions in ABE from Standard Assumptions",
+    "authors": "Nuttapong Attrapadung; Junichi Tomida",
+    "affiliations": "AIST, Japan; NTT, Japan"
+  },
+  {
+    "title": "Simpler Statistically Sender Private Oblivious Transfer from Ideals of Cyclotomic Integers",
+    "authors": "Daniele Micciancio; Jessica Sorrell",
+    "affiliations": "UCSD, USA; UCSD, USA"
+  },
+  {
+    "title": "Efficient and Round-Optimal Oblivious Transfer and Commitment with Adaptive Security",
+    "authors": "Ran Canetti; Pratik Sarkar; Xiao Wang",
+    "affiliations": "Boston University, USA; Boston University, USA; Northwestern University, USA"
+  },
+  {
+    "title": "Two-Pass Authenticated Key Exchange with Explicit Authentication and Tight Security",
+    "authors": "Xiangyu Liu; Shengli Liu; Dawu Gu; Jian Weng",
+    "affiliations": "Shanghai Jiao Tong University; Shanghai Jiao Tong University, China; Shanghai Jiao Tong University, China; Jinan University, China"
+  },
+  {
+    "title": "Succinct and Adaptively Secure ABE for Arithmetic Branching Programs from k-Lin",
+    "authors": "Huijia Lin; Ji Luo",
+    "affiliations": ""
+  },
+  {
+    "title": "CCA Updatable Encryption Against Malicious Re-Encryption Attacks ",
+    "authors": "Long Chen; Ya-Nan Li; Qiang Tang",
+    "affiliations": "New Jersey Institute of Technology, USA; New Jersey Institute of Technology, USA; New Jersey Institute of Technology, USA"
+  },
+  {
+    "title": "Efficient Fully Secure Computation via Distributed Zero-Knowledge Proofs",
+    "authors": "Elette Boyle; Niv Gilboa; Yuval Ishai; Ariel Nof",
+    "affiliations": "IDC Herzliya, Israel; Ben-Gurion University, Israel; Technion, Israel; Technion, Israel"
+  }
+]}
