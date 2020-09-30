@@ -1,6 +1,6 @@
 
 # Conference Website Template
-
+An amazing project
 This is intended for all IACR conference websites (Crypto, Eurocrypt,
 Asiacrypt, CHES, FSE, PKC, RWC, and TCC). If you are doing some other
 conference, then [see below](#advanced-other-conferences).
