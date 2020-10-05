@@ -23,9 +23,7 @@
       <article class="col-12">
         <p>
           <span class="long_conf"><?php echo $META['shortName'];?></span>, the <span class="long_conf"><?php echo $META['name'];?></span>,
-          will take place in <a href="http://www.dcckorea.or.kr/">Daejeon Convention Center</a>,
-          <span class="conf_location"><?php echo $META['city'] . ', ' . $META['country'];?></span>
-          on <span class="conf_dates"><?php echo $META['dates'];?></span>.
+          will take place virtually on <span class="conf_dates"><?php echo $META['dates'];?></span>.
           <span class="conf_name"><?php echo $META['shortName'];?></span> is organized by
           <a href="http://iacr.org/">the International Association for Cryptologic Research</a> (IACR).
           <!-- and <a href=""> Korea Institute of Information Security and Cryptology </a> (KIISC). -->
@@ -44,6 +42,14 @@
           <h4 class="customCardHeader">
             Website Updates
           </h4>
+          <div class="customCardRow row">
+            <h6 class="dateTitle col-5 col-md-4">
+              Oct 5 2020
+            </h6>
+            <p class="col-7 col-md-8">
+              <a href="./registration.php">Registration</a> is open
+            </p>
+          </div>
           <div class="customCardRow row">
             <h6 class="dateTitle col-5 col-md-4">
               Sep 23 2020
