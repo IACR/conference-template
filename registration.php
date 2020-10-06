@@ -20,7 +20,7 @@
       </h2>
 
       <p>
-        The IACR board has decided that virtual Asiacrypt 2020 will be free, but attendees are required to pay the IACR membership fee 
+        The IACR board has decided that virtual Asiacrypt 2020 will be free, but attendees are required to pay the IACR membership fee
         for 2021 if they have not already paid it (typically by attending an IACR conference in 2020).
       </p>
 
@@ -99,7 +99,7 @@
 
       <div class="row">
         <aside class="col-sm-6 mx-auto text-center">
-          <a href="https://secure.iacr.org/conferences/asiacrypt2020/register/index.php?onsite_token=HnQBhOMVcb8" class="btn btn-lg btn-warning btn-block regBtn" role="button">Register here</a>
+          <a href="https://secure.iacr.org/conferences/asiacrypt2020/register/index.php" class="btn btn-lg btn-warning btn-block regBtn" role="button">Register here</a>
         </aside>
       </div>
 
