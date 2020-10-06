@@ -58,6 +58,11 @@
             <img src="./images/sponsors/kiisc.png" alt="KIISC" title="KIISC" class="sponsorPageLogo" />
           </a>
         </div>
+        <div class="sponsorLogoBox justify-content-between">
+          <a href="https://www.mitsubishielectric.com/">
+            <img src="./images/sponsors/mitsubishi.png" alt="MITSUBISHI" title="MITSUBISHI" class="sponsorPageLogo" />
+          </a>
+        </div>
       </div>
     </main>
     <?php include "includes/footer.php"; ?>
