@@ -44,8 +44,16 @@
           </h4>
           <div class="customCardRow row">
             <h6 class="dateTitle col-5 col-md-4">
-              Oct 5 2020
+              07 Oct 2020
             </h6>
+            <p class="col-7 col-md-8">
+            Thanks to <a href="https://www.mitsubishielectric.com/">Mitsubishi</a> for being a <a href="./sponsors.php">sponsor</a>
+            </p>
+          </div>
+          <div class="customCardRow row">
+            <h6 class="dateTitle col-5 col-md-4">
+              Oct 5 2020
+            </h6>./sponsors.php
             <p class="col-7 col-md-8">
               <a href="./registration.php">Registration</a> is open
             </p>
