@@ -18,17 +18,13 @@
         Paper Submission
       </h2>
 
-          <!-- NOTE: below is standard placeholder text for when the page
-           is under construction. please delete the <p> below when you
-           finish editing the content.  -->
+      <div class="alert customAlert-warm">
+        Unfortunately the deadline to submit a paper to <?php echo $META['shortName'];?> has passed.
+      </div>
       <p>
-          The submission server is now available.
-          Please see the <a href="https://asiacrypt.iacr.org/2020/callforpapers.php">call for papers</a> page for further instructions.
+        You can still access the <a href="https://secure.iacr.org/websubrev/ac2020/submit/">submission server</a>, should you need to make changes or upload a final paper version.
       </p>
-      <p class="text-center">
-        <a href="https://secure.iacr.org/websubrev/ac2020/submit/" target="_blank" class="btn btn-lg btn-warning"
-           role="button">Submission Server</a>
-      </p>
+      
     </main>
 
   <?php include "includes/footer.php"; ?>

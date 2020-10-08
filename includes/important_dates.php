@@ -51,10 +51,10 @@
   </div>
   <div class="customCardRow row">
     <h6 class="dateTitle col-5 col-md-4">
-      <?php echo $META['dates'];?>
+      <?php echo $META['startdate'];?>
     </h6>
     <p class="col-7 col-md-8">
-      Conference dates
+      Conference begins
     </p>
   </div>
   <div class="customCardFooter">

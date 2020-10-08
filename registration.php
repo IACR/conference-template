@@ -65,7 +65,7 @@
           <div class="row">
             <div class="col-6">
               <p class="regBodyText">
-                Attended prior 2020 IACR conference
+                Attended prior <?php echo date("Y");?> IACR conference
               </p>
             </div>
             <div class="col-3">
@@ -82,7 +82,7 @@
         </section>
       </div>
 
-      <div class="row mt-4">
+      <div class="row mt-4 mb-3">
         <section class="col-md-6">
           <h3 class="pageSubtitle">What the Conference Fee Includes</h3>
           <p>
@@ -92,18 +92,33 @@
         <section class="col-md-6">
           <h3 class="pageSubtitle">An Important Note for Students</h3>
           <p>
-            If you are a student presenting at <span class="conf_name"><?php echo $META['shortName'];?></span>, your registration fee will be covered by the IACR Fund for Student Presenters; you do not need to pay for registration. Please contact the General Chair before registration to obtain a registration waiver token.
+            If you are a student presenting at <?php echo $META['shortName'];?>, your registration fee will be covered by the IACR Fund for Student Presenters; you do not need to pay for registration. Please contact the General Chair before registration to obtain a registration waiver token.
           </p>
         </section>
       </div>
 
       <div class="row">
         <aside class="col-sm-6 mx-auto text-center">
-          <a href="https://secure.iacr.org/conferences/asiacrypt2020/register/index.php" class="btn btn-lg btn-warning btn-block regBtn" role="button">Register here</a>
+          <a href="https://secure.iacr.org/conferences/asiacrypt2020/register/index.php" class="btn btn-lg customBtn-warm btn-block regBtn" role="button">Register now!</a>
         </aside>
       </div>
 
       <div class="row mt-5">
+        <section class="col-md-6">
+          <h3 class="pageSubtitle">Refund Policy</h3>
+          <p>
+            Due to the nature of a virtual conference, no cancellations will be accepted after December 5.
+          </p>
+        </section>
+        <section class="col-md-6">
+          <h3 class="pageSubtitle">Code of Conduct</h3>
+          <p>
+            People who register must agree to abide by the <a href="./conduct.php">IACR code of conduct</a>.
+          </p>
+        </section>
+      </div>
+
+      <div class="row mt-4">
         <section class="col-md-6">
           <h3 class="pageSubtitle">Additional Information</h3>
           <p>
@@ -120,21 +135,6 @@
           </p>
           <p>
             If you would like to obtain a printed copy of the proceedings, these can be purchased directly from Springer.
-          </p>
-        </section>
-      </div>
-
-      <div class="row mt-4">
-        <section class="col-md-6">
-          <h3 class="pageSubtitle">Refund Policy</h3>
-          <p>
-            Due to the nature of a virtual conference, no cancellations will be accepted after December 5.
-          </p>
-        </section>
-        <section class="col-md-6">
-          <h3 class="pageSubtitle">Code of Conduct</h3>
-          <p>
-            People who register must agree to abide by the <a href="./conduct.php">IACR code of conduct</a>.
           </p>
         </section>
       </div>

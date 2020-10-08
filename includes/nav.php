@@ -6,7 +6,7 @@
           <div id="titlesLogoDiv" class="d-flex justify-content-between align-items-center">
             <div class="headerConferenceName">
               <h1 class="headerTitle">
-                <span class="conf_name"><?php echo $META['shortName'];?></span>
+                <?php echo $META['shortName'];?>
               </h1>
             </div>
             <div class="headerLogo">
@@ -16,10 +16,10 @@
             </div>
             <div class="headerInfo">
               <h3 class="headerInfoTop">
-                <span class="conf_dates"><?php echo $META['dates'];?></span>
+                <?php echo $META['dates'];?>
               </h3>
               <h3 class="headerInfoBottom">
-                <span class="conf_location"><?php echo $META['location'];?></span>
+                Virtual
               </h3>
             </div>
           </div>
@@ -44,28 +44,25 @@
               <div class="dropdown-menu mx-md-3 mx-lg-5">
                 <a class="dropdown-item" href="<?php echo rootPath() . 'callforpapers.php' ?>">Call for papers</a>
                 <a class="dropdown-item" href="<?php echo rootPath() . 'papersubmission.php' ?>">Paper submission</a>
-                <a class="dropdown-item" href="<?php echo rootPath() . 'invitedtalks.php' ?>">Invited talks</a>
+                <!-- <a class="dropdown-item" href="<?php echo rootPath() . 'invitedtalks.php' ?>">Invited talks</a> -->
                 <a class="dropdown-item" href="<?php echo rootPath() . 'acceptedpapers.php' ?>">Accepted papers</a>
                 <a class="dropdown-item" href="<?php echo rootPath() . 'program.php' ?>">Main program</a>
                 <a class="dropdown-item" href="<?php echo rootPath() . 'rumpsession.php' ?>">Rump session</a>
               </div>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">General Information</a>
+              <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Participate</a>
               <div class="dropdown-menu mx-md-3 mx-lg-5">
-                <a class="dropdown-item" href="<?php echo rootPath() . 'conduct.php' ?>">Code of Conduct</a>
                 <a class="dropdown-item" href="<?php echo rootPath() . 'registration.php' ?>">Registration</a>
-                <a class="dropdown-item" href="<?php echo rootPath() . 'travel.php' ?>">Travel</a>
-                <a class="dropdown-item" href="<?php echo rootPath() . 'accomodation.php' ?>">Accomodations</a>
-                <a class="dropdown-item" href="<?php echo rootPath() . 'visas.php' ?>">Visas</a>
-                <a class="dropdown-item" href="<?php echo rootPath() . 'stipends.php' ?>">Stipends</a>
+                <a class="dropdown-item" href="<?php echo rootPath() . 'participation.php' ?>">How to participate</a>
+                <a class="dropdown-item" href="<?php echo rootPath() . 'conduct.php' ?>">Code of conduct</a>
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="<?php echo rootPath() . 'contact.php' ?>">Contact</a>
+              <a class="nav-link" href="<?php echo rootPath() . 'sponsors.php' ?>">Sponsors</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="<?php echo rootPath() . 'sponsors.php' ?>">Sponsors</a>
+              <a class="nav-link" href="<?php echo rootPath() . 'contact.php' ?>">Contact</a>
             </li>
           </ul>
         </div>
@@ -78,7 +75,7 @@
           This site is designed for browsers with javascript.
         </h2>
         <h3>
-          The dates, name, and location for the conference are <a href="json/metadata.json">in a json file.</a>
+          The dates and name for the conference are <a href="json/metadata.json">in a json file.</a>
         </h3>
       </div>
     </noscript>

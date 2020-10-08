@@ -30,7 +30,7 @@
         the <a href="https://iacr.org/committees.html">Code-of-Conduct
         Liaison</a>, <a href="./contact.php">General Chair(s)</a>,
         any member of the <a href="https://iacr.org/committees.html">Ethics
-        Committee</a> and
+        Committee</a>, and
         the <a href="https://iacr.org/bod.html">President</a>.
       </p>
       <p>
@@ -45,60 +45,36 @@
         If you witness harassment or discriminatory behavior, please consider intervening.
       </p>
 
-      <h3 class="pageSubtitle mt-4">
+      <h3 class="pageSubtitle mt-4 mb-3">
         Who to Contact
       </h3>
       <div class="row">
-        <aside class="col-sm-4">
+        <aside class="col-md-3 text-center mb-4 mb-md-1">
           <h4 class="subSubtitle">
             Code-of-Conduct Liaison
           </h4>
-          <p class="text-left">
-            Tal Rabin (
-            <a href="mailto:conduct@iacr.org">
-              conduct@iacr.org
-            </a>
-            )
-          </p>
+          Tal Rabin <br /><a href="mailto:conduct@iacr.org">conduct@iacr.org</a>
         </aside>
 
-        <aside class="col-sm-4">
+        <aside class="col-md-3 text-center mb-4 mb-md-1">
           <h4 class="subSubtitle">
             General Chair
           </h4>
-          <p class="text-left">
-            Kwangjo Kim (
-            <a href="mailto:asiacrypt2020@iacr.org">
-              asiacrypt2020@iacr.org
-            </a>
-            )
-          </p>
+          Kwangjo Kim <br /><a href="mailto:asiacrypt2020@iacr.org">asiacrypt2020@iacr.org</a>
         </aside>
 
-        <aside class="col-sm-4">
+        <aside class="col-md-3 text-center mb-4 mb-md-1">
           <h4 class="subSubtitle">
             Ethics Committee
           </h4>
-          <p class="text-left">
-            Shai Halevi (
-            <a href="mailto:ethics-committee@iacr.org">
-              ethics-committee@iacr.org
-            </a>
-            )
-          </p>
+          Shai Halevi <br /><a href="mailto:ethics-committee@iacr.org">ethics-committee@iacr.org</a>
         </aside>
 
-        <aside class="col-sm-4">
+        <aside class="col-md-3 text-center mb-md-1">
           <h4 class="subSubtitle">
             IACR President
           </h4>
-          <p class="text-left">
-            Michel Abdalla (
-            <a href="mailto:president@iacr.org">
-              president@iacr.org
-            </a>
-            )
-          </p>
+          Michel Abdalla <br /><a href="mailto:president@iacr.org">president@iacr.org</a>
         </aside>
       </div>
 
