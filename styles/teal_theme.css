@@ -114,6 +114,19 @@ a:hover {
   color: #046577;
 }
 
+.customBtn-warm {
+  background-color: rgba(203, 131, 30, 0.4);
+}
+
+.customBtn-cool {
+  background-color: rgba(4, 101, 119, 0.6);
+  color: #FEFDFB;
+}
+
+code {
+  color: #008577;
+}
+
 
 
 /***** Main Content: cards & alerts *****/
@@ -125,6 +138,20 @@ a:hover {
   /* background-color: rgba(203, 131, 30, 0.4); */
   background-color: rgba(148, 163, 166, 0.5);
   color: #038273;
+}
+
+.customAlert-warm {
+  background-color: rgba(203, 131, 30, 0.2);
+  border-color: rgba(203, 131, 30, 0.5);
+}
+
+.customAlert-cool {
+  background-color: #D4E6E9;
+  border-color: #ABCED4;
+}
+
+icon {
+  filter: brightness(0) invert(31%) sepia(25%) saturate(4001%) hue-rotate(145deg) brightness(99%) contrast(101%);
 }
 
 .customCardFooter {

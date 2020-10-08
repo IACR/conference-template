@@ -1,4 +1,4 @@
-/* Color theme by Kay McKelly: LINK */
+/* Color theme by Kay McKelly */
 
 
 
@@ -52,6 +52,19 @@ nav#mainmenu {
   color: #CB831E;
 }
 
+/* NOTE: custom button colors typically derived from the two most common colors in a given theme */
+.customBtn-warm {
+  background-color: rgba(203, 131, 30, 0.6);
+}
+
+.customBtn-cool {
+  background-color: rgba(15, 119, 60, 0.4);
+}
+
+code {
+  color: #CB831E;
+}
+
 
 
 /***** Main Content: cards & alerts *****/
@@ -62,6 +75,16 @@ nav#mainmenu {
 .customCardHeader {
   background-color: rgba(203, 131, 30, 0.4);
   color: #1F2161;
+}
+
+.customAlert-warm {
+  background-color: rgba(255, 203, 13, 0.3);
+  border-color: rgba(255, 203, 13, 0.6);
+}
+
+.customAlert-cool {
+  background-color: rgba(15, 119, 60, 0.2);
+  border-color: rgba(15, 119, 60, 0.5);
 }
 
 .customCardFooter {

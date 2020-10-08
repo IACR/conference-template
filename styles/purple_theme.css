@@ -75,6 +75,19 @@ a:hover {
   color: #5D2E8C;
 }
 
+/* NOTE: custom button colors typically derived from the two most common colors in a given theme */
+.customBtn-warm {
+  background-color: rgba(217, 192, 93, 0.3);
+}
+
+.customBtn-cool {
+  background-color: rgba(93, 46, 140, 0.3);
+}
+
+code {
+  color: #8C3585;
+}
+
 
 
 /***** Main Content: cards & alerts *****/
@@ -89,6 +102,20 @@ a:hover {
 
 .dateTitle {
   color: #008577;
+}
+
+.icon {
+  filter: brightness(0) invert(38%) sepia(66%) saturate(428%) hue-rotate(125deg) brightness(98%) contrast(87%);
+}
+
+.customAlert-warm {
+  background-color: rgba(140, 53, 133, 0.2);
+  border-color: rgba(140, 53, 133, 0.5);
+}
+
+.customAlert-cool {
+  background-color: rgba(0, 133, 119, 0.2);
+  border-color: rgba(0, 133, 119, 0.5);
 }
 
 .customCardFooter {
