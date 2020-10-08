@@ -47,22 +47,6 @@
        "@type": "Event",
        "startDate": "<?php echo $META['startdate'];?>",
        "endDate":  "<?php echo $META['enddate'];?>",
-       "location": {
-         "@context": "http://schema.org",
-         "@type": "Place",
-         "address": {
-           "@context": "http://schema.org",
-           "@type": "PostalAddress",
-           "addressLocality": "<?php echo $META['city'];?>",
-           "addressCountry": "<?php echo $META['country'];?>"
-         },
-         "geo": {
-           "@type": "GeoCoordinates",
-           "latitude": "<?php echo $META['latitude'];?>",
-           "longitude": "<?php echo $META['longitude'];?>"
-         },
-         "name": "Conference Venue"
-       },
        "organizer": {
          "@context": "http://schema.org",
          "@type": "NGO",
@@ -84,8 +68,6 @@
     <meta property="event:end_time" content="<?php echo $META['enddate'];?>"/>
     <meta property="og:description" content="<?php echo $META['name'];?>"/>
     <meta property="og:image" content="https://iacr.org/img/logo/iacrlogo_small_og.png"/>
-    <meta property="og:latitude" content="<?php echo $META['latitude'];?>"/>
-    <meta property="og:longitude" content="<?php echo $META['longitude'];?>"/>
     <!-- metadata for twitter. -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@iacr_news"/>

@@ -1,10 +1,39 @@
-$(document).ready(function() {
+function startTimer(duration, display) {
+    var timer = duration, minutes, seconds;
+    setInterval(function () {
+        minutes = parseInt(timer / 60, 10);
+        seconds = parseInt(timer % 60, 10);
+
+        minutes = minutes < 10 ? "0" + minutes : minutes;
+        seconds = seconds < 10 ? "0" + seconds : seconds;
+
+        display.innerText = minutes + ":" + seconds;
+
+        if (--timer < 0) {
+            timer = duration;
+        }
+    }, 1000);
+}
+
+function adjustTimes(date, session) {
+  // Make sure they are formatted as yyyy-MM-ddTHH:mm:ss, because they could be things like '7:00'
+  let starttime = moment.utc(date + 'T' + session.starttime.padStart(5, '0') + ':00').local().format('ddd DD MMM HH:mm');
+  session.localstarttime = starttime.padStart(5, '0');
+  let endtime = moment.utc(date + 'T' + session.endtime.padStart(5, '0') + ':00').local().format('ddd DD MMM HH:mm');
+  session.localendtime = endtime.padStart(5, '0');
+}
+
+// jsonUrl is the URL to fetch the program from
+// compiledTemplate is the result from creating the handlebars template
+// programDivId is the id of the div to write the program into.
+function installProgram(jsonUrl, compiledTemplate, programDivId) {
   $.ajax({
     cache: false,
-    url: './json/program.json',
+    url: jsonUrl,
     dataType: 'json',
-    success: function(data) {
-      var renderedProgram = document.getElementById('renderedProgram');
+      success: function(data) {
+      console.dir(data);
+      var renderedProgram = document.getElementById(programDivId);
       if (!data.hasOwnProperty('days')) {
         renderedProgram.innerHTML = '<p>The conference program is not currently available. Please check back later.</p>';
         return;
@@ -18,8 +47,6 @@ $(document).ready(function() {
 			  parts[2]).toLocaleString('en-US', {weekday: "long", month: "short", day: "numeric"});
       });
 
-      var theTemplateScript = $("#program-template").html();
-      var theTemplate = Handlebars.compile(theTemplateScript);
       var days = data['days'];
       for (var i = 0; i < days.length; i++) {
         var timeslots = days[i]['timeslots'];
@@ -27,14 +54,26 @@ $(document).ready(function() {
           if(timeslots[j]['sessions'].length > 1) {
             timeslots[j]['twosessions'] = true;
           }
+          adjustTimes(days[i].date, timeslots[j]);
         }
       }
 
-      var theCompiledHtml = theTemplate(data);
+      let theCompiledHtml = compiledTemplate(data);
       renderedProgram.innerHTML = theCompiledHtml;
+      // Handle hash anchors in the URL
+      if (window.location.hash) {
+        let id = window.location.hash.substring(1);
+        let elem = document.getElementById(id);
+        if (elem) {
+          elem.scrollIntoView({behavior: "smooth"});
+        }
+      }
+      // This was intended as a counter until the next event.
+      //      let countdown = document.getElementById('countdown');
+      //      startTimer(2000, countdown);
     },
     fail: function(jqxhr, textStatus, error) {
-      document.getElementById('renderedProgram');
+      let renderedProgram = document.getElementById(programDivId);
       renderedProgram.innerHTML = '<p>The conference program is not currently available. Please check back later.</p>';
 
       if (textStatus === 'error') {
@@ -44,4 +83,4 @@ $(document).ready(function() {
       }
     }
   });
-});
+}
