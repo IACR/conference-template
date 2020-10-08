@@ -29,7 +29,8 @@
             Kwangjo Kim
           </h4>
           <p class="text-center">
-            KAIST, Korea
+            Korea Advanced Institute of Science and Technology (KAIST)<br>
+            Korea
           </p>
         </aside>
       </div>
@@ -54,29 +55,28 @@
             Shiho Moriai
           </h4>
           <p class="text-center">
-            NICT, Japan
+            Network Security Research Institute (NICT)<br>
+            Japan
           </p>
-          <div class="col-12 text-center">
-            <a href="mailto:asiacrypt2020programchairs@iacr.org">
-              <img src="images/icons/email.svg" class="icon" />
-            </a>&nbsp;
-            asiacrypt2020programchairs@iacr.org
-          </div>
         </aside>
         <aside class="col-12 col-sm-6 text-center mb-2">
           <h4 class="subSubtitle">
             Huaxiong Wang
           </h4>
           <p class="text-center">
-            Nanyang Technological University, Singapore
+            Nanyang Technological University<br>
+            Singapore
           </p>
-          <div class="col-12 text-center">
-            <a href="mailto:asiacrypt2020programchairs@iacr.org">
-              <img src="images/icons/email.svg" class="icon" />
-            </a>&nbsp;
-            asiacrypt2020programchairs@iacr.org
-          </div>
         </aside>
+      </div>
+
+      <div class="row">
+        <div class="col-12 text-center">
+          <a href="mailto:asiacrypt2020programchairs@iacr.org">
+            <img src="images/icons/email.svg" class="icon" />
+          </a>&nbsp;
+          asiacrypt2020programchairs@iacr.org
+        </div>
       </div>
 
     </main>

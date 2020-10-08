@@ -22,12 +22,13 @@
     <div class="row mb-2">
       <article class="col-12">
         <p>
-          <span class="long_conf"><?php echo $META['shortName'];?></span>, the <span class="long_conf"><?php echo $META['name'];?></span>,
-          will take place virtually on <span class="conf_dates"><?php echo $META['dates'];?></span>.
-          <span class="conf_name"><?php echo $META['shortName'];?></span> is organized by
+          <?php echo $META['shortName'];?>, the <?php echo $META['name'];?>,
+          will take place virtually on <?php echo $META['dates'];?>.
+          <?php echo $META['shortName'];?> is organized by
           <a href="http://iacr.org/">the International Association for Cryptologic Research</a> (IACR).
           <!-- and <a href=""> Korea Institute of Information Security and Cryptology </a> (KIISC). -->
         </p>
+        <a href="registration.php" class="btn customBtn-warm btn-lg btn-block w-50 mx-auto">Register now</a>
       </article>
     </div>
 
