@@ -59,8 +59,10 @@
         The conference is organized over 4 days, with approximately 4
         hours per day. Sessions consist of live 5 minute presentations
         of the papers, which are grouped by topic, followed by a Q&amp;A
-        panel discussion with the speakers and session moderators. The
-        conference will also feature <span class="editMe">other cool conference features like invited talks, rump session, etc</span>. We recommend
+        panel discussion with the speakers and session moderators. <!--
+The
+conference will also feature <span class="editMe">other cool conference features like invited talks, rump session, etc</span>. -->
+        We recommend
         monitoring <a href="program.php">the conference program</a> to
         see which sessions are upcoming.
       </p>
@@ -144,14 +146,12 @@
           <h4 class="subSubtitle text-md-center">
             Social Events
           </h4>
-          <span class="editMe">
-            <p>
+          <p>
               We have set up a variety of social events for each day at the conference, and have listed them in the program. On Tuesday, we have the more experimental social events. Otherwise we'll be using breakout rooms on Zoom following the last session of each day.
             </p>
             <p>
               If you'd like to start your own social events, and want to allow other attendees to join, post a link on Zulip at chat.iacr.org.
             </p>
-          </span>
         </div>
 
       </div>

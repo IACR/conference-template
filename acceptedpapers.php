@@ -80,11 +80,13 @@
        })
        .then(data => {
          if (data) {
-            data.acceptedPapers.forEach((paper) => {
-              paper.authors = paper.authors.join(', ');
-            });
-            data.acceptedPapers.forEach((paper) => {
-              paper.affiliations = removeDups(paper.affiliations).join(', ');
+           data.acceptedPapers.forEach((paper) => {
+             if (Array.isArray(paper.authors)) {
+               paper.authors = paper.authors.join(', ');
+             }
+             if (Array.isArray(paper.affiliations)) {
+               paper.affiliations = removeDups(paper.affiliations).join(', ');
+             }
             });
 
            var theTemplateScript = $("#acceptedScript").html();

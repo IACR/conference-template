@@ -37,8 +37,8 @@
     <link href="https://iacr.org/libs/css/bootstrap/confv2/css/bootstrap.min.css" rel="stylesheet" >
 
     <!-- Styling -->
-    <link rel="stylesheet" href="<?php echo rootPath();?>styles/main.css">
-    <link id="style" rel="stylesheet" href="<?php echo rootPath();?>styles/orange_theme.css">
+    <link rel="stylesheet" href="<?php echo rootPath();?>styles/main.css?v=2">
+    <link id="style" rel="stylesheet" href="<?php echo rootPath();?>styles/orange_theme.css?v=2">
     <!-- metadata for googlebot -->
     <script type="application/ld+json">
      {
