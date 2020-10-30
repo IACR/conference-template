@@ -422,24 +422,38 @@ img.sessionInfoIcon {
   vertical-align: unset;
 }
 
-div.sessionWrapper {
+div.sessionList {
     margin-bottom: 10px;
 }
 
-div.sessionList > div:nth-child(3n-2) {
-    background-color: rgba(242, 210, 166, 0.3);
+/* tabbed sessions use this */
+div.trackMenu a.nav-link {
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+    border-top-left-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+    margin-bottom: .5rem;
+    background-color: #f8f8f8 !important;
+    font-weight: 600;
 }
-div.sessionList > div:nth-child(3n-1) {
-    background-color: rgba(164, 244, 199, 0.3);
+@media (max-width: 960px) {
+    div.trackMenu .nav-link {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
 }
-div.sessionList > div:nth-child(3n) {
-    /*       background-color: rgba(188, 143, 242, 0.3);*/
-    background-color: rgba(211, 182, 246, 0.3);
+/* The colors of sessions and tabs could be changed in a theme. */
+div.trackMenu .nav-link.active {
+  background-color: rgba(242, 210, 166, 0.3)!important;
+  color: black !important;
 }
+div.sessionList div.session {
+  background-color: rgba(242, 210, 166, 0.3);
+  padding: 1rem;
+  text-align: center;
+}
+
 /* Single track are centered. */
-div.sessionList div:only-child {
-    background-color: rgba(177, 181, 231, 0.3);
-}
 div.sessionList div:only-child p {
     text-align: center;
 }
@@ -449,14 +463,14 @@ div.sessionList div:only-child p {
 .inlineSessions > div:not(:last-child ) {
     margin-right: 7px;
 }
-div.session {
-    background-color: rgba(164, 244, 199, 0.3);
-    padding: 1rem;
-    text-align: center;
+
+/** This makes untabbed sessions equal width. */
+div.inlineSessions div.session {
     flex-grow: 1;
     flex-basis: 0;
 }
 
+/* Used for expandable abstract */
 a.toggle-open:after {
     content:' -';
     font-weight: 800;
@@ -464,12 +478,6 @@ a.toggle-open:after {
 a.toggle-closed:after {
     content: " ›";
     font-weight: 800;
-}
-
-.ssessionWrapper > div {
-  position: absolute;
-/*  top: 0;
-  left: 0;*/
 }
 
 /********************************** Slideshow for sessions */

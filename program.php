@@ -78,92 +78,87 @@
         </div>
         {{#each timeslots}}
         <div class="row">
-          <div class="col-3">
-            <p class="timeSlot">
-              {{starttime}}-{{endtime}}
-            </p>
-          </div>
-          <div class="col-9">
-            {{#tabbedSessions @root.isNarrow sessions}}
-            <div class="sessionWrapper carousel-wrapper" id="timeslot-{{@../index}}-{{@index}}">
-              <div class="slideControls d-flex w-100 justify-content-center">
-                <button class="btn btn-sm btn-info slide-prev-butt">Previous</button>
-                <div class="mx-3 my-2">
-                  Track <span class="slide_selected">1</span> of <span class="slide_count"></span>
-                </div>
-                <button class="btn btn-sm btn-info slide-next-butt">Next   </button>
-              </div>
-              <div class="sessionList carousel">
-            {{else}}
-            <div class="sessionWrapper">
-              <div class="sessionList d-flex inlineSessions">
-            {{/tabbedSessions}}
+          {{#if tabbedSessions}}
+          <div class="col-4 col-md-3 pr-0">
+            <p class="timeSlot mr-3">{{starttime}}-{{endtime}}</p>
+            <div class="trackMenu nav flex-column nav-pills align-items-end" id="ts-{{@../index}}-{{@index}}-tab" role="tablist" aria-orientation="vertical">
             {{#each sessions}}
-              <div class="session {{#tabbedSessions @root.isNarrow ../sessions}}slide_card{{#if @first}} active{{/if}}{{/tabbedSessions}}">
-                      <h5 class="text-center">
-                        {{session_title}}
-                        {{#if session_url}}
-                        &nbsp; <a href="{{session_url}}"><img class="sessionInfoIcon" src="images/icons/info.svg" title="Session Info"></a>
-                        {{/if}}
-                      </h5>
-                      {{#if location.name}}
-                      <p class="trackDescr">
-                        {{location.name}}
-                      </p>
-                      {{/if}}
-                      {{#if moderator}}
-                      <p class="trackDescr">
-                        {{moderator}}
-                      </p>
-                      {{/if}}
-                      {{#each talks}}
-                      <p class="talkTitle">
-                        {{title}}
-                      </p>
-                      {{#if abstract}}
-                      <div class="talkAbstract">
-                        <a class="toggle-closed" data-toggle="collapse" href="#abstract-{{id}}" role="button" aria-expanded="false" aria-controls="abstract-{{id}}">
-                          Show abstract
-                        </a>
-                      </div>
-                      <div id="abstract-{{id}}" class="collapse mb-2 text-justify">
-                        {{abstract}}
-                      </div>
-                      {{/if}}
-                      <p class="authorList">
-                        {{#each authors}}
-                        <span class="authorName">{{this}}</span>
-                        {{/each}}
-                      </p>
-                      {{#if paperUrl}}
-                      <span class="talkMedia">
-                        Media: &nbsp; <a href="{{paperUrl}}"><img class="talkMediaIcon" src="images/icons/file.svg" title="Paper"></a>
-                      </span>
-                      {{/if}}
-                      {{#if slidesUrl}}
-                      <span class="talkMedia">
-                        &nbsp; <a href="{{slidesUrl}}"><img class="talkMediaIcon" src="images/icons/presentation.svg" title="Slides"></a>
-                      </span>
-                      {{/if}}
-                      {{/each}}
-                    </div>
-                    {{/each}} <!-- sessions -->
-                  </div>
-                </div> <!-- conclude sessionWrapper -->
-              </div> <!-- col-9 -->
+            <a title="{{session_title}}" class="nav-link {{#if @first}} active{{/if}}" id="session-{{@../../index}}-{{@../index}}-{{@index}}-tab" data-toggle="pill" href="#session-{{@../../index}}-{{@../index}}-{{@index}}" role="tab" href="#session-{{@../../index}}-{{@../index}}-{{@index}}" aria-controls="session-{{@../../index}}-{{@../index}}-{{@index}}" aria-selected="{{#if @first}}true{{else}}false{{/if}}">Track {{#addOne @index}}{{/addOne}}</a>
+            {{/each}}
             </div>
-            {{/each}}
-            {{/each}}
+          </div>
+          {{else}}
+          <div class="col-4 col-md-3">
+            <p class="timeSlot">{{starttime}}-{{endtime}}</p>
+          </div>
+          {{/if}}
+          <div class="pl-0 col-8 col-md-9">
+            <div class="{{#if tabbedSessions}}sessionList tab-content pb-3 tabbedSessions{{else}}sessionList d-flex inlineSessions pb-3{{/if}}"
+                 {{#if tabbedSessions}}id="ts-{{@../index}}-{{@index}}-tabContent"{{/if}}>
+            {{#each sessions}}
+              <div {{#if ../tabbedSessions}}class="session tab-pane fade {{#if @first}} show active{{/if}}" id="session-{{@../../index}}-{{@../index}}-{{@index}}" role="tabpanel" aria-labelledby="session-{{@../../index}}-{{@../index}}-{{@index}}-tab"{{else}}class="session"{{/if}}>
+                <h5 class="text-center">
+                  {{session_title}}
+                  {{#if session_url}}
+                  &nbsp; <a href="{{session_url}}"><img class="sessionInfoIcon" src="images/icons/info.svg" title="Session Info"></a>
+                  {{/if}}
+                </h5>
+                {{#if location.name}}
+                <p class="trackDescr">
+                  {{location.name}}
+                </p>
+                {{/if}}
+                {{#if moderator}}
+                <p class="trackDescr">
+                  {{moderator}}
+                </p>
+                {{/if}}
+                {{#each talks}}
+                <p class="talkTitle">
+                  {{title}}
+                </p>
+                {{#if abstract}}
+                <div class="talkAbstract">
+                  <a class="toggle-closed" data-toggle="collapse" href="#abstract-{{id}}" role="button" aria-expanded="false" aria-controls="abstract-{{id}}">
+                    Show abstract
+                  </a>
+                </div>
+                <div id="abstract-{{id}}" class="collapse mb-2 text-justify">
+                  {{abstract}}
+                </div>
+                {{/if}}
+                <p class="authorList">
+                  {{#each authors}}
+                  <span class="authorName">{{this}}</span>
+                  {{/each}}
+                </p>
+                {{#if paperUrl}}
+                <span class="talkMedia">
+                  Media: &nbsp; <a href="{{paperUrl}}"><img class="talkMediaIcon" src="images/icons/file.svg" title="Paper"></a>
+                </span>
+                {{/if}}
+                {{#if slidesUrl}}
+                <span class="talkMedia">
+                  &nbsp; <a href="{{slidesUrl}}"><img class="talkMediaIcon" src="images/icons/presentation.svg" title="Slides"></a>
+                </span>
+                {{/if}}
+                {{/each}}
+              </div>
+              {{/each}} <!-- sessions -->
+            </div>
+          </div> <!-- col-8 -->
+        </div> <!-- end of timeslot row -->
+        {{/each}} <!-- end of timeslots -->
+        {{/each}} <!-- end of days -->
       </script>
     </main>
 
     <?php include "includes/footer.php"; ?>
     <!-- Handlebars -->
-    <script src="https://iacr.org/libs/js/handlebars/handlebars-v4.1.0.js" type="text/javascript"></script>
+    <script src="https://iacr.org/libs/js/handlebars/handlebars-v4.1.0.js"></script>
 
     <!-- Personal scripts -->
     <script src="./js/tooltips.js"></script>
-    <script src="js/slides.js"></script>
     <script src="./js/program.js"></script>
 
   </body>
