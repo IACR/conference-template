@@ -11,20 +11,29 @@
       <?php echo $META['shortName'];?> Program
     </title>
     <style>
-     #renderedProgram .track1Event,
-     #renderedProgram .track2Event,
-     #renderedProgram .mutualEvent {
-       padding: 1rem;
+     li.nav-item {
+       border-radius: 10px;
+       border-color: black;
      }
      ul.nav .nav-link:hover {
        background-color: #eeeeee;
+     }
+     .nav-tabs .nav-link {
+       margin-right: .5rem;
+       padding-left: 2rem;
+       padding-right: 2rem;
+       border-color: #e9ecef #e9ecef #dee2e6;
+       border-top-left-radius: .6rem;
+       border-top-right-radius: .6rem;
+       font-weight: 600;
+       background-color: #f2f2f2;
      }
     </style>
   </head>
   <body>
     <?php require "includes/nav.php"; ?>
 
-    <main class="container p-4">
+    <main class="container">
       <h2 class="indPageTitle">
         Program
       </h2>
@@ -41,176 +50,111 @@
            </p>
            -->
 
-      <div class="row">
-        <div id="renderedProgram" class="col-12">
-
-          <!-- Handlebars script that will render the program template based on the program.json file -->
-          <script id="program-template" type="text/x-handlebars-template">
-            <div role="navigation">
-              <ul class="nav nav-tabs nav-justified">
-                {{#each days}}
-                <li role="presentation" class="nav-item">
-                  <a href="#day-{{date}}" class="nav-link">
-                    {{formatDate date}}
-                  </a>
-                </li>
-                {{/each}}
-              </ul>
-            </div>
-
-            {{#each days}}
-            <div class="row" id="day-{{date}}">
-              <div class="col-12 col-sm-5">
-                <hr />
-                <h3 class="pageSubtitle">
-                  {{formatDate date}}
-                </h3>
-              </div>
-            </div>
-            {{#each timeslots}}
-            <div class="row">
-              <div class="col-2">
-                <p class="timeSlot">
-                  {{starttime}}-{{endtime}}
-                </p>
-              </div>
-              {{#if twosessions}}
-              <div class="col-10 col-sm-5">
-                <div class="track1Event">
-                  <h5 class="text-center">
-                    {{sessions.0.session_title}}
-                    {{#if sessions.0.session_url}}
-                    &nbsp; <a href="{{sessions.0.session_url}}"><img class="sessionInfoIcon" src="images/icons/info.svg" title="Session Info"></a>
-                    {{/if}}
-                  </h5>
-                  {{#if sessions.0.location.name}}
-                  <p class="dualTrackDescr">
-                    {{sessions.0.location.name}}
-                  </p>
-                  {{/if}}
-                  {{#if sessions.0.moderator}}
-                  <p class="dualTrackDescr">
-                    {{sessions.0.moderator}}
-                  </p>
-                  {{/if}}
-                  {{#each sessions.0.talks}}
-                  <p class="talkTitle">
-                    {{title}}
-                  </p>
-                  <p class="dualTrackDescr">
-                    {{#each authors}}
-                    <span class="authorName">{{this}}</span>
-                    {{/each}}
-                  </p>
-                  {{#if paperUrl}}
-                  <span class="talkMedia">
-                    Media: &nbsp; <a href="{{paperUrl}}"><img class="talkMediaIcon" src="images/icons/file.svg" title="Paper"></a>
-                  </span>
-                  {{/if}}
-                  {{#if slidesUrl}}
-                  <span class="talkMedia">
-                    &nbsp; <a href="{{slidesUrl}}"><img class="talkMediaIcon" src="images/icons/presentation.svg" title="Slides"></a>
-                  </span>
-                  {{/if}}
-                  {{/each}}
-                </div>
-              </div>
-              <!-- This is visible only on mobile, when sessions wrap -->
-              <div class="col-2 d-sm-block d-md-none">
-                <p class="timeSlot">
-                  {{starttime}}-{{endtime}}
-                </p>
-              </div>
-              <div class="col-10 col-sm-5">
-                <div class="track2Event">
-                  <h5 class="text-center">
-                    {{sessions.1.session_title}}
-                    {{#if sessions.1.session_url}}
-                    &nbsp; <a href="{{sessions.1.session_url}}"><img class="sessionInfoIcon" src="images/icons/info.svg" title="Session Info"></a>
-                    {{/if}}
-                  </h5>
-                  {{#if sessions.1.location.name}}
-                  <p class="dualTrackDescr">
-                    {{sessions.1.location.name}}
-                  </p>
-                  {{/if}}
-                  {{#if sessions.1.moderator}}
-                  <p class="dualTrackDescr">
-                    {{sessions.1.moderator}}
-                  </p>
-                  {{/if}}
-                  {{#each sessions.1.talks}}
-                  <p class="talkTitle">
-                    {{title}}
-                  </p>
-                  <p class="dualTrackDescr">
-                    {{#each authors}}
-                    <span class="authorName">{{this}}</span>
-                    {{/each}}
-                  </p>
-                  {{#if paperUrl}}
-                  <span class="talkMedia">
-                    Media: &nbsp; <a href="{{paperUrl}}"><img class="talkMediaIcon" src="images/icons/file.svg" title="Paper"></a>
-                  </span>
-                  {{/if}}
-                  {{#if slidesUrl}}
-                  <span class="talkMedia">
-                    &nbsp; <a href="{{slidesUrl}}"><img class="talkMediaIcon" src="images/icons/presentation.svg" title="Slides"></a>
-                  </span>
-                  {{/if}}
-                  {{/each}}
-                </div>
-              </div>
-              {{else}}
-              <div class="col-10">
-                <div class="mutualEvent">
-                  <h5>
-                    {{sessions.0.session_title}}
-                    {{#if sessions.0.session_url}}
-                    &nbsp; <a href="{{sessions.0.session_url}}"><img class="sessionInfoIcon" src="images/icons/info.svg" title="Session Info"></a>
-                    {{/if}}
-                  </h5>
-                  {{#if sessions.0.location.name}}
-                  <p class="eventDescr">
-                    {{sessions.0.location.name}}
-                  </p>
-                  {{/if}}
-                  {{#if sessions.0.moderator}}
-                  <p class="eventDescr">
-                    {{sessions.0.moderator}}
-                  </p>
-                  {{/if}}
-                  {{#each sessions.0.talks}}
-                  <p class="mutualEventTalkTitle">
-                    {{title}}
-                  </p>
-                  <p class="eventDescr">
-                    {{#each authors}}
-                    <span class="authorName">{{this}}</span>
-                    {{/each}}
-                  </p>
-                  {{#if paperUrl}}
-                  <span class="talkMedia">
-                    Media: &nbsp; <a href="{{paperUrl}}"><img class="talkMediaIcon" src="images/icons/file.svg" title="Paper"></a>
-                  </span>
-                  {{/if}}
-                  {{#if slidesUrl}}
-                  <span class="talkMedia">
-                    &nbsp; <a href="{{slidesUrl}}"><img class="talkMediaIcon" src="images/icons/presentation.svg" title="Slides"></a>
-                  </span>
-                  {{/if}}
-                  {{/each}}
-                </div>
-              </div>
-              {{/if}}
-            </div>
-            {{/each}}
-            {{/each}}
-          </script>
-
-        </div>
+      <div id="renderedProgram">
+        <h4>Loading...</h4>
       </div>
 
+      <!-- Handlebars script that will render the program template based on the program.json file -->
+      <script id="program-template" type="text/x-handlebars-template">
+        <div role="navigation">
+          <ul class="nav nav-tabs nav-justified">
+            {{#each days}}
+            <li role="presentation" class="nav-item">
+              <a href="#day-{{date}}" class="nav-link">
+                {{formatDate date}}
+              </a>
+            </li>
+            {{/each}}
+          </ul>
+        </div>
+        {{#each days}}
+        <div class="row" id="day-{{date}}">
+          <div class="col-12 col-sm-5">
+            <hr />
+            <h3 class="pageSubtitle">
+              {{formatDate date}}
+            </h3>
+          </div>
+        </div>
+        {{#each timeslots}}
+        <div class="row">
+          <div class="col-3">
+            <p class="timeSlot">
+              {{starttime}}-{{endtime}}
+            </p>
+          </div>
+          <div class="col-9">
+            {{#tabbedSessions @root.isNarrow sessions}}
+            <div class="sessionWrapper carousel-wrapper" id="timeslot-{{@../index}}-{{@index}}">
+              <div class="slideControls d-flex w-100 justify-content-center">
+                <button class="btn btn-sm btn-info slide-prev-butt">Previous</button>
+                <div class="mx-3 my-2">
+                  Track <span class="slide_selected">1</span> of <span class="slide_count"></span>
+                </div>
+                <button class="btn btn-sm btn-info slide-next-butt">Next   </button>
+              </div>
+              <div class="sessionList carousel">
+            {{else}}
+            <div class="sessionWrapper">
+              <div class="sessionList d-flex inlineSessions">
+            {{/tabbedSessions}}
+            {{#each sessions}}
+              <div class="session {{#tabbedSessions @root.isNarrow ../sessions}}slide_card{{#if @first}} active{{/if}}{{/tabbedSessions}}">
+                      <h5 class="text-center">
+                        {{session_title}}
+                        {{#if session_url}}
+                        &nbsp; <a href="{{session_url}}"><img class="sessionInfoIcon" src="images/icons/info.svg" title="Session Info"></a>
+                        {{/if}}
+                      </h5>
+                      {{#if location.name}}
+                      <p class="trackDescr">
+                        {{location.name}}
+                      </p>
+                      {{/if}}
+                      {{#if moderator}}
+                      <p class="trackDescr">
+                        {{moderator}}
+                      </p>
+                      {{/if}}
+                      {{#each talks}}
+                      <p class="talkTitle">
+                        {{title}}
+                      </p>
+                      {{#if abstract}}
+                      <div class="talkAbstract">
+                        <a class="toggle-closed" data-toggle="collapse" href="#abstract-{{id}}" role="button" aria-expanded="false" aria-controls="abstract-{{id}}">
+                          Show abstract
+                        </a>
+                      </div>
+                      <div id="abstract-{{id}}" class="collapse mb-2 text-justify">
+                        {{abstract}}
+                      </div>
+                      {{/if}}
+                      <p class="authorList">
+                        {{#each authors}}
+                        <span class="authorName">{{this}}</span>
+                        {{/each}}
+                      </p>
+                      {{#if paperUrl}}
+                      <span class="talkMedia">
+                        Media: &nbsp; <a href="{{paperUrl}}"><img class="talkMediaIcon" src="images/icons/file.svg" title="Paper"></a>
+                      </span>
+                      {{/if}}
+                      {{#if slidesUrl}}
+                      <span class="talkMedia">
+                        &nbsp; <a href="{{slidesUrl}}"><img class="talkMediaIcon" src="images/icons/presentation.svg" title="Slides"></a>
+                      </span>
+                      {{/if}}
+                      {{/each}}
+                    </div>
+                    {{/each}} <!-- sessions -->
+                  </div>
+                </div> <!-- conclude sessionWrapper -->
+              </div> <!-- col-9 -->
+            </div>
+            {{/each}}
+            {{/each}}
+      </script>
     </main>
 
     <?php include "includes/footer.php"; ?>
@@ -219,6 +163,7 @@
 
     <!-- Personal scripts -->
     <script src="./js/tooltips.js"></script>
+    <script src="js/slides.js"></script>
     <script src="./js/program.js"></script>
 
   </body>
