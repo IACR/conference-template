@@ -11,14 +11,14 @@
       <?php echo $META['shortName'];?> Program
     </title>
     <style>
-     li.nav-item {
+     ul.days-nav li.nav-item {
        border-radius: 10px;
        border-color: black;
      }
-     ul.nav .nav-link:hover {
+     ul.days-nav .nav-link:hover {
        background-color: #eeeeee;
      }
-     .nav-tabs .nav-link {
+     ul.days-nav .nav-link {
        margin-right: .5rem;
        padding-left: 2rem;
        padding-right: 2rem;
@@ -33,7 +33,7 @@
   <body>
     <?php require "includes/nav.php"; ?>
 
-    <main class="container">
+    <main class="container p-md-4">
       <h2 class="indPageTitle">
         Program
       </h2>
@@ -57,7 +57,7 @@
       <!-- Handlebars script that will render the program template based on the program.json file -->
       <script id="program-template" type="text/x-handlebars-template">
         <div role="navigation">
-          <ul class="nav nav-tabs nav-justified">
+          <ul class="nav nav-tabs nav-justified days-nav">
             {{#each days}}
             <li role="presentation" class="nav-item">
               <a href="#day-{{date}}" class="nav-link">
@@ -78,6 +78,7 @@
         </div>
         {{#each timeslots}}
         <div class="row">
+          <!-- tabbedSessions is set in program.js if it's narrow or has >2 parallel tracks -->
           {{#if tabbedSessions}}
           <div class="col-4 col-md-3 pr-0">
             <p class="timeSlot mr-3">{{starttime}}-{{endtime}}</p>
