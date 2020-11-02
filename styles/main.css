@@ -433,7 +433,6 @@ div.trackMenu a.nav-link {
     border-top-left-radius: 10px !important;
     border-bottom-left-radius: 10px !important;
     margin-bottom: .5rem;
-    background-color: #f8f8f8 !important;
     font-weight: 600;
 }
 @media (max-width: 960px) {
