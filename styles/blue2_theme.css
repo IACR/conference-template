@@ -113,3 +113,13 @@ body {
   /* NOTE: typically this is a more transparent version of the card header bg color */
     background-color: rgba(156, 188, 235, .4);
 }
+
+/**** Program specific colors ********/
+
+div.trackMenu .nav-link.active {
+  background-color: rgba(177, 181, 231, 0.3);
+  color: #0F773C;
+}
+div.sessionList div.session {
+  background-color: rgba(177, 181, 231, 0.3);
+}

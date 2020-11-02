@@ -443,12 +443,8 @@ div.trackMenu a.nav-link {
     }
 }
 /* The colors of sessions and tabs could be changed in a theme. */
-div.trackMenu .nav-link.active {
-  background-color: rgba(242, 210, 166, 0.3)!important;
-  color: black !important;
-}
 div.sessionList div.session {
-  background-color: rgba(242, 210, 166, 0.3);
+  border-radius: .3rem;
   padding: 1rem;
   text-align: center;
 }
