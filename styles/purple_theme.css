@@ -94,3 +94,16 @@ a:hover {
 .customCardFooter {
   background-color: #E6E7F0;
 }
+
+/**** Program specific colors ********/
+
+div.trackMenu a.nav-link {
+   background-color: #f8f8f8 !important;
+}
+div.trackMenu .nav-link.active {
+  background-color: rgba(177, 181, 231, 0.3);
+  color: #0F773C;
+}
+div.sessionList div.session {
+  background-color: rgba(177, 181, 231, 0.3);
+}

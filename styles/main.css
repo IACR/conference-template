@@ -383,15 +383,8 @@ p.talkTitle {
   margin-bottom: 2px;
 }
 
-p.trackSwitch {
-  padding-top: 10px;
-  text-align: center;
-}
-
-.mutualEvent {
-  background-color: rgba(177, 181, 231, 0.3);
-  margin-bottom: 10px;
-  text-align: center;
+div.talkAbstract {
+   text-align: center;
 }
 
 p.eventDescr {
@@ -399,26 +392,13 @@ p.eventDescr {
   margin-bottom: 2px;
 }
 
-p.mutualEventTalkTitle {
-  font-weight: bold;
+p.trackDescr {
   text-align: center;
-  margin-top: 10px;
   margin-bottom: 2px;
 }
 
-.track1Event {
-  background-color: rgba(242, 210, 166, 0.3);
-  margin-bottom: 10px;
-}
-
-.track2Event {
-  background-color: rgba(164, 244, 199, 0.3);
-  margin-bottom: 10px;
-}
-
-p.dualTrackDescr {
+p.authorList {
   text-align: left;
-  margin-bottom: 2px;
 }
 
 span.authorName:after {
@@ -429,9 +409,9 @@ span.authorName:last-of-type:after {
   content: '';
 }
 
-span.talkMedia {
+div.sessionList span.talkMedia {
+  text-align: center;
   margin-bottom: 10px;
-  display: inline-block;
 }
 
 img.talkMediaIcon, img.sessionInfoIcon {
@@ -442,6 +422,58 @@ img.sessionInfoIcon {
   vertical-align: unset;
 }
 
+div.sessionList {
+    margin-bottom: 10px;
+}
+
+/* tabbed sessions use this */
+div.trackMenu a.nav-link {
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+    border-top-left-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+    margin-bottom: .5rem;
+    font-weight: 600;
+}
+@media (max-width: 960px) {
+    div.trackMenu .nav-link {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+}
+/* The colors of sessions and tabs could be changed in a theme. */
+div.sessionList div.session {
+  border-radius: .3rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* Single track are centered. */
+div.sessionList div:only-child p {
+    text-align: center;
+}
+.inlineSessions > div:not(:first-child ) {
+    margin-left: 7px;
+}
+.inlineSessions > div:not(:last-child ) {
+    margin-right: 7px;
+}
+
+/** This makes untabbed sessions equal width. */
+div.inlineSessions div.session {
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+/* Used for expandable abstract */
+a.toggle-open:after {
+    content:' -';
+    font-weight: 800;
+}
+a.toggle-closed:after {
+    content: " ›";
+    font-weight: 800;
+}
 
 
 /***** Page-specific: sponsors *****/
