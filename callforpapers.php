@@ -107,7 +107,7 @@
             Committee may also award a prize for the best paper authored
             exclusively by early-career researchers. To be eligible, all
             co-authors must be studying full/part-time or have received their
-            degree in 2018 or later. As usual, awards will only be given if
+            degree in 2019 or later. As usual, awards will only be given if
             deserving papers are identified.
           </p>
         </section>
