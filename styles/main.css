@@ -374,6 +374,7 @@ p.priceText {
 p.timeSlot {
   text-align: right;
   margin-top: 25px;
+  /* TODO: virtual version only has margin-top: 8px, instead of above. replace? */
 }
 
 p.talkTitle {

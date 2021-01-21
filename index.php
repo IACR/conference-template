@@ -48,7 +48,7 @@
           </h4>
           <div class="customCardRow row">
             <h6 class="dateTitle col-5 col-md-4">
-              March 28 2020
+              28 Mar 2020
             </h6>
             <p class="col-7 col-md-8">
               <a href="./callforpapers.php">Call for papers</a> page updated
@@ -56,7 +56,7 @@
           </div>
           <div class="customCardRow row">
             <h6 class="dateTitle col-5 col-md-4">
-              March 20 2020
+              20 Mar 2020
             </h6>
             <p class="col-7 col-md-8">
               Website launched
