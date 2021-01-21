@@ -23,7 +23,7 @@
         This information is not yet available. Thank you for your patience.
       </p>
 
-      <!-- 
+      <!--
       <p class="editMe">
          Below is sample information, derived from CRYPTO 2016.
       </p>
@@ -130,13 +130,13 @@
             The conference registration fee includes participation in the technical program, all social functions as well as an electronic copy of the conference proceedings. Accompanying guests can also be registered for participation in the conference social functions. Guests who only want to attend one or two events can register onsite.
           </p>
           <p>
-            Two conferences are located in <span class="conf_location"><?php echo $META['location'];?></span> on <span class="conf_dates"><?php echo $META['dates'];?></span>. If you are interested in attending both <span class="conf_name"><?php echo $META['shortName'];?></span> and CHES, there is a $50 joint registration discount ($25 off each conference) for regular registrations. Student joint registrations are discounted by $100 ($50 off each conference).
+            Two conferences are located in <?php echo $META['location'];?> on <?php echo $META['dates'];?>. If you are interested in attending both <?php echo $META['shortName'];?> and CHES, there is a $50 joint registration discount ($25 off each conference) for regular registrations. Student joint registrations are discounted by $100 ($50 off each conference).
           </p>
         </section>
         <section class="col-md-6">
           <h3 class="pageSubtitle">An Important Note for Students</h3>
           <p>
-            If you are a student presenting at <span class="conf_name"><?php echo $META['shortName'];?></span>, your registration fee will be covered by the IACR Fund for Student Presenters; you do not need to pay for registration. Please register for the conference but do not submit any payment. After registering, send an email to the <a href="mailto:doNotEmailMe@fakeDomain.com">General Chair</a>, explaining that you are a student presenter and have already registered. More information is available <a href="./stipends.php">here</a>.
+            If you are a student presenting at <?php echo $META['shortName'];?>, your registration fee will be covered by the IACR Fund for Student Presenters; you do not need to pay for registration. Please register for the conference but do not submit any payment. After registering, send an email to the <a href="mailto:doNotEmailMe@fakeDomain.com">General Chair</a>, explaining that you are a student presenter and have already registered. More information is available <a href="./stipends.php">here</a>.
           </p>
         </section>
       </div>
@@ -146,7 +146,7 @@
           <h5>
             <strong>Registration is not currently available. This button will become active when registration opens.</strong>
           </h5>
-          <a href="https://secure.iacr.org/conferences/tcc2017b/register/" class="btn btn-lg btn-warning btn-block regBtn disabled" role="button">Register now!</a>
+          <a href="https://secure.iacr.org/conferences/tcc2017b/register/" class="btn btn-lg customBtn-warm btn-block regBtn disabled" role="button">Register now!</a>
         </aside>
       </div>
 

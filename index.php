@@ -22,10 +22,10 @@
     <div class="row mb-2">
       <article class="col-12">
         <p>
-          <span class="long_conf"><?php echo $META['shortName'];?></span> will take place in
-          <span class="conf_location"><?php echo $META['city'] . ', ' . $META['country'];?></span>
-          on <span class="conf_dates"><?php echo $META['dates'];?></span>.
-          <span class="conf_name"><?php echo $META['shortName'];?></span> is organized by
+          <?php echo $META['shortName'];?> will take place in
+          <?php echo $META['city'] . ', ' . $META['country'];?>
+          on <?php echo $META['dates'];?>.
+          <?php echo $META['shortName'];?> is organized by
           <a href="http://iacr.org/">the International Association for Cryptologic Research</a> (IACR).
         </p>
         <p class="editMe">
@@ -48,7 +48,7 @@
           </h4>
           <div class="customCardRow row">
             <h6 class="dateTitle col-5 col-md-4">
-              March 28 2020
+              28 Mar 2020
             </h6>
             <p class="col-7 col-md-8">
               <a href="./callforpapers.php">Call for papers</a> page updated
@@ -56,7 +56,7 @@
           </div>
           <div class="customCardRow row">
             <h6 class="dateTitle col-5 col-md-4">
-              March 20 2020
+              20 Mar 2020
             </h6>
             <p class="col-7 col-md-8">
               Website launched

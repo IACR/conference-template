@@ -19,24 +19,50 @@
         Call for Papers
       </h2>
 
-      <h3 class="pageSubtitle">General Information</h3>
-      <!-- this is for Crypto 2020. Modify to suit -->
-      <p>
-        <span class="conf_name"><?php echo $META['shortName'];?></span> will take place in <span class="conf_location"><?php echo $META['location'];?></span> on <span class="conf_dates"><?php echo $META['dates'];?></span>. <span class="conf_name"><?php echo $META['shortName'];?></span> is organized by <a href="http://iacr.org/">the International Association for Cryptologic Research</a> (IACR).
-        The proceedings will be published by Springer in the LNCS series.
-      </p>
-      <p>
-        Original contributions on all technical aspects of
-        cryptology are solicited for submission to <span class="editMe">Crypto 2020,
-        the 40th Annual International Cryptology
-        Conference</span>. Submissions are welcomed on any cryptographic
-        topic including, but not limited to:
-      </p>
-      <ul>
-        <li>foundational theory and mathematics</li>
-        <li>the design, proposal, and analysis of cryptographic primitives and protocols</li>
-        <li>secure implementation and optimization in hardware or software; and applied aspects of cryptography</li>
-      </ul>
+      <div class="row">
+        <section class="col-lg-8">
+          <h3 class="pageSubtitle">
+            General Information
+          </h3>
+          <p>
+            <?php echo $META['shortName'];?> will take place in
+            <?php echo $META['location'];?> on <?php echo $META['dates'];?>.
+            <?php echo $META['shortName'];?> is organized by
+            <a href="http://iacr.org/">the International Association for
+            Cryptologic Research</a> (IACR). The proceedings will be published
+            by Springer in the LNCS series.
+          </p>
+          <p>
+            Original contributions on all technical aspects of
+            cryptology are solicited for submission to
+            <?php echo $META['shortName'];?>, the <?php echo $META['name'];?>.
+            Submissions are welcomed on any cryptographic topic including but
+            not limited to:
+            </p>
+            <ul>
+              <li>foundational theory and mathematics</li>
+              <li>the design, proposal, and analysis of cryptographic
+              primitives and protocols</li>
+              <li>secure implementation and optimization in hardware or
+              software; and applied aspects of cryptography</li>
+            </ul>
+        </section>
+        <aside class="col-lg-4 pl-lg-5 text-center">
+          <h3 class="pageSubtitle">
+            How to Submit
+          </h3>
+          <p class="text-center">
+            Author instructions for paper submission may be found on the
+            submission page.
+          </p>
+          <a href="papersubmission.php" class="btn customBtn-warm btn-block">Submit a paper</a>
+
+          <!-- NOTE: once submissions are closed, uncomment below and comment out or remove the p and a above -->
+          <!-- <p class="alert customAlert-warm text-center">
+            Submissions are closed
+          </p> -->
+        </aside>
+      </div>
 
       <div class="row mt-4">
         <section class="col-lg-6">
@@ -44,13 +70,23 @@
             Schedule
           </h3>
           <p>
-            <span class="conf_name"><?php echo $META['shortName'];?></span> will operate a two-round review system with rebuttal phase. In the first round, the program committee selects the submissions which are considered of value for proceeding to the second round, and the authors receive the first round notification with review comments. The authors of the selected submissions are invited to submit a text-based rebuttal letter to the review comments.
+            <?php echo $META['shortName'];?> will operate a two-round review
+            system with rebuttal phase. In the first round, the program
+            committee selects the submissions which are considered of value for
+            proceeding to the second round, and the authors receive the first
+            round notification with review comments. The authors of the
+            selected submissions are invited to submit a text-based rebuttal
+            letter to the review comments.
           </p>
           <p>
-            The submissions that have not been selected during the first round of reviews may be submitted in other conferences after the first round notification date.
+            The submissions that have not been selected during the first round
+            of reviews may be submitted in other conferences after the first
+            round notification date.
           </p>
           <p>
-            In the second round the program committee further reviews the selected submissions by taking into account their rebuttal letter. They then make the final decision of acceptance or rejection.
+            In the second round the program committee further reviews the
+            selected submissions by taking into account their rebuttal letter.
+            They then make the final decision of acceptance or rejection.
           </p>
         </section>
         <div class="col-lg-6 mt-3 mt-lg-0">
@@ -65,15 +101,14 @@
             Awards
           </h3>
           <p>
-            The Program Committee may choose a paper to receive an
-            overall best paper award. In a continuing effort to
-            promote independent work by researchers at an early stage
-            in their career, the Program Committee may also award a
-            prize for the best paper authored exclusively by
-            early-career researchers. To be eligible, all co-authors
-            must be studying full/part-time or have received their
-            degree in 2018 or later. As usual, awards will only be
-            given if deserving papers are identified.
+            The Program Committee may choose a paper to receive an overall best
+            paper award. In a continuing effort to promote independent work by
+            researchers at an early stage in their career, the Program
+            Committee may also award a prize for the best paper authored
+            exclusively by early-career researchers. To be eligible, all
+            co-authors must be studying full/part-time or have received their
+            degree in 2019 or later. As usual, awards will only be given if
+            deserving papers are identified.
           </p>
         </section>
         <section class="col-md-6">
@@ -81,14 +116,16 @@
             Stipends
           </h3>
           <p>
-            Students whose papers have been accepted and who present their talks at the conference will have their registration waived. A limited number of stipends are available to those unable to obtain funding to attend the conference. Students, whose papers are accepted and who will present the paper themselves, are encouraged to apply if such assistance is needed. Requests for stipends should be sent to the general chair.
+            Students whose papers have been accepted and who present their
+            talks at the conference will have their registration waived. A
+            limited number of stipends are available to those unable to obtain
+            funding to attend the conference. Students, whose papers are
+            accepted and who will present the paper themselves, are encouraged
+            to apply if such assistance is needed. Requests for stipends should
+            be sent to the general chair.
           </p>
         </section>
       </div>
-      <h3 class="pageSubtitle">Paper submissions</h3>
-      <p>
-        Author instructions for paper submission are on the <a href="papersubmission.php">submissions page</a>.
-      </p>
 
       <h3 class="pageSubtitle mt-4">
         Program Committee

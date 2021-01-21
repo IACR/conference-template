@@ -69,7 +69,7 @@
             accepted paper is expected to closely match the submitted 30
             pages.
           </p>
-          <p class="alert alert-warning">
+          <p class="alert customAlert-warm">
             <img src="images/icons/exclamation.svg" class="icon" />
             Submissions not meeting these guidelines risk rejection
             without consideration of their merits.
@@ -123,7 +123,7 @@
       <!-- When the submission server is ready, supply the link in the
              button, remove the "disabled" class, and remove the statement above. -->
       <p class="text-center">
-        <a href="#" target="_blank" class="disabled btn btn-lg btn-warning"
+        <a href="#" target="_blank" class="disabled btn btn-lg customBtn-warm"
            role="button">Submission Server</a>
       </p>
     </main>

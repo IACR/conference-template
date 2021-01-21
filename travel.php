@@ -60,7 +60,7 @@
         Travel & Venue Information
       </h2>
 
-      <!-- NOTE: below is standard placeholder text for when the page is under construction. 
+      <!-- NOTE: below is standard placeholder text for when the page is under construction.
            please delete this paragram when you add other content. -->
       <p>
         This information is not yet available. Thank you for your patience.
@@ -86,7 +86,7 @@
         </section>
 
         <div class="col-md-4">
-          <div class="alert alert-success" role="alert">
+          <div class="alert customAlert-cool" role="alert">
             <img src="images/icons/exclamation.svg" class="icon" />&emsp;
             <!-- this could be a warning that hotels book up fast in the season -->
             <span class="editMe">Bring a sweater and/or jacket. Santa Barbara
@@ -121,7 +121,7 @@
           <p>
             Once on-site registration is available, there will be a link below.
           </p>
-          <a href="http://kaymckelly.com" class="btn btn-warning btn-block disabled mb-5 mt-auto" role="button">Register for dorms</a>
+          <a href="http://kaymckelly.com" class="btn customBtn-warm btn-block disabled mb-5 mt-auto" role="button">Register for dorms</a>
         </section>
 
         <section class="col-lg-4 col-md-6 d-flex flex-column mt-4">
@@ -164,7 +164,7 @@
       <p>
         For those who choose not to stay on-site, the following is a list of hotels that have provided room blocks for <?php echo $META['shortName'];?>. Note that none of the hotels is walking distance to the venue. Those who choose to stay off-site are responsible for making their own reservations. Early reservations are advised since August is a popular season in Santa Barbara.
       </p>
-      <aside class="alert alert-warning">
+      <aside class="alert customAlert-warm">
         <img src="images/icons/exclamation.svg" class="icon" />&ensp;
         All prices are subject to change and do not include tax; prices should be confirmed by calling the hotels directly. Room blocks may be released as early as two months prior to the conference. You must mention Crypto 2020 when you are making your reservations so you will be eligible for any special rates that may be available. Other hotels are available in the area.
       </aside>
@@ -198,7 +198,7 @@
           <p>
             Five minutes from the University; newly renovated. Breakfast Buffet daily. Complimentary afternoon beverages Monday through Thursday. Free local calls. Refrigerator, coffeemaker, hairdryer and WI-FI for free internet access in all rooms. Pool and spa. Morning and evening shuttle to UCSB and airport 7:30am–10:00pm.
           </p>
-          <a class="btn btn-warning btn-block mt-auto" role="button" href="https://www.hotelsone.com/goleta-hotels-us/best-western-plus-south-coast-inn.html">Reservations</a>
+          <a class="btn customBtn-warm btn-block mt-auto" role="button" href="https://www.hotelsone.com/goleta-hotels-us/best-western-plus-south-coast-inn.html">Reservations</a>
         </section>
         <section class="col-lg-4 col-md-6 d-flex flex-column mt-4">
           <h4 class="subSubtitle text-center">
@@ -228,7 +228,7 @@
           <p>
             Rate includes up to two complimentary cooked-to- order breakfasts, two rooms, high-speed wireless internet, two TVs, microwave, stereo, refrigerator, pool and hot tub. Complimentary beverages served from 5-7pm. With 24-hour advance notice, will provide shuttle service to and from the Santa Barbara Airport, 8:00am - 5:00pm.
           </p>
-          <a class="btn btn-warning btn-block mt-auto" role="button" href="https://www.pacificasuites.com">www.pacificasuites.com</a>
+          <a class="btn customBtn-warm btn-block mt-auto" role="button" href="https://www.pacificasuites.com">www.pacificasuites.com</a>
         </section>
       </div>
       %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->

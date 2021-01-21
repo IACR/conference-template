@@ -29,7 +29,7 @@
 
       <!-- NOTE: below is placeholder content derived from a past conference. -->
 
-      <p class="alert alert-info">
+      <p class="alert customAlert-cool">
         <img src="images/icons/exclamation.svg" class="icon" />
         It is imperative that authors and attendees allow sufficient time to obtain visas.
       </p>
@@ -40,7 +40,7 @@
         for some individuals in the past. An interview at a consulate
         may also be required.
       </p>
-      
+
       <h3 class="pageSubtitle mt-4">
         Invitation Letters
       </h3>
@@ -70,8 +70,8 @@
       </ul>
       <p>
         We hope that you will be able to
-        attend <span class="conf_name"><?php echo
-        $META['shortName'];?></span> and help us make the conference a
+        attend <?php echo
+        $META['shortName'];?> and help us make the conference a
         great success.
       </p>
 
