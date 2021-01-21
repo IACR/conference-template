@@ -6,7 +6,7 @@
           <div id="titlesLogoDiv" class="d-flex justify-content-between align-items-center">
             <div class="headerConferenceName">
               <h1 class="headerTitle">
-                <span class="conf_name"><?php echo $META['shortName'];?></span>
+                <?php echo $META['shortName'];?>
               </h1>
             </div>
             <div class="headerLogo">
@@ -16,10 +16,10 @@
             </div>
             <div class="headerInfo">
               <h3 class="headerInfoTop">
-                <span class="conf_dates"><?php echo $META['dates'];?></span>
+                <?php echo $META['dates'];?>
               </h3>
               <h3 class="headerInfoBottom">
-                <span class="conf_location"><?php echo $META['location'];?></span>
+                <?php echo $META['location'];?>
               </h3>
             </div>
           </div>

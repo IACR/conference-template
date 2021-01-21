@@ -1,6 +1,6 @@
     <footer class="text-center footer">
       <small>
-        <span class="conf_name"><?php echo $META['shortName'];?></span><br>
+        <?php echo $META['shortName'];?><br>
         <a href="https://iacr.org/copyright.html">Copyright &copy;
           <?php echo date("Y");?></a>
         <span class="d-none d-md-inline">by the </span><span class="d-md-none">IACR</span>
@@ -11,4 +11,3 @@
 
     <script src="https://iacr.org/libs/js/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://iacr.org/libs/css/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-

@@ -70,8 +70,8 @@
       </ul>
       <p>
         We hope that you will be able to
-        attend <span class="conf_name"><?php echo
-        $META['shortName'];?></span> and help us make the conference a
+        attend <?php echo
+        $META['shortName'];?> and help us make the conference a
         great success.
       </p>
 

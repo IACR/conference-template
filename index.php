@@ -22,10 +22,10 @@
     <div class="row mb-2">
       <article class="col-12">
         <p>
-          <span class="long_conf"><?php echo $META['shortName'];?></span> will take place in
-          <span class="conf_location"><?php echo $META['city'] . ', ' . $META['country'];?></span>
-          on <span class="conf_dates"><?php echo $META['dates'];?></span>.
-          <span class="conf_name"><?php echo $META['shortName'];?></span> is organized by
+          <?php echo $META['shortName'];?> will take place in
+          <?php echo $META['city'] . ', ' . $META['country'];?>
+          on <?php echo $META['dates'];?>.
+          <?php echo $META['shortName'];?> is organized by
           <a href="http://iacr.org/">the International Association for Cryptologic Research</a> (IACR).
         </p>
         <p class="editMe">
