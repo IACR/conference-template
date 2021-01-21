@@ -29,7 +29,7 @@
 
       <!-- NOTE: below is placeholder content derived from a past conference. -->
 
-      <p class="alert alert-info">
+      <p class="alert customAlert-cool">
         <img src="images/icons/exclamation.svg" class="icon" />
         It is imperative that authors and attendees allow sufficient time to obtain visas.
       </p>
@@ -40,7 +40,7 @@
         for some individuals in the past. An interview at a consulate
         may also be required.
       </p>
-      
+
       <h3 class="pageSubtitle mt-4">
         Invitation Letters
       </h3>

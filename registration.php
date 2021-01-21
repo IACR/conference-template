@@ -23,7 +23,7 @@
         This information is not yet available. Thank you for your patience.
       </p>
 
-      <!-- 
+      <!--
       <p class="editMe">
          Below is sample information, derived from CRYPTO 2016.
       </p>
@@ -146,7 +146,7 @@
           <h5>
             <strong>Registration is not currently available. This button will become active when registration opens.</strong>
           </h5>
-          <a href="https://secure.iacr.org/conferences/tcc2017b/register/" class="btn btn-lg btn-warning btn-block regBtn disabled" role="button">Register now!</a>
+          <a href="https://secure.iacr.org/conferences/tcc2017b/register/" class="btn btn-lg customBtn-warm btn-block regBtn disabled" role="button">Register now!</a>
         </aside>
       </div>
 
