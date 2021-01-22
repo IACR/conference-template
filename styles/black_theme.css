@@ -179,6 +179,16 @@ a:hover {
   color: #F2E68C;
 }
 
+/* NOTE: custom button colors typically derived from the two most common colors in a given theme */
+.customBtn-warm {
+  background-color: rgba(255, 187, 158, 0.9);
+}
+
+.customBtn-cool {
+  background-color: rgba(160, 97, 209, 0.9);
+  color: #F2F2F2;
+}
+
 code {
   color: #CA8E72;
 }
@@ -204,25 +214,20 @@ code {
   color: #FFBB9E;
 }
 
+.customAlert-warm {
+  background-color: #FFBB9E;
+  border-color: #FFA680;
+  color: #0D0D0D;
+}
+
+.customAlert-cool {
+  background-color: #7B34B2;
+  border-color: #6D2E9E;
+}
+
 .customCardFooter {
   /* NOTE: typically this is a more transparent version of the card header bg color */
   background-color: rgba(52, 20, 77, 0.6);
-}
-
-.alert-success {
-  background-color: #FFBB9E;
-  color: #33004D;
-  border: none;
-}
-
-.alert-warning {
-  background-color: #F2E68C;
-  color: #33004D;
-  border: none;
-}
-
-.alert-success .icon, .alert-warning .icon {
-  filter: brightness(0) saturate(100%) invert(10%) sepia(39%) saturate(6663%) hue-rotate(274deg) brightness(75%) contrast(113%);
 }
 
 
@@ -231,7 +236,7 @@ code {
 /* change color of icons */
 .icon {
   /* thanks https://codepen.io/sosuke/pen/Pjoqqp for generating this filter (the first two properties set the icon to black first to achieve a truer color match) */
-  filter: brightness(0) saturate(100%) invert(86%) sepia(8%) saturate(4081%) hue-rotate(306deg) brightness(114%) contrast(101%);
+  filter: brightness(0) invert(74%) sepia(60%) saturate(6004%) hue-rotate(232deg) brightness(84%) contrast(95%);
 }
 
 .sponsorLogo {
@@ -242,10 +247,6 @@ code {
 .sponsorRows {
   background-color: #FFF;
   box-shadow: 0px 0px 7px #11001A inset;
-}
-
-li.location, li.phone, li.email {
-  filter: brightness(0) saturate(100%) invert(86%) sepia(8%) saturate(4081%) hue-rotate(306deg) brightness(114%) contrast(101%);
 }
 
 

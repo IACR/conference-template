@@ -18,31 +18,24 @@ img#logo {
 
 /* a background image on the header. It may need to be muted by .headerGradient */
 .headerImg {
-  background-color: #7C8ABB;
-  /*  background-image: url("../images/banners/binary.jpg");*/
-  /*  background-image: url("../images/banners/ucsb.jpg"); */
-  background-image: url("../images/banners/ucsb2.png");
+  background-image: url("../images/banners/linesDesat.jpg");
   background-size: cover;
 }
 
 /* optional gradient to blur header image. */
 .headerGradient {
-  background: linear-gradient(rgba(47, 50, 147, 0.2), rgba(243, 243, 251, .6));
+  background: linear-gradient(rgba(38, 109, 211, 0.8), rgba(243, 243, 251, 0.5));
 }
 
 .headerTitle {
-  color: white;
-  text-shadow: 0 0 4px black;
+  color: #F3F3FB;
+  text-shadow: 0 0 12px #0B3F87;
+  font-size: 2.9rem;
 }
 
-.headerInfoTop {
-  color: white;
-  text-shadow: 0 0 4px black;
-}
-
-.headerInfoBottom {
-  color: white;
-  text-shadow: 0 0 4px black;
+.headerInfoTop, .headerInfoBottom {
+  color: #F3F3FB;
+  text-shadow: 0 0 12px #0B3F87;
 }
 
 
@@ -76,6 +69,20 @@ a:hover {
   color: #0B3F87;
 }
 
+/* NOTE: custom button colors typically derived from the two most common colors in a given theme */
+.customBtn-warm {
+  background-color: rgba(161, 72, 13, 0.4);
+}
+
+.customBtn-cool {
+  background-color: rgba(38, 109, 211, 0.9);
+  color: #F3F3FB;
+}
+
+code {
+  color: #266DD3;
+}
+
 
 
 /***** Main Content: cards & alerts *****/
@@ -88,9 +95,28 @@ a:hover {
   color: #F3F3FB;
 }
 
+.customAlert-warm {
+  background-color: rgba(161, 72, 13, 0.2);
+  border-color: rgba(161, 72, 13, 0.5);
+}
+
+.customAlert-cool {
+  background-color: rgba(11, 63, 135, 0.2);
+  border-color: rgba(11, 63, 135, 0.5);
+}
+
 .customCardFooter {
   background-color: rgba(38, 109, 211, .2);
 }
+
+
+/***** Main Content: images & icons *****/
+/* change color of icons */
+.icon {
+  /* thanks https://codepen.io/sosuke/pen/Pjoqqp for generating this filter (the first two properties set the icon to black first to achieve a truer color match) */
+  filter: brightness(0) invert(36%) sepia(12%) saturate(7062%) hue-rotate(193deg) brightness(97%) contrast(92%);
+}
+
 
 /**** Program specific colors ********/
 
