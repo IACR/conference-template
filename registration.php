@@ -66,7 +66,7 @@
           <div class="row">
             <div class="col-6">
               <p class="regBodyText">
-                Attended prior <?php echo date("Y");?> IACR conferences
+                Attended prior <span class="editMe">YEAR</span> IACR conferences
               </p>
             </div>
             <div class="col-3">
