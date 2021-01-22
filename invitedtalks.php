@@ -8,6 +8,7 @@
     <meta name="twitter:title" content="<?php echo $META['shortName'];?> invited talks"/>
 
     <style>
+      /* to make sure the speaker images don't get too big on larger screens */
       @media only screen and (min-width: 768px) {
         .speakerImg {
           max-width: 30%;

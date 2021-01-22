@@ -18,12 +18,29 @@
         Paper Submission
       </h2>
 
+      <!-- NOTE: when deadline has passed, uncomment this (can delete or comment out everything else) -->
+      <!-- <div class="alert customAlert-warm">
+        Unfortunately the deadline to submit a paper to <?php echo $META['shortName'];?> has passed.
+      </div>
+      <p>
+        You can still access the <a href="#">submission server</a>, should you need to make changes or upload a final paper version.
+      </p>
+      -->
+
           <!-- NOTE: below is standard placeholder text for when the page
            is under construction. please delete the <p> below when you
            finish editing the content.  -->
-      <p>
+      <!-- <p>
           This information is not yet available. Thank you for your patience.
-      </p>
+      </p> -->
+
+      <h5 class="text-center alert customAlert-cool my-3">
+        The submission server is not yet open. Please check back later.
+      </h5>
+
+      <!-- NOTE: when the submission server is ready, supply the link in the button and remove the statement above. -->
+      <!-- <a href="#" target="_blank" class="btn btn-lg btn-block customBtn-warm mx-auto w-75" role="button">Submission Server</a> -->
+
 
       <!-- NOTE: below is placeholder content derived from a past conference.
            Please uncomment and replace contents with your own content when ready.
@@ -31,7 +48,7 @@
            has looked like in the past.
         -->
       <div class="row">
-        <div class="col-lg-6 col-12 mt-4">
+        <div class="col-lg-6 col-12 mt-3">
           <h3 class="pageSubtitle">
             Instructions for Authors
           </h3>
@@ -70,7 +87,7 @@
             pages.
           </p>
           <p class="alert customAlert-warm">
-            <img src="images/icons/exclamation.svg" class="icon" />
+            <img src="images/icons/exclamation.svg" class="icon mr-1 mb-1" />
             Submissions not meeting these guidelines risk rejection
             without consideration of their merits.
           </p>
@@ -79,6 +96,7 @@
           <?php require "includes/important_dates.php";?>
         </div>
       </div>
+
       <p>
         For papers that are accepted, the length of the proceedings
         version will be at most 30 pages using Springer’s standard
@@ -116,16 +134,56 @@
       <p>
         The Program Committee may select a paper for the best paper award.
       </p>
-      <h3 class="pageSubtitle mt-4">Submission server</h3>
-      <h5 class="text-center font-weight-bold">
-        The submission server is not yet open.
-      </h5>
-      <!-- When the submission server is ready, supply the link in the
-             button, remove the "disabled" class, and remove the statement above. -->
-      <p class="text-center">
-        <a href="#" target="_blank" class="disabled btn btn-lg customBtn-warm"
-           role="button">Submission Server</a>
+      <h3 class="pageSubtitle mt-4">
+        Conflicts of Interest
+      </h3>
+
+      <p>
+        Authors, program committee members, and reviewers must
+        follow the IACR Policy on Conflicts of Interest, available from <a href="https://www.iacr.org/docs/conflicts.pdf" target="_blank">https://www.iacr.org/docs/</a>.
       </p>
+      <p>
+        In particular, the authors of each submission are asked during the submission process
+        to identify all members of the Program Committee who have an automatic conflict
+        of interest (COI) with the submission. A reviewer and an author have an automatic
+        COI if:
+      </p>
+      <ul>
+        <li>
+          one was the thesis advisor/supervisor of the other
+        </li>
+        <li>
+          or if they have shared an institutional affiliation within the last two years<sup>1</sup>
+        </li>
+        <li>
+          or if they have published two or more joint authored works within the last three years<sup>2</sup>
+        </li>
+        <li>
+          or if they are in the same family
+        </li>
+      </ul>
+      <p>
+        Any further COIs of importance should be separately disclosed<sup>3</sup>. It is the responsibility of all authors to ensure correct reporting of COI information. Submissions with incorrect or incomplete COI information may be rejected without consideration of their merits.
+      </p>
+
+      <div class="row text-justify">
+        <div class="col-lg-4 mb-3 mb-lg-1">
+          <small>
+            <sup>1</sup> Sharing an institutional affiliation means working at the same location/campus of the same company/university. It does not include separate universities of the same system nor distant locations of the same company.
+          </small>
+        </div>
+        <div class="col-lg-4 mb-3 mb-lg-1">
+          <small>
+            <sup>2</sup> Jointly authored work refers to jointly authored papers and books, whether formally published or just posted online, resulting from collaboration on a scientific problem. It usually does not include joint editorial functions, like a jointly edited proceedings volume. For online publication, the first posting (not revisions) determines the relevant date. Multiple versions of a paper (conference, ePrint, journal) count as a single paper.
+          </small>
+        </div>
+        <div class="col-lg-4 mb-3 mb-lg-1">
+          <small>
+            <sup>3</sup> COIs are not restricted to automatic ones, others being possible. COIs beyond automatic COIs could involve financial, intellectual, or personal interests. Examples include closely related technical work, cooperation in the form of joint projects or grant applications, business relationships, close personal friendships, instances of personal enmity. Full transparency is of utmost importance, authors and reviewers must disclose to the chairs or editor any circumstances that they think may create bias, even if it does not raise to the level of a COI. The editor or program chair will decide if such circumstances should be treated as a COI.
+          </small>
+        </div>
+      </div>
+
     </main>
 
   <?php include "includes/footer.php"; ?>
