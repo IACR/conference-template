@@ -74,6 +74,19 @@ a:hover {
   color: #39735E;
 }
 
+/* NOTE: custom button colors typically derived from the two most common colors in a given theme */
+.customBtn-warm {
+  background-color: rgba(191, 82, 57, 0.4);
+}
+
+.customBtn-cool {
+  background-color: rgba(57, 115, 94, 0.7);
+  color: #FFF;
+}
+
+code {
+  color: #BF5239;
+}
 
 
 /***** Main Content: cards & alerts *****/
@@ -84,6 +97,16 @@ a:hover {
 .customCardHeader {
   color: #39735E;
   border-bottom: 3px solid rgba(91, 167, 123, 0.6);
+}
+
+.customAlert-warm {
+  background-color: rgba(191, 82, 57, 0.2);
+  border-color: rgba(191, 82, 57, 0.5);
+}
+
+.customAlert-cool {
+  background-color: rgba(134, 183, 132, 0.4);
+  border-color: rgba(57, 115, 94, 0.7);
 }
 
 .customCardFooter {

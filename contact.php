@@ -33,7 +33,7 @@
       </h3>
 
       <div class="row mt-3 mt-md-4">
-        <aside class="col-12 col-sm-6 text-center mb-2">
+        <aside class="col-12 col-sm-6 text-center mb-2 editMe">
           <h4 class="subSubtitle">
             Important Professor #1
           </h4>
@@ -42,7 +42,7 @@
             China
           </p>
         </aside>
-        <aside class="col-12 col-sm-6 text-center mb-2">
+        <aside class="col-12 col-sm-6 text-center mb-2 editMe">
           <h4 class="subSubtitle">
             World-Famous Researcher
           </h4>
@@ -54,7 +54,7 @@
       </div>
 
       <div class="row">
-        <div class="col-12 text-center mb-5">
+        <div class="col-12 text-center mb-5 editMe">
           <a href="mailto:doNotEmailMe@fakeDomain.com">
             <img src="images/icons/email.svg" class="icon" />
           </a>&nbsp;
@@ -67,7 +67,7 @@
       </h3>
 
       <div class="row mt-3 mt-md-4">
-        <aside class="col-12 col-sm-6 text-center mb-2">
+        <aside class="col-12 col-sm-6 text-center mb-2 editMe">
           <h4 class="subSubtitle">
             SmartGuy McWriter
           </h4>
@@ -76,7 +76,7 @@
             Romania
           </p>
         </aside>
-        <aside class="col-12 col-sm-6 text-center mb-2">
+        <aside class="col-12 col-sm-6 text-center mb-2 editMe">
           <h4 class="subSubtitle">
             Ellis Papers
           </h4>
@@ -88,7 +88,7 @@
       </div>
 
       <div class="row">
-        <div class="col-12 text-center">
+        <div class="col-12 text-center editMe">
           <a href="mailto:reallyDoNotEmailMe@fakeDomain.com">
             <img src="images/icons/email.svg" class="icon" />
           </a>&nbsp;

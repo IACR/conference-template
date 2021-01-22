@@ -21,8 +21,8 @@
 
       <!-- NOTE: the following is required text for the code of
       conduct. Any text that is inside <span class="editMe"> is
-      text that MUST be changed by the general chair or whoever is
-      responsible for the conference website -->
+      text that MUST be changed by the person responsible for the
+      conference website -->
       <p>
         The IACR is committed to providing an experience free of
         harassment and discrimination in its events, respecting the

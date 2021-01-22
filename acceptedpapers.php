@@ -24,13 +24,16 @@
       This information is not yet available. This information will be available after authors are notified, which should
       occur by <?php echo $META['finalNotification'];?>. Thank you for your patience.
     </p>
-    <!-- NOTE: if json/papers.json is malformed, then this will be shown. -->
+
+    <!-- NOTE: if json/papers.json is malformed, this will be shown. -->
     <p id="jsonWarning" class="text-danger d-none">
       The papers.json file is malformed.
     </p>
-    <!-- NOTE: if json/papers.json is fetched and parsed, then this is populated. -->
+
+    <!-- NOTE: if json/papers.json is fetched and parsed, this is populated. -->
     <div id="accepted">
     </div>
+
     <!-- Handlebars import of accepted papers in websubrev export format. See
          json/sample_papers.json  -->
     <script id="acceptedScript" type="text/x-handlebars-template">
@@ -40,13 +43,13 @@
       <ol>
         {{#each acceptedPapers}}
         <li>
-          <h4 class="paperTitle">
+          <h5 class="paperTitle">
             {{title}}
-          </h4>
+          </h5>
           <p>
             {{authors}}
             <br>
-            <span class="font-italic">{{affiliations}}</span>
+            <small class="font-italic">{{affiliations}}</small>
           </p>
         </li>
         {{/each}}
@@ -55,38 +58,56 @@
   </main>
 
   <?php include "includes/footer.php";?>
-    <!-- Handlebars -->
-    <script src="https://iacr.org/libs/js/handlebars/handlebars-v4.1.0.js" type="text/javascript"></script>
-    <script>
-     try {
-       fetch('json/papers.json',
-             {credentials: 'same-origin'})
-         .then(response => {
-           console.dir(response);
-           console.dir(response.status);
-           if (response.ok && response.status == 200) {
-             return response.json();
-           }
-         })
-         .then(data => {
-           if (data) {
-             var theTemplateScript = $("#acceptedScript").html();
-             var theTemplate = Handlebars.compile(theTemplateScript);
-             var theCompiledHtml = theTemplate(data);
-             $('#accepted').html(theCompiledHtml);
-             $('#notYetAvailable').hide();
-           }
-         })
-         .catch((e) => {
-           console.log('an error occurred');
-           $('#jsonWarning').removeClass('d-none');
-           console.dir(e);
-         });
-     } catch (error) {
-       console.dir(error);
-       $('jsonWarning').html('The server is failing or your browser is not supported.');
-       $('#jsonWarning').removeClass('d-none');
-     }
-    </script>
+
+  <!-- Handlebars -->
+  <script src="https://iacr.org/libs/js/handlebars/handlebars-v4.1.0.js" type="text/javascript"></script>
+  <script>
+    function removeDups(arr) {
+      let unique = {};
+      arr.forEach(function(i) {
+        if(!unique[i]) {
+          unique[i] = true;
+        }
+      });
+      return Object.keys(unique);
+    }
+
+   try {
+     fetch('json/papers.json',
+           {credentials: 'same-origin'})
+       .then(response => {
+         console.dir(response);
+         console.dir(response.status);
+         if (response.ok && response.status == 200) {
+           return response.json();
+         }
+       })
+       .then(data => {
+         if (data) {
+          data.acceptedPapers.forEach((paper) => {
+            paper.authors = paper.authors.join(', ');
+          });
+          data.acceptedPapers.forEach((paper) => {
+            paper.affiliations = removeDups(paper.affiliations).join(', ');
+          });
+
+           var theTemplateScript = $("#acceptedScript").html();
+           var theTemplate = Handlebars.compile(theTemplateScript);
+           var theCompiledHtml = theTemplate(data);
+           $('#accepted').html(theCompiledHtml);
+           $('#notYetAvailable').hide();
+         }
+       })
+       .catch((e) => {
+         console.log('an error occurred');
+         $('#jsonWarning').removeClass('d-none');
+         console.dir(e);
+       });
+   } catch (error) {
+     console.dir(error);
+     $('jsonWarning').html('The server is failing or your browser is not supported.');
+     $('#jsonWarning').removeClass('d-none');
+   }
+  </script>
 </body>
 </html>

@@ -30,6 +30,130 @@
         Thank you for your patience.
       </p>
 
+      <!-- NOTE: uncomment the below section when you're ready to add the program. don't forget to add the link to the livestream! -->
+      <!--
+      <h3 class="pageSubtitle">
+        Rump Session Program
+      </h3>
+      <div class="text-center">
+        <a class="btn customBtn-cool my-3" href="#">YouTube Recording</a>
+      </div>
+      <div id="renderedProgram">
+      </div>
+      -->
+
+      <!-- NOTE: uncomment the below section when you're ready to add submission guidelines -->
+      <!--
+      <h3 class="pageSubtitle">
+        Call for Contributions
+      </h3>
+      <p>
+        some very cool and real text about submitting your schtick
+      </p>
+
+      <h3 class="pageSubtitle">
+        Submission Guidelines
+      </h3>
+      <div class="row">
+        <div class="col-md-7">
+          <p>
+            <strong>Time constraints:</strong> 1-5 minutes, 6 minutes if very funny
+          </p>
+          <p>
+            <strong>Submission deadline:</strong> <span class="editMe">Monday 17 August 2020 18:30:00 UTC</span>
+          </p>
+        </div>
+        <div class="col-md-5">
+          <a href="#" class="btn customBtn-warm btn-block mt-3 mb-5 mb-md-3">
+            Submit a talk
+          </a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <h3 class="pageSubtitle">
+            Platform
+          </h3>
+          <p>
+            The rump session will be run via Zoom and will be live simulcast on YouTube and both video and slides will be made available online to the wider world afterwards. The act of submitting will be taken as your consent to these terms. Note that it is your responsibility as a rump session contender that no plagiarism or copyright infringements take place. <strong>Do not play copyrighted music as part of your talk under any circumstances. If you aren't sure, it's probably copyrighted.</strong>
+          </p>
+          <p>
+            Speakers will be asked to share their own screen at the time of the talk. To reduce the talk-switching time, we encourage all the speakers to locally practice screen sharing on Zoom. Upon request we will also offer a practice session for users unfamiliar with Zoom, please indicate as part of your submission.
+          </p>
+        </div>
+        <div class="col-md-6">
+          <h3 class="pageSubtitle">
+            Format
+          </h3>
+          <p>
+            more info and details
+          </p>
+        </div>
+      </div>
+
+      <h3 class="pageSubtitle">
+        Detailed Instructions
+      </h3>
+      <ol>
+        <li>
+          All speakers are strongly encouraged to use the desktop client to connect to the session; the web client can have sound and screen sharing issues.
+        </li>
+        <li>
+          We expect speakers to be in the Zoom session at least 15 minutes prior to the scheduled start of their contribution. We will announce the running order well in advance.
+        </li>
+        <li>
+          We will send a private message via Zoom to signal the speaker(s) to be ready shortly before the start time of their talk. The speaker should be prepared to be share their screen and start talking after being introduced by us live on the stream.
+        </li>
+      </ol>
+
+      <div class="alert alert-danger">
+        <img src="images/icons/exclamation.svg" class="icon" />&nbsp;&nbsp;<strong>A final reminder: do not play copyrighted music as part of your talks. Yes, we're serious. Yes, we know it's a bummer. Since the rump session is recorded and posted on YouTube, if you play copyrighted music, the IACR YouTube account is at risk of being shut down. Please don't put us at risk!</strong>
+      </div>
+
+      <h3 class="pageSubtitle text-center mt-4">
+        Rump Session Chairs
+      </h3>
+      <div class="row mt-3 mt-md-4">
+        <aside class="col-12 col-sm-6 col-md-4 text-center mb-2">
+          <h4 class="subSubtitle">
+            Cool human #1
+          </h4>
+          <p class="text-center">
+            Trashcan University<br>
+            The Falklands
+          </p>
+        </aside>
+        <aside class="col-12 col-sm-6 col-md-4 text-center mb-2">
+          <h4 class="subSubtitle">
+            Cool human #2
+          </h4>
+          <p class="text-center">
+            Beep Boop University<br>
+            Robotlandia
+          </p>
+        </aside>
+        <aside class="col-12 col-sm-6 col-md-4 mx-auto text-center mb-2">
+          <h4 class="subSubtitle">
+            Cool human #3
+          </h4>
+          <p class="text-center">
+            Institute of Definitely Real Research<br>
+            Switzerland
+          </p>
+        </aside>
+      </div>
+
+      <div class="row">
+        <div class="col-12 text-center">
+          <a href="mailto:veryRealEmail@iacr.org">
+            <img src="images/icons/email.svg" class="icon" />
+          </a>&nbsp;
+          veryRealEmail@iacr.org
+        </div>
+      </div>
+      -->
+
     </main>
 
     <?php include "includes/footer.php"; ?>
