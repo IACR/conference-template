@@ -28,8 +28,7 @@
       </p>
 
       <!-- NOTE: below is placeholder content derived from a past conference. -->
-
-      <p class="alert customAlert-cool">
+      <!-- <p class="alert customAlert-cool">
         <img src="images/icons/exclamation.svg" class="icon" />
         It is imperative that authors and attendees allow sufficient time to obtain visas.
       </p>
@@ -73,7 +72,7 @@
         attend <?php echo
         $META['shortName'];?> and help us make the conference a
         great success.
-      </p>
+      </p> -->
 
     </main>
 

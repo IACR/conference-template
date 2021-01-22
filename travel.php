@@ -88,7 +88,7 @@
         <div class="col-md-4">
           <div class="alert customAlert-cool" role="alert">
             <img src="images/icons/exclamation.svg" class="icon" />&emsp;
-            <!-- this could be a warning that hotels book up fast in the season -->
+            <!-- NOTE: this could be a warning that hotels book up fast in the season -->
             <span class="editMe">Bring a sweater and/or jacket. Santa Barbara
               can be cold at night. (This is crucial for the beach party!)</span>
           </div>

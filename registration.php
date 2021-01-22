@@ -24,12 +24,8 @@
         This information is not yet available. Thank you for your patience.
       </p>
 
-
-      <!-- <p class="editMe">
-         Below is sample information, derived from CRYPTO 2016.
-      </p> -->
-
-      <div class="row my-4">
+      <!-- NOTE: Below is sample information, partially derived from CRYPTO 2016. Be sure to read through it carefully and edit as needed. -->
+      <!-- <div class="row my-4">
         <section class="col-11 mx-auto" id="regTable">
           <div class="row" id="regTopRow">
             <div class="col-6">
@@ -166,7 +162,7 @@
             Conference registration and on-site housing registration are now separate processes. To learn more about housing options, visit the <a href="./travel.php">travel</a> page.
           </p>
         </section>
-      </div>
+      </div> -->
 
     </main>
 
