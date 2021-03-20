@@ -1,116 +1,128 @@
-/* Color theme by Kay McKelly: https://coolors.co/39735e-cdf9a9-e7ecd4-913e2b-bf5239 */
-
+/* Color theme by Kay McKelly: https://coolors.co/4e2b78-f6fefc-219c89-258e42-23863f-18642c-5e421c-6b321b */
 
 
 /***** Nav (in /includes/nav.php) *****/
 div#main-nav-row {
-  background: #39735E;
+  background: #258E42;
 }
 
 a.nav-link {
-  color: #FEFDFB;
+  color: #F6FEFC;
   font-size: 1.2rem;
 }
 
-a.nav-link:hover {
-  color: #E7ECD4;
-}
-
 div.dropdown-menu {
-  color: #FEFDFB;
-  background-color: #39735E;
+  color: #F6FEFC;
+  background-color: #258E42;
   border: none;
 }
 
 a.dropdown-item:hover {
-  background-color: #E7ECD4;
-  color: #1F2161;
+  background-color: #6B321B;
+  color: #F6FEFC;
 }
 
 
 
 /***** Header (in /includes/nav.php) *****/
 .headerImg {
-  background-image: url("../images/banners/waveDesat.png");
-  background-position: top left;
+  background-image: url("../images/banners/hunt1.jpg");
   background-repeat: no-repeat;
-  background-size: 128%;
 }
 
 .headerGradient {
-  background: #39735E;
-  background: linear-gradient(0deg, rgba(57, 115, 94, 0.7) 0%, rgba(91, 167, 123, 0.6) 18%, rgba(106, 167, 133, 0.7) 37%, rgba(143, 191, 170, 0.8) 62%, rgba(169, 217, 176, 0.9) 80%, rgba(207, 217, 169, 1) 100%);
+  background: rgba(239, 239, 239, 0.5);
+}
+
+@media (min-width: 992px) {
+  .headerTitle {
+    font-weight: 600;
+    letter-spacing: 1.1rem;
+    font-size: 3.1rem;
+  }
+
+  .headerInfo {
+    font-size: 1.8rem;
+  }
 }
 
 .headerTitle, .headerInfoTop, .headerInfoBottom {
-  color: #1F2161;
-  text-shadow: 5px 5px 30px #CDF9A9, 0.9px 0.9px #39735E;
+  color: #0A050F;
+  text-shadow: 5px 5px 50px #F6FEFC;
 }
 
 
 
 /***** Main content (e.g. h1-h6, a, text, etc) *****/
+body {
+  color: #0A050F;
+}
+
 a {
-  color: #913E2B;
+  color: #1A652F;
 }
 
 a:hover {
-  color: #D07662;
+  color: #219C89;
 }
 
 .indPageTitle {
-  color: #1F2161;
+  color: #0A050F;
   /* instead of distinguishing with color we're using spacing and size */
   font-size: 2.3rem;
   margin-top: -1rem;
   margin-bottom: 1rem;
+  letter-spacing: 4px;
 }
 
-.pageSubtitle {
-  color: #BF5239;
+.pageSubtitle, .dateTitle {
+  color: #6B321B;
 }
 
 .subSubtitle {
-  color: #39735E;
+  color: #4E2B78;
+  /* could also do #0A050F */
 }
 
 /* NOTE: custom button colors typically derived from the two most common colors in a given theme */
 .customBtn-warm {
-  background-color: rgba(191, 82, 57, 0.4);
+  background-color: rgba(196, 139, 59, 0.4);
 }
 
 .customBtn-cool {
-  background-color: rgba(57, 115, 94, 0.7);
+  background-color: rgba(33, 156, 137, 0.7);
   color: #FFF;
 }
 
 code {
-  color: #BF5239;
+  color: #6B321B;
 }
 
 
 /***** Main Content: cards & alerts *****/
 .customCard {
-  border: 1px solid rgba(207, 217, 169, 0.5);
+  border: 1px solid rgba(33, 156, 137, 0.4);
+  border-radius: 0.3rem;
 }
 
 .customCardHeader {
-  color: #39735E;
-  border-bottom: 3px solid rgba(91, 167, 123, 0.6);
+  color: #18642C;
+  border-bottom: 3px solid rgba(33, 156, 137, 0.6);
+  background-color: rgba(194, 216, 211, 0.2);
 }
 
 .customAlert-warm {
-  background-color: rgba(191, 82, 57, 0.2);
-  border-color: rgba(191, 82, 57, 0.5);
+  background-color: rgba(196, 139, 59, 0.2);
+  border-color: rgba(196, 139, 59, 0.5);
 }
 
 .customAlert-cool {
-  background-color: rgba(134, 183, 132, 0.4);
-  border-color: rgba(57, 115, 94, 0.7);
+  background-color: rgba(33, 156, 137, 0.2);
+  border-color: rgba(33, 156, 137, 0.7);
 }
 
 .customCardFooter {
-  background-color: rgba(169, 217, 176, 0.4);
+  background-color: rgba(194, 216, 211, 0.3);
 }
 
 
@@ -118,16 +130,14 @@ code {
 /***** Main Content: images & icons *****/
 /* change color of icons */
 .icon {
-  /* cancel filter on main.css */
-  filter: none;
+  filter: invert(27%) sepia(93%) saturate(388%) hue-rotate(85deg) brightness(93%) contrast(91%);
 }
 
 
 
 /***** Footer *****/
 footer {
-  background-color: rgba(145, 62, 43, 0.2);
-  /* background-color: rgba(208, 118, 98, 0.2); */
+  background-color: rgba(239, 239, 239, 0.4);
   padding: 0.7rem 0 0.7rem 0;
   margin-bottom: 0 !important;
 }
