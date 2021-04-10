@@ -20,6 +20,13 @@ img#logo {
 .headerImg {
   background-image: url("../images/banners/linesDesat.jpg");
   background-size: cover;
+  height: 280px;
+}
+
+@media (min-width: 768px) {
+  .headerImg {
+    height: 250px;
+  }
 }
 
 /* optional gradient to blur header image. */
