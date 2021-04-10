@@ -74,6 +74,14 @@ div.dropdown-menu {
 
 .headerImg {
   margin-top: 60px;
+  height: 140px;
+}
+
+/* making sure the header's the right height in various sizes */
+@media (min-width: 768px) {
+  .headerImg {
+    height: 190px;
+  }
 }
 
 .headerGradient {
@@ -125,8 +133,6 @@ img#logo {
   color: #F2F2F2;
   text-align: center !important;
   text-shadow: none !important;
-  /* emulate .display-2 */
-  font-size: 4.5rem;
   font-weight: 300;
   line-height: 1.2;
   padding-bottom: 2.5rem;
@@ -135,8 +141,16 @@ img#logo {
   border-radius: 32%;
 }
 
+@media (min-width: 768px) {
+  .headerTitle {
+    font-size: 3.5rem;
+  }
+}
+
 @media (min-width: 992px) {
-  font-size: 5.5rem;
+  .headerTitle {
+    font-size: 4.5rem;
+  }
 }
 
 .headerInfoTop, .headerInfoBottom {

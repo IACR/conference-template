@@ -1,6 +1,7 @@
 /* Color theme by Kay McKelly: https://coolors.co/4e2b78-f6fefc-219c89-258e42-23863f-18642c-5e421c-6b321b */
 
 
+
 /***** Nav (in /includes/nav.php) *****/
 div#main-nav-row {
   background: #258E42;
@@ -26,8 +27,11 @@ a.dropdown-item:hover {
 
 /***** Header (in /includes/nav.php) *****/
 .headerImg {
-  background-image: url("../images/banners/hunt1.jpg");
+  /* TODO: this could use some improvement */
+  background-image: url("../images/banners/waveDesat.png");
+  background-position: top left;
   background-repeat: no-repeat;
+  background-size: 128%;
 }
 
 .headerGradient {
@@ -38,9 +42,10 @@ a.dropdown-item:hover {
   .headerTitle {
     font-weight: 600;
     letter-spacing: 1.1rem;
-    font-size: 3.1rem;
+    font-size: 2.5rem;
   }
 
+  /* TODO: not currently getting applied, figure out why */
   .headerInfo {
     font-size: 1.8rem;
   }

@@ -31,10 +31,11 @@
   }
 }
 
-/* Make the image bigger on the home page. */
 .headerImg {
-    min-height: 300px;
+  min-height: 300px;
 }
+
+/* Make the image bigger on the home page. */
 body.home .headerImg {
     min-height: 360px;
 }
@@ -109,6 +110,7 @@ a:hover {
 .customBtn-warm {
   background-color: rgba(212, 68, 111, 0.4);
 }
+
 .customBtn-cool {
   background-color: rgba(38, 109, 211, 0.4);
 }
