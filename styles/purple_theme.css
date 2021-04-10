@@ -12,6 +12,13 @@ body {
 .headerImg {
   background: #2EA656;
   background-image: url("../images/banners/tris.svg");
+  height: 290px;
+}
+
+@media (min-width: 786px) {
+  .headerImg {
+    height: 240px;
+  }
 }
 
 .headerGradient {
@@ -121,6 +128,7 @@ code {
 .customCardFooter {
   background-color: #E6E7F0;
 }
+
 
 /**** Program specific colors ********/
 
