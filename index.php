@@ -66,7 +66,8 @@
       </div>
     </div>
 
-    <h3 class="pageSubtitle mt-4">
+    <!-- NOTE: if you have different levels of sponsors, you may wish to display some on the front page. Uncomment the code below, changing the alt text and image links accordingly -->
+    <!-- <h3 class="pageSubtitle mt-4">
       Example Sponsors
     </h3>
     <div class="homeSponsors">
@@ -76,7 +77,7 @@
       <a href="http://kaymckelly.com/">
         <img src="./images/demo/examplesponsor2.png" alt="deep blue vector graphic of a map pin with a piece missing from the circle at the top" class="sponsorLogo" />
       </a>
-    </div>
+    </div> -->
 
   </main>
 
