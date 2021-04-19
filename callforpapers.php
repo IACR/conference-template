@@ -28,7 +28,7 @@
             <?php echo $META['shortName'];?> will take place in
             <?php echo $META['location'];?> on <?php echo $META['dates'];?>.
             <?php echo $META['shortName'];?> is organized by
-            <a href="http://iacr.org/">the International Association for
+            <a href="https://iacr.org/">the International Association for
             Cryptologic Research</a> (IACR). The proceedings will be published
             by Springer in the LNCS series.
           </p>

@@ -37,6 +37,9 @@ a:hover {
   width: 1.3em;
   height: 1.3em;
   filter: invert(16%) sepia(91%) saturate(6408%) hue-rotate(156deg) brightness(92%) contrast(88%);
+  /* equivalent to bootstrap classes .mr-2 and .mb-1 */
+  margin-bottom: .25rem !important;
+  margin-right: .5rem !important;
 }
 
 /* This is designed to be deliberately ugly. Anything that contains

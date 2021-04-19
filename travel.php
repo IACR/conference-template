@@ -87,7 +87,7 @@
 
         <div class="col-md-4">
           <div class="alert customAlert-cool" role="alert">
-            <img src="images/icons/exclamation.svg" class="icon" />&emsp;
+            <img src="images/icons/exclamation.svg" class="icon" />
             <!-- NOTE: this could be a warning that hotels book up fast in the season -->
             <span class="editMe">Bring a sweater and/or jacket. Santa Barbara
               can be cold at night. (This is crucial for the beach party!)</span>
@@ -165,7 +165,7 @@
         For those who choose not to stay on-site, the following is a list of hotels that have provided room blocks for <?php echo $META['shortName'];?>. Note that none of the hotels is walking distance to the venue. Those who choose to stay off-site are responsible for making their own reservations. Early reservations are advised since August is a popular season in Santa Barbara.
       </p>
       <aside class="alert customAlert-warm">
-        <img src="images/icons/exclamation.svg" class="icon" />&ensp;
+        <img src="images/icons/exclamation.svg" class="icon" />
         All prices are subject to change and do not include tax; prices should be confirmed by calling the hotels directly. Room blocks may be released as early as two months prior to the conference. You must mention Crypto 2020 when you are making your reservations so you will be eligible for any special rates that may be available. Other hotels are available in the area.
       </aside>
 

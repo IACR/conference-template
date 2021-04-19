@@ -76,7 +76,7 @@ things, you should remove the `"editMe"` class.
 Assuming that your conference is listed in the [IACR calendar of
 events](https://iacr.org/events), you should be able to download the
 `json/metadata.json` file from
-[http://iacr.org/cryptodb/pc](http://iacr.org/cryptodb/pc).  This file
+[https://iacr.org/cryptodb/pc](https://iacr.org/cryptodb/pc).  This file
 contains year, conference names, latitude, longitude, etc, and the
 settings there show up on all pages of the site. The `year` field should
 match the path of the directory that you host your pages from on
@@ -97,7 +97,7 @@ updated.
 ### Changing the names of the program committee
 
 The program committee is stored in `json/comm.json`. You should go to
-[http://iacr.org/cryptodb/pc](http://iacr.org/cryptodb/pc)
+[https://iacr.org/cryptodb/pc](https://iacr.org/cryptodb/pc)
 to download your program committee file. The IDs in the file are used
 to enter the program committee into [Cryptodb](https://iacr.org/cryptodb)
 so be careful if you edit this file by hand. The program committee will
@@ -166,7 +166,7 @@ rwc, tcc, etc).
 The URLs on iacr.org start with
 &lt;conference_name&gt;.iacr.org/&lt;year&gt;/ and for this reason the
 root URL for the site is not at the root of the server. The file
-`includes/nav.php` has a function that computes the base URL from 
+`includes/nav.php` has a function that computes the base URL from
 the server name, and should work on both your local machine and the
 iacr.org server.
 

@@ -26,7 +26,7 @@
           <?php echo $META['city'] . ', ' . $META['country'];?>
           on <?php echo $META['dates'];?>.
           <?php echo $META['shortName'];?> is organized by
-          <a href="http://iacr.org/">the International Association for Cryptologic Research</a> (IACR).
+          <a href="https://iacr.org/">the International Association for Cryptologic Research</a> (IACR).
         </p>
         <p class="editMe">
           Please visit the <a href="./callforpapers.php">call for papers</a> page while we work on

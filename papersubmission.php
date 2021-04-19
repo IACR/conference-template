@@ -87,7 +87,7 @@
             pages.
           </p>
           <p class="alert customAlert-warm">
-            <img src="images/icons/exclamation.svg" class="icon mr-1 mb-1" />
+            <img src="images/icons/exclamation.svg" class="icon" />
             Submissions not meeting these guidelines risk rejection
             without consideration of their merits.
           </p>
