@@ -439,13 +439,13 @@ div.sessionList span.talkMedia {
   margin-bottom: 10px;
 }
 
-/* NOTE: in virtual conf template is
+/* NOTE: in virtual conf template is */
 span.talkMedia {
   margin-bottom: 10px;
   display: inline-block;
 }
 
- */
+
 
 img.talkMediaIcon, img.sessionInfoIcon {
   height: 20px;
