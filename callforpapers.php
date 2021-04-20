@@ -38,14 +38,15 @@
             <?php echo $META['shortName'];?>, the <?php echo $META['name'];?>.
             Submissions are welcomed on any cryptographic topic including but
             not limited to:
-            </p>
-            <ul>
-              <li>foundational theory and mathematics</li>
-              <li>the design, proposal, and analysis of cryptographic
-              primitives and protocols</li>
-              <li>secure implementation and optimization in hardware or
-              software; and applied aspects of cryptography</li>
-            </ul>
+          </p>
+          <ul>
+            <li>foundational theory and mathematics</li>
+            <li>the design, proposal, and analysis of cryptographic
+            primitives and protocols</li>
+            <li>secure implementation and optimization in hardware or
+            software</li>
+            <li>applied aspects of cryptography</li>
+          </ul>
         </section>
         <aside class="col-lg-4 pl-lg-5 text-center">
           <h3 class="pageSubtitle">
@@ -55,9 +56,12 @@
             Author instructions for paper submission may be found on the
             submission page.
           </p>
-          <a href="papersubmission.php" class="btn customBtn-warm btn-block">Submit a paper</a>
+          <a href="papersubmission.php" class="btn customBtn-warm btn-block">
+            Submit a paper
+          </a>
 
-          <!-- NOTE: once submissions are closed, uncomment below and comment out or remove the p and a above -->
+          <!-- NOTE: once submissions are closed, uncomment below and comment
+          out or remove the p and a above -->
           <!-- <p class="alert customAlert-warm text-center">
             Submissions are closed
           </p> -->
@@ -65,6 +69,9 @@
       </div>
 
       <div class="row mt-4">
+        <div class="col-lg-6 mt-3 mt-lg-0">
+          <?php require "includes/important_dates.php";?>
+        </div>
         <section class="col-lg-6">
           <h3 class="pageSubtitle">
             Schedule
@@ -89,9 +96,6 @@
             They then make the final decision of acceptance or rejection.
           </p>
         </section>
-        <div class="col-lg-6 mt-3 mt-lg-0">
-        <?php require "includes/important_dates.php";?>
-        </div>
       </div>
 
 
@@ -218,7 +222,7 @@
 
     </main>
 
-  <?php include "includes/footer.php"; ?>
+    <?php include "includes/footer.php"; ?>
 
     <!-- Handlebars -->
     <script src="https://iacr.org/libs/js/handlebars/handlebars-v4.1.0.js" type="text/javascript"></script>
