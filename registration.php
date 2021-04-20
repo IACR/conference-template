@@ -24,7 +24,7 @@
         This information is not yet available. Thank you for your patience.
       </p>
 
-      <div class="row mt-3">
+      <!-- <div class="row mt-3">
         <section class="col-11 mx-auto" id="regTable">
           <div class="row" id="regTopRow">
             <div class="col-6">
@@ -139,8 +139,6 @@
             <strong>Registration is not currently available. This button will
             become active when registration opens.</strong>
           </h5>
-          <!-- NOTE: add url and remove disabled class from button below when
-          registration is open -->
           <a href="#" class="btn btn-lg customBtn-warm btn-block disabled" role="button">
             Register now!
           </a>
@@ -204,7 +202,7 @@
             <a href="travel.php">travel</a> page.
           </p>
         </section>
-      </div>
+      </div> -->
 
     </main>
 
