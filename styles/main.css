@@ -105,7 +105,7 @@ a.dropdown-item {
     pointer-events: none;
   }
   /* Fix for dropdown hover. Without this there is a .125rem gap
-     that causes hover to stop working.  */
+     that causes hover to stop working. */
   #navbarNav div.dropdown-menu {
     margin-top: 0px;
     padding-top: .625rem;

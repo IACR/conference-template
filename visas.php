@@ -20,7 +20,7 @@
       </h2>
 
       <!-- NOTE: below is standard placeholder text for when the page
-      is under construction. please delete this paragraph.  when
+      is under construction. please delete this paragraph. when
       you add other content.
       -->
       <p>
@@ -34,7 +34,7 @@
       </p>
       <p>
         Information about Australian visas can be
-        found <a href="http://kaymckelly.com">here</a>.  The time to
+        found <a href="http://kaymckelly.com">here</a>. The time to
         obtain a visa can vary widely and has taken over three months
         for some individuals in the past. An interview at a consulate
         may also be required.

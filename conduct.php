@@ -8,7 +8,7 @@
     <meta name="twitter:title" content="<?php echo $META['shortName'];?> code of conduct"/>
 
     <title>
-      Code of Conduct for <?php echo $META['shortName'];?>
+      <?php echo $META['shortName'];?> Code of Conduct
     </title>
   </head>
   <body>
@@ -33,11 +33,11 @@
         IACR event, we encourage you to reach out to someone who could
         help. The following are available to you:
         the <a href="https://iacr.org/committees.html">Code-of-Conduct
-        Liaison</a>, <a href="./contact.html">General Chair(s)</a>,
+        Liaison</a>, <a href="contact.php">General Chair(s)</a>,
         any member of the <a href="ethics-committee@iacr.org">Ethics
         Committee</a>,
-        the <a href="https://iacr.org/bod.html">President</a> <span class="editMe">***and
-        others relevant to event***</span>.
+        the <a href="https://iacr.org/bod.html">President</a> <span
+        class="editMe">***and others relevant to event***</span>.
       </p>
       <p>
         Participants who violate this code may be sanctioned and/or
@@ -62,7 +62,8 @@
           </h4>
           <p class="text-left">
             <a href="https://iacr.org/committees.html">
-              <span class="editMe">***Name and contact information here***</span></a>
+              <span class="editMe">***Name and contact information here***</span>
+            </a>
           </p>
         </aside>
 
@@ -91,7 +92,7 @@
 
     </main>
 
-  <?php include "includes/footer.php"; ?>
+    <?php include "includes/footer.php"; ?>
 
   </body>
 </html>

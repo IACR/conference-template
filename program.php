@@ -11,29 +11,29 @@
       <?php echo $META['shortName'];?> Program
     </title>
     <style>
-     ul.days-nav li.nav-item {
-       border-radius: 10px;
-       border-color: black;
-     }
-     ul.days-nav .nav-link:hover {
-       background-color: #eeeeee;
-     }
-     ul.days-nav .nav-link {
-       margin-right: .5rem;
-       padding-left: 2rem;
-       padding-right: 2rem;
-       border-color: #e9ecef #e9ecef #dee2e6;
-       border-top-left-radius: .6rem;
-       border-top-right-radius: .6rem;
-       font-weight: 600;
-       background-color: #f2f2f2;
-     }
+      ul.days-nav li.nav-item {
+        border-radius: 10px;
+        border-color: black;
+      }
+      ul.days-nav .nav-link:hover {
+        background-color: #eeeeee;
+      }
+      ul.days-nav .nav-link {
+        margin-right: .5rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        border-color: #e9ecef #e9ecef #dee2e6;
+        border-top-left-radius: .6rem;
+        border-top-right-radius: .6rem;
+        font-weight: 600;
+        background-color: #f2f2f2;
+      }
     </style>
   </head>
   <body>
     <?php require "includes/nav.php"; ?>
 
-    <main class="container p-md-4">
+    <main class="container p-4">
       <h2 class="indPageTitle">
         Program
       </h2>

@@ -77,7 +77,7 @@
             California, Santa Barbara (UCSB). UCSB is located approximately two
             miles from the <a href="http://www.flysba.com/">Santa Barbara
             airport</a>, and about 10 miles from the city center of Santa
-            Barbara.  The airport is served by over 20 flights a day from major
+            Barbara. The airport is served by over 20 flights a day from major
             US hub airports. Many rental car agencies are available in the
             immediate area. Santa Barbara is approximately 100 miles (160km)
             north of the Los Angeles airport and 350 miles (560km) south of San
