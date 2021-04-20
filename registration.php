@@ -118,10 +118,17 @@
           <p>
             If you are a student presenting at <?php echo $META['shortName'];?>,
             your registration fee will be covered by the Cryptography Research
-            Fund for Student Presenters; you do not need to pay for registration.
-            Please contact the General Chair before registering to obtain a
-            registration waiver token. More information is available on the
-            <a href="stipends.php">stipends page</a>.
+            Fund for Student Presenters. Please contact the General Chair
+            before registering to obtain a registration waiver token.
+          </p>
+          <p>
+            A limited number of stipends will be available to students who are
+            not presenting a paper and are unable to obtain funding to attend
+            the conference. Students in under-represented groups are especially
+            encouraged to apply. To apply, please ask your PhD supervisor or
+            Department Head to email a brief justification to the
+            <a href="contact.php">General Chair</a> <span class="editMe">before
+            the late registration deadline</span>.
           </p>
         </section>
       </div>

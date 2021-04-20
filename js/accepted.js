@@ -1,4 +1,5 @@
-// NOTE: this imports the list of accepted papers in a format that is exported from websubrev. See sample papers.json.
+// NOTE: this imports the list of accepted papers in a format that is exported
+// from websubrev. See sample papers.json.
 
 $(document).ready(function() {
   $.ajax({
@@ -13,7 +14,8 @@ $(document).ready(function() {
     },
     fail: function(jqxhr, textStatus, error) {
       document.getElementById('errorBox');
-      errorBox.innerHTML = '<p>The list of accepted papers is not currently available. Please check back again later.</p>';
+      errorBox.innerHTML = '<p>The list of accepted papers is not currently
+                            available. Please check back again later.</p>';
 
       if (textStatus === 'error') {
         console.log('papers.json not found, check file name and try again');

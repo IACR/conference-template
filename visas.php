@@ -44,18 +44,20 @@
         Invitation Letters
       </h3>
       <p>
-        Requests for invitation letters need to be received by <span class="editMe">2040</span>.
+        Requests for invitation letters need to be received by
+        <span class="editMe">DATE</span>.
       </p>
       <p>
         Conference attendees who require a visa will typically need an
-        invitation letter from the <a href="./contact.php">General
+        invitation letter from the <a href="contact.php">General
         Chair</a>. To expedite the process, please provide as many of
         the following pieces of information as possible in your
         request:
       </p>
       <ul>
         <li>
-          an up-to-date Curriculum Vitae (CV) that includes, if applicable, a list of publications
+          an up-to-date Curriculum Vitae (CV) that includes, if applicable, a
+          list of publications
         </li>
         <li>
           a brief statement explaining your interests in the conference
@@ -64,14 +66,13 @@
           a list of any recent IACR conferences you have attended
         </li>
         <li>
-          a reference in the crypto community who has attended past IACR conferences
+          a reference in the crypto community who has attended past IACR
+          conferences
         </li>
       </ul>
       <p>
-        We hope that you will be able to
-        attend <?php echo
-        $META['shortName'];?> and help us make the conference a
-        great success.
+        We hope that you will be able to attend <?php echo $META['shortName'];?>
+        and help us make the conference a great success.
       </p> -->
 
     </main>

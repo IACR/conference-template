@@ -52,7 +52,7 @@
                 <a class="dropdown-item" href="<?php echo rootPath() . 'callforpapers.php' ?>">
                   Call for papers
                 </a>
-                <a class="dropdown-item" href="<?php echo rootPath() . 'papersubmission.php' ?>">
+                <!-- <a class="dropdown-item" href="<?php echo rootPath() . 'papersubmission.php' ?>">
                   Paper submission
                 </a>
                 <a class="dropdown-item" href="<?php echo rootPath() . 'invitedtalks.php' ?>">
@@ -69,7 +69,7 @@
                 </a>
                 <a class="dropdown-item" href="<?php echo rootPath() . 'rumpsession.php' ?>">
                   Rump session
-                </a>
+                </a> -->
               </div>
             </li>
             <li class="nav-item dropdown">
@@ -81,15 +81,12 @@
                 <a class="dropdown-item" href="<?php echo rootPath() . 'registration.php' ?>">
                   Registration
                 </a>
-                <a class="dropdown-item" href="<?php echo rootPath() . 'stipends.php' ?>">
-                  Student stipends
-                </a>
-                <a class="dropdown-item" href="<?php echo rootPath() . 'travel.php' ?>">
+                <!-- <a class="dropdown-item" href="<?php echo rootPath() . 'travel.php' ?>">
                   Venue & travel
                 </a>
                 <a class="dropdown-item" href="<?php echo rootPath() . 'visas.php' ?>">
                   Visas
-                </a>
+                </a> -->
                 <a class="dropdown-item" href="<?php echo rootPath() . 'conduct.php' ?>">
                   Code of conduct
                 </a>

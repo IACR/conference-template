@@ -35,12 +35,12 @@ function drawProgram() {
     });
   });
 }
-  
+
 $(document).ready(function() {
     // We watch this to determine when parallel tracks should be
     // drawn with tabs.
     var narrowWindow = window.matchMedia("(max-width: 990px)");
-  
+
     // set up Handlebars helper to display dates with day of the week
     Handlebars.registerHelper('formatDate', function(isodate) {
 	var parts = isodate.split('-');
@@ -59,7 +59,8 @@ $(document).ready(function() {
     dataType: 'json',
     success: function(data) {
       if (!data.hasOwnProperty('days')) {
-        renderedProgram.innerHTML = '<p>The conference program is not currently available. Please check back later.</p>';
+        renderedProgram.innerHTML = '<p>The conference program is not currently
+                                    available. Please check back later.</p>';
         return;
       }
 
@@ -84,7 +85,8 @@ $(document).ready(function() {
     },
     fail: function(jqxhr, textStatus, error) {
       document.getElementById('renderedProgram');
-      renderedProgram.innerHTML = '<p>The conference program is not currently available. Please check back later.</p>';
+      renderedProgram.innerHTML = '<p>The conference program is not currently
+                                  available. Please check back later.</p>';
 
       if (textStatus === 'error') {
         console.log('program.json not found, check file name and try again');
