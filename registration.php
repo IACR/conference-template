@@ -51,12 +51,12 @@
               </p>
             </div>
             <div class="col-3">
-              <p class="priceText editMe">
+              <p class="priceText">
                 TBD
               </p>
             </div>
             <div class="col-3">
-              <p class="priceText editMe">
+              <p class="priceText">
                 TBD
               </p>
             </div>
@@ -69,12 +69,12 @@
               </p>
             </div>
             <div class="col-3">
-              <p class="priceText editMe">
+              <p class="priceText">
                 TBD
               </p>
             </div>
             <div class="col-3">
-              <p class="priceText editMe">
+              <p class="priceText">
                 TBD
               </p>
             </div>
