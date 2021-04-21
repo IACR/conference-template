@@ -16,7 +16,9 @@
 
     <main class="container p-4">
 
-      <!-- NOTE: below is standard placeholder text for when the page is under construction. please delete this entire <div class="row"> when ready to add other content -->
+      <!-- NOTE: below is standard placeholder text for when the page is under
+      construction. please delete this entire <div class="row"> when ready to
+      add other content -->
       <h2 class="indPageTitle">
         New Page Title
       </h2>
@@ -30,6 +32,6 @@
 
     </main>
 
-  <?php include "includes/footer.php"; ?>
+    <?php include "includes/footer.php"; ?>
   </body>
 </html>

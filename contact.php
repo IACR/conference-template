@@ -8,7 +8,7 @@
     <meta name="twitter:title" content="<?php echo $META['shortName'];?> contact information"/>
 
     <title>
-      Contact for <?php echo $META['shortName'];?>
+      <?php echo $META['shortName'];?> Contacts
     </title>
   </head>
   <body>
@@ -98,6 +98,6 @@
 
     </main>
 
-  <?php include "includes/footer.php"; ?>
+    <?php include "includes/footer.php"; ?>
   </body>
 </html>

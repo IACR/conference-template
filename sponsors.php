@@ -8,7 +8,7 @@
     <meta name="twitter:title" content="<?php echo $META['shortName'];?> sponsors"/>
 
     <title>
-      Sponsors for <?php echo $META['shortName'];?>
+      <?php echo $META['shortName'];?> Sponsors
     </title>
   </head>
   <body>
@@ -24,13 +24,18 @@
           <p>
             <?php echo $META['shortName'];?> relies on sponsors to help ensure
             student participation. Please contact the
-            <a href="./contact.php">General Chair</a> if your company is
+            <a href="contact.php">General Chair</a> if your company is
             interested in sponsoring this conference.
           </p>
         </section>
       </div>
 
-      <!-- NOTE: below is placeholder content. please uncomment and replace with your own content when ready. make sure to verify that all included sponsors are current, with appropriate links. -->
+      <!-- NOTE: below is placeholder content. Please uncomment and replace
+      with your own content when ready. Make sure to verify that all included
+      sponsors are current, with appropriate links. We recommend saving sponsor
+      logos under /images/sponsors for better organization. Remember to change
+      both the image source path and url, as well as alt text and title on the
+      image. -->
       <!-- <h3 class="pageSubtitle mt-4">
         Platinum Level
       </h3>
@@ -134,6 +139,7 @@
         </div>
       </div> -->
     </main>
+
     <?php include "includes/footer.php"; ?>
   </body>
 </html>

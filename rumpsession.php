@@ -19,18 +19,20 @@
         Rump Session
       </h2>
 
-      <!-- NOTE: below is standard placeholder text for when the page is under construction.
-           IACR does not have a standard way to organize rump session submissions, but you
-           can always use the program editor to create your program: https://iacr.org/tools/program
-           and then copy stuff from program.php and js/program.js.
-      -->
+      <!-- NOTE: below is standard placeholder text for when the page is under
+      construction. IACR does not have a standard way to organize rump session
+      submissions,  but we encourage you to use the program editor to create
+      your program: https://iacr.org/tools/program and then copy stuff from
+      program.php and js/program.js. If you're having trouble or have
+      questions, contact Kay McKelly. -->
       <p>
         This information is not yet available, but will become
         available prior to the conference start date.
         Thank you for your patience.
       </p>
 
-      <!-- NOTE: uncomment the below section when you're ready to add the program. don't forget to add the link to the livestream! -->
+      <!-- NOTE: uncomment the below section when you're ready to add the rump
+      session program -->
       <!--
       <h3 class="pageSubtitle">
         Rump Session Program
@@ -42,7 +44,8 @@
       </div>
       -->
 
-      <!-- NOTE: uncomment the below section when you're ready to add submission guidelines -->
+      <!-- NOTE: uncomment the below section when you're ready to add
+      submission guidelines -->
       <!--
       <h3 class="pageSubtitle">
         Call for Contributions
@@ -60,7 +63,8 @@
             <strong>Time constraints:</strong> 1-5 minutes, 6 minutes if very funny
           </p>
           <p>
-            <strong>Submission deadline:</strong> <span class="editMe">Monday 17 August 2020 18:30:00 UTC</span>
+            <strong>Submission deadline:</strong> <span class="editMe">Monday
+            17 August 2020 18:30:00 UTC</span>
           </p>
         </div>
         <div class="col-md-5">
@@ -76,11 +80,8 @@
             Platform
           </h3>
           <p>
-            The rump session will be run via Zoom and will be live simulcast on YouTube and both video and slides will be made available online to the wider world afterwards. The act of submitting will be taken as your consent to these terms. Note that it is your responsibility as a rump session contender that no plagiarism or copyright infringements take place. <strong>Do not play copyrighted music as part of your talk under any circumstances. If you aren't sure, it's probably copyrighted.</strong>
-          </p>
-          <p>
-            Speakers will be asked to share their own screen at the time of the talk. To reduce the talk-switching time, we encourage all the speakers to locally practice screen sharing on Zoom. Upon request we will also offer a practice session for users unfamiliar with Zoom, please indicate as part of your submission.
-          </p>
+            probably a stage or something, you don't have to bring your own
+            microphone though so that's lucky
         </div>
         <div class="col-md-6">
           <h3 class="pageSubtitle">
@@ -95,20 +96,17 @@
       <h3 class="pageSubtitle">
         Detailed Instructions
       </h3>
-      <ol>
-        <li>
-          All speakers are strongly encouraged to use the desktop client to connect to the session; the web client can have sound and screen sharing issues.
-        </li>
-        <li>
-          We expect speakers to be in the Zoom session at least 15 minutes prior to the scheduled start of their contribution. We will announce the running order well in advance.
-        </li>
-        <li>
-          We will send a private message via Zoom to signal the speaker(s) to be ready shortly before the start time of their talk. The speaker should be prepared to be share their screen and start talking after being introduced by us live on the stream.
-        </li>
-      </ol>
+      <p>
+        even more info, for the exacting rump session chair
+      </p>
 
       <div class="alert alert-danger">
-        <img src="images/icons/exclamation.svg" class="icon" />&nbsp;&nbsp;<strong>A final reminder: do not play copyrighted music as part of your talks. Yes, we're serious. Yes, we know it's a bummer. Since the rump session is recorded and posted on YouTube, if you play copyrighted music, the IACR YouTube account is at risk of being shut down. Please don't put us at risk!</strong>
+        <img src="images/icons/exclamation.svg" class="icon" />
+        <strong>A final reminder: do not play copyrighted music as part of your
+        talks. Yes, we're serious. Yes, we know it's a bummer. Since the rump
+        session is recorded and posted on YouTube, if you play copyrighted
+        music, the IACR YouTube account is at risk of being shut down. Please
+        don't put us at risk!</strong>
       </div>
 
       <h3 class="pageSubtitle text-center mt-4">

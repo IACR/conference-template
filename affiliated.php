@@ -37,29 +37,27 @@
         chair at <span class="editMe">***insert email address of affiliated
         workshops person*** by DATE & TIME</span>.
       </p>
-      <span class="editMe">
-        Verify that the below information is correct for your affiliated
-        events and workshops, then remove this warning.
-      </span>
-      <p>
-	      The workshop organizers will provide for each event:
-      </p>
-      <ul>
-        <li>Conference room with a projector</li>
-        <li>Coffee breaks (lunch will be provided at the attendees’ expense at UCSB food services)</li>
-        <li>Internet access</li>
-        <li>Registration services (registration desk, nametags, etc.)</li>
-      </ul>
+      <!-- <span class="editMe">
+        <p>
+  	      The workshop organizers will provide for each event:
+        </p>
+        <ul>
+          <li>Conference room with a projector</li>
+          <li>Coffee breaks (lunch will be provided at the attendees’ expense at UCSB food services)</li>
+          <li>Internet access</li>
+          <li>Registration services (registration desk, nametags, etc.)</li>
+        </ul>
+      </span> -->
 
       <h4 class="subSubtitle">
         Information to Submitters
       </h4>
       <p>
         The organization of an affiliated event is supposed to be
-        relatively easy. The entire registration process as well as
+        relatively easy. <span class="editMe">The entire registration process as well as
         the local organization is done by the IACR (via
         the general and workshop
-        chairs). The proposal submitters need to identify a topic and
+        chairs).</span> The proposal submitters need to identify a topic and
         decide on the format, and upon acceptance coordinate the
         program/speakers.
       </p>
@@ -71,12 +69,12 @@
         day.
       </p>
       <p>
-      	Any additional costs (for example, costs of the program,
+      	Any additional costs (e.g. costs of the program,
       	reimbursements to invited speakers, or printing proceedings)
-      	fall into the responsibility of the individual event
+      	are the responsibility of the individual event
       	organizers.
       </p>
-      <p>
+      <t>
         The organizers of the accepted events are expected to maintain an
         updated website (which will be linked from the <?php echo
         $META['shortName'];?> website), containing all relevant information for
@@ -108,7 +106,7 @@
         <li>Estimated number of attendees total and an expected number of
         student attendees</li>
         <li>List of specific potential attendees (not complete, and no
-        commitment) – This will help coordinate timing of events that might
+        commitment); this will help coordinate timing of events that might
         overlap in audience</li>
         <li>A one-paragraph biographical sketch for each organizer, describing
         relevant qualifications, including research and conference/workshop
@@ -125,7 +123,7 @@
         by the submission deadline.
       </p>
 
-      <div class="row my-3">
+      <!-- <div class="row my-3">
         <div class="offset-lg-2 col-lg-8">
           <article class="customCard">
             <h4 class="customCardHeader">
@@ -149,7 +147,7 @@
             </div>
           </article>
         </div>
-      </div>
+      </div> -->
 
       <h4 class="subSubtitle">
         Proposal Evaluation Criteria
@@ -182,8 +180,9 @@
           </span>
         </aside>
       </div>
+
     </main>
 
-  <?php include "includes/footer.php"; ?>
+    <?php include "includes/footer.php"; ?>
   </body>
 </html>

@@ -35,12 +35,12 @@ function drawProgram() {
     });
   });
 }
-  
+
 $(document).ready(function() {
     // We watch this to determine when parallel tracks should be
     // drawn with tabs.
     var narrowWindow = window.matchMedia("(max-width: 990px)");
-  
+
     // set up Handlebars helper to display dates with day of the week
     Handlebars.registerHelper('formatDate', function(isodate) {
 	var parts = isodate.split('-');

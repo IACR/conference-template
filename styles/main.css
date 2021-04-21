@@ -37,6 +37,9 @@ a:hover {
   width: 1.3em;
   height: 1.3em;
   filter: invert(16%) sepia(91%) saturate(6408%) hue-rotate(156deg) brightness(92%) contrast(88%);
+  /* equivalent to bootstrap classes .mr-2 and .mb-1 */
+  margin-bottom: .25rem !important;
+  margin-right: .5rem !important;
 }
 
 /* This is designed to be deliberately ugly. Anything that contains
@@ -102,7 +105,7 @@ a.dropdown-item {
     pointer-events: none;
   }
   /* Fix for dropdown hover. Without this there is a .125rem gap
-     that causes hover to stop working.  */
+     that causes hover to stop working. */
   #navbarNav div.dropdown-menu {
     margin-top: 0px;
     padding-top: .625rem;
@@ -390,20 +393,6 @@ p.trackSwitch {
   text-align: center;
 }
 
-.mutualEvent {
-  background-color: rgba(177, 181, 231, 0.3);
-  margin-bottom: 10px;
-  text-align: center;
-  border-radius: 8px;
-}
-
-p.mutualEventTalkTitle {
-  font-weight: bold;
-  text-align: center;
-  margin-top: 10px;
-  margin-bottom: 2px;
-}
-
 /* TODO: using? */
 /* div.talkAbstract {
    text-align: center;
@@ -436,13 +425,13 @@ div.sessionList span.talkMedia {
   margin-bottom: 10px;
 }
 
-/* NOTE: in virtual conf template is
+/* NOTE: in virtual conf template is */
 span.talkMedia {
   margin-bottom: 10px;
   display: inline-block;
 }
 
- */
+
 
 img.talkMediaIcon, img.sessionInfoIcon {
   height: 20px;
