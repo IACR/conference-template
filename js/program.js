@@ -59,8 +59,7 @@ $(document).ready(function() {
     dataType: 'json',
     success: function(data) {
       if (!data.hasOwnProperty('days')) {
-        renderedProgram.innerHTML = '<p>The conference program is not currently
-                                    available. Please check back later.</p>';
+        renderedProgram.innerHTML = '<p>The conference program is not currently available. Please check back later.</p>';
         return;
       }
 
@@ -85,8 +84,7 @@ $(document).ready(function() {
     },
     fail: function(jqxhr, textStatus, error) {
       document.getElementById('renderedProgram');
-      renderedProgram.innerHTML = '<p>The conference program is not currently
-                                  available. Please check back later.</p>';
+      renderedProgram.innerHTML = '<p>The conference program is not currently available. Please check back later.</p>';
 
       if (textStatus === 'error') {
         console.log('program.json not found, check file name and try again');
