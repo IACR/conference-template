@@ -149,22 +149,40 @@
         In particular, the authors of each submission are asked during the
         submission process to identify all members of the Program Committee who
         have an automatic conflict of interest (COI) with the submission. A
-        reviewer and an author have an automatic COI if:
+        reviewer or an author have an automatic COI if:
       </p>
       <ul>
         <li>
-          one was the thesis advisor/supervisor of the other
+          one was the thesis advisor/supervisor of the other;
         </li>
         <li>
-          or if they have shared an institutional affiliation within the last
-          two years<sup>1</sup>
+          they shared an institutional affiliation within the last
+          two years<sup>1</sup>;
         </li>
         <li>
-          or if they have published two or more joint authored works within the
-          last three years<sup>2</sup>
+          they published two or more jointly authored works within the
+          last three years<sup>2</sup>;
         </li>
         <li>
-          or if they are in the same family
+          they are immediate family members
+        </li>
+      </ul>
+      <p>
+        Additionally, a reviewer has an automatic COI with a submission if:
+      </p>
+      <ul>
+        <li>
+          the reviewer has an automatic COI with any of the authors of a
+          submission;
+        </li>
+        <li>
+          the reviewer is authoring a paper (in submission or in preparation)
+          whose content substantially overlaps with that of the submission;
+        </li>
+        <li>
+          the reviewer has made a contribution to the submission (i.e. the
+          submission is the result of a collaboration that did not result in
+          the reviewer's authorship)
         </li>
       </ul>
       <p>
