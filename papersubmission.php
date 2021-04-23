@@ -148,8 +148,7 @@
       <p>
         In particular, the authors of each submission are asked during the
         submission process to identify all members of the Program Committee who
-        have an automatic conflict of interest (COI) with the submission. A
-        reviewer or an author have an automatic COI if:
+        have an automatic conflict of interest (COI) with the submission. An author <strong>or</strong> a reviewer have an automatic COI if:
       </p>
       <ul>
         <li>
