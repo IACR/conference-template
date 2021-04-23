@@ -148,36 +148,75 @@
       <p>
         In particular, the authors of each submission are asked during the
         submission process to identify all members of the Program Committee who
-        have an automatic conflict of interest (COI) with the submission. A
-        reviewer and an author have an automatic COI if:
+        have an automatic conflict of interest (COI) with the submission. A reviewer<sup>1</sup> has an automatic COI with an author if:
       </p>
       <ul>
         <li>
-          one was the thesis advisor/supervisor of the other
+          one is or was the thesis advisor to the other, no matter how long ago;
         </li>
         <li>
-          or if they have shared an institutional affiliation within the last
-          two years<sup>1</sup>
+          they shared an institutional affiliation within the prior two
+          years<sup>2</sup>;
         </li>
         <li>
-          or if they have published two or more joint authored works within the
-          last three years<sup>2</sup>
+          they published two or more jointly authored works in the last three years<sup>3</sup>; or
         </li>
         <li>
-          or if they are in the same family
+          they are immediate family members<sup>4</sup>
         </li>
       </ul>
       <p>
-        Any further COIs of importance should be separately disclosed<sup>3
-        </sup>. It is the responsibility of all authors to ensure correct
-        reporting of COI information. Submissions with incorrect or incomplete
-        COI information may be rejected without consideration of their merits.
+        A reviewer has an automatic COI with a submission if:
+      </p>
+      <ul>
+        <li>
+          the reviewer has an automatic COI with any of its authors;
+        </li>
+        <li>
+          the reviewer is authoring a paper (in submission<sup>5</sup> or in
+          preparation) whose content substantially overlaps with that of the
+          submission;
+        </li>
+        <li>
+          the reviewer has made a contribution to the submission (i.e. the
+          submission is the result of a collaboration that did not result in
+          the reviewer's authorship)
+        </li>
+      </ul>
+      <p>
+        Any further COIs of importance should be separately disclosed. It is
+        the responsibility of all authors to ensure correct reporting of COI
+        information. Submissions with incorrect or incomplete COI information
+        may be rejected without consideration of their merits.
+      </p>
+      <p>
+        COIs are not restricted to automatic ones, others
+        being possible. COIs beyond automatic COIs could involve financial,
+        intellectual, or personal interests. Examples include closely
+        related technical work, cooperation in the form of joint projects
+        or grant applications, business relationships, close personal
+        friendships, instances of personal enmity. Full transparency is of
+        utmost importance, authors and reviewers must disclose to the
+        chairs or editor any circumstances that they think may create bias,
+        even if it does not raise to the level of a COI. The editor or
+        program chair will decide if such circumstances should be treated
+        as a COI.
       </p>
 
       <div class="row text-justify">
         <div class="col-lg-4 mb-3 mb-lg-1">
           <small>
-            <sup>1</sup> Sharing an institutional affiliation means working at
+            <sup>1</sup> Reviewers include program committee members for
+            conference publications, editorial board members for journal
+            publications (Journal of Cryptology) and journal-conference hybrid
+            publications (ToSC and TCHES), sub-reviewers, referees for journal
+            publications, and individuals doing ad hoc reviews for a program
+            chair or editor
+          </small>
+        </div>
+        <div class="col-lg-4 mb-3 mb-lg-1">
+          <small>
+            <sup>2</sup> Sharing an institutional affiliation means working at
             the same location/campus of the same company/university. It does
             not include separate universities of the same system nor distant
             locations of the same company.
@@ -185,28 +224,25 @@
         </div>
         <div class="col-lg-4 mb-3 mb-lg-1">
           <small>
-            <sup>2</sup> Jointly authored work refers to jointly authored
+            <sup>3</sup> Jointly authored work refers to jointly authored
             papers and books, whether formally published or just posted online,
             resulting from collaboration on a scientific problem. It usually
             does not include joint editorial functions, like a jointly edited
             proceedings volume. For online publication, the first posting (not
-            revisions) determines the relevant date. Multiple versions of a
-            paper (conference, ePrint, journal) count as a single paper.
+            revisions) is the relevant date. Multiple versions of a paper
+            (conference, ePrint, journal) count as a single paper.
           </small>
         </div>
         <div class="col-lg-4 mb-3 mb-lg-1">
           <small>
-            <sup>3</sup> COIs are not restricted to automatic ones, others
-            being possible. COIs beyond automatic COIs could involve financial,
-            intellectual, or personal interests. Examples include closely
-            related technical work, cooperation in the form of joint projects
-            or grant applications, business relationships, close personal
-            friendships, instances of personal enmity. Full transparency is of
-            utmost importance, authors and reviewers must disclose to the
-            chairs or editor any circumstances that they think may create bias,
-            even if it does not raise to the level of a COI. The editor or
-            program chair will decide if such circumstances should be treated
-            as a COI.
+            <sup>4</sup> Immediate family members include at least parents,
+            children, siblings, spouse, or significant other.
+          </small>
+        </div>
+        <div class="col-lg-4 mb-3 mb-lg-1">
+          <small>
+            <sup>5</sup> The date relevant for a paper in submission is the
+            date when it was submitted.
           </small>
         </div>
       </div>
