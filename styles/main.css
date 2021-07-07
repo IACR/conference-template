@@ -422,12 +422,10 @@ span.authorName:last-of-type:after {
 
 div.sessionList span.talkMedia {
   text-align: center;
-  /* margin-bottom: 10px; */
 }
 
 /* NOTE: in virtual conf template is */
 span.talkMedia {
-  /* margin-bottom: 10px; */
   display: inline-block;
 }
 
