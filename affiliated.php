@@ -175,8 +175,7 @@
             </p>
             <a href="mailto:doNotEmailMe@fakeDomain.com">
               <img src="images/icons/email.svg" class="icon" />
-            </a>&nbsp;
-            doNotEmailMe@fakeDomain.com
+            </a> doNotEmailMe@fakeDomain.com
           </span>
         </aside>
       </div>

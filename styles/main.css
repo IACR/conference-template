@@ -422,19 +422,19 @@ span.authorName:last-of-type:after {
 
 div.sessionList span.talkMedia {
   text-align: center;
-  margin-bottom: 10px;
 }
 
 /* NOTE: in virtual conf template is */
 span.talkMedia {
-  margin-bottom: 10px;
   display: inline-block;
 }
 
-
-
 img.talkMediaIcon, img.sessionInfoIcon {
   height: 20px;
+}
+
+img.talkMediaIcon {
+  margin: 0 5px 0 5px;
 }
 
 img.sessionInfoIcon {

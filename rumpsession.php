@@ -146,8 +146,7 @@
         <div class="col-12 text-center">
           <a href="mailto:veryRealEmail@iacr.org">
             <img src="images/icons/email.svg" class="icon" />
-          </a>&nbsp;
-          veryRealEmail@iacr.org
+          </a> veryRealEmail@iacr.org
         </div>
       </div>
       -->
