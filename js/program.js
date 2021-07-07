@@ -74,7 +74,7 @@ $(document).ready(function() {
             let session = timeslots[j]['sessions'][k];
             if(session.talks) {
               for (var l = 0; l < session.talks.length; l++) {
-                if(session.talks[l].paperUrl || session.talks[l].slidesUrl || session.talks[l].videoUrl) {
+                if(session.talks[l].eprint || session.talks[l].paperUrl || session.talks[l].slidesUrl || session.talks[l].videoUrl) {
                   session.talks[l].hasMedia = true;
                 }
               }
