@@ -186,9 +186,11 @@
                             Speaker(s): {{speakers}}
                           </p>
                         {{/if}}
-                        <span class="talkMedia">
-                          Media: &nbsp;
-                        </span>
+                        {{#if hasMedia}}
+                          <span class="talkMedia">
+                            Media: &nbsp;
+                          </span>
+                        {{/if}}
                         {{#if eprint}}
                           <span class="talkMedia">
                             &nbsp; <a target="_blank" href="{{eprint}}">
