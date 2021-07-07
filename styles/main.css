@@ -431,10 +431,12 @@ span.talkMedia {
   display: inline-block;
 }
 
-
-
 img.talkMediaIcon, img.sessionInfoIcon {
   height: 20px;
+}
+
+img.talkMediaIcon {
+  margin: 0 5px 0 5px;
 }
 
 img.sessionInfoIcon {

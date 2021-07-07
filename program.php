@@ -188,26 +188,26 @@
                         {{/if}}
                         {{#if hasMedia}}
                           <span class="talkMedia">
-                            Media: &nbsp;
+                            Media:
                           </span>
                         {{/if}}
                         {{#if eprint}}
                           <span class="talkMedia">
-                            &nbsp; <a target="_blank" href="{{eprint}}">
+                            <a target="_blank" href="{{eprint}}">
                               <img class="talkMediaIcon" src="images/icons/lock-open-outline.svg" title="Paper on eprint.iacr.org">
                             </a>
                           </span>
                         {{/if}}
                         {{#if paperUrl}}
                           <span class="talkMedia">
-                            &nbsp; <a target="_blank" href="{{paperUrl}}">
+                            <a target="_blank" href="{{paperUrl}}">
                               <img class="talkMediaIcon" src="images/icons/file.svg" title="Paper">
                             </a>
                           </span>
                         {{/if}}
                         {{#if slidesUrl}}
                           <span class="talkMedia">
-                            &nbsp; <a target="_blank" href="{{slidesUrl}}">
+                            <a target="_blank" href="{{slidesUrl}}">
                               <img class="talkMediaIcon" src="images/icons/presentation.svg" title="Slides">
                             </a>
                           </span>
