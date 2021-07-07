@@ -70,6 +70,17 @@ $(document).ready(function() {
           if(timeslots[j]['sessions'].length > 1) {
             timeslots[j]['twosessions'] = true;
           }
+          for (var k = 0; k < timeslots[j]['sessions'].length; k++) {
+            let session = timeslots[j]['sessions'][k];
+            if(session.talks) {
+              for (var l = 0; l < session.talks.length; l++) {
+                if(session.talks[l].paperUrl || session.talks[l].slidesUrl || session.talks[l].videoUrl) {
+                  session.talks[l].hasMedia = true;
+                }
+              }
+
+            }
+          }
         }
       }
       data['isNarrow'] = narrowWindow.matches;
