@@ -176,7 +176,7 @@
                         {{/if}}
                         <!-- TODO: possible to simplify
                         here as well? -->
-                        <p class="authorList">
+                        <p class="authorList mb-0">
                           {{#each authors}}
                             <span class="authorName">{{this}}</span>
                           {{/each}}
