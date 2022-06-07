@@ -232,6 +232,7 @@ a.dropdown-item {
   letter-spacing: 0.3rem;
   margin-bottom: 2rem;
   padding: 0 1.5rem;
+  font-size: 2.3rem;
 }
 
 @media (min-width: 768px) {
@@ -251,6 +252,7 @@ a.dropdown-item {
   text-shadow: 5px 5px 20px #FEFDFB, 0.3px 0.3px #1F2161;
   letter-spacing: 2px;
   text-align: right;
+  font-size: 1.5rem;
 }
 
 @media (max-width: 768px) {
