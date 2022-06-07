@@ -384,7 +384,7 @@ p.timeSlot {
 p.talkTitle {
   font-weight: bold;
   text-align: left;
-  margin-top: 10px;
+  margin-top: 15px;
   margin-bottom: 2px;
 }
 
@@ -479,8 +479,8 @@ div.sessionList div.session {
   text-align: center;
 }
 
-/* Single track are centered. */
-div.sessionList div:only-child p {
+/* All tracks are centered. */
+div.sessionList div p {
     text-align: center;
 }
 .inlineSessions > div:not(:first-child ) {
@@ -496,6 +496,10 @@ div.inlineSessions div.session {
     flex-basis: 0;
 }
 
+div.paper-abstract {
+    white-space: pre-wrap;
+}
+
 /* Used for expandable abstract */
 a.toggle-open:after {
     content:' -';
@@ -504,6 +508,29 @@ a.toggle-open:after {
 a.toggle-closed:after {
     content: " ›";
     font-weight: 800;
+}
+
+ul.days-nav li.nav-item {
+    border-radius: 10px;
+    border-color: black;
+}
+ul.days-nav .nav-link:hover {
+    background-color: #eeeeee;
+}
+ul.days-nav .nav-link {
+    margin-right: .5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-color: #e9ecef #e9ecef #dee2e6;
+    border-top-left-radius: .6rem;
+    border-top-right-radius: .6rem;
+    font-weight: 600;
+    background-color: #f0f0f0;
+    color: black;
+}
+
+ul.nav .nav-link:hover, div.dropdown-menu.calendar {
+    background-color: #EEE;
 }
 
 
