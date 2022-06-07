@@ -6,6 +6,8 @@
     ?>
     <meta property="og:title" content="<?php echo $META['shortName'];?> program"/>
     <meta name="twitter:title" content="<?php echo $META['shortName'];?> program"/>
+    <!-- This allows the referrer field to be sent to links linked from this page. -->
+    <meta name="referrer" content="unsafe-url">
 
     <title>
       <?php echo $META['shortName'];?> Program
