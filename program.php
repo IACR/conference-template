@@ -6,6 +6,8 @@
     ?>
     <meta property="og:title" content="<?php echo $META['shortName'];?> program"/>
     <meta name="twitter:title" content="<?php echo $META['shortName'];?> program"/>
+    <!-- This allows the referrer field to be sent to links linked from this page. -->
+    <meta name="referrer" content="unsafe-url">
 
     <title>
       <?php echo $META['shortName'];?> Program
@@ -21,6 +23,9 @@
 
       #scrollSessionButton {
         display: none;
+      }
+      div.userTime {
+        font-size: 80%;
       }
     </style>
   </head>
@@ -54,8 +59,8 @@
         </div>
       </div>
       <div id="scrollButtons">
-        <img title="current session" id="scrollSessionButton" onclick="scrollToSession();" src="images/icons/time-outline.svg">
-        <img onclick="window.scrollTo({top: 0,left: 0, behavior: 'smooth'})" src="images/icons/arrow-up-circle-outline.svg">
+        <img alt="Scroll to current session" title="current session" id="scrollSessionButton" onclick="scrollToSession();" src="images/icons/time-outline.svg">
+        <img alt="Scroll to top" onclick="window.scrollTo({top: 0,left: 0, behavior: 'smooth'})" src="images/icons/arrow-up-circle-outline.svg">
       </div>
 
       <!-- Handlebars script that will render the program template based on the
@@ -85,30 +90,30 @@
         <div class="row" id="{{id}}">
           <!-- tabbedSessions is set in program.js if it's narrow or has >2 parallel tracks -->
           {{#if tabbedSessions}}
-          <div class="col-4 col-md-3 pr-0">
+          <div class="col-12 col-md-3 pr-0">
             <p class="timeSlot text-center" title="{{@root/config/timezone/shortName}}: {{../date}} {{starttime}}-{{endtime}}">
-              <span class="text-center">
-                ({{@root/config/timezone/shortName}}: {{starttime}}-{{endtime}})
-              </span><br>
-              {{localstarttime}} <br>to<br> {{localendtime}}<br>
+              <div class="text-center localTime">
+                {{@root/config/timezone/shortName}}: {{starttime}}-{{endtime}}
+              </div>
+              <div class="text-center userTime">{{localstarttime}} <br class="d-none d-md-inline">to<br class="d-none d-md-inline"> {{localendtime}}</div>
             </p>
-            <div class="trackMenu nav flex-column nav-pills align-items-end" id="ts-{{@../index}}-{{@index}}-tab" role="tablist" aria-orientation="vertical">
+            <div class="trackMenu nav flex-md-column nav-pills align-items-end" id="ts-{{@../index}}-{{@index}}-tab" role="tablist" aria-orientation="vertical">
             {{#each sessions}}
             <a title="{{session_title}}" class="nav-link {{#if @first}} active{{/if}}" id="session-{{@../../index}}-{{@../index}}-{{@index}}-tab" data-toggle="pill" href="#session-{{@../../index}}-{{@../index}}-{{@index}}" role="tab" href="#session-{{@../../index}}-{{@../index}}-{{@index}}" aria-controls="session-{{@../../index}}-{{@../index}}-{{@index}}" aria-selected="{{#if @first}}true{{else}}false{{/if}}">Track {{#addOne @index}}{{/addOne}}</a>
             {{/each}}
             </div>
           </div>
-          {{else}}
-          <div class="col-4 col-md-3">
+          {{else}} <!-- not tabbed_sessions -->
+          <div class="col-12 col-md-3">
             <p class="timeSlot text-center" title="{{@root/config/timezone/shortName}}: {{../date}} {{starttime}}-{{endtime}}">
-              <span class="text-center">
-                ({{@root/config/timezone/shortName}}: {{starttime}}-{{endtime}})<br>
-              </span>
-              {{localstarttime}} <br>to<br> {{localendtime}}
+              <div class="text-center localTime">
+                {{@root/config/timezone/shortName}}: {{starttime}}-{{endtime}}
+              </div>
+              <div class="text-center userTime">{{localstarttime}} <br class="d-none d-md-inline">to<br class="d-none d-md-inline"> {{localendtime}}</div>
             </p>
           </div>
           {{/if}}
-          <div class="pl-0 col-8 col-md-9">
+          <div class="pl-md-0 col-12 col-md-9">
             <div class="{{#if tabbedSessions}}sessionList tab-content pb-3 tabbedSessions{{else}}sessionList d-flex inlineSessions pb-3{{/if}}"
                  {{#if tabbedSessions}}id="ts-{{@../index}}-{{@index}}-tabContent"{{/if}}>
             {{#each sessions}}
@@ -165,7 +170,7 @@
                 <div class="talkAbstract">
                   <a class="toggle-closed" data-toggle="collapse" data-typ="abstract" href="#abstract-{{id}}" role="button" aria-expanded="false" aria-controls="abstract-{{id}}">Show abstract</a>
                 </div>
-                <div id="abstract-{{id}}" class="collapse mb-2 text-justify paper-abstract">
+                <div id="abstract-{{id}}" class="collapse mb-2 text-left paper-abstract">
                   {{~abstract~}}
                 </div>
                 {{/if}}
