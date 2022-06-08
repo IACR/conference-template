@@ -466,10 +466,19 @@ div.trackMenu a.nav-link {
     margin-bottom: .5rem;
     font-weight: 600;
 }
-@media (max-width: 960px) {
+@media (max-width: 991px) {
     div.trackMenu .nav-link {
         padding-top: 1rem;
         padding-bottom: 1rem;
+    }
+}
+
+/* tabs on top of tabbed sessions if below md. */
+@media (max-width: 767px) {
+    div.trackMenu a.nav-link {
+        border-top-right-radius: 10px !important;
+        border-bottom-left-radius: 0px !important;
+        margin-bottom: 0;
     }
 }
 /* The colors of sessions and tabs could be changed in a theme. */
