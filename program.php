@@ -38,7 +38,7 @@
       </h2>
 
       <div class="row">
-        <div class="col col-md-6">
+        <div class="col-12 col-md-6">
           <p class="alert customAlert-cool">
             <span class="editMe">Links to papers, videos, live sessions, and chat
               will be added as they become available. Additional social activities
@@ -46,7 +46,7 @@
             </span>
           </p>
         </div>
-        <div class="col col-md-6">
+        <div class="col-12 col-md-6">
           <p class="alert customAlert-cool">
             Your timezone appears to be <span id="timezone"></span>. Times in
             the schedule are shown in both Trondheim time and your local timezone.
