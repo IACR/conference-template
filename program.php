@@ -59,8 +59,8 @@
         </div>
       </div>
       <div id="scrollButtons">
-        <img title="current session" id="scrollSessionButton" onclick="scrollToSession();" src="images/icons/time-outline.svg">
-        <img onclick="window.scrollTo({top: 0,left: 0, behavior: 'smooth'})" src="images/icons/arrow-up-circle-outline.svg">
+        <img alt="Scroll to current session" title="current session" id="scrollSessionButton" onclick="scrollToSession();" src="images/icons/time-outline.svg">
+        <img alt="Scroll to top" onclick="window.scrollTo({top: 0,left: 0, behavior: 'smooth'})" src="images/icons/arrow-up-circle-outline.svg">
       </div>
 
       <!-- Handlebars script that will render the program template based on the
