@@ -1,5 +1,4 @@
 {
-  "_source": "https://www.iacr.org/cryptodb/pc",
   "id": 5092,
   "name": "40th Annual International Cryptology Conference",
   "shortName": "Crypto 2020",
@@ -18,5 +17,26 @@
   "latitude": -119.84698971268,
   "longitude": 34.411605668706,
   "eventtype": "crypto",
-  "_comment": "Be careful editing this file. It must be valid JSON."
+  "_comment": "Be careful editing this file. It must be valid JSON.",
+  "_source": "https://www.iacr.org/cryptodb/pc",
+  "PC_CHAIRS": [
+    {
+      "name": "First PC Chair",
+      "affiliation": "First PC affiliation"
+    },
+    {
+      "name": "Second PC Chair",
+      "affiliation": "Second PC affiliation"
+    }
+  ],
+  "GENERAL_CHAIRS": [
+    {
+      "name": "First General Chair",
+      "affiliation": "First General affiliation"
+    },
+    {
+      "name": "Second General Chair",
+      "affiliation": "Second General affiliation"
+    }
+  ]
 }

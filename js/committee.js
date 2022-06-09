@@ -28,10 +28,4 @@ $(document).ready(function() {
       }
     }
   });
-
-  var cfpPage = window.location.pathname;
-  if (cfpPage == '/callforpapers.php') {
-    const divFound = document.getElementById('progChairs');
-    divFound.classList.add('order-0');
-  };
 });
