@@ -25,26 +25,14 @@
         General Co-Chairs
       </h3>
 
-      <!-- NOTE: if you only have one general chair, please uncomment the following div,
-      then remove or comment out the div below containing the PHP -->
-      <!-- <div class="row mt-3 mt-md-4">
-        <aside class="col-12 text-center mb-2">
-          <h4 class="subSubtitle">
-            <?php echo $META['GENERAL_CHAIRS'][0]['name'] ?>
-          </h4>
-          <p class="text-center">
-            <?php echo $META['GENERAL_CHAIRS'][0]['affiliation'] ?>
-          </p>
-        </aside>
-      </div> -->
-
       <div class="row mt-3 mt-md-4">
         <?php
+          $theClass = count($META['GENERAL_CHAIRS'])==1 ? 'col-12' : 'col-12 col-sm-6';
           foreach ($META['GENERAL_CHAIRS'] as $person) {
             $name = $person['name'];
             $affiliation = $person['affiliation'];
             echo <<< EOR
-            <aside class="col-12 col-sm-6 text-center mb-2">
+            <aside class="$theClass text-center mb-2">
               <h4 class="subSubtitle">
                 $name
               </h4>
@@ -71,26 +59,14 @@
         Program Co-Chairs
       </h3>
 
-      <!-- NOTE: if you only have one program chair, please uncomment the following div,
-      then remove or comment out the div below containing the PHP  -->
-      <!-- <div class="row mt-3 mt-md-4">
-        <aside class="col-12 text-center mb-2">
-          <h4 class="subSubtitle">
-            <?php echo $META['PC_CHAIRS'][0]['name'] ?>
-          </h4>
-          <p class="text-center">
-            <?php echo $META['PC_CHAIRS'][0]['affiliation'] ?>
-          </p>
-        </aside>
-      </div> -->
-
       <div class="row mt-3 mt-md-4">
         <?php
+          $theClass = count($META['PC_CHAIRS'])==1 ? 'col-12' : 'col-12 col-sm-6';
           foreach ($META['PC_CHAIRS'] as $person) {
             $name = $person['name'];
             $affiliation = $person['affiliation'];
             echo <<< EOR
-            <aside class="col-12 col-sm-6 text-center mb-2">
+            <aside class="$theClass text-center mb-2">
               <h4 class="subSubtitle">
                 $name
               </h4>
