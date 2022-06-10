@@ -21,22 +21,22 @@
   "_source": "https://www.iacr.org/cryptodb/pc",
   "PC_CHAIRS": [
     {
-      "name": "First PC Chair",
-      "affiliation": "First PC affiliation"
+      "name": "Important Professor #1",
+      "affiliation": "University of Peer Review<br>China"
     },
     {
-      "name": "Second PC Chair",
-      "affiliation": "Second PC affiliation"
+      "name": "World-Famous Researcher",
+      "affiliation": "Institute for the Advancement of Causative Research<br>Singapore"
     }
   ],
   "GENERAL_CHAIRS": [
     {
-      "name": "First General Chair",
-      "affiliation": "First General affiliation"
+      "name": "SmartGuy McWriter",
+      "affiliation": "Synonym College<br>Romania"
     },
     {
-      "name": "Second General Chair",
-      "affiliation": "Second General affiliation"
+      "name": "Ellis Papers",
+      "affiliation": "Society for Promotion of Encryption<br>Senegal"
     }
   ]
 }
