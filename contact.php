@@ -19,78 +19,71 @@
         Contact
       </h2>
 
-      <!-- NOTE: below is standard placeholder text for when the page is under construction. please delete this entire <div class="row"> and all elements contained within it when ready to add other content -->
-      <!-- <div class="row">
-        <div class="col-12">
-          <p>
-            This information is not yet available. Thank you for your patience.
-          </p>
-        </div>
-      </div> -->
-
+      <!-- To add/edit contact information, please edit names and affiliations in
+      json/metadata.json -->
       <h3 class="pageSubtitle text-center mt-4">
         General Co-Chairs
       </h3>
 
       <div class="row mt-3 mt-md-4">
-        <aside class="col-12 col-sm-6 text-center mb-2 editMe">
-          <h4 class="subSubtitle">
-            Important Professor #1
-          </h4>
-          <p class="text-center">
-            University of Peer Review<br>
-            China
-          </p>
-        </aside>
-        <aside class="col-12 col-sm-6 text-center mb-2 editMe">
-          <h4 class="subSubtitle">
-            World-Famous Researcher
-          </h4>
-          <p class="text-center">
-            Institute for the Advancement of Causative Research<br>
-            Singapore
-          </p>
-        </aside>
+        <?php
+          $theClass = count($META['GENERAL_CHAIRS'])==1 ? 'col-12' : 'col-12 col-sm-6';
+          foreach ($META['GENERAL_CHAIRS'] as $person) {
+            $name = $person['name'];
+            $affiliation = $person['affiliation'];
+            echo <<< EOR
+            <aside class="$theClass text-center mb-2">
+              <h4 class="subSubtitle">
+                $name
+              </h4>
+              <p class="text-center">
+                $affiliation
+              </p>
+            </aside>
+            EOR;
+          }
+        ?>
       </div>
 
       <div class="row">
-        <div class="col-12 text-center mb-5 editMe">
-          <a href="mailto:doNotEmailMe@fakeDomain.com">
+        <div class="col-12 text-center mb-5">
+          <a href="mailto:reallyDoNotEmailMe@fakeDomain.com">
             <img src="images/icons/email.svg" class="icon" />
-          </a> doNotEmailMe@fakeDomain.com
+          </a> reallyDoNotEmailMe@fakeDomain.com
         </div>
       </div>
 
+      <!-- To add/edit contact information, please edit names and affiliations in
+      json/metadata.json -->
       <h3 class="pageSubtitle text-center mt-4">
         Program Co-Chairs
       </h3>
 
       <div class="row mt-3 mt-md-4">
-        <aside class="col-12 col-sm-6 text-center mb-2 editMe">
-          <h4 class="subSubtitle">
-            SmartGuy McWriter
-          </h4>
-          <p class="text-center">
-            Synonym College<br>
-            Romania
-          </p>
-        </aside>
-        <aside class="col-12 col-sm-6 text-center mb-2 editMe">
-          <h4 class="subSubtitle">
-            Ellis Papers
-          </h4>
-          <p class="text-center">
-            Society for Promotion of Encryption<br>
-            Senegal
-          </p>
-        </aside>
+        <?php
+          $theClass = count($META['PC_CHAIRS'])==1 ? 'col-12' : 'col-12 col-sm-6';
+          foreach ($META['PC_CHAIRS'] as $person) {
+            $name = $person['name'];
+            $affiliation = $person['affiliation'];
+            echo <<< EOR
+            <aside class="$theClass text-center mb-2">
+              <h4 class="subSubtitle">
+                $name
+              </h4>
+              <p class="text-center">
+                $affiliation
+              </p>
+            </aside>
+            EOR;
+          }
+        ?>
       </div>
 
       <div class="row">
-        <div class="col-12 text-center editMe">
-          <a href="mailto:reallyDoNotEmailMe@fakeDomain.com">
+        <div class="col-12 text-center mb-5">
+          <a href="mailto:doNotEmailMe@fakeDomain.com">
             <img src="images/icons/email.svg" class="icon" />
-          </a> reallyDoNotEmailMe@fakeDomain.com
+          </a> doNotEmailMe@fakeDomain.com
         </div>
       </div>
 

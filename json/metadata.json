@@ -1,5 +1,4 @@
 {
-  "_source": "https://www.iacr.org/cryptodb/pc",
   "id": 5092,
   "name": "40th Annual International Cryptology Conference",
   "shortName": "Crypto 2020",
@@ -18,5 +17,26 @@
   "latitude": -119.84698971268,
   "longitude": 34.411605668706,
   "eventtype": "crypto",
-  "_comment": "Be careful editing this file. It must be valid JSON."
+  "_comment": "Be careful editing this file. It must be valid JSON.",
+  "_source": "https://www.iacr.org/cryptodb/pc",
+  "PC_CHAIRS": [
+    {
+      "name": "Important Professor #1",
+      "affiliation": "University of Peer Review<br>China"
+    },
+    {
+      "name": "World-Famous Researcher",
+      "affiliation": "Institute for the Advancement of Causative Research<br>Singapore"
+    }
+  ],
+  "GENERAL_CHAIRS": [
+    {
+      "name": "SmartGuy McWriter",
+      "affiliation": "Synonym College<br>Romania"
+    },
+    {
+      "name": "Ellis Papers",
+      "affiliation": "Society for Promotion of Encryption<br>Senegal"
+    }
+  ]
 }
