@@ -157,3 +157,19 @@ icon {
 .customCardFooter {
   background-color: rgba(203, 131, 30, 0.1);
 }
+
+
+
+/***** Page-specific: program *****/
+div.trackMenu a.nav-link {
+  color: #038273;
+}
+
+div.trackMenu .nav-link.active {
+  background-color: rgba(228, 238, 240, 0.6) !important;
+  color: #383DB9 !important;
+}
+
+div.sessionList div.session {
+  background-color: rgba(228, 238, 240, 0.6);
+}
