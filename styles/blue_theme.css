@@ -126,10 +126,6 @@ code {
 
 
 /**** Program specific colors ********/
-div.trackMenu a.nav-link {
-   background-color: #F8F8F8 !important;
-}
-
 div.trackMenu .nav-link.active {
   background-color: rgba(177, 181, 231, 0.3) !important;
   color: #2261BA !important;
