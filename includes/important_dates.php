@@ -31,6 +31,8 @@ function showDate($key, $title) {
   <?php showDate('rebuttalDue', 'Rebuttal deadline'); ?>
   <?php showDate('notificationdate', 'Final Notification'); ?>
   <?php showDate('finalversions', 'Final versions due'); ?>
+  <!-- An example of a custom date not in metadata.json. -->
+  <!--
   <div class="customCardRow row">
     <h6 class="dateTitle col-5 col-md-4">
       1 Jan 1970
@@ -39,6 +41,7 @@ function showDate($key, $title) {
       Custom date can be entered
     </p>
   </div>
+  -->
   <?php showDate('startdate', 'Conference begins'); ?>
   <div class="customCardFooter">
     <img src="images/icons/exclamation.svg" class="icon" /> For further details,
