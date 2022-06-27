@@ -4,59 +4,45 @@
    with what is in json/metadata.json, which is why we use
    $META['submitdate'] and $META['dates'].
 */
+function showDate($key, $title) {
+  global $META;
+  if (!array_key_exists($key, $META) || $META[$key] == null) {
+    return;
+  }
+  $date = $META[$key];
+  echo <<< EOR
+   <div class="customCardRow row">
+    <h6 class="dateTitle col-5 col-md-4">
+      $date
+    </h6>
+    <p class="col-7 col-md-8">
+      $title
+    </p>
+  </div>
+  EOR;
+}
 ?>
 <article class="customCard">
   <h4 class="customCardHeader">
     Important Dates
   </h4>
+  <?php showDate('submitdate', 'Submission deadline'); ?>
+  <?php showDate('firstRound', 'First round notification'); ?>
+  <?php showDate('rebuttalDue', 'Rebuttal deadline'); ?>
+  <?php showDate('notificationdate', 'Final Notification'); ?>
+  <?php showDate('finalversions', 'Final versions due'); ?>
+  <!-- An example of a custom date not in metadata.json. -->
+  <!--
   <div class="customCardRow row">
     <h6 class="dateTitle col-5 col-md-4">
-      <?php echo $META['submitdate'];?>
+      1 Jan 1970
     </h6>
     <p class="col-7 col-md-8">
-      Submission deadline at 21:00 UTC
+      Custom date can be entered
     </p>
   </div>
-  <div class="customCardRow row">
-    <h6 class="dateTitle col-5 col-md-4">
-      <?php echo $META['firstRound'];?>
-    </h6>
-    <p class="col-7 col-md-8">
-      First round notification
-    </p>
-  </div>
-  <div class="customCardRow row">
-    <h6 class="dateTitle col-5 col-md-4">
-      <?php echo $META['rebuttalDue'];?>
-    </h6>
-    <p class="col-7 col-md-8">
-      Rebuttal deadline at 11:45 UTC
-    </p>
-  </div>
-  <div class="customCardRow row">
-    <h6 class="dateTitle col-5 col-md-4">
-      <?php echo $META['finalNotification'];?>
-    </h6>
-    <p class="col-7 col-md-8">
-      Final notification
-    </p>
-  </div>
-  <div class="customCardRow row">
-    <h6 class="dateTitle col-5 col-md-4">
-      <?php echo $META['finalNotification'];?>
-    </h6>
-    <p class="col-7 col-md-8">
-      Final version due
-    </p>
-  </div>
-  <div class="customCardRow row">
-    <h6 class="dateTitle col-5 col-md-4">
-      <?php echo $META['startdate'];?>
-    </h6>
-    <p class="col-7 col-md-8">
-      Conference begins
-    </p>
-  </div>
+  -->
+  <?php showDate('startdate', 'Conference begins'); ?>
   <div class="customCardFooter">
     <img src="images/icons/exclamation.svg" class="icon" /> For further details,
     consult the <a href="papersubmission.php">paper submission page</a>.
