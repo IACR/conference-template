@@ -482,7 +482,7 @@ div.trackMenu a.nav-link {
 /* set base bg color for active session tab; this may be changed in themes to
 match the background color of the div.session */
 div.trackMenu a.nav-link.active {
-  background-color: #DFDFDF !important;
+  background-color: #DFDFDF;
   /* match color to a:hover color, generally speaking */
   color: #CB831E;
 }

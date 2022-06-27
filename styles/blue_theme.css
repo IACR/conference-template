@@ -126,14 +126,15 @@ code {
 
 
 /**** Program specific colors ********/
-
 div.trackMenu a.nav-link {
-   background-color: #f8f8f8 !important;
+   background-color: #F8F8F8 !important;
 }
+
 div.trackMenu .nav-link.active {
-  background-color: rgba(177, 181, 231, 0.3);
-  color: #0F773C;
+  background-color: rgba(177, 181, 231, 0.3) !important;
+  color: #2261BA !important;
 }
+
 div.sessionList div.session {
   background-color: rgba(177, 181, 231, 0.3);
 }
