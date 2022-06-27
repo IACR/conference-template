@@ -467,7 +467,26 @@ div.trackMenu a.nav-link {
     border-bottom-left-radius: 10px !important;
     margin-bottom: .5rem;
     font-weight: 600;
+    /* sets base bg & border color so nothing too terrible happens with
+    changing themes */
+    background-color: #F0F0F0;
+    margin-right: .5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-color: #E9ECEF #E9ECEF #DE2E6;
+    border-top-left-radius: .6rem;
+    border-top-right-radius: .6rem;
+    font-weight: 600;
 }
+
+/* set base bg color for active session tab; this may be changed in themes to
+match the background color of the div.session */
+div.trackMenu a.nav-link.active {
+  background-color: #DFDFDF;
+  /* match color to a:hover color, generally speaking */
+  color: #CB831E;
+}
+
 @media (max-width: 991px) {
     div.trackMenu .nav-link {
         padding-top: 1rem;
@@ -525,9 +544,11 @@ ul.days-nav li.nav-item {
     border-radius: 10px;
     border-color: black;
 }
+
 ul.days-nav .nav-link:hover {
     background-color: #eeeeee;
 }
+
 ul.days-nav .nav-link {
     margin-right: .5rem;
     padding-left: 2rem;
