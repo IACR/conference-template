@@ -1,4 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-  <!-- From Ionicons (https://ionicons.com/) -->
-  <path d="M384 219.5v-85.2c0-13.4-11.2-24.3-24.9-24.3H56.9C43.2 110 32 120.9 32 134.3v243.3C32 391 43.2 402 56.9 402h302.2c13.7 0 24.9-11 24.9-24.3v-85.2l96 97.3V122.2l-96 97.3z" stroke="#1F2161" fill="#1F2161" />
+<svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512">
+  <title>
+    Videocam
+  </title>
+  <path d="M374.79 308.78L457.5 367a16 16 0 0022.5-14.62V159.62A16 16 0 00457.5
+    145l-82.71 58.22A16 16 0 00368 216.3v79.4a16 16 0 006.79 13.08z" fill="none"
+    stroke="#102A83" stroke-linecap="round" stroke-linejoin="round" 
+    stroke-width="32"/>
+  <path d="M268 384H84a52.15 52.15 0 01-52-52V180a52.15 52.15 0
+    0152-52h184.48A51.68 51.68 0 01320 179.52V332a52.15 52.15 0 01-52 52z"
+    fill="none" stroke="#102A83" stroke-miterlimit="10" stroke-width="32"/>
 </svg>
