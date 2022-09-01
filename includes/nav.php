@@ -72,7 +72,7 @@
                 </a> -->
               </div>
             </li>
-            <li class="nav-item dropdown">
+            <!-- <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false" href="#">
                 Attend
@@ -80,18 +80,18 @@
               <div class="dropdown-menu mx-md-3 mx-lg-5">
                 <a class="dropdown-item" href="<?php echo rootPath() . 'registration.php' ?>">
                   Registration
-                </a>
+                </a> -->
                 <!-- <a class="dropdown-item" href="<?php echo rootPath() . 'travel.php' ?>">
                   Venue & travel
                 </a>
                 <a class="dropdown-item" href="<?php echo rootPath() . 'visas.php' ?>">
                   Visas
                 </a> -->
-                <a class="dropdown-item" href="<?php echo rootPath() . 'conduct.php' ?>">
+                <!-- <a class="dropdown-item" href="<?php echo rootPath() . 'conduct.php' ?>">
                   Code of conduct
                 </a>
               </div>
-            </li>
+            </li> -->
             <li class="nav-item">
               <a class="nav-link" href="<?php echo rootPath() . 'sponsors.php' ?>">
                 Sponsors
