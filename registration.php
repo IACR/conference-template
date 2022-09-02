@@ -83,7 +83,7 @@
       </div>
 
       <p class="alert customAlert-warm my-4">
-        <img src="images/icons/exclamation.svg" class="icon" /> People who
+        <img src="images/icons/alert-triangle.svg" class="icon" /> People who
         register for the conference agree to abide by the
         <a href="conduct.php">IACR code of conduct</a>.
       </p>

@@ -181,7 +181,7 @@
       <div class="row">
         <div class="col-12 text-center mb-5">
           <a href="mailto:doNotEmailMe@fakeDomain.com">
-            <img src="images/icons/email.svg" class="icon" />
+            <img src="images/icons/mail.svg" class="icon" />
           </a> doNotEmailMe@fakeDomain.com
         </div>
       </div>
@@ -215,7 +215,7 @@
       <div class="row">
         <div class="col-12 text-center mb-5">
           <a href="mailto:reallyDoNotEmailMe@fakeDomain.com">
-            <img src="images/icons/email.svg" class="icon" />
+            <img src="images/icons/mail.svg" class="icon" />
           </a> reallyDoNotEmailMe@fakeDomain.com
         </div>
       </div>

@@ -31,7 +31,7 @@
       }
 
       ul.hotel-info li.email {
-        background: url('images/icons/email.svg') no-repeat left 4px;
+        background: url('images/icons/mail.svg') no-repeat left 4px;
         background-size: 18px;
       }
 
@@ -85,7 +85,7 @@
 
         <div class="col-md-4">
           <div class="alert customAlert-cool" role="alert">
-            <img src="images/icons/exclamation.svg" class="icon" />
+            <img src="images/icons/alert-triangle.svg" class="icon" />
             <!-- NOTE: this could be a warning that hotels book up fast in the season -->
             <span class="editMe">Bring a sweater and/or jacket. Santa Barbara
               can be cold at night. (This is crucial for the beach party!)</span>
@@ -185,7 +185,7 @@
         advised since August is a popular season in Santa Barbara.
       </p>
       <aside class="alert customAlert-warm">
-        <img src="images/icons/exclamation.svg" class="icon" />
+        <img src="images/icons/alert-triangle.svg" class="icon" />
         All prices are subject to change and do not include tax; prices should
         be confirmed by calling the hotels directly. Room blocks may be
         released as early as two months prior to the conference. You must

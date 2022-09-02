@@ -101,7 +101,7 @@
       </p>
 
       <div class="alert alert-danger">
-        <img src="images/icons/exclamation.svg" class="icon" />
+        <img src="images/icons/alert-triangle.svg" class="icon" />
         <strong>A final reminder: do not play copyrighted music as part of your
         talks. Yes, we're serious. Yes, we know it's a bummer. Since the rump
         session is recorded and posted on YouTube, if you play copyrighted
@@ -145,7 +145,7 @@
       <div class="row">
         <div class="col-12 text-center">
           <a href="mailto:veryRealEmail@iacr.org">
-            <img src="images/icons/email.svg" class="icon" />
+            <img src="images/icons/mail.svg" class="icon" />
           </a> veryRealEmail@iacr.org
         </div>
       </div>

@@ -29,7 +29,7 @@
 
       <!-- NOTE: below is placeholder content derived from a past conference. -->
       <!-- <p class="alert customAlert-cool">
-        <img src="images/icons/exclamation.svg" class="icon" />
+        <img src="images/icons/alert-triangle.svg" class="icon" />
         It is imperative that authors and attendees allow sufficient time to obtain visas.
       </p>
       <p>
