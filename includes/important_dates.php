@@ -44,7 +44,7 @@ function showDate($key, $title) {
   -->
   <?php showDate('startdate', 'Conference begins'); ?>
   <div class="customCardFooter">
-    <img src="images/icons/exclamation.svg" class="icon" /> For further details,
+    <img src="images/icons/alert-triangle.svg" class="icon" /> For further details,
     consult the <a href="papersubmission.php">paper submission page</a>.
   </div>
 </article>

@@ -174,7 +174,7 @@
               Israel
             </p>
             <a href="mailto:doNotEmailMe@fakeDomain.com">
-              <img src="images/icons/email.svg" class="icon" />
+              <img src="images/icons/mail.svg" class="icon" />
             </a> doNotEmailMe@fakeDomain.com
           </span>
         </aside>
