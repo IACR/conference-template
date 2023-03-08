@@ -38,7 +38,7 @@ function showDate($key, $title) {
       1 Jan 1970
     </h6>
     <p class="col-7 col-md-8">
-      Custom date can be entered
+      Custom date description
     </p>
   </div>
   -->

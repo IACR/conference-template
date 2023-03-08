@@ -30,11 +30,6 @@
             <a href="https://iacr.org/">the International Association for
             Cryptologic Research</a> (IACR).
           </p>
-          <p class="editMe">
-            Please visit the <a href="callforpapers.php">call for papers</a>
-            page while we work on adding more information to our other pages.
-            Thank you for your patience.
-          </p>
 
           <!-- NOTE: when registration is open, uncomment the giant
           registration button below. If you need more than one link, uncomment
@@ -92,24 +87,6 @@
           </article>
         </div>
       </div>
-
-      <!-- NOTE: if you have different levels of sponsors, you may wish to
-      display some on the front page. Uncomment the code below, changing the
-      alt text and image links accordingly -->
-      <!-- <h3 class="pageSubtitle mt-4">
-        Example Sponsors
-      </h3>
-      <div class="homeSponsors">
-        <a href="http://kaymckelly.com/">
-          <img src="./images/demo/examplesponsor1.png" alt="black and white
-          vector graphic of an elephant" class="sponsorLogo firstLogo" />
-        </a>
-        <a href="http://kaymckelly.com/">
-          <img src="./images/demo/examplesponsor2.png" alt="deep blue vector
-          graphic of a map pin with a piece missing from the circle at the top"
-          class="sponsorLogo" />
-        </a>
-      </div> -->
 
     </main>
 
