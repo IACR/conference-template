@@ -164,7 +164,7 @@ a.dropdown-item {
 .headerImg {
   background-size: cover;
   background-position: center center;
-  height: 270px;
+  height: 250px;
 }
 
 /* pageTopContainer behaves like container without !important. */
