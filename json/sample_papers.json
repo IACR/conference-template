@@ -1,7 +1,7 @@
 {
   "_source": "IACR/hotcrp v1",
   "acceptedPapers": [{
-      "paperId": "1",
+      "paperId": "fakecrypt2045_1",
       "title": "Example Paper Title 1",
       "abstract": "",
       "authors": [
@@ -17,7 +17,7 @@
       "pages": 12
     },
     {
-      "paperId": "2",
+      "paperId": "fakecrypt2045_2",
       "title": "Extra Jazzy Paper Title: Now with 100% More Subtitles",
       "abstract": "",
       "authors": [
@@ -30,7 +30,7 @@
       "pages": 8
     },
     {
-      "paperId": "3",
+      "paperId": "fakecrypt2045_3",
       "title": "A Third Paper Title",
       "abstract": "RTFP",
       "authors": [
