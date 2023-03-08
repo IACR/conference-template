@@ -1,106 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <?php // The header includes the head tag and start of body
-      require "includes/head.php";
-    ?>
-    <meta property="og:title" content="<?php echo $META['shortName'];?> travel and venue"/>
-    <meta name="twitter:title" content="<?php echo $META['shortName'];?> travel and venue"/>
 
-    <style>
-      div#venuemap {
-        margin-top: 15px;
-        height: 600px;
-        width: 100%;
-        border: 1px solid #CCC;
-      }
+<head>
+  <?php // The header includes the head tag and start of body
+  require "includes/head.php";
+  ?>
+  <meta property="og:title" content="<?php echo $META['shortName']; ?> travel and venue" />
+  <meta name="twitter:title" content="<?php echo $META['shortName']; ?> travel and venue" />
 
-      ul.hotel-info {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-      }
+  <style>
+    div#venuemap {
+      margin-top: 15px;
+      height: 600px;
+      width: 100%;
+      border: 1px solid #CCC;
+    }
 
-      ul.hotel-info li {
-        padding-left: 28px;
-        display: block;
-      }
+    ul.hotel-info {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
 
-      ul.hotel-info li:empty {
-        height: 1.2rem;
-      }
+    ul.hotel-info li {
+      padding-left: 28px;
+      display: block;
+    }
 
-      ul.hotel-info li.email {
-        background: url('images/icons/mail.svg') no-repeat left 4px;
-        background-size: 18px;
-      }
+    ul.hotel-info li:empty {
+      height: 1.2rem;
+    }
 
-      ul.hotel-info li.location {
-        background: url('images/icons/location.svg') no-repeat left 4px;
-        background-size: 18px;
-      }
+    ul.hotel-info li.email {
+      background: url('images/icons/mail.svg') no-repeat left 4px;
+      background-size: 18px;
+    }
 
-      ul.hotel-info li.phone {
-        background: url('images/icons/phone.svg') no-repeat left 4px;
-        background-size: 18px;
-      }
-    </style>
+    ul.hotel-info li.location {
+      background: url('images/icons/location.svg') no-repeat left 4px;
+      background-size: 18px;
+    }
 
-    <title>
-      <?php echo $META['shortName'];?> Travel & Venue
-    </title>
+    ul.hotel-info li.phone {
+      background: url('images/icons/phone.svg') no-repeat left 4px;
+      background-size: 18px;
+    }
+  </style>
 
-    <link rel="stylesheet" href="https://iacr.org/libs/js/leafletjs/leaflet.css"/>
-  </head>
-  <body>
-    <?php require "includes/nav.php"; ?>
+  <title>
+    <?php echo $META['shortName']; ?> Travel & Venue
+  </title>
 
-    <main class="container p-4">
-      <h2 class="indPageTitle">
-        Travel & Venue Information
-      </h2>
+  <link rel="stylesheet" href="https://iacr.org/libs/js/leafletjs/leaflet.css" />
+</head>
 
-      <p>
-        This information is not yet available. Thank you for your patience.
-      </p>
+<body>
+  <?php require "includes/nav.php"; ?>
 
-      <!-- NOTE: below is placeholder content derived from the Crypto
+  <main class="container p-4">
+    <h2 class="indPageTitle">
+      Travel & Venue Information
+    </h2>
+
+    <p>
+      This information is not yet available. Thank you for your patience.
+    </p>
+
+    <!-- NOTE: below is placeholder content derived from the Crypto
       2019 conference. please uncomment and replace with your own
       content when ready. this code is here to give you an idea of
       what the structure of this page has looked like in the past -->
-      <div class="row">
-        <section class="col-md-8">
-          <p class="editMe">
-            The conference will be held on the campus of the University of
-            California, Santa Barbara (UCSB). UCSB is located approximately two
-            miles from the <a href="http://www.flysba.com/">Santa Barbara
+    <div class="row">
+      <section class="col-md-8">
+        <p class="editMe">
+          The conference will be held on the campus of the University of
+          California, Santa Barbara (UCSB). UCSB is located approximately two
+          miles from the <a href="http://www.flysba.com/">Santa Barbara
             airport</a>, and about 10 miles from the city center of Santa
-            Barbara. The airport is served by over 20 flights a day from major
-            US hub airports. Many rental car agencies are available in the
-            immediate area. Santa Barbara is approximately 100 miles (160km)
-            north of the Los Angeles airport and 350 miles (560km) south of San
-            Francisco.
-          </p>
-        </section>
+          Barbara. The airport is served by over 20 flights a day from major
+          US hub airports. Many rental car agencies are available in the
+          immediate area. Santa Barbara is approximately 100 miles (160km)
+          north of the Los Angeles airport and 350 miles (560km) south of San
+          Francisco.
+        </p>
+      </section>
 
-        <div class="col-md-4">
-          <div class="alert customAlert-cool" role="alert">
-            <img src="images/icons/alert-triangle.svg" class="icon" />
-            <!-- NOTE: this could be a warning that hotels book up fast in the season -->
-            <span class="editMe">Bring a sweater and/or jacket. Santa Barbara
-              can be cold at night. (This is crucial for the beach party!)</span>
-          </div>
+      <div class="col-md-4">
+        <div class="alert customAlert-cool" role="alert">
+          <img src="images/icons/alert-triangle.svg" class="icon" />
+          <!-- NOTE: this could be a warning that hotels book up fast in the season -->
+          <span class="editMe">Bring a sweater and/or jacket. Santa Barbara
+            can be cold at night. (This is crucial for the beach party!)</span>
         </div>
       </div>
+    </div>
 
-      <div id="venuemap">
-      </div>
+    <div id="venuemap">
+    </div>
 
-      <!-- TODO: change the way icons are displayed because yikes, why did
+    <!-- TODO: change the way icons are displayed because yikes, why did
       you do it this way?!? -->
-      <!-- NOTE: below is an example of how additional information could be
+    <!-- NOTE: below is an example of how additional information could be
       formatted on this page -->
-      <!-- <h3 class="pageSubtitle mt-4">
+    <!-- <h3 class="pageSubtitle mt-4">
         On-Campus Accommodations
       </h3>
       <p>
@@ -150,7 +152,8 @@
               <li>
                 Santa Barbara, CA 93106
               </li>
-              <?php // NOTE: this li is used for spacing purposes only ?>
+              <?php // NOTE: this li is used for spacing purposes only 
+              ?>
               <li></li>
               <li class="phone">
                 805.893.7781
@@ -179,7 +182,7 @@
       <p>
         For those who choose not to stay on-site, the following is a list of
         hotels that have provided room blocks for
-        <?php echo $META['shortName'];?>. Note that none of the hotels is
+        <?php echo $META['shortName']; ?>. Note that none of the hotels is
         walking distance to the venue. Those who choose to stay off-site are
         responsible for making their own reservations. Early reservations are
         advised since August is a popular season in Santa Barbara.
@@ -207,7 +210,8 @@
               <li>
                 Goleta, CA 93117
               </li>
-              <?php // NOTE: this li is used for spacing purposes only ?>
+              <?php // NOTE: this li is used for spacing purposes only 
+              ?>
               <li></li>
               <li class="phone">
                 805.967.3200
@@ -245,7 +249,8 @@
               <li>
                 Goleta, CA 93111
               </li>
-              <?php // NOTE: this li is used for spacing purposes only ?>
+              <?php // NOTE: this li is used for spacing purposes only 
+              ?>
               <li></li>
               <li class="phone">
                 805.893.6722
@@ -273,47 +278,61 @@
           </a>
         </section>
       </div> -->
-    </main>
+  </main>
 
-    <script src="https://iacr.org/libs/js/leafletjs/leaflet-src.js"></script>
+  <script src="https://iacr.org/libs/js/leafletjs/leaflet-src.js"></script>
 
-    <script>
-     // You can recover latitude & longitude from this page:
-     // https://iacr.org/events/edit.php
-     var mymap = L.map('venuemap').setView([<?php echo $META['longitude'] . ',' . $META['latitude'];?>], 13);
-     var tiles = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                              maxZoom: 18,
-                              attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-                            });
+  <script>
+    // You can recover latitude & longitude from this page:
+    // https://iacr.org/events/edit.php
+    var mymap = L.map('venuemap').setView([<?php echo $META['longitude'] . ',' . $META['latitude']; ?>], 13);
+    var tiles = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 18,
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    });
 
-     tiles.addTo(mymap);
+    tiles.addTo(mymap);
 
-     var points = [{name: 'Conference Venue: UCSB',
-                    latitude: <?php echo $META['latitude'];?>,
-                    longitude: <?php echo $META['longitude'];?> },
-                   {name: 'Santa Barbara Airport',
-                    latitude: -119.8365,
-                    longitude: 34.424},
-                   {name: 'Best Western South Coast Inn',
-                    latitude: -119.8198,
-                    longitude: 34.44197},
-                   {name: 'Pacifica Suites',
-                    latitude: -119.8159,
-                    longitude: 34.436806},
-                   {name: 'The Club &amp; Guest House at UC Santa Barbara',
-                    latitude: -119.851345,
-                    longitude: 34.411853},
-                   {name: 'Dormitory accomodations (various)',
-                    latitude: -119.84423,
-                    longitude: 34.4111}];
+    var points = [{
+        name: 'Conference Venue: UCSB',
+        longitude: <?php echo $META['longitude']; ?>,
+        latitude: <?php echo $META['latitude']; ?>
+      },
+      {
+        name: 'Santa Barbara Airport',
+        longitude: 34.424,
+        latitude: -119.8365
+      },
+      {
+        name: 'Best Western South Coast Inn',
+        longitude: 34.44197,
+        latitude: -119.8198
+      },
+      {
+        name: 'Pacifica Suites',
+        longitude: 34.436806,
+        latitude: -119.8159
+      },
+      {
+        name: 'The Club &amp; Guest House at UC Santa Barbara',
+        longitude: 34.411853,
+        latitude: -119.851345
+      },
+      {
+        name: 'Dormitory accomodations (various)',
+        longitude: 34.4111,
+        latitude: -119.84423
+      }
+    ];
 
-     for (let i = 0; i < points.length; i++) {
-       let point = points[i];
-       var marker = L.marker([point.longitude, point.latitude]).addTo(mymap);
-       marker.bindPopup("<p>" + point.name + "</p>");
-     }
-    </script>
+    for (let i = 0; i < points.length; i++) {
+      let point = points[i];
+      var marker = L.marker([point.longitude, point.latitude]).addTo(mymap);
+      marker.bindPopup("<p>" + point.name + "</p>");
+    }
+  </script>
 
-    <?php include "includes/footer.php"; ?>
-  </body>
+  <?php include "includes/footer.php"; ?>
+</body>
+
 </html>

@@ -12,10 +12,10 @@ function showDate($key, $title) {
   $date = $META[$key];
   echo <<< EOR
    <div class="customCardRow row">
-    <h6 class="dateTitle col-5 col-md-4">
+    <h6 class="dateTitle col-5 col-md-6 col-lg-4">
       $date
     </h6>
-    <p class="col-7 col-md-8">
+    <p class="col-7 col-md-6 col-lg-8">
       $title
     </p>
   </div>
@@ -38,7 +38,7 @@ function showDate($key, $title) {
       1 Jan 1970
     </h6>
     <p class="col-7 col-md-8">
-      Custom date can be entered
+      Custom date description
     </p>
   </div>
   -->

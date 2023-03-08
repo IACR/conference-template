@@ -19,16 +19,12 @@
         Sponsors
       </h2>
 
-      <div class="row">
-        <section class="col-12">
-          <p>
-            <?php echo $META['shortName'];?> relies on sponsors to help ensure
-            student participation. Please contact the
-            <a href="contact.php">General Chair</a> if your company is
-            interested in sponsoring this conference.
-          </p>
-        </section>
-      </div>
+      <p>
+        <?php echo $META['shortName'];?> relies on sponsors to help ensure
+        student participation. Please contact the
+        <a href="contact.php">General Chair</a> if your company is
+        interested in sponsoring this conference.
+      </p>
 
       <!-- NOTE: below is placeholder content. Please uncomment and replace
       with your own content when ready. Make sure to verify that all included
@@ -42,13 +38,13 @@
 
       <div class="d-flex flex-wrap align-items-center sponsorRows">
         <div class="sponsorLogoBox justify-content-between">
-          <a href="http://kaymckelly.com">
-            <img src="./images/sponsors/ethereumFoundation.png" alt="Ethereum Foundation" title="Ethereum Foundation" class="sponsorPageLogo">
+          <a href="https://kaymckelly.com" target="_blank">
+            <img src="images/sponsors/ethereumFoundation.png" alt="NAME" title="NAME" class="sponsorPageLogo">
           </a>
         </div>
         <div class="sponsorLogoBox justify-content-between">
-          <a href="http://kaymckelly.com">
-            <img src="./images/sponsors/AWS.png" alt="AWS" title="AWS" class="sponsorPageLogo">
+          <a href="https://kaymckelly.com" target="_blank">
+            <img src="images/sponsors/AWS.png" alt="NAME" title="NAME" class="sponsorPageLogo">
           </a>
         </div>
       </div>
@@ -60,28 +56,28 @@
 
       <div class="d-flex flex-wrap align-items-center sponsorRows">
         <div class="sponsorLogoBox justify-content-between">
-          <a href="http://kaymckelly.com">
-            <img src="./images/sponsors/cloudFlare.png" alt="Cloudflare" title="Cloudflare" class="sponsorPageLogo">
+          <a href="https://kaymckelly.com" target="_blank">
+            <img src="images/sponsors/cloudFlare.png" alt="NAME" title="NAME" class="sponsorPageLogo">
           </a>
         </div>
         <div class="sponsorLogoBox justify-content-between">
-          <a href="http://kaymckelly.com">
-            <img src="./images/sponsors/inpher.png" alt="Inpher" title="Inpher" class="sponsorPageLogo">
+          <a href="https://kaymckelly.com" target="_blank">
+            <img src="images/sponsors/inpher.png" alt="NAME" title="NAME" class="sponsorPageLogo">
           </a>
         </div>
         <div class="sponsorLogoBox justify-content-between">
-          <a href="http://kaymckelly.com">
-            <img src="./images/sponsors/google.png" alt="Google" title="Google" class="sponsorPageLogo">
+          <a href="https://kaymckelly.com" target="_blank">
+            <img src="images/sponsors/google.png" alt="NAME" title="NAME" class="sponsorPageLogo">
           </a>
         </div>
         <div class="sponsorLogoBox justify-content-between">
-          <a href="http://kaymckelly.com">
-            <img src="./images/sponsors/jPMorgan.jpg" alt="JPMorgan" title="JPMorgan" class="sponsorPageLogo">
+          <a href="https://kaymckelly.com" target="_blank">
+            <img src="images/sponsors/jPMorgan.jpg" alt="NAME" title="NAME" class="sponsorPageLogo">
           </a>
         </div>
         <div class="sponsorLogoBox justify-content-between">
-          <a href="http://kaymckelly.com">
-            <img src="./images/sponsors/nsf.gif" alt="National Science Foundation" title="National Science Foundation" class="sponsorPageLogo">
+          <a href="https://kaymckelly.com" target="_blank">
+            <img src="images/sponsors/nsf.gif" alt="NAME" title="NAME" class="sponsorPageLogo">
           </a>
         </div>
       </div>
@@ -93,48 +89,48 @@
 
       <div class="d-flex flex-wrap align-items-center sponsorRows">
         <div class="sponsorLogoBox justify-content-between">
-          <a href="http://kaymckelly.com">
-            <img src="./images/sponsors/nucypher.png" alt="NuCypher" title="NuCypher" class="sponsorPageLogo">
+          <a href="https://kaymckelly.com" target="_blank">
+            <img src="images/sponsors/nucypher.png" alt="NAME" title="NAME" class="sponsorPageLogo">
           </a>
         </div>
         <div class="sponsorLogoBox justify-content-between">
-          <a href="http://kaymckelly.com">
-            <img src="./images/sponsors/QEDit.png" alt="QED-it" title="QED-it" class="sponsorPageLogo">
+          <a href="https://kaymckelly.com" target="_blank">
+            <img src="images/sponsors/QEDit.png" alt="NAME" title="NAME" class="sponsorPageLogo">
           </a>
         </div>
         <div class="sponsorLogoBox justify-content-between">
-          <a href="http://kaymckelly.com">
-            <img src="./images/sponsors/mozilla.png" alt="Mozilla" title="Mozilla" class="sponsorPageLogo">
+          <a href="https://kaymckelly.com" target="_blank">
+            <img src="images/sponsors/mozilla.png" alt="NAME" title="NAME" class="sponsorPageLogo">
           </a>
         </div>
         <div class="sponsorLogoBox justify-content-between">
-          <a href="http://kaymckelly.com">
-            <img src="./images/sponsors/iotex.png" alt="IoTeX" title="IoTeX" class="sponsorPageLogo">
+          <a href="https://kaymckelly.com" target="_blank">
+            <img src="images/sponsors/iotex.png" alt="NAME" title="NAME" class="sponsorPageLogo">
           </a>
         </div>
         <div class="sponsorLogoBox justify-content-between">
-          <a href="http://kaymckelly.com">
-            <img src="./images/sponsors/ibm.png" alt="IBM" title="IBM" class="sponsorPageLogo">
+          <a href="https://kaymckelly.com" target="_blank">
+            <img src="images/sponsors/ibm.png" alt="NAME" title="NAME" class="sponsorPageLogo">
           </a>
         </div>
         <div class="sponsorLogoBox justify-content-between">
-          <a href="http://kaymckelly.com">
-            <img src="./images/sponsors/auditchain.png" alt="Auditchain" title="Auditchain" class="sponsorPageLogo">
+          <a href="https://kaymckelly.com" target="_blank">
+            <img src="images/sponsors/auditchain.png" alt="NAME" title="NAME" class="sponsorPageLogo">
           </a>
         </div>
         <div class="sponsorLogoBox justify-content-between">
-          <a href="http://kaymckelly.com">
-            <img src="./images/sponsors/protocolLabs.png" alt="Protocol Labs" title="Protocol Labs" class="sponsorPageLogo">
+          <a href="https://kaymckelly.com" target="_blank">
+            <img src="images/sponsors/protocolLabs.png" alt="NAME" title="NAME" class="sponsorPageLogo">
           </a>
         </div>
         <div class="sponsorLogoBox justify-content-between">
-          <a href="http://kaymckelly.com">
-            <img src="./images/sponsors/poa.jpg" alt="POA" title="POA" class="sponsorPageLogo">
+          <a href="https://kaymckelly.com" target="_blank">
+            <img src="images/sponsors/poa.jpg" alt="NAME" title="NAME" class="sponsorPageLogo">
           </a>
         </div>
         <div class="sponsorLogoBox justify-content-between">
-          <a href="http://kaymckelly.com">
-            <img src="./images/sponsors/iohk.png" alt="IOHK" title="IOHK" class="sponsorPageLogo">
+          <a href="https://kaymckelly.com" target="_blank">
+            <img src="images/sponsors/iohk.png" alt="NAME" title="NAME" class="sponsorPageLogo">
           </a>
         </div>
       </div> -->

@@ -1,12 +1,49 @@
-{ "_source": "websubrev",
-  "acceptedPapers": [
-  {"title": "Example Paper Title 1",
-	 "authors": "Author Lastname, Second Author, Student Author",
-   "affiliations": "University of Computer Stuff, Prague, Austria"},
-  {"title": "Extra Jazzy Paper Title",
-   "authors": "Professor Author",
-   "affiliations": "University of Smart Scientists (USS), London, England"},
-  {"title": "A Third Paper Title",
-   "authors": "Author Researcher, Smart Human, Prolific Writer",
-   "affiliations": "Institute of Code and Innovation (ICI), Arizona, United States"}
-]}
+{
+  "_source": "IACR/hotcrp v1",
+  "acceptedPapers": [{
+      "paperId": "fakecrypt2045_1",
+      "title": "Example Paper Title 1",
+      "abstract": "",
+      "authors": [
+        "Author Lastname",
+        "Second Author",
+        "Student Author"
+      ],
+      "affiliations": [
+        "University of Computer Stuff, Prague, Austria",
+        "Very Real and Authentic University (VRAU), Antarctica"
+      ],
+      "pubkey": 12345,
+      "pages": 12
+    },
+    {
+      "paperId": "fakecrypt2045_2",
+      "title": "Extra Jazzy Paper Title: Now with 100% More Subtitles",
+      "abstract": "",
+      "authors": [
+        "Professor Author"
+      ],
+      "affiliations": [
+        "University of Smart Scientists (USS), London, England"
+      ],
+      "pubkey": 23456,
+      "pages": 8
+    },
+    {
+      "paperId": "fakecrypt2045_3",
+      "title": "A Third Paper Title",
+      "abstract": "RTFP",
+      "authors": [
+        "Author Researcher",
+        "Smart Human",
+        "Prolific Writer"
+      ],
+      "affiliations": [
+        "Institute of Code and Innovation (ICI), Arizona, United States",
+        "College of Professional FlimFlammery, Berlin, Germany"
+      ],
+      "pubkey": 34567,
+      "pages": 62
+    }
+  ]
+}
