@@ -63,6 +63,7 @@ a.dropdown-item {
 /* negates margin bottom set in main.css (which is necessary in most other themes for .headerTitle) */
 .headerTitle {
   margin-bottom: 2rem;
+  font-size: 2.8rem;
 }
 
 /* bumps titles down so they don't run into the navbar */
@@ -77,8 +78,16 @@ div.headerLogo {
   top: 4rem;
 }
 
+/* only use if dates span months/otherwise wrap on mobile & smaller screens */
+/* @media (max-width: 768px) {
+  div.headerInfo>h3 {
+    font-size: 1.1rem;
+  }
+} */
+
 div.headerInfo > h3 {
-  font-size: 1.3rem;
+  /* if uncommenting above style, uncomment this as well */
+  /* font-size: 1.3rem; */
   text-align: center;
 }
 
@@ -98,20 +107,21 @@ a:hover {
 }
 
 .indPageTitle, a {
-  color: #038273;
+  color: #046577;
 }
 
 .pageSubtitle {
   font-weight: normal;
+  color: #038273;
 }
 
 .subSubtitle {
-  color: #383DB9;
+  color: #783804;
   font-weight: normal;
 }
 
 .dateTitle {
-  color: #046577;
+  color: #038273;
 }
 
 .customBtn-warm {
@@ -131,12 +141,11 @@ code {
 
 /***** Main Content: cards & alerts *****/
 .customCard {
-  border: 1px solid rgba(203, 131, 30, 0.3);
+  border: 1px solid rgba(148, 163, 166, 0.2);
 }
 
 .customCardHeader {
-  /* background-color: rgba(203, 131, 30, 0.4); */
-  background-color: rgba(148, 163, 166, 0.5);
+  background-color: rgba(148, 163, 166, 0.1);
   color: #038273;
 }
 
