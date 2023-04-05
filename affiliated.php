@@ -74,7 +74,7 @@
       	are the responsibility of the individual event
       	organizers.
       </p>
-      <t>
+      <p>
         The organizers of the accepted events are expected to maintain an
         updated website (which will be linked from the <?php echo
         $META['shortName'];?> website), containing all relevant information for
