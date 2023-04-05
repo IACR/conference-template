@@ -28,7 +28,7 @@
       on <?php echo $META['dates']; ?>.
       <?php echo $META['shortName']; ?> is organized by
       <a href="https://iacr.org/">the International Association for
-        Cryptologic Research</a> (IACR). This will be the <?php echo $META['name']; ?>
+        Cryptologic Research</a> (IACR). This will be the <?php echo $META['name']; ?>.
     </p>
 
     <!-- NOTE: when registration is open, uncomment the giant

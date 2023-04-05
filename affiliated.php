@@ -28,7 +28,7 @@
         (e.g., workshop, tutorial, etc.) is up to the organizers.
       </p>
 
-     <h3 class="pageSubtitle">
+     <h3 class="pageSubtitle mt-4">
        Call for Affiliated Events
      </h3>
       <p>
@@ -49,7 +49,7 @@
         </ul>
       </span> -->
 
-      <h4 class="subSubtitle">
+      <h4 class="subSubtitle mt-4">
         Information to Submitters
       </h4>
       <p>
@@ -81,7 +81,7 @@
         participants.
       </p>
 
-      <h4 class="subSubtitle">
+      <h4 class="subSubtitle mt-4">
         Submission Format for Affiliated Event Proposals
       </h4>
       <p>
@@ -149,7 +149,7 @@
         </div>
       </div> -->
 
-      <h4 class="subSubtitle">
+      <h4 class="subSubtitle mt-4">
         Proposal Evaluation Criteria
       </h4>
       <p>

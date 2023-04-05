@@ -34,7 +34,7 @@
       <!-- NOTE: uncomment the below section when you're ready to add the rump
       session program -->
       <!--
-      <h3 class="pageSubtitle">
+      <h3 class="pageSubtitle mt-4">
         Rump Session Program
       </h3>
       <div class="text-center">
@@ -47,14 +47,14 @@
       <!-- NOTE: uncomment the below section when you're ready to add
       submission guidelines -->
       <!--
-      <h3 class="pageSubtitle">
+      <h3 class="pageSubtitle mt-4">
         Call for Contributions
       </h3>
       <p>
         some very cool and real text about submitting your schtick
       </p>
 
-      <h3 class="pageSubtitle">
+      <h3 class="pageSubtitle mt-4">
         Submission Guidelines
       </h3>
       <div class="row">
@@ -76,7 +76,7 @@
 
       <div class="row">
         <div class="col-md-6">
-          <h3 class="pageSubtitle">
+          <h3 class="pageSubtitle mt-4">
             Platform
           </h3>
           <p>
@@ -84,7 +84,7 @@
             microphone though so that's lucky
         </div>
         <div class="col-md-6">
-          <h3 class="pageSubtitle">
+          <h3 class="pageSubtitle mt-4">
             Format
           </h3>
           <p>
@@ -93,7 +93,7 @@
         </div>
       </div>
 
-      <h3 class="pageSubtitle">
+      <h3 class="pageSubtitle mt-4">
         Detailed Instructions
       </h3>
       <p>
