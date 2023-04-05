@@ -72,7 +72,7 @@
       what the structure of this page has looked like in the past -->
     <div class="row">
       <section class="col-md-8">
-        <p class="editMe">
+        <p>
           The conference will be held on the campus of the University of
           California, Santa Barbara (UCSB). UCSB is located approximately two
           miles from the <a href="http://www.flysba.com/">Santa Barbara
@@ -89,8 +89,8 @@
         <div class="alert customAlert-cool" role="alert">
           <img src="images/icons/alert-triangle.svg" class="icon" />
           <!-- NOTE: this could be a warning that hotels book up fast in the season -->
-          <span class="editMe">Bring a sweater and/or jacket. Santa Barbara
-            can be cold at night. (This is crucial for the beach party!)</span>
+          Bring a sweater and/or jacket. Santa Barbara
+          can be cold at night. (This is crucial for the beach party!)
         </div>
       </div>
     </div>

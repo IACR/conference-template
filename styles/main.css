@@ -42,24 +42,6 @@ a:hover {
   margin-right: .5rem !important;
 }
 
-/* This is designed to be deliberately ugly. Anything that contains
-   this class should be edited or commented out, and the class editMe
-   should be removed.
-*/
-.editMe {
-  color: #DD0000;
-}
-/* This is designed to force you to remove the editMe class everywhere. */
-.editMe {
-    color: #DD0000;
-    border-bottom: 1px solid red;
-    font-weight: 600;
-}
-.editMe:before {
-    content: "EDIT THIS: ";
-    font-weight: 800;
-}
-
 
 
 /***** Nav (in /includes/nav.php) *****/

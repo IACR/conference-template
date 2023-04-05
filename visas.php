@@ -45,7 +45,7 @@
       </h3>
       <p>
         Requests for invitation letters need to be received by
-        <span class="editMe">DATE</span>.
+        DATE.
       </p>
       <p>
         Conference attendees who require a visa will typically need an

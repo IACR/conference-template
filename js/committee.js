@@ -14,7 +14,7 @@ $(document).ready(function() {
     error: function(jqxhr, textStatus, error) {
       console.dir(jqxhr);
       document.getElementById('errorBox');
-      errorBox.innerHTML = `<p class="editMe alert alert-danger" role="alert">
+      errorBox.innerHTML = `<p class="alert alert-danger" role="alert">
                             <img src="images/icons/alert-triangle.svg" class="icon" />
                             You need to supply a json/comm.json file. You can
                             <a href="https://iacr.org/cryptodb/pc/">use this

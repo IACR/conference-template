@@ -61,7 +61,7 @@
             margins). Details on the Springer LNCS format can be
             obtained <a href="https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines">here</a>.
             It is strongly encouraged that submissions are processed in
-            LaTeX. All submissions must have page numbers (e.g. using
+            LaTeX. All submissions must have page numbers (e.g., using
             LaTeX command <code>\pagestyle{plain}</code>). Submissions
             must be submitted electronically in PDF format.
           </p>
