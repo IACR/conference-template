@@ -217,8 +217,8 @@
     <script src="https://iacr.org/libs/js/luxon/luxon.js"></script>
 
     <!-- Personal scripts -->
-    <script src="./js/tooltips.js"></script>
-    <script src="./js/program.js?v=2"></script>
+    <script src="js/tooltips.js"></script>
+    <script src="js/program.js?v=2"></script>
     <script>
       var DateTime = luxon.DateTime;
       let now = DateTime.local();

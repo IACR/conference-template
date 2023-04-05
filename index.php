@@ -67,7 +67,7 @@
           </h4>
           <div class="customCardRow row">
             <h6 class="dateTitle col-5 col-md-6 col-lg-4">
-              28 Mar 2045
+              28 Mar <?php echo date("Y"); ?>
             </h6>
             <p class="col-7 col-md-6 col-lg-8">
               <a href="callforpapers.php">Call for papers</a> page updated
@@ -75,7 +75,7 @@
           </div>
           <div class="customCardRow row">
             <h6 class="dateTitle col-5 col-md-6 col-lg-4">
-              20 Mar 2045
+              20 Mar <?php echo date("Y"); ?>
             </h6>
             <p class="col-7 col-md-6 col-lg-8">
               Website launched

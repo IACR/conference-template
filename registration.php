@@ -126,8 +126,7 @@
             the conference. Students in under-represented groups are especially
             encouraged to apply. To apply, please ask your PhD supervisor or
             Department Head to email a brief justification to the
-            <a href="contact.php">General Chair</a> <span class="editMe">before
-            the late registration deadline</span>.
+            <a href="contact.php">General Chair</a> before LATE REG DATE.
           </p>
         </section>
       </div>
@@ -154,7 +153,7 @@
             attendees.
           </p>
           <p>
-            All attendees who register after <span class="editMe">DATE</span>
+            All attendees who register after DATE
             will incur a $100 late registration surcharge.
           </p>
           <p>
