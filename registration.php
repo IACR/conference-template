@@ -88,9 +88,9 @@
         <a href="conduct.php">IACR code of conduct</a>.
       </p>
 
-      <div class="row mt-4 mb-3">
+      <div class="row mb-3">
         <section class="col-md-6">
-          <h3 class="pageSubtitle">
+          <h3 class="pageSubtitle mt-4">
             What the Conference Fee Includes
           </h3>
           <p>
@@ -104,15 +104,14 @@
           <p>
             Two conferences are located in <?php echo $META['location'];?> on
             <?php echo $META['dates'];?>. If you are interested in attending
-            both <?php echo $META['shortName'];?> and <span class="editMe">
-            affiliated events</span>, there is a $50 joint registration
+            both <?php echo $META['shortName'];?> and affiliated events, there is a $50 joint registration
             discount ($25 off each conference) for regular registrations.
             Student joint registrations are discounted by $100 ($50 off each
             conference).
           </p>
         </section>
         <section class="col-md-6">
-          <h3 class="pageSubtitle">
+          <h3 class="pageSubtitle mt-4">
             An Important Note for Students
           </h3>
           <p>
@@ -145,9 +144,9 @@
         </aside>
       </div>
 
-      <div class="row mt-5">
+      <div class="row">
         <section class="col-md-6">
-          <h3 class="pageSubtitle">
+          <h3 class="pageSubtitle mt-4">
             Additional Information
           </h3>
           <p>
@@ -167,7 +166,7 @@
           </p>
         </section>
         <section class="col-md-6">
-          <h3 class="pageSubtitle">
+          <h3 class="pageSubtitle mt-4">
             IACR Policy for Proceedings
           </h3>
           <p>
@@ -179,9 +178,9 @@
         </section>
       </div>
 
-      <div class="row mt-4">
+      <div class="row">
         <section class="col-md-6">
-          <h3 class="pageSubtitle">
+          <h3 class="pageSubtitle mt-4">
             Refund Policy
           </h3>
           <p>
@@ -193,7 +192,7 @@
           </p>
         </section>
         <section class="col-md-6">
-          <h3 class="pageSubtitle">
+          <h3 class="pageSubtitle mt-4">
             Housing
           </h3>
           <p>

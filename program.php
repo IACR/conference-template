@@ -40,10 +40,8 @@
       <div class="row">
         <div class="col-12 col-md-6">
           <p class="alert customAlert-cool">
-            <span class="editMe">Links to papers, videos, live sessions, and chat
-              will be added as they become available. Additional social activities
-              may also be added. We encourage you to check the program frequently.
-            </span>
+            Links to papers, videos, and live sessions will be added as they become available. 
+            We encourage you to check the program frequently.
           </p>
         </div>
         <div class="col-12 col-md-6">

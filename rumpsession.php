@@ -63,8 +63,7 @@
             <strong>Time constraints:</strong> 1-5 minutes, 6 minutes if very funny
           </p>
           <p>
-            <strong>Submission deadline:</strong> <span class="editMe">Monday
-            17 August 2020 18:30:00 UTC</span>
+            <strong>Submission deadline:</strong> DATE & TIME
           </p>
         </div>
         <div class="col-md-5">
