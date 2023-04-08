@@ -1,71 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <?php // The header includes the head tag and start of body
-      require "includes/head.php";
-    ?>
-    <meta property="og:title" content="<?php echo $META['shortName'];?> program"/>
-    <meta name="twitter:title" content="<?php echo $META['shortName'];?> program"/>
-    <!-- This allows the referrer field to be sent to links linked from this page. -->
-    <meta name="referrer" content="unsafe-url">
 
-    <title>
-      <?php echo $META['shortName'];?> Program
-    </title>
-    <style>
+<head>
+  <?php // The header includes the head tag and start of body
+  require "includes/head.php";
+  ?>
+  <meta property="og:title" content="<?php echo $META['shortName']; ?> program" />
+  <meta name="twitter:title" content="<?php echo $META['shortName']; ?> program" />
+  <!-- This allows the referrer field to be sent to links linked from this page. -->
+  <meta name="referrer" content="unsafe-url">
 
-      #scrollButtons {
-        width: 2rem;
-        position: sticky;
-        left: 0;
-        bottom: 1.3rem;
-      }
+  <title>
+    <?php echo $META['shortName']; ?> Program
+  </title>
+  <style>
+    #scrollButtons {
+      width: 2rem;
+      position: sticky;
+      left: 0;
+      bottom: 1.3rem;
+    }
 
-      #scrollSessionButton {
-        display: none;
-      }
-      div.userTime {
-        font-size: 80%;
-      }
-    </style>
-  </head>
-  <body>
-    <?php require "includes/nav.php"; ?>
+    #scrollSessionButton {
+      display: none;
+    }
 
-    <main class="container p-4">
-      <h2 class="indPageTitle">
-        Program
-      </h2>
+    div.userTime {
+      font-size: 80%;
+    }
+  </style>
+</head>
 
-      <div class="row">
-        <div class="col-12 col-md-6">
-          <p class="alert customAlert-cool">
-            Links to papers, videos, and live sessions will be added as they become available. 
-            We encourage you to check the program frequently.
-          </p>
-        </div>
-        <div class="col-12 col-md-6">
-          <p class="alert customAlert-cool">
-            Your timezone appears to be <span id="timezone"></span>. Times in
-            the schedule are shown in both Trondheim time and your local timezone.
-          </p>
-        </div>
-        <div id="renderedProgram">
-            <h4 class="text-center">
-              Loading...
-            </h4>
-        </div>
+<body>
+  <?php require "includes/nav.php"; ?>
+
+  <main class="container p-4">
+    <h2 class="indPageTitle">
+      Program
+    </h2>
+
+    <div class="row">
+      <div class="col-12 col-md-6">
+        <p class="alert customAlert-cool">
+          Links to papers, videos, and live sessions will be added as they become available.
+          We encourage you to check the program frequently.
+        </p>
       </div>
-      <div id="scrollButtons">
-        <img alt="Scroll to current session" title="current session" id="scrollSessionButton" onclick="scrollToSession();" src="images/icons/clock.svg">
-        <img alt="Scroll to top" onclick="window.scrollTo({top: 0,left: 0, behavior: 'smooth'})" src="images/icons/arrow-up-circle.svg">
+      <div class="col-12 col-md-6">
+        <p class="alert customAlert-cool">
+          Your timezone appears to be <span id="timezone"></span>. Times in
+          the schedule are shown in both Trondheim time and your local timezone.
+        </p>
       </div>
+      <div id="renderedProgram">
+        <h4 class="text-center">
+          Loading...
+        </h4>
+      </div>
+    </div>
+    <div id="scrollButtons">
+      <img alt="Scroll to current session" title="current session" id="scrollSessionButton" onclick="scrollToSession();" src="images/icons/clock.svg">
+      <img alt="Scroll to top" onclick="window.scrollTo({top: 0,left: 0, behavior: 'smooth'})" src="images/icons/arrow-up-circle.svg">
+    </div>
 
-      <!-- Handlebars script that will render the program template based on the
+    <!-- Handlebars script that will render the program template based on the
       program.json file -->
-      <script id="program-template" type="text/x-handlebars-template">
-        <div role="navigation">
-          <ul class="nav nav-tabs nav-justified days-nav">
+    <script id="program-template" type="text/x-handlebars-template">
+      <div role="navigation">
+          <ul class="nav nav-tabs nav-justified days-nav mb-4">
             {{#each days}}
             <li role="presentation" class="nav-item">
               <a href="#day-{{date}}" class="nav-link">
@@ -78,7 +80,10 @@
         {{#each days}}
         <div class="row" id="day-{{date}}">
           <div class="col-12">
+            {{#if @first}}
+            {{else}}
             <hr />
+            {{/if}}
             <h3 class="pageSubtitle">
               {{{fullDate date}}} ({{@root/config/timezone/shortName}})
             </h3>
@@ -208,35 +213,36 @@
         {{/each}} <!-- end of timeslots -->
         {{/each}} <!-- end of days -->
       </script>
-    </main>
+  </main>
 
-    <?php include "includes/footer.php"; ?>
+  <?php include "includes/footer.php"; ?>
 
-    <!-- Handlebars and Luxon -->
-    <script src="https://iacr.org/libs/js/handlebars/handlebars-v4.1.0.js"></script>
-    <script src="https://iacr.org/libs/js/luxon/luxon.js"></script>
+  <!-- Handlebars and Luxon -->
+  <script src="https://iacr.org/libs/js/handlebars/handlebars-v4.1.0.js"></script>
+  <script src="https://iacr.org/libs/js/luxon/luxon.js"></script>
 
-    <!-- Personal scripts -->
-    <script src="js/tooltips.js"></script>
-    <script src="js/program.js?v=2"></script>
-    <script>
-      var DateTime = luxon.DateTime;
-      let now = DateTime.local();
-      document.getElementById('timezone').innerText = now.zoneName;
-      $(document).ready(function() {
-        var theTemplateScript = $("#program-template").html();
-        var theTemplate = Handlebars.compile(theTemplateScript);
-        // In case the portal crashes, use this line instead: ';
-        <?php
-          if (isset($_GET['badfirewall'])) {
-           echo "       installProgram('currentProgram.php?allplease=yes&v=' + Date.now(), theTemplate, 'renderedProgram');";
-        } else {
-          // echo "installProgram('currentProgram.php?v=' + Date.now(), theTemplate, 'renderedProgram');";
-          echo "installProgram('json/program.json?v=' + Date.now(), theTemplate, 'renderedProgram');";
-        }?>
-      });
-    </script>
+  <!-- Personal scripts -->
+  <script src="js/tooltips.js"></script>
+  <script src="js/program.js?v=2"></script>
+  <script>
+    var DateTime = luxon.DateTime;
+    let now = DateTime.local();
+    document.getElementById('timezone').innerText = now.zoneName;
+    $(document).ready(function() {
+      var theTemplateScript = $("#program-template").html();
+      var theTemplate = Handlebars.compile(theTemplateScript);
+      // In case the portal crashes, use this line instead: ';
+      <?php
+      if (isset($_GET['badfirewall'])) {
+        echo "       installProgram('currentProgram.php?allplease=yes&v=' + Date.now(), theTemplate, 'renderedProgram');";
+      } else {
+        // echo "installProgram('currentProgram.php?v=' + Date.now(), theTemplate, 'renderedProgram');";
+        echo "installProgram('json/program.json?v=' + Date.now(), theTemplate, 'renderedProgram');";
+      } ?>
+    });
+  </script>
 
 
-  </body>
+</body>
+
 </html>

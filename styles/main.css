@@ -452,7 +452,6 @@ div.trackMenu a.nav-link {
     /* sets base bg & border color so nothing too terrible happens with
     changing themes */
     background-color: #F0F0F0;
-    margin-right: .5rem;
     padding-left: 2rem;
     padding-right: 2rem;
     border-color: #E9ECEF #E9ECEF #DE2E6;
@@ -482,6 +481,9 @@ div.trackMenu a.nav-link.active {
         border-top-right-radius: 10px !important;
         border-bottom-left-radius: 0px !important;
         margin-bottom: 0;
+        margin-right: .5rem;
+        padding-left: 1.8rem;
+        padding-right: 1.8rem;
     }
 }
 /* The colors of sessions and tabs could be changed in a theme. */
