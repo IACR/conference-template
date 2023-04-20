@@ -29,8 +29,8 @@ function showDate($key, $title) {
   <?php showDate('submitdate', 'Submission deadline'); ?>
   <?php showDate('firstRound', 'First round notification'); ?>
   <?php showDate('rebuttalDue', 'Rebuttal deadline'); ?>
-  <?php showDate('notificationdate', 'Final Notification'); ?>
-  <?php showDate('finalversions', 'Final versions due'); ?>
+  <?php showDate('finalNotif', 'Final notification'); ?>
+  <?php showDate('finalVers', 'Final versions due'); ?>
   <!-- An example of a custom date not in metadata.json. -->
   <!--
   <div class="customCardRow row">
