@@ -10,40 +10,24 @@
 
   <style>
     div#venuemap {
-      margin-top: 15px;
-      height: 600px;
+      height: 400px;
       width: 100%;
       border: 1px solid #CCC;
     }
 
-    ul.hotel-info {
-      list-style: none;
-      padding: 0;
-      margin: 0;
+    /* NOTE: why Bootstrap doesn't offer an equal column option natively is beyond me */
+    @media (min-width: 768px) {
+      .flex-even {
+        flex: 1;
+      }
     }
 
-    ul.hotel-info li {
-      padding-left: 28px;
-      display: block;
-    }
-
-    ul.hotel-info li:empty {
-      height: 1.2rem;
-    }
-
-    ul.hotel-info li.email {
-      background: url('images/icons/mail.svg') no-repeat left 4px;
-      background-size: 18px;
-    }
-
-    ul.hotel-info li.location {
-      background: url('images/icons/location.svg') no-repeat left 4px;
-      background-size: 18px;
-    }
-
-    ul.hotel-info li.phone {
-      background: url('images/icons/phone.svg') no-repeat left 4px;
-      background-size: 18px;
+    .travelIcon {
+      width: 1.3em;
+      height: 1.3em;
+      filter: invert(16%) sepia(91%) saturate(6408%) hue-rotate(156deg) brightness(92%) contrast(88%);
+      margin-right: 1rem;
+      margin-top: 0.25rem;
     }
   </style>
 
@@ -95,189 +79,142 @@
       </div>
     </div>
 
-    <div id="venuemap">
+    <div id="venuemap" class="mt-2">
     </div>
 
-    <!-- TODO: change the way icons are displayed because yikes, why did
-      you do it this way?!? -->
     <!-- NOTE: below is an example of how additional information could be
       formatted on this page -->
-    <!-- <h3 class="pageSubtitle mt-4">
-        On-Campus Accommodations
-      </h3>
-      <p>
-        On-campus accomodations consist of dormitory rooms (dorms) and a small
-        number of hotel-style rooms at the Club &amp; Guest House. For attendees
-        staying on campus, free shuttle bus service is available between here
-        and the airport. In addition, parking is also available at no cost to
-        attendees who reside on-site. A permit can be requested from the front
-        desk upon arrival.
-      </p>
-      <p>
-        Note that children under the age of 13 cannot stay in on-site
-        accommodations, so those bringing younger children will need to make
-        separate arrangements in one of the nearby hotels.
-      </p>
+    <h3 class="pageSubtitle mt-4">
+      On-Campus Accommodations
+    </h3>
+    <p>
+      We hope we'll have this option.
+    </p>
 
-      <div class="row justify-content-around">
-        <section class="col-lg-4 col-md-6 d-flex flex-column mt-4">
-          <h4 class="subSubtitle text-center">
-            Dormitory rooms
-          </h4>
-          <p>
-            Reasonably priced accommodations are available in the university
-            residence halls (dorms) for conference attendees and their
-            registered guests. These have shared bathrooms for the floor.
-          </p>
-          <p>
-            Once on-site registration is available, there will be a link below.
-          </p>
-          <a href="http://kaymckelly.com" class="btn customBtn-warm btn-block disabled mb-5 mt-auto" role="button">
-            Register for dorms
-          </a>
-        </section>
+    <div class="d-flex flex-wrap flex-md-nowrap justify-content-around justify-content-start-md">
+      <section class="flex-even mt-3 px-md-4">
+        <h4 class="subSubtitle text-center mb-3">
+          Dormitory rooms
+        </h4>
+        <p>
+          Most convenient but not always the poshest.
+        </p>
+        <p>
+          Once plans are finalized, there will be a link below.
+        </p>
+        <a href="https://kaymckelly.com" class="btn customBtn-warm btn-block disabled mb-4 mb-md-0" role="button" target="_blank">
+          Register for dorms
+        </a>
+      </section>
 
-        <section class="col-lg-4 col-md-6 d-flex flex-column mt-4">
-          <h4 class="subSubtitle text-center">
-            Club &amp; Guest House at UC Santa Barbara
-          </h4>
+      <section class="flex-even mt-4 mt-md-3 px-md-4">
+        <h4 class="subSubtitle text-center mb-3">
+          University Campus Hotel
+        </h4>
+        <div class="d-flex">
+          <img src="images/icons/location.svg" class="travelIcon" />
           <address>
-            <ul class="hotel-info">
-              <li class="location">
-                Building 581
-              </li>
-              <li>
-                University of California
-              </li>
-              <li>
-                Santa Barbara, CA 93106
-              </li>
-              <?php // NOTE: this li is used for spacing purposes only 
-              ?>
-              <li></li>
-              <li class="phone">
-                805.893.7781
-              </li>
-              <li class="email">
-                simon.herrera@theclub.ucsb.edu
-              </li>
-            </ul>
+            Somewhere on Earth<br>
+            Probably not in the ocean
           </address>
-          <p>
-            Rates: $100 single/double (Sunday - Thursday). Please note that
-            Friday &amp; Saturday rates may differ.
-          </p>
-          <p>
-            Well-appointed guest rooms all come with lagoon and ocean views and
-            guests enjoy two complimentary deluxe continental breakfasts.
-            Conference meeting locations are within a 5-minute walking distance
-            from The Guest House.
-          </p>
-        </section>
-      </div>
-
-      <h3 class="pageSubtitle mt-4">
-        Off-Campus Accommodations
-      </h3>
-      <p>
-        For those who choose not to stay on-site, the following is a list of
-        hotels that have provided room blocks for
-        <?php echo $META['shortName']; ?>. Note that none of the hotels is
-        walking distance to the venue. Those who choose to stay off-site are
-        responsible for making their own reservations. Early reservations are
-        advised since August is a popular season in Santa Barbara.
-      </p>
-      <aside class="alert customAlert-warm">
-        <img src="images/icons/alert-triangle.svg" class="icon" />
-        All prices are subject to change and do not include tax; prices should
-        be confirmed by calling the hotels directly. Room blocks may be
-        released as early as two months prior to the conference. You must
-        mention Crypto 2020 when you are making your reservations so you will
-        be eligible for any special rates that may be available. Other hotels
-        are available in the area.
-      </aside>
-
-      <div class="row justify-content-around">
-        <section class="col-lg-4 col-md-6 d-flex flex-column mt-4">
-          <h4 class="subSubtitle text-center">
-            Best Western South Coast Inn
-          </h4>
+        </div>
+        <div class="d-flex">
+          <img src="images/icons/phone.svg" class="travelIcon" />
           <address>
-            <ul class="hotel-info">
-              <li class="location">
-                5620 Calle Real
-              </li>
-              <li>
-                Goleta, CA 93117
-              </li>
-              <?php // NOTE: this li is used for spacing purposes only 
-              ?>
-              <li></li>
-              <li class="phone">
-                805.967.3200
-              </li>
-              <li>
-                Fax: 805.683.4466
-              </li>
-            </ul>
+            123.012.9876
           </address>
-          <p>
-            Rates: $177 single/double (Sunday - Thursday). $223 (Friday and
-            Saturday).
-          </p>
-          <p>
-            Five minutes from the University; newly renovated. Breakfast Buffet
-            daily. Complimentary afternoon beverages Monday through Thursday.
-            Free local calls. Refrigerator, coffeemaker, hairdryer and wifi
-            for free internet access in all rooms. Pool and spa. Morning and
-            evening shuttle to UCSB and airport 7:30am to 10:00pm.
-          </p>
-          <a class="btn customBtn-warm btn-block mt-auto" role="button"
-          href="https://www.hotelsone.com/goleta-hotels-us/best-western-plus-south-coast-inn.html">
-            Reservations
-          </a>
-        </section>
-        <section class="col-lg-4 col-md-6 d-flex flex-column mt-4">
-          <h4 class="subSubtitle text-center">
-            Pacifica Suites
-          </h4>
+        </div>
+        <p class="mt-3">
+          Rates: guess ;)
+        </p>
+        <p>
+          Locals don't stay here. Hopefully you won't hear the
+          student parties while you're with us.
+        </p>
+      </section>
+    </div>
+
+    <h3 class="pageSubtitle mt-4">
+      Off-Campus Accommodations
+    </h3>
+    <p>
+      For those who choose not to stay on-site, the following is a list of
+      hotels that have provided room blocks for
+      <?php echo $META['shortName']; ?>. Those who choose to stay off-site are
+      responsible for making their own reservations. Early reservations are
+      advised since August is a popular tourist season for the area.
+    </p>
+    <aside class="alert customAlert-warm">
+      <img src="images/icons/alert-triangle.svg" class="icon" />
+      All prices are subject to change and do not include tax; prices should
+      be confirmed by calling the hotels directly. Room blocks may be
+      released as early as two months prior to the conference. You must
+      mention Crypto 2020 when you are making your reservations so you will
+      be eligible for any special rates that may be available. Other hotels
+      are available in the area.
+    </aside>
+
+    <div class="d-flex flex-wrap flex-md-nowrap justify-content-around justify-content-start-md">
+      <section class="flex-even mt-3 px-md-4">
+        <h4 class="subSubtitle text-center mb-3">
+          Extra Posh Hotel
+        </h4>
+        <div class="d-flex">
+          <img src="images/icons/location.svg" class="travelIcon" />
           <address>
-            <ul class="hotel-info">
-              <li class="location">
-                5490 Hollister Ave
-              </li>
-              <li>
-                Goleta, CA 93111
-              </li>
-              <?php // NOTE: this li is used for spacing purposes only 
-              ?>
-              <li></li>
-              <li class="phone">
-                805.893.6722
-              </li>
-              <li>
-                Fax: 805.683.4121
-              </li>
-            </ul>
+            The fancy downtown area
           </address>
-          <p>
-            Rates: $209 single/double (Sunday - Wednesday). $249 single/double
-            (Thursday, Friday, Saturday).
-          </p>
-          <p>
-            Rate includes up to two complimentary cooked-to-order breakfasts,
-            two rooms, high-speed wireless internet, two TVs, microwave, stereo,
-            refrigerator, pool and hot tub. Complimentary beverages served
-            from 5:00 to 7:00pm. With 24-hour advance notice, will provide
-            shuttle service to and from the Santa Barbara Airport, 8:00am to
-            5:00pm.
-          </p>
-          <a class="btn customBtn-warm btn-block mt-auto" role="button"
-          href="https://www.pacificasuites.com">
-            www.pacificasuites.com
-          </a>
-        </section>
-      </div> -->
+        </div>
+        <div class="d-flex">
+          <img src="images/icons/phone.svg" class="travelIcon" />
+          <address>
+            458.927.0634<br>
+            Fax: 444.127.1212
+          </address>
+        </div>
+        <p class="mt-3">
+          Rates: how much you got?
+        </p>
+        <p>
+          For the most discerning of conference attendees. Free breakfast,
+          wifi, and extra pillows. Even though we can't legally say it,
+          children explicitly unwelcome.
+        </p>
+        <a class="btn customBtn-warm btn-block mb-4 mb-md-0" role="button" href="https://kaymckelly.com" target="_blank">
+          Reservations
+        </a>
+      </section>
+
+      <section class="flex-even mt-4 mt-md-3 px-md-4">
+        <h4 class="subSubtitle text-center mb-3">
+          Acceptable Inn
+        </h4>
+        <div class="d-flex">
+          <img src="images/icons/location.svg" class="travelIcon" />
+          <address>
+            In town
+          </address>
+        </div>
+        <div class="d-flex">
+          <img src="images/icons/phone.svg" class="travelIcon" />
+          <address>
+            413.872.9561
+          </address>
+        </div>
+        <p class="mt-3">
+          Rates: pocket change?
+        </p>
+        <p>
+          Some information on the internet led you to believe this is a
+          reasonable place to stay, and it is. Just don't expect luxury for
+          this price. We expect you to scavenge for breakfast. No mini
+          cereal boxes here!
+        </p>
+        <a class="btn customBtn-warm btn-block mb-4 mb-md-0" role="button" href="https://kaymckelly.com" target="_blank">
+          Reservations
+        </a>
+      </section>
+    </div>
   </main>
 
   <script src="https://iacr.org/libs/js/leafletjs/leaflet-src.js"></script>
@@ -294,34 +231,14 @@
     tiles.addTo(mymap);
 
     var points = [{
-        name: 'Conference Venue: UCSB',
+        name: 'Conference venue',
         longitude: <?php echo $META['longitude']; ?>,
         latitude: <?php echo $META['latitude']; ?>
       },
       {
-        name: 'Santa Barbara Airport',
+        name: 'Airport',
         longitude: 34.424,
         latitude: -119.8365
-      },
-      {
-        name: 'Best Western South Coast Inn',
-        longitude: 34.44197,
-        latitude: -119.8198
-      },
-      {
-        name: 'Pacifica Suites',
-        longitude: 34.436806,
-        latitude: -119.8159
-      },
-      {
-        name: 'The Club &amp; Guest House at UC Santa Barbara',
-        longitude: 34.411853,
-        latitude: -119.851345
-      },
-      {
-        name: 'Dormitory accomodations (various)',
-        longitude: 34.4111,
-        latitude: -119.84423
       }
     ];
 
