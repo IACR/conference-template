@@ -12,7 +12,7 @@ var renderedProgram = null;
 var theTemplate = null;
 // We watch this to determine when parallel tracks should be
 // drawn with tabs.
-var narrowWindow = window.matchMedia("(max-width: 990px)");
+var narrowWindow = window.matchMedia("(max-width: 992px)");
 
 /**
 * Set utc and local starttime and endtime on each session. tz is the IANA timezone name (e.g.,
@@ -95,8 +95,8 @@ function drawProgram() {
     var timeslots = days[i]['timeslots'];
     for (var j = 0; j < timeslots.length; j++) {
       let timeslot = timeslots[j];
-      if (timeslot['sessions'].length > 2 ||
-          (timeslot['sessions'].length == 2 && currentProgram['isNarrow'])) {
+      if (timeslot['sessions'].length > 3 ||
+          (timeslot['sessions'].length >= 2 && currentProgram['isNarrow'])) {
         timeslot['tabbedSessions'] = true;
       } else {
         timeslot['tabbedSessions'] = false;

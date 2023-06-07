@@ -14,9 +14,8 @@
     <?php echo $META['shortName']; ?> Program
   </title>
   <style>
-    /* NOTE: slightly smaller than .lg breakpoint; Kay thought it looked ok down to about here */
     #progContain {
-      @media (min-width: 900px) {
+      @media (min-width: 992px) {
         max-width: 96%;
       }
     }
