@@ -14,6 +14,13 @@
     <?php echo $META['shortName']; ?> Program
   </title>
   <style>
+    /* NOTE: slightly smaller than .lg breakpoint; Kay thought it looked ok down to about here */
+    #progContain {
+      @media (min-width: 900px) {
+        max-width: 96%;
+      }
+    }
+
     #scrollButtons {
       width: 2rem;
       position: sticky;
@@ -34,7 +41,7 @@
 <body>
   <?php require "includes/nav.php"; ?>
 
-  <main class="container p-4">
+  <main id="progContain" class="container p-4">
     <h2 class="indPageTitle">
       Program
     </h2>
