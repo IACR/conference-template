@@ -12,4 +12,4 @@
 </footer>
 
 <script src="https://iacr.org/libs/js/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://iacr.org/libs/css/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="../js/bsBundleMin_stableRel530.js"></script>
