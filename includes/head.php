@@ -37,7 +37,7 @@ function rootPath()
 <meta name="description" content="<?php echo $META['name']; ?>" />
 
 <!-- Generic bootstrap -->
-<link href="<?php echo rootPath(); ?>styles/bsMin_stableRel530.css" rel="stylesheet">
+<link href="https://iacr.org/libs/css/bootstrap/bootstrap-5.3.0-dist/css/bootstrap.min.css" rel="stylesheet">
 
 <!-- Styling -->
 <link rel="stylesheet" href="<?php echo rootPath(); ?>styles/main.css">
