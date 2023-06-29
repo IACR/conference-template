@@ -24,7 +24,7 @@ function showDate($key, $title) {
 ?>
 <article class="customCard">
   <h4 class="customCardHeader">
-    Important Dates
+    Important dates
   </h4>
   <?php showDate('submitdate', 'Submission deadline'); ?>
   <?php showDate('firstRound', 'First round notification'); ?>
@@ -43,8 +43,8 @@ function showDate($key, $title) {
   </div>
   -->
   <?php showDate('startdate', 'Conference begins'); ?>
-  <div class="customCardFooter">
-    <img src="images/icons/alert-triangle.svg" class="icon" /> For further details,
-    consult the <a href="papersubmission.php">paper submission page</a>.
+  <div class="customCardFooter text-start small">
+    <img src="images/icons/info.svg" class="icon" alt="info icon" /> Further details are 
+    available on the <a href="papersubmission.php">paper submission page</a>.
   </div>
 </article>

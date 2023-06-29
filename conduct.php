@@ -56,7 +56,7 @@
         <h4 class="subSubtitle">
           Code-of-Conduct Liaison
         </h4>
-        <p class="text-left">
+        <p class="text-start">
           <a href="https://iacr.org/committees.html">
             NAME & CONTACT
           </a>
@@ -67,7 +67,7 @@
         <h4 class="subSubtitle">
           Ethics Committee
         </h4>
-        <p class="text-left">
+        <p class="text-start">
           <a href="https://iacr.org/committees.html">
             NAME & CONTACT
           </a>
@@ -78,7 +78,7 @@
         <h4 class="subSubtitle">
           IACR President
         </h4>
-        <p class="text-left">
+        <p class="text-start">
           <a href="https://iacr.org/bod.html">
             NAME & CONTACT
           </a>

@@ -14,15 +14,15 @@
   <body>
     <?php require "includes/nav.php"; ?>
 
-    <main class="container p-4">
-      <h2 class="indPageTitle">
+    <main class="container">
+      <h2 class="indPageTitle mt-4">
         Call for Papers
       </h2>
 
       <div class="row">
         <section class="col-lg-8">
           <h3 class="pageSubtitle">
-            General Information
+            General information
           </h3>
           <p>
             <?php echo $META['shortName'];?> will take place in
@@ -48,15 +48,15 @@
             <li>applied aspects of cryptography</li>
           </ul>
         </section>
-        <aside class="col-lg-4 pl-lg-5 text-center">
-          <h3 class="pageSubtitle">
-            How to Submit
+        <aside class="col-lg-4 ps-lg-5 text-center">
+          <h3 class="pageSubtitle mt-4 mt-lg-0">
+            How to submit
           </h3>
           <p class="text-center">
             Author instructions for paper submission may be found on the
             submission page.
           </p>
-          <a href="papersubmission.php" class="btn customBtn-warm btn-block">
+          <a href="papersubmission.php" class="btn customBtn-warm btn-block mb-5 mb-lg-0">
             Submit a paper
           </a>
 
@@ -68,11 +68,11 @@
         </aside>
       </div>
 
-      <div class="row mt-4">
-        <div class="col-lg-6 mt-3 mt-lg-0">
+      <div class="row">
+        <div class="col-lg-7 mt-4">
           <?php require "includes/important_dates.php";?>
         </div>
-        <section class="col-lg-6">
+        <section class="col-lg-5 mt-4">
           <h3 class="pageSubtitle">
             Schedule
           </h3>
@@ -99,9 +99,9 @@
       </div>
 
 
-      <div class="row mt-lg-4">
+      <div class="row">
         <section class="col-md-6">
-          <h3 class="pageSubtitle">
+          <h3 class="pageSubtitle mt-4">
             Awards
           </h3>
           <p>
@@ -116,7 +116,7 @@
           </p>
         </section>
         <section class="col-md-6">
-          <h3 class="pageSubtitle">
+          <h3 class="pageSubtitle mt-4">
             Stipends
           </h3>
           <p>
@@ -132,7 +132,7 @@
       </div>
 
       <h3 class="pageSubtitle mt-4">
-        Program Committee
+        Program committee
       </h3>
 
       <div id="errorBox"></div>
@@ -144,7 +144,7 @@
               <h4 class="subSubtitle">
                 {{name}}
               </h4>
-              <p class="text-left">
+              <p class="text-start">
                 {{affiliation}}
               </p>
             </article>
@@ -155,7 +155,7 @@
       <!-- To add/edit contact information, please edit names and affiliations in
       json/metadata.json -->
       <h3 class="pageSubtitle text-center mt-4">
-        Program Co-Chairs
+        Program co-chairs
       </h3>
 
       <div class="row mt-3 mt-md-4">
@@ -189,7 +189,7 @@
       <!-- To add/edit contact information, please edit names and affiliations in
       json/metadata.json -->
       <h3 class="pageSubtitle text-center mt-4">
-        General Co-Chairs
+        General co-chairs
       </h3>
 
       <div class="row mt-3 mt-md-4">

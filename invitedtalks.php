@@ -46,7 +46,7 @@
       </h3>
       <div class="row">
         <div class="col-12">
-          <img class="img-fluid mb-2 mb-md-0 mt-md-2 ml-md-3 p-2 float-md-right
+          <img class="img-fluid mb-2 mb-md-0 mt-md-2 ms-md-3 p-2 float-md-end
           speakerImg" src="https://asiacrypt.iacr.org/2019/images/Pietrzak.jpg"
           alt="Krzysztof Pietrzak" />
           <h4 class="subSubtitle">
@@ -97,7 +97,7 @@
       </h3>
       <div class="row">
         <div class="col-12">
-          <img class="img-fluid mb-2 mb-md-0 mt-md-2 ml-md-3 p-2 float-md-right
+          <img class="img-fluid mb-2 mb-md-0 mt-md-2 ms-md-3 p-2 float-md-end
           speakerImg" src="https://asiacrypt.iacr.org/2019/images/Shi.png"
           alt="Elaine Shi" />
           <h4 class="subSubtitle">
