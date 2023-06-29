@@ -22,7 +22,7 @@
       <div class="row">
         <section class="col-lg-8">
           <h3 class="pageSubtitle">
-            General Information
+            General information
           </h3>
           <p>
             <?php echo $META['shortName'];?> will take place in
@@ -50,7 +50,7 @@
         </section>
         <aside class="col-lg-4 ps-lg-5 text-center">
           <h3 class="pageSubtitle mt-4 mt-lg-0">
-            How to Submit
+            How to submit
           </h3>
           <p class="text-center">
             Author instructions for paper submission may be found on the
@@ -132,7 +132,7 @@
       </div>
 
       <h3 class="pageSubtitle mt-4">
-        Program Committee
+        Program committee
       </h3>
 
       <div id="errorBox"></div>
@@ -155,7 +155,7 @@
       <!-- To add/edit contact information, please edit names and affiliations in
       json/metadata.json -->
       <h3 class="pageSubtitle text-center mt-4">
-        Program Co-Chairs
+        Program co-chairs
       </h3>
 
       <div class="row mt-3 mt-md-4">
@@ -189,7 +189,7 @@
       <!-- To add/edit contact information, please edit names and affiliations in
       json/metadata.json -->
       <h3 class="pageSubtitle text-center mt-4">
-        General Co-Chairs
+        General co-chairs
       </h3>
 
       <div class="row mt-3 mt-md-4">
