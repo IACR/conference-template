@@ -99,7 +99,7 @@
         <div class="row" id="{{id}}">
           <!-- tabbedSessions is set in program.js if it's narrow or has >2 parallel tracks -->
           {{#if tabbedSessions}}
-          <div class="col-12 col-md-3 pr-0">
+          <div class="col-12 col-md-3 pe-0">
             <p class="timeSlot text-center" title="{{@root/config/timezone/shortName}}: {{../date}} {{starttime}}-{{endtime}}">
               <div class="text-center localTime">
                 {{@root/config/timezone/shortName}}: {{starttime}}-{{endtime}}
@@ -122,7 +122,7 @@
             </p>
           </div>
           {{/if}}
-          <div class="pl-md-0 col-12 col-md-9">
+          <div class="ps-md-0 col-12 col-md-9">
             <div class="{{#if tabbedSessions}}sessionList tab-content pb-3 tabbedSessions{{else}}sessionList d-flex inlineSessions pb-3{{/if}}"
                  {{#if tabbedSessions}}id="ts-{{@../index}}-{{@index}}-tabContent"{{/if}}>
             {{#each sessions}}
@@ -179,7 +179,7 @@
                 <div class="talkAbstract">
                   <a class="toggle-closed" data-toggle="collapse" data-typ="abstract" href="#abstract-{{id}}" role="button" aria-expanded="false" aria-controls="abstract-{{id}}">Show abstract</a>
                 </div>
-                <div id="abstract-{{id}}" class="collapse mb-2 text-left paper-abstract">
+                <div id="abstract-{{id}}" class="collapse mb-2 text-start paper-abstract">
                   {{~abstract~}}
                 </div>
                 {{/if}}

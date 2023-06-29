@@ -197,7 +197,7 @@
     </p>
     <div class="row mt-4">
       <aside class="col-12 text-center">
-        <h3 class="pageSubtitle text-left">
+        <h3 class="pageSubtitle text-start">
           Still Have Questions?
         </h3>
         <h4 class="subSubtitle mt-3">
