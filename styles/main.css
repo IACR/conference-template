@@ -473,7 +473,6 @@ div.trackMenu a.nav-link {
     border-bottom-right-radius: 0px !important;
     border-top-left-radius: 10px !important;
     border-bottom-left-radius: 10px !important;
-    margin-bottom: .5rem;
     font-weight: 600;
     /* sets base bg & border color so nothing too terrible happens with
     changing themes */
@@ -484,6 +483,12 @@ div.trackMenu a.nav-link {
     border-top-left-radius: .6rem;
     border-top-right-radius: .6rem;
     font-weight: 600;
+}
+
+@media (min-width: 768px) {
+  div.trackMenu a.nav-link {
+    margin-bottom: .5rem;
+  }
 }
 
 /* set base bg color for active session tab; this may be changed in themes to
@@ -507,11 +512,12 @@ div.trackMenu a.nav-link.active {
         border-top-right-radius: 10px !important;
         border-bottom-left-radius: 0px !important;
         margin-bottom: 0;
-        margin-right: .5rem;
-        padding-left: 1.8rem;
-        padding-right: 1.8rem;
+        margin-right: .6rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
     }
 }
+
 /* The colors of sessions and tabs could be changed in a theme. */
 div.sessionList div.session {
   border-radius: .3rem;
