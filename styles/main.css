@@ -346,37 +346,6 @@ a.dropdown-item {
 
 
 
-/***** Page-specific: registration *****/
-#regTable {
-  border: 1px solid rgba(15, 119, 60, 0.2);
-  border-radius: 15px;
-}
-
-#regTopRow {
-  border-bottom: 1px solid rgba(15, 119, 60, 0.2);
-}
-
-#regBodyRow {
-  padding-top: 10px;
-}
-
-p.regTitle {
-  font-weight: bold;
-  padding-top: 8px;
-  text-align: center;
-}
-
-p.regBodyText {
-  text-align: left;
-}
-
-p.priceText {
-  text-align: center;
-}
-
-
-
-
 /***** Page-specific: program *****/
 /*NOTE: remove once finalized that vertical alignment for times is unnecessary*/
 /*.verticalAlign {
@@ -473,7 +442,6 @@ div.trackMenu a.nav-link {
     border-bottom-right-radius: 0px !important;
     border-top-left-radius: 10px !important;
     border-bottom-left-radius: 10px !important;
-    margin-bottom: .5rem;
     font-weight: 600;
     /* sets base bg & border color so nothing too terrible happens with
     changing themes */
@@ -484,6 +452,12 @@ div.trackMenu a.nav-link {
     border-top-left-radius: .6rem;
     border-top-right-radius: .6rem;
     font-weight: 600;
+}
+
+@media (min-width: 768px) {
+  div.trackMenu a.nav-link {
+    margin-bottom: .5rem;
+  }
 }
 
 /* set base bg color for active session tab; this may be changed in themes to
@@ -507,11 +481,12 @@ div.trackMenu a.nav-link.active {
         border-top-right-radius: 10px !important;
         border-bottom-left-radius: 0px !important;
         margin-bottom: 0;
-        margin-right: .5rem;
-        padding-left: 1.8rem;
-        padding-right: 1.8rem;
+        margin-right: .6rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
     }
 }
+
 /* The colors of sessions and tabs could be changed in a theme. */
 div.sessionList div.session {
   border-radius: .3rem;
@@ -574,6 +549,64 @@ ul.days-nav .nav-link {
 ul.nav .nav-link:hover, div.dropdown-menu.calendar {
     background-color: #EEE;
 }
+
+
+
+/***** Page-specific: registration *****/
+#regTable {
+  padding: 0.5rem 2rem;
+
+  /* NOTE: if you prefer a registration table with fewer borders, comment out all lines below (make sure to leave the note lines 
+  commented out) */
+  border-top: 1px solid rgba(15, 119, 60, 0.2);
+  border-right: 1px solid rgba(15, 119, 60, 0.2);
+  border-left: 1px solid rgba(15, 119, 60, 0.2);
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+
+  /* NOTE: if using #regFoot comment out next three lines */
+  /* border-bottom: 1px solid rgba(15, 119, 60, 0.2);
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px; */
+}
+
+#regTopRow {
+  border-bottom: 1px solid rgba(15, 119, 60, 0.2);
+}
+
+#regBodyRow {
+  padding-top: 1rem;
+}
+
+.regTitle {
+  /* font-weight: bold; */
+  padding-top: 0.5rem;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+p.regBodyText {
+  text-align: left;
+}
+
+p.priceText {
+  text-align: center;
+}
+
+#regFoot {
+  background-color: rgba(15, 119, 60, 0.1);
+  /* NOTE: if using a rounded border, uncomment the following two lines */
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+#regFoot p {
+  margin-bottom: 0 !important;
+}
+
 
 
 /***** Page-specific: sponsors *****/

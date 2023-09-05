@@ -55,10 +55,10 @@
       <div class="col-12 col-md-6">
         <p class="alert customAlert-cool">
           Your timezone appears to be <span id="timezone"></span>. Times in
-          the schedule are shown in both Trondheim time and your local timezone.
+          the schedule are shown in both <?php echo $META['city']; ?> time and your local timezone.
         </p>
       </div>
-      <div id="renderedProgram">
+      <div id="renderedProgram" class="px-2 px-md-3 px-xl-4">
         <h4 class="text-center">
           Loading...
         </h4>
