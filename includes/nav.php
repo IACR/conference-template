@@ -48,17 +48,21 @@
               <!-- <a class="dropdown-item" href="<?php echo rootPath() . 'program.php' ?>">
                 Main program
               </a> -->
-              <!-- <a class="dropdown-item" href="<?php echo rootPath() . 'acceptedpapers.php' ?>">
-                Accepted papers
-              </a>
-              <a class="dropdown-item" href="<?php echo rootPath() . 'affiliated.php' ?>">
+              <!-- <a class="dropdown-item" href="<?php echo rootPath() . 'awards.php' ?>">
+                Awards
+              </a> -->
+              <!-- <a class="dropdown-item" href="<?php echo rootPath() . 'affiliated.php' ?>">
                 Affiliated events
-              </a>
-              <a class="dropdown-item" href="<?php echo rootPath() . 'invitedtalks.php' ?>">
+              </a> -->
+              <!-- <a class="dropdown-item" href="<?php echo rootPath() . 'invitedtalks.php' ?>">
                 Invited talks
               </a>
               <a class="dropdown-item" href="<?php echo rootPath() . 'rumpsession.php' ?>">
                 Rump session
+              </a> -->
+              <!-- <hr>
+              <a class="dropdown-item" href="<?php echo rootPath() . 'acceptedpapers.php' ?>">
+                Accepted papers
               </a> -->
               <a class="dropdown-item" href="<?php echo rootPath() . 'callforpapers.php' ?>">
                 Call for papers
@@ -69,39 +73,53 @@
             </div>
           </li>
           <!-- <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false" href="#">
+            <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">
               Attend
             </a>
-            <div class="dropdown-menu mx-md-3 mx-lg-5">
-              <a class="dropdown-item" href="<?php echo rootPath() . 'registration.php' ?>">
+            <div class="dropdown-menu mx-md-3 mx-lg-5"> -->
+          <!-- <a class="dropdown-item" href="<?php echo rootPath() . 'registration.php' ?>">
                 Registration
               </a> -->
           <!-- <a class="dropdown-item" href="<?php echo rootPath() . 'travel.php' ?>">
-                Venue & travel
-              </a>
-              <a class="dropdown-item" href="<?php echo rootPath() . 'visas.php' ?>">
-                Visas
-              </a> -->
-          <!-- <a class="dropdown-item" href="<?php echo rootPath() . 'conduct.php' ?>">
-                Code of conduct
-              </a>
-            </div>
-          </li> -->
-          <li class="nav-item">
-            <a class="nav-link" href="<?php echo rootPath() . 'sponsors.php' ?>">
-              Sponsors
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="<?php echo rootPath() . 'contact.php' ?>">
-              Contact
-            </a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+            Venue & travel
+          </a> -->
+          <!-- <a class="dropdown-item" href="<?php echo rootPath() . 'accommodations.php' ?>">
+            Accommodations
+          </a>
+          <a class="dropdown-item" href="<?php echo rootPath() . 'tourism.php' ?>">
+            Tourism
+          </a> -->
+          <!-- <a class="dropdown-item" href="<?php echo rootPath() . 'support.php' ?>">
+            Financial support
+          </a>
+          <a class="dropdown-item" href="<?php echo rootPath() . 'visas.php' ?>">
+            Visas
+          </a> -->
+          <!-- <a class="dropdown-item" href="<?php echo rootPath() . 'virtual.php' ?>">
+            Remote attendance
+          </a>
+          <a class="dropdown-item" href="<?php echo rootPath() . 'swag.php' ?>">
+            Swag
+          </a>
+          <a class="dropdown-item" href="<?php echo rootPath() . 'conduct.php' ?>">
+            Code of conduct
+          </a> -->
+      <!-- </div>
+      </li> -->
+      <li class="nav-item">
+        <a class="nav-link" href="<?php echo rootPath() . 'sponsors.php' ?>">
+          Sponsors
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="<?php echo rootPath() . 'contact.php' ?>">
+          Contact
+        </a>
+      </li>
+      </ul>
   </div>
+  </nav>
+</div>
 </div>
 <!-- END OF nav -->
 
