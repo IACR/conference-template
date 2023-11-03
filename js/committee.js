@@ -14,9 +14,12 @@ $(document).ready(function() {
       var theTemplateScript = $("#area-chair").html()
 			var theTemplate = Handlebars.compile(theTemplateScript)
 			var theCompiledHtml = theTemplate(data)
-			$("#areaChairs").html(theCompiledHtml)
+			$("#areaChair").html(theCompiledHtml)
 
-      // role type artifact chair
+      var theTemplateScript = $("#artifact-chair").html()
+			var theTemplate = Handlebars.compile(theTemplateScript)
+			var theCompiledHtml = theTemplate(data)
+			$("#artifactChair").html(theCompiledHtml)
     },
     error: function(jqxhr, textStatus, error) {
       console.dir(jqxhr);

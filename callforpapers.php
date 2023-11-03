@@ -155,7 +155,7 @@
       </script>
     </div>
 
-    <div id="areaChairs" class="row">
+    <div id="areaChair" class="row">
       <script id="area-chair" type="text/x-handlebars-template">
         {{#if area_chairs}}
           <h3 class="pageSubtitle mt-4">
@@ -175,25 +175,25 @@
       </script>
     </div>
 
-    {{#if artifact_chairs}}
-      <h3 class="pageSubtitle mt-4">
-        Artifact chairs
-      </h3>
-      <div id="artifactChairs" class="row">
-        <script id="artifact-chairs" type="text/x-handlebars-template">
-          {{#each artifact_chairs}}
-            <article class="col-12 col-sm-6 col-md-4 col-xl-3 my-2">
-              <h4 class="subSubtitle">
-                {{name}}
-              </h4>
-              <p class="text-start">
-                {{affiliation}}
-              </p>
-            </article>
-          {{/each}}
-        </script>
-      </div>
-    {{/if}}
+    <div id="artifactChair" class="row">
+      <script id="artifact-chair" type="text/x-handlebars-template">
+        {{#if artifact_chairs}}
+          <h3 class="pageSubtitle mt-4">
+            Artifact chair
+          </h3>
+        {{/if}}
+        {{#each artifact_chairs}}
+          <article class="col-12 col-sm-6 col-md-4 col-xl-3 my-2">
+            <h4 class="subSubtitle">
+              {{name}}
+            </h4>
+            <p class="text-start">
+              {{affiliation}}
+            </p>
+          </article>
+        {{/each}}
+      </script>
+    </div>
 
     <!-- To add/edit contact information, please edit names and affiliations in
       json/metadata.json -->
