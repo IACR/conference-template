@@ -161,17 +161,17 @@
           <h3 class="pageSubtitle mt-4">
             Area chairs
           </h3>
+          {{#each area_chairs}}
+            <article class="col-12 col-sm-6 col-md-4 col-xl-3 my-2">
+              <h4 class="subSubtitle">
+                {{name}}
+              </h4>
+              <p class="text-start">
+                {{affiliation}}
+              </p>
+            </article>
+          {{/each}}
         {{/if}}
-        {{#each area_chairs}}
-          <article class="col-12 col-sm-6 col-md-4 col-xl-3 my-2">
-            <h4 class="subSubtitle">
-              {{name}}
-            </h4>
-            <p class="text-start">
-              {{affiliation}}
-            </p>
-          </article>
-        {{/each}}
       </script>
     </div>
 
@@ -181,17 +181,17 @@
           <h3 class="pageSubtitle mt-4">
             Artifact chair
           </h3>
+          {{#each artifact_chairs}}
+            <article class="col-12 col-sm-6 col-md-4 col-xl-3 my-2">
+              <h4 class="subSubtitle">
+                {{name}}
+              </h4>
+              <p class="text-start">
+                {{affiliation}}
+              </p>
+            </article>
+          {{/each}}
         {{/if}}
-        {{#each artifact_chairs}}
-          <article class="col-12 col-sm-6 col-md-4 col-xl-3 my-2">
-            <h4 class="subSubtitle">
-              {{name}}
-            </h4>
-            <p class="text-start">
-              {{affiliation}}
-            </p>
-          </article>
-        {{/each}}
       </script>
     </div>
 
