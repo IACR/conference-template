@@ -10,6 +10,13 @@ $(document).ready(function() {
       var theTemplate = Handlebars.compile(theTemplateScript);
       var theCompiledHtml = theTemplate(data);
       $('#committee').html(theCompiledHtml);
+
+      var theTemplateScript = $("#area-chair").html()
+			var theTemplate = Handlebars.compile(theTemplateScript)
+			var theCompiledHtml = theTemplate(data)
+			$("#areaChairs").html(theCompiledHtml)
+
+      // role type artifact chair
     },
     error: function(jqxhr, textStatus, error) {
       console.dir(jqxhr);
