@@ -10,6 +10,16 @@ $(document).ready(function() {
       var theTemplate = Handlebars.compile(theTemplateScript);
       var theCompiledHtml = theTemplate(data);
       $('#committee').html(theCompiledHtml);
+
+      var theTemplateScript = $("#area-chair").html()
+			var theTemplate = Handlebars.compile(theTemplateScript)
+			var theCompiledHtml = theTemplate(data)
+			$("#areaChair").html(theCompiledHtml)
+
+      var theTemplateScript = $("#artifact-chair").html()
+			var theTemplate = Handlebars.compile(theTemplateScript)
+			var theCompiledHtml = theTemplate(data)
+			$("#artifactChair").html(theCompiledHtml)
     },
     error: function(jqxhr, textStatus, error) {
       console.dir(jqxhr);
