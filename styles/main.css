@@ -20,12 +20,9 @@ main {
   }
 }
 
-p {
-  text-align: justify;
-}
-
 a {
   color: #0F773C;
+  text-decoration: none;
 }
 
 a:hover {

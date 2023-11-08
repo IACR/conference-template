@@ -48,8 +48,8 @@
       <a href="program.php" class="btn customBtn-warm btn-lg px-lg-5 mb-3 mb-lg-4">
         Conference program
       </a>
-      <a href="swag.php" class="btn customBtn-warm btn-lg px-lg-5 mb-3 mb-lg-4">
-        Want swag?
+      <a href="rumpsession.php" class="btn customBtn-warm btn-lg px-lg-5 mb-3 mb-lg-4">
+        Rump session
       </a>
     </div> -->
 
@@ -58,21 +58,20 @@
         <?php require "includes/important_dates.php"; ?>
       </div>
 
-      <!-- NOTE: Update this to add a row at the top as you add features to
-        the site. -->
       <div class="col-md-6 mt-4 mt-md-0">
         <article class="customCard">
           <h4 class="customCardHeader">
             Website updates
           </h4>
-          <div class="customCardRow row">
+          <!-- NOTE: copy the commented-out block below to add a row to announce when you add new info to the site -->
+          <!-- <div class="customCardRow row">
             <h6 class="dateTitle col-5 col-md-6 col-lg-4">
-              28 Mar 202X
+              # MONTH 202X
             </h6>
             <p class="col-7 col-md-6 col-lg-8">
-              <a href="callforpapers.php">Call for papers</a> page updated
+              Some sort of update
             </p>
-          </div>
+          </div> -->
           <div class="customCardRow row">
             <h6 class="dateTitle col-5 col-md-6 col-lg-4">
               20 Mar 202X
