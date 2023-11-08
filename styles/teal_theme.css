@@ -128,9 +128,18 @@ a:hover {
   background-color: rgba(203, 131, 30, 0.4);
 }
 
+.customBtn-warm:hover {
+  background-color: rgba(203, 131, 30, 0.6);
+}
+
 .customBtn-cool {
+  background-color: rgba(4, 101, 119, 0.4);
+  color: #0A0C0D;
+}
+
+.customBtn-cool:hover {
   background-color: rgba(4, 101, 119, 0.6);
-  color: #FEFDFB;
+  color: #0A0C0D;
 }
 
 code {
