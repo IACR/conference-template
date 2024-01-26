@@ -169,8 +169,8 @@
                 </div>
                 {{#if affiliations}}
                 <small class="trackDescr">
-                    <small class="font-italic affiliation">{{{affiliations}}}</small><br>
-                </small>
+                    <span class="font-italic affiliation">{{{affiliations}}}</span>
+                </small><br>
                 {{/if}}
                 {{#if speakers}}
                    <p class="trackDescr">Speaker(s): {{speakers}}{{#if attendance}} ({{attendance}}){{/if}}</p>
