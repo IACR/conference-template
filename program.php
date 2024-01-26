@@ -160,7 +160,7 @@
                 {{/if}}
                 </p>
                 {{# if talkNote}}
-                <p class="mb-0">{{talkNote}}</p>
+                <small class="font-weight-light">{{talkNote}}</small>
                 {{/if}}
                 <div class="authorList">
                   {{#each authors}}
