@@ -1,3 +1,9 @@
+<!-- stop nasty flash when dark mode loads -->
+<!-- <script>
+  const theme = localStorage.getItem('theme') || 'light';
+  document.documentElement.dataset.appliedMode = theme;
+</script> -->
+
 <!-- BEGIN nav -->
 <div id="pageTop">
   <header id="conf_id" class="headerImg">
@@ -33,18 +39,18 @@
         <span class="icon-bar middle-bar"></span>
         <span class="icon-bar bottom-bar"></span>
       </button>
-      <div class="collapse navbar-collapse justify-content-md-center" id="navbarNav">
+      <div class="collapse navbar-collapse " id="navbarNav">
         <ul id="nav-ul" class="navbar-nav">
           <li class="nav-item mt-4 mt-md-0">
             <a class="nav-link" href="<?php echo rootPath(); ?>">
               Home
             </a>
           </li>
-          <li class="nav-item dropdown">
+          <li class="nav-item">
             <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">
-              Technical Program
+              Technical program
             </a>
-            <div class="dropdown-menu mx-md-3 mx-lg-5">
+            <div class="dropdown-menu mx-md-3 mx-lg-4 mx-xl-5">
               <!-- <a class="dropdown-item" href="<?php echo rootPath() . 'program.php' ?>">
                 Main program
               </a> -->
@@ -76,50 +82,63 @@
             <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">
               Attend
             </a>
-            <div class="dropdown-menu mx-md-3 mx-lg-5"> -->
-          <!-- <a class="dropdown-item" href="<?php echo rootPath() . 'registration.php' ?>">
+            <div class="dropdown-menu mx-md-3 mx-lg-4 mx-xl-5">
+              <a class="dropdown-item" href="<?php echo rootPath() . 'registration.php' ?>">
                 Registration
-              </a> -->
-          <!-- <a class="dropdown-item" href="<?php echo rootPath() . 'travel.php' ?>">
-            Venue & travel
-          </a> -->
-          <!-- <a class="dropdown-item" href="<?php echo rootPath() . 'accommodations.php' ?>">
-            Accommodations
-          </a>
-          <a class="dropdown-item" href="<?php echo rootPath() . 'tourism.php' ?>">
-            Tourism
-          </a> -->
-          <!-- <a class="dropdown-item" href="<?php echo rootPath() . 'support.php' ?>">
-            Financial support
-          </a>
-          <a class="dropdown-item" href="<?php echo rootPath() . 'visas.php' ?>">
-            Visas
-          </a> -->
-          <!-- <a class="dropdown-item" href="<?php echo rootPath() . 'virtual.php' ?>">
-            Remote attendance
-          </a>
-          <a class="dropdown-item" href="<?php echo rootPath() . 'swag.php' ?>">
-            Swag
-          </a>
-          <a class="dropdown-item" href="<?php echo rootPath() . 'conduct.php' ?>">
-            Code of conduct
-          </a> -->
-      <!-- </div>
-      </li> -->
-      <li class="nav-item">
-        <a class="nav-link" href="<?php echo rootPath() . 'sponsors.php' ?>">
-          Sponsors
-        </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="<?php echo rootPath() . 'contact.php' ?>">
-          Contact
-        </a>
-      </li>
-      </ul>
+              </a>
+              <a class="dropdown-item" href="<?php echo rootPath() . 'travel.php' ?>">
+                Venue & travel
+              </a>
+              <a class="dropdown-item" href="<?php echo rootPath() . 'accommodations.php' ?>">
+                Accommodations
+              </a>
+              <a class="dropdown-item" href="<?php echo rootPath() . 'tourism.php' ?>">
+                Tourism
+              </a>
+              <a class="dropdown-item" href="<?php echo rootPath() . 'support.php' ?>">
+                Financial support
+              </a>
+              <a class="dropdown-item" href="<?php echo rootPath() . 'visas.php' ?>">
+                Visas
+              </a>
+              <a class="dropdown-item" href="<?php echo rootPath() . 'virtual.php' ?>">
+                Remote attendance
+              </a>
+              <a class="dropdown-item" href="<?php echo rootPath() . 'swag.php' ?>">
+                Swag
+              </a>
+              <a class="dropdown-item" href="<?php echo rootPath() . 'conduct.php' ?>">
+                Code of conduct
+              </a>
+            </div>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link" href="<?php echo rootPath() . 'sponsors.php' ?>">
+              Sponsors
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="<?php echo rootPath() . 'contact.php' ?>">
+              Contact
+            </a>
+          </li>
+          <li id="colorModes" class="nav-item dropdown color-modes" data-bs-theme="light">
+            <a id="lightDark" class="nav-link" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#" data-bs-display="static">
+              <img src="../images/icons/modePicker.svg" class="navbarIcon" alt="mode picker">
+            </a>
+            <div class="dropdown-menu mx-md-3 mx-lg-4 mx-xl-5" aria-labelledby="lightDark">
+              <a class="dropdown-item" href="#" data-bs-theme-value="dark">
+                <img src="../images/icons/dark.svg" class="navbarIcon" alt="dark mode"> Dark
+              </a>
+              <a class="dropdown-item" href="#" data-bs-theme-value="light">
+                <img src="../images/icons/light.svg" class="navbarIcon" alt="light mode"> Light
+              </a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
   </div>
-  </nav>
-</div>
 </div>
 <!-- END OF nav -->
 
