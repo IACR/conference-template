@@ -160,7 +160,7 @@
                 {{/if}}
                 </p>
                 {{# if talkNote}}
-                <p class="mb-0">{{talkNote}}</p>
+                <small class="font-weight-light">{{talkNote}}</small>
                 {{/if}}
                 <div class="authorList">
                   {{#each authors}}
@@ -169,8 +169,8 @@
                 </div>
                 {{#if affiliations}}
                 <small class="trackDescr">
-                      <span class="font-italic affiliation">{{{affiliations}}}</span>
-                </small>
+                    <span class="font-italic affiliation">{{{affiliations}}}</span>
+                </small><br>
                 {{/if}}
                 {{#if speakers}}
                    <p class="trackDescr">Speaker(s): {{speakers}}{{#if attendance}} ({{attendance}}){{/if}}</p>

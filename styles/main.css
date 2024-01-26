@@ -475,7 +475,13 @@ div.dropdown-menu.calendar a {
 }
 
 div.sessionList {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 769px) {
+  div.sessionList {
+    margin-top: 1rem;
+  }
 }
 
 /* tabbed sessions use this */
