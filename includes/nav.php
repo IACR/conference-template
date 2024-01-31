@@ -122,7 +122,7 @@
               Contact
             </a>
           </li>
-          <!-- <li class="nav-item dropdown color-modes">
+          <li class="nav-item dropdown color-modes">
             <a class="nav-link" id="bd-theme" type="button" aria-expanded="false" data-bs-toggle="dropdown" data-bs-display="static">
               <svg class="bi my-1 theme-icon-active">
                 <use href="#circle-half"></use>
@@ -164,7 +164,7 @@
                 </button>
               </li>
             </ul>
-          </li> -->
+          </li>
         </ul>
       </div>
     </nav>
