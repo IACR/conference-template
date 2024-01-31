@@ -42,7 +42,7 @@ function rootPath()
 <!-- Styling -->
 <link rel="stylesheet" href="<?php echo rootPath(); ?>styles/main.css">
 <link id="style" rel="stylesheet" href="<?php echo rootPath(); ?>styles/orange_theme.css">
-<script type="module" src="js/color-modes.js"></script>
+<script type="module" src="<?php echo rootPath(); ?>js/color-modes.js"></script>
 <!-- metadata for googlebot -->
 <script type="application/ld+json">
   {

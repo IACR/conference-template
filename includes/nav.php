@@ -122,7 +122,50 @@
               Contact
             </a>
           </li>
-          <li id="colorModes" class="nav-item dropdown color-modes" data-bs-theme="light">
+          <li class="nav-item dropdown color-modes">
+            <a class="nav-link dropdown-toggle" id="bd-theme" type="button" aria-expanded="false" data-bs-toggle="dropdown" data-bs-display="static">
+              <svg class="bi my-1 me-2 theme-icon-active">
+                <use href="#circle-half"></use>
+              </svg>
+              <span id="bd-theme-text"></span>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="bd-theme" style="--bs-dropdown-min-width: 8rem;">
+              <li>
+                <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light">
+                  <svg class="bi me-2 opacity-50 theme-icon">
+                    <use href="#sun-fill"></use>
+                  </svg>
+                  Light
+                  <svg class="bi ms-auto d-none">
+                    <use href="#check2"></use>
+                  </svg>
+                </button>
+              </li>
+              <li>
+                <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark">
+                  <svg class="bi me-2 opacity-50 theme-icon">
+                    <use href="#moon-stars-fill"></use>
+                  </svg>
+                  Dark
+                  <svg class="bi ms-auto d-none">
+                    <use href="#check2"></use>
+                  </svg>
+                </button>
+              </li>
+              <li>
+                <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto">
+                  <svg class="bi me-2 opacity-50 theme-icon">
+                    <use href="#circle-half"></use>
+                  </svg>
+                  Auto
+                  <svg class="bi ms-auto d-none">
+                    <use href="#check2"></use>
+                  </svg>
+                </button>
+              </li>
+            </ul>
+          </li>
+          <!-- <li id="colorModes" class="nav-item dropdown color-modes" data-bs-theme="light">
             <a id="lightDark" class="nav-link" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#" data-bs-display="static">
               <img src="../images/icons/modePicker.svg" class="navbarIcon" alt="mode picker">
             </a>
@@ -134,7 +177,7 @@
                 <img src="../images/icons/light.svg" class="navbarIcon" alt="light mode"> Light
               </a>
             </div>
-          </li>
+          </li> -->
         </ul>
       </div>
     </nav>
