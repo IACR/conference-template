@@ -78,7 +78,7 @@
               </a> -->
             </div>
           </li>
-          <!-- <li class="nav-item dropdown">
+          <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">
               Attend
             </a>
@@ -111,7 +111,7 @@
                 Code of conduct
               </a>
             </div>
-          </li> -->
+          </li>
           <li class="nav-item">
             <a class="nav-link" href="<?php echo rootPath() . 'sponsors.php' ?>">
               Sponsors
@@ -122,9 +122,9 @@
               Contact
             </a>
           </li>
-          <li class="nav-item dropdown color-modes">
-            <a class="nav-link dropdown-toggle" id="bd-theme" type="button" aria-expanded="false" data-bs-toggle="dropdown" data-bs-display="static">
-              <svg class="bi my-1 me-2 theme-icon-active">
+          <!-- <li class="nav-item dropdown color-modes">
+            <a class="nav-link" id="bd-theme" type="button" aria-expanded="false" data-bs-toggle="dropdown" data-bs-display="static">
+              <svg class="bi my-1 theme-icon-active">
                 <use href="#circle-half"></use>
               </svg>
               <span id="bd-theme-text"></span>
@@ -164,19 +164,6 @@
                 </button>
               </li>
             </ul>
-          </li>
-          <!-- <li id="colorModes" class="nav-item dropdown color-modes" data-bs-theme="light">
-            <a id="lightDark" class="nav-link" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#" data-bs-display="static">
-              <img src="../images/icons/modePicker.svg" class="navbarIcon" alt="mode picker">
-            </a>
-            <div class="dropdown-menu mx-md-3 mx-lg-4 mx-xl-5" aria-labelledby="lightDark">
-              <a class="dropdown-item" href="#" data-bs-theme-value="dark">
-                <img src="../images/icons/dark.svg" class="navbarIcon" alt="dark mode"> Dark
-              </a>
-              <a class="dropdown-item" href="#" data-bs-theme-value="light">
-                <img src="../images/icons/light.svg" class="navbarIcon" alt="light mode"> Light
-              </a>
-            </div>
           </li> -->
         </ul>
       </div>
