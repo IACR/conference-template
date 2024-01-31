@@ -78,7 +78,7 @@
               </a> -->
             </div>
           </li>
-          <li class="nav-item dropdown">
+          <!-- <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">
               Attend
             </a>
@@ -111,7 +111,7 @@
                 Code of conduct
               </a>
             </div>
-          </li>
+          </li> -->
           <li class="nav-item">
             <a class="nav-link" href="<?php echo rootPath() . 'sponsors.php' ?>">
               Sponsors
