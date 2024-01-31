@@ -93,6 +93,7 @@ a:hover {
 div.dropdown-menu {
   color: #FEFDFB;
   background-color: #102A83;
+  border: none;
 }
 
 a.dropdown-item {
@@ -121,11 +122,16 @@ a.dropdown-item {
   }
 }
 
-/* Hamburger transform to x */
+/* prevents bootstrap from adding stupid ugly stuff to hamburger */
 .nofocus:focus {
-  outline: none !important;
+  box-shadow: none;
 }
 
+.navbar-nav .nav-link.show {
+  color: #FEFDFB;
+}
+
+/* Hamburger transform to x */
 .icon-bar {
   width: 29px;
   height: 2px;
