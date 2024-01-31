@@ -28,12 +28,12 @@
   </header>
   <div id="main-nav-row" class="sticky-top">
     <nav class="container navbar navbar-expand-md">
-      <button class="navbar-toggler mt-1 collapsed nofocus" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler mt-1 collapsed nofocus" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="icon-bar top-bar"></span>
         <span class="icon-bar middle-bar"></span>
         <span class="icon-bar bottom-bar"></span>
       </button>
-      <div class="collapse navbar-collapse justify-content-md-center" id="navbarNav">
+      <div class="collapse navbar-collapse ms-4 ms-md-0 justify-content-md-center" id="navbarNav">
         <ul id="nav-ul" class="navbar-nav">
           <li class="nav-item mt-4 mt-md-0">
             <a class="nav-link" href="<?php echo rootPath(); ?>">
@@ -41,7 +41,7 @@
             </a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">
+            <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">
               Technical Program
             </a>
             <div class="dropdown-menu mx-md-3 mx-lg-5">
@@ -73,7 +73,7 @@
             </div>
           </li>
           <!-- <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">
+            <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">
               Attend
             </a>
             <div class="dropdown-menu mx-md-3 mx-lg-5"> -->
