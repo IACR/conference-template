@@ -21,7 +21,7 @@ body {
 }
 
 main {
-  background-color: #ffffff;
+  background-color: #fff;
   /* emulate mt-3 */
   margin-top: 1rem;
 }
@@ -117,7 +117,7 @@ a.dropdown-item {
   /* Fix for dropdown hover. Without this there is a .125rem gap
      that causes hover to stop working. */
   #navbarNav div.dropdown-menu {
-    margin-top: 0px;
+    margin-top: 0;
     padding-top: .625rem;
   }
 }
@@ -492,8 +492,8 @@ div.sessionList {
 
 /* tabbed sessions use this */
 div.trackMenu a.nav-link {
-    border-top-right-radius: 0px !important;
-    border-bottom-right-radius: 0px !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
     border-top-left-radius: 10px !important;
     border-bottom-left-radius: 10px !important;
     font-weight: 600;
@@ -502,10 +502,10 @@ div.trackMenu a.nav-link {
     background-color: #F0F0F0;
     padding-left: 2rem;
     padding-right: 2rem;
-    border-color: #E9ECEF #E9ECEF #DE2E6;
-    border-top-left-radius: .6rem;
+    border-color: #E9ECEF #E9ECEF;
+    /* border-top-left-radius: .6rem;
     border-top-right-radius: .6rem;
-    font-weight: 600;
+    font-weight: 600; */
 }
 
 @media (min-width: 768px) {
@@ -533,7 +533,7 @@ div.trackMenu a.nav-link.active {
 @media (max-width: 767px) {
     div.trackMenu a.nav-link {
         border-top-right-radius: 10px !important;
-        border-bottom-left-radius: 0px !important;
+        border-bottom-left-radius: 0 !important;
         margin-bottom: 0;
         margin-right: .6rem;
         padding-left: 1.5rem;
