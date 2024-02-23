@@ -203,7 +203,7 @@
         as a COI.
       </p>
 
-      <div class="row text-justify">
+      <div class="row">
         <div class="col-lg-4 mb-3 mb-lg-1">
           <small>
             <sup>1</sup> Reviewers include program committee members for

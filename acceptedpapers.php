@@ -49,7 +49,7 @@
           <p>
             {{authors}}
             <br>
-            <small class="font-italic">{{affiliations}}</small>
+            <small class="fst-italic">{{affiliations}}</small>
           </p>
         </li>
         {{/each}}

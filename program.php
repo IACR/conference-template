@@ -160,7 +160,7 @@
                 {{/if}}
                 </p>
                 {{# if talkNote}}
-                <small class="font-weight-light">{{talkNote}}</small>
+                <small class="fw-light">{{talkNote}}</small>
                 {{/if}}
                 <div class="authorList">
                   {{#each authors}}
@@ -169,7 +169,7 @@
                 </div>
                 {{#if affiliations}}
                 <small class="trackDescr">
-                    <span class="font-italic affiliation">{{{affiliations}}}</span>
+                    <span class="fst-italic affiliation">{{{affiliations}}}</span>
                 </small><br>
                 {{/if}}
                 {{#if speakers}}
@@ -183,7 +183,7 @@
                   {{~abstract~}}
                 </div>
                 {{/if}}
-                {{#if hasMedia}}<span class="talkMedia">Media:</span>{{/if}}
+                {{#if hasMedia}}<span class="talkMedia"></span>{{/if}}
                 {{#if paperUrl}}
                 <span class="talkMedia">
                   <a href="{{paperUrl}}" target="_blank"><img class="talkMediaIcon" src="images/icons/file.svg" title="Paper"></a>
