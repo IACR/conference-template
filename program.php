@@ -108,7 +108,7 @@
             </p>
             <div class="trackMenu nav flex-md-column nav-pills align-items-end" id="ts-{{@../index}}-{{@index}}-tab" role="tablist" aria-orientation="vertical">
             {{#each sessions}}
-            <a title="{{session_title}}" class="nav-link {{#if @first}} active{{/if}}" id="session-{{@../../index}}-{{@../index}}-{{@index}}-tab" data-toggle="pill" href="#session-{{@../../index}}-{{@../index}}-{{@index}}" role="tab" href="#session-{{@../../index}}-{{@../index}}-{{@index}}" aria-controls="session-{{@../../index}}-{{@../index}}-{{@index}}" aria-selected="{{#if @first}}true{{else}}false{{/if}}">Track {{#addOne @index}}{{/addOne}}</a>
+            <a title="{{session_title}}" class="nav-link {{#if @first}} active{{/if}}" id="session-{{@../../index}}-{{@../index}}-{{@index}}-tab" ="pill" href="#session-{{@../../index}}-{{@../index}}-{{@index}}" role="tab" href="#session-{{@../../index}}-{{@../index}}-{{@index}}" aria-controls="session-{{@../../index}}-{{@../index}}-{{@index}}" aria-selected="{{#if @first}}true{{else}}false{{/if}}">Track {{#addOne @index}}{{/addOne}}</a>
             {{/each}}
             </div>
           </div>
@@ -177,7 +177,7 @@
                 {{/if}}
                 {{#if abstract}}
                 <div class="talkAbstract">
-                  <a class="toggle-closed" data-toggle="collapse" data-typ="abstract" href="#abstract-{{id}}" role="button" aria-expanded="false" aria-controls="abstract-{{id}}">Show abstract</a>
+                  <a class="toggle-closed" data-bs-toggle="collapse" data-type="abstract" href="#abstract-{{id}}" role="button" aria-expanded="false" aria-controls="abstract-{{id}}">Show abstract</a>
                 </div>
                 <div id="abstract-{{id}}" class="collapse mb-2 text-start paper-abstract">
                   {{~abstract~}}

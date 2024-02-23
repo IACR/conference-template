@@ -27,7 +27,7 @@
 }
 </style>
 <div class="dropdown" id="theme-menu">
-  <button class="btn btn-transparent dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" \
+  <button class="btn btn-transparent dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" \
 aria-haspopup="true" aria-expanded="false">
     Choose a color scheme
   </button>
