@@ -40,7 +40,7 @@
 <body>
   <?php require "includes/nav.php"; ?>
 
-  <main id="progContain" class="container p-4">
+  <main id="progContain" class="container">
     <h2 class="indPageTitle">
       Program
     </h2>
