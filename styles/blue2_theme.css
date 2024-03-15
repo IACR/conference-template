@@ -12,7 +12,7 @@
 
 /* Make top nav sticky. This requires moving .pageTopContainer
    down the page so it isn't covered (in both desktop and mobile). */
-#main-nav-row {
+#mainNavRow {
   position: fixed;
   top: 0;
   right: 0;
@@ -75,7 +75,7 @@ img#logo {
   background-color: rgba(255,255,255,.8);
 }
 
-#main-nav-row {
+#mainNavRow {
     background-color: #194687;
 }
 

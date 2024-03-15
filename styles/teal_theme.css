@@ -22,7 +22,7 @@ body {
 
 
 /***** Nav (in /includes/nav.php) *****/
-#main-nav-row {
+#mainNavRow {
   background-color: #046577;
   /* emulated fixed-top */
   position: fixed;

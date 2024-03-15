@@ -26,14 +26,14 @@
       </div>
     </div>
   </header>
-  <nav id="main-nav-row" class="navbar navbar-expand-md">
+  <nav id="mainNavRow" class="navbar navbar-expand-md">
     <div class="container">
       <button class="navbar-toggler mt-1 collapsed nofocus" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="icon-bar top-bar"></span>
         <span class="icon-bar middle-bar"></span>
         <span class="icon-bar bottom-bar"></span>
       </button>
-      <div class="collapse navbar-collapse ms-4 ms-md-0 justify-content-md-center" id="navbarNav">
+      <div class="collapse navbar-collapse ms-4 ms-md-0" id="navbarNav" role="navigation">
         <ul id="nav-ul" class="navbar-nav">
           <li class="nav-item mt-4 mt-md-0">
             <a class="nav-link" href="<?php echo rootPath(); ?>">
@@ -72,7 +72,7 @@
               </a> -->
             </div>
           </li>
-          <li class="nav-item dropdown">
+          <!-- <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">
               Attend
             </a>
@@ -105,7 +105,7 @@
                 Code of conduct
               </a>
             </div>
-          </li>
+          </li> -->
           <li class="nav-item">
             <a class="nav-link" href="<?php echo rootPath() . 'sponsors.php' ?>">
               Sponsors

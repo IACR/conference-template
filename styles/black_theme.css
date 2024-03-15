@@ -54,7 +54,7 @@ div.dropdown-menu {
   }
 }
 
-#main-nav-row {
+#mainNavRow {
   background: linear-gradient(187deg, #EFE555 10vh, #9C4683 35vh, #8B2E4B 55vh, #4A1F60 75vh, #33004D 80vh, #11001A 100vh);
   height: 4rem;
   /* emulate .fixed-top */
