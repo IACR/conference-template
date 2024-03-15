@@ -67,7 +67,7 @@
           </p>
         </div>
         <div class="col-md-5">
-          <a href="#" class="btn customBtn-warm btn-block mt-3 mb-5 mb-md-3">
+          <a href="#" class="btn customBtn-warm blockBtn mt-3 mb-5 mb-md-3">
             Submit a talk
           </a>
         </div>

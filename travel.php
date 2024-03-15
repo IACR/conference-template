@@ -102,7 +102,7 @@
         <p>
           Once plans are finalized, there will be a link below.
         </p>
-        <a href="https://kaymckelly.com" class="btn customBtn-warm btn-block disabled mb-4 mb-md-0" role="button" target="_blank">
+        <a href="https://kaymckelly.com" class="btn customBtn-warm blockBtn disabled mb-4 mb-md-0" role="button" target="_blank">
           Register for dorms
         </a>
       </section>
@@ -180,7 +180,7 @@
           wifi, and extra pillows. Even though we can't legally say it,
           children explicitly unwelcome.
         </p>
-        <a class="btn customBtn-warm btn-block mb-4 mb-md-0" role="button" href="https://kaymckelly.com" target="_blank">
+        <a class="btn customBtn-warm blockBtn mb-4 mb-md-0" role="button" href="https://kaymckelly.com" target="_blank">
           Reservations
         </a>
       </section>
@@ -210,7 +210,7 @@
           this price. We expect you to scavenge for breakfast. No mini
           cereal boxes here!
         </p>
-        <a class="btn customBtn-warm btn-block mb-4 mb-md-0" role="button" href="https://kaymckelly.com" target="_blank">
+        <a class="btn customBtn-warm blockBtn mb-4 mb-md-0" role="button" href="https://kaymckelly.com" target="_blank">
           Reservations
         </a>
       </section>

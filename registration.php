@@ -151,7 +151,7 @@
           <strong>Registration is not currently available. This button will
             become active when registration opens.</strong>
         </h5>
-        <a href="#" class="btn btn-lg customBtn-warm btn-block disabled" role="button">
+        <a href="#" class="btn btn-lg customBtn-warm blockBtn disabled" role="button">
           Register now!
         </a>
       </aside>

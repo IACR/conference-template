@@ -39,6 +39,11 @@ a:hover {
   margin-right: .5rem !important;
 }
 
+/* because bootstrap never should've gotten rid of .btn-block */
+.blockBtn {
+  width: 100%;
+}
+
 
 
 /***** Nav (in /includes/nav.php) *****/

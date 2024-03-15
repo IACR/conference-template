@@ -43,7 +43,7 @@
 
       <!-- NOTE: when the submission server is ready, supply the link in the
       button and remove the statement above. -->
-      <!-- <a href="#" target="_blank" class="btn btn-lg btn-block
+      <!-- <a href="#" target="_blank" class="btn btn-lg blockBtn
       customBtn-warm mx-auto w-75" role="button">Submission Server</a> -->
 
       <!-- NOTE: below is placeholder content derived from a past conference.

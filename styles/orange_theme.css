@@ -57,8 +57,18 @@ nav#mainmenu {
   background-color: rgba(203, 131, 30, 0.6);
 }
 
+.customBtn-warm:hover {
+  background-color: #D1871F;
+  color: #030303;
+}
+
 .customBtn-cool {
   background-color: rgba(15, 119, 60, 0.4);
+}
+
+.customBtn-cool:hover {
+  background-color: #0C6432;
+  color: #FEFDFB
 }
 
 code {

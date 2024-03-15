@@ -58,7 +58,7 @@
           Author instructions for paper submission may be found on the
           submission page.
         </p>
-        <a href="papersubmission.php" class="btn customBtn-warm btn-block mb-5 mb-lg-0">
+        <a href="papersubmission.php" class="btn customBtn-warm blockBtn mb-5 mb-lg-0">
           Submit a paper
         </a>
 
