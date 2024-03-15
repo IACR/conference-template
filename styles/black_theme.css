@@ -69,7 +69,11 @@ div.dropdown-menu {
 
 /***** Header (in /includes/nav.php) *****/
 .icon-bar {
-    background-color: #0D0D0D;
+  background-color: #0D0D0D;
+}
+
+.pageTopContainer {
+  max-width: 100% !important;
 }
 
 .headerImg {
@@ -117,9 +121,10 @@ img#logo {
   }
 }
 
+/* fix for the weird mismatch in sizes at xl screens */
 @media (min-width: 1200px) {
   .headerGradient {
-    max-width: 1140px;
+    max-width: 91.666%;
   }
 }
 /* END make .headerGradient same size as body.container */
@@ -135,7 +140,7 @@ img#logo {
   text-shadow: none !important;
   font-weight: 300;
   line-height: 1.2;
-  padding-bottom: 2.5rem;
+  padding-bottom: 2rem;
   /* add border arc below title */
   border-bottom: 1px solid #424242;
   border-radius: 32%;
@@ -157,6 +162,12 @@ img#logo {
   display: none;
 }
 
+@media (min-width: 992px) {
+  #titlesLogoDiv {
+    padding-top: 2rem;
+  }
+}
+
 
 
 /***** Main content (e.g. h1-h6, a, text, etc) *****/
@@ -165,8 +176,9 @@ main {
   color: #F2F2F2;
   box-shadow: -5px 10px 30px #11001A;
   /* makes main and header seamless */
-  padding-top: 0 !important;
   margin-top: 0 !important;
+  /* up main to a .p-5 manually */
+  padding: 3rem !important;
 }
 
 a {
@@ -196,9 +208,20 @@ a:hover {
 /* NOTE: custom button colors typically derived from the two most common colors in a given theme */
 .customBtn-warm {
   background-color: rgba(255, 187, 158, 0.9);
+  color: #0D0D0D;
+}
+
+.customBtn-warm:hover {
+  background-color: rgba(255, 166, 128, 0.9);
+  color: #0D0D0D;
 }
 
 .customBtn-cool {
+  background-color: rgba(179, 128, 219, 0.9);
+  color: #0D0D0D;
+}
+
+.customBtn-cool:hover {
   background-color: rgba(160, 97, 209, 0.9);
   color: #F2F2F2;
 }
