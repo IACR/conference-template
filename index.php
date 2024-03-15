@@ -17,7 +17,7 @@
 <body class="home">
   <?php require "includes/nav.php"; ?>
 
-  <main class="container p-4">
+  <main class="container">
 
     <!-- NOTE: below is placeholder content. please replace contents with
       your own content when ready. this content serves to give you an idea of

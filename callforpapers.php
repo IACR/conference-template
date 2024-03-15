@@ -17,7 +17,7 @@
   <?php require "includes/nav.php"; ?>
 
   <main class="container">
-    <h2 class="indPageTitle mt-4">
+    <h2 class="indPageTitle">
       Call for Papers
     </h2>
 

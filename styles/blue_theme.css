@@ -81,8 +81,17 @@ a:hover {
   background-color: rgba(161, 72, 13, 0.4);
 }
 
+.customBtn-warm:hover {
+  background-color: rgba(161, 72, 13, 0.6);
+}
+
 .customBtn-cool {
   background-color: rgba(38, 109, 211, 0.9);
+  color: #F3F3FB;
+}
+
+.customBtn-cool:hover {
+  background-color: #205aac;
   color: #F3F3FB;
 }
 
