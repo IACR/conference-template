@@ -9,15 +9,12 @@ body {
 
 main {
   background-color: #ffffff;
-  /* emulate mt-3 */
-  margin-top: 1rem;
-  padding: 2rem !important;
+  padding: 1.5rem !important;
 }
 
-@media only screen and (min-width: 992px) {
+@media (min-width: 768px) {
   main {
-    /* emulate mt-lg-4 */
-    margin-top: 1.5rem;
+    padding: 2rem !important;
   }
 }
 

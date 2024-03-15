@@ -26,8 +26,8 @@
       </div>
     </div>
   </header>
-  <div id="main-nav-row" class="sticky-top">
-    <nav class="container navbar navbar-expand-md">
+  <nav id="main-nav-row" class="navbar navbar-expand-md">
+    <div class="container">
       <button class="navbar-toggler mt-1 collapsed nofocus" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="icon-bar top-bar"></span>
         <span class="icon-bar middle-bar"></span>
@@ -72,56 +72,56 @@
               </a> -->
             </div>
           </li>
-          <!-- <li class="nav-item dropdown">
+          <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">
               Attend
             </a>
-            <div class="dropdown-menu mx-md-3 mx-lg-5"> -->
-          <!-- <a class="dropdown-item" href="<?php echo rootPath() . 'registration.php' ?>">
-                Registration
-              </a> -->
-          <!-- <a class="dropdown-item" href="<?php echo rootPath() . 'travel.php' ?>">
-            Venue & travel
-          </a> -->
-          <!-- <a class="dropdown-item" href="<?php echo rootPath() . 'accommodations.php' ?>">
-            Accommodations
-          </a>
-          <a class="dropdown-item" href="<?php echo rootPath() . 'tourism.php' ?>">
-            Tourism
-          </a> -->
-          <!-- <a class="dropdown-item" href="<?php echo rootPath() . 'support.php' ?>">
-            Financial support
-          </a>
-          <a class="dropdown-item" href="<?php echo rootPath() . 'visas.php' ?>">
-            Visas
-          </a> -->
-          <!-- <a class="dropdown-item" href="<?php echo rootPath() . 'virtual.php' ?>">
-            Remote attendance
-          </a>
-          <a class="dropdown-item" href="<?php echo rootPath() . 'swag.php' ?>">
-            Swag
-          </a>
-          <a class="dropdown-item" href="<?php echo rootPath() . 'conduct.php' ?>">
-            Code of conduct
-          </a> -->
-      <!-- </div>
-      </li> -->
-      <li class="nav-item">
-        <a class="nav-link" href="<?php echo rootPath() . 'sponsors.php' ?>">
-          Sponsors
-        </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="<?php echo rootPath() . 'contact.php' ?>">
-          Contact
-        </a>
-      </li>
-      </ul>
-  </div>
+            <div class="dropdown-menu mx-md-3 mx-lg-5">
+              <a class="dropdown-item" href="<?php echo rootPath() . 'registration.php' ?>">
+                    Registration
+                  </a>
+              <a class="dropdown-item" href="<?php echo rootPath() . 'travel.php' ?>">
+                Venue & travel
+              </a>
+              <a class="dropdown-item" href="<?php echo rootPath() . 'accommodations.php' ?>">
+                Accommodations
+              </a>
+              <a class="dropdown-item" href="<?php echo rootPath() . 'tourism.php' ?>">
+                Tourism
+              </a>
+              <a class="dropdown-item" href="<?php echo rootPath() . 'support.php' ?>">
+                Financial support
+              </a>
+              <a class="dropdown-item" href="<?php echo rootPath() . 'visas.php' ?>">
+                Visas
+              </a>
+              <a class="dropdown-item" href="<?php echo rootPath() . 'virtual.php' ?>">
+                Remote attendance
+              </a>
+              <a class="dropdown-item" href="<?php echo rootPath() . 'swag.php' ?>">
+                Swag
+              </a>
+              <a class="dropdown-item" href="<?php echo rootPath() . 'conduct.php' ?>">
+                Code of conduct
+              </a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="<?php echo rootPath() . 'sponsors.php' ?>">
+              Sponsors
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="<?php echo rootPath() . 'contact.php' ?>">
+              Contact
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </nav>
 </div>
-</div>
-<!-- END OF nav -->
+<!-- END OF pagetop (contains header and nav) -->
 
 <noscript>
   <div class="container">
