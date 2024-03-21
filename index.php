@@ -17,7 +17,7 @@
 <body class="home">
   <?php require "includes/nav.php"; ?>
 
-  <main class="container p-4">
+  <main class="container">
 
     <!-- NOTE: below is placeholder content. please replace contents with
       your own content when ready. this content serves to give you an idea of
@@ -35,7 +35,7 @@
       registration button below. If you need more than one link, uncomment
       the div with three buttons below -->
     <!-- <a href="registration.php" class="btn customBtn-warm btn-lg
-      btn-block w-50 mx-auto mb-4">
+      blockBtn w-50 mx-auto mb-4">
       Register now
     </a> -->
 

@@ -14,7 +14,7 @@
   <body>
     <?php require "includes/nav.php"; ?>
 
-  <main class="container p-4">
+  <main class="container">
     <h2 class="indPageTitle">
       Accepted Papers
     </h2>
@@ -49,7 +49,7 @@
           <p>
             {{authors}}
             <br>
-            <small class="font-italic">{{affiliations}}</small>
+            <small class="fst-italic">{{affiliations}}</small>
           </p>
         </li>
         {{/each}}

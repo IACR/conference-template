@@ -23,7 +23,7 @@
   <body>
     <?php require "includes/nav.php"; ?>
 
-    <main class="container p-4">
+    <main class="container">
       <h2 class="indPageTitle">
         Invited Talks
       </h2>

@@ -40,7 +40,7 @@ function rootPath()
 <link href="https://iacr.org/libs/css/bootstrap/bootstrap-5.3.0-dist/css/bootstrap.min.css" rel="stylesheet">
 
 <!-- Styling -->
-<link rel="stylesheet" href="<?php echo rootPath(); ?>styles/main.css">
+<link rel="stylesheet" href="<?php echo rootPath(); ?>styles/main.css?v=2">
 <link id="style" rel="stylesheet" href="<?php echo rootPath(); ?>styles/orange_theme.css">
 <!-- metadata for googlebot -->
 <script type="application/ld+json">

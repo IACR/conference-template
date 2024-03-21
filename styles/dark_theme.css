@@ -31,7 +31,7 @@ main {
   flex-direction: column-reverse !important;
 }
 
-#main-nav-row {
+#mainNavRow {
   background-color: #ffb33e;
   /* emulated fixed-top */
   position: fixed;
