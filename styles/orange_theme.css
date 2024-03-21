@@ -10,7 +10,7 @@ body {
 
 
 /***** Nav (in /includes/nav.php) *****/
-nav {
+#mainNavRow {
   background-color: #FEFDFB;
 }
 

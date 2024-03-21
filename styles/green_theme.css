@@ -3,7 +3,7 @@
 
 
 /***** Nav (in /includes/nav.php) *****/
-div#mainNavRow {
+#mainNavRow {
   background: #258E42;
 }
 
