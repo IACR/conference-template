@@ -104,7 +104,7 @@ function drawProgram() {
     }
   }
   renderedProgram.innerHTML = theTemplate(currentProgram);
-  document.querySelectorAll("[data-toggle='collapse']").forEach(item => {
+  document.querySelectorAll("[data-bs-toggle='collapse']").forEach(item => {
     let typ = item.dataset.typ;
     item.addEventListener("click", event => {
       let node = event.target;

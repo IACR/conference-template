@@ -12,12 +12,13 @@
 
 /* Make top nav sticky. This requires moving .pageTopContainer
    down the page so it isn't covered (in both desktop and mobile). */
-#main-nav-row {
+#mainNavRow {
   position: fixed;
   top: 0;
   right: 0;
   left: 0;
   z-index: 1030;
+  background-color: #194687;
 }
 
 .pageTopContainer {
@@ -73,10 +74,6 @@ img#logo {
   border-radius: 20px;
   border: 2px solid #102a83;
   background-color: rgba(255,255,255,.8);
-}
-
-#main-nav-row {
-    background-color: #194687;
 }
 
 div.dropdown-menu {

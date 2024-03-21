@@ -13,7 +13,7 @@
   <body>
     <?php require "includes/nav.php"; ?>
 
-    <main class="container p-4">
+    <main class="container">
       <h2 class="indPageTitle">
         Paper Submission
       </h2>
@@ -43,7 +43,7 @@
 
       <!-- NOTE: when the submission server is ready, supply the link in the
       button and remove the statement above. -->
-      <!-- <a href="#" target="_blank" class="btn btn-lg btn-block
+      <!-- <a href="#" target="_blank" class="btn btn-lg blockBtn
       customBtn-warm mx-auto w-75" role="button">Submission Server</a> -->
 
       <!-- NOTE: below is placeholder content derived from a past conference.
@@ -203,7 +203,7 @@
         as a COI.
       </p>
 
-      <div class="row text-justify">
+      <div class="row">
         <div class="col-lg-4 mb-3 mb-lg-1">
           <small>
             <sup>1</sup> Reviewers include program committee members for

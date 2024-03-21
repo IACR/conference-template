@@ -32,14 +32,15 @@
       </div>
     </div>
   </header>
-  <div id="main-nav-row" class="sticky-top">
-    <nav class="container navbar navbar-expand-md">
+
+  <nav id="mainNavRow" class="navbar navbar-expand-md">
+    <div class="container">
       <button class="navbar-toggler mt-1 collapsed nofocus" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="icon-bar top-bar"></span>
         <span class="icon-bar middle-bar"></span>
         <span class="icon-bar bottom-bar"></span>
       </button>
-      <div class="collapse navbar-collapse ms-4 ms-md-0 justify-content-md-center" id="navbarNav">
+      <div class="collapse navbar-collapse ms-4 ms-md-0" id="navbarNav" role="navigation">
         <ul id="nav-ul" class="navbar-nav">
           <li class="nav-item mt-4 mt-md-0">
             <a class="nav-link" href="<?php echo rootPath(); ?>">
@@ -82,26 +83,26 @@
             <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">
               Attend
             </a>
-            <div class="dropdown-menu mx-md-3 mx-lg-4 mx-xl-5">
-              <a class="dropdown-item" href="<?php echo rootPath() . 'registration.php' ?>">
+            <div class="dropdown-menu mx-md-3 mx-lg-4 mx-xl-5"> -->
+          <!-- <a class="dropdown-item" href="<?php echo rootPath() . 'registration.php' ?>">
                 Registration
-              </a>
-              <a class="dropdown-item" href="<?php echo rootPath() . 'travel.php' ?>">
+              </a> -->
+          <!-- <a class="dropdown-item" href="<?php echo rootPath() . 'travel.php' ?>">
                 Venue & travel
-              </a>
-              <a class="dropdown-item" href="<?php echo rootPath() . 'accommodations.php' ?>">
+              </a> -->
+          <!-- <a class="dropdown-item" href="<?php echo rootPath() . 'accommodations.php' ?>">
                 Accommodations
               </a>
               <a class="dropdown-item" href="<?php echo rootPath() . 'tourism.php' ?>">
                 Tourism
-              </a>
-              <a class="dropdown-item" href="<?php echo rootPath() . 'support.php' ?>">
+              </a> -->
+          <!-- <a class="dropdown-item" href="<?php echo rootPath() . 'support.php' ?>">
                 Financial support
               </a>
               <a class="dropdown-item" href="<?php echo rootPath() . 'visas.php' ?>">
                 Visas
-              </a>
-              <a class="dropdown-item" href="<?php echo rootPath() . 'virtual.php' ?>">
+              </a> -->
+          <!-- <a class="dropdown-item" href="<?php echo rootPath() . 'virtual.php' ?>">
                 Remote attendance
               </a>
               <a class="dropdown-item" href="<?php echo rootPath() . 'swag.php' ?>">
@@ -109,8 +110,8 @@
               </a>
               <a class="dropdown-item" href="<?php echo rootPath() . 'conduct.php' ?>">
                 Code of conduct
-              </a>
-            </div>
+              </a> -->
+          <!-- </div>
           </li> -->
           <li class="nav-item">
             <a class="nav-link" href="<?php echo rootPath() . 'sponsors.php' ?>">
@@ -122,7 +123,7 @@
               Contact
             </a>
           </li>
-          <li class="nav-item dropdown color-modes">
+          <!-- <li class="nav-item dropdown color-modes">
             <a class="nav-link" id="bd-theme" type="button" aria-expanded="false" data-bs-toggle="dropdown" data-bs-display="static">
               <svg class="bi my-1 theme-icon-active">
                 <use href="#circle-half"></use>
@@ -164,11 +165,11 @@
                 </button>
               </li>
             </ul>
-          </li>
+          </li> -->
         </ul>
       </div>
-    </nav>
-  </div>
+    </div>
+  </nav>
 </div>
 <!-- END OF nav -->
 

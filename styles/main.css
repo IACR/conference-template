@@ -21,15 +21,19 @@ body {
 }
 
 main {
+<<<<<<< HEAD
   background-color: #fff;
   /* emulate mt-3 */
   margin-top: 1rem;
+=======
+  background-color: #ffffff;
+  padding: 1.5rem !important;
+>>>>>>> ff7e9b39ecc392644d55ca146659af72ac78cf86
 }
 
-@media only screen and (min-width: 992px) {
+@media (min-width: 768px) {
   main {
-    /* emulate mt-lg-4 */
-    margin-top: 1.5rem;
+    padding: 2rem !important;
   }
 }
 
@@ -52,6 +56,11 @@ a:hover {
   margin-right: .5rem !important;
 }
 
+/* because bootstrap never should've gotten rid of .btn-block */
+.blockBtn {
+  width: 100%;
+}
+
 
 
 /***** Dark & light modes *****/
@@ -69,7 +78,7 @@ a:hover {
 
 
 /***** Nav (in /includes/nav.php) *****/
-#main-nav-row {
+#mainNavRow {
   background-color: #102A83;
 }
 
@@ -141,34 +150,34 @@ a.dropdown-item {
   margin-bottom: 6px;
 }
 
-#main-nav-row .navbar-toggler {
+#mainNavRow .navbar-toggler {
   border: none;
   background: transparent !important;
 }
 
-#main-nav-row .navbar-toggler .top-bar {
+#mainNavRow .navbar-toggler .top-bar {
   transform: rotate(45deg);
   transform-origin: 10% 10%;
 }
 
-#main-nav-row .navbar-toggler .middle-bar {
+#mainNavRow .navbar-toggler .middle-bar {
   opacity: 0;
 }
 
-#main-nav-row .navbar-toggler .bottom-bar {
+#mainNavRow .navbar-toggler .bottom-bar {
   transform: rotate(-45deg);
   transform-origin: 10% 90%;
 }
 
-#main-nav-row .navbar-toggler.collapsed .top-bar {
+#mainNavRow .navbar-toggler.collapsed .top-bar {
   transform: rotate(0);
 }
 
-#main-nav-row .navbar-toggler.collapsed .middle-bar {
+#mainNavRow .navbar-toggler.collapsed .middle-bar {
   opacity: 1;
 }
 
-#main-nav-row .navbar-toggler.collapsed .bottom-bar {
+#mainNavRow .navbar-toggler.collapsed .bottom-bar {
   transform: rotate(0);
 }
 /* END hamburger transform to x */
