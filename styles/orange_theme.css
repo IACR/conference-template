@@ -9,13 +9,6 @@ body {
 
 
 
-/***** Nav (in /includes/nav.php) *****/
-#mainNavRow {
-  background-color: #FEFDFB;
-}
-
-
-
 /***** Header (in /includes/nav.php) *****/
 .headerImg {
   background-image: url("../images/banners/circuit.jpg");

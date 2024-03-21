@@ -1,4 +1,17 @@
 /* Original color scheme by Kay McKelly, available at http://www.colourlovers.com/palette/4331737/Cryptography_Brights */
+/* rough table of contents
+- general styling (high level stuff like body bg color, fonts, etc)
+- dark/light modes
+- nav
+- header
+- main content general styling (combine with general?)
+- page specific: index (can remove??)
+- page specific: multiple pages (move to main general?)
+- page specific: accepted papers (if not used elsewhere move to specific page)
+- page specific: program (if not used elsewhere move to specific page)
+- page specific: registration (if not used elsewhere move to specific page)
+- page-specific: sponsors (if not used elsewhere move to specific page)
+ */
 
 
 /***** General styling *****/
@@ -44,6 +57,20 @@ a:hover {
 
 
 
+/***** Dark & light modes *****/
+@media (prefers-color-scheme: dark) {
+  .element {
+    color: var(--bs-primary-text-emphasis);
+    background-color: var(--bs-primary-bg-subtle);
+  }
+}
+
+/* main {
+  background-color: #100243;
+} */
+
+
+
 /***** Nav (in /includes/nav.php) *****/
 #mainNavRow {
   background-color: #102A83;
@@ -80,17 +107,20 @@ a.dropdown-item {
  * https://stackoverflow.com/questions/51413782/dropdown-on-hover-in-bootstrap-4-1
  */
 @media only screen and (min-width: 768px) {
-  #navbarNav li:not(:last-child):hover>.dropdown-menu {
+  /* pre-modes this was li:not(:last-child):hover... */
+  #navbarNav li:hover>.dropdown-menu {
     display: block;
   }
+  
   #navbarNav .dropdown > .dropdown-toggle:active {
     /*Without this, clicking will make it sticky*/
     pointer-events: none;
   }
+
   /* Fix for dropdown hover. Without this there is a .125rem gap
      that causes hover to stop working. */
   #navbarNav div.dropdown-menu {
-    margin-top: 0px;
+    margin-top: 0;
     padding-top: .625rem;
   }
 }
@@ -145,6 +175,21 @@ a.dropdown-item {
   transform: rotate(0);
 }
 /* END hamburger transform to x */
+
+.navbarIcon {
+  width: 1.3em;
+  height: 1.3em;
+  /* was aiming for #FEFDFB but this is close enough */
+  filter: invert(100%) sepia(17%) saturate(36%) hue-rotate(8deg) brightness(131%) contrast(99%);
+}
+
+a.dropdown-item:hover .navbarIcon {
+  filter: invert(20%) sepia(11%) saturate(3385%) hue-rotate(199deg) brightness(92%) contrast(112%);
+}
+
+a.dropdown-item .navbarIcon {
+  margin-right: 0.75rem;
+}
 
 
 
@@ -450,8 +495,8 @@ div.sessionList {
 
 /* tabbed sessions use this */
 div.trackMenu a.nav-link {
-    border-top-right-radius: 0px !important;
-    border-bottom-right-radius: 0px !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
     border-top-left-radius: 10px !important;
     border-bottom-left-radius: 10px !important;
     font-weight: 600;
@@ -460,10 +505,10 @@ div.trackMenu a.nav-link {
     background-color: #F0F0F0;
     padding-left: 2rem;
     padding-right: 2rem;
-    border-color: #E9ECEF #E9ECEF #DE2E6;
-    border-top-left-radius: .6rem;
+    border-color: #E9ECEF #E9ECEF;
+    /* border-top-left-radius: .6rem;
     border-top-right-radius: .6rem;
-    font-weight: 600;
+    font-weight: 600; */
 }
 
 @media (min-width: 768px) {
@@ -491,7 +536,7 @@ div.trackMenu a.nav-link.active {
 @media (max-width: 767px) {
     div.trackMenu a.nav-link {
         border-top-right-radius: 10px !important;
-        border-bottom-left-radius: 0px !important;
+        border-bottom-left-radius: 0 !important;
         margin-bottom: 0;
         margin-right: .6rem;
         padding-left: 1.5rem;
