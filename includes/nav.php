@@ -47,11 +47,11 @@
               Home
             </a>
           </li>
-          <li class="nav-item dropdown">
+          <!-- <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">
               Technical Program
             </a>
-            <div class="dropdown-menu mx-md-3 mx-lg-4 mx-xl-5">
+            <div class="dropdown-menu mx-md-3 mx-lg-4 mx-xl-5"> -->
               <!-- <a class="dropdown-item" href="<?php echo rootPath() . 'program.php' ?>">
                 Main program
               </a> -->
@@ -71,14 +71,14 @@
               <a class="dropdown-item" href="<?php echo rootPath() . 'acceptedpapers.php' ?>">
                 Accepted papers
               </a> -->
-              <a class="dropdown-item" href="<?php echo rootPath() . 'callforpapers.php' ?>">
+              <!-- <a class="dropdown-item" href="<?php echo rootPath() . 'callforpapers.php' ?>">
                 Call for papers
-              </a>
+              </a> -->
               <!-- <a class="dropdown-item" href="<?php echo rootPath() . 'papersubmission.php' ?>">
                 Paper submission
               </a> -->
-            </div>
-          </li>
+            <!-- </div>
+          </li> -->
           <!-- <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">
               Attend

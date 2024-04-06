@@ -22,7 +22,7 @@
       <!-- To add/edit contact information, please edit names and affiliations in
       json/metadata.json -->
       <h3 class="pageSubtitle text-center mt-4">
-        General Co-Chairs
+        General Chair
       </h3>
 
       <div class="row mt-3 mt-md-4">
@@ -47,9 +47,9 @@
 
       <div class="row">
         <div class="col-12 text-center mb-5">
-          <a href="mailto:reallyDoNotEmailMe@fakeDomain.com">
+          <a href="mailto:asiacrypt2024@iacr.org">
             <img src="images/icons/mail.svg" class="icon" />
-          </a> reallyDoNotEmailMe@fakeDomain.com
+          </a> asiacrypt2024 @ iacr.org
         </div>
       </div>
 
@@ -81,9 +81,9 @@
 
       <div class="row">
         <div class="col-12 text-center mb-5">
-          <a href="mailto:doNotEmailMe@fakeDomain.com">
+          <a href="mailto:asiacrypt2024programchairs@iacr.org">
             <img src="images/icons/mail.svg" class="icon" />
-          </a> doNotEmailMe@fakeDomain.com
+          </a> asiacrypt2024programchairs @ iacr.org
         </div>
       </div>
 

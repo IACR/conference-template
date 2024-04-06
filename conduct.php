@@ -31,7 +31,7 @@
       IACR event, we encourage you to reach out to someone who could
       help. The following are available to you:
       the <a href="https://iacr.org/committees.html">Code-of-Conduct
-        Liaison</a>, the <a href="contact.php">conference General Chair(s)</a>,
+        Liaison</a>, the <a href="contact.php">conference General Chair</a>,
       any member of the <a href="ethics-committee@iacr.org">Ethics
         Committee</a>, and
       the <a href="https://iacr.org/bod.html">IACR President</a>.
@@ -39,7 +39,7 @@
     <p>
       Participants who violate this code may be sanctioned and/or
       expelled from the event, at the discretion of the General
-      Chair(s). Serious incidents may be referred to the Ethics
+      Chair. Serious incidents may be referred to the Ethics
       Committee for further possible action. Any action will only be
       taken with the consent of the complaining
       party.

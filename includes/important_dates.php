@@ -29,7 +29,7 @@ function showDate($key, $title) {
   <?php showDate('submitdate', 'Submission deadline'); ?>
   <?php showDate('firstRound', 'First round notification'); ?>
   <?php showDate('rebuttalDue', 'Rebuttal deadline'); ?>
-  <?php showDate('finalNotif', 'Final notification'); ?>
+  <?php showDate('notificationdate', 'Final notification'); ?>
   <?php showDate('finalVers', 'Final versions due'); ?>
   <!-- An example of a custom date not in metadata.json. -->
   <!--
@@ -43,8 +43,8 @@ function showDate($key, $title) {
   </div>
   -->
   <?php showDate('startdate', 'Conference begins'); ?>
-  <div class="customCardFooter text-start small">
+  <!-- <div class="customCardFooter text-start small">
     <img src="images/icons/info.svg" class="icon" alt="info icon" /> Further details are 
     available on the <a href="papersubmission.php">paper submission page</a>.
-  </div>
+  </div> -->
 </article>
