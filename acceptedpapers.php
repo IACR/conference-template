@@ -88,7 +88,7 @@
             paper.authors = paper.authors.join(', ');
           });
           data.acceptedPapers.forEach((paper) => {
-            paper.affiliations = removeDups(paper.affiliations).join(', ');
+            paper.affiliations = removeDups(paper.affiliations).join('; ');
           });
 
            var theTemplateScript = $("#acceptedScript").html();
