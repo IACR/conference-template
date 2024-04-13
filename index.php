@@ -73,7 +73,7 @@
       on <?php echo $META['dates']; ?>.
       <?php echo $META['shortName']; ?> is organized by
       <a href="https://iacr.org/">the International Association for
-        Cryptologic Research</a> (IACR). This will be the <?php echo $META['name']; ?>. The call for papers will be up soon.
+        Cryptologic Research</a> (IACR). This will be the <?php echo $META['name']; ?>.
     </p>
 
     <!-- NOTE: when registration is open, uncomment the giant
@@ -119,7 +119,7 @@
           </div> -->
           <div class="customCardRow row">
             <h6 class="dateTitle col-5 col-md-6 col-lg-4">
-              Apr 6, 2024
+              20 Mar 202X
             </h6>
             <p class="col-7 col-md-6 col-lg-8">
               Website launched

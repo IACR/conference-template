@@ -223,16 +223,16 @@
 
     <div class="row">
       <div class="col-12 text-center mb-5">
-        <a href="mailto:asiacrypt2024programchairs@iacr.org">
+        <a href="mailto:doNotEmailMe@fakeDomain.com">
           <img src="images/icons/mail.svg" class="icon" />
-        </a> asiacrypt2024programchairs @ iacr.org
+        </a> doNotEmailMe@fakeDomain.com
       </div>
     </div>
 
     <!-- To add/edit contact information, please edit names and affiliations in
       json/metadata.json -->
     <h3 class="pageSubtitle text-center mt-4">
-      General chair
+      General co-chairs
     </h3>
 
     <div class="row mt-3 mt-md-4">
@@ -257,9 +257,9 @@
 
     <div class="row">
       <div class="col-12 text-center mb-5">
-        <a href="mailto:asiacrypt2024@iacr.org">
+        <a href="mailto:reallyDoNotEmailMe@fakeDomain.com">
           <img src="images/icons/mail.svg" class="icon" />
-        </a> asiacrypt2024 @ iacr.org
+        </a> reallyDoNotEmailMe@fakeDomain.com
       </div>
     </div>
 

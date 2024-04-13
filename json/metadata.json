@@ -1,35 +1,43 @@
 {
-	"id": 5909,
-	"name": "Asiacrypt 2024",
-	"shortName": "Asiacrypt 2024",
-	"dates": "December 9-13, 2024",
-	"location": "Kolkata, India",
-	"year": 2024,
-	"startdate": "Dec 9, 2024",
-	"enddate": "2024-12-13",
-	"submitdate": "May 28, 2024",
-	"city": "Kolkata",
-	"country": "India",
-	"notificationdate": "Aug 25, 2024",
-	"latitude": 88.3638953,
-	"longitude": 22.5726459,
-	"eventtype": "asiacrypt",
+	"id": 1234,
+	"name": "37th Annual International Flimflam Conference",
+	"shortName": "Fakecrypt 2045",
+	"dates": "23-28 September 2045",
+	"location": "London, England",
+	"year": 2045,
+	"startdate": "23 Sep 2045",
+	"enddate": "28 Sep 2045",
+	"city": "London",
+	"country": "England",
+	"submitdate": "11 Feb 2045",
+	"firstRound": "2 Apr 2045",
+	"rebuttalDue": "21 Apr 2045",
+	"finalNotif": "26 Apr 2045",
+	"finalVers": "23 Aug 2045",
+	"cameraReady": "16 Sep 2045",
+	"longitude": 51.48731403378575,
+	"latitude": -0.12451778650793591,
+	"eventtype": "crypto",
 	"_comment": "Be careful editing this file. It must be valid JSON.",
 	"_source": "https://www.iacr.org/cryptodb/pc",
 	"PC_CHAIRS": [
 		{
-			"name": "Kai-Min Chung",
-			"affiliation": "Academia Sinica<br>Taipei, Taiwan"
+			"name": "Important Professor #1",
+			"affiliation": "University of Peer Review<br>China"
 		},
 		{
-			"name": "Yu Sasaki",
-			"affiliation": "NTT Social Informatics Laboratories<br>Tokyo, Japan"
+			"name": "World-Famous Researcher",
+			"affiliation": "Institute for the Advancement of Causative Research<br>Singapore"
 		}
 	],
 	"GENERAL_CHAIRS": [
 		{
-			"name": "Bimal Kumar Roy",
-			"affiliation": "Indian Statistical Institute<br>Kolkata, India"
+			"name": "SmartGuy McWriter",
+			"affiliation": "Synonym College<br>Romania"
+		},
+		{
+			"name": "Ellis Papers",
+			"affiliation": "Society for Promotion of Encryption<br>Senegal"
 		}
 	]
 }

@@ -11,34 +11,23 @@ body {
 
 /***** Header (in /includes/nav.php) *****/
 .headerImg {
-  background-image: url("../images/banners/desatDeco.png");
-  background-repeat: repeat;
+  background-image: url("../images/banners/circuit.jpg");
 }
 
 .headerGradient {
-  background: rgba(203, 131, 30, 0.7);
-  background: -webkit-linear-gradient(rgba(203, 131, 30, 0.7));
-  background: -o-linear-gradient(rgba(203, 131, 30, 0.7));
-  background: -moz-linear-gradient(rgba(203, 131, 30, 0.7));
-  background: linear-gradient(rgba(203, 131, 30, 0.7));
+  background: rgba(204, 132, 30, 0.6);
+  background: -webkit-linear-gradient(rgba(204, 132, 30, 0.6), rgba(254, 253, 251, 1));
+  background: -o-linear-gradient(rgba(204, 132, 30, 0.6), rgba(254, 253, 251, 1));
+  background: -moz-linear-gradient(rgba(204, 132, 30, 0.6), rgba(254, 253, 251, 1));
+  background: linear-gradient(rgba(204, 132, 30, 0.6), rgba(254, 253, 251, 1));
 }
 
 .headerTitle {
   color: #2E3192;
-  text-shadow: none;
-  font-size: 2.7rem;
 }
 
 .headerInfoTop, .headerInfoBottom {
   color: #2E3192;
-  text-shadow: none;
-  font-size: 1.7rem;
-}
-
-@media (max-width: 992px) {
-  .headerImg {
-    height: 270px;
-  }
 }
 
 
