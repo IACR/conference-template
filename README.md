@@ -1,5 +1,24 @@
 
 # Conference Website Template
+> [!CAUTION]
+> This installation file is out of date and is currently being rewritten. 
+> If you have questions about the use of this template, contact 
+> [Kay McKelly](https://github.com/kaymckelly).
+
+---
+This is intended for all IACR conference websites (Crypto, Asiacrypt, Eurocrypt, 
+CHES, FSE, PKC, RWC, and TCC). If you would like to use this template for another 
+conference, [see below](#advanced-other-conferences).
+<!-- TODO: move to advanced section? You can also hire Kay McKelly on a freelance basis to handle your conference 
+website, subject to her availability. -->
+
+Do not copy over old conference websites from year to year; the purpose of this 
+template is to have regular updates for performance, formatting, etc. The old templates 
+are not compatible with the current version. Feature requests are welcome via 
+[Github Issues](https://github.com/IACR/conference-template/issues/new) or you can 
+contact [Kay McKelly](https://github.com/kaymckelly).
+
+
 
 **Be warned, this installation file is out of date. If you have questions about 
 the use of this template, contact [Kay McKelly](https://github.com/kaymckelly).**
