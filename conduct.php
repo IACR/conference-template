@@ -31,10 +31,10 @@
       IACR event, we encourage you to reach out to someone who could
       help. The following are available to you:
       the <a href="https://iacr.org/committees.html">Code-of-Conduct
-        Liaison</a>, the <a href="contact.php">conference General Chair(s)</a>,
-      any member of the <a href="ethics-committee@iacr.org">Ethics
-        Committee</a>, and
-      the <a href="https://iacr.org/bod.html">IACR President</a>.
+        Liaison</a>, the <a href="contact.php">conference general chair(s)</a>,
+      any member of the <a href="ethics-committee@iacr.org">IACR ethics
+        committee</a>, and
+      the <a href="https://iacr.org/bod.html">IACR president</a>.
     </p>
     <p>
       Participants who violate this code may be sanctioned and/or

@@ -128,7 +128,7 @@
           funding to attend the conference. Students, whose papers are
           accepted and who will present the paper themselves, are encouraged
           to apply if such assistance is needed. Requests for stipends should
-          be sent to the general chair.
+          be sent to the general chair(s).
         </p>
       </section>
     </div>

@@ -109,13 +109,13 @@ show up in the `callforpapers.php` page.
 
 ### Changing the contact information
 
-The program chairs and general chair appear on both `callforpapers.php`
+The program chair(s) and general chair(s) appear on both `callforpapers.php`
 and `contact.php`. You will want to edit these.
 
 ### Updating the code of conduct page
 
-Section 8.10 of the [General Chair
-Guidelines](https://www.iacr.org/docs/genchair.pdf) requires an up to
+Section 8.10 of the [general chair
+guidelines](https://www.iacr.org/docs/genchair.pdf) requires an up to
 date code of conduct for each conference. You should edit the
 `conduct.php` accordingly. Sections that need editing will show up in
 red on the page because they contain a span with class `editMe`.
