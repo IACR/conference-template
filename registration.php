@@ -105,7 +105,7 @@
     <div class="row mb-3">
       <section class="col-md-6">
         <h3 class="pageSubtitle mt-4">
-          What the Conference Fee Includes
+          What the conference fee includes
         </h3>
         <p>
           The conference registration fee includes participation in the
@@ -126,7 +126,7 @@
       </section>
       <section class="col-md-6">
         <h3 class="pageSubtitle mt-4">
-          An Important Note for Students
+          Important note for students
         </h3>
         <p>
           If you are a student presenting at <?php echo $META['shortName']; ?>,
@@ -160,7 +160,7 @@
     <div class="row">
       <section class="col-md-6">
         <h3 class="pageSubtitle mt-4">
-          Additional Information
+          Additional information
         </h3>
         <p>
           IACR dues are $50 for regular attendees and $25 for student
@@ -180,7 +180,7 @@
       </section>
       <section class="col-md-6">
         <h3 class="pageSubtitle mt-4">
-          IACR Policy for Proceedings
+          IACR policy for proceedings
         </h3>
         <p>
           Proceedings will be made available online to attendees. If you
@@ -194,7 +194,7 @@
     <div class="row">
       <section class="col-md-6">
         <h3 class="pageSubtitle mt-4">
-          Refund Policy
+          Refund policy
         </h3>
         <p>
           Cancellation requests should be made in writing or email to the

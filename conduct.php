@@ -49,7 +49,7 @@
     </p>
 
     <h3 class="pageSubtitle mt-4">
-      Who to Contact
+      Who to contact
     </h3>
     <div class="row">
       <aside class="col-sm-4">

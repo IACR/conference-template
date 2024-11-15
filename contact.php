@@ -22,7 +22,7 @@
       <!-- To add/edit contact information, please edit names and affiliations in
       json/metadata.json -->
       <h3 class="pageSubtitle text-center mt-4">
-        General Co-chairs
+        General co-chairs
       </h3>
 
       <div class="row mt-3 mt-md-4">
@@ -56,7 +56,7 @@
       <!-- To add/edit contact information, please edit names and affiliations in
       json/metadata.json -->
       <h3 class="pageSubtitle text-center mt-4">
-        Program Co-Chairs
+        Program co-chairs
       </h3>
 
       <div class="row mt-3 mt-md-4">

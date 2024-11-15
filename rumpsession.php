@@ -57,14 +57,14 @@
       submission guidelines -->
     <!--
       <h3 class="pageSubtitle mt-4">
-        Call for Contributions
+        Call for contributions
       </h3>
       <p>
         some very cool and real text about submitting your schtick
       </p>
 
       <h3 class="pageSubtitle mt-4">
-        Submission Guidelines
+        Submission guidelines
       </h3>
       <div class="row">
         <div class="col-md-7">
@@ -102,7 +102,7 @@
       </div>
 
       <h3 class="pageSubtitle mt-4">
-        Detailed Instructions
+        Detailed instructions
       </h3>
       <p>
         even more info, for the exacting rump session chair
@@ -118,7 +118,7 @@
       </div>
 
       <h3 class="pageSubtitle text-center mt-4">
-        Rump Session Chairs
+        Rump session chairs
       </h3>
       <div class="row mt-3 mt-md-4">
         <aside class="col-12 col-sm-6 col-md-4 text-center mb-2">
