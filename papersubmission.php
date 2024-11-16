@@ -52,7 +52,7 @@
       <div class="row">
         <div class="col-lg-6 col-12 mt-3">
           <h3 class="pageSubtitle">
-            Instructions for Authors
+            Instructions for authors
           </h3>
           <p>
             Submissions must be at most 30 pages excluding any auxiliary
@@ -137,7 +137,7 @@
       </p>
 
       <h3 class="pageSubtitle mt-4">
-        Conflicts of Interest
+        Conflicts of interest
       </h3>
       <p>
         Authors, program committee members, and reviewers must

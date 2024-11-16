@@ -105,7 +105,7 @@
     <div class="row mb-3">
       <section class="col-md-6">
         <h3 class="pageSubtitle mt-4">
-          What the Conference Fee Includes
+          What the conference fee includes
         </h3>
         <p>
           The conference registration fee includes participation in the
@@ -126,12 +126,12 @@
       </section>
       <section class="col-md-6">
         <h3 class="pageSubtitle mt-4">
-          An Important Note for Students
+          Important note for students
         </h3>
         <p>
           If you are a student presenting at <?php echo $META['shortName']; ?>,
           your registration fee will be covered by the Cryptography Research
-          Fund for Student Presenters. Please contact the General Chair
+          Fund for Student Presenters. Please contact the general chair(s)
           before registering to obtain a registration waiver token.
         </p>
         <p>
@@ -140,7 +140,7 @@
           the conference. Students in under-represented groups are especially
           encouraged to apply. To apply, please ask your PhD supervisor or
           Department Head to email a brief justification to the
-          <a href="contact.php">General Chair</a> before LATE REG DATE.
+          <a href="contact.php">general chair(s)</a> before LATE REG DATE.
         </p>
       </section>
     </div>
@@ -160,7 +160,7 @@
     <div class="row">
       <section class="col-md-6">
         <h3 class="pageSubtitle mt-4">
-          Additional Information
+          Additional information
         </h3>
         <p>
           IACR dues are $50 for regular attendees and $25 for student
@@ -180,7 +180,7 @@
       </section>
       <section class="col-md-6">
         <h3 class="pageSubtitle mt-4">
-          IACR Policy for Proceedings
+          IACR policy for proceedings
         </h3>
         <p>
           Proceedings will be made available online to attendees. If you
@@ -194,11 +194,11 @@
     <div class="row">
       <section class="col-md-6">
         <h3 class="pageSubtitle mt-4">
-          Refund Policy
+          Refund policy
         </h3>
         <p>
           Cancellation requests should be made in writing or email to the
-          conference general chair. Those received by 30 days prior to the
+          conference general chair(s). Those received by 30 days prior to the
           conference will receive a full refund less $100 to cover fixed
           costs for the conference. No refunds will be made for cancellations
           after this date.

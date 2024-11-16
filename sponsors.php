@@ -22,7 +22,7 @@
       <p>
         <?php echo $META['shortName'];?> relies on sponsors to help ensure
         student participation. Please contact the
-        <a href="contact.php">General Chair(s)</a> if your company is
+        <a href="contact.php">general chair(s)</a> if your company is
         interested in sponsoring this conference.
       </p>
 
@@ -33,7 +33,7 @@
       both the image source path and url, as well as alt text and title on the
       image. -->
       <!-- <h3 class="pageSubtitle mt-4">
-        Platinum Level
+        Platinum level
       </h3>
 
       <div class="d-flex flex-wrap align-items-center sponsorRows">
@@ -51,7 +51,7 @@
 
       <hr />
       <h3 class="pageSubtitle mt-4">
-        Gold Level
+        Gold level
       </h3>
 
       <div class="d-flex flex-wrap align-items-center sponsorRows">
@@ -84,7 +84,7 @@
 
       <hr />
       <h3 class="pageSubtitle mt-4">
-        Silver Level
+        Silver level
       </h3>
 
       <div class="d-flex flex-wrap align-items-center sponsorRows">

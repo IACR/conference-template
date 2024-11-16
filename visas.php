@@ -41,7 +41,7 @@
       </p>
 
       <h3 class="pageSubtitle mt-4">
-        Invitation Letters
+        Invitation letters
       </h3>
       <p>
         Requests for invitation letters need to be received by

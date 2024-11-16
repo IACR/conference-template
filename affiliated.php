@@ -31,7 +31,7 @@
     </p>
 
     <h3 class="pageSubtitle mt-4">
-      Call for Affiliated Events
+      Call for affiliated events
     </h3>
     <p>
       Affiliated events can be 1-2 days long.
@@ -198,7 +198,7 @@
     <div class="row mt-4">
       <aside class="col-12 text-center">
         <h3 class="pageSubtitle text-start">
-          Still Have Questions?
+          Still have questions?
         </h3>
         <h4 class="subSubtitle mt-3">
           Teach Professory

@@ -85,7 +85,7 @@
     <!-- NOTE: below is an example of how additional information could be
       formatted on this page -->
     <h3 class="pageSubtitle mt-4">
-      On-Campus Accommodations
+      On-campus accommodations
     </h3>
     <p>
       We hope we'll have this option.
@@ -135,7 +135,7 @@
     </div>
 
     <h3 class="pageSubtitle mt-4">
-      Off-Campus Accommodations
+      Off-campus accommodations
     </h3>
     <p>
       For those who choose not to stay on-site, the following is a list of
