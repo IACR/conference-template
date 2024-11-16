@@ -15,7 +15,7 @@ Per the [IACR general chair guidelines](https://iacr.org/docs/genchair.pdf), you
 Using the [program committee creation form](https://www.iacr.org/cryptodb/pc/), you will generate your comm.json, which replaces the json/sample_comm.json. You should check that the program committee is visible on callforpapers.php.
 
 ## Changing Contact Info
-In json/metadata.json, you can add the names of the general and program chair(s). These will then appear on multiple pages across the site.
+In json/metadata.json, you can add the names of the general and program chair(s). These will then appear on multiple pages across the site. You will also need to update the contact email addresses on the contact page.
 
 ## Changing the nav.php as Additional Pages are Added
 As you add additional pages to your website, you will need to update the includes/nav.php to show the pages in the navigation menu. When you first clone the site, the only pages that are visible in the nav are index.php, callforpapers.php, sponsors.php, and contact.php.
