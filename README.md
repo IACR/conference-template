@@ -1,6 +1,9 @@
 
 > [!CAUTION]
 > This installation file is out of date and is currently being rewritten. 
+> ***The below quickstart guide does not convey the full extent of the 
+> amount of work required to 
+> maintain a conference website.***
 > If you have questions about the use of this template, contact 
 > [Kay McKelly](https://github.com/kaymckelly).
 
