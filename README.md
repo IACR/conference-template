@@ -4,6 +4,8 @@
 > If you have questions about the use of this template, contact 
 > [Kay McKelly](https://github.com/kaymckelly).
 
+**Do not copy over old conference websites from year to year**; the purpose of this template is to have regular updates for performance, formatting, etc. The old templates are not compatible with the current version and can introduce bugs. Feature requests are welcome via [Github Issues](https://github.com/IACR/conference-template/issues/new) or you can contact [Kay](https://github.com/kaymckelly).
+
 ---
 
 ## QUICKSTART GUIDE
