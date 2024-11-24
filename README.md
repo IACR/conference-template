@@ -15,7 +15,7 @@
 These are the minimum initial changes you need to make to deploy the website. You will be working with includes/nav.php, json/metadata.json, callforpapers.php, and contact.php.
 
 ### Adding Conference Name, Dates, & Location
-Per the [IACR general chair guidelines](https://iacr.org/docs/genchair.pdf), you must [submit your event](https://www.iacr.org/events/edit.php) to the calendar of events. Once the event has been approved and is visible on the IACR website, you can [construct your metadata.json file](https://www.iacr.org/cryptodb/pc/). You cannot put up the website prior to the event being approved. The conference name, dates, and location will be automatically generated from the calendar of events listing.
+Per the [IACR general chair guidelines](https://iacr.org/docs/genchair.pdf), you must [submit your event](https://www.iacr.org/events/edit.php) to the calendar of events. Once the event has been approved and is visible on the IACR website, you can [construct your metadata.json file](https://www.iacr.org/cryptodb/pc/). **<ins>You cannot put up the website prior to the event being approved.</ins>**; this step is required in order to construct your metadata.json file, which is in turn required for the conference website.
 
 ### Changing Contact Info
 In json/metadata.json, you can add the names of the general and program chair(s). These will then appear on multiple pages across the site. You will also need to update the contact email addresses on the contact page.
