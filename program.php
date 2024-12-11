@@ -35,9 +35,6 @@
       font-size: 80%;
     }
   </style>
-  <script>
-  <?php echo "var meta=" . json_encode($META, JSON_PRETTY_PRINT) . ";"?>
-  </script>
 </head>
 
 <body>
