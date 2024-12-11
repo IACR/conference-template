@@ -7,6 +7,8 @@
 > If you have questions about the use of this template, contact 
 > [Kay McKelly](https://github.com/kaymckelly).
 
+This is intended for all IACR conference websites (Crypto, Asiacrypt, Eurocrypt, CHES, FSE, PKC, RWC, and TCC). If you would like to use this template for another conference, see the [other conferences section](#non-iacr-conferences).
+
 :japanese_ogre: **Do not copy over old conference websites from year to year!** :japanese_ogre: The purpose of this template is to have regular updates for bug fixes, performance, formatting, etc. The old templates are not compatible with the current version. Feature requests are welcome via [Github Issues](https://github.com/IACR/conference-template/issues/new) or you can contact [Kay](https://github.com/kaymckelly).
 
 ---
@@ -34,10 +36,27 @@ Section 8.10 of the [IACR general chair guidelines](https://iacr.org/docs/gencha
 
 ---
 
-<details>
-<summary>The comprehensive guide for intermediate to advanced users & confident DIYers</summary>
+## Non-IACR conferences
+While this is not designed specifically for use by non-IACR conferences, it can certainly be used that way. Like the warning in the comprehensive user guide, because this is open source, there is no warranty. Subject to her availability, Kay may be hired on a freelance basis to construct your conference website for you.
+
+---
+
+<!-- <details>
+<summary>The comprehensive guide for intermediate to advanced users & confident DIYers</summary> -->
 
 # COMPREHENSIVE USER GUIDE
 Detailed in this section are the types of things you can choose to handle yourself or you can pay Kay to do. It's open source so there's no warranty. You break it, that's what [git blame](https://www.atlassian.com/git/tutorials/inspecting-a-repository/git-blame) is for. :octocat:
 
-</details>
+You do not need to know Bootstrap per se, though if you are interested in doing more with the template, [Bootstrap's documentation](https://getbootstrap.com/docs/5.3/getting-started/introduction/) is quite good. At a basic level, Bootstrap is a framework that helps to improve the appearance and organization of a website, known for [its grid system](https://getbootstrap.com/docs/5.3/layout/grid/). The template is built to load Bootstrap straight from iacr.org.
+
+## Dev environment setup
+You will need to have [PHP](https://www.php.net/manual/en/install.php) installed on the machine you work on; PHP provides a basic server that is useful for testing. PHP is already installed on the iacr.org machine, but it's safest to work on your local machine. Ideally you will work with Github for version control and push changes directly to the IACR server when you are ready to launch.
+
+In order to get started with the template, open a shell, change to your working directory, and clone the repository into same using `git clone https://github.com/IACR/conference-template.git .`
+
+To run a rudimentary web server while you are working, use `php -S localhost:8000`. This will allow you to view changes in real time.
+
+Go to http://localhost:8000 in your browser to see the website. Once you have verified the server is working, you can begin to edit the relevant files using a code editor of your choice (e.g., Emacs, SublimeText, Vim, Visual Studio Code, etc).
+
+
+<!-- </details> -->
