@@ -16,6 +16,9 @@ This is intended for all IACR conference websites (Crypto, Asiacrypt, Eurocrypt,
 # QUICKSTART GUIDE
 These are the minimum initial changes you need to make to deploy the website. You will be working with `includes/nav.php`, `json/metadata.json`, `callforpapers.php`, and `contact.php`.
 
+> [!TIP]
+> Do not underestimate the amount of work a conference website requires. The [after the quickstart](#after-the-quickstart) section will give you a rough idea.
+
 ## Adding conference name, dates, & location
 Per the [IACR general chair guidelines](https://iacr.org/docs/genchair.pdf), you must [submit your event](https://www.iacr.org/events/edit.php) to the calendar of events. Once the event has been approved and is visible on the IACR website, you can [construct your metadata.json file](https://www.iacr.org/cryptodb/pc/). **You cannot put up the website prior to the event being approved!** Event approval is required in order to construct your metadata.json file, which in turn is required for the conference website.
 
@@ -36,8 +39,44 @@ Section 8.10 of the [IACR general chair guidelines](https://iacr.org/docs/gencha
 
 ---
 
+## After the quickstart
+This is a rough idea of what you will need to do after you have set up the website and added the call for papers:
+1. Add paper submission information
+2. Open submission server and add the link to it
+3. Add accepted papers
+4. Add call for artifacts or affiliated events, if applicable
+5. Add venue & travel information
+6. Add tourism information, if applicable
+7. Add hotel and visa information
+8. Add financial support information page
+9. Add affiliated or co-located events pages, if applicable
+10. Add awards and invited talks pages, if applicable
+11. Add an updated code of conduct page
+12. Add registration information
+13. Open registration server and add link
+14. Add the program
+15. Add rump session page, if applicable
+16. Update the program if there are schedule, talk title, or speaker changes
+17. Add session chairs, slides, paper links, and speakers to the program
+
+During the conference, you will also need to:
+1. Add announcements to main page, if applicable
+2. Update the program if there are last-minute schedule changes
+3. Open rump session submissions and add link
+4. Add rump session program once finalized
+
+In addition to these steps, you will need to be:
+* Updating the sponsors page as additional sponsorships come in
+* Adding to the website updates
+
+All this to say: do not underestimate the amount of work maintaining the website is.
+
+---
+
 ## Non-IACR conferences
-While this is not designed specifically for use by non-IACR conferences, it can certainly be used that way. Like the warning in the comprehensive user guide, because this is open source, there is no warranty. Subject to her availability, Kay may be hired on a freelance basis to construct your conference website for you.
+While this is not designed specifically for use by non-IACR conferences, it can certainly be used that way. If you would like to use this template for conferences outside of IACR, you will need to [load Bootstrap via CDN](https://getbootstrap.com/docs/5.3/getting-started/introduction/#cdn-links) rather than directly from IACR as it is currently written. You can also hire Kay on a freelance basis to handle your conference website, subject to her availability.
+
+Like the warning in the comprehensive user guide, because this is open source, there is no warranty.
 
 ---
 
