@@ -90,6 +90,9 @@ function scrollToSession() {
 function drawProgram() {
   /* Every timeslot gets a tabbedSessions variable when
      it is drawn, to detect which ones should use tabs. */
+  if (!Object.hasOwn(currentProgram.config.timezone, 'shortName')) {
+    currentProgram.config.timezone.shortName = meta.city;
+  }
   let days = currentProgram['days'];
   for (var i = 0; i < days.length; i++) {
     var timeslots = days[i]['timeslots'];
