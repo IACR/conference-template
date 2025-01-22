@@ -7,11 +7,13 @@
 > If you have questions about the use of this template, contact 
 > [Kay McKelly](https://github.com/kaymckelly).
 
-This is intended for all IACR conference websites (Crypto, Asiacrypt, Eurocrypt, CHES, FSE, PKC, RWC, and TCC). If you would like to use this template for another conference, see the [other conferences section](#other-conferences).
+<!-- ![MIT][license.badge] -->
+
+This template is intended for all IACR conference websites (Crypto, Asiacrypt, Eurocrypt, CHES, FSE, PKC, RWC, and TCC). If you would like to use this for another event, see the [other conferences section](#other-conferences).
 
 :japanese_ogre: **Do not copy over old conference websites from year to year!** :japanese_ogre: 
 
-Theis template gets regular updates for bug fixes, performance, formatting, etc. The old templates are not compatible with the current version. Feature requests are welcome via [Github Issues](https://github.com/IACR/conference-template/issues/new) or you can contact [Kay](https://github.com/kaymckelly).
+This template gets regular updates for bug fixes, performance, formatting, etc. The old templates are not compatible with the current version. Feature requests are welcome via [Github Issues](https://github.com/IACR/conference-template/issues/new) or you can contact [Kay](https://github.com/kaymckelly).
 
 If you're an intermediate to advanced user and/or a confident DIYer, check out the [comprehensive guide](comprehensiveGuide.md). Remember, it's open source so there's no warranty. You break it, that's what [git blame](https://www.atlassian.com/git/tutorials/inspecting-a-repository/git-blame) is for. :octocat:
 
@@ -20,26 +22,26 @@ If you're an intermediate to advanced user and/or a confident DIYer, check out t
 # QUICKSTART GUIDE
 These are the minimum initial changes you need to make to deploy the website. You will be working with `includes/nav.php`, `json/metadata.json`, `callforpapers.php`, and `contact.php`.
 
-> [!TIP]
-> Do not underestimate the amount of work a conference website requires. The [after the quickstart](#after-the-quickstart) section will give you a rough idea.
+> [!IMPORTANT]
+> Do not underestimate the amount of work a conference website requires. The [after the quickstart](#after-the-quickstart) section will give you a rough idea. There is also a [comprehensive guide](comprehensiveGuide.md) for more advanced usage.
 
-## Adding conference name, dates, & location
+## Add conference name, dates, & location
 Per the [IACR general chair guidelines](https://iacr.org/docs/genchair.pdf), you must [submit your event](https://www.iacr.org/events/edit.php) to the calendar of events. Once the event has been approved and is visible on the IACR website, you can [construct your metadata.json file](https://www.iacr.org/cryptodb/pc/). **You cannot put up the website prior to the event being approved!** Event approval is required in order to construct your metadata.json file, which in turn is required for the conference website.
 
-## Changing contact info
-In `json/metadata.json`, you should add the names of the general and program chair(s). These will then appear on multiple pages across the site. You will also need to update the contact email addresses on `contact.php`.
+## Change contact info
+In `json/metadata.json`, you will add the names of the general and program chair(s). These will then appear on multiple pages across the site. You will also need to update the contact email addresses on `contact.php`.
 
-## Updating callforpapers.php
-This is one of the pages that is initially included in the `includes/nav.php` and will need to be updated. It has generic information about stipends, awards, and the review schedule. All paper submission information should be added to `papersubmission.php`.
+## Update callforpapers.php
+This is one of the pages that is initially included in the `includes/nav.php` and will need to be updated. It has generic information about stipends, awards, and the paper review schedule. All paper submission information should be added to `papersubmission.php`.
 
-## Adding the program committee
-Using the [program committee creation form](https://www.iacr.org/cryptodb/pc/), you will generate your comm.json, which replaces the `json/sample_comm.json`. You should check that the program committee is visible on `callforpapers.php`.
+## Add the program committee
+Using the [program committee creation form](https://www.iacr.org/cryptodb/pc/), you will generate your `comm.json`, which replaces the `json/sample_comm.json`. After adding your own comm.json, check that the program committee renders correctly on `callforpapers.php`.
 
-## Changing the nav.php as additional pages are added
-As you add additional pages to your website, you will need to update the `includes/nav.php` to show the pages in the navigation menu. When you first clone the site, the only pages that are visible in the nav are `index.php`, `callforpapers.php`, `sponsors.php`, and `contact.php`.
+## Update `nav.php` as additional pages are added
+When you add additional pages to your website, you also need to update `includes/nav.php`. When you first clone the site, the only pages that are visible in the nav are `index.php`, `callforpapers.php`, `sponsors.php`, and `contact.php`.
 
 ## Updating the code of conduct
-Section 8.10 of the [IACR general chair guidelines](https://iacr.org/docs/genchair.pdf) requires an up-to-date code of conduct for each conference. You should edit the `conduct.php` accordingly. Sections that need editing will show up in red on the page because they are tagged with a class called “editMe”. This class is used throughout the site to indicate which pieces need editing prior to launch.
+Section 8.10 of the [IACR general chair guidelines](https://iacr.org/docs/genchair.pdf) requires an up-to-date code of conduct for each conference. You should edit `conduct.php` accordingly. Sections that need editing will show up in red on the page because they are tagged with a class called “editMe”. This class is used throughout the site to indicate sections that need to be edited prior to launch.
 
 ---
 
@@ -73,15 +75,15 @@ In addition to these steps, you may need to:
 * Update the sponsors page as additional sponsorships come in
 * Add a website update
 
-All this to say: do not underestimate the amount of work maintaining the website is.
+All this to say: do not underestimate the amount of work required to maintain the conference website.
 
 ---
 
 # OTHER CONFERENCES
-> [!TIP]
+> [!NOTE]
 > Doing it yourself? You'll probably need [the comprehensive 
 > guide](comprehensiveGuide.md).
 
-While this is not designed specifically for use by non-IACR conferences, it can certainly be used that way. If you would like to use this template for conferences outside of IACR, you will need to [load Bootstrap via CDN](https://getbootstrap.com/docs/5.3/getting-started/introduction/#cdn-links) rather than directly from IACR as it is currently written. You can also hire Kay on a freelance basis to handle your conference website, subject to her availability.
+While this template is not designed specifically for use by non-IACR conferences, it can certainly be used that way. If you would like to use this template for conferences outside of IACR, you will need to [load Bootstrap via CDN](https://getbootstrap.com/docs/5.3/getting-started/introduction/#cdn-links) in `includes/head.php` and `includes/footer.php`, rather than directly from iacr.org as it is currently written. You can also hire Kay on a freelance basis to handle your conference website, subject to her availability.
 
-Like the warning in the comprehensive user guide, because this is open source, there is no warranty.
+[license.badge]: https://img.shields.io/badge/license-MIT-blue.svg
