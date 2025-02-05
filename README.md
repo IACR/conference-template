@@ -195,10 +195,38 @@ Further recommended reading:
 - [WebAIM resources](https://webaim.org/resources/)
 
 ### Themes & colors
-lorem
+At present there are 7 pre-made themes.
+<div class="">
+  <a href="images/demo/blackTheme.png">
+    <img src="images/demo/blackTheme.png" style="width:25%; margin:-0.5rem 0.5rem 0rem 0.5rem;" alt="Screenshot of black theme, which has an orange-pink-purple gradient in the background.">
+  </a>
+  <a href="images/demo/blueTheme.png">
+    <img src="images/demo/blueTheme.png" style="width:25%; margin:-0.5rem 0.5rem 0rem 0.5rem;" alt="Screenshot of blue theme, which has a medium blue gradient fading to white in the header.">
+  </a>
+  <a href="images/demo/blue2Theme.png">
+    <img src="images/demo/blue2Theme.png" style="width:25%; margin:-0.5rem 0.5rem 0rem 0.5rem;" alt="Screenshot of blue2 theme, which has a top nav bar and a dusty blue header with a scattered honeycomb pattern banner image.">
+  </a>
+  <!-- <a href="images/demo/darkTheme.png">
+    <img src="images/demo/darkTheme.png" style="width:25%; margin:-0.5rem 0.5rem 0rem 0.5rem;" alt="Screenshot of dark theme, which has orange highlights and a black background.">
+  </a> -->
+  <a href="images/demo/greenTheme.png">
+    <img src="images/demo/greenTheme.png" style="width:25%; margin:0.5rem 0.5rem 0rem 0.5rem;" alt="Screenshot of green theme, which has an undulating gray banner image and a spring green nav bar.">
+  </a>
+  <a href="images/demo/orangeTheme.png">
+    <img src="images/demo/orangeTheme.png" style="width:25%; margin:0.5rem 0.5rem 0rem 0.5rem;" alt="Screenshot of orange theme, which is the default theme and has a faded orange gradient over the banner image of circuitry.">
+  </a>
+  <a href="images/demo/purpleTheme.png">
+    <img src="images/demo/purpleTheme.png" style="width:25%; margin:0.5rem 0.5rem 0rem 0.5rem;" alt="Screenshot of purple theme, which has a teal-green gradient over a geometric background for the banner image, with purple highlights on the page.">
+  </a>
+  <a href="images/demo/tealTheme.png">
+    <img src="images/demo/tealTheme.png" style="width:25%; margin:0.5rem 0.5rem 0rem 0.5rem;" alt="Screenshot of teal theme, which has a top menu bar in teal and a faded geometric teal background on the page.">
+  </a>
+</div>
+
+Any of these themes can be modified as desired, though remember that accessibility matters for any changes you make (see [customization](#customization) for a brief explanation on the importance of accessibility).
 
 ### Change header image
-lorem
+Depending on the theme you are using, you will need to take the positioning of the image into account. Generally speaking, you want to use a large high quality image. For shorter top banners, you want at least 1200px in width. For full-page background images, you should use no smaller than 1500x1500px. These are only guidelines and are not strict rules. Remember also that the larger the image, the more loading times will be impacted. SVG files will take the least time to load.
 
 <div style="text-align:right;">
 <a href="#table-of-contents">Back to top</a>
