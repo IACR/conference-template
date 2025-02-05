@@ -151,7 +151,26 @@ To create a new page, start by copying `empty.php` and add a link to your new pa
 In addition to deleting the file, you will need to make sure the page is not linked from `includes/nav.php`.
 
 ### Special instructions for `travel.php`
+The map on this page must be edited by hand, though the venue coordinates are drawn from `json/metadata.json`. The section to be modified is:
+```
+    var points = [{
+        name: 'Conference venue',
+        longitude: <?php echo $META['longitude']; ?>,
+        latitude: <?php echo $META['latitude']; ?>
+      },
+      {
+        name: 'Airport',
+        longitude: 34.424,
+        latitude: -119.8365
+      }
+    ];
+```
+You can add additional points, such as nearby hotels, points of interest for tourists, banquet locations, etc. Do not change the venue location here; change that in `json/metadata.json`.
 
+By default, the map centers on the conference venue location. After adding additional points, you may find the map does not show them without zooming out. If this is the case, you can change the number at the end of the following line:
+```
+var mymap = L.map('venuemap').setView([<?php echo $META['longitude'] . ',' . $META['latitude']; ?>], 13);
+```
 
 <div style="text-align:right;">
 <a href="#table-of-contents">Back to top</a>
@@ -160,7 +179,7 @@ In addition to deleting the file, you will need to make sure the page is not lin
 ---
 
 ## CUSTOMIZATION
-Generally speaking, everything on the website is customizable. There are certain assumed elements of structure, particularly in themes like `styles/teal_theme.css`, but even those can be modified with some amount of work. You can preview themes by changing the theme stylesheet in `includes/head.php` and then choose to modify one of those or create your own.
+Broadly speaking, everything on the website is customizable. There are certain assumed elements of structure, particularly in themes like `styles/teal_theme.css`, but even those can be modified with some amount of work. You can preview themes by changing the theme stylesheet in `includes/head.php` and then choose to modify one of those or create your own.
 
 An important thing to remember when modifying themes is accessibility. Bootstrap mostly takes care of responsive web design concerns, and each additional theme in `/styles` has been checked for color accessibility.
 
