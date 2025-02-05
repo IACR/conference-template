@@ -98,3 +98,7 @@ function rootPath()
 <meta property="twitter:image" content="https://iacr.org/img/logo/iacr_wordmark_twitter.png" />
 <!-- apple format for iMessage and search -->
 <link rel="apple-touch-icon" href="https://iacr.org/img/logo/iacrlogo_small.png">
+<script>
+  // This makes the meta variables available in javascript as well as PHP.
+  <?php echo "var meta=" . json_encode($META, JSON_PRETTY_PRINT) . ";"?>
+</script>

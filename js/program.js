@@ -90,6 +90,15 @@ function scrollToSession() {
 function drawProgram() {
   /* Every timeslot gets a tabbedSessions variable when
      it is drawn, to detect which ones should use tabs. */
+  // Populate the shortName in the program if it wasn't already set.
+  if (!Object.hasOwn(currentProgram.config.timezone, 'shortName')) {
+    // If the metadata.json doesn't have a city set, we use 'Local'
+    if (meta.city) {
+      currentProgram.config.timezone.shortName = meta.city;
+    } else {
+      currentProgram.config.timezone.shortName = 'Local'
+    }
+  }
   let days = currentProgram['days'];
   for (var i = 0; i < days.length; i++) {
     var timeslots = days[i]['timeslots'];
