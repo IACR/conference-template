@@ -1,12 +1,11 @@
-/* 
-Color theme by Kay McKelly
-https://color.adobe.com/cryptography-brights-color-theme-1767fb7d-9a95-43b9-8628-c7a4420913b7/
+/***** 
+  Color theme by Kay McKelly
+  https://color.adobe.com/cryptography-brights-color-theme-1767fb7d-9a95-43b9-8628-c7a4420913b7/
 
-HEX: #CB831E, #FEFDFB, #1F2161, #2E3192, #0F773C
-RGBA: rgba(203, 131, 30, 1), rgba(254, 253, 251, 1), rgba(31, 33, 97, 1), rgba(46, 49, 146, 1), rgba(15, 119, 60, 1)
-HSLA: hsla(35, 74, 45, 1), hsla(40, 60, 99, 1), hsla(238, 51, 25, 1), hsla(238, 52, 37, 1), hsla(145, 77, 26, 1)
-*/
-
+  HEX: #CB831E, #FEFDFB, #1F2161, #2E3192, #0F773C
+  RGBA: rgba(203, 131, 30, 1), rgba(254, 253, 251, 1), rgba(31, 33, 97, 1), rgba(46, 49, 146, 1), rgba(15, 119, 60, 1)
+  HSLA: hsla(35, 74, 45, 1), hsla(40, 60, 99, 1), hsla(238, 51, 25, 1), hsla(238, 52, 37, 1), hsla(145, 77, 26, 1)
+*****/
 
 /***** General styling *****/
 body {
