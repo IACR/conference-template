@@ -1,14 +1,14 @@
 /*****
   Color theme by Kay McKelly
-  URL
+    https://color.adobe.com/blue2-theme-%28vive-la-france%29-color-theme-12ec3baa-72b2-4a92-82b0-dabee6f836e7/
 
-  HEX: 
-  RGBA: 
-  HSLA: 
+  HEX: #D4446F, #A12643, #FEFDFB, #F3F3FB, #194687, #2261BA, #266DD3, #9CBCEB
+  RGBA: rgba(212, 68, 111, 1), rgba(161, 38, 67, 1), rgba(254, 253, 251, 1), rgba(243, 243, 251, 1), rgba(25, 70, 135, 1),rgba(34, 97, 186, 1), rgba(38, 109, 211, 1), rgba(156, 188, 235, 1)
+  HSLA: hsla(342, 62, 54, 1), hsla(345, 61, 39, 1), hsla(40, 60, 99, 1), hsla(240, 50, 96, 1), hsla(215, 68, 31, 1), hsla(215, 69, 43, 1), hsla(215, 69, 48, 1), hsla(215, 66, 76, 1)
 *****/
 
-/***** Header (in /includes/nav.php) *****/
 
+/***** Header (in /includes/nav.php) *****/
 /* same as teal to place nav menu at top. */
 #pageTop {
   /* equivalent of d-flex */
