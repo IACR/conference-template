@@ -22,6 +22,8 @@ body, main {
 .headerImg {
   background-image: url("../images/banners/citrusWatercolor.jpg");
   background-position: top center;
+  /* NOTE: R prefers */
+  /* background-position: center center; */
 }
 
 .headerGradient {
