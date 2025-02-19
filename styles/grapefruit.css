@@ -1,0 +1,148 @@
+/***** 
+  Color theme by Kay McKelly
+    https://color.adobe.com/grapefruit-theme-color-theme-5174432a-6e86-40c7-bb56-6c45ba32aaff
+
+  HEX: #F27A5E, #F29580, #F2C3A7, #F27507, #F25D07, #8C0303
+  RGBA: rgba(242, 122, 94, 1.00), rgba(242, 149, 128, 1.00), rgba(242, 195, 167, 1.00), rgba(242, 117, 7, 1.00), rgba(242, 93, 7, 1.00), rgba(140, 3, 3, 1.00)
+  HSLA: hsla(11, 85%, 66%, 1.00), hsla(11, 81%, 73%, 1.00), hsla(22, 74%, 80%, 1.00), hsla(28, 94%, 49%, 1.00), hsla(22, 94%, 49%, 1.00), hsla(0, 96%, 28%, 1.00)
+
+  While not officially part of the theme, to keep it from being too monochromatic/one-note, the cooler offset colors are #016EBC (or #0177CB for larger text) and rgba(94, 162, 215, 0.5) (or #BCDEF2 if non-alpha preferred).
+*****/
+
+
+/***** General styling *****/
+body, main {
+  /* background-color: #fff5ef; */
+  background-color: #FFFBF9;
+  color: #000208;
+}
+
+
+/***** Header (in /includes/nav.php) *****/
+.headerImg {
+  background-image: url("../images/banners/citrusWatercolor.jpg");
+  background-position: top center;
+  /* NOTE: R prefers */
+  /* background-position: center center; */
+}
+
+.headerGradient {
+  background: rgba(204, 132, 30, 0.6);
+  background: -webkit-linear-gradient(rgba(204, 132, 30, 0.5), rgba(255, 251, 249, 0.7));
+  background: -o-linear-gradient(rgba(204, 132, 30, 0.5), rgba(255, 251, 249, 0.7));
+  background: -moz-linear-gradient(rgba(204, 132, 30, 0.5), rgba(255, 251, 249, 0.7));
+  background: linear-gradient(rgba(204, 132, 30, 0.5), rgba(255, 251, 249, 0.7));
+}
+
+@media (min-width: 992px) {
+  .headerTitle {
+    color: #102A83;
+    font-size: 2.7rem;
+    margin-bottom: 0;
+  }
+
+  .headerInfoTop, .headerInfoBottom {
+    color: #102A83;
+    font-size: 1.7rem;
+  }
+
+  #logo {
+    max-height: 7.5rem;
+  }
+}
+
+
+
+
+/***** Main Content (e.g. h1-h6, a, text, etc) *****/
+.indPageTitle {
+  color: #8C0303;
+}
+
+.dateTitle {
+  color: #8C0303;
+}
+
+.pageSubtitle {
+  color: #D93612;
+}
+
+.subSubtitle {
+  color: #0177CB;
+}
+
+a {
+  color: #016EBC;
+}
+
+a:hover {
+  color: #F25D07;
+}
+
+/* NOTE: custom button colors typically derived from the two most common colors in a given theme */
+.customBtn-warm {
+  background-color: rgba(242, 122, 94, 0.5);
+}
+
+.customBtn-warm:hover {
+  background-color: rgba(242, 122, 94, 0.8);
+  color: #030303;
+}
+
+.customBtn-cool {
+  background-color: rgba(94, 162, 215, 0.4);
+  /* background-color: #BCDEF2; */
+}
+
+.customBtn-cool:hover {
+  background-color: rgba(1, 110, 188, 0.8);
+  color: #FFFBF9
+}
+
+code {
+  color: #CB831E;
+}
+
+
+/***** Main Content: cards & alerts *****/
+.customCard {
+  border: 1px solid rgba(242, 134, 68, 0.3);
+}
+
+.customCardHeader {
+  background-color: rgba(242, 134, 68, 0.5);
+  color: #000208;
+}
+
+.customAlert-warm {
+  background-color: rgba(242, 134, 68, 0.3);
+  border-color: rgba(255, 203, 13, 0.5);
+}
+
+.customAlert-cool {
+  background-color: rgba(94, 162, 215, 0.2);
+  border-color: rgba(94, 162, 215, 0.4);
+}
+
+.customCardFooter {
+  /* NOTE: typically this is a more transparent version of the card header bg color */
+  background-color: rgba(242, 134, 68, 0.1);
+}
+
+.icon {
+  filter: brightness(0) saturate(100%) invert(8%) sepia(72%) saturate(7302%) hue-rotate(358deg) brightness(84%) contrast(101%);
+}
+
+
+/* TODO: test and finish theme with these */
+/**** Program specific colors ********/
+div.trackMenu a.nav-link {
+   background-color: #f8f8f8 !important;
+}
+div.trackMenu .nav-link.active {
+  background-color: rgba(242, 210, 166, 0.3) !important;
+  color: #016EBC;
+}
+div.sessionList div.session {
+  background-color: rgba(242, 210, 166, 0.3);
+}
