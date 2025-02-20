@@ -88,16 +88,18 @@ This is a rough chronological list of what you will need to do after you have se
 15. Add rump session page, if applicable
 16. Update the program as there are changes to the schedule, talk title, and/or speakers
 17. Add session chairs, slides, paper links, and speakers to the program
+18. Add Zoom links if applicable, as well as links to session/talk videos
 
 During the conference, you will also need to:
 * Add announcements to main page, if applicable
 * Update the program if there are last-minute schedule changes
 * Open rump session submissions and add link
 * Add rump session program once finalized
+* Update author slides as they come in (some authors really leave it until the last minute :weary:)
 
 In addition to these steps, you may need to:
 * Update the sponsors page as additional sponsorships come in
-* Add a website update
+* Add a website update if there is a major schedule change or announcement
 
 All this to say: do not underestimate the amount of work required to maintain the conference website.
 
