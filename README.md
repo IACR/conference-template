@@ -233,7 +233,7 @@ Further recommended reading:
 - [WebAIM resources](https://webaim.org/resources/)
 
 ### Themes & colors
-At present there are 7 pre-made themes. 
+At present there are 8 pre-made themes. 
 
 You can use the [template demo](https://iacr.org/tools/confdemo/) if you prefer to see the themes in use. Here is a selection of past conferences that modified the conference template themes in various ways:
 - [CHES 2024](https://ches.iacr.org/2024/)
