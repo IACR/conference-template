@@ -168,7 +168,7 @@ The fifth JSON file is the only one created essentially from scratch and contain
 prior to `"committee": [...]`. If you are using this for artifact chairs, don't forget to change the array name to "artifact_chairs".
 
 ### What's in `papers.json`
-`papers.json` includes the paper IDs, abstracts, titles, authors and their affiliations, pubkey, and number of pages for all accepted papers. This file can be generated directly from HotCRP.
+`papers.json` includes the paper IDs, abstracts, titles, authors and their affiliations, pubkey, and number of pages for all accepted papers. This file can be generated directly from HotCRP: once you have logged in to your HotCRP instance, click on IACR Integration on the right. Then on the left side menu, you click Accepted papers and there will be a button to download the accepted papers file.
 
 ### What's in `program.json`
 `program.json` is the most complicated of the JSON files and is what will fill in `program.php`. To keep this explanation brief, `program.json` includes things like days, timeslots, and talks. The [IACR program editor](https://www.iacr.org/tools/program/) will guide you through creating your program. Unfortunately, non-IACR events cannot use the program editor at this time.
