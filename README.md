@@ -70,7 +70,7 @@ Section 8.10 of the [IACR general chair guidelines](https://iacr.org/docs/gencha
 ---
 
 # CONFERENCE WEBSITE LIFECYCLE
-This is a rough chronological list of what you will need to do after you have set up the initial website:
+This is a rough chronological list of what you will need to do after you have set up the initial website by completing the [quickstart guide](#quickstart-guide):
 1. Add paper submission information
 2. Open submission server and add the link to it
 3. Add accepted papers
