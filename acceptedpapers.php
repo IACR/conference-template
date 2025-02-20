@@ -21,8 +21,7 @@
 
     <!-- NOTE: if json/papers.json exists, then this will be hidden. -->
     <p id="notYetAvailable">
-      This information is not yet available. This information will be available after authors are notified, which should
-      occur by <?php echo $META['finalNotification'];?>. Thank you for your patience.
+      This information is not yet available. The list of accepted papers will be available after authors are notified. Thank you for your patience.
     </p>
 
     <!-- NOTE: if json/papers.json is malformed, this will be shown. -->
