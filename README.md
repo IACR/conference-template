@@ -55,7 +55,7 @@ In `json/metadata.json`, you will add the names of the general and program chair
 `callforpapers.php` is one of the pages that is initially included in the `includes/nav.php` and will need to be updated. It has generic information about stipends, awards, and the paper review schedule. All paper submission information should be added to `papersubmission.php`.
 
 ## Add the program committee
-Using the [program committee creation form](https://www.iacr.org/cryptodb/pc/), you will generate your `comm.json`. After adding your `comm.json`, check that the program committee renders correctly on `callforpapers.php`. Please do not attempt to make your `comm.json` from scratch; the ID numbers that are supplied by the aforementioned [program committee creation form](https://www.iacr.org/cryptodb/pc/) are used in tracking committee involvement.
+Using the [program committee creation form](https://www.iacr.org/cryptodb/pc/), you will generate your `comm.json`. After adding your `comm.json`, check that the program committee renders correctly on `callforpapers.php`. Please do not attempt to make your `comm.json` from scratch; the ID numbers that are supplied by the aforementioned [program committee creation form](https://www.iacr.org/cryptodb/pc/) are used in acknowleding committee involvement on CryptoDB. Maybe you can be the next person with [the most IACR program committee memberships](https://www.iacr.org/cryptodb/data/service.php)?
 
 ## Update nav as pages are added
 When you first clone the site, the only pages that are visible in the nav are `index.php`, `callforpapers.php`, `sponsors.php`, and `contact.php`. As you add additional pages to your website, you also need to update `includes/nav.php`. 
