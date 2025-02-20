@@ -21,18 +21,24 @@ If you're an intermediate to advanced user and/or a confident DIYer, check out t
 - [NON-IACR EVENTS](#non-iacr-events)
 - [COMPREHENSIVE GUIDE](#comprehensive-guide)
   - [Dev environment setup](#dev-environment-setup)
+  - [Structure of JSON files](#structure-of-json-files)
+    - [How to create JSON files](#how-to-create-json-files)
+    - [What's in `metadata.json`](#whats-in-metadatajson)
+    - [What's in `comm.json`](#whats-in-commjson)
+    - [What's in `papers.json`](#whats-in-papersjson)
+    - [What's in `program.json`](#whats-in-programjson)
   - [Individual pages](#individual-pages)
     - [Add a new page](#add-a-new-page)
     - [Delete a page](#delete-a-page)
     - [Special instructions for `travel.php`](#special-instructions-for-travelphp)
-  - [CUSTOMIZATION](#customization)
+  - [Customization](#customization)
     - [Themes \& colors](#themes--colors)
     - [Change header image](#change-header-image)
 
 ---
 
 # QUICKSTART GUIDE
-These are the minimum initial changes you need to make to deploy the website. You will be working with `includes/nav.php`, `json/metadata.json`, `callforpapers.php`, and `contact.php`.
+These are the minimum initial changes you need to make to deploy the website. You will be working with `includes/nav.php`, `json/metadata.json`, `callforpapers.php`, and `contact.php`. Please note that there is additional information about `json/metadata.json` in the [what's in `metadata.json`](#whats-in-metadatajson) section in the comprehensive guide.
 
 > [!IMPORTANT]
 > Do not underestimate the amount of work a conference website requires. The [after the quickstart](#after-the-quickstart) section will give you a rough idea. There is also a [comprehensive guide](comprehensiveGuide.md) for more advanced usage.
@@ -129,6 +135,45 @@ Go to http://localhost:8000 in your browser to see the website. Once you have ve
 <a href="#table-of-contents">Back to top</a>
 </div>
 
+
+## Structure of JSON files
+There are five JSON files you will edit when using this template. Each have their own specific formats that are required for the website to read them properly.
+
+### How to create JSON files
+You should use [IACR creation tools](https://www.iacr.org/cryptodb/pc/) for construction of `metadata.json` and `comm.json`. `papers.json` should be created through HotCRP in order to include the necessary information for accepted papers. Lastly, `program.json` should be created <ins>and edited</ins> with the [IACR program editor](https://www.iacr.org/tools/program/). 
+
+> [!NOTE]
+> Including the ID numbers of everyone listed in `comm.json` and `metadata.json` is important; this links service work done for IACR with names on CryptoDB. These IDs are added automatically when using the [IACR creation tools](https://www.iacr.org/cryptodb/pc/).
+
+The fifth JSON file is the only one created essentially from scratch and contains things like speaker name, whether the speaker is appearing in person or remotely, Youtube video links to the sessions/talks, links to slides, DOIS, and [ePrint paper links](https://eprint.iacr.org/). Historically, this file has not been edited by conference organizers as it is not well documented and time-sensitive. This section is kept vague on purpose, as the file would include encrypted links that appear on the website.
+
+### What's in `metadata.json`
+`metadata.json` defines major information for the website, including:
+   - name, location, and dates of conference (includes longitude and latitude, which are used in the map on `travel.php`)
+   - important dates like the first round notification, when rebuttals are due, and when final versions of accepted papers are due
+   - event type and ID number (required for IACR events)
+   - names and affiliations of general and program chair(s)
+
+### What's in `comm.json`
+`comm.json` contains the names and affiliations of the program committee. You can also include the area and/or artifact chair(s) in this file by adding:
+```
+"area_chairs": [
+  ...
+],
+```
+prior to `"committee": [...]`. If you are using this for artifact chairs, don't forget to change the array name to "artifact_chairs".
+
+### What's in `papers.json`
+`papers.json` includes the paper IDs, abstracts, titles, authors and their affiliations, pubkey, and number of pages for all accepted papers. This file can be generated directly from HotCRP.
+
+### What's in `program.json`
+`program.json` is the most complicated of the JSON files and is what will fill in `program.php`. To keep this explanation brief, `program.json` includes things like days, timeslots, and talks. The [IACR program editor](https://www.iacr.org/tools/program/) will guide you through creating your program. Unfortunately, non-IACR events cannot use the program editor at this time.
+
+<div style="text-align:right;">
+<a href="#table-of-contents">Back to top</a>
+</div>
+
+
 ## Individual pages
 
 ### Add a new page
@@ -166,9 +211,8 @@ var mymap = L.map('venuemap').setView([<?php echo $META['longitude'] . ',' . $ME
 <a href="#table-of-contents">Back to top</a>
 </div>
 
----
 
-## CUSTOMIZATION
+## Customization
 Broadly speaking, everything on the website is customizable. There are certain assumed elements of structure, particularly in themes like `styles/teal_theme.css`, but even those can be modified with some amount of work. You can preview themes by changing the theme stylesheet in `includes/head.php` and then choose to modify one of those or create your own.
 
 An important thing to remember when modifying themes is accessibility. Bootstrap mostly takes care of responsive web design concerns, and each additional theme in `/styles` has been checked for color accessibility.
@@ -221,6 +265,3 @@ Depending on the theme you are using, you will need to take the positioning of t
 <div style="text-align:right;">
 <a href="#table-of-contents">Back to top</a>
 </div>
-
-
-[license.badge]: https://img.shields.io/badge/license-MIT-blue.svg
