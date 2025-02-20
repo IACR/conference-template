@@ -17,7 +17,7 @@ If you're an intermediate to advanced user and/or a confident DIYer, check out t
   - [Add the program committee](#add-the-program-committee)
   - [Update nav as pages are added](#update-nav-as-pages-are-added)
   - [Update code of conduct](#update-code-of-conduct)
-- [CONFERENCE WEBSITE LIFECYCLE](#conference-website-lifecycle)
+- [AFTER THE QUICKSTART](#after-the-quickstart)
 - [NON-IACR EVENTS](#non-iacr-events)
 - [COMPREHENSIVE GUIDE](#comprehensive-guide)
   - [Dev environment setup](#dev-environment-setup)
@@ -69,7 +69,7 @@ Section 8.10 of the [IACR general chair guidelines](https://iacr.org/docs/gencha
 
 ---
 
-# CONFERENCE WEBSITE LIFECYCLE
+# AFTER THE QUICKSTART
 This is a rough chronological list of what you will need to do after you have set up the initial website by completing the [quickstart guide](#quickstart-guide):
 1. Add paper submission information
 2. Open submission server and add the link to it
