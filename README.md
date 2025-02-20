@@ -233,8 +233,17 @@ Further recommended reading:
 - [WebAIM resources](https://webaim.org/resources/)
 
 ### Themes & colors
-At present there are 7 pre-made themes.
-<div class="">
+At present there are 7 pre-made themes. 
+
+You can use the [template demo](https://iacr.org/tools/confdemo/) if you prefer to see the themes in use. Here is a selection of past conferences that modified the conference template themes in various ways:
+- [CHES 2024](https://ches.iacr.org/2024/)
+- [PKC 2024](https://pkc.iacr.org/2024/)
+- [Crypto 2023](https://crypto.iacr.org/2023/)
+- [Asiacrypt 2022](https://asiacrypt.iacr.org/2022/)
+- [TCC 2021](https://tcc.iacr.org/2021/)
+- [Crypto 2020](https://crypto.iacr.org/2020/)
+
+<div style="margin-top: 2rem;">
   <a href="images/demo/blackTheme.png">
     <img src="images/demo/blackTheme.png" style="width:25%; margin:-0.5rem 0.5rem 0rem 0.5rem;" alt="Screenshot of black theme, which has an orange-pink-purple gradient in the background.">
   </a>
