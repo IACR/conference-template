@@ -256,6 +256,9 @@ You can use the [template demo](https://iacr.org/tools/confdemo/) if you prefer 
   <!-- <a href="images/demo/darkTheme.png">
     <img src="images/demo/darkTheme.png" style="width:25%; margin:-0.5rem 0.5rem 0rem 0.5rem;" alt="Screenshot of dark theme, which has orange highlights and a black background.">
   </a> -->
+  <a href="images/demo/grapefruitTheme.png">
+    <img src="images/demo/grapefruitTheme.png" style="width:25%; margin:-0.5rem 0.5rem 0rem 0.5rem;" alt="Screenshot of grapefruit theme, which has a vibrant orange watercolor banner accented with pale blue.">
+  </a>
   <a href="images/demo/greenTheme.png">
     <img src="images/demo/greenTheme.png" style="width:25%; margin:0.5rem 0.5rem 0rem 0.5rem;" alt="Screenshot of green theme, which has an undulating gray banner image and a spring green nav bar.">
   </a>
