@@ -38,13 +38,15 @@ If you're an intermediate to advanced user and/or a confident DIYer, check out t
 ---
 
 # QUICKSTART GUIDE
-These are the minimum initial changes you need to make to deploy the website. You will be working with `includes/nav.php`, `json/metadata.json`, `callforpapers.php`, and `contact.php`. Please note that there is additional information about `json/metadata.json` in the [what's in `metadata.json`](#whats-in-metadatajson) section in the comprehensive guide.
+These are the minimum initial changes you need to make to deploy the website. You will be working with `includes/nav.php`, `json/metadata.json`, `callforpapers.php`, and `contact.php`. (There is additional information about `json/metadata.json` in the [what's in `metadata.json`](#whats-in-metadatajson) section in the comprehensive guide.)
 
 > [!IMPORTANT]
 > Do not underestimate the amount of work a conference website requires. The [after the quickstart](#after-the-quickstart) section will give you a rough idea. There is also a [comprehensive guide](comprehensiveGuide.md) for more advanced usage.
 
 ## Add conference name, dates, & location
-Per the [IACR general chair guidelines](https://iacr.org/docs/genchair.pdf), you must [submit your event](https://www.iacr.org/events/edit.php) to the calendar of events. Once the event has been approved and is visible on the IACR website, you can [construct your metadata.json file](https://www.iacr.org/cryptodb/pc/). **You cannot put up the website prior to the event being approved.** Event approval is required in order to construct your `metadata.json` file, which in turn is required for the conference website.
+Per the [IACR general chair guidelines](https://iacr.org/docs/genchair.pdf), you must [submit your event](https://www.iacr.org/events/edit.php) to the calendar of events. Please note that you should include the presumed URL of the website, even though it is not yet available. As an example, for Crypto 2026, the URL would be https://crypto.iacr.org/2026/.
+
+Once the event has been approved and is visible on the IACR website, you can [construct your metadata.json file](https://www.iacr.org/cryptodb/pc/). **You cannot put up the website prior to the event being approved.** Event approval is required in order to construct your `metadata.json` file, which in turn is required for the conference website.
 
 ## Change contact info
 In `json/metadata.json`, you will add the names of the general and program chair(s). These will then appear on multiple pages across the site. You will also need to update the contact email addresses on `contact.php`.
