@@ -38,7 +38,23 @@ body {
 
 
 /***** Main Content (e.g. h1-h6, a, text, etc) *****/
+a {
+  color: #0F773C;
+}
+
+a:hover {
+  color: #CB831E;
+}
+
 .indPageTitle {
+  color: #0F773C;
+}
+
+.pageSubtitle {
+  color: #CB831E;
+}
+
+.subSubtitle {
   color: #0F773C;
 }
 
@@ -96,8 +112,8 @@ code {
   background-color: rgba(203, 131, 30, 0.1);
 }
 
-/**** Program specific colors ********/
 
+/**** Program specific colors ********/
 div.trackMenu a.nav-link {
    background-color: #f8f8f8 !important;
 }

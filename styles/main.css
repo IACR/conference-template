@@ -16,6 +16,7 @@
 
 /***** General styling *****/
 body {
+  background-color: #FEFDFB;
   color: #1F2161;
   font-family: 'Roboto', sans-serif;
 }
@@ -32,12 +33,10 @@ main {
 }
 
 a {
-  color: #0F773C;
   text-decoration: none;
 }
 
 a:hover {
-  color: #CB831E;
   text-decoration: none;
 }
 
@@ -138,7 +137,7 @@ a.dropdown-item {
 .icon-bar {
   width: 29px;
   height: 2px;
-  background-color: #F0F0F0;
+  background-color: #FEFDFB;
   display: block;
   transition: all 0.3s;
   margin-bottom: 6px;
@@ -330,7 +329,6 @@ a.dropdown-item .navbarIcon {
 }
 
 .pageSubtitle {
-  color: #CB831E;
   font-family: 'Roboto Condensed', sans-serif;
   letter-spacing: 2px;
   font-weight: bold;
@@ -379,14 +377,6 @@ a.dropdown-item .navbarIcon {
 .sponsorLogo {
   max-width: 150px;
 }
-
-
-
-/***** Page-specific (multiple pages) *****/
-.subSubtitle {
-  color: #0F773C;
-}
-
 
 
 /***** Page-specific: accepted papers *****/
@@ -471,17 +461,18 @@ img.sessionInfoIcon {
   vertical-align: unset;
 }
 
-ul.programNav .nav-link:hover {
-  background-color: #eeeeee;
+/* unused */
+/* ul.programNav .nav-link:hover {
+  background-color: #FEFDFB;
 }
 
 div.dropdown-menu.calendar {
-  background-color: white;
+  background-color: #FEFDFB;
 }
 
 div.dropdown-menu.calendar a {
   color: #102a83;
-}
+} */
 
 div.sessionList {
   margin-bottom: 10px;
@@ -497,18 +488,16 @@ div.sessionList {
 div.trackMenu a.nav-link {
     border-top-right-radius: 0 !important;
     border-bottom-right-radius: 0 !important;
-    border-top-left-radius: 10px !important;
-    border-bottom-left-radius: 10px !important;
+    border-top-left-radius: 0.7rem !important;
+    border-bottom-left-radius: 0.7rem !important;
     font-weight: 600;
     /* sets base bg & border color so nothing too terrible happens with
     changing themes */
-    background-color: #F0F0F0;
+    background-color: #E9ECEF;
     padding-left: 2rem;
     padding-right: 2rem;
     border-color: #E9ECEF #E9ECEF;
-    /* border-top-left-radius: .6rem;
-    border-top-right-radius: .6rem;
-    font-weight: 600; */
+    color: #102A83;
 }
 
 @media (min-width: 768px) {
@@ -520,28 +509,27 @@ div.trackMenu a.nav-link {
 /* set base bg color for active session tab; this may be changed in themes to
 match the background color of the div.session */
 div.trackMenu a.nav-link.active {
-  background-color: #DFDFDF;
-  /* match color to a:hover color, generally speaking */
-  color: #CB831E;
+  background-color: #CED4DA;
+  color: #102A83;
 }
 
 @media (max-width: 992px) {
-    div.trackMenu .nav-link {
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-    }
+  div.trackMenu .nav-link {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
 }
 
 /* tabs on top of tabbed sessions if below md. */
 @media (max-width: 767px) {
-    div.trackMenu a.nav-link {
-        border-top-right-radius: 10px !important;
-        border-bottom-left-radius: 0 !important;
-        margin-bottom: 0;
-        margin-right: .6rem;
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
-    }
+  div.trackMenu a.nav-link {
+    border-top-right-radius: 10px !important;
+    border-bottom-left-radius: 0 !important;
+    margin-bottom: 0;
+    margin-right: .6rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
 }
 
 /* The colors of sessions and tabs could be changed in a theme. */
@@ -549,42 +537,43 @@ div.sessionList div.session {
   border-radius: .3rem;
   padding: 1rem;
   text-align: center;
+  background-color: #E9ECEF;
 }
 
 /* All tracks are centered. */
 div.sessionList div p {
-    text-align: center;
+  text-align: center;
 }
 .inlineSessions > div:not(:first-child ) {
-    margin-left: 7px;
+  margin-left: 7px;
 }
 .inlineSessions > div:not(:last-child ) {
-    margin-right: 7px;
+  margin-right: 7px;
 }
 
 /** This makes untabbed sessions equal width. */
 div.inlineSessions div.session {
-    flex-grow: 1;
-    flex-basis: 0;
+  flex-grow: 1;
+  flex-basis: 0;
 }
 
 div.paper-abstract {
-    white-space: pre-wrap;
+  white-space: pre-wrap;
 }
 
 /* Used for expandable abstract */
 a.toggle-open:after {
-    content:' -';
-    font-weight: 800;
+  content:' -';
+  font-weight: 800;
 }
 a.toggle-closed:after {
-    content: " ›";
-    font-weight: 800;
+  content: " ›";
+  font-weight: 800;
 }
 
 ul.days-nav li.nav-item {
-    border-radius: 10px;
-    border-color: black;
+  border-radius: 10px;
+  border-color: #102A83;
 }
 
 ul.days-nav .nav-link:hover {
