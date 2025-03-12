@@ -154,7 +154,7 @@ function installProgram(jsonUrl, compiledTemplate, programDivId) {
 			      parts[1] - 1, // months are zero-based
 			      parts[2]);
           // Insert a <br> when smaller than lg, so that tabs don't overflow.
-          return date.toLocaleString('en-US', {weekday: "short"}) + ' <br class="d-lg-none">' + date.toLocaleString('en-US', {month: "short", day: "numeric"});
+          return date.toLocaleString('en-US', {weekday: "short"}) + ' ' + date.toLocaleString('en-US', {month: "short", day: "numeric"});
         });
         Handlebars.registerHelper('fullDate', function(isodate) {
 	  let parts = isodate.split('-');
