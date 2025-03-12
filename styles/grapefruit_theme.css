@@ -34,15 +34,17 @@ body, main {
   background: linear-gradient(rgba(204, 132, 30, 0.5), rgba(255, 251, 249, 0.7));
 }
 
+.headerTitle, .headerInfoTop, .headerInfoBottom {
+  color: #102A83;
+}
+
 @media (min-width: 992px) {
   .headerTitle {
-    color: #102A83;
     font-size: 2.7rem;
     margin-bottom: 0;
   }
 
   .headerInfoTop, .headerInfoBottom {
-    color: #102A83;
     font-size: 1.7rem;
   }
 
