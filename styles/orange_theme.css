@@ -46,6 +46,10 @@ a:hover {
   color: #CB831E;
 }
 
+.icon {
+  filter: invert(16%) sepia(91%) saturate(6408%) hue-rotate(156deg) brightness(92%) contrast(88%);
+}
+
 .indPageTitle {
   color: #0F773C;
 }
@@ -123,4 +127,25 @@ div.trackMenu .nav-link.active {
 }
 div.sessionList div.session {
   background-color: rgba(242, 210, 166, 0.3);
+}
+
+
+/***** registration.php *****/
+#regTable {
+  /* NOTE: if you prefer a registration table with fewer borders, comment out the following three lines. You will also 
+  need to comment some lines out in main.css */
+  border-top: 1px solid rgba(15, 119, 60, 0.2);
+  border-right: 1px solid rgba(15, 119, 60, 0.2);
+  border-left: 1px solid rgba(15, 119, 60, 0.2);
+
+  /* NOTE: if using #regFoot comment this out */
+  /* border-bottom: 1px solid rgba(15, 119, 60, 0.2); */
+}
+
+#regTopRow {
+  border-bottom: 1px solid rgba(15, 119, 60, 0.2);
+}
+
+#regFoot {
+  background-color: rgba(15, 119, 60, 0.1);
 }

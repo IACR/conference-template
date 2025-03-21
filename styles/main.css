@@ -43,7 +43,6 @@ a:hover {
 .icon {
   width: 1.3em;
   height: 1.3em;
-  filter: invert(16%) sepia(91%) saturate(6408%) hue-rotate(156deg) brightness(92%) contrast(88%);
   /* equivalent to bootstrap classes .me-2 and .mb-1 */
   margin-bottom: .25rem !important;
   margin-right: .5rem !important;
@@ -188,6 +187,13 @@ a.dropdown-item:hover .navbarIcon {
 
 a.dropdown-item .navbarIcon {
   margin-right: 0.75rem;
+}
+
+@media (max-width: 768px) {
+  /* a custom spacing for nav on mobile, because I wanted specifically 2rem & bootstrap didn't have it */
+  div#navbarNav {
+    margin-left: 2rem !important;
+  }
 }
 
 
@@ -596,32 +602,26 @@ ul.days-nav .nav-link {
   }
 }
 
-div.dropdown-menu.calendar {
+/* TODO: remove once confirmed not used */
+/* div.dropdown-menu.calendar {
   background-color: #FEFDFB;
-}
+} */
 
 
 
-/***** Page-specific: registration *****/
+/***** registration.php *****/
 #regTable {
   padding: 0.5rem 2rem;
 
   /* NOTE: if you prefer a registration table with fewer borders, comment out all lines below (make sure to leave the note lines 
-  commented out) */
-  border-top: 1px solid rgba(15, 119, 60, 0.2);
-  border-right: 1px solid rgba(15, 119, 60, 0.2);
-  border-left: 1px solid rgba(15, 119, 60, 0.2);
+  commented out). You will also need to comment out something in the specific theme you are using. */
   border-top-right-radius: 15px;
   border-top-left-radius: 15px;
 
-  /* NOTE: if using #regFoot comment out next three lines */
-  /* border-bottom: 1px solid rgba(15, 119, 60, 0.2);
-  border-bottom-right-radius: 15px;
+  /* NOTE: if using #regFoot comment out next two lines. You may also need to comment out something in the specific 
+  theme you are using. */
+  /* border-bottom-right-radius: 15px;
   border-bottom-left-radius: 15px; */
-}
-
-#regTopRow {
-  border-bottom: 1px solid rgba(15, 119, 60, 0.2);
 }
 
 #regBodyRow {
@@ -629,7 +629,7 @@ div.dropdown-menu.calendar {
 }
 
 .regTitle {
-  /* font-weight: bold; */
+  font-weight: bold;
   padding-top: 0.5rem;
   text-align: center;
   font-size: 1.2rem;
@@ -644,7 +644,6 @@ p.priceText {
 }
 
 #regFoot {
-  background-color: rgba(15, 119, 60, 0.1);
   /* NOTE: if using a rounded border, uncomment the following two lines */
   border-bottom-right-radius: 15px;
   border-bottom-left-radius: 15px;
