@@ -26,12 +26,6 @@ main {
   padding: 1.5rem !important;
 }
 
-@media (min-width: 768px) {
-  main {
-    padding: 2rem !important;
-  }
-}
-
 a {
   text-decoration: none;
 }
@@ -43,7 +37,7 @@ a:hover {
 .icon {
   width: 1.3em;
   height: 1.3em;
-  /* equivalent to bootstrap classes .me-2 and .mb-1 */
+  /* equivalent to bootstrap classes .mb-1 and .me-2 */
   margin-bottom: .25rem !important;
   margin-right: .5rem !important;
 }
@@ -66,6 +60,21 @@ a:hover {
 /* main {
   background-color: #100243;
 } */
+
+.navbarIcon {
+  width: 1.3em;
+  height: 1.3em;
+  /* was aiming for #FEFDFB but this is close enough */
+  filter: invert(100%) sepia(17%) saturate(36%) hue-rotate(8deg) brightness(131%) contrast(99%);
+}
+
+a.dropdown-item:hover .navbarIcon {
+  filter: invert(20%) sepia(11%) saturate(3385%) hue-rotate(199deg) brightness(92%) contrast(112%);
+}
+
+a.dropdown-item .navbarIcon {
+  margin-right: 0.75rem;
+}
 
 
 
@@ -123,7 +132,7 @@ a.dropdown-item {
   }
 }
 
-/* prevents bootstrap from adding stupid ugly stuff to hamburger */
+/* next two prevent Bootstrap from adding stupid ugly stuff to hamburger */
 .nofocus:focus {
   box-shadow: none;
 }
@@ -174,21 +183,6 @@ a.dropdown-item {
 }
 /* END hamburger transform to x */
 
-.navbarIcon {
-  width: 1.3em;
-  height: 1.3em;
-  /* was aiming for #FEFDFB but this is close enough */
-  filter: invert(100%) sepia(17%) saturate(36%) hue-rotate(8deg) brightness(131%) contrast(99%);
-}
-
-a.dropdown-item:hover .navbarIcon {
-  filter: invert(20%) sepia(11%) saturate(3385%) hue-rotate(199deg) brightness(92%) contrast(112%);
-}
-
-a.dropdown-item .navbarIcon {
-  margin-right: 0.75rem;
-}
-
 @media (max-width: 768px) {
   /* a custom spacing for nav on mobile, because I wanted specifically 2rem & bootstrap didn't have it */
   div#navbarNav {
@@ -216,7 +210,6 @@ a.dropdown-item .navbarIcon {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    /* padding: 0 15px; */
 }
 
 @media (min-width: 576px) {
@@ -244,6 +237,7 @@ a.dropdown-item .navbarIcon {
     padding: 0 5rem;
   }
 }
+/* end mods to .pageTopContainer */
 
 .headerGradient {
   height: 100%;
@@ -260,68 +254,51 @@ a.dropdown-item .navbarIcon {
     /* imitate .flex-column sans !important in sizes smaller than lg */
     flex-direction: row;
     /* different styling for header contents at different sizes */
-    padding-top: 5rem;
+    padding-top: 4rem;
   }
 }
 
-/* @media (min-width: 992px) {
-  #titlesLogoDiv {
-    padding-top: 4rem;
-  }
-} */
-
 #logo {
-  max-height: 6.9em;
+  max-height: 6.7em;
+}
+
+@media (max-width: 1073px) {
+  #logo {
+    max-height: 6.5em;
+  }
 }
 
 .headerTitle {
   font-family: 'Roboto Condensed', sans-serif;
   text-shadow: 5px 5px 20px #FEFDFB, 0.3px 0.3px #1F2161;
-  letter-spacing: 0.3rem;
-  margin-bottom: 2rem;
+  letter-spacing: 0.4rem;
   padding: 0 1.5rem;
-  font-size: 2.3rem;
-  /* try */
-  /* font-size: 3rem; */
+  font-size: 2.8rem;
 }
-
-/* @media (min-width: 768px) {
-  .headerTitle {
-    margin-bottom: 0;
-  }
-}
-
-@media (min-width: 992px) {
-  .headerTitle {
-    padding: 0;
-  }
-} */
 
 .headerInfoTop, .headerInfoBottom {
   font-family: 'Roboto Condensed', sans-serif;
   text-shadow: 5px 5px 20px #FEFDFB, 0.3px 0.3px #1F2161;
-  letter-spacing: 2px;
+  letter-spacing: 0.2rem;
   text-align: right;
-  font-size: 1.5rem;
-  /* try
-  font-size: 1.8rem; */
+  font-size: 1.6rem;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1073px) {
   .headerTitle, .headerInfoTop, .headerInfoBottom {
     text-align: center;
     padding: 0 1.5rem;
-    /* padding: 0 1rem; */
   }
 
-  /* headerTitle {
+  .headerTitle {
     font-size: 2.5rem;
+    letter-spacing: 0.2rem;
+    margin-bottom: 2rem;
   }
 
-  .headerInfoTop,
-  .headerInfoBottom {
-    font-size: 1.6rem;
-  } */
+  .headerInfoTop, .headerInfoBottom {
+    font-size: 1.5rem;
+  }
 }
 
 
