@@ -7,12 +7,6 @@
   HSLA: hsla(35, 74, 45, 1), hsla(40, 60, 99, 1), hsla(238, 51, 25, 1), hsla(238, 52, 37, 1), hsla(145, 77, 26, 1)
 *****/
 
-/***** General styling *****/
-body {
-  background-color: #FEFDFB;
-}
-
-
 
 /***** Header (in /includes/nav.php) *****/
 .headerImg {
