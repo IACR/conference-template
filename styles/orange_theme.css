@@ -7,12 +7,6 @@
   HSLA: hsla(35, 74, 45, 1), hsla(40, 60, 99, 1), hsla(238, 51, 25, 1), hsla(238, 52, 37, 1), hsla(145, 77, 26, 1)
 *****/
 
-/***** General styling *****/
-body {
-  background-color: #FEFDFB;
-}
-
-
 
 /***** Header (in /includes/nav.php) *****/
 .headerImg {
@@ -38,7 +32,27 @@ body {
 
 
 /***** Main Content (e.g. h1-h6, a, text, etc) *****/
+a {
+  color: #0F773C;
+}
+
+a:hover {
+  color: #CB831E;
+}
+
+.icon {
+  filter: invert(16%) sepia(91%) saturate(6408%) hue-rotate(156deg) brightness(92%) contrast(88%);
+}
+
 .indPageTitle {
+  color: #0F773C;
+}
+
+.pageSubtitle {
+  color: #CB831E;
+}
+
+.subSubtitle {
   color: #0F773C;
 }
 
@@ -96,8 +110,8 @@ code {
   background-color: rgba(203, 131, 30, 0.1);
 }
 
-/**** Program specific colors ********/
 
+/**** Program specific colors ********/
 div.trackMenu a.nav-link {
    background-color: #f8f8f8 !important;
 }
@@ -107,4 +121,25 @@ div.trackMenu .nav-link.active {
 }
 div.sessionList div.session {
   background-color: rgba(242, 210, 166, 0.3);
+}
+
+
+/***** registration.php *****/
+#regTable {
+  /* NOTE: if you prefer a registration table with fewer borders, comment out the following three lines. You will also 
+  need to comment some lines out in main.css */
+  border-top: 1px solid rgba(15, 119, 60, 0.2);
+  border-right: 1px solid rgba(15, 119, 60, 0.2);
+  border-left: 1px solid rgba(15, 119, 60, 0.2);
+
+  /* NOTE: if using #regFoot comment this out */
+  /* border-bottom: 1px solid rgba(15, 119, 60, 0.2); */
+}
+
+#regTopRow {
+  border-bottom: 1px solid rgba(15, 119, 60, 0.2);
+}
+
+#regFoot {
+  background-color: rgba(15, 119, 60, 0.1);
 }

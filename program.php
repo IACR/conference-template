@@ -40,7 +40,7 @@
 <body>
   <?php require "includes/nav.php"; ?>
 
-  <main id="progContain" class="container">
+  <main id="progContain" class="container-lg px-3 px-lg-0">
     <h2 class="indPageTitle">
       Program
     </h2>
@@ -58,7 +58,7 @@
           the schedule are shown in both <?php echo $META['city']; ?> time and your local timezone.
         </p>
       </div>
-      <div id="renderedProgram" class="px-2 px-md-3 px-xl-4">
+      <div id="renderedProgram">
         <h4 class="text-center">
           Loading...
         </h4>
@@ -73,11 +73,11 @@
       program.json file -->
     <script id="program-template" type="text/x-handlebars-template">
       <div role="navigation">
-          <ul class="nav nav-tabs nav-justified days-nav mb-4">
+          <ul id="dailyNav" class="nav nav-pills nav-fill mr-md-3 days-nav mb-4">
             {{#each days}}
-            <li role="presentation" class="nav-item">
+            <li role="presentation" class="nav-item mb-2 mb-lg-0">
               <a href="#day-{{date}}" class="nav-link">
-                 {{{formatDate date}}}
+                {{{formatDate date}}}
               </a>
             </li>
             {{/each}}

@@ -62,7 +62,7 @@
   </svg>
 
   <!-- regular content continues below -->
-  <main class="container">
+  <main class="container-lg px-5 px-lg-0">
 
     <!-- NOTE: below is placeholder content. please replace contents with
       your own content when ready. this content serves to give you an idea of
@@ -90,12 +90,25 @@
       <a href="affiliated.php" class="btn customBtn-warm btn-lg px-lg-5 mb-3 mb-lg-4">
         Affiliated events
       </a>
-      <a href="program.php" class="btn customBtn-warm btn-lg px-lg-5 mb-3 mb-lg-4">
+      <a href="program.php" class="btn customBtn-cool btn-lg px-lg-5 mb-3 mb-lg-4">
         Conference program
       </a>
       <a href="rumpsession.php" class="btn customBtn-warm btn-lg px-lg-5 mb-3 mb-lg-4">
         Rump session
       </a>
+    </div> -->
+
+    <!-- <div class="row">
+      <div class="col-lg-6">
+        <p class="alert customAlert-warm">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste ut, aliquid perferendis nihil consectetur porro veritatis quo minus delectus natus deserunt veniam repellendus vitae quis commodi a quia impedit dolorum?
+        </p>
+      </div>
+      <div class="col-lg-6">
+        <p class="alert customAlert-cool">
+          <img src="images/icons/info.svg" class="icon" alt="info icon" /> Diigo balihoo mobly palantir, woopra. Loopt eduvant dopplr koofers jiglu, bebo xobni. Squidoo fleck, babblely zooomr zoosk meevee. Etsy prezi jibjab vuvox trulia sclipo zlio, mobly sifteo ebay mozy. Disqus xanga spotify zynga, kazaa gsnap ebay palantir. Jaiku, zappos blippy. Joyent waze yoono voki, wikia. Elgg ebay lanyrd, insala.
+        </p>
+      </div>
     </div> -->
 
     <div class="row">

@@ -16,6 +16,7 @@
 
 /***** General styling *****/
 body {
+  background-color: #FEFDFB;
   color: #1F2161;
   font-family: 'Roboto', sans-serif;
 }
@@ -25,27 +26,18 @@ main {
   padding: 1.5rem !important;
 }
 
-@media (min-width: 768px) {
-  main {
-    padding: 2rem !important;
-  }
-}
-
 a {
-  color: #0F773C;
   text-decoration: none;
 }
 
 a:hover {
-  color: #CB831E;
   text-decoration: none;
 }
 
 .icon {
   width: 1.3em;
   height: 1.3em;
-  filter: invert(16%) sepia(91%) saturate(6408%) hue-rotate(156deg) brightness(92%) contrast(88%);
-  /* equivalent to bootstrap classes .me-2 and .mb-1 */
+  /* equivalent to bootstrap classes .mb-1 and .me-2 */
   margin-bottom: .25rem !important;
   margin-right: .5rem !important;
 }
@@ -68,6 +60,21 @@ a:hover {
 /* main {
   background-color: #100243;
 } */
+
+.navbarIcon {
+  width: 1.3em;
+  height: 1.3em;
+  /* was aiming for #FEFDFB but this is close enough */
+  filter: invert(100%) sepia(17%) saturate(36%) hue-rotate(8deg) brightness(131%) contrast(99%);
+}
+
+a.dropdown-item:hover .navbarIcon {
+  filter: invert(20%) sepia(11%) saturate(3385%) hue-rotate(199deg) brightness(92%) contrast(112%);
+}
+
+a.dropdown-item .navbarIcon {
+  margin-right: 0.75rem;
+}
 
 
 
@@ -125,7 +132,7 @@ a.dropdown-item {
   }
 }
 
-/* prevents bootstrap from adding stupid ugly stuff to hamburger */
+/* next two prevent Bootstrap from adding stupid ugly stuff to hamburger */
 .nofocus:focus {
   box-shadow: none;
 }
@@ -138,7 +145,7 @@ a.dropdown-item {
 .icon-bar {
   width: 29px;
   height: 2px;
-  background-color: #F0F0F0;
+  background-color: #FEFDFB;
   display: block;
   transition: all 0.3s;
   margin-bottom: 6px;
@@ -176,19 +183,11 @@ a.dropdown-item {
 }
 /* END hamburger transform to x */
 
-.navbarIcon {
-  width: 1.3em;
-  height: 1.3em;
-  /* was aiming for #FEFDFB but this is close enough */
-  filter: invert(100%) sepia(17%) saturate(36%) hue-rotate(8deg) brightness(131%) contrast(99%);
-}
-
-a.dropdown-item:hover .navbarIcon {
-  filter: invert(20%) sepia(11%) saturate(3385%) hue-rotate(199deg) brightness(92%) contrast(112%);
-}
-
-a.dropdown-item .navbarIcon {
-  margin-right: 0.75rem;
+@media (max-width: 768px) {
+  /* a custom spacing for nav on mobile, because I wanted specifically 2rem & bootstrap didn't have it */
+  div#navbarNav {
+    margin-left: 2rem !important;
+  }
 }
 
 
@@ -211,7 +210,6 @@ a.dropdown-item .navbarIcon {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    /* padding: 0 15px; */
 }
 
 @media (min-width: 576px) {
@@ -239,6 +237,7 @@ a.dropdown-item .navbarIcon {
     padding: 0 5rem;
   }
 }
+/* end mods to .pageTopContainer */
 
 .headerGradient {
   height: 100%;
@@ -255,68 +254,51 @@ a.dropdown-item .navbarIcon {
     /* imitate .flex-column sans !important in sizes smaller than lg */
     flex-direction: row;
     /* different styling for header contents at different sizes */
-    padding-top: 5rem;
+    padding-top: 4rem;
   }
 }
 
-/* @media (min-width: 992px) {
-  #titlesLogoDiv {
-    padding-top: 4rem;
-  }
-} */
-
 #logo {
-  max-height: 6.9em;
+  max-height: 6.7em;
+}
+
+@media (max-width: 1073px) {
+  #logo {
+    max-height: 6.5em;
+  }
 }
 
 .headerTitle {
   font-family: 'Roboto Condensed', sans-serif;
   text-shadow: 5px 5px 20px #FEFDFB, 0.3px 0.3px #1F2161;
-  letter-spacing: 0.3rem;
-  margin-bottom: 2rem;
+  letter-spacing: 0.4rem;
   padding: 0 1.5rem;
-  font-size: 2.3rem;
-  /* try */
-  /* font-size: 3rem; */
+  font-size: 2.8rem;
 }
-
-/* @media (min-width: 768px) {
-  .headerTitle {
-    margin-bottom: 0;
-  }
-}
-
-@media (min-width: 992px) {
-  .headerTitle {
-    padding: 0;
-  }
-} */
 
 .headerInfoTop, .headerInfoBottom {
   font-family: 'Roboto Condensed', sans-serif;
   text-shadow: 5px 5px 20px #FEFDFB, 0.3px 0.3px #1F2161;
-  letter-spacing: 2px;
+  letter-spacing: 0.2rem;
   text-align: right;
-  font-size: 1.5rem;
-  /* try
-  font-size: 1.8rem; */
+  font-size: 1.6rem;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1073px) {
   .headerTitle, .headerInfoTop, .headerInfoBottom {
     text-align: center;
     padding: 0 1.5rem;
-    /* padding: 0 1rem; */
   }
 
-  /* headerTitle {
+  .headerTitle {
     font-size: 2.5rem;
+    letter-spacing: 0.2rem;
+    margin-bottom: 2rem;
   }
 
-  .headerInfoTop,
-  .headerInfoBottom {
-    font-size: 1.6rem;
-  } */
+  .headerInfoTop, .headerInfoBottom {
+    font-size: 1.5rem;
+  }
 }
 
 
@@ -330,7 +312,6 @@ a.dropdown-item .navbarIcon {
 }
 
 .pageSubtitle {
-  color: #CB831E;
   font-family: 'Roboto Condensed', sans-serif;
   letter-spacing: 2px;
   font-weight: bold;
@@ -379,14 +360,6 @@ a.dropdown-item .navbarIcon {
 .sponsorLogo {
   max-width: 150px;
 }
-
-
-
-/***** Page-specific (multiple pages) *****/
-.subSubtitle {
-  color: #0F773C;
-}
-
 
 
 /***** Page-specific: accepted papers *****/
@@ -471,17 +444,18 @@ img.sessionInfoIcon {
   vertical-align: unset;
 }
 
-ul.programNav .nav-link:hover {
-  background-color: #eeeeee;
+/* unused */
+/* ul.programNav .nav-link:hover {
+  background-color: #FEFDFB;
 }
 
 div.dropdown-menu.calendar {
-  background-color: white;
+  background-color: #FEFDFB;
 }
 
 div.dropdown-menu.calendar a {
   color: #102a83;
-}
+} */
 
 div.sessionList {
   margin-bottom: 10px;
@@ -497,18 +471,16 @@ div.sessionList {
 div.trackMenu a.nav-link {
     border-top-right-radius: 0 !important;
     border-bottom-right-radius: 0 !important;
-    border-top-left-radius: 10px !important;
-    border-bottom-left-radius: 10px !important;
+    border-top-left-radius: 0.7rem !important;
+    border-bottom-left-radius: 0.7rem !important;
     font-weight: 600;
     /* sets base bg & border color so nothing too terrible happens with
     changing themes */
-    background-color: #F0F0F0;
+    background-color: #E9ECEF;
     padding-left: 2rem;
     padding-right: 2rem;
     border-color: #E9ECEF #E9ECEF;
-    /* border-top-left-radius: .6rem;
-    border-top-right-radius: .6rem;
-    font-weight: 600; */
+    color: #102A83;
 }
 
 @media (min-width: 768px) {
@@ -520,28 +492,27 @@ div.trackMenu a.nav-link {
 /* set base bg color for active session tab; this may be changed in themes to
 match the background color of the div.session */
 div.trackMenu a.nav-link.active {
-  background-color: #DFDFDF;
-  /* match color to a:hover color, generally speaking */
-  color: #CB831E;
+  background-color: #CED4DA;
+  color: #102A83;
 }
 
 @media (max-width: 992px) {
-    div.trackMenu .nav-link {
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-    }
+  div.trackMenu .nav-link {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
 }
 
 /* tabs on top of tabbed sessions if below md. */
 @media (max-width: 767px) {
-    div.trackMenu a.nav-link {
-        border-top-right-radius: 10px !important;
-        border-bottom-left-radius: 0 !important;
-        margin-bottom: 0;
-        margin-right: .6rem;
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
-    }
+  div.trackMenu a.nav-link {
+    border-top-right-radius: 10px !important;
+    border-bottom-left-radius: 0 !important;
+    margin-bottom: 0;
+    margin-right: .6rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
 }
 
 /* The colors of sessions and tabs could be changed in a theme. */
@@ -549,86 +520,85 @@ div.sessionList div.session {
   border-radius: .3rem;
   padding: 1rem;
   text-align: center;
+  background-color: #E9ECEF;
 }
 
 /* All tracks are centered. */
 div.sessionList div p {
-    text-align: center;
+  text-align: center;
 }
 .inlineSessions > div:not(:first-child ) {
-    margin-left: 7px;
+  margin-left: 7px;
 }
 .inlineSessions > div:not(:last-child ) {
-    margin-right: 7px;
+  margin-right: 7px;
 }
 
 /** This makes untabbed sessions equal width. */
 div.inlineSessions div.session {
-    flex-grow: 1;
-    flex-basis: 0;
+  flex-grow: 1;
+  flex-basis: 0;
 }
 
 div.paper-abstract {
-    white-space: pre-wrap;
+  white-space: pre-wrap;
 }
 
 /* Used for expandable abstract */
 a.toggle-open:after {
-    content:' -';
-    font-weight: 800;
+  content:' -';
+  font-weight: 800;
 }
 a.toggle-closed:after {
-    content: " ›";
-    font-weight: 800;
+  content: " ›";
+  font-weight: 800;
 }
 
 ul.days-nav li.nav-item {
-    border-radius: 10px;
-    border-color: black;
-}
-
-ul.days-nav .nav-link:hover {
-    background-color: #eeeeee;
+  border-color: #102A83;
 }
 
 ul.days-nav .nav-link {
-    margin-right: .5rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    border-color: #e9ecef #e9ecef #dee2e6;
-    border-top-left-radius: .6rem;
-    border-top-right-radius: .6rem;
-    font-weight: 600;
-    background-color: #f0f0f0;
-    color: black;
+  border-color: #E9ECEF #E9ECEF #CED4DA;
+  font-weight: 600;
+  background-color: #E9ECEF;
+  color: #102A83;
+  margin-right: 1.2rem !important;
+  /* padding-left: 2rem;
+  padding-right: 2rem; */
 }
 
-ul.nav .nav-link:hover, div.dropdown-menu.calendar {
-    background-color: #EEE;
+/* TODO: build out to account for all sizes. or switch to flex? either way this margin-right thing is necessary lest they all just run together like idiots */
+#dailyNav .nav-item {
+  margin-right: 2rem;
 }
 
+@media (min-width: 991px) {
+  ul.days-nav .nav-link {
+    /* TODO: complete */
+  }
+}
+
+/* TODO: remove once confirmed not used */
+/* div.dropdown-menu.calendar {
+  background-color: #FEFDFB;
+} */
 
 
-/***** Page-specific: registration *****/
+
+/***** registration.php *****/
 #regTable {
   padding: 0.5rem 2rem;
 
   /* NOTE: if you prefer a registration table with fewer borders, comment out all lines below (make sure to leave the note lines 
-  commented out) */
-  border-top: 1px solid rgba(15, 119, 60, 0.2);
-  border-right: 1px solid rgba(15, 119, 60, 0.2);
-  border-left: 1px solid rgba(15, 119, 60, 0.2);
+  commented out). You will also need to comment out something in the specific theme you are using. */
   border-top-right-radius: 15px;
   border-top-left-radius: 15px;
 
-  /* NOTE: if using #regFoot comment out next three lines */
-  /* border-bottom: 1px solid rgba(15, 119, 60, 0.2);
-  border-bottom-right-radius: 15px;
+  /* NOTE: if using #regFoot comment out next two lines. You may also need to comment out something in the specific 
+  theme you are using. */
+  /* border-bottom-right-radius: 15px;
   border-bottom-left-radius: 15px; */
-}
-
-#regTopRow {
-  border-bottom: 1px solid rgba(15, 119, 60, 0.2);
 }
 
 #regBodyRow {
@@ -636,7 +606,7 @@ ul.nav .nav-link:hover, div.dropdown-menu.calendar {
 }
 
 .regTitle {
-  /* font-weight: bold; */
+  font-weight: bold;
   padding-top: 0.5rem;
   text-align: center;
   font-size: 1.2rem;
@@ -651,7 +621,6 @@ p.priceText {
 }
 
 #regFoot {
-  background-color: rgba(15, 119, 60, 0.1);
   /* NOTE: if using a rounded border, uncomment the following two lines */
   border-bottom-right-radius: 15px;
   border-bottom-left-radius: 15px;

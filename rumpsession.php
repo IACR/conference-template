@@ -21,7 +21,7 @@
 <body>
   <?php require "includes/nav.php"; ?>
 
-  <main class="container">
+  <main class="container-lg px-5 px-lg-0">
     <h2 class="indPageTitle">
       Rump Session
     </h2>
@@ -244,7 +244,7 @@
                         {{/if}}
                         {{#if abstract}}
                           <div class="talkAbstract">
-                            <a class="toggle-closed" data-toggle="collapse" data-typ="abstract" href="#abstract-{{id}}" role="button" aria-expanded="false" aria-controls="abstract-{{id}}">Show abstract</a>
+                            <a class="toggle-closed" data-toggle="collapse" data-type="abstract" href="#abstract-{{id}}" role="button" aria-expanded="false" aria-controls="abstract-{{id}}">Show abstract</a>
                           </div>
                           <div id="abstract-{{id}}" class="collapse mb-2 text-left paper-abstract">
                             {{{abstract}}}

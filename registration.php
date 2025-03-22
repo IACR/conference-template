@@ -16,7 +16,7 @@
 <body>
   <?php require "includes/nav.php"; ?>
 
-  <main class="container">
+  <main class="container-lg px-5 px-lg-0">
     <h2 class="indPageTitle">
       Registration
     </h2>
@@ -151,7 +151,7 @@
           <strong>Registration is not currently available. This button will
             become active when registration opens.</strong>
         </h5>
-        <a href="#" class="btn btn-lg customBtn-warm blockBtn disabled" role="button">
+        <a href="#" class="btn btn-lg customBtn-warm blockBtn disabled mb-3" role="button">
           Register now!
         </a>
       </aside>
