@@ -41,7 +41,7 @@
 <body>
   <?php require "includes/nav.php"; ?>
 
-  <main class="container">
+  <main class="container-lg px-5 px-lg-0">
     <h2 class="indPageTitle">
       Travel & Venue Information
     </h2>
