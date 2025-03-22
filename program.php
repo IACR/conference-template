@@ -58,7 +58,7 @@
           the schedule are shown in both <?php echo $META['city']; ?> time and your local timezone.
         </p>
       </div>
-      <div id="renderedProgram" class="px-2 px-md-3 px-xl-4">
+      <div id="renderedProgram">
         <h4 class="text-center">
           Loading...
         </h4>
