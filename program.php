@@ -40,7 +40,7 @@
 <body>
   <?php require "includes/nav.php"; ?>
 
-  <main id="progContain" class="container-lg">
+  <main id="progContain" class="container-lg px-3 px-lg-0">
     <h2 class="indPageTitle">
       Program
     </h2>
