@@ -39,14 +39,14 @@
       Responsibility for administration
     </h3>
     <p>
-      The IACR board appoints a code of conduct liaison, who is empowered to form and oversee <a href="https://iacr.org/committees.html">a code of conduct committee</a>. Members of the code of conduct committee serve as additional points of contact for IACR event participants who wish to report a potential violation. Identities and contact information for the code of conduct liaison and code of conduct committee members can be found on each IACR event website. The code of conduct liaison and committee also consult with the IACR board on the evolution of these policies.
+      The IACR board appoints a code of conduct liaison, who is empowered to form and oversee <a href="https://iacr.org/committees.html#ethics">a code of conduct committee</a>. Members of the code of conduct committee serve as additional points of contact for IACR event participants who wish to report a potential violation. Identities and contact information for the code of conduct liaison and code of conduct committee members can be found on each IACR event website. The code of conduct liaison and committee also consult with the IACR board on the evolution of these policies.
     </p>
 
     <h3 class="pageSubtitle mt-4">
       Policy
     </h3>
     <p>
-      If you experience or witness harassment or discriminatory behavior at an IACR event, we encourage you to reach out to the code-of-conduct liaison, a member of the code-of-conduct committee, <a href="contact.php">the conference general chair(s)</a>, a member of the IACR ethics committee, or any member of <a href="https://iacr.org/bod.html">the IACR board</a>. In choosing an appropriate point of contact, please note that a formal complaint to the ethics committee will typically result in a disclosure to the entirety of the committee (except when there is a conflict), while an informal discussion can be escalated selectively as appropriate.
+      If you experience or witness harassment or discriminatory behavior at an IACR event, we encourage you to reach out to the code of conduct liaison, a member of the code of conduct committee, <a href="contact.php">the conference general chair(s)</a>, a member of the IACR ethics committee, or any member of <a href="https://iacr.org/bod.html">the IACR board</a>. In choosing an appropriate point of contact, please note that a formal complaint to the ethics committee will typically result in a disclosure to the entirety of the committee (except when there is a conflict), while an informal discussion can be escalated selectively as appropriate.
     </p>
     <p>
       If you are planning to attend an IACR event and are concerned about a potential situation, please reach out ahead of time to the code of conduct liaison, a member of the IACR ethics committee, or the IACR board.
@@ -98,7 +98,7 @@
       Procedures for reporting & handling violations
     </h3>
     <p>
-      Once a report is received, all steps taken will be with the consent of the victim of the reported behavior. A necessary exemption to this exists in cases where legal obligations compel reporting to law enforcement or similar. In order to be acted upon, a report must be escalated to the code of conduct liaison, the event general chair(s), the IACR ethics committee, or to the IACR President, and the person accused of violating the code-of-conduct must be consulted. Additional parties may be consulted as appropriate. All care will be taken to preserve anonymity and privacy of those involved to the greatest extent possible. If the conduct is deemed to violate the policy, the violator may be cautioned, sanctioned, or expelled from the event.
+      Once a report is received, all steps taken will be with the consent of the victim of the reported behavior. A necessary exemption to this exists in cases where legal obligations compel reporting to law enforcement or similar. In order to be acted upon, a report must be escalated to the code of conduct liaison, the event general chair(s), <a href="mailto:ethics-committee@iacr.org">the IACR ethics committee</a>, or to the IACR President, and the person accused of violating the code of conduct must be consulted. Additional parties may be consulted as appropriate. All care will be taken to preserve anonymity and privacy of those involved to the greatest extent possible. If the conduct is deemed to violate the policy, the violator may be cautioned, sanctioned, or expelled from the event.
     </p>
 
     <h3 class="pageSubtitle mt-4">
@@ -107,7 +107,7 @@
     <div class="row">
       <aside class="col-sm-4">
         <h4 class="subSubtitle">
-          Code-of-Conduct Liaison
+          Code of conduct liaison
         </h4>
         <p class="text-start lead mb-1">
           <!-- TODO: check name is correct -->
@@ -146,72 +146,6 @@
         <img src="images/icons/mail.svg" class="icon" /> president at iacr.org
       </aside>
     </div>
-
-    <p>
-      The IACR is committed to providing an experience free of
-      harassment and discrimination in its events, respecting the
-      dignity of every participant.
-    </p>
-    <p>
-      If you experience harassment or discriminatory behavior at an
-      IACR event, we encourage you to reach out to someone who could
-      help. The following are available to you:
-      the <a href="https://iacr.org/committees.html">Code-of-Conduct
-        Liaison</a>, the <a href="contact.php">conference general chair(s)</a>,
-      any member of the <a href="ethics-committee@iacr.org">IACR ethics
-        committee</a>, and
-      the <a href="https://iacr.org/bod.html">IACR president</a>.
-    </p>
-    <p>
-      Participants who violate this code may be sanctioned and/or
-      expelled from the event, at the discretion of the General
-      Chair(s). Serious incidents may be referred to the Ethics
-      Committee for further possible action. Any action will only be
-      taken with the consent of the complaining
-      party.
-    </p>
-    <p>
-      If you witness harassment or discriminatory behavior, please consider intervening.
-    </p>
-
-    <h3 class="pageSubtitle mt-4">
-      Who to contact
-    </h3>
-    <div class="row">
-      <aside class="col-sm-4">
-        <h4 class="subSubtitle">
-          Code-of-Conduct Liaison
-        </h4>
-        <p class="text-start">
-          <a href="https://iacr.org/committees.html">
-            NAME & CONTACT
-          </a>
-        </p>
-      </aside>
-
-      <aside class="col-sm-4">
-        <h4 class="subSubtitle">
-          Ethics Committee
-        </h4>
-        <p class="text-start">
-          <a href="https://iacr.org/committees.html">
-            NAME & CONTACT
-          </a>
-        </p>
-      </aside>
-
-      <aside class="col-sm-4">
-        <h4 class="subSubtitle">
-          IACR President
-        </h4>
-        <p class="text-start">
-          <a href="https://iacr.org/bod.html">
-            NAME & CONTACT
-          </a>
-        </p>
-      </aside>
-    </div>
-
   </main>
 
   <?php include "includes/footer.php"; ?>
