@@ -10,6 +10,7 @@
     <div class="headerGradient">
       <div class="pageTopContainer">
         <div id="titlesLogoDiv" class="d-flex justify-content-between align-items-center">
+          <!-- TODO: likely add .ms-md-3 after fixing layout -->
           <div class="headerConferenceName">
             <h1 class="headerTitle">
               <?php echo $META['shortName']; ?>
@@ -20,6 +21,7 @@
               <img id="logo" class="d-none d-lg-block mx-auto" src="https://iacr.org/img/logo/iacrlogo_small.png" title="International Association for Cryptologic Research">
             </a>
           </div>
+          <!-- TODO: likely add .me-md-3 after fixing layout -->
           <div class="headerInfo">
             <h3 class="headerInfoTop">
               <?php echo $META['dates']; ?>
@@ -73,6 +75,9 @@
             <a class="dropdown-item" href="<?php echo rootPath() . 'callforpapers.php' ?>">
               Call for papers
             </a>
+            <a class="dropdown-item" href="<?php echo rootPath() . 'aipolicy.php' ?>">
+              AI tool policy
+            </a>
             <!-- <a class="dropdown-item" href="<?php echo rootPath() . 'papersubmission.php' ?>">
               Paper submission
             </a> -->
@@ -82,8 +87,8 @@
           <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">
             Attend
           </a> -->
-          <!-- TODO: this is apparently supposed to be a ul not a div for the dropdown menu. also why are they so far left?? -->
-          <!-- <div class="dropdown-menu">
+        <!-- TODO: this is apparently supposed to be a ul not a div for the dropdown menu. also why are they so far left?? -->
+        <!-- <div class="dropdown-menu">
             <a class="dropdown-item" href="<?php echo rootPath() . 'registration.php' ?>">
               Registration
             </a> -->
