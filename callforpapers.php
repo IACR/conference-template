@@ -56,7 +56,8 @@
         </h3>
         <p class="text-center">
           Author instructions for paper submission may be found on the
-          submission page.
+          submission page. Don't forget to read 
+          <a href="aipolicy.php">our policy on the use of AI tools by authors</a>.
         </p>
         <a href="papersubmission.php" class="btn customBtn-warm blockBtn mb-5 mb-lg-0">
           Submit a paper
