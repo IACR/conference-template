@@ -10,7 +10,8 @@
     <div class="headerGradient">
       <div class="pageTopContainer">
         <div id="titlesLogoDiv" class="d-flex justify-content-between align-items-center">
-          <div class="headerConferenceName">
+        <!-- TODO: likely add .ms-md-3 after fixing layout -->
+        <div class="headerConferenceName">
             <h1 class="headerTitle">
               <?php echo $META['shortName']; ?>
             </h1>
@@ -20,6 +21,7 @@
               <img id="logo" class="d-none d-lg-block mx-auto" src="https://iacr.org/img/logo/iacrlogo_small.png" title="International Association for Cryptologic Research">
             </a>
           </div>
+          <!-- TODO: likely add .me-md-3 after fixing layout -->
           <div class="headerInfo">
             <h3 class="headerInfoTop">
               <?php echo $META['dates']; ?>
