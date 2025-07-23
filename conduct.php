@@ -20,12 +20,16 @@
     <h2 class="indPageTitle">
       Code of Conduct
     </h2>
+    <p>
+      You can <a href="https://www.iacr.org/docs/ethics.pdf">read more about the IACR ethics committee</a>, which was created
+      in 2019 and establishes guidelines for ethical behavior within IACR.
+    </p>
 
-    <h3 class="pageSubtitle">
+    <h3 class="pageSubtitle mt-4">
       Mission
     </h3>
     <p>
-      The IACR is committed to providing an experience free of harassment and discrimination in its events, respecting the dignity of every participant. We expect all participants in IACR events to exercise consideration and respect in their speech and actions and to refrain from demeaning, discriminatory, or harassing speech or behavior in all venues, including ancillary events and unofficial social gatherings.
+      <a href="https://www.iacr.org">The IACR</a> is committed to providing an experience free of harassment and discrimination in its events, respecting the dignity of every participant. We expect all participants in IACR events to exercise consideration and respect in their speech and actions and to refrain from demeaning, discriminatory, or harassing speech or behavior in all venues, including ancillary events and unofficial social gatherings.
     </p>
 
     <h3 class="pageSubtitle mt-4">
@@ -39,14 +43,14 @@
       Responsibility for administration
     </h3>
     <p>
-      The IACR board appoints a code of conduct liaison, who is empowered to form and oversee <a href="https://iacr.org/committees.html#ethics">a code of conduct committee</a>. Members of the code of conduct committee serve as additional points of contact for IACR event participants who wish to report a potential violation. Identities and contact information for the code of conduct liaison and code of conduct committee members can be found on each IACR event website. The code of conduct liaison and committee also consult with the IACR board on the evolution of these policies.
+      The <a href="https://www.iacr.org/bod.html">IACR board</a> appoints <a href="https://www.iacr.org/committees.html">a code of conduct liaison</a>, who is empowered to form and oversee a code of conduct committee. Members of the code of conduct committee serve as additional points of contact for IACR event participants who wish to report a potential violation. Identities and contact information for the code of conduct liaison and code of conduct committee members can be found on each IACR event website. The code of conduct liaison and committee also consult with the IACR board on the evolution of these policies.
     </p>
 
     <h3 class="pageSubtitle mt-4">
       Policy
     </h3>
     <p>
-      If you experience or witness harassment or discriminatory behavior at an IACR event, we encourage you to reach out to the code of conduct liaison, a member of the code of conduct committee, <a href="contact.php">the conference general chair(s)</a>, a member of the IACR ethics committee, or any member of <a href="https://iacr.org/bod.html">the IACR board</a>. In choosing an appropriate point of contact, please note that a formal complaint to the ethics committee will typically result in a disclosure to the entirety of the committee (except when there is a conflict), while an informal discussion can be escalated selectively as appropriate.
+      If you experience or witness harassment or discriminatory behavior at an IACR event, we encourage you to reach out to the code of conduct liaison, a member of the code of conduct committee, <a href="contact.php">the conference general chair(s)</a>, a member of the <a href="https://iacr.org/committees.html#ethics">IACR ethics committee</a>, or any member of <a href="https://iacr.org/bod.html">the IACR board</a>. In choosing an appropriate point of contact, please note that a formal complaint to the ethics committee will typically result in a disclosure to the entirety of the committee (except when there is a conflict), while an informal discussion can be escalated selectively as appropriate.
     </p>
     <p>
       If you are planning to attend an IACR event and are concerned about a potential situation, please reach out ahead of time to the code of conduct liaison, a member of the IACR ethics committee, or the IACR board.
@@ -98,7 +102,7 @@
       Procedures for reporting & handling violations
     </h3>
     <p>
-      Once a report is received, all steps taken will be with the consent of the victim of the reported behavior. A necessary exemption to this exists in cases where legal obligations compel reporting to law enforcement or similar. In order to be acted upon, a report must be escalated to the code of conduct liaison, the event general chair(s), <a href="mailto:ethics-committee@iacr.org">the IACR ethics committee</a>, or to the IACR President, and the person accused of violating the code of conduct must be consulted. Additional parties may be consulted as appropriate. All care will be taken to preserve anonymity and privacy of those involved to the greatest extent possible. If the conduct is deemed to violate the policy, the violator may be cautioned, sanctioned, or expelled from the event.
+      Once a report is received, all steps taken will be with the consent of the victim of the reported behavior. A necessary exemption to this exists in cases where legal obligations compel reporting to law enforcement or similar. In order to be acted upon, a report must be escalated to <a href="https://iacr.org/committees.html">the code of conduct liaison</a>, <a href="contact.php">the event general chair(s)</a>, <a href="mailto:ethics-committee@iacr.org">the IACR ethics committee</a>, or to <a href="https://iacr.org/bod.html">the IACR President</a>, and the person accused of violating the code of conduct must be consulted. Additional parties may be consulted as appropriate. All care will be taken to preserve anonymity and privacy of those involved to the greatest extent possible. If the conduct is deemed to violate the policy, the violator may be cautioned, sanctioned, or expelled from the event.
     </p>
 
     <h3 class="pageSubtitle mt-4">
@@ -106,44 +110,53 @@
     </h3>
     <div class="row">
       <aside class="col-sm-4">
-        <h4 class="subSubtitle">
-          Code of conduct liaison
-        </h4>
-        <p class="text-start lead mb-1">
+        <a href="https://iacr.org/committees.html">
+          <h4 class="subSubtitle mb-1">
+            Code of Conduct Liaison
+          </h4>
+        </a>
+        <p class="text-start lead mb-2">
           <!-- TODO: check name is correct -->
-          <a href="https://iacr.org/committees.html">
-            Tal Rabin
-          </a>
+          Tal Rabin
         </p>
-        <img src="images/icons/mail.svg" class="icon" /> conduct at iacr.org
+        <a href="mailto:conduct@iacr.org">
+          <img src="images/icons/mail.svg" class="icon" />
+        </a>
+        conduct at iacr.org
       </aside>
 
       <aside class="col-sm-4">
-        <h4 class="subSubtitle">
-          Ethics Committee
-        </h4>
-        <p class="text-start lead mb-1">
+        <a href="https://iacr.org/committees.html#ethics">
+          <h4 class="subSubtitle mb-1">
+            Ethics Committee
+          </h4>
+        </a>
+        <p class="text-start lead mb-2">
           <!-- TODO: check members are current -->
-          <a href="https://iacr.org/committees.html">
-            Allison Bishop (chair)<br>
-            Anna Lysyanskaya<br>
-            Bart Preneel
-          </a>
+          Allison Bishop (chair)<br>
+          Anna Lysyanskaya<br>
+          Bart Preneel
         </p>
-        <img src="images/icons/mail.svg" class="icon" /> ethics-committee at iacr.org
+        <a href="mailto:ethics-committee@iacr.org">
+          <img src="images/icons/mail.svg" class="icon" />
+        </a>
+        ethics-committee at iacr.org
       </aside>
 
       <aside class="col-sm-4">
-        <h4 class="subSubtitle">
-          IACR President
-        </h4>
-        <p class="text-start lead mb-1">
+        <a href="https://iacr.org/bod.html">
+          <h4 class="subSubtitle mb-1">
+            IACR President
+          </h4>
+        </a>
+        <p class="text-start lead mb-2">
           <!-- TODO: check name is correct -->
-          <a href="https://iacr.org/bod.html">
-            Michel Abdalla
-          </a>
+          Michel Abdalla
         </p>
-        <img src="images/icons/mail.svg" class="icon" /> president at iacr.org
+        <a href="mailto:president@iacr.org">
+          <img src="images/icons/mail.svg" class="icon" />
+        </a>
+        president at iacr.org
       </aside>
     </div>
   </main>
