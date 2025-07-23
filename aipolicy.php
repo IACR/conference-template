@@ -16,7 +16,7 @@
 <body>
   <?php require "includes/nav.php"; ?>
 
-  <main class="container">
+  <main class="container-lg px-4 px-lg-0">
     <h2 class="indPageTitle">
       AI Tool Policy
     </h2>

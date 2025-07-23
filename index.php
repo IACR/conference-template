@@ -62,7 +62,7 @@
   </svg>
 
   <!-- regular content continues below -->
-  <main class="container-lg px-5 px-lg-0">
+  <main class="container-lg px-4 px-lg-0">
 
     <!-- NOTE: below is placeholder content. please replace contents with
       your own content when ready. this content serves to give you an idea of

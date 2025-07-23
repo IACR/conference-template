@@ -14,7 +14,7 @@
   <body>
     <?php require "includes/nav.php"; ?>
 
-    <main class="container-lg px-5 px-lg-0">
+    <main class="container-lg px-4 px-lg-0">
 
       <!-- NOTE: below is standard placeholder text for when the page is under
       construction. please delete this entire <div class="row"> when ready to

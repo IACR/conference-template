@@ -16,7 +16,7 @@
 <body>
   <?php require "includes/nav.php"; ?>
 
-  <main class="container-lg px-5 px-lg-0">
+  <main class="container-lg px-4 px-lg-0">
     <h2 class="indPageTitle">
       Affiliated Events
     </h2>
