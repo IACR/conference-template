@@ -114,17 +114,17 @@ function drawProgram() {
   }
   renderedProgram.innerHTML = theTemplate(currentProgram);
   document.querySelectorAll("[data-bs-toggle='collapse']").forEach(item => {
-    let typ = item.dataset.typ;
+    let type = item.dataset.type;
     item.addEventListener("click", event => {
       let node = event.target;
       if (node.classList.contains('toggle-closed')) {
         node.classList.remove('toggle-closed');
         node.classList.add('toggle-open');
-        node.text = 'Hide ' + typ;
+        node.text = 'Hide ' + type;
       } else {
         node.classList.add('toggle-closed');
         node.classList.remove('toggle-open');
-        node.text = 'Show ' + typ;
+        node.text = 'Show ' + type;
       }
   });
   
