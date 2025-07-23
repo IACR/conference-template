@@ -50,7 +50,7 @@
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">
-            Technical Program
+            Technical program
           </a>
           <div class="dropdown-menu">
             <!-- <a class="dropdown-item" href="<?php echo rootPath() . 'program.php' ?>">
