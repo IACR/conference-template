@@ -168,9 +168,10 @@
               <h4 class="subSubtitle">
                 {{name}}
               </h4>
-              <p class="text-start">
-                {{affiliation}}
-              </p>
+              <h5 class="affilTitle">
+                {{affiliation}}<br>
+                <small>{{country}}</small>
+              </h5>
             </article>
           {{/each}}
         {{/if}}
@@ -188,9 +189,10 @@
               <h4 class="subSubtitle">
                 {{name}}
               </h4>
-              <p class="text-start">
-                {{affiliation}}
-              </p>
+              <h5 class="affilTitle">
+                {{affiliation}}<br>
+                <small>{{country}}</small>
+              </h5>
             </article>
           {{/each}}
         {{/if}}
