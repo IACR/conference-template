@@ -148,9 +148,10 @@
             <h4 class="subSubtitle">
               {{name}}
             </h4>
-            <p class="text-start">
-              {{affiliation}}
-            </p>
+            <h6>
+              {{affiliation}}<br>
+              <small>{{country}}</small>
+            </h6>
           </article>
         {{/each}}
       </script>
@@ -208,14 +209,16 @@
       foreach ($META['PC_CHAIRS'] as $person) {
         $name = $person['name'];
         $affiliation = $person['affiliation'];
+        $country = $person['country'];
         echo <<< EOR
             <aside class="$theClass text-center mb-2">
               <h4 class="subSubtitle">
                 $name
               </h4>
-              <p class="text-center">
-                $affiliation
-              </p>
+              <h6>
+                $affiliation<br>
+                <small>$country</small>
+              </h6>
             </aside>
             EOR;
       }
@@ -242,14 +245,16 @@
       foreach ($META['GENERAL_CHAIRS'] as $person) {
         $name = $person['name'];
         $affiliation = $person['affiliation'];
+        $country = $person['country'];
         echo <<< EOR
             <aside class="$theClass text-center mb-2">
               <h4 class="subSubtitle">
                 $name
               </h4>
-              <p class="text-center">
-                $affiliation
-              </p>
+              <h6>
+                $affiliation<br>
+                <small>$country</small>
+              </h6>
             </aside>
             EOR;
       }
