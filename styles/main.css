@@ -129,7 +129,7 @@ a.dropdown-item {
   #navbarNav div.dropdown-menu {
     margin-top: 0;
     padding-top: .625rem;
-    width: 50%;
+    width: fit-content;
     left: 20%;
   }
 }
