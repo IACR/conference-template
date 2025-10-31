@@ -14,8 +14,8 @@
     <?php echo $META['shortName']; ?> Program
   </title>
   <style>
-    #progContain {
-      @media (min-width: 992px) {
+    @media (min-width: 992px) {
+      #progContain {
         max-width: 96%;
       }
     }
