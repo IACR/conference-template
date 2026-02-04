@@ -117,9 +117,7 @@
       proceedings. Moreover, authors of accepted papers must
       guarantee that their paper will be presented at the conference
       and agree that the presentations will be video recorded during
-      the event. The camera-ready version of the accepted articles
-      will be automatically uploaded to
-      the <a href="https://eprint.iacr.org/">IACR ePrint server</a>.
+      the event.
     </p>
     <p>
       Submissions must not substantially duplicate work that any of
