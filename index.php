@@ -38,6 +38,47 @@
     .color-modes .active .bi {
       display: block !important;
     }
+
+    #updatesBox {
+      overflow: hidden;
+      position: relative;
+      /* NOTE: kind of a hack to make it equal height with the dates box */
+      max-height: 508.891px;
+
+      .customCard {
+        /*   originally 100%, I'm using this size because it plays nice with codepen   */
+        height: 100%;
+        overflow: auto;
+      }
+
+      .shadows {
+        bottom: 0;
+        left: 0;
+        pointer-events: none;
+        position: absolute;
+        right: 0;
+        top: 0;
+        transition: all .2s ease-out;
+      }
+
+      &.off-bottom {
+        .shadows {
+          box-shadow: 0 -3.5em 3.5em -1em #FEFDFB inset;
+        }
+      }
+    }
+
+    @keyframes flash {
+
+      0%,
+      100% {
+        opacity: 1;
+      }
+
+      50% {
+        opacity: .2;
+      }
+    }
   </style>
 
 </head>
@@ -116,7 +157,7 @@
         <?php require "includes/important_dates.php"; ?>
       </div>
 
-      <div class="col-md-6 mt-4 mt-md-0">
+      <div id="updatesBox" class="col-md-6 mt-4 mt-md-0 off-bottom">
         <article class="customCard">
           <h4 class="customCardHeader">
             Website updates
@@ -138,12 +179,59 @@
               Website launched
             </p>
           </div>
+          <div class="customCardRow row">
+            <h6 class="dateTitle col-5 col-md-6 col-lg-4">
+              20 Mar 202X
+            </h6>
+            <p class="col-7 col-md-6 col-lg-8">
+              Website launched
+            </p>
+          </div>
+          <div class="customCardRow row">
+            <h6 class="dateTitle col-5 col-md-6 col-lg-4">
+              20 Mar 202X
+            </h6>
+            <p class="col-7 col-md-6 col-lg-8">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, cumque. Consectetur facere hic voluptatibus sint est dicta repellat exercitationem fuga voluptatem pariatur quae, architecto accusamus laudantium odit. Aliquid, excepturi inventore.
+            </p>
+          </div>
+          <div class="customCardRow row">
+            <h6 class="dateTitle col-5 col-md-6 col-lg-4">
+              20 Mar 202X
+            </h6>
+            <p class="col-7 col-md-6 col-lg-8">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, cumque. Consectetur facere hic voluptatibus sint est dicta repellat exercitationem fuga voluptatem pariatur quae, architecto accusamus laudantium odit. Aliquid, excepturi inventore.
+            </p>
+          </div>
         </article>
+        <div class="shadows" aria-hidden="true"></div>
       </div>
     </div>
 
   </main>
 
+  <script>
+    // makes website updates a scrolling box instead of infinity-long
+    const updatesBox = document.getElementById('updatesBox');
+    const updatesBoxScr = document.querySelector('#updatesBox .customCard');
+    let updatIsScroll = false;
+
+    function setFade(event) {
+      if (!updatIsScroll) {
+        window.requestAnimationFrame(function() {
+          if (event.target.scrollTop < 160) {
+            updatesBox.classList.add('off-bottom');
+          } else {
+            updatesBox.classList.remove('off-bottom');
+          }
+          updatIsScroll = false;
+        });
+        updatIsScroll = true;
+      }
+    }
+
+    updatesBoxScr.addEventListener('scroll', setFade);
+  </script>
   <?php include "includes/footer.php"; ?>
 </body>
 

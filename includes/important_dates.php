@@ -22,7 +22,7 @@ function showDate($key, $title) {
   EOR;
 }
 ?>
-<article class="customCard">
+<article id="impDates" class="customCard">
   <h4 class="customCardHeader">
     Important dates
   </h4>
