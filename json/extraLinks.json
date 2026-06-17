@@ -1,0 +1,29 @@
+{
+	"_comment": "This will be put into use closer to the start of the conference. It is comprised of information collected via a survey that Kay or Kevin sets up for authors.",
+	"attendance": {
+		"talkId0": "inperson",
+		"talkId1": "online"
+	},
+	"speakers": {
+		"talkId0": "Mary Mumbles",
+		"talkId1": "Josh Jumbles"
+	},
+	"slides": {
+		"talkId0": "URL",
+		"talkId1": "URL"
+	},
+	"eprint": {
+		"_comment": "This is really only used if publisher is running behind. It is NOT used for paper URLs from Springer/ToSC/TCHES.",
+		"talkId0": "URL",
+		"talkId0": "URL"
+	},
+	"youtube": {
+    "session-0": "URL",
+    "session-1": "URL"
+  },
+	"zoom": {
+    "session-0": "URL",
+    "session-1": "URL"
+  },
+	"misc": {}
+}

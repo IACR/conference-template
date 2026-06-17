@@ -15,17 +15,10 @@
       border: 1px solid #CCC;
     }
 
-    /* NOTE: why Bootstrap doesn't offer an equal column option natively is beyond me */
-    @media (min-width: 768px) {
-      .flex-even {
-        flex: 1;
-      }
-    }
-
     .travelIcon {
       width: 1.3em;
       height: 1.3em;
-      filter: invert(16%) sepia(91%) saturate(6408%) hue-rotate(156deg) brightness(92%) contrast(88%);
+      filter: brightness(0) saturate(100%) invert(31%) sepia(57%) saturate(2045%) hue-rotate(292deg) brightness(87%) contrast(87%);
       margin-right: 1rem;
       margin-top: 0.25rem;
     }
@@ -82,139 +75,105 @@
     <div id="venuemap" class="mt-2">
     </div>
 
-    <!-- NOTE: below is an example of how additional information could be
-      formatted on this page -->
-    <h3 class="pageSubtitle mt-4">
-      On-campus accommodations
+    <!-- an example of how to organize travel info follows from Asiacrypt 2026 -->
+    <!-- <h3 class="pageSubtitle mt-4">
+      Getting from Hong Kong International Airport to the venue
     </h3>
-    <p>
-      We hope we'll have this option.
-    </p>
-
-    <div class="d-flex flex-wrap flex-md-nowrap justify-content-around justify-content-start-md">
-      <section class="flex-even mt-3 px-md-4">
-        <h4 class="subSubtitle text-center mb-3">
-          Dormitory rooms
-        </h4>
-        <p>
-          Most convenient but not always the poshest.
-        </p>
-        <p>
-          Once plans are finalized, there will be a link below.
-        </p>
-        <a href="https://kaymckelly.com" class="btn customBtn-warm blockBtn disabled mb-4 mb-md-0" role="button" target="_blank">
-          Register for dorms
-        </a>
-      </section>
-
-      <section class="flex-even mt-4 mt-md-3 px-md-4">
-        <h4 class="subSubtitle text-center mb-3">
-          University Campus Hotel
+    <div class="row">
+      <article class="col-sm-6 col-xxl-3 mt-2 mt-xxl-1">
+        <h4 class="subSubtitle mb-3">
+          By train + taxi
         </h4>
         <div class="d-flex">
-          <img src="images/icons/location.svg" class="travelIcon" />
-          <address>
-            Somewhere on Earth<br>
-            Probably not in the ocean
-          </address>
+          <img src="images/icons/watch.svg" class="travelIcon" />
+          <p>30-40 minutes travel time</p>
         </div>
         <div class="d-flex">
-          <img src="images/icons/phone.svg" class="travelIcon" />
-          <address>
-            123.012.9876
-          </address>
+          <img src="images/icons/currency.svg" class="travelIcon" />
+          <p>HK$155-175 total</p>
         </div>
-        <p class="mt-3">
-          Rates: guess ;)
+        <p>
+          You can take the Airport Express from Hong Kong International Airport to Kowloon
+          Station. Once you arrive at Kowloon Station, you will take a short taxi ride to the
+          hotel (approximately 10-15 minutes).
         </p>
         <p>
-          Locals don't stay here. Hopefully you won't hear the
-          student parties while you're with us.
+          The estimated total cost above includes the Airport
+          Express fare of HK$105 with Octopus or HK$115 with other payment
+          methods, plus around HK$50-60 for the taxi ride.
         </p>
-      </section>
-    </div>
-
-    <h3 class="pageSubtitle mt-4">
-      Off-campus accommodations
-    </h3>
-    <p>
-      For those who choose not to stay on-site, the following is a list of
-      hotels that have provided room blocks for
-      <?php echo $META['shortName']; ?>. Those who choose to stay off-site are
-      responsible for making their own reservations. Early reservations are
-      advised since August is a popular tourist season for the area.
-    </p>
-    <aside class="alert customAlert-warm">
-      <img src="images/icons/alert-triangle.svg" class="icon" />
-      All prices are subject to change and do not include tax; prices should
-      be confirmed by calling the hotels directly. Room blocks may be
-      released as early as two months prior to the conference. You must
-      mention Crypto 2020 when you are making your reservations so you will
-      be eligible for any special rates that may be available. Other hotels
-      are available in the area.
-    </aside>
-
-    <div class="d-flex flex-wrap flex-md-nowrap justify-content-around justify-content-start-md">
-      <section class="flex-even mt-3 px-md-4">
-        <h4 class="subSubtitle text-center mb-3">
-          Extra Posh Hotel
+        <p>
+          Please note that some taxis may not accept credit card payment. Check with the taxi
+          driver before boarding.
+        </p>
+      </article>
+      <article class="col-sm-6 col-xxl-3 mt-2 mt-xxl-1">
+        <h4 class="subSubtitle mb-3">
+          By train only
         </h4>
         <div class="d-flex">
-          <img src="images/icons/location.svg" class="travelIcon" />
-          <address>
-            The fancy downtown area
-          </address>
+          <img src="images/icons/watch.svg" class="travelIcon" />
+          <p>45 minutes travel time</p>
         </div>
         <div class="d-flex">
-          <img src="images/icons/phone.svg" class="travelIcon" />
-          <address>
-            458.927.0634<br>
-            Fax: 444.127.1212
-          </address>
+          <img src="images/icons/currency.svg" class="travelIcon" />
+          <p>HK$120-142.50 total</p>
         </div>
-        <p class="mt-3">
-          Rates: how much you got?
+        <p>
+          Take the Airport Express from Hong Kong International Airport to Hong Kong
+          Station. From there, follow the signs and walk through the underground passage to
+          Central Station. Then take the Tsuen Wan Line towards Tsuen Wan and get off at
+          Tsim Sha Tsui Station.
         </p>
         <p>
-          For the most discerning of conference attendees. Free breakfast,
-          wifi, and extra pillows. Even though we can't legally say it,
-          children explicitly unwelcome.
+          If you use an Octopus card, the estimated cost is HK$120, covering the Airport Express fare
+          with free MTR interchange when using the same Octopus within the
+          specified time. If you use other payment methods, the estimated cost is HK$142.5, including HK$130 for the
+          Airport Express and HK$12.5 for the MTR fare from Central to Tsim Sha Tsui.
         </p>
-        <a class="btn customBtn-warm blockBtn mb-4 mb-md-0" role="button" href="https://kaymckelly.com" target="_blank">
-          Reservations
-        </a>
-      </section>
-
-      <section class="flex-even mt-4 mt-md-3 px-md-4">
-        <h4 class="subSubtitle text-center mb-3">
-          Acceptable Inn
+      </article>
+      <article class="col-sm-6 col-xxl-3 mt-3 mt-xxl-1">
+        <h4 class="subSubtitle mb-3">
+          By bus
         </h4>
         <div class="d-flex">
-          <img src="images/icons/location.svg" class="travelIcon" />
-          <address>
-            In town
-          </address>
+          <img src="images/icons/watch.svg" class="travelIcon" />
+          <p>60-75 minutes travel time, depending on traffic</p>
         </div>
         <div class="d-flex">
-          <img src="images/icons/phone.svg" class="travelIcon" />
-          <address>
-            413.872.9561
-          </address>
+          <img src="images/icons/currency.svg" class="travelIcon" />
+          <p>HK$35 total</p>
         </div>
-        <p class="mt-3">
-          Rates: pocket change?
+        <p>
+          Airport buses offer a lower-cost way to reach Tsim Sha Tsui, though the journey is
+          generally slower and may be affected by traffic conditions. The most convenient route
+          is Cityflyer route A21, which runs directly from Hong
+          Kong International Airport to the Tsim Sha Tsui area via Nathan Road.
         </p>
         <p>
-          Some information on the internet led you to believe this is a
-          reasonable place to stay, and it is. Just don't expect luxury for
-          this price. We expect you to scavenge for breakfast. No mini
-          cereal boxes here!
+          Buses run every 10-30 minutes. The nearest stop to the conference venue is Middle Road
+          or Nathan Road.
         </p>
-        <a class="btn customBtn-warm blockBtn mb-4 mb-md-0" role="button" href="https://kaymckelly.com" target="_blank">
-          Reservations
-        </a>
-      </section>
-    </div>
+      </article>
+      <article class="col-sm-6 col-xxl-3 mt-3 mt-xxl-1">
+        <h4 class="subSubtitle mb-3">
+          By taxi
+        </h4>
+        <div class="d-flex">
+          <img src="images/icons/watch.svg" class="travelIcon" />
+          <p>30-40 minutes travel time, depending on traffic</p>
+        </div>
+        <div class="d-flex">
+          <img src="images/icons/currency.svg" class="travelIcon" />
+          <p>HK$330-420 total</p>
+        </div>
+        <p>
+          You can also take a taxi or Uber directly from Hong Kong International Airport to the
+          venue. Be aware that some taxis may not accept credit card payment. Please check with the taxi
+          driver before boarding.
+        </p>
+      </article>
+    </div> -->
   </main>
 
   <script src="https://iacr.org/libs/js/leafletjs/leaflet-src.js"></script>
