@@ -1,4 +1,6 @@
 {
+	"_comment": "Be careful editing this file. It must be valid JSON. Do not build from scratch; use source link to generate your own, which can only be done after getting approved for the IACR calendar of events.",
+	"_source": "https://www.iacr.org/cryptodb/pc",
 	"id": 1234,
 	"name": "37th Annual International Flimflam Conference",
 	"shortName": "Fakecrypt 2045",
@@ -18,26 +20,28 @@
 	"longitude": 51.48731403378575,
 	"latitude": -0.12451778650793591,
 	"eventtype": "crypto",
-	"_comment": "Be careful editing this file. It must be valid JSON.",
-	"_source": "https://www.iacr.org/cryptodb/pc",
 	"PC_CHAIRS": [
 		{
 			"name": "Important Professor #1",
-			"affiliation": "University of Peer Review<br>China"
+			"affiliation": "University of Peer Review",
+      "country": "China"
 		},
 		{
 			"name": "World-Famous Researcher",
-			"affiliation": "Institute for the Advancement of Causative Research<br>Singapore"
+			"affiliation": "Institute for the Advancement of Causative Research",
+      "country": "Singapore"
 		}
 	],
 	"GENERAL_CHAIRS": [
 		{
 			"name": "SmartGuy McWriter",
-			"affiliation": "Synonym College<br>Romania"
+			"affiliation": "Synonym College",
+      "country": "Romania"
 		},
 		{
 			"name": "Ellis Papers",
-			"affiliation": "Society for Promotion of Encryption<br>Senegal"
+			"affiliation": "Society for Promotion of Encryption",
+      "country": "Senegal"
 		}
 	]
 }
