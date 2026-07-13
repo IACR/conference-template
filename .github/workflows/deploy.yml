@@ -1,0 +1,44 @@
+name: Native SSH Deployment
+
+on:
+  push:
+    branches:
+      - main
+  # allows you to manually execute this pipeline from the Actions tab.
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Set up the SSH agent and execute commands natively
+      - name: Deploy to Server via Native SSH
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+          SERVER_HOST: ${{ secrets.SERVER_HOST }}
+          SERVER_USER: ${{ secrets.SERVER_USER }}
+        run: |
+          # 1. Start the ssh-agent in the background
+          eval $(ssh-agent -s)
+          
+          # 2. Load the private key into the agent securely
+          echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add -
+          
+          # 3. Create the .ssh directory if it doesn't exist
+          mkdir -p ~/.ssh
+          chmod 700 ~/.ssh
+          
+          # 4. Scan the remote server's host key and add it to known_hosts to prevent MITM attacks
+          ssh-keyscan -H "$SERVER_HOST" >> ~/.ssh/known_hosts
+          chmod 644 ~/.ssh/known_hosts
+          
+          # 5. Execute your deployment commands on the remote server
+          ssh $SERVER_USER@$SERVER_HOST << 'EOF'
+            # The next line tells the server where to pull this repository.
+            # It should be something like /var/www/testconf/html/2027
+            # IMPORTANT: CHANGE THIS TO THE DIRECTORY WHERE YOU DEPLOY.
+            cd /var/www/testconf/html/2027
+            git pull origin main
+          EOF
+          
