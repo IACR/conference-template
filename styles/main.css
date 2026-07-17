@@ -538,8 +538,8 @@ div.sessionList div p {
 
 /** This makes untabbed sessions equal width. */
 div.inlineSessions div.session {
-  flex-grow: 1;
-  flex-basis: 0;
+    flex: 1 1 0;
+    min-width: 0;
 }
 
 div.paper-abstract {
