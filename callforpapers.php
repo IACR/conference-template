@@ -168,10 +168,13 @@
               <h4 class="subSubtitle">
                 {{name}}
               </h4>
-              <h5 class="affilTitle">
+              <h5>
+                <em>for</em> {{areaOf}}
+              </h5>
+              <h6>
                 {{affiliation}}<br>
                 <small>{{country}}</small>
-              </h5>
+              </h6>
             </article>
           {{/each}}
         {{/if}}
