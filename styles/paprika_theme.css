@@ -1,0 +1,189 @@
+/*****
+  Color theme by Kay McKelly
+  https://coolors.co/palette/0a050f-008c45-18642c-219c89-0b728c-94e9ff-eef9ff-8c0b38-7d2b32
+
+  HEX: #0A050F, #008C45, #18642C, #219C89, #0B728C, #94E9FF, #EEF9FF, #8C0B38, #7D2B32
+  RGBA: rgba(10, 5, 15, 1.00), rgba(0, 140, 69, 1.00), rgba(24, 100, 44, 1.00), rgba(33, 156, 137, 1.00), rgba(11, 114, 140, 1.00), rgba(148, 233, 255, 1.00), rgba(238, 249, 255, 1.00), rgba(140, 11, 56, 1.00), rgba(125, 43, 50, 1.00)
+  HSLA: hsla(270, 50%, 4%, 1.00), hsla(150, 100%, 27%, 1.00), hsla(136, 61%, 24%, 1.00), hsla(171, 65%, 37%, 1.00), hsla(192, 85%, 30%, 1.00), hsla(192, 100%, 79%, 1.00), hsla(201, 100%, 97%, 1.00), hsla(339, 85%, 30%, 1.00), hsla(355, 49%, 33%, 1.00)
+*****/
+
+
+/***** Header (in /includes/nav.php) *****/
+#mainNavRow {
+  background-color: #8D0B38;
+  margin-bottom: 1rem !important;
+}
+
+div.dropdown-menu {
+  background-color: #8D0B38;
+  border: none;
+}
+
+a.dropdown-item:hover {
+  background-color: rgba(148, 233, 255, 0.8);
+}
+
+@media (min-width: 992px) {
+  .pageTopContainer {
+    max-width: 100%;
+    padding: 0 1rem;
+  }
+
+  .headerImg {
+    height: 275px;
+  }
+
+  #titlesLogoDiv {
+    padding-top: 0;
+    height: 275px;
+  }
+
+  .headerTitle {
+    font-weight: 500;
+    letter-spacing: 0.5rem;
+    font-size: 2.8rem;
+    padding: 0;
+    margin-bottom: 0;
+  }
+
+  .headerInfoTop,
+  .headerInfoBottom {
+    font-size: 1.8rem;
+    padding: 0;
+    margin-bottom: 0;
+    text-align: right;
+  }
+
+  #logo {
+    max-height: 7rem;
+  }
+}
+
+.headerImg {
+  background-image: url(../images/banners/colosseo.jpg);
+}
+
+.headerGradient {
+  background: linear-gradient(rgba(10, 5, 15, 0.2), rgba(10, 5, 15, 0.2));
+}
+
+@media (min-width: 1074px) {
+  .headerTitle {
+    font-weight: 500;
+    letter-spacing: 0.5rem;
+    font-size: 3.3rem;
+  }
+
+  .headerInfoTop,
+  .headerInfoBottom {
+    font-size: 2.3rem;
+  }
+
+  #logo {
+    max-height: 7.5rem;
+  }
+}
+
+.headerTitle,
+.headerInfoTop,
+.headerInfoBottom {
+  color: #f1efe8;
+  /* text-shadow: 5px 5px 20px #0A050F; */
+  text-shadow: 3px 3px 3px #0A050F, 0 0 1rem #0A050F, 0 0 0.2rem #0A050F;
+}
+
+#logo {
+  border-radius: 50%;
+  box-shadow: 3px 3px 15px 3px rgba(10, 5, 15, 0.7);
+}
+
+
+
+/***** Main content (e.g. h1-h6, a, text, etc) *****/
+body {
+  color: #0A050F;
+}
+
+a {
+  color: #0B728C;
+}
+
+a:hover {
+  color: #8C0B38;
+}
+
+.indPageTitle {
+  color: #0A050F;
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+  letter-spacing: 0.3rem;
+  font-weight: 300;
+}
+
+.pageSubtitle {
+  color: #8C0B38;
+  font-weight: 400;
+}
+
+.dateTitle {
+  color: #8C0B38;
+  font-weight: 300;
+}
+
+.subSubtitle {
+  font-weight: 300;
+  letter-spacing: 0.02px;
+}
+
+.customBtn-warm {
+  /* NOTE: complaints about red color for button looking like a warning, alternative pale gold pick below */
+  /* background-color: rgba(140, 11, 56, 0.2); */
+  background-color: rgba(209, 142, 52, 0.3);
+}
+
+.customBtn-warm:hover {
+  background-color: rgba(140, 11, 56, 0.7);
+  color: #FEFDFB;
+}
+
+.customBtn-cool {
+  background-color: rgba(33, 156, 137, 0.3);
+}
+
+.customBtn-cool:hover {
+  background-color: rgba(33, 156, 137, 0.8);
+}
+
+code {
+  color: #7D2B32;
+}
+
+
+
+/***** Main Content: cards & alerts *****/
+.customCard {
+  border: 1px solid rgba(11, 114, 140, 0.2);
+  border-radius: 0.3rem;
+}
+
+.customCardHeader {
+  font-size: 1.4rem;
+  letter-spacing: 0.05rem;
+  font-weight: 200;
+  border-bottom: 2px solid rgba(11, 114, 140, 0.7);
+  background-color: rgba(143, 195, 209, 0.2);
+}
+
+.customAlert-warm {
+  background-color: rgba(217, 173, 163, 0.5);
+  border-color: rgba(125, 43, 50, 0.5);
+}
+
+.customAlert-cool {
+  background-color: rgba(148, 233, 255, 0.2);
+  border-color: rgba(33, 156, 137, 0.6);
+}
+
+.customCardFooter {
+  background-color: rgba(143, 195, 209, 0.3);
+}
