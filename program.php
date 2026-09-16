@@ -142,7 +142,7 @@
                     <h5 class="text-center">
                       {{session_title}}
                       {{#if session_url}}
-                        &nbsp; <a href="{{session_url}}"><img class="sessionInfoIcon" src="images/icons/info.svg" title="Session info"></a>
+                        &nbsp; <a href="{{session_url}}" aria-label="Get session info"><img class="sessionInfoIcon" src="images/icons/info.svg" title="Session info"></a>
                       {{/if}}
                     </h5>
                     {{#if location.name}}
@@ -205,12 +205,12 @@
                       {{/if}}
                       {{#if paperUrl}}
                         <span class="talkMedia">
-                          <a href="{{paperUrl}}" target="_blank"><img class="talkMediaIcon" src="images/icons/file.svg" title="Paper"></a>
+                          <a href="{{paperUrl}}" target="_blank" aria-label="See paper pdf"><img class="talkMediaIcon" src="images/icons/file.svg" title="Paper"></a>
                         </span>
                       {{/if}}
                       {{#if eprint}}
                         <span class="talkMedia">
-                          &nbsp;<a href="{{eprint}}" target="_blank"><img class="talkMediaIcon" src="images/icons/unlock.svg" title="eprint"></a>
+                          &nbsp;<a href="{{eprint}}" target="_blank" aria-label="See ePrint listing"><img class="talkMediaIcon" src="images/icons/unlock.svg" title="eprint"></a>
                         </span>
                       <!-- NOTE: the else is structural, don't ask me why -->
                       {{else}}
@@ -223,12 +223,12 @@
                       {{/if}}
                       {{#if videoUrl}}
                         <span class="talkMedia">
-                          &nbsp; <a href="{{videoUrl}}" target="_blank"><img class="talkMediaIcon" src="images/icons/video.svg" title="YouTube video"></a>
+                          &nbsp; <a href="{{videoUrl}}" target="_blank" aria-label="See talk video"><img class="talkMediaIcon" src="images/icons/video.svg" title="YouTube video"></a>
                         </span>
                       {{/if}}
                       {{#if slidesUrl}}
                         <span class="talkMedia">
-                          &nbsp; <a href="{{slidesUrl}}" target="_blank"><img class="talkMediaIcon" src="images/icons/presentation.svg" title="Slides"></a>
+                          &nbsp; <a href="{{slidesUrl}}" target="_blank" aria-label="See talk slides"><img class="talkMediaIcon" src="images/icons/presentation.svg" title="Slides"></a>
                         </span>
                       {{/if}}
                     {{/each}} <!-- talks -->

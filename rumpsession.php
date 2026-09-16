@@ -152,7 +152,7 @@
 
       <div class="row">
         <div class="col-12 text-center">
-          <a href="mailto:veryRealEmail@iacr.org">
+          <a href="mailto:veryRealEmail@iacr.org" aria-label="Send mail to the rump session chair(s)">
             <img src="images/icons/mail.svg" class="icon" />
           </a> veryRealEmail@iacr.org
         </div>
@@ -197,7 +197,7 @@
                     <h5 class="text-center">
                       {{session_title}}
                       {{#if session_url}}
-                        &nbsp; <a href="{{session_url}}"><img class="sessionInfoIcon" src="images/icons/info.svg" title="Session Info"></a>
+                        &nbsp; <a href="{{session_url}}" aria-label="See session info"><img class="sessionInfoIcon" src="images/icons/info.svg" title="Session info"></a>
                       {{/if}}
                     </h5>
                     {{#if location.name}}
@@ -253,33 +253,34 @@
                         {{#if hasMedia}}<span class="talkMedia"></span>{{/if}}
                         {{#if paperUrl}}
                           <span class="talkMedia">
-                            <a href="{{paperUrl}}" target="_blank"><img class="talkMediaIcon" src="images/icons/file.svg" title="Paper"></a>
+                            <a href="{{paperUrl}}" target="_blank" aria-label="See paper link"><img class="talkMediaIcon" src="images/icons/file.svg" title="Paper"></a>
                           </span>
                         {{/if}}
                         {{#if eprint}}
                           <span class="talkMedia">
-                            &nbsp;<a href="https://eprint.iacr.org/{{eprint}}" target="_blank"><img class="talkMediaIcon" src="images/icons/unlock.svg" title="eprint"></a>
+                            &nbsp;<a href="https://eprint.iacr.org/{{eprint}}" target="_blank" aria-label="See ePrint listing"><img class="talkMediaIcon" src="images/icons/unlock.svg" title="eprint"></a>
                           </span>
                           {{#if eprint2}}
                             <span class="talkMedia">
-                              &nbsp;<a href="https://eprint.iacr.org/{{eprint2}}" target="_blank"><img class="talkMediaIcon" src="images/icons/unlock.svg" title="eprint for paper 2"></a>
+                              &nbsp;<a href="https://eprint.iacr.org/{{eprint2}}" target="_blank" aria-label="See another related link"><img class="talkMediaIcon" src="images/icons/unlock.svg" title="eprint for paper 2"></a>
                             </span>
                           {{/if}}
                         {{else}}
-                          {{#if search}}
+                          <!-- deprecated? -->
+                          <!-- {{#if search}}
                             <span class="talkMedia">
                               &nbsp;<a href="{{search}}" target="_blank"><img class="talkMediaIcon" src="images/icons/search-outline.svg" title="Search for paper"></a>
                             </span>
-                          {{/if}}
+                          {{/if}} -->
                         {{/if}}
                         {{#if videoUrl}}
                           <span class="talkMedia">
-                            &nbsp; <a href="{{videoUrl}}" target="_blank"><img class="talkMediaIcon" src="images/icons/video.svg" title="YouTube video"></a>
+                            &nbsp; <a href="{{videoUrl}}" target="_blank" aria-label="See talk video"><img class="talkMediaIcon" src="images/icons/video.svg" title="YouTube video"></a>
                           </span>
                         {{/if}}
                         {{#if slidesUrl}}
                           <span class="talkMedia">
-                            &nbsp; <a href="{{slidesUrl}}" target="_blank"><img class="talkMediaIcon" src="images/icons/presentation.svg" title="Slides"></a>
+                            &nbsp; <a href="{{slidesUrl}}" target="_blank" aria-label="See slides"><img class="talkMediaIcon" src="images/icons/presentation.svg" title="Slides"></a>
                           </span>
                         {{/if}}
                     {{/each}}

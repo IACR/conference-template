@@ -119,7 +119,7 @@
           <!-- TODO: check name is correct -->
           Tal Rabin
         </p>
-        <a href="mailto:conduct@iacr.org">
+        <a href="mailto:conduct@iacr.org" aria-label="Send mail to the code of conduct liaison">
           <img src="images/icons/mail.svg" class="icon" />
         </a>
         conduct at iacr.org
@@ -139,7 +139,7 @@
           Adeline Roux-Langlois<br>
           François-Xavier Standaert (chair)
         </p>
-        <a href="mailto:ethics-committee@iacr.org">
+        <a href="mailto:ethics-committee@iacr.org" aria-label="Send mail to the ethics committee">
           <img src="images/icons/mail.svg" class="icon" />
         </a>
         ethics-committee at iacr.org
@@ -155,7 +155,7 @@
           <!-- TODO: check name is correct. last updated 16 Sep 2026 -->
           Allison Bishop
         </p>
-        <a href="mailto:president@iacr.org">
+        <a href="mailto:president@iacr.org" aria-label="Send mail to the IACR president">
           <img src="images/icons/mail.svg" class="icon" />
         </a>
         president at iacr.org

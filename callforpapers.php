@@ -56,7 +56,7 @@
         </h3>
         <p class="text-center">
           Author instructions for paper submission may be found on the
-          submission page. Don't forget to read 
+          submission page. Don't forget to read
           <a href="aipolicy.php">our policy on the use of AI tools by authors</a>.
         </p>
         <a href="papersubmission.php" class="btn customBtn-warm blockBtn mb-5 mb-lg-0">
@@ -229,7 +229,7 @@
 
     <div class="row">
       <div class="col-12 text-center mb-5">
-        <a href="mailto:doNotEmailMe@fakeDomain.com">
+        <a href="mailto:doNotEmailMe@fakeDomain.com" aria-label="Send mail to the program chair(s)">
           <img src="images/icons/mail.svg" class="icon" />
         </a> doNotEmailMe@fakeDomain.com
       </div>
@@ -265,7 +265,7 @@
 
     <div class="row">
       <div class="col-12 text-center mb-5">
-        <a href="mailto:reallyDoNotEmailMe@fakeDomain.com">
+        <a href="mailto:reallyDoNotEmailMe@fakeDomain.com" aria-label="Send mail to the general chair(s)">
           <img src="images/icons/mail.svg" class="icon" />
         </a> reallyDoNotEmailMe@fakeDomain.com
       </div>
