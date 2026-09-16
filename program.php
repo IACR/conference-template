@@ -134,9 +134,9 @@
                   {{/if}}
                 </h5>
                 {{#if location.name}}
-                <p class="trackDescr">
+                <small class="trackDescr fst-italic">
                    {{{location.name}}}
-                </p>
+                </small>
                 {{/if}}
                 {{#if moderator}}
                 <p class="trackDescr">
@@ -167,13 +167,20 @@
                   <span class="authorName">{{this}}</span>
                   {{/each}}
                 </div>
-                {{#if affiliations}}
+                <!-- NOTE: to show affiliations in the program, uncomment the block below. be aware that this has a tendency 
+                 to _really_ lengthen the page, which can be annoying on smaller screens. -->
+                <!-- {{#if affiliations}}
                 <small class="trackDescr">
                     <span class="fst-italic affiliation">{{{affiliations}}}</span>
                 </small><br>
-                {{/if}}
+                {{/if}} -->
                 {{#if speakers}}
                    <p class="trackDescr">Speaker(s): {{speakers}}{{#if attendance}} ({{attendance}}){{/if}}</p>
+                {{/if}}
+                {{#if paperId}}
+                  <small>
+                    (paper #{{paperId}})
+                  </small>
                 {{/if}}
                 {{#if abstract}}
                 <div class="talkAbstract">

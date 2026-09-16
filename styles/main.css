@@ -373,16 +373,7 @@ a.dropdown-item {
 
 
 /***** Page-specific: program *****/
-/*NOTE: remove once finalized that vertical alignment for times is unnecessary*/
-/*.verticalAlign {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-align: center;
-  align-items: center;
-}*/
-
 p.timeSlot {
-  /* text-align: right; */
   margin-top: 8px;
 }
 
@@ -397,11 +388,6 @@ p.trackSwitch {
   padding-top: 10px;
   text-align: center;
 }
-
-/* TODO: using? */
-/* div.talkAbstract {
-   text-align: center;
-} */
 
 p.eventDescr {
   text-align: center;
@@ -429,7 +415,6 @@ div.sessionList span.talkMedia {
   text-align: center;
 }
 
-/* NOTE: in virtual conf template is */
 span.talkMedia {
   display: inline-block;
 }
@@ -445,19 +430,6 @@ img.talkMediaIcon {
 img.sessionInfoIcon {
   vertical-align: unset;
 }
-
-/* unused */
-/* ul.programNav .nav-link:hover {
-  background-color: #FEFDFB;
-}
-
-div.dropdown-menu.calendar {
-  background-color: #FEFDFB;
-}
-
-div.dropdown-menu.calendar a {
-  color: #102a83;
-} */
 
 div.sessionList {
   margin-bottom: 10px;
@@ -529,9 +501,11 @@ div.sessionList div.session {
 div.sessionList div p {
   text-align: center;
 }
+
 .inlineSessions > div:not(:first-child ) {
   margin-left: 7px;
 }
+
 .inlineSessions > div:not(:last-child ) {
   margin-right: 7px;
 }
@@ -566,25 +540,12 @@ ul.days-nav .nav-link {
   background-color: #E9ECEF;
   color: #102A83;
   margin-right: 1.2rem !important;
-  /* padding-left: 2rem;
-  padding-right: 2rem; */
 }
 
 /* TODO: build out to account for all sizes. or switch to flex? either way this margin-right thing is necessary lest they all just run together like idiots */
 #dailyNav .nav-item {
   margin-right: 2rem;
 }
-
-@media (min-width: 991px) {
-  ul.days-nav .nav-link {
-    /* TODO: complete */
-  }
-}
-
-/* TODO: remove once confirmed not used */
-/* div.dropdown-menu.calendar {
-  background-color: #FEFDFB;
-} */
 
 
 
