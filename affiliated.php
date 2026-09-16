@@ -207,8 +207,8 @@
           University of Cool Cats<br>
           Israel
         </p>
-        <a href="mailto:doNotEmailMe@fakeDomain.com">
-          <img src="images/icons/mail.svg" class="icon" />
+        <a href="mailto:doNotEmailMe@fakeDomain.com" aria-label="Send mail to the affiliated events chair">
+          <img src="images/icons/mail.svg" class="icon" alt="email icon" />
         </a> doNotEmailMe@fakeDomain.com
       </aside>
     </div>

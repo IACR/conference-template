@@ -64,7 +64,7 @@
 
       <div class="col-md-4">
         <div class="alert customAlert-cool" role="alert">
-          <img src="images/icons/alert-triangle.svg" class="icon" />
+          <img src="images/icons/alert-triangle.svg" class="icon" alt="alert icon" />
           <!-- NOTE: this could be a warning that hotels book up fast in the season -->
           Bring a sweater and/or jacket. Santa Barbara
           can be cold at night. (This is crucial for the beach party!)
@@ -85,11 +85,11 @@
           By train + taxi
         </h4>
         <div class="d-flex">
-          <img src="images/icons/watch.svg" class="travelIcon" />
+          <img src="images/icons/watch.svg" class="travelIcon" alt="wristwatch icon" />
           <p>30-40 minutes travel time</p>
         </div>
         <div class="d-flex">
-          <img src="images/icons/currency.svg" class="travelIcon" />
+          <img src="images/icons/currency.svg" class="travelIcon" alt="currency icon" />
           <p>HK$155-175 total</p>
         </div>
         <p>
@@ -112,11 +112,11 @@
           By train only
         </h4>
         <div class="d-flex">
-          <img src="images/icons/watch.svg" class="travelIcon" />
+          <img src="images/icons/watch.svg" class="travelIcon" alt="wristwatch icon" />
           <p>45 minutes travel time</p>
         </div>
         <div class="d-flex">
-          <img src="images/icons/currency.svg" class="travelIcon" />
+          <img src="images/icons/currency.svg" class="travelIcon" alt="currency icon" />
           <p>HK$120-142.50 total</p>
         </div>
         <p>
@@ -137,11 +137,11 @@
           By bus
         </h4>
         <div class="d-flex">
-          <img src="images/icons/watch.svg" class="travelIcon" />
+          <img src="images/icons/watch.svg" class="travelIcon" alt="wristwatch icon" />
           <p>60-75 minutes travel time, depending on traffic</p>
         </div>
         <div class="d-flex">
-          <img src="images/icons/currency.svg" class="travelIcon" />
+          <img src="images/icons/currency.svg" class="travelIcon" alt="currency icon" />
           <p>HK$35 total</p>
         </div>
         <p>
@@ -160,11 +160,11 @@
           By taxi
         </h4>
         <div class="d-flex">
-          <img src="images/icons/watch.svg" class="travelIcon" />
+          <img src="images/icons/watch.svg" class="travelIcon" alt="wristwatch icon" />
           <p>30-40 minutes travel time, depending on traffic</p>
         </div>
         <div class="d-flex">
-          <img src="images/icons/currency.svg" class="travelIcon" />
+          <img src="images/icons/currency.svg" class="travelIcon" alt="currency icon" />
           <p>HK$330-420 total</p>
         </div>
         <p>

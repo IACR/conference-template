@@ -87,7 +87,7 @@
     <div class="row">
       <div id="regFoot" class="mx-auto col-11">
         <p class="text-center">
-          <img src="images/icons/alert-triangle.svg" class="icon" /> People who
+          <img src="images/icons/alert-triangle.svg" class="icon" alt="alert icon" /> People who
           register for the conference agree to abide by the
           <a href="conduct.php">IACR code of conduct</a>.
         </p>
@@ -97,7 +97,7 @@
     <!-- NOTE: if you'd rather use this than have it attached as a footer to the reg table, or if you have another 
   notification in that, uncomment the p element below -->
     <!-- <p class="alert customAlert-warm mt-4">
-      <img src="images/icons/alert-triangle.svg" class="icon" /> People who
+      <img src="images/icons/alert-triangle.svg" class="icon" alt="alert icon" /> People who
       register for the conference agree to abide by the
       <a href="conduct.php">IACR code of conduct</a>.
     </p> -->

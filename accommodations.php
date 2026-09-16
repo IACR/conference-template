@@ -68,14 +68,14 @@
           University Campus Hotel
         </h4>
         <div class="d-flex">
-          <img src="images/icons/location.svg" class="travelIcon" />
+          <img src="images/icons/location.svg" class="travelIcon" alt="location pin icon" />
           <address>
             Somewhere on Earth<br>
             Probably not in the ocean
           </address>
         </div>
         <div class="d-flex">
-          <img src="images/icons/phone.svg" class="travelIcon" />
+          <img src="images/icons/phone.svg" class="travelIcon" alt="phone icon" />
           <address>
             123.012.9876
           </address>
@@ -101,7 +101,7 @@
       advised since August is a popular tourist season for the area.
     </p>
     <aside class="alert customAlert-warm">
-      <img src="images/icons/alert-triangle.svg" class="icon" />
+      <img src="images/icons/alert-triangle.svg" class="icon" alt="alert icon" />
       All prices are subject to change and do not include tax; prices should
       be confirmed by calling the hotels directly. Room blocks may be
       released as early as two months prior to the conference. You must
@@ -116,13 +116,13 @@
           Extra Posh Hotel
         </h4>
         <div class="d-flex">
-          <img src="images/icons/location.svg" class="travelIcon" />
+          <img src="images/icons/location.svg" class="travelIcon" alt="location pin icon" />
           <address>
             The fancy downtown area
           </address>
         </div>
         <div class="d-flex">
-          <img src="images/icons/phone.svg" class="travelIcon" />
+          <img src="images/icons/phone.svg" class="travelIcon" alt="phone icon" />
           <address>
             458.927.0634<br>
             Fax: 444.127.1212
@@ -146,13 +146,13 @@
           Acceptable Inn
         </h4>
         <div class="d-flex">
-          <img src="images/icons/location.svg" class="travelIcon" />
+          <img src="images/icons/location.svg" class="travelIcon" alt="location pin icon" />
           <address>
             In town
           </address>
         </div>
         <div class="d-flex">
-          <img src="images/icons/phone.svg" class="travelIcon" />
+          <img src="images/icons/phone.svg" class="travelIcon" alt="phone icon" />
           <address>
             413.872.9561
           </address>
