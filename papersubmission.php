@@ -133,8 +133,8 @@
     <p>
       Articles will not be reviewed by reviewers who have a conflict
       of interest with at least one author of the submission. Submissions
-      must adhere to the <a href="https://www.iacr.org/docs/conflicts.pdf">
-        IACR Policy on Conflicts of Interest</a>.
+      must adhere to the <a href="https://www.iacr.org/docs/conflicts.pdf" target="_blank">
+      IACR Policy on Conflicts of Interest</a>.
     </p>
     <p>
       The Program Committee may select a paper for the best paper award.
@@ -147,7 +147,7 @@
       Authors, program committee members, and reviewers must
       follow the IACR Policy on Conflicts of Interest, available from
       <a href="https://www.iacr.org/docs/conflicts.pdf" target="_blank">
-        https://www.iacr.org/docs/</a>.
+      https://www.iacr.org/docs/conflicts.pdf</a>.
     </p>
     <p>
       In particular, the authors of each submission are asked during the
