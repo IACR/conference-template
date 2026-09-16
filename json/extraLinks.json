@@ -1,29 +1,29 @@
 {
-	"_comment": "This will be put into use closer to the start of the conference. It is comprised of information collected via a survey that Kay or Kevin sets up for authors.",
+	"_comment": "This is used within about two weeks of the conference start date. It is comprised of information collected via a survey that Kay or Kevin sets up for authors.",
 	"attendance": {
-		"talk0": "inperson",
-		"talk1": "online"
+    "_comment": "Occasionally conferences will want to display if the speaker is an online speaker; otherwise it's just internal info and is not displayed on the program.",
+		"0": "inperson",
+		"1": "online"
 	},
 	"speakers": {
-		"talk0": "Mary Mumbles",
-		"talk1": "Josh Jumbles"
+		"0": "Mary Mumbles",
+		"1": "Josh Jumbles"
 	},
 	"slides": {
-		"talk0": "URL",
-		"talk1": "URL"
+		"0": "URL",
+		"1": "URL"
 	},
 	"eprint": {
-		"_comment": "This is really only used if publisher is running behind. It is NOT used for paper URLs from Springer/ToSC/TCHES.",
-		"talk0": "URL",
-		"talk1": "URL"
+		"_comment": "This is really only used if publisher is running behind. It is NOT used for paper URLs from Springer/ToSC/TCHES; those go in the program.json as paperUrl and are typically the DOI link.",
+		"0": "URL",
+		"1": "URL"
 	},
 	"youtube": {
-    "session-0": "URL",
-    "session-1": "URL"
-  },
+		"session-42k": "URL",
+		"session-85k": "URL"
+	},
 	"zoom": {
-    "session-0": "URL",
-    "session-1": "URL"
-  },
-	"misc": {}
+		"session-42k": "URL",
+		"session-85k": "URL"
+	}
 }

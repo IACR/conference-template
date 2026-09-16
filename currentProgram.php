@@ -29,11 +29,13 @@ function proxyUrl($tablename, $url) {
   $iv = openssl_random_pseudo_bytes($ivlen);
   $dest = openssl_encrypt($url, $cipher, $key, 0, $iv);
   $auth = get_hmac($tablename . $url);
-  $args = http_build_query(array('dest' => base64_encode($dest),
-                                 'iv' => base64_encode($iv),
-                                 'ivlen' => $ivlen,
-                                 'conf' => $tablename,
-                                 'auth' => $auth));
+  $args = http_build_query(array(
+    'dest' => base64_encode($dest),
+    'iv' => base64_encode($iv),
+    'ivlen' => $ivlen,
+    'conf' => $tablename,
+    'auth' => $auth
+  ));
   return 'https://iacr.org/virtualconferences/?' . $args;
 }
 
@@ -43,7 +45,8 @@ $extraLinks = json_decode(file_get_contents('json/extraLinks.json'), TRUE);
 $youtube = $extraLinks['youtube'];
 $slides = $extraLinks['slides'];
 $zoom = $extraLinks['zoom'];
-$misc = $extraLinks['misc'];
+// $attendance = $extraLinks['attendance'];
+$eprint = $extraLinks['eprint'];
 
 if (array_key_exists('speakers', $extraLinks)) {
   // An array from paperId to a string with names of speakers.
@@ -53,29 +56,20 @@ if (array_key_exists('speakers', $extraLinks)) {
 }
 
 header('Content-Type: application/json');
-foreach($editorData['days'] as $dayindex => &$day) {
+foreach ($editorData['days'] as $dayindex => &$day) {
   foreach ($day['timeslots'] as $timeslotindex => &$timeslot) {
-    foreach($timeslot['sessions'] as $sessionindex => &$session) {
-      if (isset($misc[$session['id']])) {
-        $obj = $misc[$session['id']];
-        $session['miscUrl'] = array('url' => proxyUrl($confname, $obj['url']), 'title' => $obj['title']);
-      }
+    foreach ($timeslot['sessions'] as $sessionindex => &$session) {
       if (isset($zoom[$session['id']])) {
         $session['zoomUrl'] = proxyUrl($confname, $zoom[$session['id']]);
       }
       if (isset($extraLinks['youtube'][$session['id']])) {
         $session['youtubeUrl'] = $extraLinks['youtube'][$session['id']];
       }
-      if (isset($extraLinks['chat'][$session['id']])) {
-        $session['chatUrl'] = proxyUrl($confname, $extraLinks['chat'][$session['id']]);
-      }
 
       if (!empty($session['talks'])) {
-        foreach($session['talks'] as $talkindex => &$talk) {
+        foreach ($session['talks'] as $talkindex => &$talk) {
           if (isset($talk['paperId'])) {
             $talkid = $talk['paperId'];
-          } else {
-            $talkid = $talk['id'];
           }
           if (isset($speakers[$talkid])) {
             $talk['speakers'] = $speakers[$talkid];
@@ -83,8 +77,12 @@ foreach($editorData['days'] as $dayindex => &$day) {
           if (isset($youtube[$talkid])) {
             $talk['videoUrl'] = $youtube[$talkid];
           }
-          if (isset($talk['pubkey']) && isset($slides[$talk['pubkey']])) {
-            $talk['slidesUrl'] = $slides[$talk['pubkey']];
+          // NOTE: occasionally you may need to swap $talkid for $talk['pubkey'] where applicable; the necessity of this change depends on the structure of program.json and/or extraLinks.json. the reverse may also be true. if something's not displaying correctly on the program page, try this.
+          if (isset($talk['paperId']) && isset($slides[$talk['paperId']])) {
+            $talk['slidesUrl'] = $slides[$talk['paperId']];
+          }
+          if (isset($eprint[$talkid])) {
+            $talk['eprint'] = 'https://eprint.iacr.org/' . $eprint[$talkid];
           }
         }
       }

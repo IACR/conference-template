@@ -64,6 +64,7 @@
         </h4>
       </div>
     </div>
+
     <div id="scrollButtons">
       <img alt="Scroll to current session" title="current session" id="scrollSessionButton" onclick="scrollToSession();" src="images/icons/clock.svg">
       <img alt="Scroll to top" onclick="window.scrollTo({top: 0,left: 0, behavior: 'smooth'})" src="images/icons/arrow-up-circle.svg">
@@ -73,159 +74,172 @@
       program.json file -->
     <script id="program-template" type="text/x-handlebars-template">
       <div role="navigation">
-          <ul id="dailyNav" class="nav nav-pills nav-fill mr-md-3 days-nav mb-4">
-            {{#each days}}
+        <ul id="dailyNav" class="nav nav-pills nav-fill mr-md-3 days-nav mb-4">
+          {{#each days}}
             <li role="presentation" class="nav-item mb-2 mb-lg-0">
               <a href="#day-{{date}}" class="nav-link">
                 {{{formatDate date}}}
               </a>
             </li>
-            {{/each}}
-          </ul>
-        </div>
-        {{#each days}}
-        <div class="row" id="day-{{date}}">
-          <div class="col-12">
-            {{#if @first}}
-            {{else}}
-            <hr />
-            {{/if}}
-            <h3 class="pageSubtitle">
-              {{{fullDate date}}} ({{@root/config/timezone/shortName}})
-            </h3>
-          </div>
-        </div>
-        {{#each timeslots}}
-        <div class="row" id="{{id}}">
-          <!-- tabbedSessions is set in program.js if it's narrow or has >2 parallel tracks -->
-          {{#if tabbedSessions}}
-          <div class="col-12 col-md-3 pe-0">
-            <p class="timeSlot text-center" title="{{@root/config/timezone/shortName}}: {{../date}} {{starttime}}-{{endtime}}">
-              <div class="text-center localTime">
-                {{@root/config/timezone/shortName}}: {{starttime}}-{{endtime}}
-              </div>
-              <div class="text-center userTime">{{localstarttime}} <br class="d-none d-md-inline">to<br class="d-none d-md-inline"> {{localendtime}}</div>
-            </p>
-            <div class="trackMenu nav flex-md-column nav-pills align-items-end" id="ts-{{@../index}}-{{@index}}-tab" role="tablist" aria-orientation="vertical">
-            {{#each sessions}}
-            <a title="{{session_title}}" class="nav-link {{#if @first}} active{{/if}}" id="session-{{@../../index}}-{{@../index}}-{{@index}}-tab" data-bs-toggle="pill" href="#session-{{@../../index}}-{{@../index}}-{{@index}}" role="tab" href="#session-{{@../../index}}-{{@../index}}-{{@index}}" aria-controls="session-{{@../../index}}-{{@../index}}-{{@index}}" aria-selected="{{#if @first}}true{{else}}false{{/if}}">Track {{#addOne @index}}{{/addOne}}</a>
-            {{/each}}
-            </div>
-          </div>
-          {{else}} <!-- not tabbed_sessions -->
-          <div class="col-12 col-md-3">
-            <p class="timeSlot text-center" title="{{@root/config/timezone/shortName}}: {{../date}} {{starttime}}-{{endtime}}">
-              <div class="text-center localTime">
-                {{@root/config/timezone/shortName}}: {{starttime}}-{{endtime}}
-              </div>
-              <div class="text-center userTime">{{localstarttime}} <br class="d-none d-md-inline">to<br class="d-none d-md-inline"> {{localendtime}}</div>
-            </p>
-          </div>
-          {{/if}}
-          <div class="ps-md-0 col-12 col-md-9">
-            <div class="{{#if tabbedSessions}}sessionList tab-content pb-3 tabbedSessions{{else}}sessionList d-flex inlineSessions pb-3{{/if}}"
-                 {{#if tabbedSessions}}id="ts-{{@../index}}-{{@index}}-tabContent"{{/if}}>
-            {{#each sessions}}
-              <div {{#if ../tabbedSessions}}class="session tab-pane fade {{#if @first}} show active{{/if}}" id="session-{{@../../index}}-{{@../index}}-{{@index}}" role="tabpanel" aria-labelledby="session-{{@../../index}}-{{@../index}}-{{@index}}-tab"{{else}}class="session"{{/if}}>
-                <h5 class="text-center">
-                  {{session_title}}
-                  {{#if session_url}}
-                  &nbsp; <a href="{{session_url}}"><img class="sessionInfoIcon" src="images/icons/info.svg" title="Session Info"></a>
+          {{/each}}
+        </ul>
+      </div>
+
+            {{#each days}}
+              <div class="row" id="day-{{date}}">
+                <div class="col-12">
+                  {{#if @first}}
+                  {{else}}
+                    <hr />
                   {{/if}}
-                </h5>
-                {{#if location.name}}
-                <small class="trackDescr fst-italic">
-                   {{{location.name}}}
-                </small>
-                {{/if}}
-                {{#if moderator}}
-                <p class="trackDescr">
-                  {{moderator}}
-                </p>
-                {{/if}}
-                {{#if youtubeUrl}}
-                   <a class="btn customBtn-cool m-3" target="_blank" href="{{youtubeUrl}}">YouTube</a>
-                {{/if}}
-                {{#if zoomUrl}}
-                   <a class="btn customBtn-cool m-3" target="_blank" href="{{zoomUrl}}">Zoom room</a>
-                {{/if}}
-                {{#if chatUrl}}
-                   <a class="btn customBtn-cool m-3" target="_blank" href="{{chatUrl}}">Chat</a>
-                {{/if}}
-                {{#each talks}}
-                <p class="talkTitle">
-                  {{title}}{{#if starttime}}&nbsp;({{starttime}}-{{endtime}}){{/if}}
-                {{#if zoom}}
-                     <a class="btn customBtn-cool m-3" target="_blank" href="{{zoom}}">Zoom room</a>
-                {{/if}}
-                </p>
-                {{# if talkNote}}
-                <small class="fw-light">{{talkNote}}</small>
-                {{/if}}
-                <div class="authorList">
-                  {{#each authors}}
-                  <span class="authorName">{{this}}</span>
-                  {{/each}}
+                  <h3 class="pageSubtitle">
+                    {{{fullDate date}}} ({{@root/config/timezone/shortName}})
+                  </h3>
                 </div>
-                <!-- NOTE: to show affiliations in the program, uncomment the block below. be aware that this has a tendency 
-                 to _really_ lengthen the page, which can be annoying on smaller screens. -->
-                <!-- {{#if affiliations}}
-                <small class="trackDescr">
-                    <span class="fst-italic affiliation">{{{affiliations}}}</span>
-                </small><br>
-                {{/if}} -->
-                {{#if speakers}}
-                   <p class="trackDescr">Speaker(s): {{speakers}}{{#if attendance}} ({{attendance}}){{/if}}</p>
-                {{/if}}
-                {{#if paperId}}
-                  <small>
-                    (paper #{{paperId}})
-                  </small>
-                {{/if}}
-                {{#if abstract}}
-                <div class="talkAbstract">
-                  <a class="toggle-closed" data-bs-toggle="collapse" data-type="abstract" href="#abstract-{{id}}" role="button" aria-expanded="false" aria-controls="abstract-{{id}}">Show abstract</a>
-                </div>
-                <div id="abstract-{{id}}" class="collapse mb-2 text-start paper-abstract">
-                  {{~abstract~}}
-                </div>
-                {{/if}}
-                {{#if hasMedia}}<span class="talkMedia"></span>{{/if}}
-                {{#if paperUrl}}
-                <span class="talkMedia">
-                  <a href="{{paperUrl}}" target="_blank"><img class="talkMediaIcon" src="images/icons/file.svg" title="Paper"></a>
-                </span>
-                {{/if}}
-                {{#if eprint}}
-                <span class="talkMedia">
-                  &nbsp;<a href="{{eprint}}" target="_blank"><img class="talkMediaIcon" src="images/icons/lock-open-outline.svg" title="eprint"></a>
-                </span>
-                {{else}}
-                  {{#if search}}
-                  <span class="talkMedia">
-                    &nbsp;<a href="{{search}}" target="_blank"><img class="talkMediaIcon" src="images/icons/search-outline.svg" title="Search for paper"></a>
-                  </span>
-                  {{/if}}
-                {{/if}}
-                {{#if videoUrl}}
-                <span class="talkMedia">
-                  &nbsp; <a href="{{videoUrl}}" target="_blank"><img class="talkMediaIcon" src="images/icons/video.svg" title="YouTube video"></a>
-                </span>
-                {{/if}}
-                {{#if slidesUrl}}
-                <span class="talkMedia">
-                  &nbsp; <a href="{{slidesUrl}}" target="_blank"><img class="talkMediaIcon" src="images/icons/presentation.svg" title="Slides"></a>
-                </span>
-                {{/if}}
-                {{/each}}
               </div>
-              {{/each}} <!-- sessions -->
-            </div>
-          </div> <!-- col-8 -->
-        </div> <!-- end of timeslot row -->
+
+              {{#each timeslots}}
+                <div class="row" id="{{id}}">
+                  <!-- tabbedSessions is set in program.js if it's narrow or has >2 parallel tracks -->
+                  {{#if tabbedSessions}} <!-- multi-track -->
+                    <div class="col-12 col-md-3 pe-0">
+                      <p class="timeSlot text-center" title="{{@root/config/timezone/shortName}}: {{../date}} {{starttime}}-{{endtime}}">
+                        <div class="text-center localTime">
+                          {{@root/config/timezone/shortName}}: {{starttime}}-{{endtime}}
+                        </div>
+                        <div class="text-center userTime">
+                          {{localstarttime}} <br class="d-none d-md-inline">to<br class="d-none d-md-inline"> {{localendtime}}
+                        </div>
+                      </p>
+                
+                      <div class="trackMenu nav flex-md-column nav-pills align-items-end" id="ts-{{@../index}}-{{@index}}-tab" role="tablist" aria-orientation="vertical">
+                        {{#each sessions}}
+                          <a title="{{session_title}}" class="nav-link {{#if @first}} active{{/if}}" id="session-{{@../../index}}-{{@../index}}-{{@index}}-tab" data-bs-toggle="pill" href="#session-{{@../../index}}-{{@../index}}-{{@index}}" role="tab" href="#session-{{@../../index}}-{{@../index}}-{{@index}}" aria-controls="session-{{@../../index}}-{{@../index}}-{{@index}}" aria-selected="{{#if @first}}true{{else}}false{{/if}}">
+                            Track {{#addOne @index}}{{/addOne}}
+                          </a>
+                        {{/each}}
+                      </div>
+                    </div>
+
+                  {{else}} <!-- single track sessions -->
+                    <div class="col-12 col-md-3">
+                      <p class="timeSlot text-center" title="{{@root/config/timezone/shortName}}: {{../date}} {{starttime}}-{{endtime}}">
+                        <div class="text-center localTime">
+                          {{@root/config/timezone/shortName}}: {{starttime}}-{{endtime}}
+                        </div>
+                        <div class="text-center userTime">
+                          {{localstarttime}} <br class="d-none d-md-inline">to<br class="d-none d-md-inline"> {{localendtime}}
+                        </div>
+                      </p>
+                    </div>
+                  {{/if}}
+
+                  <div class="ps-md-0 col-12 col-md-9">
+                    <div class="{{#if tabbedSessions}}sessionList tab-content pb-3 tabbedSessions{{else}}sessionList d-flex inlineSessions pb-3{{/if}}" {{#if tabbedSessions}}id="ts-{{@../index}}-{{@index}}-tabContent"{{/if}}>
+                
+                {{#each sessions}}
+                  <div {{#if ../tabbedSessions}}class="session tab-pane fade {{#if @first}} show active{{/if}}" id="session-{{@../../index}}-{{@../index}}-{{@index}}" role="tabpanel" aria-labelledby="session-{{@../../index}}-{{@../index}}-{{@index}}-tab"{{else}}class="session"{{/if}}>
+                    <h5 class="text-center">
+                      {{session_title}}
+                      {{#if session_url}}
+                        &nbsp; <a href="{{session_url}}"><img class="sessionInfoIcon" src="images/icons/info.svg" title="Session info"></a>
+                      {{/if}}
+                    </h5>
+                    {{#if location.name}}
+                      <small class="trackDescr fst-italic">
+                        {{{location.name}}}
+                      </small>
+                    {{/if}}
+                    {{#if moderator}}
+                      <p class="trackDescr">
+                        {{moderator}}
+                      </p>
+                    {{/if}}
+                    {{#if youtubeUrl}}
+                      <a class="btn customBtn-cool m-3" target="_blank" href="{{youtubeUrl}}">YouTube</a>
+                    {{/if}}
+                    {{#if zoomUrl}}
+                      <a class="btn customBtn-cool m-3" target="_blank" href="{{zoomUrl}}">Zoom room</a>
+                    {{/if}}
+
+                    {{#each talks}}
+                      <p class="talkTitle">
+                        {{title}}{{#if starttime}}&nbsp;({{starttime}}-{{endtime}}){{/if}}
+                        {{#if zoom}}
+                          <a class="btn customBtn-cool m-3" target="_blank" href="{{zoom}}">Zoom room</a>
+                        {{/if}}
+                      </p>
+                      {{#if talkNote}}
+                        <small class="fw-light">{{talkNote}}</small>
+                      {{/if}}
+                      <div class="authorList">
+                        {{#each authors}}
+                          <span class="authorName">{{this}}</span>
+                        {{/each}}
+                      </div>
+                      <!-- NOTE: to show affiliations in the program, uncomment the block below. be aware that this has a tendency 
+                      to _really_ lengthen the page, which can be annoying on smaller screens. -->
+                      <!-- {{#if affiliations}}
+                        <small class="trackDescr">
+                          <span class="fst-italic affiliation">{{{affiliations}}}</span>
+                        </small><br>
+                      {{/if}} -->
+                      {{#if speakers}}
+                        <p class="trackDescr">Speaker(s): {{speakers}}</p>
+                      {{/if}}
+                      {{#if paperId}}
+                        <small class="fw-light">(paper #{{paperId}})</small>
+                      {{/if}}
+                      {{#if abstract}}
+                        <div class="talkAbstract">
+                          <a class="toggle-closed" data-bs-toggle="collapse" data-type="abstract" href="#abstract-{{id}}" role="button" aria-expanded="false" aria-controls="abstract-{{id}}">
+                            Show abstract
+                          </a>
+                        </div>
+                        <div id="abstract-{{id}}" class="collapse mb-2 text-start paper-abstract">
+                          {{~abstract~}}
+                        </div>
+                      {{/if}}
+                      {{#if hasMedia}}
+                        <span class="talkMedia"></span>
+                      {{/if}}
+                      {{#if paperUrl}}
+                        <span class="talkMedia">
+                          <a href="{{paperUrl}}" target="_blank"><img class="talkMediaIcon" src="images/icons/file.svg" title="Paper"></a>
+                        </span>
+                      {{/if}}
+                      {{#if eprint}}
+                        <span class="talkMedia">
+                          &nbsp;<a href="{{eprint}}" target="_blank"><img class="talkMediaIcon" src="images/icons/unlock.svg" title="eprint"></a>
+                        </span>
+                      <!-- NOTE: the else is structural, don't ask me why -->
+                      {{else}}
+                        <!-- TODO: deprecated? -->
+                        <!-- {{#if search}}
+                        <span class="talkMedia">
+                          &nbsp;<a href="{{search}}" target="_blank"><img class="talkMediaIcon" src="images/icons/search-outline.svg" title="Search for paper"></a>
+                        </span>
+                        {{/if}} -->
+                      {{/if}}
+                      {{#if videoUrl}}
+                        <span class="talkMedia">
+                          &nbsp; <a href="{{videoUrl}}" target="_blank"><img class="talkMediaIcon" src="images/icons/video.svg" title="YouTube video"></a>
+                        </span>
+                      {{/if}}
+                      {{#if slidesUrl}}
+                        <span class="talkMedia">
+                          &nbsp; <a href="{{slidesUrl}}" target="_blank"><img class="talkMediaIcon" src="images/icons/presentation.svg" title="Slides"></a>
+                        </span>
+                      {{/if}}
+                    {{/each}} <!-- talks -->
+                  </div>
+                {{/each}} <!-- sessions -->
+              </div>
+            </div> <!-- col-12/col-md-9 -->
+          </div> <!-- end of timeslot row -->
         {{/each}} <!-- end of timeslots -->
-        {{/each}} <!-- end of days -->
-      </script>
+      {{/each}} <!-- end of days -->
+    </script>
   </main>
 
   <?php include "includes/footer.php"; ?>
@@ -249,8 +263,8 @@
       if (isset($_GET['badfirewall'])) {
         echo "       installProgram('currentProgram.php?allplease=yes&v=' + Date.now(), theTemplate, 'renderedProgram');";
       } else {
-        // echo "installProgram('currentProgram.php?v=' + Date.now(), theTemplate, 'renderedProgram');";
-        echo "installProgram('json/program.json?v=' + Date.now(), theTemplate, 'renderedProgram');";
+        echo "installProgram('currentProgram.php?v=' + Date.now(), theTemplate, 'renderedProgram');";
+        // echo "installProgram('json/program.json?v=' + Date.now(), theTemplate, 'renderedProgram');";
       } ?>
     });
   </script>
