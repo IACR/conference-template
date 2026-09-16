@@ -42,11 +42,10 @@
     #updatesBox {
       overflow: hidden;
       position: relative;
-      /* NOTE: kind of a hack to make it equal height with the dates box */
+      /* NOTE: manual hack to make it equal height with the dates box; this will need to be changed */
       max-height: 508.891px;
 
       .customCard {
-        /*   originally 100%, I'm using this size because it plays nice with codepen   */
         height: 100%;
         overflow: auto;
       }
@@ -69,9 +68,7 @@
     }
 
     @keyframes flash {
-
-      0%,
-      100% {
+      0%, 100% {
         opacity: 1;
       }
 
