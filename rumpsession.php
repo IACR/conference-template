@@ -258,11 +258,11 @@
                         {{/if}}
                         {{#if eprint}}
                           <span class="talkMedia">
-                            &nbsp;<a href="https://eprint.iacr.org/{{eprint}}" target="_blank"><img class="talkMediaIcon" src="images/icons/lock-open-outline.svg" title="eprint"></a>
+                            &nbsp;<a href="https://eprint.iacr.org/{{eprint}}" target="_blank"><img class="talkMediaIcon" src="images/icons/unlock.svg" title="eprint"></a>
                           </span>
                           {{#if eprint2}}
                             <span class="talkMedia">
-                              &nbsp;<a href="https://eprint.iacr.org/{{eprint2}}" target="_blank"><img class="talkMediaIcon" src="images/icons/lock-open-outline.svg" title="eprint for paper 2"></a>
+                              &nbsp;<a href="https://eprint.iacr.org/{{eprint2}}" target="_blank"><img class="talkMediaIcon" src="images/icons/unlock.svg" title="eprint for paper 2"></a>
                             </span>
                           {{/if}}
                         {{else}}
