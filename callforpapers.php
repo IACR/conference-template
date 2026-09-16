@@ -217,10 +217,10 @@
               <h4 class="subSubtitle">
                 $name
               </h4>
-              <h6>
+              <h5 class="affilTitle">
                 $affiliation<br>
                 <small>$country</small>
-              </h6>
+              </h5>
             </aside>
             EOR;
       }
@@ -253,10 +253,10 @@
               <h4 class="subSubtitle">
                 $name
               </h4>
-              <h6>
+              <h5 class="affilTitle">
                 $affiliation<br>
                 <small>$country</small>
-              </h6>
+              </h5>
             </aside>
             EOR;
       }

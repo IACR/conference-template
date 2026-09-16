@@ -47,6 +47,15 @@ a:hover {
   width: 100%;
 }
 
+.affilTitle {
+  font-weight: 500 !important;
+  font-size: 1.1rem;
+}
+
+.affilTitle small {
+  font-weight: 300 !important;
+}
+
 
 
 /***** Dark & light modes *****/
