@@ -132,10 +132,12 @@
           </h4>
         </a>
         <p class="text-start lead mb-2">
-          <!-- TODO: check members are current -->
-          Allison Bishop (chair)<br>
+          <!-- TODO: check members are current. last updated 16 Sep 2026 -->
           Anna Lysyanskaya<br>
-          Bart Preneel
+          Kelsey Melissaris<br>
+          Bart Preneel<br>
+          Adeline Roux-Langlois<br>
+          François-Xavier Standaert (chair)
         </p>
         <a href="mailto:ethics-committee@iacr.org">
           <img src="images/icons/mail.svg" class="icon" />
@@ -150,8 +152,8 @@
           </h4>
         </a>
         <p class="text-start lead mb-2">
-          <!-- TODO: check name is correct -->
-          Michel Abdalla
+          <!-- TODO: check name is correct. last updated 16 Sep 2026 -->
+          Allison Bishop
         </p>
         <a href="mailto:president@iacr.org">
           <img src="images/icons/mail.svg" class="icon" />
