@@ -194,13 +194,13 @@ The map on this page must be edited by hand, though the venue coordinates are dr
 ```
     var points = [{
         name: 'Conference venue',
-        longitude: <?php echo $META['longitude']; ?>,
-        latitude: <?php echo $META['latitude']; ?>
+        latitude: <?php echo $META['latitude']; ?>,
+        longitude: <?php echo $META['longitude']; ?>
       },
       {
         name: 'Airport',
-        longitude: 34.424,
-        latitude: -119.8365
+        latitude: 34.424,
+        longitude: -119.8365
       }
     ];
 ```
@@ -208,7 +208,7 @@ You can add additional points, such as nearby hotels, points of interest for tou
 
 By default, the map centers on the conference venue location. After adding additional points, you may find the map does not show them without zooming out. If this is the case, you can change the number at the end of the following line:
 ```
-var mymap = L.map('venuemap').setView([<?php echo $META['longitude'] . ',' . $META['latitude']; ?>], 13);
+var mymap = L.map('venuemap').setView([<?php echo $META['latitude'] . ',' . $META['longitude']; ?>], 13);
 ```
 
 <div style="text-align:right;">

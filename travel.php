@@ -181,7 +181,7 @@
   <script>
     // You can recover latitude & longitude from this page:
     // https://iacr.org/events/edit.php
-    var mymap = L.map('venuemap').setView([<?php echo $META['longitude'] . ',' . $META['latitude']; ?>], 13);
+    var mymap = L.map('venuemap').setView([<?php echo $META['latitude'] . ',' . $META['longitude']; ?>], 13);
     var tiles = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       maxZoom: 18,
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -191,19 +191,19 @@
 
     var points = [{
         name: 'Conference venue',
-        longitude: <?php echo $META['longitude']; ?>,
-        latitude: <?php echo $META['latitude']; ?>
+        latitude: <?php echo $META['latitude']; ?>,
+        longitude: <?php echo $META['longitude']; ?>
       },
       {
         name: 'Airport',
-        longitude: 34.424,
-        latitude: -119.8365
+        latitude: 34.424,
+        longitude: -119.8365
       }
     ];
 
     for (let i = 0; i < points.length; i++) {
       let point = points[i];
-      var marker = L.marker([point.longitude, point.latitude]).addTo(mymap);
+      var marker = L.marker([point.latitude, point.longitude]).addTo(mymap);
       marker.bindPopup("<p>" + point.name + "</p>");
     }
   </script>
