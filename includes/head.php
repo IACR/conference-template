@@ -6,6 +6,15 @@
 $META = json_decode(file_get_contents("json/metadata.json"), true);
 $META['url'] = 'https://' . $META['eventtype'] . '.iacr.org/' . $META['year'];
 
+// Machine-readable metadata (schema.org, Open Graph) needs ISO 8601 dates,
+// while metadata.json may hold dates formatted for display ("23 Sep 2045").
+// Falls back to the original string if it can't be parsed.
+function isoDate($date)
+{
+  $time = strtotime($date);
+  return $time === false ? $date : date('Y-m-d', $time);
+}
+
 // Set the root path in the nav menu.
 function rootPath()
 {
@@ -50,8 +59,8 @@ function rootPath()
     "@id": "<?php echo $META['url']; ?>",
     "@context": "http://schema.org/",
     "@type": "Event",
-    "startDate": "<?php echo $META['startdate']; ?>",
-    "endDate": "<?php echo $META['enddate']; ?>",
+    "startDate": "<?php echo isoDate($META['startdate']); ?>",
+    "endDate": "<?php echo isoDate($META['enddate']); ?>",
     "location": {
       "@context": "http://schema.org",
       "@type": "Place",
@@ -85,8 +94,8 @@ function rootPath()
 <!-- open graph for facebook. There is no type for event. -->
 <meta property="og:type" content="event" />
 <meta property="og:url" content="<?php echo $META['url']; ?>" />
-<meta property="event:start_time" content="<?php echo $META['startdate']; ?>" />
-<meta property="event:end_time" content="<?php echo $META['enddate']; ?>" />
+<meta property="event:start_time" content="<?php echo isoDate($META['startdate']); ?>" />
+<meta property="event:end_time" content="<?php echo isoDate($META['enddate']); ?>" />
 <meta property="og:description" content="<?php echo $META['name']; ?>" />
 <meta property="og:image" content="https://iacr.org/img/logo/iacrlogo_small_og.png" />
 <meta property="og:latitude" content="<?php echo $META['latitude']; ?>" />
